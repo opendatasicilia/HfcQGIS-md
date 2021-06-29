@@ -15,7 +15,7 @@ copyright: OpenDataSicilia | CC-BY-SA-4.0 License
 extra:
   social:
     - icon: fontawesome/solid/home
-      link: index.md
+      link: https://hfcqgis-md.readthedocs.io/
     - icon: fontawesome/brands/twitter
       link: http://opendatasicilia.it/
     - icon: fontawesome/brands/linkedin
