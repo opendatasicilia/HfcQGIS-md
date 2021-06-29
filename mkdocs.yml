@@ -11,22 +11,6 @@ edit_uri: edit/master/docs/ #disables edit button
 # Copyright
 copyright: CC-BY-SA-4.0 License
 
-## Social Media
-extra:
-  social:
-    - icon: fontawesome/solid/home
-      link: https://example.com
-    - icon: fontawesome/brands/twitter
-      link:https://example.com
-    - icon: fontawesome/brands/linkedin
-      link: https://example.com
-    - icon: fontawesome/brands/github-alt
-      link: https://example.com
-    - icon: fontawesome/brands/docker
-      link: https://example.com
-    - icon: fontawesome/solid/envelope
-      link: mailto:example@gmail.com
-
 ## Page tree
 nav:
     - Home: index.md
