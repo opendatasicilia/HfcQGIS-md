@@ -96,9 +96,8 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
-  - markdown.extensions.meta
-      - toc:
-        permalink: ↵
+  - toc:
+      permalink: ↵
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
