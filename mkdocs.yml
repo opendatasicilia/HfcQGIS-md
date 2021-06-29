@@ -63,10 +63,10 @@ nav:
         - Contribuire a HfcQGIS: contributing.md
     - Creditis:
         - OpenDataSicilia: ods.md    
-        - Informativa privacy estesa: privacy.md
         - Autore HfcQGIS: autore.md
         - Traduzione: traduzione.md
         - Disclaimer: disclaimer.md
+        - Informativa privacy estesa: privacy.md
 
 ## Configuration
 theme:
