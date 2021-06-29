@@ -1,5 +1,5 @@
 <!-- Custom HTML site displayed as the Home chapter -->
-<script src="//cdn.wordart.com/wordart.min.js" async defer></script>
+
 {% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
@@ -217,7 +217,7 @@
     }
 </style>
 
-<!-- Main site Entry button descriptions 
+<!-- Main site Entry button descriptions -->
 <section class="tx-container">
     <div class="md-grid md-typeset">
       <div class="tx-hero">
@@ -225,15 +225,18 @@
         <!--  <img src="assets/product-layers.png" draggable="false"> -->
         </div>
         <div class="tx-hero__content">
-        
-            <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;" data-wordart-src="//cdn.wordart.com/json/dc6ztvy6kv0j" data-wordart-show-attribution></div>
+            
           <h1> HfcQGIS: Help funzioni calcolatore di campi di QGIS </h1>
-          <p>Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - <a href="https://qgis.org/it/docs/index.html#" title="Documentazione di QGIS" target="_blank">della guida ufficiale di QGIS</a></p>
+          <p>Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - <a href="https://qgis.org/it/docs/index.html#" title="Documentazione di QGIS" target="_blank">della guida ufficiale di QGIS</a>
+          <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
+     <div style="width: 100%; height: 400px; background-color:transparent !important; margin: 0 auto; display: block;" data-wordart-src="//cdn.wordart.com/json/dc6ztvy6kv0j" data-wordart-show-attribution></div>     
+          
+          </p>
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
-            Get started
+            Inizia
           </a>
           <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
-            Go to GitHub
+            GitHub
           </a>
         </div>
       </div>

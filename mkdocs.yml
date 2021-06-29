@@ -51,17 +51,17 @@ nav:
        - bla bla: bla.md
        - bla bla: bla.md
     - Mettiti alla prova con le espressioni di QGIS:
-       - Provaci Tu: bla.md  
+       - Provaci Tu: mettiti_alla_prova.md  
     - Corso di Formazione:
-       - Corso di Formazione: bla.md
+       - Corso di Formazione: corso_formazione/corso_di_formazione.md
     - OpenDataSicilia:
-        - OpenDataSicilia: bla.md
+        - OpenDataSicilia: ods.md
     -  Lavora con Noi:
         - Contribuire a HfcQGIS: bla.md
-        - Supporter: bla.md
-        - Parlano di noi: bla.md
+        - Supporter: supporter.md
+        - Parlano di noi: parlano_di_noi.md
     - Informativa privacy estesa:
-        - Privacy Policy: bla.md
+        - Privacy Policy: privacy.md
 
 ## Configuration
 theme:
@@ -81,7 +81,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-    favicon: img/favicon.ico
+  favicon: img/favicon.ico
   icon:
     logo: logo_hfc
 plugins:
