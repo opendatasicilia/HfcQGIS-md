@@ -23,7 +23,7 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: http://opendatasicilia.it/
     - icon: fontawesome/brands/docker
-      link:http://opendatasicilia.it/
+      link: http://opendatasicilia.it/
     - icon: fontawesome/solid/envelope
       link: mailto:support@ods.com
 
