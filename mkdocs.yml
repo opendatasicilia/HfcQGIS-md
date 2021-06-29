@@ -53,13 +53,16 @@ theme:
     scheme: preference
   language: it
   features:
-    - navigation.top
+    - navigation.tabs
   palette:
-    primary: indigo
-    accent: purple
+    primary: green
+    accent: red
   font:
     text: Roboto
     code: Roboto Mono
+    favicon: img/favicon.ico
+  icon:
+    logo: HfcQGIS
 plugins:
 - search
 - mkdocstrings
