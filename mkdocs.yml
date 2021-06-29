@@ -31,7 +31,11 @@ extra:
 nav:
     - Home: index.md
     - Calcolatore di Campi:
-      - bla bla: bla.md
+      - Calcolatore di campi: field_calc.md
+      - Concetti fondamentali: concetti.md
+      - Interfaccia calcolatore di campi: interfaccia.md
+      - Operatori interfaccia: operatori.md
+      - Concetti fondamentali sulla tabella attributi: tabella_attributi.md
     - Novità:
        - Novità rilevanti introdotte in QGIS 3.20 21/06/2021: release/novita_320.md   
        - Novità rilevanti introdotte in QGIS 3.18 22/02/2021: release/novita_318.md
@@ -85,6 +89,7 @@ theme:
 plugins:
 - search
 - mkdocstrings
+- autolinks
 
 markdown_extensions:
 - mkdocs-click
