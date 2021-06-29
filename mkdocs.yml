@@ -30,7 +30,8 @@ extra:
 ## Page tree
 nav:
     - Home: index.md
-    - Calcolatore di Campi: field_calc.md
+    - Calcolatore di Campi:
+       - Calcolatore di Campi: field_calc.md
        - Concetti fondamentali: concetti.md
        - Interfaccia calcolatore di campi: interfaccia.md
        - Operatori interfaccia: operatori.md
