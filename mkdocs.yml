@@ -97,9 +97,8 @@ markdown_extensions:
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
-  - markdown.extensions.toc:
-      baselevel: 1
-      permalink: true
+      - toc:
+        permalink: ↵
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
