@@ -89,7 +89,6 @@ theme:
 ## Plugins
 plugins:
   - search
-  - autolinks
   - mkdocstrings:
       default_handler: python
       handlers:
