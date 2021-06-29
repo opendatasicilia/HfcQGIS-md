@@ -1,6 +1,6 @@
 # Interfaccia calcolatore di campi
 
-![interfaccia](/img/calcolatore_campi.png)
+![interfaccia](../img/calcolatore_campi.png)
 
 1. se attivato aggiorna solo le geometrie selezionate;
 2. se attivato crea un campo virtuale;
