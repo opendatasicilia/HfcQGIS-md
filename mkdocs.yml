@@ -77,6 +77,7 @@ theme:
   language: it
   features:
     - navigation.tabs
+    - navigation.instant
   palette:
     primary: green
     accent: red
