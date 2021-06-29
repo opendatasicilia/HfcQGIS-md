@@ -35,8 +35,10 @@ nav:
     - Novità:
         - Novità: release/release.md
         - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
+        - Novità rilevanti introdotte nella 3.2: release/novita_32.md
         - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: release/novita_34.md
         - Novità rilevanti introdotte in QGIS 3.6 22/02/2019: release/novita_36.md
+        - Novità rilevanti introdotte nella 3.8 21/06/2019: release/novita_38.md
         - Novità rilevanti introdotte in QGIS 3.10 25/10/2019: release/novita_310.md
         - Novità rilevanti introdotte in QGIS 3.12 21/02/2020: release/novita_312.md
         - Novità rilevanti introdotte in QGIS 3.14 19/06/2020: release/novita_314.md
@@ -50,6 +52,8 @@ nav:
        - bla bla: bla.md
     - Mettiti alla prova con le espressioni di QGIS:
        - Provaci Tu: mettiti_alla_prova.md  
+    - Corso di Formazione:
+       - Corso di Formazione: corso_formazione/corso_di_formazione.md
     - OpenDataSicilia:
         - OpenDataSicilia: ods.md
     -  Lavora con Noi:
