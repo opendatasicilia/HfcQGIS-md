@@ -92,12 +92,18 @@ plugins:
 - autolinks
 
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - toc:
-      permalink: ↵
+    # PyMdown extensions: https://python-markdown.github.io/extensions
+    - toc:
+        permalink: ↵
+    - admonition
+    - footnotes
+    - codehilite
+    - meta
+    - abbr
+    - sane_lists
+    - def_list
+    - attr_list
+    - tables
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
