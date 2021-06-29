@@ -31,12 +31,9 @@ extra:
 nav:
     - Home: index.md
     - Calcolatore di Campi:
-      - bla bla: bla bla.md
-      - bla bla: bla bla.md
-      - bla bla: bla bla.md
-      - bla bla: bla bla.md
+      - bla bla: calcolatore_campi/bla bla.md
     - Novità:
-        - Novità: relase.md
+        - Novità: release/release.md
         - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
         - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: release/novita_34.md
         - Novità rilevanti introdotte in QGIS 3.6 22/02/2019: release/novita_36.md
@@ -47,18 +44,19 @@ nav:
         - Novità rilevanti introdotte in QGIS 3.18 22/02/2021: release/novita_318.md
         - Novità rilevanti introdotte in QGIS 3.20 21/06/2021: release/novita_320.md           
     - Elenco funzioni:
-       - bla bla: bla bla.md
-       - bla bla: bla bla.md
-       - bla bla: bla bla.md
-       - bla bla: bla bla.md
+       - bla bla: bla.md
+       - bla bla: bla.md
+       - bla bla: bla.md
+       - bla bla: bla.md
+    - Mettiti alla prova con le espressioni di QGIS:
+       - Provaci Tu: mettiti_alla_prova.md  
     - OpenDataSicilia:
-        - bla bla: bla bla.md
+        - OpenDataSicilia: ods.md
     -  Lavora con Noi:
-        - bla bla: bla bla.md
-        - bla bla: bla bla.md
-        - bla bla: bla bla.md
-        - bla bla: bla bla.md
-        - bla bla: bla bla.md     
+        - Contribuire a HfcQGIS: bla.md
+        - Supporter: supporter.md
+        - Contribuire a HfcQGIS: contributing.md
+        - Parlano di noi: parlano_di_noi.md     
     - Informativa privacy estesa:
         - Privacy Policy: privacy.md
 
