@@ -49,7 +49,8 @@ nav:
        - bla bla: bla.md
        - bla bla: bla.md
        - bla bla: bla.md
-    - Esempi uso delle funzioni: lista_esempi.md
+    - Esempi uso delle funzioni: 
+       - Lista esempi:lista_esempi.md
        - Provaci tu: mettiti_alla_prova.md 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
