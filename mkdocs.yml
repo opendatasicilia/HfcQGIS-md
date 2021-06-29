@@ -11,6 +11,22 @@ edit_uri: edit/master/docs/ #disables edit button
 # Copyright
 copyright: CC-BY-SA-4.0 License
 
+## Social Media
+extra:
+  social:
+    - icon: fontawesome/solid/home
+      link: http://opendatasicilia.it/
+    - icon: fontawesome/brands/twitter
+      link: http://opendatasicilia.it/
+    - icon: fontawesome/brands/linkedin
+      link: http://opendatasicilia.it/
+    - icon: fontawesome/brands/github-alt
+      link: http://opendatasicilia.it/
+    - icon: fontawesome/brands/docker
+      link:http://opendatasicilia.it/
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@ods.com
+
 ## Page tree
 nav:
     - Calcolatore di Campi:
@@ -49,6 +65,10 @@ nav:
 ## Configuration
 theme:
   name: material
+  custom_dir: docs/theme_override_home/
+  # 404 page
+  static_templates:
+    - 404.html
   palette:
     scheme: preference
   language: it
@@ -62,7 +82,7 @@ theme:
     code: Roboto Mono
     favicon: img/favicon.ico
   icon:
-    logo: HfcQGIS
+    logo: logo_hfc
 plugins:
 - search
 - mkdocstrings
@@ -84,3 +104,13 @@ markdown_extensions:
 - pymdownx.details
 - pymdownx.tasklist:
       clickable_checkbox: true
+      
+## Custom theme additions
+extra_javascript:
+        - 'stylesheets/extra.js'
+extra_css:
+        - stylesheets/extra.css      
+      
+google_analytics:
+  - 'UA-122084242-1'
+  - 'auto'
