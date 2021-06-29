@@ -30,8 +30,7 @@ extra:
 ## Page tree
 nav:
     - Home: index.md
-    - Calcolatore di Campi:
-      - Calcolatore di campi: field_calc.md
+    - Calcolatore di Campi: field_calc.md
       - Concetti fondamentali: concetti.md
       - Interfaccia calcolatore di campi: interfaccia.md
       - Operatori interfaccia: operatori.md
@@ -58,9 +57,9 @@ nav:
        - Provaci tu: mettiti_alla_prova.md 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
-        - Contribuire a HfcQGIS: contributing.md
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
+        - Contribuire a HfcQGIS: contributing.md
     - Creditis:
         - OpenDataSicilia: ods.md    
         - Informativa privacy estesa: privacy.md
