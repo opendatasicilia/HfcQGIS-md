@@ -15,55 +15,42 @@ copyright: UP42 2020
 extra:
   social:
     - icon: fontawesome/solid/home
-      link: https://up42.com
+      link: https://#
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/up42_
+      link: https://#
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/up42/
+      link: https://#
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/up42
+      link: https://#
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/up42
+      link: https://#
     - icon: fontawesome/solid/envelope
-      link: mailto:support@up42.com
+      link: mailto:#
 
 ## Page tree
 nav:
     - Home: index.md
-    - Getting Started:
-      - 30 Second Example: 30-second-example.md
-      - Installation: installation.md
-      - Authentication: authentication.md
-      - Structure: structure.md
-      - Catalog Search: catalog.md
-      - Ordering: ordering.md
-      - Detailed Example: guides/detailed-example.ipynb
-    - Examples:
-        - Examples: examples.md
-        - Basic Data Block Examples:
-            - Airbus-Global Seeps Sample: examples/data-block-examples/airbus-globalseeps.ipynb
-            - ESA-Sentinel-5P Level3: examples/data-block-examples/esa-sentinel5p-l3-example.ipynb
-            - ExactEarth Historical Vessel Tracks: examples/data-block-examples/exactearth-hvt.ipynb
-            - Hexagon 30cm Download: examples/data-block-examples/hexagon-hxgn-content-30cm-download-example.ipynb
-            - Landsat-8 Level1 (GeoTIFF): examples/data-block-examples/landsat8-geotiff-example.ipynb
-            - Meteomatics Weather / Ocean Data and Forecasts: examples/data-block-examples/meteomatics-example.ipynb
-            - NEXTMap One - Elevation Data (Streaming) and Viewshed: examples/data-block-examples/nextmapone-viewshed-data-example.ipynb
-            - OneAtlas WorldDEM: examples/data-block-examples/oneatlas-worlddem-12m-example.ipynb
-            - Open Street Map: examples/data-block-examples/osm-example.ipynb
-            - Pleiades Reflectance (Download): examples/data-block-examples/pleiades-download-example.ipynb
-            - Sentinel-2 L2A Analytic (GeoTIFF): examples/data-block-examples/sentinel2-l2-a-geotiff-example.ipynb
-            - Sobloo Sentinel-1 L1 SLC (SAFE): examples/data-block-examples/sobloo-sentinel1-l1-example.ipynb
-        - Advanced Examples:
-          - Aircraft detection: examples/aircraft-detection.ipynb
-          - Radar processing: examples/radar_processing_1.ipynb
-          - Flood mapping: examples/flood_mapping.ipynb
-          - Catalog Quicklooks: examples/catalog-quicklooks.ipynb
-          - Ship identification: examples/ship-identification.ipynb
-    - Code Reference:
-        - up42: reference/up42-reference.md
-        - Project: reference/project-reference.md
-        - Workflow: reference/workflow-reference.md
-        - Job: reference/job-reference.md
+    - Calcolatore di Campi:
+      - bla bla: bla bla.md
+      - bla bla: bla bla.md
+      - bla bla: bla bla.md
+      - bla bla: bla bla.md
+    - Novità:
+        - Novità: relase.md
+        - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
+        - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: release/novita_34.md
+        - Novità rilevanti introdotte in QGIS 3.6 22/02/2019: release/novita_36.md
+        - Novità rilevanti introdotte in QGIS 3.10 25/10/2019: release/novita_310.md
+        - Novità rilevanti introdotte in QGIS 3.12 21/02/2020: release/novita_312.md
+        - Novità rilevanti introdotte in QGIS 3.14 19/06/2020: release/novita_314.md
+        - Novità rilevanti introdotte in QGIS 3.16 23/10/2020: release/novita_316.md
+        - Novità rilevanti introdotte in QGIS 3.18 22/02/2021: release/novita_318.md
+        - Novità rilevanti introdotte in QGIS 3.20 21/06/2021: release/novita_320.md           
+    - Elenco funzioni:
+       - bla bla: bla bla.md
+       - bla bla: bla bla.md
+       - bla bla: bla bla.md
+       - bla bla: bla bla.md
         - JobCollection: reference/jobcollection-reference.md
         - JobTask: reference/jobtask-reference.md
         - Catalog: reference/catalog-reference.md
@@ -71,13 +58,16 @@ nav:
         - Order: reference/order-reference.md
         - Asset: reference/asset-reference.md
         - CLI: reference/cli-reference.md
-    - CLI:
-        - Command Line Interface (CLI): cli.md
-        - Command Reference: reference/cli-reference.md
-    -  Changelog & FAQ:
-        - Changelog: CHANGELOG.md
-        - FAQ & Support: support-faq.md
-        - Privacy Policy: privacy-policy.md
+    - OpenDataSicilia:
+        - bla bla: bla bla.md
+    -  Lavora con Noi:
+        - bla bla: bla bla.md
+        - bla bla: bla bla.md
+        - bla bla: bla bla.md
+        - bla bla: bla bla.md
+        - bla bla: bla bla.md     
+    - Informativa privacy estesa:
+        - Privacy Policy: privacy.md
 
 ## Configuration
 theme:
@@ -179,5 +169,5 @@ markdown_extensions:
   - mkdocs-click
 
 google_analytics:
-  - 'UA-132885718-1'
+  - 'UA-xxxxxxxx-x'
   - 'auto'
