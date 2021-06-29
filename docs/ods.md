@@ -1,4 +1,3 @@
- 	
 # OpenDataSicilia
 
 <p align="center"> <a href="http://opendatasicilia.it/" target="_blank"><img src="https://hfcqgis-md.readthedocs.io/it/latest/img/opendatasicilia.png" width="150" class="immagonobox"   title="opendatasicilia.it"></a>
