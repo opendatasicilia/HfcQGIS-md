@@ -57,9 +57,8 @@ nav:
     - OpenDataSicilia:
         - OpenDataSicilia: ods.md
     -  Lavora con Noi:
-        - Contribuire a HfcQGIS: bla.md
-        - Supporter: supporter.md
         - Contribuire a HfcQGIS: contributing.md
+        - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md     
     - Informativa privacy estesa:
         - Privacy Policy: privacy.md
