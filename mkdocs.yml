@@ -34,17 +34,17 @@ nav:
       - bla bla: bla.md
     - Novità:
         - Novità: release/release.md
-        - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
-        - Novità rilevanti introdotte nella 3.2: release/novita_32.md
-        - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: release/novita_34.md
-        - Novità rilevanti introdotte in QGIS 3.6 22/02/2019: release/novita_36.md
-        - Novità rilevanti introdotte nella 3.8 21/06/2019: release/novita_38.md
-        - Novità rilevanti introdotte in QGIS 3.10 25/10/2019: release/novita_310.md
-        - Novità rilevanti introdotte in QGIS 3.12 21/02/2020: release/novita_312.md
-        - Novità rilevanti introdotte in QGIS 3.14 19/06/2020: release/novita_314.md
-        - Novità rilevanti introdotte in QGIS 3.16 23/10/2020: release/novita_316.md
-        - Novità rilevanti introdotte in QGIS 3.18 22/02/2021: release/novita_318.md
-        - Novità rilevanti introdotte in QGIS 3.20 21/06/2021: release/novita_320.md           
+        - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: bla.md
+        - Novità rilevanti introdotte nella 3.2: bla.md
+        - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: bla.md
+        - Novità rilevanti introdotte in QGIS 3.6 22/02/2019: bla.md
+        - Novità rilevanti introdotte nella 3.8 21/06/2019: bla.md
+        - Novità rilevanti introdotte in QGIS 3.10 25/10/2019: bla.md
+        - Novità rilevanti introdotte in QGIS 3.12 21/02/2020: bla.md
+        - Novità rilevanti introdotte in QGIS 3.14 19/06/2020: bla.md
+        - Novità rilevanti introdotte in QGIS 3.16 23/10/2020: bla.md
+        - Novità rilevanti introdotte in QGIS 3.18 22/02/2021: bla.md
+        - Novità rilevanti introdotte in QGIS 3.20 21/06/2021: bla.md          
     - Elenco funzioni:
        - bla bla: bla.md
        - bla bla: bla.md
