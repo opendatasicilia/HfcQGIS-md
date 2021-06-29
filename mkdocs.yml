@@ -9,7 +9,7 @@ repo_url: https://github.com/gbvitrano/HfcQGIS_md
 edit_uri: edit/master/docs/ #disables edit button
 
 # Copyright
-copyright: CC-BY-SA-4.0 License
+copyright: OpenDataSicilia | CC-BY-SA-4.0 License
 
 ## Social Media
 extra:
@@ -49,19 +49,16 @@ nav:
        - bla bla: bla.md
        - bla bla: bla.md
        - bla bla: bla.md
-    - Esempi uso delle funzioni:
-      - Esempi uso delle funzioni:README.md
-    - Mettiti alla prova con le espressioni di QGIS:
-       - Provaci Tu: mettiti_alla_prova.md  
-    - Corso di Formazione:
-       - Corso di Formazione: corso_formazione/corso_di_formazione.md
+    - Esempi uso delle funzioni: lista_esempi.md
+       - Mettiti alla prova con le espressioni di QGIS: mettiti_alla_prova.md 
+    - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
         - Contribuire a HfcQGIS: contributing.md
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
     - Creditis:
         - OpenDataSicilia: ods.md    
-    - Informativa privacy estesa: privacy.md
+        - Informativa privacy estesa: privacy.md
 
 ## Configuration
 theme:
