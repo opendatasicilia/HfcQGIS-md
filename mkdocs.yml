@@ -31,7 +31,7 @@ extra:
 nav:
     - Home: index.md
     - Calcolatore di Campi:
-      - bla bla: calcolatore_campi/bla bla.md
+      - bla bla: bla.md
     - Novità:
         - Novità: release/release.md
         - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
