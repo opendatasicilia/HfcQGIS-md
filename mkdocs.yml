@@ -29,6 +29,7 @@ extra:
 
 ## Page tree
 nav:
+    - Home: index.md
     - Calcolatore di Campi:
       - bla bla: bla.md
     - Novità:
