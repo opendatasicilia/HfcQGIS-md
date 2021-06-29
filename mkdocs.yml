@@ -92,6 +92,14 @@ plugins:
 - autolinks
 
 markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      baselevel: 1
+      permalink: true
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
