@@ -95,7 +95,7 @@ plugins:
 markdown_extensions:
     # PyMdown extensions: https://python-markdown.github.io/extensions
     - toc:
-        permalink: fontawesome/solid/link
+        permalink: ↵
     - admonition
     - footnotes
     - codehilite
