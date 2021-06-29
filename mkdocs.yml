@@ -33,7 +33,7 @@ nav:
     - Calcolatore di Campi:
       - bla bla: bla.md
     - Novità:
-        - Novità: release/release.md
+        - Novità: bla.md
         - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: bla.md
         - Novità rilevanti introdotte nella 3.2: bla.md
         - Novità rilevanti introdotte in QGIS 3.4 LTR 26/10/2018: bla.md
@@ -51,17 +51,17 @@ nav:
        - bla bla: bla.md
        - bla bla: bla.md
     - Mettiti alla prova con le espressioni di QGIS:
-       - Provaci Tu: mettiti_alla_prova.md  
+       - Provaci Tu: bla.md  
     - Corso di Formazione:
-       - Corso di Formazione: corso_formazione/corso_di_formazione.md
+       - Corso di Formazione: bla.md
     - OpenDataSicilia:
         - OpenDataSicilia: ods.md
     -  Lavora con Noi:
-        - Contribuire a HfcQGIS: contributing.md
-        - Supporter: supporter.md
-        - Parlano di noi: parlano_di_noi.md     
+        - Contribuire a HfcQGIS: bla.md
+        - Supporter: bla.md
+        - Parlano di noi: bla.md
     - Informativa privacy estesa:
-        - Privacy Policy: privacy.md
+        - Privacy Policy: bla.md
 
 ## Configuration
 theme:
