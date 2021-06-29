@@ -169,5 +169,5 @@ markdown_extensions:
   - mkdocs-click
 
 google_analytics:
-  - 'UA-xxxxxxxx-x'
+  - 'UA-122084242-1'
   - 'auto'
