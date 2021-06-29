@@ -60,10 +60,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  icon:  # from .icons path. Add to theme override for custom logo.
-    logo: HfcQGIS  # top left header logo
-  favicon: img/favicon_h.ico #browser tab logo
-
 plugins:
 - search
 - mkdocstrings
