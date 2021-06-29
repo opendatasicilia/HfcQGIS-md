@@ -1,11 +1,11 @@
 ## Project information
-site_name: UP42 Python SDK
-site_url: https://up42.github.io/up42-py/
-site_description: UP42 Python SDK
+site_name: HfcQGIS
+site_url: https://#
+site_description: Help funzioni calcolatore di campi di QGIS
 
 ## Repository
-repo_name: up42-py
-repo_url: https://github.com/up42/up42-py
+repo_name: HfcQGIS_md
+repo_url: https://#
 edit_uri: ''  #disables edit button
 
 # Copyright
@@ -80,7 +80,7 @@ theme:
   include_search_page: false
   search_index_only: true
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: it
   features:
     - navigation.tabs
   palette:
@@ -90,8 +90,8 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:  # from .icons path. Add to theme override for custom logo.
-    logo: up42-logo  # top left header logo
-  favicon: assets/logo-up42.ico #browser tab logo
+    logo: HfcQGIS  # top left header logo
+  favicon: img/favicon_h.ico #browser tab logo
 
 ## Plugins
 plugins:
