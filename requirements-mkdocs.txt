@@ -7,3 +7,12 @@ mkdocs
 mkdocs-material
 mkdocstrings
 mkdocs-click
+tenacity
+tqdm
+geojson
+rasterio
+geopandas
+folium
+branca
+matplotlib
+descartes
