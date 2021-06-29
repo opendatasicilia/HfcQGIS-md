@@ -15,15 +15,15 @@ copyright: CC-BY-SA-4.0 License
 extra:
   social:
     - icon: fontawesome/solid/home
-      link: https://example.com/
+      link: https://example.com
     - icon: fontawesome/brands/twitter
-      link:https://example.com/
+      link:https://example.com
     - icon: fontawesome/brands/linkedin
-      link: https://example.com/
+      link: https://example.com
     - icon: fontawesome/brands/github-alt
-      link: https://example.com/
+      link: https://example.com
     - icon: fontawesome/brands/docker
-      link: https://example.com/
+      link: https://example.com
     - icon: fontawesome/solid/envelope
       link: mailto:example@gmail.com
 
