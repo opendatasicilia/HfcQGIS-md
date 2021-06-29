@@ -2,7 +2,7 @@
 
 L'interfaccia del calcolatore rende immediatamente disponibili alcuni operatori:
 
-![operatori](/img/operatori_calc1.png)
+![operatori](./img/operatori_calc1.png)
 
  **1. uguale**:
 
