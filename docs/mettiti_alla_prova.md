@@ -1,7 +1,5 @@
 # Mettiti alla prova con le espressioni di QGIS
 
-## Provaci Tu
-
 Risolvi questi quesiti e scopri il tuo livello di conoscenza del Field Calc
 
  <img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mettiti_alla_prova/HfcQGIS.png" class="immagonobox" width="641" height="143" title="HfcQGIS" alt="HfcQGIS"/>
