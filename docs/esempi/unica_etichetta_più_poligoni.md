@@ -8,7 +8,7 @@ Per poter etichettare più feature, con una unica label, occorre che nella tabel
 
 Vediamo come realizzare tutto ciò:
 
-![unica](/img/esempi/unica_label/unica_label_02.png)
+![unica](../img/esempi/unica_label/unica_label_02.png)
 
 Come campo etichetta seleziono `"COD_REG"` e poi dalla scheda _Posizionamento_ sezione _Definito dai dati_.
 
