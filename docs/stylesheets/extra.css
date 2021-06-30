@@ -134,3 +134,10 @@ div.doc-contents:not(.first) {
         width: 100%;
         margin: 20px 0;
     }
+	
+/* Sfondo QGIS*/
+	.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; /* background: #efefef;*/ }
+	
+		
+		
