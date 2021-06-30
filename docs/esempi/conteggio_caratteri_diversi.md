@@ -38,7 +38,7 @@ string_to_array(
 substr(regexp_replace( "field",'(.)',',\\1'),2))))
 ```
 
-![screen](/img/esempi/conteggio_caratteri_diversi/img_01.png)
+![screen](../img/esempi/conteggio_caratteri_diversi/img_01.png)
 
 oppure possiamo evitare anche la funzione `substr`
 

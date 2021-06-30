@@ -23,7 +23,7 @@ espressione da scrivere nel calcolatore di campi
 || '\n'  || 
 'm= ' || m($geometry)
 ```
-![](/img/esempi/etichette/etichette1.png)
+![](../img/esempi/etichette/etichette1.png)
 
 * caso (MULTI)LINESTRING(ZM):
 
@@ -33,7 +33,7 @@ to_int($length)
 ||'/'|| 
 z(start_point($geometry))
 ```
-![](/img/esempi/etichette/etichette2.png)
+![](../img/esempi/etichette/etichette2.png)
 
 * caso (MULTI)POLYGON(ZM):
 
@@ -43,6 +43,6 @@ espressione da scrivere nel calcolatore di campi
  format_number( $area,1) || 
  ' mq'
  ```
- ![](/img/esempi/etichette/etichette3.png)
+ ![](../img/esempi/etichette/etichette3.png)
 
  Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)

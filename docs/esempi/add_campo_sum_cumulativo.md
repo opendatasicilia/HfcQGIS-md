@@ -83,7 +83,7 @@ Nello screenshot di sotto, i campi:
 - `cum_3` : è relativo al terzo esempio.
 
 
-![](/img/esempi/add_campo_sum_cum/sum_cum_01.png)
+![](../img/esempi/add_campo_sum_cum/sum_cum_01.png)
 
 ### Note finali
 

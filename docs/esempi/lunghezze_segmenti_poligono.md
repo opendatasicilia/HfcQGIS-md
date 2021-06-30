@@ -2,7 +2,7 @@
 
 Dato un layer poligonale, come ottenere una lista di valori delle lunghezze dei lati del poligono.
 
-![](/img/esempi/lunghezza_lati_poligono/img_01.png)
+![](../img/esempi/lunghezza_lati_poligono/img_01.png)
 
 Creare un campo testuale (nello screenshot è `test`) sufficientemente lungo e popolarlo con la seguente espressione:
 

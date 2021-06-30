@@ -6,7 +6,7 @@ L'aggiornamento delle geometria è possibile farla usando il calcolatore di camp
 
 Supponiamo di avere due linee sovrapposte parzialmente (`linea A` e `linea B`) e di volere aggingere alla `linea B` un nodo di disegno in corrispondenza del punto `A` che è il vertice finale della `linea A`:
 
-![](/img/esempi/add_punto_a_linea/img_01.png)
+![](../img/esempi/add_punto_a_linea/img_01.png)
 
 
 l'espressione da usare è:
@@ -18,4 +18,4 @@ l'espressione da usare è:
  end_point($geometry))
  ```
 
- ![](/img/esempi/add_punto_a_linea/img_02.png)
+ ![](../img/esempi/add_punto_a_linea/img_02.png)

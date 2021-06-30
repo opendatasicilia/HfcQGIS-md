@@ -2,11 +2,11 @@
 
 Facciamo un esempio, geopackage con vettore puntuale:
 
-![](/img/esempi/add_coord_xy/add_coord1.png)
+![](../img/esempi/add_coord_xy/add_coord1.png)
 
 selezionare il layer (presente nel _Layer Panel_), tasto destro mouse 'Apri tabella attributi' oppure cliccare sull'icona ![icona_tab_attr](https://docs.qgis.org/2.18/it/_images/mActionOpenTable.png) oppure tasto funzione F6
 
-![](/img/esempi/add_coord_xy/add_coord2.png)
+![](../img/esempi/add_coord_xy/add_coord2.png)
 
 1. attivare editing;
 2. aprire calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
@@ -18,10 +18,10 @@ selezionare il layer (presente nel _Layer Panel_), tasto destro mouse 'Apri tabe
 
 ripere gli stessi passi per la **coord_y** e usare la funzione [\$y](../gr_funzioni/geometria/$y.html):
 
-![](/img/esempi/add_coord_xy/add_coord3.png)
+![](../img/esempi/add_coord_xy/add_coord3.png)
 
 ecco evidenziate le due colonne con le coordinate:
 
-![](/img/esempi/add_coord_xy/add_coord4.png)
+![](../img/esempi/add_coord_xy/add_coord4.png)
 
 il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)

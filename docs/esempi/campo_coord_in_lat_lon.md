@@ -27,10 +27,10 @@ vediamo come farlo usando il calcolatore di campi:
 3. aggiungere un nuovo campo `longitude`, tipo `Real` con lunghezza 10 e precisione 7;
 4. utilizzare la seguente espressione: `regexp_matches(  "GPS" , '(.+),(.+)')[1]`;
 
-![](/img/esempi/lonlat_regex/img_01.png)
+![](../img/esempi/lonlat_regex/img_01.png)
 
-![](/img/esempi/lonlat_regex/img_02.png)
+![](../img/esempi/lonlat_regex/img_02.png)
 
 Infine, per tracciare i punti, utilizzare l'algoritmo `Create points layer from table` ed utilizzare i due campi `longitude` e `latitude`.
 
-![](/img/esempi/lonlat_regex/img_03.png)
+![](../img/esempi/lonlat_regex/img_03.png)

@@ -15,7 +15,7 @@ caso in cui i due layer hanno stesso EPSG:
 aggregate(layer:='linee', aggregate:='sum',expression:=length(intersection(geometry(@parent),$geometry )), filter:=intersects( $geometry,geometry(@parent)))
 ```
 
-![](/img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_03.png)
+![](../img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_03.png)
 
 caso in cui i due layer hanno DIVERSO EPSG:
 
@@ -25,11 +25,11 @@ expression:=length(intersection(transform(geometry(@parent),'EPSG:4326','EPSG:32
 filter:=intersects( $geometry,transform(geometry(@parent),'EPSG:4326','EPSG:32633')))
 ```
 
-![](/img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_02.png)
+![](../img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_02.png)
 
 risultato:
 
-![](/img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_01.png)
+![](../img/esempi/somma_lunghezze_linee/somma_lunghezze_linee_01.png)
 
 NB: la piccola differenza tra le lunghezze è imputabile alla trasformazione di EPSG!!! La prima tabella è relativa al vettore poligonale la seconda, lunghezze delle linea, deriva dal geo-algoritmo in processing.
 

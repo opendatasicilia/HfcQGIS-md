@@ -41,7 +41,7 @@ cod_prov|den_prov|sigla
 
 Creao una relazione di progetto (1:m) tra i due file, utilizzando come campo comune il campo `sigla`
 
-![](/img/esempi/geoplot/img_01.png)
+![](../img/esempi/geoplot/img_01.png)
 
 Espressione per traciare la curva:
 
@@ -58,7 +58,7 @@ x(centroid($geometry)),y(centroid($geometry)))
 
 L'espressione crea un `array` di punti geometrici `make_point`, uno per ogni data (`$id`), successivamente trasformati in linea `make_line` e traslati `translate` sui centroidi di ogni provincia. In questa espressione `make_point( $id*50, "totale_casi"/"pop_res"*2*10^7 )`, oltre a normalizzare i dati dividendo per la popolazione residente, uso dei fattori moltiplicativi per l'asse x e y.
 
-![](/img/esempi/geoplot/img_02.png)
+![](../img/esempi/geoplot/img_02.png)
 
 Per tracciare gli assi cartesiani, che seguono il grafico:
 
@@ -124,11 +124,11 @@ aggregate:='array_agg',
 expression:="totale_casi"/"pop_res")[-1])*1000,1)
 ```
 
-![](/img/esempi/geoplot/img_03.png)
+![](../img/esempi/geoplot/img_03.png)
 
 Gif animata realizzata con il plugin TimeManager di Anita Graser
 
-![](/img/esempi/geoplot/covid19_geoplot_sicilia.gif)
+![](../img/esempi/geoplot/covid19_geoplot_sicilia.gif)
 
 ### Prova tu
 

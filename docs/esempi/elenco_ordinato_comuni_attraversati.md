@@ -6,7 +6,7 @@ Esempio:
 
 A partire da un itinerario ciclabile, determinare i Comuni attraversati da questa linea, in ordine di intersezione, partendo da un origine seguendo il percorso per arrivare alla destinazione, avendo quindi una lista ordinata.
 
-![](/img/esempi/elenco_ordinato_comuni/img_01.png)
+![](../img/esempi/elenco_ordinato_comuni/img_01.png)
 
 avviare il calcolatore di campi (dopo aver selezionato il layer poligonale) e creare un nuovo campo `sort_D-A` numerico e popolarlo con la seguente espressione:
 
@@ -42,15 +42,15 @@ seleziono il layer `itinerario_cicloturistico_domosossola_aosta ambiti_amministr
 3. scrivo espressione di sopra;
 
 
-![](/img/esempi/elenco_ordinato_comuni/img_02.png)
+![](../img/esempi/elenco_ordinato_comuni/img_02.png)
 
 ecco la tabella attributi:
 
-![](/img/esempi/elenco_ordinato_comuni/img_03.png)
+![](../img/esempi/elenco_ordinato_comuni/img_03.png)
 
 Poligoni comunali
 
-![](/img/esempi/elenco_ordinato_comuni/img_04.png)
+![](../img/esempi/elenco_ordinato_comuni/img_04.png)
 
 Maggiori dettagli nel [blog](https://pigrecoinfinito.com/2020/05/20/elenco-ordinato-di-comuni-attraversati-da-un-itinerario-domodossola-aosta/) post su Pigrecoinfinito: 
 

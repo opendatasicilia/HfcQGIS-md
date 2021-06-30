@@ -6,7 +6,7 @@ Esempio:
 
 supponiamo di avere due layer: le _province_ e _regioni_ ISTAT, trasferire l'attributo '**COD_REG**' dal vettore _regione_ al vettore _province_.
 
-![tema](/img/esempi/spatial_join/spatial_join1.png)
+![tema](../img/esempi/spatial_join/spatial_join1.png)
 
 avviare il calcolatore di campi e creare un nuovo campo 'COD_REG' Integer (9) e popolarlo con la seguente espressione:
 
@@ -29,15 +29,15 @@ seleziono il layer _ProvCM01012018_g_, clicco sull'icona del calcolatore di camp
 4. scrivo espressione di sopra;
 
 
-![tema](/img/esempi/spatial_join/spatial_join2.png)
+![tema](../img/esempi/spatial_join/spatial_join2.png)
 
 ecco la tabella attributi:
 
-![tema](/img/esempi/spatial_join/spatial_join3.png)
+![tema](../img/esempi/spatial_join/spatial_join3.png)
 
 Tematizzo con i valori del nuovo campo:
 
-![tema](/img/esempi/spatial_join/spatial_join4.png)
+![tema](../img/esempi/spatial_join/spatial_join4.png)
 
 **OSSERVAZIONE**:
 

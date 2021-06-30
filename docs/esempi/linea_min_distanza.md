@@ -5,7 +5,7 @@ Dati due layer puntuali (ma potrebbero essere di qualsiasi tipologia), tracciare
 1. Carico due layer puntuali: `puntiA` e `puntiB`
 2. Tematizzo il layer `puntiA` usando il generatore di geometrie
 
-![](/img/esempi/linea_min_distanza/min_dist_01.png)
+![](../img/esempi/linea_min_distanza/min_dist_01.png)
 
 - espressione da usare
 
@@ -24,11 +24,11 @@ shortest_line($geometry, -- geometria puntoA
 
 ecco il risultato:
 
-![](/img/esempi/linea_min_distanza/min_dist_02.png)
+![](../img/esempi/linea_min_distanza/min_dist_02.png)
 
 poi, con un po' di magia è possibile aggiungere l'etichetta con il valore della lunghezza (ma questa è altra storia!!!)
 
-![](/img/esempi/linea_min_distanza/min_dist_03.png)
+![](../img/esempi/linea_min_distanza/min_dist_03.png)
 
 
 Provaci tu
