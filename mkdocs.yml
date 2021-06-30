@@ -1,12 +1,12 @@
 ## Project information
 site_name: HfcQGIS
-site_url: https://example.com/
+site_url: https://hfcqgis-md.readthedocs.io/
 site_description: Help funzioni calcolatore di campi di QGIS
 
 ## Repository
 repo_name: HfcQGIS_md
 repo_url: https://github.com/gbvitrano/HfcQGIS_md
-edit_uri: edit/master/docs/ #disables edit button
+edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
 copyright: OpenDataSicilia | CC-BY-SA-4.0 License
