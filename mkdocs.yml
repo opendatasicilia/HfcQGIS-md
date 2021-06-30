@@ -55,7 +55,22 @@ nav:
        - bla bla: bla.md
     - Esempi: 
        - Esempi uso delle funzioni: esempi/lista_esempi.md
-       - Aggiungere colonna area per calcolo superficie: esempi/add_col_area.md
+       - Campo area: esempi/add_col_area.md
+       - Campi coordinate: esempi/add_coord_xy.md
+       - Campo virtuale: esempi/add_campo_virtuale.md
+       - Ccampo quota z: esempi/add_col_z.md
+       - Etichettare: esempi/etichette.md
+       - Aggiornare geometria: esempi/agg_geom.md
+       - Conversione: esempi/conversione.md
+       - Tematizzare: esempi/tematizzare.md
+       - Legenda: esempi/espressione_regolare.md
+       - Selezione: esempi/select_with_aggregate.md
+       - Core area: esempi/core_area.md
+       - Sposta etichette: esempi/sposta_etichetta_linea.md
+       - Conteggio valori: esempi/conteggio.md
+       - Centroidi linee curve: esempi/centroid_linee.md
+       - Conta i punti nel poligono: esempi/conta_punti_in_poligono.md
+       - Somma lunghezze nel poligono: esempi/somma_lunghezze_nel_poligono.md
        - Provaci tu: mettiti_alla_prova.md 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
