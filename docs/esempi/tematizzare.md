@@ -2,11 +2,11 @@
 
 Ad uno shapefile puntuale attribuire al simbolo colori diversi in funzione di un campo e la dimensione in funzione di un altro campo.
 
-![tema](/img/esempi/tematizzare/tematizzare1.png)
+![tema](../img/esempi/tematizzare/tematizzare1.png)
 
 nella Dimensione (mouse sull'icona ![icon](/img/mIconDataDefine.png) comparirà)
 
-![tema](/img/esempi/tematizzare/tematizzare2.png)
+![tema](../img/esempi/tematizzare/tematizzare2.png)
 
 quindi l'ingresso atteso è un numero reale che genereremo con la seguende condizione:
 
@@ -20,7 +20,7 @@ END
 
 nella Colore di riempimento (mouse sull'icona ![icon](/img/mIconDataDefine.png) comparirà)
 
-![tema](/img/esempi/tematizzare/tematizzare3.png)
+![tema](../img/esempi/tematizzare/tematizzare3.png)
 
 quindi l'ingresso atteso è una stringa [r,g,b,a] con interi oppure come hex che genereremo con la seguende condizione:
 ```
