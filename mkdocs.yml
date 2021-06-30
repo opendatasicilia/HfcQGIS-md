@@ -53,9 +53,8 @@ nav:
        - bla bla: bla.md
        - bla bla: bla.md
        - bla bla: bla.md
-    - Esempi uso delle funzioni: 
-       - Lista esempi: esempi/lista_esempi.md
-            - Aggiungere colonna area per calcolo superficie: esempi/add_col_area.md
+    - Esempi uso delle funzioni: esempi/lista_esempi.md
+       - Aggiungere colonna area per calcolo superficie: esempi/add_col_area.md
        - Provaci tu: mettiti_alla_prova.md 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
