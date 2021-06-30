@@ -3,6 +3,27 @@
 {% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
+	<!-- facebook --> 
+<meta property="og:title" content="{{ title|striptags|e }}" />
+<meta property="og:description" content="Guida all’uso del calcolatore di campi di QGIS con esempi e molti screenshot." />
+<meta property="og:url" content="http://hfcqgis.opendatasicilia.it/it/latest/{{ theme_canonical_url }}{{ pagename }}.html" />
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Salvatore Fiandaca" />
+<meta property="article:tag" content="hfcqgis" />
+<meta property="article:tag" content="ods" />
+<meta property="article:tag" content="qgis" />
+<meta property="article:tag" content="opendatasicilia" />
+<meta property="og:image" content="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfc_social_new.png" />
+<meta property="og:site_name" content="hfcqgis.opendatasicilia.it" />
+<!-- twitter --> 
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ title|striptags|e }}">
+<meta name="twitter:description" content="Guida all’uso del calcolatore di campi di QGIS con esempi e molti screenshot.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfc_social_new.png">
+<meta name="twitter:creator" content="Salvatore Fiandaca">
+<meta name="twitter:site" content="hfcqgis.opendatasicilia.it" />
+<meta name="twitter:url" content="http://hfcqgis.opendatasicilia.it/it/latest/{{ theme_canonical_url }}{{ pagename }}.html">
+
 <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
    <link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/homestyles.css" rel="stylesheet" type="text/css"/>     
