@@ -3,293 +3,91 @@
 {% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<style>
-
-    .md-main {
-        flex-grow: 0
-    }
-
-    .md-main__inner {
-        display: flex;
-        height: 100%;
-    }
-
-    .tx-container {
-        padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(160deg,47%,55%,1) 99%,#fff 99%)
-    }
-
-    .tx-hero {
-        margin: 32px 2.8rem;
-        color: var(--md-primary-bg-color);
-        justify-content: center;
-    }
-
-    .tx-hero h1 {
-        margin-bottom: 1rem;
-        color: currentColor;
-        font-weight: 700
-    }
-
-    .tx-hero__content {
-        padding-bottom: 1rem;
-        margin: 0 auto;
-    }
-
-    .tx-hero__image{
-        width:17rem;
-        height:17rem;
-        order:1;
-        padding-right: 2.5rem;
-    }
-
-    .tx-hero .md-button {
-        margin-top: .5rem;
-        margin-right: .5rem;
-        color: var(--md-primary-bg-color)
-    }
-
-    .tx-hero .md-button--primary {
-        background-color: var(--md-primary-bg-color);
-        color: hsla(280deg, 37%, 48%, 1);
-        border-color: var(--md-primary-bg-color)
-    }
-
-    .tx-hero .md-button:focus,
-    .tx-hero .md-button:hover {
-        background-color: var(--md-accent-fg-color);
-        color: var(--md-default-bg-color);
-        border-color: var(--md-accent-fg-color)
-    }
-
-    .feature-item h2 svg {
-        height: 30px;
-        float: left;
-        margin-right: 10px;
-        transform: translateY(10%);
-    }
-
-    .top-hr {
-        margin-top: 42px;
-    }
-
-    .feature-item {
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        box-sizing: border-box;
-        padding: 0 15px;
-        word-break: break-word
-    }
-
-    .feature-item h2 {
-        color: #333;
-        font-weight: 300;
-        font-size: 25px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        line-height: normal;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-family: inherit;
-    }
-
-    .feature-item p {
-        font-size: 16px;
-        line-height: 1.8em;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        color: #111;
-        margin: 0 0 10px;
-        display: block;
-    }
-
-    @media screen and (max-width:30em) {
-        .tx-hero h1 {
-            font-size: 1.4rem
-        }
-    }
-
-    @media screen and (min-width:60em) {
-        .md-sidebar--secondary {
-            display: none
-        }
-
-        .tx-hero {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .tx-hero__content {
-            max-width: 22rem;
-            margin-top: 3.5rem;
-            margin-bottom: 3.5rem;
-            margin-left: 1.0rem;
-            margin-right: 4.0rem;
-            align-items: center;
-        }
-    }
-
-    @media screen and (min-width:76.25em) {
-        .md-sidebar--primary {
-            display: none
-        }
-
-        .top-hr {
-            width: 100%;
-            display: flex;
-            max-width: 61rem;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 0 .2rem;
-        }
-
-        .bottom-hr {
-            margin-top: 10px;
-            width: 100%;
-            display: flex;
-            max-width: 61rem;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 0 .2rem;
-        }
-
-        .feature-item {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .feature-item:hover {
-            background-color: #526cfe47;
-            border-radius: 3px;
-        }
-    }
-
-    .hr {
-        border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .text-center {
-        text-align: center;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 15px;
-        font-family: 'Lato', sans-serif;
-        font-size: 23px;
-        font-weight: 300;
-        padding-bottom: 10px;
-    }
-
-    .logos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: row wrap;
-        margin: 0 auto;
-    }
-
-    .logos img {
-        flex: 1 1 auto;
-        padding: 25px;
-        max-height: 130px;
-        vertical-align: middle;
-    }
-
-    .hr-logos {
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-
-    .md-footer-meta__inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 1.0rem;
-    }
-
-    .md-footer-social {
-        padding-top: 20px;
-    }
-</style>
-
-<!-- Main site Entry button descriptions -->
-<section class="tx-container">
-    <div class="md-grid md-typeset">
-      <div class="tx-hero">
-        <div class="tx-hero__image">
-        <img src="img/logo_hfc_00.png" draggable="false"> 
-        <!--  <img src="assets/product-layers.png" draggable="false"> -->
-         </div>
-        <div class="tx-hero__content">
-            
-          <h1> HfcQGIS: Help funzioni calcolatore di campi di QGIS </h1>
-          <p>Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - <a href="https://qgis.org/it/docs/index.html#" title="Documentazione di QGIS" target="_blank">della guida ufficiale di QGIS</a> 
-          </p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
-            Inizia
-          </a>
-          <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
-            GitHub
-          </a>
-           
-        </div>
-      </div>
-    </div>
-</section>
-
-<!-- Main site box descriptions -->
-<div class="top-hr">
-    <div class="feature-item">
-        <h2>Giuda</h2>
-        <p>Questa versione in formato <a href="https://docs.readthedocs.io/en/latest/index.html" target="_blank">Read The Docs</a> del <a href="https://github.com/pigreco/HfcQGIS/blob/master/README.md" target="_blank">lavoro</a> di Salvatore FIANDACA, è stata realizzata dalla comunità <a href="http://hfcqgis.opendatasicilia.it/it/latest/ods.html"><strong>OpenDataSicilia</strong></a>, in particolare da: <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>, <a href="https://twitter.com/totofiandaca" target="_blank">Totò Fiandaca</a> e <a href="https://twitter.com/gbvitrano" target="_blank">Giovan Battista Vitrano</a>.<br>
+<!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../stylesheets/homestyles.css" rel="stylesheet" type="text/css">
+      
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                <div class="masthead-heading text-uppercase"></div>
+                
+        <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Inizia </a>
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">HfcQGIS: Help funzioni calcolatore di campi di QGIS</h2>
+                    <h3 class="section-subheading text-muted">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Giuda</h4>
+                        <p class="text-muted">Questa versione in formato <a href="https://docs.readthedocs.io/en/latest/index.html" target="_blank">Read The Docs</a> del <a href="https://github.com/pigreco/HfcQGIS/blob/master/README.md" target="_blank">lavoro</a> di Salvatore FIANDACA, è stata realizzata dalla comunità <a href="http://hfcqgis.opendatasicilia.it/it/latest/ods.html"><strong>OpenDataSicilia</strong></a>, in particolare da: <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>, <a href="https://twitter.com/totofiandaca" target="_blank">Totò Fiandaca</a> e <a href="https://twitter.com/gbvitrano" target="_blank">Giovan Battista Vitrano</a>.<br>
         L'idea è stata di Giovan Battista, mentre la musa ispiratrice per la scelta di Read The Docs è <a href="https://twitter.com/cirospat" target="_blank">Ciro Spataro</a>.</p>
-    </div>
-        <div class="feature-item">
-   <h2>Traduzione</h2>
-       <p>La descrizione delle funzioni in italiano è stata realizzata dal gruppo di traduttori diretti da <a href="https://twitter.com/skampus1967?lang=it" target="_blank">Stefano Campus</a>.<br>
-        Marco Grisolia, Roberto Angeletti, Michele Beneventi, Marco Braida, Stefano Campus, Luca Casagrande, Paolo Cavallini, Giuliano Curti, Luca Delucchi, Alessandro Fanna, Michele Ferretti, Matteo Ghetta, Anne Gishla, Maurizio Napolitano, Flavio Rigolon </p>
-    </div>
-    <div class="feature-item">
-        <h2>Disclaimer</h2>
-        <p>Questa guida NON sostituisce il <a href="https://qgis.org/it/docs/index.html#" target="_blank">manuale</a> online di QGIS, cerca solo di rendere più facile la comprensione dello strumento.<br>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Traduzione</h4>
+                        <p class="text-muted">La descrizione delle funzioni in italiano è stata realizzata dal gruppo di traduttori diretti da <a href="https://twitter.com/skampus1967?lang=it" target="_blank">Stefano Campus</a>.<br>
+        Marco Grisolia, Roberto Angeletti, Michele Beneventi, Marco Braida, Stefano Campus, Luca Casagrande, Paolo Cavallini, Giuliano Curti, Luca Delucchi, Alessandro Fanna, Michele Ferretti, Matteo Ghetta, Anne Gishla, Maurizio Napolitano, Flavio Rigolon </p></p>
+                    </div>
+                      <div class="col-md-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-closed-captioning fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Licenza</h4>
+                        <p class="text-muted">Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: <a title="Licenza Creative Commons (CC BY-SA)" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)</a>  <br><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="immagonobox" style="border-width: 0;" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA) " src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Licenza Creative Commons" width="88" height="31"  /></a></a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-info fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Disclaimer</h4>
+                        <p class="text-muted">Questa guida NON sostituisce il <a href="https://qgis.org/it/docs/index.html#" target="_blank">manuale</a> online di QGIS, cerca solo di rendere più facile la comprensione dello strumento.<br>
           Il marchio <strong>QGIS</strong> è stato realizzato da <a href="https://twitter.com/underdarkGIS?lang=it" target="_blank">Anita Graser</a>, l&rsquo;immagine HfcQGIS è stata realizzata da <a href="https://twitter.com/totofiandaca" target="_blank">Totò Fiandaca</a> (autore del manuale) usando <a href="https://inkscape.org/it/" target="_blank">InkSCAPE</a> e il carattere <a href="https://www.ffonts.net/Trueno-Bold.font" target="_blank">Trueno Bold</a>.<br>
         I colori utilizzati in questo RTD sono fedeli alla <a href="https://www.qgis.org/en/site/getinvolved/styleguide.html#primary-colors" target="_blank">Visual Style Guide</a> di <strong>QGIS</strong></p>
-    </div>
-    <div class="feature-item">
-        <h2>Licenza</h2>
-        <p>Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: <a title="Licenza Creative Commons (CC BY-SA)" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)</a>  <br><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="immagonobox" style="border-width: 0;" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA) " src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Licenza Creative Commons" width="88" height="31"  /></a></a></p>
-    </div>
-</div>
-
-<div class="top-hr">
-    <div class="hr">
-    </div>
-</div>
-
-<!-- Custom narrow footer -->
-<div class="md-footer-meta__inner md-grid">
-    <div class="md-footer-social">
-    <a class="md-footer-social__link" href="https://github.com/gbvitrano/HfcQGIS_md/" rel="noopener" target="_blank" title="github.com">
-        <svg viewBox="0 0 480 512" xmlns="http://www.w3.org/2000/svg"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"></path></svg>
-    </a>
-    <a class="md-footer-social__link" href="http://twitter.com/opendatasicilia" rel="noopener" target="_blank" title="account twitter">
-        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
-    </a>
-    <a class="md-footer-social__link" href="http://twitter.com/opendatasicilia/" rel="noopener" target="_blank" title="gruppo Telegram">
-        <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
-    </a>
-    <a class="md-footer-social__link" href="https://groups.google.com/forum/#!forum/opendatasicilia" rel="noopener" target="_blank" title="mailing list OpenDataSicilia">
-        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
-    </a>
-    </div>
-</div>
-
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+                <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">OpenDataSicilia | CC-BY-SA-4.0 License</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
