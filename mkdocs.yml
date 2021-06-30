@@ -48,7 +48,7 @@ theme:
   language: it
   features:
     - navigation.tabs
-    - navigation.expand
+   
   palette:
     primary: green
     accent: red
@@ -131,6 +131,7 @@ nav:
           - bla bla: bla.md
         - bla bla: bla.md
     - Esempi: 
+    - Uso delle funzioni:
        - Esempi uso delle funzioni: esempi/lista_esempi.md
        - Campo area: esempi/add_col_area.md
        - Campi coordinate: esempi/add_coord_xy.md
@@ -181,7 +182,7 @@ nav:
        - Fill-down con QGIS: esempi/fill-down.md
        - Finestra temporale: esempi/finestra_temporale.md
        - Rotazione simbolo parallelo ad una linea: esempi/rotazione_simbolo_parallelo_linea.md
-       - Provaci tu: mettiti_alla_prova.md   
+    - Provaci tu: mettiti_alla_prova.md   
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     -  Lavora con Noi:
         - Supporter: supporter.md
