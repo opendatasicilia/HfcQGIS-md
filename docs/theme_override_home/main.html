@@ -4,6 +4,20 @@
 {% block content %}
   {{ super() }}
 {% endblock content %}
+   <!-- script Back To Top  -->
+      <div>
+          <a id='backTop'>Back To Top</a>
+<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 400,
+                    'speed' : 300,
+                    'color' : 'red',
+					
+					                });
+            });
+        </script>
+      </div>
 
 {% block extrahead %}
   {% set title = config.site_name %}

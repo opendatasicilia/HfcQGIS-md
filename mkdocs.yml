@@ -102,9 +102,11 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
         - 'stylesheets/extra.js'
+        - stylesheets/jquery.backTop.min.js 
 extra_css:
         - stylesheets/extra.css      
         - stylesheets/homestyles.css 
+        - stylesheets/backTop.css
 ## Page tree
 nav:
     - Home: index.md
