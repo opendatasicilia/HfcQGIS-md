@@ -48,10 +48,7 @@ theme:
   language: it
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.instant
-    - navigation.tracking
-  # - navigation.expand
+  
   palette:
     primary: green
     accent: red
