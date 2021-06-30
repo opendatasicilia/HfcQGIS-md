@@ -1,10 +1,5 @@
 <!-- Elements added to main will be displayed on all pages -->
 {% extends "base.html" %}
-
-{% block content %}
-  {{ super() }}
-{% endblock content %}
-
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
@@ -30,7 +25,16 @@
   <meta name="twitter:image" content="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfc_social_new.png" />
  <meta property="robots" content="index, follow" />
   {% endblock %}
+<!-- Google Tag Manager -->
+{% block libs %}
+{% endblock %}
 
+<!-- Announcement bar -->
+{% block announce %}
+  <style>.md-announce a,.md-announce a:focus,.md-announce a:hover{color:currentColor}.md-announce strong{white-space:nowrap}.md-announce .twitter{margin-left:.2em;color:#00acee}</style>
+    <a href="#" title="HfcQGIS: Help funzioni calcolatore di campi di QGIS V.2.0 - Material for MkDocs - Test!"><strong>HfcQGIS: Help funzioni calcolatore di campi di QGIS V.2.0 - Material for MkDocs - Test!</strong>
+    </a>
+{% endblock %}
 
 <!-- More minimal footer -->
 {% block footer %}
