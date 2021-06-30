@@ -18,7 +18,7 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 2.segue esempio 1), visualizzare etichetta solo nel Bounding Box della Puglia, nell'angolo in alto a destra:
 
-![](/img/mettiti_alla_prova/img_02.png)
+![](../img/mettiti_alla_prova/img_02.png)
 
 3.Usando i layer _**Reg01012021_g_WGS84**_ e _**RipGeo01012021_WGS84**_ creare un vettore lineare usando il geo-algoritmo _Geometria tramite espressione_ che colleghi i centroidi delle ripartizioni geografiche con i centroidi delle relative regioni, vedi sotto:
 
