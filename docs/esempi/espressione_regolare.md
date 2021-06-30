@@ -26,9 +26,9 @@ la [regexp_replace](../gr_funzioni/stringhe_di_testo/regexp_replace.html):
 
 `(\\S+\\s+\\S+)(\\s+)(.*)` acchiappa il secondo spazio presente in tutta la frase e per sostituirgli un carattere spaciale: `\\1$\\3` dove `\\1` è la prima parte prima del terzo spazio mentre `\\3` è la terza parte contando anche lo spazio;
 
-![tema](/img/esempi/espressione_regolare/espressione_reg1.png)
+![tema](../img/esempi/espressione_regolare/espressione_reg1.png)
 
-![tema](/img/esempi/espressione_regolare/espressione_reg2.png)
+![tema](../img/esempi/espressione_regolare/espressione_reg2.png)
 
 [thread](http://gfoss-geographic-free-and-open-source-software-italian-mailing.3056002.n2.nabble.com/Inserimento-automatico-di-un-carattere-speciale-td7597982.html)  ML Gfoss
 
