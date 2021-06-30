@@ -165,7 +165,7 @@ nav:
            - Aggregare elementi adiacenti: esempi/aggregare_elementi_contigui.md
            - Linea minima distanza tra due punti: esempi/linea_min_distanza.md
            - Creare campo somma cumulativa: esempi/add_campo_sum_cumulativo.md
-           - Aggiungere_punto_a_linea: esempi/aggiungere_punto_a_linea.md
+           - Aggiungere punto a linea: esempi/aggiungere_punto_a_linea.md
            - Drilldown form multiple: esempi/drilldown_form_multiple.md
            - Selezionare primi n valori: esempi/selezionare_primi_n_valori.md
            - Generalizzare isoipse: esempi/generalizzare_linee.md
@@ -175,7 +175,7 @@ nav:
            - Elenco ordinato di Comuni: esempi/elenco_ordinato_comuni_attraversati.md
            - Etichettare con chiave-valore: esempi/etichettare_chiave_valore.md
            - Etichettare itinerario con elenco ordinato Comuni: esempi/etichettare_itinerario_elenco_comuni_attraversati.md
-           - Etichette_formattate_diversi_stili: esempi/etichette_formattate_diversi_stili.md
+           - Etichette formattate diversi stili: esempi/etichette_formattate_diversi_stili.md
            - Selezionare vertici duplicati: esempi/select_duplicate_vertices.md
            - Conteggio caratteri diversi: esempi/conteggio_caratteri_diversi.md
            - Distanza minima tra due vettori: esempi/linea_min_distanza2.md
