@@ -14,7 +14,7 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 1.Usando il layer _**Reg01012020_g_WGS84**_, tracciare il _Bounding Box_ (poligono) delle regioni, usando il Generatore di geometrie:
 
-![](../img/mettiti_alla_prova/img_01.png)
+![prova](../img/mettiti_alla_prova/img_01.png)
 
 2.segue esempio 1), visualizzare etichetta solo nel Bounding Box della Puglia, nell'angolo in alto a destra:
 
