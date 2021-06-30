@@ -103,7 +103,7 @@ extra_javascript:
         - 'stylesheets/extra.js'
 extra_css:
         - stylesheets/extra.css      
-
+        - stylesheets/homestyles.css 
 ## Page tree
 nav:
     - Home: index.md
