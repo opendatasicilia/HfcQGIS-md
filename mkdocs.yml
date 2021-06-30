@@ -44,9 +44,9 @@ theme:
     scheme: preference
   language: it
   features:
-    - navigation.tabs
+  # - navigation.tabs
     - navigation.sections
-    - navigation.expand
+  # - navigation.expand
   palette:
     primary: green
     accent: red
