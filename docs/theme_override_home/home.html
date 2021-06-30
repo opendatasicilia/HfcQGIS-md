@@ -1,8 +1,4 @@
 <!-- Custom HTML site displayed as the Home chapter -->
-
-{% extends "main.html" %}
-{% block tabs %}
-{{ super() }}
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
@@ -26,12 +22,13 @@
   <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ config.site_description }}" />
   <meta name="twitter:image" content="<https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfc_social_new.png>" />
-
  <meta property="robots" content="index, follow" />
- 
   {% endblock %}
- 
- 
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+
  <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
    <link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/homestyles.css" rel="stylesheet" type="text/css"/>     
