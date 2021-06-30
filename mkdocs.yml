@@ -48,7 +48,7 @@ theme:
   language: it
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+  # - navigation.tabs.sticky
    
   palette:
     primary: green
