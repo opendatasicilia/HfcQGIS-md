@@ -33,6 +33,78 @@ extra:
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
 
+## Configuration
+theme:
+  name: material
+  custom_dir: docs/theme_override_home/
+  # 404 page
+  static_templates:
+    - 404.html
+  palette:
+    scheme: preference
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.instant
+  palette:
+    primary: green
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.ico
+  icon:
+    logo: logo_hfc
+plugins:
+- search
+- mkdocstrings
+- autolinks
+
+markdown_extensions:
+    # PyMdown extensions: https://python-markdown.github.io/extensions
+    - toc:
+        permalink: ↵
+    - admonition
+    - footnotes
+    - codehilite
+    - meta
+    - abbr
+    - sane_lists
+    - def_list
+    - attr_list
+    - tables
+    
+   # PyMdown Extensions extensions: https://facelessuser.github.io/pymdown-extensions/
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.superfences
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - pymdownx.keys
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex
+      
+## Custom theme additions
+extra_javascript:
+        - 'stylesheets/extra.js'
+extra_css:
+        - stylesheets/extra.css      
+      
+google_analytics:
+  - 'UA-122084242-1'
+  - 'auto'
+  
 ## Page tree
 nav:
     - Home: index.md
@@ -121,76 +193,4 @@ nav:
         - Autore HfcQGIS: autore.md
         - Traduzione: traduzione.md
         - Disclaimer: disclaimer.md
-        - Informativa privacy estesa: privacy.md
-
-## Configuration
-theme:
-  name: material
-  custom_dir: docs/theme_override_home/
-  # 404 page
-  static_templates:
-    - 404.html
-  palette:
-    scheme: preference
-  language: it
-  features:
-    - navigation.tabs
-    - navigation.instant
-  palette:
-    primary: green
-    accent: red
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: img/favicon.ico
-  icon:
-    logo: logo_hfc
-plugins:
-- search
-- mkdocstrings
-- autolinks
-
-markdown_extensions:
-    # PyMdown extensions: https://python-markdown.github.io/extensions
-    - toc:
-        permalink: ↵
-    - admonition
-    - footnotes
-    - codehilite
-    - meta
-    - abbr
-    - sane_lists
-    - def_list
-    - attr_list
-    - tables
-    
-   # PyMdown Extensions extensions: https://facelessuser.github.io/pymdown-extensions/
-    - pymdownx.betterem:
-        smart_enable: all
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.inlinehilite
-    - pymdownx.magiclink
-    - pymdownx.mark
-    - pymdownx.superfences
-    - pymdownx.smartsymbols
-    - pymdownx.tabbed
-    - pymdownx.tasklist:
-        custom_checkbox: true
-    - pymdownx.tilde
-    - pymdownx.keys
-    - pymdownx.details
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
-    - pymdownx.arithmatex
-      
-## Custom theme additions
-extra_javascript:
-        - 'stylesheets/extra.js'
-extra_css:
-        - stylesheets/extra.css      
-      
-google_analytics:
-  - 'UA-122084242-1'
-  - 'auto'
+        - Informativa privacy estesa: privacy.md  
