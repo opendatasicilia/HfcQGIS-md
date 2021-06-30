@@ -16,16 +16,22 @@ extra:
   social:
     - icon: fontawesome/solid/home
       link: https://hfcqgis-md.readthedocs.io/
+      name: Home Page
     - icon: fontawesome/brands/twitter
-      link: http://opendatasicilia.it/
-    - icon: fontawesome/brands/linkedin
-      link: http://opendatasicilia.it/
+      link: http://twitter.com/opendatasicilia
+      name: account twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/opendatasicilia/
+      name: gruppo facebook
     - icon: fontawesome/brands/github-alt
-      link: http://opendatasicilia.it/
-    - icon: fontawesome/brands/docker
-      link: http://opendatasicilia.it/
+      link: https://github.com/gbvitrano/HfcQGIS_md/
+      name: Repoisitory GitHub
+    - icon: fontawesome/brands/telegram
+      link: http://twitter.com/opendatasicilia
+      name: gruppo Telegram
     - icon: fontawesome/solid/envelope
-      link: mailto:support@ods.com
+      link: https://groups.google.com/forum/#!forum/opendatasicilia
+      name: mailing list OpenDataSicilia
 
 ## Page tree
 nav:
