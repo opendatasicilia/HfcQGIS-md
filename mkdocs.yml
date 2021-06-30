@@ -100,8 +100,8 @@ markdown_extensions:
     - pymdownx.arithmatex
       
 ## Custom theme additions
-# extra_javascript:
-       #  - 'stylesheets/extra.js'
+ extra_javascript:
+        - 'stylesheets/extra.js'
 extra_css:
       # - stylesheets/extra.css      
         - stylesheets/homestyles.css 
