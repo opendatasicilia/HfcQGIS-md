@@ -126,10 +126,10 @@ nav:
        - Novità rilevanti introdotte nella 3.2: release/novita_32.md
        - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
     - Elenco funzioni:
-      - bla bla: bla.md
-      - bla bla: bla.md
-      - bla bla: bla.md
-      - bla bla: bla.md
+        - bla bla: bla.md
+        - bla bla: bla.md
+        - bla bla: bla.md
+        - bla bla: bla.md
     - Esempi: 
        - Esempi uso delle funzioni: esempi/lista_esempi.md
        - Campo area: esempi/add_col_area.md
