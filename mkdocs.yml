@@ -32,7 +32,10 @@ extra:
     - icon: fontawesome/solid/envelope
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
-
+  analytics:
+    provider: google
+    property: UA-122084242-1
+    
 ## Configuration
 theme:
   name: material
@@ -101,11 +104,7 @@ extra_javascript:
         - 'stylesheets/extra.js'
 extra_css:
         - stylesheets/extra.css      
-      
-google_analytics:
-  - 'UA-122084242-1'
-  - 'auto'
-  
+
 ## Page tree
 nav:
     - Home: index.md
