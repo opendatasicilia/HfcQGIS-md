@@ -15,39 +15,39 @@
 
 * **Ascii** : <https://github.com/qgis/QGIS/pull/35839>
 
-![](/img/novita_314/35839.png)
+![](../img/novita_314/35839.png)
 
 * **is_multipart**: <https://github.com/qgis/QGIS/pull/35889>
 
-![](/img/novita_314/35889.png)
+![](../img/novita_314/35889.png)
 
 * **min/max z** : <https://github.com/qgis/QGIS/pull/35928>
 
-![](/img/novita_314/35928_max_min_z.png)
+![](../img/novita_314/35928_max_min_z.png)
 
 * **min/max m** : <https://github.com/qgis/QGIS/pull/35928>
 
-![](/img/novita_314/35928_max_min_m.png)
+![](../img/novita_314/35928_max_min_m.png)
 
 * **close_line** : <https://github.com/qgis/QGIS/pull/36069>
 
-![](/img/novita_314/36069.png)
+![](../img/novita_314/36069.png)
 
 * **make_date** : <https://github.com/qgis/QGIS/pull/36245>
 
-![](/img/novita_314/36245_date.png)
+![](../img/novita_314/36245_date.png)
 
 * **make_time** : <https://github.com/qgis/QGIS/pull/36245>
 
-![](/img/novita_314/36245_time.png)
+![](../img/novita_314/36245_time.png)
 
 * **make_datetime** : <https://github.com/qgis/QGIS/pull/36245>
 
-![](/img/novita_314/36245_datetime.png)
+![](../img/novita_314/36245_datetime.png)
 
 * **make_interval** : <https://github.com/qgis/QGIS/pull/36303>
 
-![](/img/novita_314/36303.png)
+![](../img/novita_314/36303.png)
 
 ## Fix
 

@@ -17,7 +17,7 @@ qui PR: <https://github.com/qgis/QGIS/pull/33204>
 
 qui PR: <https://github.com/qgis/QGIS/pull/32900>
 
-![screen](/img/novita_312/Image01.png)
+![screen](../img/novita_312/Image01.png)
 
 - [`geom_from_wkb`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_from_wkb.html)
 - [`geom_to_wkb`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_to_wkb.html)
@@ -29,13 +29,13 @@ qui PR: <https://github.com/qgis/QGIS/pull/32561>
 
 qui PR: <https://github.com/qgis/QGIS/pull/33333>
 
-![screen](/img/novita_312/Image02.png)
+![screen](../img/novita_312/Image02.png)
 
 - [`rotate`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/rotate.html)
 
 qui PR: <https://github.com/qgis/QGIS/pull/33125>
 
-![screen](/img/novita_312/Image03.png)
+![screen](../img/novita_312/Image03.png)
 
 ### Gruppo Data e ora
 
@@ -43,13 +43,13 @@ qui PR: <https://github.com/qgis/QGIS/pull/33125>
 
 qui PR: <https://github.com/qgis/QGIS/pull/32551>
 
-![screen](/img/novita_312/Image04.png)
+![screen](../img/novita_312/Image04.png)
 
 - [`format_date`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/format_date.html)
 
 qui PR: <https://github.com/qgis/QGIS/pull/32908>
 
-![screen](/img/novita_312/Image05.png)
+![screen](../img/novita_312/Image05.png)
 
 ### Gruppo Conversioni
 

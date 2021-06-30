@@ -6,19 +6,19 @@
 
 [https://github.com/qgis/QGIS/pull/30440](https://github.com/qgis/QGIS/pull/30440)
 
-![screen](/img/novita_310/img_01.png)
+![screen](../img/novita_310/img_01.png)
 
 ### Aggiorna campi
 
 [https://github.com/qgis/QGIS/pull/31065
 
-![screen](/img/novita_310/img_02.png)
+![screen](../img/novita_310/img_02.png)
 
 ### Gruppo Data
 
 [https://github.com/qgis/QGIS/pull/31231](https://github.com/qgis/QGIS/pull/31231)
 
-![screen](/img/novita_310/img_03.png)
+![screen](../img/novita_310/img_03.png)
 
 #### Memorizza Filtro tabella attributi
 

@@ -13,13 +13,13 @@
 
 * [**Negative index support**] PR [#9490](https://github.com/qgis/QGIS/pull/9490)
 
-![screen](/img/novita_38/img1.png)
+![screen](../img/novita_38/img1.png)
 
 ### Gruppo Files and Paths
 
 - [**Files and Paths**] PR [#9885](https://github.com/qgis/QGIS/pull/9885)
 
-![screen](/img/novita_38/files_and_paths.png)
+![screen](../img/novita_38/files_and_paths.png)
 
 ### Anteprima valori Expression builder
 

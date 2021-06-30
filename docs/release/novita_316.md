@@ -12,11 +12,11 @@
 
 help in linea: <https://github.com/qgis/QGIS/pull/37532>
 
-![](/img/novita_316/37532.png)
+![](../img/novita_316/37532.png)
 
 help in linea : <https://github.com/qgis/QGIS/pull/37771>
 
-![](/img/novita_316/37771.png)
+![](../img/novita_316/37771.png)
 
 ## Nuove funzioni
 
@@ -26,7 +26,7 @@ help in linea : <https://github.com/qgis/QGIS/pull/37771>
 
 - `to_decimal()` : <https://github.com/qgis/QGIS/pull/38025>
 
-![](/img/novita_316/38025.png)
+![](../img/novita_316/38025.png)
 
 - refFunction: <https://github.com/qgis/QGIS/pull/38405>
 
@@ -45,5 +45,5 @@ overlay_nearest(layer[,expression][,filter][,limit][,max_distance][,cache])
 
 - rename: <https://github.com/qgis/QGIS/pull/39174>
 
-![](/img/novita_316/39174.png)
+![](../img/novita_316/39174.png)
 
