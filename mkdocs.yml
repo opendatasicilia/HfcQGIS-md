@@ -90,9 +90,9 @@ markdown_extensions:
 extra_javascript:
    - stylesheets/extra.js
         
-# extra_css:
+extra_css:
   # - stylesheets/extra.css      
-  # - stylesheets/homestyles.css 
+    - stylesheets/home.css 
       
  ## Page tree
 nav:
