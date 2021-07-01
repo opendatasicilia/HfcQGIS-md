@@ -58,7 +58,8 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
-  logo: logo_hfc
+  logo: hfc
+  
 plugins:
 - search
 - mkdocstrings
