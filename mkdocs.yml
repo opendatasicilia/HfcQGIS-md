@@ -59,7 +59,7 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
-  logo: img/hfc_logo.svg
+  logo: img/logo_hfc_white.svg
   
 plugins:
 - search
