@@ -72,7 +72,7 @@ table {
 
 
 @media screen and (max-width: 76.1875em)
-.md-nav--primary .md-nav__title .md-logo {	
+.md-nav--primary .md-nav__title .md-logo {{	}}
 	
 /*mod. colore primario deep orange*/
 [data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; --md-primary-fg-color--dark: #f18d36!important;}
