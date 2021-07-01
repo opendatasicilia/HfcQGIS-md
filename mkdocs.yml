@@ -48,7 +48,7 @@ theme:
   language: it
   features:
     - navigation.tabs
-  # - navigation.tabs.sticky
+    - navigation.tabs.sticky
    
   palette:
     primary: green
@@ -82,7 +82,8 @@ markdown_extensions:
     - pymdownx.betterem:
         smart_enable: all
     - pymdownx.caret
-    - pymdownx.critic
+    - pymdownx.critic:
+           mode: view
     - pymdownx.inlinehilite
     - pymdownx.magiclink
     - pymdownx.mark
@@ -102,11 +103,11 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
         - 'stylesheets/extra.js'
-        - stylesheets/jquery.backTop.min.js 
+        
 extra_css:
         - stylesheets/extra.css      
         - stylesheets/homestyles.css 
-        - stylesheets/backTop.css
+        
 ## Page tree
 nav:
     - Home: index.md
