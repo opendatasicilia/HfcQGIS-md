@@ -1,13 +1,6 @@
 <!-- Elements added to main will be displayed on all pages -->
 {% extends "base.html" %}
-  <script>
-    $(function() {
-      $("body").prognroll({
-        height: 3, //Progress bar height in pixels
-        color: "#589632", //Progress bar background color
-      });
-    });
-</script> 
+
 {% block content %}
   {{ super() }}
 
@@ -39,3 +32,15 @@
   <meta name="twitter:image" content="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfc_social_new.png" />
  <meta property="robots" content="index, follow" />
   {% endblock %}
+  
+  <!-- Announcement bar -->
+{% block announce %}
+  <script>
+    $(function() {
+      $("body").prognroll({
+        height: 3, //Progress bar height in pixels
+        color: "#589632", //Progress bar background color
+      });
+    });
+</script> 
+{% endblock %}
