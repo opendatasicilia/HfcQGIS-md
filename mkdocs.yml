@@ -92,7 +92,7 @@ extra_javascript:
         
 extra_css:
   # - stylesheets/extra.css      
-   - stylesheets/homestyles.css 
+  # - stylesheets/homestyles.css 
       
  ## Page tree
 nav:
