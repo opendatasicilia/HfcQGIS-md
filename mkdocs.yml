@@ -40,7 +40,7 @@ extra:
 ## Configuration
 theme:
   name: material
-  custom_dir: docs/theme_override/
+  custom_dir: docs/override
   # 404 page
   static_templates:
     - 404.html
