@@ -67,6 +67,11 @@ table {
         margin: 20px 0;
     }
 	
+/*mod. colore primario deep orange*/
+[data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; }
+/*mod. colore accent green*/	
+[data-md-color-accent=green] { --md-accent-fg-color: #589632!important; }
+	
 /* Sfondo QGIS*/
 	.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
     background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}
