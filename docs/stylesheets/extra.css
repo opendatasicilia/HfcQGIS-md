@@ -77,3 +77,10 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
 /* immagine no bordo/ no ombra */
 .immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}		
 		
+		
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2rem;
+    width: 5rem;
+    border: none!important;
+}
