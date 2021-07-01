@@ -68,13 +68,13 @@ table {
 .md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;}
 
 /*mod. colore primario deep orange*/
-[data-md-color-primary=deep-orange] {--md-primary-fg-color: #ee7913!important; --md-primary-fg-color--dark: #f18d36!important;}
+[data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; --md-primary-fg-color--dark: #f18d36!important;}
 
 /*mod. colore accent green*/	
 [data-md-color-accent=green] { --md-accent-fg-color: #589632!important; }
 
 /*mod. colore footer prev/next*/
-:root>* {--md-footer-bg-color: rgb(241 141 54 / 85%)!important; }
+:root>* {--md-footer-bg-color: rgb(238 121 79 / 85%)!important; }
 	
 /* Sfondo QGIS*/
 .md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}
