@@ -93,7 +93,7 @@ extra_javascript:
    # - stylesheets/prognroll.js
         
 extra_css:
-   - stylesheets/extra.css      
+   - stylesheets/gbextra.css      
           
  ## Page tree
 nav:
