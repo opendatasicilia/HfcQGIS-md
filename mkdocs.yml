@@ -52,8 +52,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
   palette:
-    primary: green
-    accent: red
+    primary: orange
+    accent: green
   font:
     text: Lato
     code: Roboto Mono
