@@ -1,8 +1,5 @@
 <!-- Elements added to main will be displayed on all pages -->
 {% extends "base.html" %}
-
-{% block content %}
-  {{ super() }}
   <script>
     $(function() {
       $("body").prognroll({
@@ -11,6 +8,9 @@
       });
     });
 </script> 
+{% block content %}
+  {{ super() }}
+
 {% endblock content %}
 
 
