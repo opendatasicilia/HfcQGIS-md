@@ -11050,7 +11050,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 } 
 	/* Sfondo QGIS*/
 	.md-main { /*background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #fff;}
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #fff!important;}
 	
 	/*Table styling*/
 table {
