@@ -58,7 +58,7 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
-  logo: hfc
+  logo: img/hfc
   
 plugins:
 - search
@@ -90,10 +90,9 @@ markdown_extensions:
 extra_javascript:
    - stylesheets/extra.js
         
-extra_css:
+# extra_css:
   # - stylesheets/extra.css      
-    - stylesheets/home.css 
-      
+          
  ## Page tree
 nav:
     - Home: index.md
