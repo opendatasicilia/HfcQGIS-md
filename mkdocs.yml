@@ -40,10 +40,6 @@ extra:
 ## Configuration
 theme:
   name: material
-  custom_dir: docs/theme_override/
-  # 404 page
-  static_templates:
-    - 404.html
   palette:
     scheme: preference
   language: it
@@ -58,7 +54,7 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
-    logo: logo_hfc
+  #  logo: logo_hfc
 plugins:
 - search
 - mkdocstrings
