@@ -2936,13 +2936,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff1947;
-  border-color: #ff1947;
+  background-color: #589632;
+  border-color: #589632;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #c71236;
-  border-color: #c71236;
+  background-color: #344c25;
+  border-color: #344c25;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7323,7 +7323,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #ff1947 !important;
+  color: #589632 !important;
 }
 
 .text-secondary {
