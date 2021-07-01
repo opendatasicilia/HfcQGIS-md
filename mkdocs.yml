@@ -52,7 +52,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
   palette:
-    primary: orange
+    primary: deep orange
     accent: green
   font:
     text: Lato
