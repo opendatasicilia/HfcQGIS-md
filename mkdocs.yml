@@ -91,7 +91,7 @@ markdown_extensions:
       
  ## Page tree
 nav:
-    - Home: index.md
+    #- Home: index.md
     - Calcolatore di Campi:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
        - Concetti fondamentali: calcolatore_campi/concetti.md
