@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="280"
+   width="320"
    height="176"
-   viewBox="0 0 74.083334 46.566666"
+   viewBox="0 0 84.666668 46.566666"
    version="1.1"
    id="svg8"
-   sodipodi:docname="logo_hfc1.svg"
+   sodipodi:docname="hfc.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -75,29 +75,19 @@
      style="opacity:0.99">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9146px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#7da629;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="21.336679"
-       y="230.76123"
-       id="text50"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.5616px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#7da629;fill-opacity:1;stroke:none;stroke-width:0.370968px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="17.208204"
+       y="225.55402"
+       id="text50"
+       transform="scale(0.93472682,1.0698313)"><tspan
          sodipodi:role="line"
          id="tspan48"
-         x="21.336679"
-         y="230.76123"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;fill-opacity:1;stroke-width:0.264583px">H<tspan
-   style="fill:#000000;stroke:#000000;stroke-width:0.264583px"
+         x="17.208204"
+         y="225.55402"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;fill-opacity:1;stroke-width:0.370968px">H<tspan
+   style="fill:#000000;stroke:#000000;stroke-width:0.370968px"
    id="tspan952">f</tspan>c<tspan
-   style="fill:none;stroke-width:0.264583px"
+   style="fill:none;stroke-width:0.370968px"
    id="tspan40" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02273px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.254818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="24.388174"
-       y="237.89233"
-       id="text960"><tspan
-         sodipodi:role="line"
-         id="tspan958"
-         x="24.388174"
-         y="237.89233"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';stroke-width:0.254818px">Help field calculator</tspan></text>
   </g>
 </svg>
