@@ -40,6 +40,10 @@ extra:
 ## Configuration
 theme:
   name: material
+  custom_dir: docs/theme_override/
+  # 404 page
+  static_templates:
+    - 404.html
   palette:
     scheme: preference
   language: it
@@ -54,7 +58,7 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
-  #  logo: logo_hfc
+  logo: logo_hfc
 plugins:
 - search
 - mkdocstrings
@@ -82,16 +86,16 @@ markdown_extensions:
       
 
 ## Custom theme additions
-# extra_javascript:
-      #  - 'stylesheets/extra.js'
+extra_javascript:
+   - 'stylesheets/extra.js'
         
-# extra_css:
-     #   - stylesheets/extra.css      
-     #  - stylesheets/homestyles.css 
+extra_css:
+   - stylesheets/extra.css      
+   - stylesheets/homestyles.css 
       
  ## Page tree
 nav:
-    #- Home: index.md
+    - Home: index.md
     - Calcolatore di Campi:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
        - Concetti fondamentali: calcolatore_campi/concetti.md
