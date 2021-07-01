@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="690"
-   height="176"
-   viewBox="0 0 182.5625 46.566666"
+   width="650"
+   height="160"
+   viewBox="0 0 171.97917 42.333333"
    version="1.1"
    id="svg8"
    sodipodi:docname="logo_hfc_white.svg"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1828561"
-     inkscape:cx="337.31915"
-     inkscape:cy="38.466218"
+     inkscape:cx="310.26597"
+     inkscape:cy="38.466217"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,80 +72,85 @@
      id="layer1"
      transform="translate(-19.371281,-196.30714)"
      style="opacity:0.99">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9146px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="21.336679"
-       y="230.76123"
-       id="text50"
-       inkscape:export-filename="H:\Archivio Lavori\Web\HfcQGIS\In Progess\in_progress\hfc_white.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan48"
-         x="21.336679"
-         y="230.76123"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264583px;stroke:#ffffff;stroke-opacity:1">H<tspan
+    <g
+       id="g894"
+       transform="translate(0.87338114,-3.7567584)"
+       style="fill:#ffffff">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9146px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="20.441952"
+         y="231.43228"
+         id="text50"
+         inkscape:export-filename="H:\Archivio Lavori\Web\HfcQGIS\In Progess\in_progress\hfc_white.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan48"
+           x="20.441952"
+           y="231.43228"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583px;stroke-opacity:1">H<tspan
    style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583px;stroke-opacity:1"
    id="tspan952">f</tspan>c<tspan
-   style="fill:#ffffff;stroke-width:0.264583px;stroke:#ffffff;stroke-opacity:1"
+   style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583px;stroke-opacity:1"
    id="tspan40" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.18098px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.282222"
-       x="114.50729"
-       y="237.9845"
-       id="text3022"><tspan
-         sodipodi:role="line"
-         id="tspan3024"
-         x="114.50729"
-         y="237.9845"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.9394px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.282222;fill:#ffffff">RTD by @opendatasicilia</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15432px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.260386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="24.331079"
-       y="237.86681"
-       id="text960"><tspan
-         sodipodi:role="line"
-         id="tspan958"
-         x="24.331079"
-         y="237.86681"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';stroke-width:0.260386px;fill:#ffffff">Help field calculator</tspan></text>
-    <g
-       id="g4497"
-       style="fill:#ffffff"
-       transform="matrix(0.20858334,0,0,0.20858334,68.561037,180.1203)">
-      <polygon
-         fill="#589632"
-         points="216.513,180 198.306,162 176,162 176,183.433 195,202.37 195,180 "
-         id="polygon4485"
-         style="fill:#ffffff" />
-      <path
-         fill="#589632"
-         d="m 414.246,171.135 v 54.35 c -14.951,10.911 -37.782,18.386 -57.38,18.386 -42.833,0 -75.362,-31.113 -75.362,-72.129 0,-40.813 33.135,-71.725 77.182,-71.725 21.013,0 42.427,8.082 56.773,20.608 l -17.982,22.832 c -10.507,-9.698 -25.052,-15.76 -38.791,-15.76 -25.055,0 -44.451,19.194 -44.451,44.045 0,25.053 19.599,44.249 44.651,44.249 8.486,0 18.589,-3.031 27.681,-7.678 v -37.177 h 27.679 z"
-         id="path4487"
-         style="fill:#ffffff" />
-      <path
-         fill="#589632"
-         d="m 442.129,242.456 v -141.43 h 31.922 v 141.43 z"
-         id="path4489"
-         style="fill:#ffffff" />
-      <path
-         fill="#589632"
-         d="m 610.831,114.967 -12.324,26.467 c -14.951,-8.89 -32.731,-14.547 -44.045,-14.547 -10.708,0 -17.981,3.839 -17.981,11.517 0,26.064 75.362,11.517 75.16,62.431 0,27.68 -24.045,42.631 -55.36,42.631 -23.236,0 -46.471,-8.89 -62.431,-22.427 l 12.728,-26.063 c 14.548,12.932 35.155,21.215 50.106,21.215 13.134,0 21.013,-4.849 21.013,-13.537 0,-26.669 -75.362,-11.112 -75.362,-61.219 0,-25.659 22.023,-41.823 54.755,-41.823 19.8,-10e-4 39.599,6.061 53.741,15.355 z"
-         id="path4491"
-         style="fill:#ffffff" />
-      <polygon
-         fill="#589632"
-         points="225.617,189 204,189 204,211.34 240.782,248 264,248 264,226.946 "
-         id="polygon4493"
-         style="fill:#ffffff" />
-      <path
-         fill="#589632"
-         d="m 198.052,216.864 c -3.259,0.75 -6.648,1.157 -10.144,1.157 -25.005,0 -46.271,-20.562 -46.271,-47.222 0,-26.66 21.032,-46.769 46.271,-46.769 25.239,0 45.336,20.108 45.336,46.769 0,4.336 -0.54,8.508 -1.539,12.46 l 23.144,23.14 c 5.967,-10.455 9.305,-22.611 9.305,-35.778 0,-41.09 -32.791,-71.856 -76.714,-71.856 -43.722,0 -76.512,30.564 -76.512,71.856 0,41.494 32.791,72.666 76.512,72.666 11.287,0 21.835,-2.076 31.284,-5.854 z"
-         id="path4495"
-         style="fill:#ffffff" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.18098px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.282222"
+         x="104.30933"
+         y="239.22765"
+         id="text3022"><tspan
+           sodipodi:role="line"
+           id="tspan3024"
+           x="104.30933"
+           y="239.22765"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.9394px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ffffff;stroke-width:0.282222">RTD by @opendatasicilia</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15432px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.260386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="23.436352"
+         y="239.15315"
+         id="text960"><tspan
+           sodipodi:role="line"
+           id="tspan958"
+           x="23.436352"
+           y="239.15315"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ffffff;stroke-width:0.260386px">Help field calculator</tspan></text>
+      <g
+         id="g4497"
+         style="fill:#ffffff"
+         transform="matrix(0.19209593,0,0,0.19209593,68.447452,183.64998)">
+        <polygon
+           fill="#589632"
+           points="195,180 216.513,180 198.306,162 176,162 176,183.433 195,202.37 "
+           id="polygon4485"
+           style="fill:#ffffff" />
+        <path
+           fill="#589632"
+           d="m 414.246,171.135 v 54.35 c -14.951,10.911 -37.782,18.386 -57.38,18.386 -42.833,0 -75.362,-31.113 -75.362,-72.129 0,-40.813 33.135,-71.725 77.182,-71.725 21.013,0 42.427,8.082 56.773,20.608 l -17.982,22.832 c -10.507,-9.698 -25.052,-15.76 -38.791,-15.76 -25.055,0 -44.451,19.194 -44.451,44.045 0,25.053 19.599,44.249 44.651,44.249 8.486,0 18.589,-3.031 27.681,-7.678 v -37.177 h 27.679 z"
+           id="path4487"
+           style="fill:#ffffff" />
+        <path
+           fill="#589632"
+           d="m 442.129,242.456 v -141.43 h 31.922 v 141.43 z"
+           id="path4489"
+           style="fill:#ffffff" />
+        <path
+           fill="#589632"
+           d="m 610.831,114.967 -12.324,26.467 c -14.951,-8.89 -32.731,-14.547 -44.045,-14.547 -10.708,0 -17.981,3.839 -17.981,11.517 0,26.064 75.362,11.517 75.16,62.431 0,27.68 -24.045,42.631 -55.36,42.631 -23.236,0 -46.471,-8.89 -62.431,-22.427 l 12.728,-26.063 c 14.548,12.932 35.155,21.215 50.106,21.215 13.134,0 21.013,-4.849 21.013,-13.537 0,-26.669 -75.362,-11.112 -75.362,-61.219 0,-25.659 22.023,-41.823 54.755,-41.823 19.8,-10e-4 39.599,6.061 53.741,15.355 z"
+           id="path4491"
+           style="fill:#ffffff" />
+        <polygon
+           fill="#589632"
+           points="264,226.946 225.617,189 204,189 204,211.34 240.782,248 264,248 "
+           id="polygon4493"
+           style="fill:#ffffff" />
+        <path
+           fill="#589632"
+           d="m 198.052,216.864 c -3.259,0.75 -6.648,1.157 -10.144,1.157 -25.005,0 -46.271,-20.562 -46.271,-47.222 0,-26.66 21.032,-46.769 46.271,-46.769 25.239,0 45.336,20.108 45.336,46.769 0,4.336 -0.54,8.508 -1.539,12.46 l 23.144,23.14 c 5.967,-10.455 9.305,-22.611 9.305,-35.778 0,-41.09 -32.791,-71.856 -76.714,-71.856 -43.722,0 -76.512,30.564 -76.512,71.856 0,41.494 32.791,72.666 76.512,72.666 11.287,0 21.835,-2.076 31.284,-5.854 z"
+           id="path4495"
+           style="fill:#ffffff" />
+      </g>
     </g>
   </g>
 </svg>
