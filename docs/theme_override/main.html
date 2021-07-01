@@ -3,6 +3,14 @@
 
 {% block content %}
   {{ super() }}
+  <script>
+    $(function() {
+      $("body").prognroll({
+        height: 3, //Progress bar height in pixels
+        color: "#ee7913", //Progress bar background color
+      });
+    });
+</script> 
 {% endblock content %}
 
 

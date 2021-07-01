@@ -90,6 +90,7 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
+   - stylesheets/prognroll.js
         
 extra_css:
    - stylesheets/extra.css      

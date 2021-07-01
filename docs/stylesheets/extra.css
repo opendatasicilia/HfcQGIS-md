@@ -63,17 +63,10 @@ table {
 
 /* logo hfc*/
 .md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem!important;    width: 12rem!important; padding-right: 3rem!important; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}
-	
 
 /* logo hfc mobile*/
-.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;/* height: 2.4rem; */
-    /* width: 2.4rem; */ }
-	
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;}
 
-
-@media screen and (max-width: 76.1875em)
-.md-nav--primary .md-nav__title .md-logo {{	}}
-	
 /*mod. colore primario deep orange*/
 [data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; --md-primary-fg-color--dark: #f18d36!important;}
 
@@ -84,8 +77,7 @@ table {
 :root>* {--md-footer-bg-color: rgb(88 150 50 / 87%)!important; }
 	
 /* Sfondo QGIS*/
-	.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}
+.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}
 	
 /* bordo immagine*/
 img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px;background-color: #fff;}
