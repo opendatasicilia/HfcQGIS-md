@@ -62,7 +62,17 @@ table {
 
 
 /* logo hfc*/
-.md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem;    width: 12rem; padding-right: 3rem; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem!important;    width: 12rem!important; padding-right: 3rem!important; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}
+	
+
+/* logo hfc mobile*/
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;/* height: 2.4rem; */
+    /* width: 2.4rem; */ }
+	
+
+
+@media screen and (max-width: 76.1875em)
+.md-nav--primary .md-nav__title .md-logo {	
 	
 /*mod. colore primario deep orange*/
 [data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; }
