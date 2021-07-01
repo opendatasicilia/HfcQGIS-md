@@ -98,7 +98,7 @@ extra_css:
  ## Page tree
 nav:
     - Home: index.md
-    - Calcolatore di Campi:
+    - Field Calculator:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
        - Concetti fondamentali: calcolatore_campi/concetti.md
        - Interfaccia calcolatore di campi: calcolatore_campi/interfaccia.md
