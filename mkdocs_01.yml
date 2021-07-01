@@ -3,7 +3,6 @@ site_name: HfcQGIS
 site_url: https://hfcqgis-md.readthedocs.io/it/latest
 site_description: Help funzioni calcolatore di campi di QGIS
 
-
 ## Repository
 repo_name: HfcQGIS_md
 repo_url: https://github.com/gbvitrano/HfcQGIS_md
@@ -40,12 +39,17 @@ extra:
 ## Configuration
 theme:
   name: material
+  custom_dir: docs/theme_override_home/
+  # 404 page
+  static_templates:
+    - 404.html
   palette:
     scheme: preference
   language: it
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+   
   palette:
     primary: green
     accent: red
@@ -61,26 +65,41 @@ plugins:
 - autolinks
 
 markdown_extensions:
-- toc:
+    # PyMdown extensions: https://python-markdown.github.io/extensions
+    - toc:
         permalink: ↵
-- mkdocs-click
-- pymdownx.highlight
-- pymdownx.superfences
-- pymdownx.tabbed
-- pymdownx.critic:
-      mode: view
-- pymdownx.betterem:
-      smart_enable: all
-- pymdownx.caret
-- pymdownx.mark
-- pymdownx.tilde
-- pymdownx.smartsymbols
-- admonition
-- pymdownx.details
-- pymdownx.tasklist:
-      clickable_checkbox: true
+    - admonition
+    - footnotes
+    - codehilite
+    - meta
+    - abbr
+    - sane_lists
+    - def_list
+    - attr_list
+    - tables
+    
+   # PyMdown Extensions extensions: https://facelessuser.github.io/pymdown-extensions/
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic:
+           mode: view
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.superfences
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - pymdownx.keys
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex
       
-
 ## Custom theme additions
 extra_javascript:
         - 'stylesheets/extra.js'
@@ -88,8 +107,8 @@ extra_javascript:
 extra_css:
         - stylesheets/extra.css      
         - stylesheets/homestyles.css 
-      
- ## Page tree
+        
+## Page tree
 nav:
     - Home: index.md
     - Calcolatore di Campi:
@@ -178,4 +197,4 @@ nav:
         - Autore HfcQGIS: autore.md
         - Traduzione: traduzione.md
         - Disclaimer: disclaimer.md
-        - Informativa privacy estesa: privacy.md       
+        - Informativa privacy estesa: privacy.md  
