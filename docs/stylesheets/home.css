@@ -10875,7 +10875,7 @@ p {
   padding: 0;
   border-radius: 100%;
 }
-/*
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11047,10 +11047,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-} */
-	/* Sfondo QGIS
-	.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}*/
+} 
+	/* Sfondo QGIS*/
+	.md-main { /*background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #fff;}
 	
 	/*Table styling*/
 table {
