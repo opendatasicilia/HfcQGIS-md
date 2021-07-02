@@ -191,6 +191,8 @@ div.doc-contents:not(.first) {
 /*mod. altezza footer prev/next*/
 .md-footer__link {padding-bottom: .1rem!important; padding-top: .4rem!important; }
 
+/*base iconw home*/
+.svg-inline--fa.fa-stack-2x { width: 1em!important;}
 	
 /* Sfondo QGIS*/
 .md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background:  #efefef;}
