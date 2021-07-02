@@ -7,7 +7,7 @@
     color: var(--md-accent-fg-color);
 }
 .md-tabs__link:hover {
-    color: var(--md-accent-fg-color); font-weight: bold !important;
+    color: var(--md-accent-fg-color);
 }
 
 
@@ -21,6 +21,7 @@
     font-size: .75rem !important;
     color: var(--md-accent-fg-color);
 }
+
 
 /* frontpage elements */
 .tx-hero h1 {
