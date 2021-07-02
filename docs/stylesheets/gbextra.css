@@ -154,7 +154,8 @@ table {
 
 /* Site width etc.*/
 .md-grid {
-    max-width: 64rem !important;
+    /*max-width: 64rem !important;*/
+	max-width: 100% !important;
 }
 
 
