@@ -68,7 +68,7 @@ table {
 	  
 /*Intestazione tabella*/	  
 .md-typeset table:not([class]) th {
-    background-color: rgb(199 54 54 / 75%)!important; 
+    background-color: rgb(240 230 74 / 75%)!important; 
     color: rgb(0 0 0 / 87%)!important; }
 
 /*Tabbed extension css*/
