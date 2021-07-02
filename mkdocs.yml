@@ -121,7 +121,6 @@ nav:
        
     - Funzioni:
        - Elenco funzioni QGIS: gr_funzioni/elenco_funzioni.md
-       - Funzioni:
        - Aggregates: gr_funzioni/aggregates/aggregates.md
           - aggregate: gr_funzioni/aggregates/aggregate.md
           - array_agg: gr_funzioni/aggregates/array_agg.md
