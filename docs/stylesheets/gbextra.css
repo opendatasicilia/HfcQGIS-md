@@ -1,4 +1,15 @@
 /* Active tab bold & color */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+/* General style */
+.md-typeset h1,
+.md-tabs,
+.md-header-nav__topic,
+.md-sidebar {
+  font-family: "Oswald", sans-serif;
+}
+
+
 .md-tabs__link {
     font-size: .75rem !important;
 }
