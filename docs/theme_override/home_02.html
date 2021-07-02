@@ -6,6 +6,8 @@
  <!-- Font Awesome icons (free version)  -->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!--   --><link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
+   
+
         
 {% endblock %}
 {% block content %}
@@ -18,7 +20,8 @@
             </div>
         </header>
         <!-- Services-->
-                      <div class="container">
+        <section class="page-section" id="services">
+              <div class="container">
                 <div class="text-center">
                 <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Inizia </a>
           <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a><br><br><br>
@@ -62,7 +65,8 @@
         I colori utilizzati in questo RTD sono fedeli alla <a href="https://www.qgis.org/en/site/getinvolved/styleguide.html#primary-colors" target="_blank">Visual Style Guide</a> di <strong>QGIS</strong></p>
                     </div>
                 </div>
-            {% endblock %}
+            </div>
+{% endblock %}
 {% block footer %}
                 <!-- Footer-->
         <footer class="footer py-4">
