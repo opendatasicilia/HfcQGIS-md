@@ -102,7 +102,7 @@ table {
 .md-typeset table:not([class]) th {
     background-color: rgb(240 230 74 / 75%)!important; 
     color: rgb(0 0 0 / 87%)!important; }
-
+/* gbvitrano*/
 /*Tabbed extension css*/
 .tabbed-set {
   display: flex;
