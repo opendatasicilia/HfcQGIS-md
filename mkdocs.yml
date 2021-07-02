@@ -120,9 +120,9 @@ nav:
        - Novità rilevanti introdotte in QGIS 3.0 Girona 23/02/2018: release/novita_30.md
        
     - Funzioni:
-        - Elenco funzioni QGIS: gr_funzioni/elenco_funzioni.md
-    - Funzioni:
-        - Aggregates: gr_funzioni/aggregates/aggregates.md
+       - Elenco funzioni QGIS: gr_funzioni/elenco_funzioni.md
+       - Funzioni:
+       - Aggregates: gr_funzioni/aggregates/aggregates.md
           - aggregate: gr_funzioni/aggregates/aggregate.md
           - array_agg: gr_funzioni/aggregates/array_agg.md
           - collect: gr_funzioni/aggregates/collect.md
@@ -145,10 +145,10 @@ nav:
           - relation_aggregate: gr_funzioni/aggregates/relation_aggregate.md
           - stdev: gr_funzioni/aggregates/stdev.md
           - sum: gr_funzioni/aggregates/sum.md
-        - bla bla:
+       - bla bla:
           - bla bla: bla.md
           - bla bla: bla.md
-        - da documentare: gr_funzioni/da_documentare.md
+       - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
         - Uso delle funzioni: esempi/lista_esempi.md
