@@ -2,12 +2,14 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");*/
 @import url("https://fontlibrary.org/face/trueno");
 
-/* General style */
+/* Cambia il carattere dei menu */
 .md-typeset h1,
 .md-tabs,
 .md-header-nav__topic,
 .md-sidebar {
-  font-family: "trueno", /*Oswald,*/ sans-serif;
+  font-family: "TruenoLight", /*Oswald,*/ sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
