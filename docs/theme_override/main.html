@@ -3,6 +3,15 @@
 
 {% block content %} 
 {{ super() }}
+
+<script>
+    $(function() {
+      $("body").prognroll({
+        height: 3, //Progress bar height in pixels
+        color: "#f0e64a", //Progress bar background color
+      });
+    });
+</script> 
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb82cddf7f677"></script>
 {% endblock content %}

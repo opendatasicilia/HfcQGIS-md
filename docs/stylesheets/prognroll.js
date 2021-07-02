@@ -4,7 +4,7 @@
 
         var settings = $.extend({
             height: 3, //Progress bar height
-            color: "#ee7913", //Progress bar background color
+            color: "#f0e64a", //Progress bar background color
             custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page.
         }, options);
 
@@ -21,7 +21,7 @@
 
             $span.css({
                 position: "fixed",
-                top: 81,
+                top: 0,
                 left: 0,
                 width: 0,
                 height: settings.height,
