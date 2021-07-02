@@ -11051,9 +11051,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 } 
 	/* Sfondo QGIS*/
-	/*
+	
 	.md-main { /*background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ /*#fff!important;}*/
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #fff!important;}
 	
 	/*Table styling*/
 table {
