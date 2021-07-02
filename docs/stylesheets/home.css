@@ -3826,7 +3826,9 @@ textarea.form-control-lg {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+/* nav bar */
 
+/*
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4240,7 +4242,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-
+*/
 .card {
   position: relative;
   display: flex;
