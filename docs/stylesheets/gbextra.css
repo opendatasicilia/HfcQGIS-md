@@ -13,6 +13,17 @@
   font-weight: bold;
 }
 
+.md-typeset h1, .md-tabs, .md-header-nav__topic, .md-sidebar, .md-ellipsis {
+    font-family: "TruenoLight", /*Oswald,*/ sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.md-typeset h1, .md-typeset h2 {
+    /*font-weight: 300;*/
+    letter-spacing: -.01em;
+	font-size: 1.5em;
+}
+
 .md-tabs__link {
     font-size: .75rem !important;
 }
