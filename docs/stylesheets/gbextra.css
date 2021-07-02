@@ -166,6 +166,8 @@ div.doc-contents:not(.first) {
   border-left: 4px solid rgba(230, 230, 230);
   margin-bottom: 80px;
 }
+.md-content {flex-grow: 0;}
+@media screen and (max-width: 76.1875em).md-content {flex-grow: 1}
 
 
 /* logo hfc*/
