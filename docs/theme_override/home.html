@@ -6,18 +6,28 @@
  <!-- Font Awesome icons (free version)  -->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!--   --><link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
+   
+
         
 {% endblock %}
 {% block content %}
 <!-- Masthead-->
-                <div class="container text-center">
-                <img src="../img/logo_hfc_00.png" width="1024"  class="immagonobox clip_resize"/><br><br><br>
-                <h2 class="section-heading text-uppercase">HfcQGIS: Help funzioni calcolatore di campi di QGIS</h2>
-                <h3 class="section-subheading text-muted">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h3><br><br><br>
-<div class="text-center">
-  <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Inizia </a>
-  <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a><br><br><br><br><br>
-  </div>
+        <header class="masthead">
+            <div class="container">
+           <!--      <div class="masthead-subheading">HfcQGIS</div>
+               <div class="masthead-heading text-uppercase">Help funzioni calcolatore di campi di QGIS</div> -->
+          
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+              <div class="container">
+                <div class="text-center">
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Inizia </a>
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a><br><br><br>
+                    <h2 class="section-heading text-uppercase">HfcQGIS: Help funzioni calcolatore di campi di QGIS</h2>
+                    <h3 class="section-subheading text-muted">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h3>
+                </div>
                 <div class="row text-center">
                     <div class="col-md-3">
                         <span class="fa-stack fa-3x">
@@ -55,9 +65,10 @@
         I colori utilizzati in questo RTD sono fedeli alla <a href="https://www.qgis.org/en/site/getinvolved/styleguide.html#primary-colors" target="_blank">Visual Style Guide</a> di <strong>QGIS</strong></p>
                     </div>
                 </div>
-            {% endblock %}
+            </div>
+{% endblock %}
 {% block footer %}
-<!-- Footer-->
+                <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
