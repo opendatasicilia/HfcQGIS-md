@@ -144,7 +144,7 @@ div.doc-contents:not(.first) {
 [data-md-color-accent=green] { --md-accent-fg-color: #589632!important; }
 
 /*mod. colore footer prev/next*/
-:root>* {--md-footer-bg-color: rgb(238 121 79 / 85%)!important; }
+:root>* {--md-footer-bg-color: rgb(241 141 54 / 100%)!important; }
 	
 /* Sfondo QGIS*/
 .md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef;}
