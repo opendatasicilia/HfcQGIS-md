@@ -6,12 +6,12 @@
 .md-typeset h1,
 .md-tabs,
 .md-header-nav__topic,
-.md-sidebar {
+.md-sidebar 
+.md-ellipsis {
   font-family: "TruenoLight", /*Oswald,*/ sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
-
 
 .md-tabs__link {
     font-size: .75rem !important;
@@ -35,7 +35,6 @@
     font-size: .75rem !important;
     color: var(--md-accent-fg-color);
 }
-
 
 /* frontpage elements */
 .tx-hero h1 {
