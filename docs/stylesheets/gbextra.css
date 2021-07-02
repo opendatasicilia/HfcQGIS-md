@@ -7,7 +7,9 @@
 .md-tabs,
 .md-header-nav__topic,
 .md-sidebar, 
-.md-ellipsis {
+.md-ellipsis, 
+.md-source__icon+,
+.md-source__repository {
   font-family: "TruenoLight", /*Oswald,*/ sans-serif;
   text-transform: uppercase;
   font-weight: bold;
