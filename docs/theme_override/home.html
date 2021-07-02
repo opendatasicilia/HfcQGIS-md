@@ -2,22 +2,14 @@
 {% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
- 
+<!-- Font Awesome icons (free version)  -->
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+<!-- css home page  -->
+<link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
 {% endblock %}
-{% block content %} <!-- Font Awesome icons (free version)  -->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-  <!--   --><link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
-   
+{% block content %} 
 <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-           <!--      <div class="masthead-subheading">HfcQGIS</div>
-               <div class="masthead-heading text-uppercase">Help funzioni calcolatore di campi di QGIS</div> -->
-          
-            </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+
               <div class="container">
                 <div class="text-center">
                 <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Inizia </a>
