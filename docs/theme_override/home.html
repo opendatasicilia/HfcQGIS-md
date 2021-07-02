@@ -1,9 +1,10 @@
 <!-- Custom HTML site displayed as the Home chapter -->
 {% extends "main.html" %}
 {% block tabs %}
-{{ super() }}    
+{{ super() }}
+ 
 {% endblock %}
- <!-- Font Awesome icons (free version)  -->
+{% block content %} <!-- Font Awesome icons (free version)  -->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!--   --><link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
    
@@ -62,8 +63,7 @@
                     </div>
                 </div>
             </div>  
-{% block content %}
-{% endblock %}
+            {% endblock %}
 {% block footer %}                
 <!-- Footer-->
         <footer class="footer py-4">
