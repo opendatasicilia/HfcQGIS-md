@@ -1,0 +1,10 @@
+{
+    "name": "HfcQGIS: Help funzioni calcolatore di campi di QGIS",
+    "short_name": "HfcQGIS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS.",
+    "lang": "it-IT",
+    "theme_color": "deep orange"
+}
