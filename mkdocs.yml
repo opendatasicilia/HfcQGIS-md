@@ -122,31 +122,31 @@ nav:
     - Funzioni:
        - Elenco funzioni QGIS: gr_funzioni/elenco_funzioni.md
        - Aggregates: gr_funzioni/aggregates/aggregates.md
-          - aggregate: gr_funzioni/aggregates/aggregate.md
-          - array_agg: gr_funzioni/aggregates/array_agg.md
-          - collect: gr_funzioni/aggregates/collect.md
-          - concatenate: gr_funzioni/aggregates/concatenate.md
-          - count: gr_funzioni/aggregates/count.md
-          - count_distinct: gr_funzioni/aggregates/count_distinct.md
-          - count_missing: gr_funzioni/aggregates/count_missing.md
-          - iqr: gr_funzioni/aggregates/iqr.md
-          - majority: gr_funzioni/aggregates/majority.md
-          - max_length: gr_funzioni/aggregates/max_length.md
-          - maximum: gr_funzioni/aggregates/maximum.md
-          - mean: gr_funzioni/aggregates/mean.md
-          - median: gr_funzioni/aggregates/median.md
-          - min_length: gr_funzioni/aggregates/min_length.md
-          - minimum: gr_funzioni/aggregates/minimum.md
-          - minority: gr_funzioni/aggregates/minority.md
-          - q1: gr_funzioni/aggregates/q1.md
-          - q3: gr_funzioni/aggregates/q3.md
-          - range: gr_funzioni/aggregates/.md
-          - relation_aggregate: gr_funzioni/aggregates/relation_aggregate.md
-          - stdev: gr_funzioni/aggregates/stdev.md
-          - sum: gr_funzioni/aggregates/sum.md
+            - aggregate: gr_funzioni/aggregates/aggregate.md
+            - array_agg: gr_funzioni/aggregates/array_agg.md
+            - collect: gr_funzioni/aggregates/collect.md
+            - concatenate: gr_funzioni/aggregates/concatenate.md
+            - count: gr_funzioni/aggregates/count.md
+            - count_distinct: gr_funzioni/aggregates/count_distinct.md
+            - count_missing: gr_funzioni/aggregates/count_missing.md
+            - iqr: gr_funzioni/aggregates/iqr.md
+            - majority: gr_funzioni/aggregates/majority.md
+            - max_length: gr_funzioni/aggregates/max_length.md
+            - maximum: gr_funzioni/aggregates/maximum.md
+            - mean: gr_funzioni/aggregates/mean.md
+            - median: gr_funzioni/aggregates/median.md
+            - min_length: gr_funzioni/aggregates/min_length.md
+            - minimum: gr_funzioni/aggregates/minimum.md
+            - minority: gr_funzioni/aggregates/minority.md
+            - q1: gr_funzioni/aggregates/q1.md
+            - q3: gr_funzioni/aggregates/q3.md
+            - range: gr_funzioni/aggregates/.md
+            - relation_aggregate: gr_funzioni/aggregates/relation_aggregate.md
+            - stdev: gr_funzioni/aggregates/stdev.md
+            - sum: gr_funzioni/aggregates/sum.md
        - bla bla:
-          - bla bla: bla.md
-          - bla bla: bla.md
+            - bla bla: bla.md
+            - bla bla: bla.md
        - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
