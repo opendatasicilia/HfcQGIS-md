@@ -168,9 +168,9 @@ div.doc-contents:not(.first) {
 }
 
 
-/*@media (min-width: 1100px) { .md-content{ flex-grow: 0!important; }}*/
+/*@media (min-width: 1100px) { .md-content{ flex-grow: 0!important; }}
 .md-content {flex-grow: 0!important;}
-@media screen and (max-width: 1180).md-content {flex-grow: 1!important;}
+@media screen and (max-width: 1180).md-content {flex-grow: 1!important;}*/
 
 
 /* logo hfc*/
