@@ -167,7 +167,7 @@ div.doc-contents:not(.first) {
   margin-bottom: 80px;
 }
 
-@media (min-width: 1200px) { .md-content{ flex-grow: 0!important; }}
+@media (min-width: 1100px) { .md-content{ flex-grow: 0!important; }}
 
 /*.md-content {flex-grow: 0!important;}
 @media screen and (max-width: 76.1875em).md-content {flex-grow: 1!important;}*/
