@@ -1,8 +1,8 @@
 <!-- Custom HTML site displayed as the Home chapter -->
 {% extends "main.html" %}
 {% block tabs %}
-{{ super() }}
-
+{{ super() }}    
+{% endblock %}
  <!-- Font Awesome icons (free version)  -->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!--   --><link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>
@@ -61,9 +61,9 @@
         I colori utilizzati in questo RTD sono fedeli alla <a href="https://www.qgis.org/en/site/getinvolved/styleguide.html#primary-colors" target="_blank">Visual Style Guide</a> di <strong>QGIS</strong></p>
                     </div>
                 </div>
-            </div>      
+            </div>  
+{% block content %}
 {% endblock %}
-{% block content %}{% endblock %}
 {% block footer %}                
 <!-- Footer-->
         <footer class="footer py-4">
