@@ -1,12 +1,13 @@
 /* Active tab bold & color */
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");*/
+@import url("https://fontlibrary.org/face/trueno");
 
 /* General style */
 .md-typeset h1,
 .md-tabs,
 .md-header-nav__topic,
 .md-sidebar {
-  font-family: "Oswald", sans-serif;
+  font-family: "trueno", /*Oswald,*/ sans-serif;
 }
 
 
