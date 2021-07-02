@@ -10,7 +10,7 @@ Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due
 
 ## Programma Corso
 
-1. **Tabella attributi** ![](/img/tabella_attributi/icon/mActionOpenTable.png);
+1. **Tabella attributi** ![](../img/tabella_attributi/icon/mActionOpenTable.png);
    1. Concetti fondamentali sulla Tabella attributi
    2. che cosa è la tabella attributi;
    3. campi e record, come definirli;
@@ -42,7 +42,7 @@ Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due
    14. cenni sull'editor delle funzioni python;
    15. esercitazione.
 3.  Novità introdotte in QGIS 3.x
-4.  [Esercitazioni](http://hfcqgis.opendatasicilia.it/it/latest/esempi/index.html).
+4.  [Esercitazioni](../esempi/lista_esempi.md).
 
 ## Video-Corso Field Calc QGIS 3 - 30 video lezioni (23 ore)
 Per maggiori Info contattatemi
@@ -80,4 +80,4 @@ Per maggiori Info contattatemi
 
 Alla fine del corso (solo se in presenza) verrà rilasciato un certificato di partecipazione.
 
-![screen](./certificato_bozza_3.png)
+![screen](certificato_bozza_3.png)
