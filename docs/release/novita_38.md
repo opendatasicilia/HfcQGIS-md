@@ -1,3 +1,8 @@
+---
+tags:
+  - Novità
+---
+
 # Novità rilevanti introdotte nella 3.8 21/06/2019
 
 ## Nuove funzioni

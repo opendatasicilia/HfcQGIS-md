@@ -1,3 +1,8 @@
+---
+tags:
+  - Novità
+---
+
 # Novità rilevanti introdotte nella 3.18
 
 <!-- TOC -->

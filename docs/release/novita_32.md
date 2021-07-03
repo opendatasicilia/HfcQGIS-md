@@ -1,3 +1,8 @@
+---
+tags:
+  - Novità
+---
+
 # Novità rilevanti introdotte nella 3.2
 
 ## Generatore di espressioni più utile.
