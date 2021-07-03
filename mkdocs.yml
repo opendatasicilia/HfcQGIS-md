@@ -2,7 +2,8 @@
 site_name: Help field calculator
 site_url: https://hfcqgis-md.readthedocs.io/it/latest
 site_description: Help funzioni calcolatore di campi di QGIS
-site_author: OpenDataSicilia
+site_author: RTD by OpenDataSicilia.it
+
 
 ## Repository
 repo_name: OpenDataSicilia/HfcQGIS
@@ -52,6 +53,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
+    - search.suggest
   palette:
     primary: deep orange
     accent: green
@@ -66,10 +68,12 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
+- tags
 
 markdown_extensions:
 - toc:
         permalink: ↵
+- meta        
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
