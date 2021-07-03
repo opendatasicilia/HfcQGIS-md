@@ -150,70 +150,64 @@ nav:
             - Array_filter: gr_funzioni/array/array_filter.md
             - Array_foreach: gr_funzioni/array/array_foreach.md
        - Arrays:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/arrays/arrays.md
             - bla bla: bla.md
        - Campi e valori:
-            - bla bla: bla.md
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/campi_e_valori/campi.md
+            - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
        - Colore:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/colore/colore.md
             - bla bla: bla.md
        - Condizioni:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/condizioni/condizioni.md
             - bla bla: bla.md
        - Conversioni:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/conversioni/conversioni.md
             - bla bla: bla.md
        - Corrispondenza fuzzy:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
             - bla bla: bla.md
        - Custom:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/custom/custom.md
             - bla bla: bla.md
        - Data ora:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/data_ora/data_ora.md
             - bla bla: bla.md
        - Generale:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/generale/generale.md
             - bla bla: bla.md
        - Geometria:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/geometria/geometria.md
             - bla bla: bla.md
        - Layer della mappa:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/layer_della_mappa/layer.md
             - bla bla: bla.md  
        - Maps:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/maps/maps.md
             - bla bla: bla.md  
        - Matematica:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/matematica/matematica.md
             - bla bla: bla.md  
        - Operatori:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/operatori/operatori.md
             - bla bla: bla.md  
        - Rasters:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/rasters/rasters.md
             - bla bla: bla.md  
-       - Recente:
-            - bla bla: bla.md
-            - bla bla: bla.md  
+       - Recente: gr_funzioni/recente/recente.md
        - Record e attributi:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
             - bla bla: bla.md  
        - Reference:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/reference/reference.md
             - bla bla: bla.md  
-       - Relazioni:
-            - bla bla: bla.md
-            - bla bla: bla.md  
+       - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo:
+            - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
             - bla bla: bla.md
-            - bla bla: bla.md
-       - Timemanager:
-            - bla bla: bla.md
-            - bla bla: bla.md 
+       - Timemanager:  gr_funzioni/timemanager/timemanager.md
        - Variabili:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/variabili/variabili.md
             - bla bla: bla.md              
        - da documentare: gr_funzioni/da_documentare.md
         
