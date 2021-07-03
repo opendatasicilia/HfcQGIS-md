@@ -265,6 +265,12 @@ nav:
             - to_time: gr_funzioni/data_ora/funzioni/to_time.md
             - week: gr_funzioni/data_ora/funzioni/week.md
             - year: gr_funzioni/data_ora/funzioni/year.md
+       - Espressione utente:
+            - bla bla: bla.md
+            - bla bla: bla.md                
+       - File e percorsi:
+            - bla bla: bla.md
+            - bla bla: bla.md            
        - Generale:
             - Elenco: gr_funzioni/generale/generale.md
             - env:  gr_funzioni/generale/env.md
@@ -272,7 +278,10 @@ nav:
             - is_layer_visible:  gr_funzioni/generale/is_layer_visible.md
             - layer_property:  gr_funzioni/generale/layer_property.md
             - var:  gr_funzioni/generale/var.md
-            - with_variable:  gr_funzioni/generale/with_variable.md
+            - with_variable:  gr_funzioni/generale/with_variable.md  
+       - Lat e Long:
+            - bla bla: bla.md
+            - bla bla: bla.md
        - Geometria:
             - Elenco: gr_funzioni/geometria/geometria.md
             - $area: gr_funzioni/geometria/$area.md
