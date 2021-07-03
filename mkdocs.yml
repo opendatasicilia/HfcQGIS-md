@@ -266,10 +266,10 @@ nav:
             - week: gr_funzioni/data_ora/funzioni/week.md
             - year: gr_funzioni/data_ora/funzioni/year.md
        - Espressione utente:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
             - bla bla: bla.md                
        - File e percorsi:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/file_e_percorsi/file_e_percorsi.md
             - bla bla: bla.md            
        - Generale:
             - Elenco: gr_funzioni/generale/generale.md
@@ -280,7 +280,7 @@ nav:
             - var:  gr_funzioni/generale/var.md
             - with_variable:  gr_funzioni/generale/with_variable.md  
        - Lat e Long:
-            - bla bla: bla.md
+            - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
             - bla bla: bla.md
        - Geometria:
             - Elenco: gr_funzioni/geometria/geometria.md

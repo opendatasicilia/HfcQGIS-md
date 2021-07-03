@@ -13,10 +13,10 @@ Gruppo funzioni|nro funzioni*|info
 [Corrispondenza fuzzy](./corrispondenza_fuzzy/corrispondenza_fuzzy.md)| (4/4/)|
 [Custom](./custom/custom.md)| (5/5/)| funzioni personalizzate
 [Data e ora](./data_ora/data_ora.md) |(21/21/)|**QGIS 3.14**
-[Espressione utente](./espressione_utente/)| (6/6/)|aggiornate a **QGIS 3.12**
-[File e percorsi](./file_e_percorsi/)| (8/8/)|
+[Espressione utente](./espressione_utente/espressione_utente.md)| (6/6/)|aggiornate a **QGIS 3.12**
+[File e percorsi](./file_e_percorsi/file_e_percorsi.md)| (8/8/)|
 [Generale](./generale/generale.md)| (6/6/)|
-[Lat e Long](./lat_long_tools/)| (8/0/)|
+[Lat e Long](./lat_long_tools/lat_long_tools.md)| (8/0/)|
 [Geometria](./geometria/geometria.md) |(108/123/)| aggiornate a **QGIS 3.16**
 [Layer della mappa](./layer_della_mappa/layer.md)| (2/2/)| aggiornate a **QGIS 3.6**
 [Maps](./maps/maps.md)| (14/14) |>= QGIS 3.0 (PostGIS) aggiornate a **QGIS 3.6**
