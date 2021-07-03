@@ -68,8 +68,8 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
-# - tags
-- mkdocs_pymdownx_material_extras
+- tags
+
 
 markdown_extensions:
 - toc:
