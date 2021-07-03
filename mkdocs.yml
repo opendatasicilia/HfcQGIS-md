@@ -70,7 +70,8 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
-# - tags
+- tags:
+      tags_file: tags.md
 
 
 markdown_extensions:
@@ -690,4 +691,5 @@ nav:
         - Autore HfcQGIS: autore.md
         - Traduzione: traduzione.md
         - Disclaimer: disclaimer.md
-        - Informativa privacy estesa: privacy.md       
+        - Informativa privacy estesa: privacy.md      
+    - Tags: tag.md    
