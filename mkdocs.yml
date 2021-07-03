@@ -145,6 +145,10 @@ nav:
             - relation_aggregate: gr_funzioni/aggregates/relation_aggregate.md
             - stdev: gr_funzioni/aggregates/stdev.md
             - sum: gr_funzioni/aggregates/sum.md
+       - Array (NOVITÀ QGIS 3.4):
+            - Elenco:  gr_funzioni/array/array.md
+            - Array_filter: gr_funzioni/array/array_filter.md
+            - Array_foreach: gr_funzioni/array/array_foreach.md
        - bla bla:
             - bla bla: bla.md
             - bla bla: bla.md

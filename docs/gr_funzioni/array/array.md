@@ -4,9 +4,9 @@ Questo gruppo contiene funzioni espressione per la creazione e la manipolazione 
 
 | Funzione  | Descrizione|Info
 |----------:|:-----------|--------
-|[array_filter](funzioni/array_filter.md)|Restituisce un array con solo gli elementi per i quali l'espressione restituisce true (vero)| **>= QGIS 3.4**
-|[array_foreach](funzioni/array_foreach.md)|Restituisce una matrice con l'espressione data valutata su ciascun elemento| **>= QGIS 3.4**
+|[array_filter](array_filter.md)|Restituisce un array con solo gli elementi per i quali l'espressione restituisce true (vero)| **>= QGIS 3.4**
+|[array_foreach](array_foreach.md)|Restituisce una matrice con l'espressione data valutata su ciascun elemento| **>= QGIS 3.4**
 
 
-![](/img/array/neo_gruppo.png)
+![](../../img/array/neo_gruppo.png)
 
