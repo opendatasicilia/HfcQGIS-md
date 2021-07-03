@@ -17,7 +17,7 @@ concatenate_unique(_expression, group_by, filter, concatenator_)
 
 * `concatenate_unique( expression:="DEN_PCM",group_by:="COD_REG",concatenator:=',') → lista separata da virgola di "DEN_PCM", raggruppata dal campo "COD_REG"`
 
-![](../img/aggregates/concatenate_unique/concatenate_unique1.png)
+![](../../img/aggregates/concatenate_unique/concatenate_unique1.png)
 
 ## nota bene
 

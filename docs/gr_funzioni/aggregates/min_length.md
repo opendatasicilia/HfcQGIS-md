@@ -16,7 +16,7 @@ min_length(_<span style="color:red;">expression</span>, <span style="color:red;"
 
 * ` min_length("COMUNE", "COD_REG")  → lunghezza minima di "COMUNE", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/min_length/min_length1.png)
+![](../../img/aggregates/min_length/min_length1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ majority(_<span style="color:red;">expression</span>, <span style="color:red;">g
 
 * ` majority(  "j_tot_maschi" , "COD_REG")  → valore di classe più comunemente presente, raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/majority/majority1.png)
+![](../../img/aggregates/majority/majority1.png)
 
 ## nota bene
 

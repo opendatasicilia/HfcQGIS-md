@@ -16,7 +16,7 @@ median(_<span style="color:red;">expression</span>, <span style="color:red;">gro
 
 * ` median("j_tot_femmine", "COD_REG")  → mediana della "j_tot_femmine", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/median/median1.png)
+![](../../img/aggregates/median/median1.png)
 
 ## nota bene
 

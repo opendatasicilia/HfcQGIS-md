@@ -16,7 +16,7 @@ collect(_<span style="color:red;">expression</span>, <span style="color:red;">gr
 
 * `collect( $geometry ) → geometria a parti multiple delle geometrie aggregate`
 
-![](../img/aggregates/collect/collect1.png)
+![](../../img/aggregates/collect/collect1.png)
 
 ## nota bene
 
@@ -26,6 +26,6 @@ collect(_<span style="color:red;">expression</span>, <span style="color:red;">gr
 
 --
 
-![](../img/aggregates/collect/collect2.png)
+![](../../img/aggregates/collect/collect2.png)
 
-![](../img/aggregates/collect/collect3.png)
+![](../../img/aggregates/collect/collect3.png)

@@ -43,7 +43,7 @@ relation_aggregate(_<span style="color:red;">relation</span>, <span style="color
 * `relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo town per tutte le geometrie figlie corrispondenti usando la relation 'my_relation'`
 
 
-![](../img/aggregates/relation_aggregate/relation_aggregate1.png)
+![](../../img/aggregates/relation_aggregate/relation_aggregate1.png)
 
 ## nota bene
 
@@ -57,4 +57,4 @@ La sintassi prevede due possibilità:
 
 --
 
-![](../img/aggregates/relation_aggregate/relation_aggregate2.png)
+![](../../img/aggregates/relation_aggregate/relation_aggregate2.png)

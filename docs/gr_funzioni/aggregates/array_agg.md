@@ -19,7 +19,7 @@ array_agg(_<span style="color:red;">expression</span>[,<span style="color:red;">
 
 * `array_agg( "DEN_PCM" ,group_by:= "COD_REG" ) → lista di valori del "DEN_PCM", ragguppata per il campo "COD_REG"`
 
-![](../img/aggregates/array_agg/array_agg1.png)
+![](../../img/aggregates/array_agg/array_agg1.png)
 
 ## nota bene
 

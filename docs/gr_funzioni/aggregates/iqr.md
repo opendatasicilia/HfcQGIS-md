@@ -16,7 +16,7 @@ iqr(_<span style="color:red;">expression</span>, <span style="color:red;">group_
 
 * ` iqr(  "j_tot_maschi" , "COD_REG")  → scarto interquartile del valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/iqr/irq1.png)
+![](../../img/aggregates/iqr/irq1.png)
 
 ## nota bene
 

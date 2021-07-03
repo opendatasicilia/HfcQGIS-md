@@ -27,7 +27,7 @@ Contiene funzioni che aggregano valori nei livelli e campi. A partire da **QGIS 
 |[stdev](stdev.md)|Restituisce il valore di deviazione standard aggregato da un campo o espressione|
 |[sum](sum.md)|Restituisce il valore sommato aggregato da un campo o espressione|
 
-![](../img/aggregates/gruppo_aggregates1.png)
+![](../../img/aggregates/gruppo_aggregates1.png)
 
 ## Nota bene
 

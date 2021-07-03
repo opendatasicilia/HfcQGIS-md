@@ -16,7 +16,7 @@ minimum(_<span style="color:red;">expression</span>, <span style="color:red;">gr
 
 * ` minimum("j_tot_femmine", "COD_REG")  → valore minimo di "j_tot_femmine", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/minimum/minimum1.png)
+![](../../img/aggregates/minimum/minimum1.png)
 
 ## nota bene
 
@@ -33,5 +33,5 @@ Selezionare le Province con minor area per ogni Regione
 
 `$area = minimum(expression:=$area,group_by:="COD_REG")`
 
-![](../img/aggregates/minimum/minimum2.png)
+![](../../img/aggregates/minimum/minimum2.png)
 --

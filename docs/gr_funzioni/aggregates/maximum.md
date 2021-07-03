@@ -16,7 +16,7 @@ maximum(_<span style="color:red;">expression</span>, <span style="color:red;">gr
 
 * ` maximum("j_tot_femmine", "COD_REG")  → valore massimo di "j_tot_femmine", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/maximum/maximum1.png)
+![](../../img/aggregates/maximum/maximum1.png)
 
 ## nota bene
 

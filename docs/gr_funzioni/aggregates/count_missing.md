@@ -16,7 +16,7 @@ count_missing(_<span style="color:red;">expression</span>, <span style="color:re
 
 * ` count_missing( filter:= "COD_REG">=10,expression:= "DEN_PCM" , group_by:= "COD_REG") → conta i valori mancanti (nulli) delle "DEN_PCM", raggruppate per il campo "COD_REG" con filtro le ultime 10 Regioni`
 
-![](../img/aggregates/count_missing/count_missing1.png)
+![](../../img/aggregates/count_missing/count_missing1.png)
 
 ## nota bene
 

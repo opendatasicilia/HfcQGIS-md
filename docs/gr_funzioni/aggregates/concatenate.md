@@ -17,7 +17,7 @@ concatenate(_<span style="color:red;">expression</span>, <span style="color:red;
 
 * `concatenate( expression:="DEN_PCM",group_by:="COD_REG",concatenator:=',') → lista separata da virgola di "DEN_PCM", raggruppata dal campo "COD_REG"`
 
-![](../img/aggregates/concatenate/concatenate1.png)
+![](../../img/aggregates/concatenate/concatenate1.png)
 
 ## nota bene
 

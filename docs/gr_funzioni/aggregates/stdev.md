@@ -17,7 +17,7 @@ stdev(_<span style="color:red;">expression</span>, <span style="color:red;">grou
 
 * ` stdev("j_tot_maschi" , "COD_REG")  → deviazione standard di un valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/stdev/stdev1.png)
+![](../../img/aggregates/stdev/stdev1.png)
 
 ## nota bene
 

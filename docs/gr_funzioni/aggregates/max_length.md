@@ -16,7 +16,7 @@ max_length(_<span style="color:red;">expression</span>, <span style="color:red;"
 
 * ` max_length("COMUNE", "COD_REG")  → lunghezza massima di "COMUNE", raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/max_length/max_length1.png)
+![](../../img/aggregates/max_length/max_length1.png)
 
 ## nota bene
 

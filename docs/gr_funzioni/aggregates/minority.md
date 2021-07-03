@@ -16,7 +16,7 @@ minority(_<span style="color:red;">expression</span>, <span style="color:red;">g
 
 * ` minority(  "j_tot_maschi" , "COD_REG")  → valore di classe meno comunemente presente, raggruppato per il campo "COD_REG"`
 
-![](../img/aggregates/minority/minority1.png)
+![](../../img/aggregates/minority/minority1.png)
 
 ## nota bene
 

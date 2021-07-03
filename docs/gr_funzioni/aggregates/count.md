@@ -16,7 +16,7 @@ count(_<span style="color:red;">expression</span>, <span style="color:red;">grou
 
 * `count ( expression:= "DEN_PCM" ,group_by:= "COD_REG") → conta le "DEN_PCM", raggruppate per il campo "COD_REG"`
 
-![](../img/aggregates/count/count1.png)
+![](../../img/aggregates/count/count1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ count_distinct(_<span style="color:red;">expression</span>, <span style="color:r
 
 * `count_distinct(expression:= "DEN_PCM" ,group_by:= "COD_REG" ,filter:= "COD_REG"<5) → conta i valori differenti delle "DEN_PCM", raggruppate per il campo "COD_REG" con filtro le prime 4 Regioni`
 
-![](../img/aggregates/count_distinct/count_distinct1.png)
+![](../../img/aggregates/count_distinct/count_distinct1.png)
 
 ## nota bene
 
@@ -30,4 +30,4 @@ La sintassi prevede due possibilità:
 
 --
 
-![](../img/aggregates/count_distinct/count_distinct2.png)
+![](../../img/aggregates/count_distinct/count_distinct2.png)
