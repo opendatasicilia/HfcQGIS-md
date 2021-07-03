@@ -230,19 +230,172 @@ nav:
             - to_time: to_time.md
        - Corrispondenza fuzzy:
             - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
-            - bla bla: bla.md
+            - hamming_distance: hamming_distance.md
+            - levenshtein: levenshtein.md
+            - longest_common_substring: longest_common_substring.md
+            - soundex: soundex.md
        - Custom:
             - Elenco: gr_funzioni/custom/custom.md
-            - bla bla: bla.md
+            - my_sum: my_sum.md
+            - reverse_string: reverse_string.md
+            - perimetro_km(): perimetro_km().md
+            - controlla_file: controlla_file.md
+            - CurrentFormValue: CurrentFormValue.md
+            - Fattoriale: fattoriale.md
        - Data ora:
             - Elenco: gr_funzioni/data_ora/data_ora.md
-            - bla bla: bla.md
+            - age: funzioni/age.md
+            - datetime_from_epoch: funzioni/datetime_from_epoch.md
+            - day: funzioni/day.md
+            - day_of_week: funzioni/day_of_week.md
+            - epoch: funzioni/epoch.md
+            - format_date: funzioni/format_date.md
+            - hour: funzioni/hour.md
+            - make_date: funzioni/make_date.md
+            - make_datetime: funzioni/make_datetime.md
+            - make_interval: funzioni/make_interval.md
+            - make_time: funzioni/make_time.md
+            - minute: funzioni/minute.md
+            - month: funzioni/month.md
+            - now: funzioni/now.md
+            - second: funzioni/second.md
+            - to_date: funzioni/to_date.md
+            - to_datetime: funzioni/to_datetime.md
+            - to_interval: funzioni/to_interval.md
+            - to_time: funzioni/to_time.md
+            - week: funzioni/week.md
+            - year: funzioni/year.md
        - Generale:
             - Elenco: gr_funzioni/generale/generale.md
-            - bla bla: bla.md
+            - env: env.md
+            - eval: eval.md
+            - is_layer_visible: is_layer_visible.md
+            - layer_property: layer_property.md
+            - var: var.md
+            - with_variable: with_variable.md
        - Geometria:
             - Elenco: gr_funzioni/geometria/geometria.md
-            - bla bla: bla.md
+            - $area: $area.md
+            - $geometry: $geometry.md
+            - $length: $length.md
+            - $perimeter: $perimeter.md
+            - $x: $x.md
+            - $x_at: $x_at.md
+            - $y: $y.md
+            - $y_at: $y_at.md
+            - angle_at_vertex: angle_at_vertex.md
+            - area: area.md
+            - azimuth: azimuth.md
+            - boundary: boundary.md
+            - bounds: bounds.md
+            - bounds_height: bounds_height.md
+            - bounds_width: bounds_width.md
+            - buffer: buffer.md
+            - centroid: centroid.md
+            - close_line: close_line.md
+            - closest_point: closest_point.md
+            - collect_geometries: funzioni/collect_geometries.md
+            - combine: combine.md
+            - contains: contains.md
+            - convex_hull: convex_hull.md
+            - crosses: crosses.md
+            - difference: difference.md
+            - disjoint: disjoint.md
+            - distance: distance.md
+            - distance_to_vertex: distance_to_vertex.md
+            - end_point: end_point.md
+            - extend: extend.md
+            - exterior_ring: exterior_ring.md
+            - extrude: extrude.md
+            - flip_coordinates: flip_coordinates.md
+            - geom_from_gml: geom_from_gml.md
+            - geom_from_wkb: geom_from_wkb.md
+            - geom_from_wkt: geom_from_wkt.md
+            - geom_to_wkb: geom_to_wkb.md
+            - geom_to_wkt: geom_to_wkt.md
+            - geometry: geometry.md
+            - geometry_n: geometry_n.md
+            - hausdorff_distance: hausdorff_distance.md
+            - inclination: inclination.md
+            - interior_ring_n: interior_ring_n.md
+            - intersection: intersection.md
+            - intersects: intersects.md
+            - intersects_bbox: intersects_bbox.md
+            - is_closed: is_closed.md
+            - is_empty: is_empty.md
+            - is_empty_or_null: is_empty_or_null.md
+            - is_multipart: is_multipart.md
+            - is_valid: is_valid.md
+            - length: length.md
+            - line_interpolate_angle: line_interpolate_angle.md
+            - line_interpolate_point: line_interpolate_point.md
+            - line_locate_point: line_locate_point.md
+            - line_merge: line_merge.md
+            - line_substring: line_substring.md
+            - m: m.md
+            - m_max: m_max.md
+            - m_min: m_min.md
+            - main_angle: main_angle.md
+            - make_circle: make_circle.md
+            - make_ellipse: make_ellipse.md
+            - make_line: make_line.md
+            - make_point: make_point.md
+            - make_point_m: make_point_m.md
+            - make_polygon: make_polygon.md
+            - make_rectangle_3points: make_rectangle_3points.md
+            - make_regular_polygon: make_regular_polygon.md
+            - make_square: make_square.md
+            - make_triangle: make_triangle.md
+            - minimal_circle: minimal_circle.md
+            - nodes_to_points: nodes_to_points.md
+            - num_geometries: num_geometries.md
+            - num_interior_rings: num_interior_rings.md
+            - num_points: num_points.md
+            - num_rings: num_rings.md
+            - offset_curve: offset_curve.md
+            - order_parts: order_parts.md
+            - oriented_bbox: oriented_bbox.md
+            - overlaps: overlaps.md
+            - overlay_contains: overlay_contains.md)
+            - overlay_crosses: overlay_crosses.md
+            - overlay_disjoint: overlay_disjoint.md
+            - overlay_equals: overlay_equals.md
+            - overlay_intersects: overlay_intersects.md
+            - overlay_nearest: overlay_nearest.md
+            - overlay_touches: overlay_touches.md
+            - overlay_within: overlay_within.md
+            - perimeter: perimeter.md
+            - point_n: point_n.md
+            - point_on_surface: point_on_surface.md
+            - pole_of_inaccessibility: pole_of_inaccessibility.md
+            - project: project.md
+            - relate: relate.md
+            - reverse: reverse.md
+            - rotate: rotate.md
+            - segments_to_lines: segments_to_lines.md
+            - shortest_line: shortest_line.md
+            - simplify: simplify.md
+            - simplify_vw: simplify_vw.md
+            - single_sided_buffer: single_sided_buffer.md
+            - smooth: smooth.md
+            - start_point: start_point.md
+            - sym_difference: sym_difference.md
+            - tapered_buffer: tapered_buffer.md
+            - touches: touches.md
+            - transform: transform.md
+            - translate: translate.md
+            - union: union.md
+            - wedge_buffer: wedge_buffer.md
+            - within: within.md
+            - x: x.md
+            - x_min: x_min.md
+            - x_max: x_max.md
+            - y: y.md
+            - y_min: y_min.md
+            - y_max: y_max.md
+            - z: z.md
+            - z_max: z_max.md
+            - z_min: z_min.md
        - Layer della mappa:
             - Elenco: gr_funzioni/layer_della_mappa/layer.md
             - bla bla: bla.md  
