@@ -4,7 +4,6 @@ site_url: https://hfcqgis-md.readthedocs.io/it/latest
 site_description: Help funzioni calcolatore di campi di QGIS
 site_author: RTD by OpenDataSicilia.it
 
-
 ## Repository
 repo_name: OpenDataSicilia/HfcQGIS
 repo_url: https://github.com/gbvitrano/HfcQGIS_md
