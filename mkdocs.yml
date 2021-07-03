@@ -68,7 +68,7 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
-- tags
+# - tags
 
 markdown_extensions:
 - toc:
