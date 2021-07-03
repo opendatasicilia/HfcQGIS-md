@@ -151,375 +151,461 @@ nav:
             - Array_foreach: gr_funzioni/array/array_foreach.md
        - Arrays:
             - Elenco: gr_funzioni/arrays/arrays.md
-            - array: array.md
-            - array_append: array_append.md
-            - array_avg: array_avg.md
-            - array_cat: array_cat.md
-            - array_contains: array_contains.md
-            - array_count: array_count.md
-            - array_distinct: array_distinct.md
-            - array_find: array_find.md
-            - array_first: array_first.md
-            - array_get: array_get.md
-            - array_insert: array_insert.md
-            - array_lambda: array_lambda.md
-            - array_intersect: array_intersect.md
-            - array_last: array_last.md
-            - array_length: array_length.md
-            - array_majority: array_majority.md
-            - array_minority: array_minority.md
-            - array_max: array_max.md
-            - array_min: array_min.md
-            - array_prepend: array_prepend.md
-            - array_prioritize: array_prioritize.md
-            - array_remove_all: array_remove_all.md
-            - array_remove_at: array_remove_at.md
-            - array_replace: array_replace.md
-            - array_reverse: array_reverse.md
-            - array_slice: array_slice.md
-            - array_sort: array_sort.md
-            - array_sum: array_sum.md
-            - array_to_string: array_to_string.md
-            - generate_series: generate_series.md
-            - regexp_matches: regexp_matches.md
-            - string_to_array: string_to_array.md
+            - array: gr_funzioni/gr_funzioni/arrays/array.md
+            - array_append: gr_funzioni/gr_funzioni/arrays/array_append.md
+            - array_avg: gr_funzioni/gr_funzioni/arrays/array_avg.md
+            - array_cat: gr_funzioni/gr_funzioni/arrays/array_cat.md
+            - array_contains: gr_funzioni/gr_funzioni/arrays/array_contains.md
+            - array_count: gr_funzioni/gr_funzioni/arrays/array_count.md
+            - array_distinct: gr_funzioni/gr_funzioni/arrays/array_distinct.md
+            - array_find: gr_funzioni/gr_funzioni/arrays/array_find.md
+            - array_first: gr_funzioni/gr_funzioni/arrays/array_first.md
+            - array_get: gr_funzioni/gr_funzioni/arrays/array_get.md
+            - array_insert: gr_funzioni/gr_funzioni/arrays/array_insert.md
+            - array_lambda: gr_funzioni/gr_funzioni/arrays/array_lambda.md
+            - array_intersect: gr_funzioni/gr_funzioni/arrays/array_intersect.md
+            - array_last: gr_funzioni/gr_funzioni/arrays/array_last.md
+            - array_length: gr_funzioni/gr_funzioni/arrays/array_length.md
+            - array_majority: gr_funzioni/gr_funzioni/arrays/array_majority.md
+            - array_minority: gr_funzioni/gr_funzioni/arrays/array_minority.md
+            - array_max: gr_funzioni/gr_funzioni/arrays/array_max.md
+            - array_min: gr_funzioni/gr_funzioni/arrays/array_min.md
+            - array_prepend: gr_funzioni/gr_funzioni/arrays/array_prepend.md
+            - array_prioritize: gr_funzioni/gr_funzioni/arrays/array_prioritize.md
+            - array_remove_all: gr_funzioni/gr_funzioni/arrays/array_remove_all.md
+            - array_remove_at: gr_funzioni/gr_funzioni/arrays/array_remove_at.md
+            - array_replace: gr_funzioni/gr_funzioni/arrays/array_replace.md
+            - array_reverse: gr_funzioni/gr_funzioni/arrays/array_reverse.md
+            - array_slice: gr_funzioni/gr_funzioni/arrays/array_slice.md
+            - array_sort: gr_funzioni/gr_funzioni/arrays/array_sort.md
+            - array_sum: gr_funzioni/gr_funzioni/arrays/array_sum.md
+            - array_to_string: gr_funzioni/gr_funzioni/arrays/array_to_string.md
+            - generate_series: gr_funzioni/gr_funzioni/arrays/generate_series.md
+            - regexp_matches: gr_funzioni/gr_funzioni/arrays/regexp_matches.md
+            - string_to_array: gr_funzioni/gr_funzioni/arrays/string_to_array.md
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
        - Colore:
             - Elenco: gr_funzioni/colore/colore.md
-            - color_cmyk: color_cmyk.md
-            - color_cmyka: color_cmyka.md
-            - color_grayscale_average: color_grayscale_average.md
-            - color_hsl: color_hsl.md
-            - color_hsla: color_hsla.md
-            - color_hsv: color_hsv.md
-            - color_hsva: color_hsva.md
-            - color_mix_rgb: color_mix_rgb.md
-            - color_part: color_part.md
-            - color_rgb: color_rgb.md
-            - color_rgba: color_rgba.md
-            - create_ramp: create_ramp.md
-            - darker: darker.md
-            - lighter: lighter.md
-            - project_color: project_color.md
-            - ramp_color: ramp_color.md
-            - set_color_part: set_color_part.md
+            - color_cmyk: gr_funzioni/colore/color_cmyk.md
+            - color_cmyka: gr_funzioni/colore/color_cmyka.md
+            - color_grayscale_average: gr_funzioni/colore/color_grayscale_average.md
+            - color_hsl: gr_funzioni/colore/color_hsl.md
+            - color_hsla: gr_funzioni/colore/color_hsla.md
+            - color_hsv: gr_funzioni/colore/color_hsv.md
+            - color_hsva: gr_funzioni/colore/color_hsva.md
+            - color_mix_rgb: gr_funzioni/colore/color_mix_rgb.md
+            - color_part: gr_funzioni/colore/color_part.md
+            - color_rgb: gr_funzioni/colore/color_rgb.md
+            - color_rgba: gr_funzioni/colore/color_rgba.md
+            - create_ramp: gr_funzioni/colore/create_ramp.md
+            - darker: gr_funzioni/colore/darker.md
+            - lighter: gr_funzioni/colore/lighter.md
+            - project_color: gr_funzioni/colore/project_color.md
+            - ramp_color: gr_funzioni/colore/ramp_color.md
+            - set_color_part: gr_funzioni/colore/set_color_part.md
        - Condizioni:
             - Elenco: gr_funzioni/condizioni/condizioni.md
-            - CASE: case.md
-            - coalesce: coalesce.md
-            - if: if.md
-            - regexp_match: regexp_match.md
-            - nullif: nullif.md
-            - try: try.md
+            - CASE: gr_funzioni/condizioni/case.md
+            - coalesce: gr_funzioni/condizioni/coalesce.md
+            - if: gr_funzioni/condizioni/if.md
+            - regexp_match: gr_funzioni/condizioni/regexp_match.md
+            - nullif: gr_funzioni/condizioni/nullif.md
+            - try: gr_funzioni/condizioni/try.md
        - Conversioni:
             - Elenco: gr_funzioni/conversioni/conversioni.md
-            - hash: hash.md
-            - md5: md5.md
-            - sha256: sha256.md
-            - to_date: to_date.md
-            - to_datetime: to_datetime.md
-            - to_dm: to_dm.md
-            - to_dms: to_dms.md
-            - to_int: to_int.md
-            - to_interval: to_interval.md
-            - to_real: to_real.md
-            - to_string: to_string.md
-            - to_time: to_time.md
-            - to_time: to_time.md
+            - hash: gr_funzioni/conversionihash.md
+            - md5: gr_funzioni/conversionimd5.md
+            - sha256: gr_funzioni/conversionisha256.md
+            - to_date: gr_funzioni/conversionito_date.md
+            - to_datetime: gr_funzioni/conversionito_datetime.md
+            - to_dm: gr_funzioni/conversionito_dm.md
+            - to_dms: gr_funzioni/conversionito_dms.md
+            - to_int: gr_funzioni/conversionito_int.md
+            - to_interval: gr_funzioni/conversionito_interval.md
+            - to_real: gr_funzioni/conversionito_real.md
+            - to_string: gr_funzioni/conversionito_string.md
+            - to_time: gr_funzioni/conversionito_time.md
+            - to_time: gr_funzioni/conversionito_time.md
        - Corrispondenza fuzzy:
             - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
-            - hamming_distance: hamming_distance.md
-            - levenshtein: levenshtein.md
-            - longest_common_substring: longest_common_substring.md
-            - soundex: soundex.md
+            - hamming_distance: gr_funzioni/corrispondenza_fuzzy/hamming_distance.md
+            - levenshtein: gr_funzioni/corrispondenza_fuzzy/levenshtein.md
+            - longest_common_substring: gr_funzioni/corrispondenza_fuzzy/longest_common_substring.md
+            - soundex: gr_funzioni/corrispondenza_fuzzy/soundex.md
        - Custom:
             - Elenco: gr_funzioni/custom/custom.md
-            - my_sum: my_sum.md
-            - reverse_string: reverse_string.md
-            - perimetro_km(): perimetro_km().md
-            - controlla_file: controlla_file.md
-            - CurrentFormValue: CurrentFormValue.md
-            - Fattoriale: fattoriale.md
+            - my_sum: gr_funzioni/custom/my_sum.md
+            - reverse_string: gr_funzioni/custom/reverse_string.md
+            - perimetro_km(): gr_funzioni/custom/perimetro_km().md
+            - controlla_file: gr_funzioni/custom/controlla_file.md
+            - CurrentFormValue: gr_funzioni/custom/CurrentFormValue.md
+            - Fattoriale: gr_funzioni/custom/fattoriale.md
        - Data ora:
             - Elenco: gr_funzioni/data_ora/data_ora.md
-            - age: funzioni/age.md
-            - datetime_from_epoch: funzioni/datetime_from_epoch.md
-            - day: funzioni/day.md
-            - day_of_week: funzioni/day_of_week.md
-            - epoch: funzioni/epoch.md
-            - format_date: funzioni/format_date.md
-            - hour: funzioni/hour.md
-            - make_date: funzioni/make_date.md
-            - make_datetime: funzioni/make_datetime.md
-            - make_interval: funzioni/make_interval.md
-            - make_time: funzioni/make_time.md
-            - minute: funzioni/minute.md
-            - month: funzioni/month.md
-            - now: funzioni/now.md
-            - second: funzioni/second.md
-            - to_date: funzioni/to_date.md
-            - to_datetime: funzioni/to_datetime.md
-            - to_interval: funzioni/to_interval.md
-            - to_time: funzioni/to_time.md
-            - week: funzioni/week.md
-            - year: funzioni/year.md
+            - age: gr_funzioni/data_ora/funzioni/age.md
+            - datetime_from_epoch: gr_funzioni/data_ora/funzioni/datetime_from_epoch.md
+            - day: gr_funzioni/data_ora/funzioni/day.md
+            - day_of_week: gr_funzioni/data_ora/funzioni/day_of_week.md
+            - epoch: gr_funzioni/data_ora/funzioni/epoch.md
+            - format_date: gr_funzioni/data_ora/funzioni/format_date.md
+            - hour: gr_funzioni/data_ora/funzioni/hour.md
+            - make_date: gr_funzioni/data_ora/funzioni/make_date.md
+            - make_datetime: gr_funzioni/data_ora/funzioni/make_datetime.md
+            - make_interval: gr_funzioni/data_ora/funzioni/make_interval.md
+            - make_time: gr_funzioni/data_ora/funzioni/make_time.md
+            - minute: gr_funzioni/data_ora/funzioni/minute.md
+            - month: gr_funzioni/data_ora/funzioni/month.md
+            - now: gr_funzioni/data_ora/funzioni/now.md
+            - second: gr_funzioni/data_ora/funzioni/second.md
+            - to_date: gr_funzioni/data_ora/funzioni/to_date.md
+            - to_datetime: gr_funzioni/data_ora/funzioni/to_datetime.md
+            - to_interval: gr_funzioni/data_ora/funzioni/to_interval.md
+            - to_time: gr_funzioni/data_ora/funzioni/to_time.md
+            - week: gr_funzioni/data_ora/funzioni/week.md
+            - year: gr_funzioni/data_ora/funzioni/year.md
        - Generale:
             - Elenco: gr_funzioni/generale/generale.md
-            - env: env.md
-            - eval: eval.md
-            - is_layer_visible: is_layer_visible.md
-            - layer_property: layer_property.md
-            - var: var.md
-            - with_variable: with_variable.md
+            - env:  gr_funzioni/generale/env.md
+            - eval:  gr_funzioni/generale/eval.md
+            - is_layer_visible:  gr_funzioni/generale/is_layer_visible.md
+            - layer_property:  gr_funzioni/generale/layer_property.md
+            - var:  gr_funzioni/generale/var.md
+            - with_variable:  gr_funzioni/generale/with_variable.md
        - Geometria:
             - Elenco: gr_funzioni/geometria/geometria.md
-            - $area: $area.md
-            - $geometry: $geometry.md
-            - $length: $length.md
-            - $perimeter: $perimeter.md
-            - $x: $x.md
-            - $x_at: $x_at.md
-            - $y: $y.md
-            - $y_at: $y_at.md
-            - angle_at_vertex: angle_at_vertex.md
-            - area: area.md
-            - azimuth: azimuth.md
-            - boundary: boundary.md
-            - bounds: bounds.md
-            - bounds_height: bounds_height.md
-            - bounds_width: bounds_width.md
-            - buffer: buffer.md
-            - centroid: centroid.md
-            - close_line: close_line.md
-            - closest_point: closest_point.md
-            - collect_geometries: funzioni/collect_geometries.md
-            - combine: combine.md
-            - contains: contains.md
-            - convex_hull: convex_hull.md
-            - crosses: crosses.md
-            - difference: difference.md
-            - disjoint: disjoint.md
-            - distance: distance.md
-            - distance_to_vertex: distance_to_vertex.md
-            - end_point: end_point.md
-            - extend: extend.md
-            - exterior_ring: exterior_ring.md
-            - extrude: extrude.md
-            - flip_coordinates: flip_coordinates.md
-            - geom_from_gml: geom_from_gml.md
-            - geom_from_wkb: geom_from_wkb.md
-            - geom_from_wkt: geom_from_wkt.md
-            - geom_to_wkb: geom_to_wkb.md
-            - geom_to_wkt: geom_to_wkt.md
-            - geometry: geometry.md
-            - geometry_n: geometry_n.md
-            - hausdorff_distance: hausdorff_distance.md
-            - inclination: inclination.md
-            - interior_ring_n: interior_ring_n.md
-            - intersection: intersection.md
-            - intersects: intersects.md
-            - intersects_bbox: intersects_bbox.md
-            - is_closed: is_closed.md
-            - is_empty: is_empty.md
-            - is_empty_or_null: is_empty_or_null.md
-            - is_multipart: is_multipart.md
-            - is_valid: is_valid.md
-            - length: length.md
-            - line_interpolate_angle: line_interpolate_angle.md
-            - line_interpolate_point: line_interpolate_point.md
-            - line_locate_point: line_locate_point.md
-            - line_merge: line_merge.md
-            - line_substring: line_substring.md
-            - m: m.md
-            - m_max: m_max.md
-            - m_min: m_min.md
-            - main_angle: main_angle.md
-            - make_circle: make_circle.md
-            - make_ellipse: make_ellipse.md
-            - make_line: make_line.md
-            - make_point: make_point.md
-            - make_point_m: make_point_m.md
-            - make_polygon: make_polygon.md
-            - make_rectangle_3points: make_rectangle_3points.md
-            - make_regular_polygon: make_regular_polygon.md
-            - make_square: make_square.md
-            - make_triangle: make_triangle.md
-            - minimal_circle: minimal_circle.md
-            - nodes_to_points: nodes_to_points.md
-            - num_geometries: num_geometries.md
-            - num_interior_rings: num_interior_rings.md
-            - num_points: num_points.md
-            - num_rings: num_rings.md
-            - offset_curve: offset_curve.md
-            - order_parts: order_parts.md
-            - oriented_bbox: oriented_bbox.md
-            - overlaps: overlaps.md
-            - overlay_contains: overlay_contains.md)
-            - overlay_crosses: overlay_crosses.md
-            - overlay_disjoint: overlay_disjoint.md
-            - overlay_equals: overlay_equals.md
-            - overlay_intersects: overlay_intersects.md
-            - overlay_nearest: overlay_nearest.md
-            - overlay_touches: overlay_touches.md
-            - overlay_within: overlay_within.md
-            - perimeter: perimeter.md
-            - point_n: point_n.md
-            - point_on_surface: point_on_surface.md
-            - pole_of_inaccessibility: pole_of_inaccessibility.md
-            - project: project.md
-            - relate: relate.md
-            - reverse: reverse.md
-            - rotate: rotate.md
-            - segments_to_lines: segments_to_lines.md
-            - shortest_line: shortest_line.md
-            - simplify: simplify.md
-            - simplify_vw: simplify_vw.md
-            - single_sided_buffer: single_sided_buffer.md
-            - smooth: smooth.md
-            - start_point: start_point.md
-            - sym_difference: sym_difference.md
-            - tapered_buffer: tapered_buffer.md
-            - touches: touches.md
-            - transform: transform.md
-            - translate: translate.md
-            - union: union.md
-            - wedge_buffer: wedge_buffer.md
-            - within: within.md
-            - x: x.md
-            - x_min: x_min.md
-            - x_max: x_max.md
-            - y: y.md
-            - y_min: y_min.md
-            - y_max: y_max.md
-            - z: z.md
-            - z_max: z_max.md
-            - z_min: z_min.md
+            - $area: gr_funzioni/geometria/$area.md
+            - $geometry: gr_funzioni/geometria/$geometry.md
+            - $length: gr_funzioni/geometria/$length.md
+            - $perimeter: gr_funzioni/geometria/$perimeter.md
+            - $x: gr_funzioni/geometria/$x.md
+            - $x_at: gr_funzioni/geometria/$x_at.md
+            - $y: gr_funzioni/geometria/$y.md
+            - $y_at: gr_funzioni/geometria/$y_at.md
+            - angle_at_vertex: gr_funzioni/geometria/angle_at_vertex.md
+            - area: gr_funzioni/geometria/area.md
+            - azimuth: gr_funzioni/geometria/azimuth.md
+            - boundary: gr_funzioni/geometria/boundary.md
+            - bounds: gr_funzioni/geometria/bounds.md
+            - bounds_height: gr_funzioni/geometria/bounds_height.md
+            - bounds_width: gr_funzioni/geometria/bounds_width.md
+            - buffer: gr_funzioni/geometria/buffer.md
+            - centroid: gr_funzioni/geometria/centroid.md
+            - close_line: gr_funzioni/geometria/close_line.md
+            - closest_point: gr_funzioni/geometria/closest_point.md
+            - collect_geometries: gr_funzioni/geometria/funzioni/collect_geometries.md
+            - combine: gr_funzioni/geometria/combine.md
+            - contains: gr_funzioni/geometria/contains.md
+            - convex_hull: gr_funzioni/geometria/convex_hull.md
+            - crosses: gr_funzioni/geometria/crosses.md
+            - difference: gr_funzioni/geometria/difference.md
+            - disjoint: gr_funzioni/geometria/disjoint.md
+            - distance: gr_funzioni/geometria/distance.md
+            - distance_to_vertex: gr_funzioni/geometria/distance_to_vertex.md
+            - end_point: gr_funzioni/geometria/end_point.md
+            - extend: gr_funzioni/geometria/extend.md
+            - exterior_ring: gr_funzioni/geometria/exterior_ring.md
+            - extrude: gr_funzioni/geometria/extrude.md
+            - flip_coordinates: gr_funzioni/geometria/flip_coordinates.md
+            - geom_from_gml: gr_funzioni/geometria/geom_from_gml.md
+            - geom_from_wkb: gr_funzioni/geometria/geom_from_wkb.md
+            - geom_from_wkt: gr_funzioni/geometria/geom_from_wkt.md
+            - geom_to_wkb: gr_funzioni/geometria/geom_to_wkb.md
+            - geom_to_wkt: gr_funzioni/geometria/geom_to_wkt.md
+            - geometry: gr_funzioni/geometria/geometry.md
+            - geometry_n: gr_funzioni/geometria/geometry_n.md
+            - hausdorff_distance: gr_funzioni/geometria/hausdorff_distance.md
+            - inclination: gr_funzioni/geometria/inclination.md
+            - interior_ring_n: gr_funzioni/geometria/interior_ring_n.md
+            - intersection: gr_funzioni/geometria/intersection.md
+            - intersects: gr_funzioni/geometria/intersects.md
+            - intersects_bbox: gr_funzioni/geometria/intersects_bbox.md
+            - is_closed: gr_funzioni/geometria/is_closed.md
+            - is_empty: gr_funzioni/geometria/is_empty.md
+            - is_empty_or_null: gr_funzioni/geometria/is_empty_or_null.md
+            - is_multipart: gr_funzioni/geometria/is_multipart.md
+            - is_valid: gr_funzioni/geometria/is_valid.md
+            - length: gr_funzioni/geometria/length.md
+            - line_interpolate_angle: gr_funzioni/geometria/line_interpolate_angle.md
+            - line_interpolate_point: gr_funzioni/geometria/line_interpolate_point.md
+            - line_locate_point: gr_funzioni/geometria/line_locate_point.md
+            - line_merge: gr_funzioni/geometria/line_merge.md
+            - line_substring: gr_funzioni/geometria/line_substring.md
+            - m: gr_funzioni/geometria/m.md
+            - m_max: gr_funzioni/geometria/m_max.md
+            - m_min: gr_funzioni/geometria/m_min.md
+            - main_angle: gr_funzioni/geometria/main_angle.md
+            - make_circle: gr_funzioni/geometria/make_circle.md
+            - make_ellipse: gr_funzioni/geometria/make_ellipse.md
+            - make_line: gr_funzioni/geometria/make_line.md
+            - make_point: gr_funzioni/geometria/make_point.md
+            - make_point_m: gr_funzioni/geometria/make_point_m.md
+            - make_polygon: gr_funzioni/geometria/make_polygon.md
+            - make_rectangle_3points: gr_funzioni/geometria/make_rectangle_3points.md
+            - make_regular_polygon: gr_funzioni/geometria/make_regular_polygon.md
+            - make_square: gr_funzioni/geometria/make_square.md
+            - make_triangle: gr_funzioni/geometria/make_triangle.md
+            - minimal_circle: gr_funzioni/geometria/minimal_circle.md
+            - nodes_to_points: gr_funzioni/geometria/nodes_to_points.md
+            - num_geometries: gr_funzioni/geometria/num_geometries.md
+            - num_interior_rings: gr_funzioni/geometria/num_interior_rings.md
+            - num_points: gr_funzioni/geometria/num_points.md
+            - num_rings: gr_funzioni/geometria/num_rings.md
+            - offset_curve: gr_funzioni/geometria/offset_curve.md
+            - order_parts: gr_funzioni/geometria/order_parts.md
+            - oriented_bbox: gr_funzioni/geometria/oriented_bbox.md
+            - overlaps: gr_funzioni/geometria/overlaps.md
+            - overlay_contains: gr_funzioni/geometria/overlay_contains.md)
+            - overlay_crosses: gr_funzioni/geometria/overlay_crosses.md
+            - overlay_disjoint: gr_funzioni/geometria/overlay_disjoint.md
+            - overlay_equals: gr_funzioni/geometria/overlay_equals.md
+            - overlay_intersects: gr_funzioni/geometria/overlay_intersects.md
+            - overlay_nearest: gr_funzioni/geometria/overlay_nearest.md
+            - overlay_touches: gr_funzioni/geometria/overlay_touches.md
+            - overlay_within: gr_funzioni/geometria/overlay_within.md
+            - perimeter: gr_funzioni/geometria/perimeter.md
+            - point_n: gr_funzioni/geometria/point_n.md
+            - point_on_surface: gr_funzioni/geometria/point_on_surface.md
+            - pole_of_inaccessibility: gr_funzioni/geometria/pole_of_inaccessibility.md
+            - project: gr_funzioni/geometria/project.md
+            - relate: gr_funzioni/geometria/relate.md
+            - reverse: gr_funzioni/geometria/reverse.md
+            - rotate: gr_funzioni/geometria/rotate.md
+            - segments_to_lines: gr_funzioni/geometria/segments_to_lines.md
+            - shortest_line: gr_funzioni/geometria/shortest_line.md
+            - simplify: gr_funzioni/geometria/simplify.md
+            - simplify_vw: gr_funzioni/geometria/simplify_vw.md
+            - single_sided_buffer: gr_funzioni/geometria/single_sided_buffer.md
+            - smooth: gr_funzioni/geometria/smooth.md
+            - start_point: gr_funzioni/geometria/start_point.md
+            - sym_difference: gr_funzioni/geometria/sym_difference.md
+            - tapered_buffer: gr_funzioni/geometria/tapered_buffer.md
+            - touches: gr_funzioni/geometria/touches.md
+            - transform: gr_funzioni/geometria/transform.md
+            - translate: gr_funzioni/geometria/translate.md
+            - union: gr_funzioni/geometria/union.md
+            - wedge_buffer: gr_funzioni/geometria/wedge_buffer.md
+            - within: gr_funzioni/geometria/within.md
+            - x: gr_funzioni/geometria/x.md
+            - x_min: gr_funzioni/geometria/x_min.md
+            - x_max: gr_funzioni/geometria/x_max.md
+            - y: gr_funzioni/geometria/y.md
+            - y_min: gr_funzioni/geometria/y_min.md
+            - y_max: gr_funzioni/geometria/y_max.md
+            - z: gr_funzioni/geometria/z.md
+            - z_max: gr_funzioni/geometria/z_max.md
+            - z_min: gr_funzioni/geometria/z_min.md
        - Layer della mappa:
             - Elenco: gr_funzioni/layer_della_mappa/layer.md
-            - Layer della mappa: layer_della_mappa.md
-            - decode_uri: decode_uri.md
+            - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md
+            - decode_uri: gr_funzioni/layer_della_mappa/decode_uri.md
        - Maps:
             - Elenco: gr_funzioni/maps/maps.md
-            - from_json: funzioni/from_json.md
-            - hstore_to_map: funzioni/hstore_to_map.md
-            - json_to_map: funzioni/json_to_map.md
-            - map: funzioni/map.md
-            - map_akeys: funzioni/map_akeys.md
-            - map_avals: funzioni/map_avals.md
-            - map_concat: funzioni/map_concat.md
-            - map_delete: funzioni/map_delete.md
-            - map_exist: funzioni/map_exist.md
-            - map_get: funzioni/map_get.md
-            - map_insert: funzioni/map_insert.md
-            - map_to_hstore: funzioni/map_to_hstore.md
-            - map_to_json: funzioni/map_to_json.md
-            - to_json: funzioni/to_json.md 
+            - from_json: gr_funzioni/maps/from_json.md
+            - hstore_to_map: gr_funzioni/maps/hstore_to_map.md
+            - json_to_map: gr_funzioni/maps/json_to_map.md
+            - map: gr_funzioni/maps/map.md
+            - map_akeys: gr_funzioni/maps/map_akeys.md
+            - map_avals: gr_funzioni/maps/map_avals.md
+            - map_concat: gr_funzioni/maps/map_concat.md
+            - map_delete: gr_funzioni/maps/map_delete.md
+            - map_exist: gr_funzioni/maps/map_exist.md
+            - map_get: gr_funzioni/maps/map_get.md
+            - map_insert: gr_funzioni/maps/map_insert.md
+            - map_to_hstore: gr_funzioni/maps/map_to_hstore.md
+            - map_to_json: gr_funzioni/maps/map_to_json.md
+            - to_json: gr_funzioni/maps/to_json.md 
        - Matematica:
             - Elenco: gr_funzioni/matematica/matematica.md
-            - abs: abs.md
-            - acos: acos.md
-            - asin: asin.md
-            - atan: atan.md
-            - atan2(dy,dx): atan2.md
-            - azimuth(a,b): azimuth.md
-            - ceil: ceil.md
-            - clamp: clamp.md
-            - cos: cos.md
-            - degrees: degrees.md
-            - exp: exp.md
-            - floor: floor.md
-            - Inclination: Inclination.md
-            - ln: ln.md
-            - log: log.md
-            - log10: log10.md
-            - max: max.md
-            - min: min.md
-            - pi: pi.md
-            - radians: radians.md
-            - rand: rand.md
-            - randf: randf.md
-            - round: round.md
-            - scale_exp: scale_exp.md
-            - scale_linear: scale_linear.md
-            - sin: sin.md
-            - sqrt: sqrt.md
-            - tan: tan.md
+            - abs: gr_funzioni/matematica/abs.md
+            - acos: gr_funzioni/matematica/acos.md
+            - asin: gr_funzioni/matematica/asin.md
+            - atan: gr_funzioni/matematica/atan.md
+            - atan2(dy,dx): gr_funzioni/matematica/atan2.md
+            - azimuth(a,b): gr_funzioni/matematica/azimuth.md
+            - ceil: gr_funzioni/matematica/ceil.md
+            - clamp: gr_funzioni/matematica/clamp.md
+            - cos: gr_funzioni/matematica/cos.md
+            - degrees: gr_funzioni/matematica/degrees.md
+            - exp: gr_funzioni/matematica/exp.md
+            - floor: gr_funzioni/matematica/floor.md
+            - Inclination: gr_funzioni/matematica/Inclination.md
+            - ln: gr_funzioni/matematica/ln.md
+            - log: gr_funzioni/matematica/log.md
+            - log10: gr_funzioni/matematica/log10.md
+            - max: gr_funzioni/matematica/max.md
+            - min: gr_funzioni/matematica/min.md
+            - pi: gr_funzioni/matematica/pi.md
+            - radians: gr_funzioni/matematica/radians.md
+            - rand: gr_funzioni/matematica/rand.md
+            - randf: gr_funzioni/matematica/randf.md
+            - round: gr_funzioni/matematica/round.md
+            - scale_exp: gr_funzioni/matematica/scale_exp.md
+            - scale_linear: gr_funzioni/matematica/scale_linear.md
+            - sin: gr_funzioni/matematica/sin.md
+            - sqrt: gr_funzioni/matematica/sqrt.md
+            - tan: gr_funzioni/matematica/tan.md
        - Operatori:
             - Elenco: gr_funzioni/operatori/operatori.md
-            - a + b: somma.md
-            - a - b: meno.md
-            - a * b: prodotto.md
-            - a / b: divisione.md
-            - a % b: resto_divisione.md
-            - a ^ b: potenza.md
-            - a < b: minore.md
-            - a <= b: minoreuguale.md
-            - a <> b: diverso.md
-            - a = b: uguale.md
-            - a > b: maggiore.md
-            - a >= b: maggioreuguale.md
-            - a ~ b: tilde.md
-            - \|\|: doppio_pipe.md
-            - LIKE: LIKE.md
-            - ILIKE: ILIKE.md
-            - a IS b: IS.md
-            - a OR b: OR.md
-            - a AND b: AND.md
-            - NOT: NOT.md
-            - a IN (a,b,..): IN.md
+            - a + b: gr_funzioni/operatori/somma.md
+            - a - b: gr_funzioni/operatori/meno.md
+            - a * b: gr_funzioni/operatori/prodotto.md
+            - a / b: gr_funzioni/operatori/divisione.md
+            - a % b: gr_funzioni/operatori/resto_divisione.md
+            - a ^ b: gr_funzioni/operatori/potenza.md
+            - a < b: gr_funzioni/operatori/minore.md
+            - a <= b: gr_funzioni/operatori/minoreuguale.md
+            - a <> b: gr_funzioni/operatori/diverso.md
+            - a = b: gr_funzioni/operatori/uguale.md
+            - a > b: gr_funzioni/operatori/maggiore.md
+            - a >= b: gr_funzioni/operatori/maggioreuguale.md
+            - a ~ b: gr_funzioni/operatori/tilde.md
+            - \|\|: gr_funzioni/operatori/doppio_pipe.md
+            - LIKE: gr_funzioni/operatori/LIKE.md
+            - ILIKE: gr_funzioni/operatori/ILIKE.md
+            - a IS b: gr_funzioni/operatori/IS.md
+            - a OR b: gr_funzioni/operatori/OR.md
+            - a AND b: gr_funzioni/operatori/AND.md
+            - NOT: gr_funzioni/operatori/NOT.md
+            - a IN (a,b,..): gr_funzioni/operatori/IN.md
        - Rasters:
             - Elenco: gr_funzioni/rasters/rasters.md
-            - raster_statistic: raster_statistic.md
-            - raster_value: raster_value.md
+            - raster_statistic: gr_funzioni/rasters/raster_statistic.md
+            - raster_value: gr_funzioni/rasters/raster_value.md
        - Recente: gr_funzioni/recente/recente.md
        - Record e attributi:
             - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
-            - \$currentfeature: $currentfeature.md
-            - \$id: $id.md
-            - \$map: $map.md
-            - attribute: attribute.md
-            - get_feature: get_feature.md
-            - get_feature_by_id: get_feature_by_id.md
-            - is_selected: is_selected.md
-            - num_selected: num_selected.md
-            - represent_value: represent_value.md
-            - uuid: uuid.md
+            - \$currentfeature: gr_funzioni/record_e_attributi/$currentfeature.md
+            - \$id: gr_funzioni/record_e_attributi/$id.md
+            - \$map: gr_funzioni/record_e_attributi/$map.md
+            - attribute: gr_funzioni/record_e_attributi/attribute.md
+            - get_feature: gr_funzioni/record_e_attributi/get_feature.md
+            - get_feature_by_id: gr_funzioni/record_e_attributi/get_feature_by_id.md
+            - is_selected: gr_funzioni/record_e_attributi/is_selected.md
+            - num_selected: gr_funzioni/record_e_attributi/num_selected.md
+            - represent_value: gr_funzioni/record_e_attributi/represent_value.md
+            - uuid: gr_funzioni/record_e_attributi/uuid.md
        - Reference:
             - Elenco: gr_funzioni/reference/reference.md
-            - dbvalue: dbvalue.md
-            - dbvaluebyid: dbvaluebyid.md
-            - dbquery: dbquery.md
-            - dbsql: dbsql.md
+            - dbvalue: gr_funzioni/reference/dbvalue.md
+            - dbvaluebyid: gr_funzioni/reference/dbvaluebyid.md
+            - dbquery: gr_funzioni/reference/dbquery.md
+            - dbsql: gr_funzioni/reference/dbsql.md
             - Funzioni WKT:
-                - WKTcentroid: WKTcentroid.md
-                - WKTpointonsurface: WKTpointonsurface.md
-                - WKTlenght: WKTlenght.md
-                - WKTarea: WKTarea.md
+                - WKTcentroid: gr_funzioni/reference/WKTcentroid.md
+                - WKTpointonsurface: gr_funzioni/reference/WKTpointonsurface.md
+                - WKTlenght: gr_funzioni/reference/WKTlenght.md
+                - WKTarea: gr_funzioni/reference/WKTarea.md
             - Funzioni geometriche:
-                - geomRedef: geomRedef.md
-                - geomnearest: geomnearest.md
-                - geomdistance: geomdistance.md
-                - geomwithin: geomwithin.md
-                - geomtouches: geomtouches.md
-                - geomintersects: geomintersects.md
-                - geomcontains: geomcontains.md
-                - geomcwithin: geomcwithin.md
-                - geomequals: geomequals.md
-                - geomoverlaps: geomoverlaps.md
-                - geomcrosses: geomcrosses.md
-                - geomdisjoint: geomdisjoint.md
-                - intersecting_geom_count: intersecting_geom_count.md
-                - intersecting_geom_sum: intersecting_geom_sum.md
+                - geomRedef: gr_funzioni/reference/geomRedef.md
+                - geomnearest: gr_funzioni/reference/geomnearest.md
+                - geomdistance: gr_funzioni/reference/geomdistance.md
+                - geomwithin: gr_funzioni/reference/geomwithin.md
+                - geomtouches: gr_funzioni/reference/geomtouches.md
+                - geomintersects: gr_funzioni/reference/geomintersects.md
+                - geomcontains: gr_funzioni/reference/geomcontains.md
+                - geomcwithin: gr_funzioni/reference/geomcwithin.md
+                - geomequals: gr_funzioni/reference/geomequals.md
+                - geomoverlaps: gr_funzioni/reference/geomoverlaps.md
+                - geomcrosses: gr_funzioni/reference/geomcrosses.md
+                - geomdisjoint: gr_funzioni/reference/geomdisjoint.md
+                - intersecting_geom_count: gr_funzioni/reference/intersecting_geom_count.md
+                - intersecting_geom_sum: gr_funzioni/reference/intersecting_geom_sum.md
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo:
             - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
-            - bla bla: bla.md
+            - ascii: gr_funzioni/stringhe_di_testo/funzioni/ascii.md
+            - char: gr_funzioni/stringhe_di_testo/char.md
+            - concat: gr_funzioni/stringhe_di_testo/concat.md
+            - format: gr_funzioni/stringhe_di_testo/format.md
+            - format_date: gr_funzioni/stringhe_di_testo/format_date.md
+            - format_number: gr_funzioni/stringhe_di_testo/format_number.md
+            - left(string, n): gr_funzioni/stringhe_di_testo/left.md
+            - length: gr_funzioni/stringhe_di_testo/length.md
+            - lower: gr_funzioni/stringhe_di_testo/lower.md
+            - lpad: gr_funzioni/stringhe_di_testo/lpad.md
+            - regexp_match: gr_funzioni/stringhe_di_testo/regexp_match.md
+            - regexp_replace: gr_funzioni/stringhe_di_testo/regexp_replace.md
+            - regexp_substr: gr_funzioni/stringhe_di_testo/regexp_substr.md
+            - replace: gr_funzioni/stringhe_di_testo/replace.md
+            - right(string, n): gr_funzioni/stringhe_di_testo/right.md
+            - rpad: gr_funzioni/stringhe_di_testo/rpad.md
+            - strpos: gr_funzioni/stringhe_di_testo/strpos.md
+            - substr: gr_funzioni/stringhe_di_testo/substr.md
+            - title: gr_funzioni/stringhe_di_testo/title.md
+            - to_string: gr_funzioni/stringhe_di_testo/to_string.md
+            - trim: gr_funzioni/stringhe_di_testo/trim.md
+            - upper: gr_funzioni/stringhe_di_testo/upper.md
+            - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
        - Timemanager:  gr_funzioni/timemanager/timemanager.md
        - Variabili:
             - Elenco: gr_funzioni/variabili/variabili.md
-            - bla bla: bla.md              
+            - atlas_feature: gr_funzioni/variabili/atlas_feature.md
+            - atlas_featureid: gr_funzioni/variabili/atlas_featureid.md
+            - atlas_featurenumber: gr_funzioni/variabili/atlas_featurenumber.md
+            - atlas_filename: gr_funzioni/variabili/atlas_filename.md
+            - atlas_geometry: gr_funzioni/variabili/atlas_geometry.md
+            - atlas_layerid: gr_funzioni/variabili/atlas_layerid.md
+            - atlas_layername: gr_funzioni/variabili/atlas_layername.md
+            - atlas_pagename: gr_funzioni/variabili/atlas_pagename.md
+            - atlas_totalfeatures: gr_funzioni/variabili/atlas_totalfeatures.md
+            - cluster_color: gr_funzioni/variabili/cluster_color.md
+            - cluster_size: gr_funzioni/variabili/cluster_size.md
+            - geometry_part_count: gr_funzioni/variabili/geometry_part_count.md
+            - geometry_part_num: gr_funzioni/variabili/geometry_part_num.md
+            - geometry_point_count: gr_funzioni/variabili/geometry_point_count.md
+            - geometry_point_num: gr_funzioni/variabili/geometry_point_num.md
+            - grid_axis: gr_funzioni/variabili/grid_axis.md
+            - grid_number: gr_funzioni/variabili/grid_number.md
+            - item_id: gr_funzioni/variabili/item_id.md
+            - item_uuid: gr_funzioni/variabili/item_uuid.md
+            - layer: gr_funzioni/variabili/layer.md
+            - layer_id: gr_funzioni/variabili/layer_id.md
+            - layer_name: gr_funzioni/variabili/layer_name.md
+            - layout_dpi: gr_funzioni/variabili/layout_dpi.md
+            - layout_name: gr_funzioni/variabili/layout_name.md
+            - layout_numpages: gr_funzioni/variabili/layout_numpages.md
+            - layout_page: gr_funzioni/variabili/layout_page.md
+            - layout_pageheight: gr_funzioni/variabili/layout_pageheight.md
+            - layout_pagewidth: gr_funzioni/variabili/layout_pagewidth.md
+            - map_crs: gr_funzioni/variabili/map_crs.md
+            - map_crs_definition: gr_funzioni/variabili/map_crs_definition.md
+            - map_extent: gr_funzioni/variabili/map_extent.md
+            - map_extent_center: gr_funzioni/variabili/map_extent_center.md
+            - map_extent_height: gr_funzioni/variabili/map_extent_height.md
+            - map_extent_width: gr_funzioni/variabili/map_extent_width.md
+            - map_id: gr_funzioni/variabili/map_id.md
+            - map_rotation: gr_funzioni/variabili/map_rotation.md
+            - map_scale: gr_funzioni/variabili/map_scale.md
+            - map_units: gr_funzioni/variabili/map_units.md
+            - parent: gr_funzioni/variabili/parent.md
+            - project_abstract: gr_funzioni/variabili/project_abstract.md
+            - project_author: gr_funzioni/variabili/project_author.md
+            - project_creation_date: gr_funzioni/variabili/project_creation_datemd
+            - project_identifier: gr_funzioni/variabili/project_identifier.md
+            - project_keywords: gr_funzioni/variabili/project_keywords.md
+            - project_crs: gr_funzioni/variabili/project_crs.md
+            - project_crs_definition: gr_funzioni/variabili/project_crs_definition.md
+            - project_filename: gr_funzioni/variabili/project_filename.md
+            - project_folder: gr_funzioni/variabili/project_folder.md
+            - project_path: gr_funzioni/variabili/project_path.md
+            - project_title: gr_funzioni/variabili/project_title.md
+            - qgis_locale: gr_funzioni/variabili/qgis_locale.md
+            - qgis_os_name: gr_funzioni/variabili/qgis_os_name.md
+            - qgis_platform: gr_funzioni/variabili/qgis_platform.md
+            - qgis_release_name: gr_funzioni/variabili/qgis_release_name.md
+            - qgis_short_version: gr_funzioni/variabili/qgis_short_version.md
+            - qgis_version: gr_funzioni/variabili/qgis_version.md
+            - qgis_version_no: gr_funzioni/variabili/qgis_version_no.md
+            - snapping_results: gr_funzioni/variabili/snapping_results.md
+            - symbol_angle: gr_funzioni/variabili/symbol_angle.md
+            - symbol_color: gr_funzioni/variabili/symbol_color.md
+            - user_account_name: gr_funzioni/variabili/user_account_name.md
+            - user_full_name: gr_funzioni/variabili/user_full_name.md
+            - row_number: gr_funzioni/variabili/row_number.md
+            - value: gr_funzioni/variabili/value.md
+            - with_variable: gr_funzioni/variabili/with_variable.md    
        - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
