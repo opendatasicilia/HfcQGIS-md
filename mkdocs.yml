@@ -398,26 +398,120 @@ nav:
             - z_min: z_min.md
        - Layer della mappa:
             - Elenco: gr_funzioni/layer_della_mappa/layer.md
-            - bla bla: bla.md  
+            - Layer della mappa: layer_della_mappa.md
+            - decode_uri: decode_uri.md
        - Maps:
             - Elenco: gr_funzioni/maps/maps.md
-            - bla bla: bla.md  
+            - from_json: funzioni/from_json.md
+            - hstore_to_map: funzioni/hstore_to_map.md
+            - json_to_map: funzioni/json_to_map.md
+            - map: funzioni/map.md
+            - map_akeys: funzioni/map_akeys.md
+            - map_avals: funzioni/map_avals.md
+            - map_concat: funzioni/map_concat.md
+            - map_delete: funzioni/map_delete.md
+            - map_exist: funzioni/map_exist.md
+            - map_get: funzioni/map_get.md
+            - map_insert: funzioni/map_insert.md
+            - map_to_hstore: funzioni/map_to_hstore.md
+            - map_to_json: funzioni/map_to_json.md
+            - to_json: funzioni/to_json.md 
        - Matematica:
             - Elenco: gr_funzioni/matematica/matematica.md
-            - bla bla: bla.md  
+            - abs: abs.md
+            - acos: acos.md
+            - asin: asin.md
+            - atan: atan.md
+            - atan2(dy,dx): atan2.md
+            - azimuth(a,b): azimuth.md
+            - ceil: ceil.md
+            - clamp: clamp.md
+            - cos: cos.md
+            - degrees: degrees.md
+            - exp: exp.md
+            - floor: floor.md
+            - Inclination: Inclination.md
+            - ln: ln.md
+            - log: log.md
+            - log10: log10.md
+            - max: max.md
+            - min: min.md
+            - pi: pi.md
+            - radians: radians.md
+            - rand: rand.md
+            - randf: randf.md
+            - round: round.md
+            - scale_exp: scale_exp.md
+            - scale_linear: scale_linear.md
+            - sin: sin.md
+            - sqrt: sqrt.md
+            - tan: tan.md
        - Operatori:
             - Elenco: gr_funzioni/operatori/operatori.md
-            - bla bla: bla.md  
+            - a + b: somma.md
+            - a - b: meno.md
+            - a * b: prodotto.md
+            - a / b: divisione.md
+            - a % b: resto_divisione.md
+            - a ^ b: potenza.md
+            - a < b: minore.md
+            - a <= b: minoreuguale.md
+            - a <> b: diverso.md
+            - a = b: uguale.md
+            - a > b: maggiore.md
+            - a >= b: maggioreuguale.md
+            - a ~ b: tilde.md
+            - \|\|: doppio_pipe.md
+            - LIKE: LIKE.md
+            - ILIKE: ILIKE.md
+            - a IS b: IS.md
+            - a OR b: OR.md
+            - a AND b: AND.md
+            - NOT: NOT.md
+            - a IN (a,b,..): IN.md
        - Rasters:
             - Elenco: gr_funzioni/rasters/rasters.md
-            - bla bla: bla.md  
+            - raster_statistic: raster_statistic.md
+            - raster_value: raster_value.md
        - Recente: gr_funzioni/recente/recente.md
        - Record e attributi:
             - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
-            - bla bla: bla.md  
+            - \$currentfeature: $currentfeature.md
+            - \$id: $id.md
+            - \$map: $map.md
+            - attribute: attribute.md
+            - get_feature: get_feature.md
+            - get_feature_by_id: get_feature_by_id.md
+            - is_selected: is_selected.md
+            - num_selected: num_selected.md
+            - represent_value: represent_value.md
+            - uuid: uuid.md
        - Reference:
             - Elenco: gr_funzioni/reference/reference.md
-            - bla bla: bla.md  
+            - dbvalue: dbvalue.md
+            - dbvaluebyid: dbvaluebyid.md
+            - dbquery: dbquery.md
+            - dbsql: dbsql.md
+            - Funzioni WKT:
+                - WKTcentroid: WKTcentroid.md
+                - WKTpointonsurface: WKTpointonsurface.md
+                - WKTlenght: WKTlenght.md
+                - WKTarea: WKTarea.md
+            - Funzioni geometriche:
+                - geomRedef: geomRedef.md
+                - geomnearest: geomnearest.md
+                - geomdistance: geomdistance.md
+                - geomwithin: geomwithin.md
+                - geomtouches: geomtouches.md
+                - geomintersects: geomintersects.md
+                - geomcontains: geomcontains.md
+                - geomcwithin: geomcwithin.md
+                - geomequals: geomequals.md
+                - geomoverlaps: geomoverlaps.md
+                - geomcrosses: geomcrosses.md
+                - geomdisjoint: geomdisjoint.md
+                - intersecting_geom_count: intersecting_geom_count.md
+                - intersecting_geom_sum: intersecting_geom_sum.md
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo:
             - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
