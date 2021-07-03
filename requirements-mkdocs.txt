@@ -14,5 +14,6 @@ mkdocs-jupyter
 mkdocs-exclude
 mkdocs-exclude-search
 mkdocs-macros-plugin
+tags
 
 
