@@ -16,7 +16,7 @@ smooth(_geometry, iterations, offset, min_length, max_angle_)
 
 ## Esempi
 
-![](/img/geometria/smooth/smooth1.png)
+![](../../img/geometria/smooth/smooth1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ smooth(_geometry, iterations, offset, min_length, max_angle_)
 
 --
 
-![](/img/geometria/smooth/smooth1.png)
+![](../../img/geometria/smooth/smooth1.png)

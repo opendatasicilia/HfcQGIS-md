@@ -27,4 +27,4 @@ Testa una condizione e restituisce un risultato diverso a seconda della verifica
 
 --
 
-![](/img/condizioni/if1.png)
+![](../../img/condizioni/if1.png)

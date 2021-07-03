@@ -19,4 +19,4 @@ to_int('123') → 123
 
 un testo va scritto sempre tra apici semplici es: '123' - vedi wiki
 
-![](/img/conversioni/to_int1.png)
+![](../../img/conversioni/to_int1.png)

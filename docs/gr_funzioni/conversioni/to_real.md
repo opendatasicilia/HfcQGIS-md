@@ -18,4 +18,4 @@ to_real('123.45') → 123.45
 
 Il punto (.) è il separatore decimale.
 
-![](/img/conversioni/to_real1.png)
+![](../../img/conversioni/to_real1.png)

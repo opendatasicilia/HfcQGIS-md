@@ -22,4 +22,4 @@ Questo gruppo contiene le funzioni per manipolare i colori
 |[ramp_color](ramp_color.html)|Restituisce una stringa rappresentante un colore ottenuto da una scala colore|
 |[set_color_part](set_color_part.html)|Imposta uno specifico componente colore per un stringa colore|
 
-![](/img/colore/gruppo_colore1.png)
+![](../../img/colore/gruppo_colore1.png)

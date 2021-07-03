@@ -16,7 +16,7 @@ intersects_bbox(<span style="color:red;">_geometry1_</span>, <span style="color:
 * `intersects_bbox( geom_from_wkt( 'POINT(4 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → vero`
 * `intersects_bbox( geom_from_wkt( 'POINT(6 5)' ), geom_from_wkt( 'POLYGON((3 3, 4 4, 5 5, 3 3))' ) ) → falso`
 
-![](/img/geometria/intersects_bbox/intersects_bbox1.png)
+![](../../img/geometria/intersects_bbox/intersects_bbox1.png)
 
 ## nota bene
 

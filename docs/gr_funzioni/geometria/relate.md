@@ -18,7 +18,7 @@ Restituisce la rappresentazione Dimensional Extended 9 Intersection Model (DE-9I
 
 * `relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ) ) → 'FF1F00102'`
 
-![](/img/geometria/relate/relate1.png)
+![](../../img/geometria/relate/relate1.png)
 
 ## Variabile corrispondenza pattern
 
@@ -45,7 +45,7 @@ relate(_geometry, geometry, pattern_)
 
 --
 
-![](/img/geometria/relate/relate1.png)
+![](../../img/geometria/relate/relate1.png)
 
 ## Link utili
 

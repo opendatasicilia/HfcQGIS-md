@@ -15,7 +15,7 @@ tan(_<span style="color:red;">angle</span>_)
 * `tan(1.0) → 1.5574077246549`
 * `tan(pi()/2) → infinito`
 
-![](/img/matematica/tan/tan1.png)
+![](../../img/matematica/tan/tan1.png)
 
 ## nota bene
 

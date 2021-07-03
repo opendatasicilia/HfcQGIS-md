@@ -16,7 +16,7 @@ make_point_m_(x, y, m_)
 
 * `geom_to_wkt(make_point_m(2,4,6)) → 'PointM (2 4 6)'`
 
-![](/img/geometria/make_point_m/make_point_m1.png)
+![](../../img/geometria/make_point_m/make_point_m1.png)
 
 ## nota bene
 

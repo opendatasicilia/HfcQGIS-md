@@ -14,7 +14,7 @@ atan(_<span style="color:red;">value</span>_)
 
 * `atan(0.5) → 0.463647609000806`
 
-![](/img/matematica/atan/atan1.png)
+![](../../img/matematica/atan/atan1.png)
 
 ## nota bene
 

@@ -15,7 +15,7 @@ atan2(_<span style="color:red;">dy</span>, <span style="color:red;">dx</span>_)
 
 * `atan2(1.0, 1.732) → 0.523611477769969`
 
-![](/img/matematica/atan2/atan21.png)
+![](../../img/matematica/atan2/atan21.png)
 
 ## nota bene
 
@@ -25,6 +25,6 @@ atan2(_<span style="color:red;">dy</span>, <span style="color:red;">dx</span>_)
 
 --
 
-![](/img/matematica/atan2/atan22.png)
+![](../../img/matematica/atan2/atan22.png)
 
 [Wikipedia](https://it.wikipedia.org/wiki/Arcotangente2)

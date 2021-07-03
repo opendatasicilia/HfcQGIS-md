@@ -21,7 +21,7 @@ replace(_<span style="color:red;">string</span>, <span style="color:red;">before
 * `replace('QGIS ABC',array('A','B','C'),array('X','Y','Z')) → 'QGIS XYZ'`
 * `replace('QGIS',array('Q','S'),'') → 'GI'`
 
-![](/img/stringhe_di_testo/replace/replace1.png)
+![](../../img/stringhe_di_testo/replace/replace1.png)
 
 ## Variabile mappa
 
@@ -39,7 +39,7 @@ replace(_<span style="color:red;">string</span>, <span style="color:red;">map</s
 
 * `replace('APP SHOULD ROCK',map('APP','QGIS','SHOULD','DOES')) → 'QGIS DOES ROCK'`
 
-![](/img/stringhe_di_testo/replace/replace2.png)
+![](../../img/stringhe_di_testo/replace/replace2.png)
 
 ## nota bene
 

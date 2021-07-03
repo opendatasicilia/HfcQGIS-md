@@ -18,7 +18,7 @@ make_regular_polygon(_center, radius, number_sides, circle…_)
 * `geom_to_wkt(make_regular_polygon(make_point(0,0), make_point(0,5), 5)) → 'Polygon ((0 5, 4.76 1.55, 2.94 -4.05, -2.94 -4.05, -4.76 1.55, 0 5))'`
 * `geom_to_wkt(make_regular_polygon(make_point(0,0), project(make_point(0,0), 4.0451, radians(36)), 5)) → 'Polygon ((0 5, 4.76 1.55, 2.94 -4.05, -2.94 -4.05, -4.76 1.55, 0 5))'`
 
-![](/img/geometria/make_regular_polygon/make_regular_polygon1.png)
+![](../../img/geometria/make_regular_polygon/make_regular_polygon1.png)
 
 ## nota bene
 
@@ -28,4 +28,4 @@ make_regular_polygon(_center, radius, number_sides, circle…_)
 
 --
 
-![](/img/geometria/make_regular_polygon/make_regular_polygon2.png)
+![](../../img/geometria/make_regular_polygon/make_regular_polygon2.png)

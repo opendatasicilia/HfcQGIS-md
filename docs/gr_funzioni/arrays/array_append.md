@@ -15,7 +15,7 @@ array_append(_<span style="color:red;">array</span>, <span style="color:red;">va
 
 * `array_append(array(1,2,3),4) → array: 1,2,3,4`
 
-![](/img/arrays/array_append/array_append1.png)
+![](../../img/arrays/array_append/array_append1.png)
 
 ## nota bene
 

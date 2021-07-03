@@ -13,4 +13,4 @@ Divisione di due valori.
 
 --
 
-![](/img/operatori/divisione1.png)
+![](../../img/operatori/divisione1.png)

@@ -7,7 +7,7 @@ Calcola la somma dei due parametri valore1 e valore2.
 * `my_sum(5, 8) -> 13 `
 * `my_sum("fiel1", "field2") -> 42 `
 
-![](/img/custom/my_sum1.png)
+![](../../img/custom/my_sum1.png)
 
 ## Codice Python
 

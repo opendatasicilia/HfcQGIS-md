@@ -17,7 +17,7 @@ extend(_geometry, start_distance, end_distance_)
 
 * `geom_to_wkt(extend(geom_from_wkt('LineString(0 0, 1 0, 1 1)'),1,2)) → LineString (-1 0, 1 0, 1 3)`
 
-![](/img/geometria/extend/extend1.png)
+![](../../img/geometria/extend/extend1.png)
 
 ## nota bene
 
@@ -27,4 +27,4 @@ extend(_geometry, start_distance, end_distance_)
 
 --
 
-![](/img/geometria/extend/extend1.png)
+![](../../img/geometria/extend/extend1.png)

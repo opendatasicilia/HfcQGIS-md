@@ -19,4 +19,4 @@ La distanza di Levenshtein è una misura della somiglianza tra due stringhe. Dis
 * levenshtein(upper('Kitten'),upper('kitten')) → 0
 ```
 
-![](/img/corrispondenza_fuzzy/levenshtein1.png)
+![](../../img/corrispondenza_fuzzy/levenshtein1.png)

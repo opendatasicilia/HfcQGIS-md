@@ -15,7 +15,7 @@ to_json(_value_)
 * `to_json(map('qgis','rocks')) → {"qgis":"rocks"}`
 * `to_json(array(1,2,3)) → [1,2,3]`
 
-![](/img/maps/to_json/to_json_01.png)
+![](../../img/maps/to_json/to_json_01.png)
 
 ## nota bene
 

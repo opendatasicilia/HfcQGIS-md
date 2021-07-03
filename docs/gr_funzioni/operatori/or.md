@@ -15,4 +15,4 @@ Restituisce 1 quando la condizione a oppure b è vera.
 
 0 significa **falso**
 
-![](/img/operatori/OR1.png)
+![](../../img/operatori/OR1.png)

@@ -15,7 +15,7 @@ simplify(_geometry, tolerance_)
 
 * `geom_to_wkt(simplify(geometry:=geom_from_wkt('LineString(0 0, 5 0.1, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'`
 
-![](/img/geometria/simplify/simplify1.png)
+![](../../img/geometria/simplify/simplify1.png)
 
 ## nota bene
 

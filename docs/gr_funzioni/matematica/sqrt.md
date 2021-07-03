@@ -14,7 +14,7 @@ sqrt(_<span style="color:red;">value</span>_)
 
 * `sqrt(9) → 3`
 
-![](/img/matematica/sqrt/sqrt1.png)
+![](../../img/matematica/sqrt/sqrt1.png)
 
 ## nota bene
 

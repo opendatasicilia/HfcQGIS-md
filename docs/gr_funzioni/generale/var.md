@@ -20,4 +20,4 @@ var('user_account_name') → 'Salvatore'
 
 Come argomento va usato il nome della variabile senza la chioccila altrimenti non funziona.
 
-![](/img/generale/var1.png)
+![](../../img/generale/var1.png)

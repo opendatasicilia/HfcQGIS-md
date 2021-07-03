@@ -16,7 +16,7 @@ minimal_circle(geometry, segment)
 * `geom_to_wkt( minimal_circle( geom_from_wkt( 'LINESTRING(0 5, 0 -5, 2 1)' ), 4 ) ) → Polygon ((0 5, 5 -0, -0 -5, -5 0, 0 5))`
 * `geom_to_wkt( minimal_circle( geom_from_wkt( 'MULTIPOINT(1 2, 3 4, 3 2)' ), 4 ) ) → Polygon ((3 4, 3 2, 1 2, 1 4, 3 4))`
 
-![](/img/geometria/minimal_circle/minimal_circle1.png)
+![](../../img/geometria/minimal_circle/minimal_circle1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ minimal_circle(geometry, segment)
 
 --
 
-![](/img/geometria/minimal_circle/minimal_circle2.png)
+![](../../img/geometria/minimal_circle/minimal_circle2.png)

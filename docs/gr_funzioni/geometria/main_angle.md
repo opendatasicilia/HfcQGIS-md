@@ -14,7 +14,7 @@ Restituisce l'angolo principale di una geometria (senso orario, in gradi dal Nor
 
 * `main_angle(geom_from_wkt('Polygon ((321577 129614, 321581 129618, 321585 129615, 321581 129610, 321577 129614))')) → 38.66`
 
-![](/img/geometria/main_angle/img_01.png)
+![](../../img/geometria/main_angle/img_01.png)
 
 ## nota bene
 

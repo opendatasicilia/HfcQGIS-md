@@ -17,7 +17,7 @@ order_parts(_geometry, orderby, ascending_)
 * `order_parts(geom_from_wkt('MultiPolygon (((1 1, 5 1, 5 5, 1 5, 1 1)),((1 1, 9 1, 9 9, 1 9, 1 1)))'), 'area($geometry)', False) → MultiPolygon (((1 1, 9 1, 9 9, 1 9, 1 1)),((1 1, 5 1, 5 5, 1 5, 1 1)))`
 * `order_parts(geom_from_wkt('LineString(1 2, 3 2, 4 3)'), '1', True) → LineString(1 2, 3 2, 4 3)`
 
-![](/img/geometria/order_parts/order_parts1.png)
+![](../../img/geometria/order_parts/order_parts1.png)
 
 ## nota bene
 

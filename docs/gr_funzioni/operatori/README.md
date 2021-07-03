@@ -34,4 +34,4 @@ Questo gruppo contiene operatori es. + - *
 |[a IN (a,b,..)](IN.html)|Restituisce 1 se il valore viene trovato in una lista di valori|
 |a NOT IN (value[,value])|	*a* non è presente nella lista|
 
-![](/img/operatori/gruppo_operatori1.png)
+![](../../img/operatori/gruppo_operatori1.png)

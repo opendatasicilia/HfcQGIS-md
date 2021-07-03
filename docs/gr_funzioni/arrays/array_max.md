@@ -14,7 +14,7 @@ array_max(_array_)
 
 * `array_max(array(0,42,4,2)) → 42`
 
-![](/img/arrays/array_max/array_max1.png)
+![](../../img/arrays/array_max/array_max1.png)
 
 ## nota bene
 

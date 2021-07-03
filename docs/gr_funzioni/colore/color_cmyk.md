@@ -17,7 +17,7 @@ color_cmyk(_<span style="color:red;">cyan</span>, <span style="color:red;">magen
 
 * `color_cmyk(100,50,0,10) → 0,115,230`
 
-![](/img/colore/color_cmyk/color_cmyk1.png)
+![](../../img/colore/color_cmyk/color_cmyk1.png)
 
 ## nota bene
 

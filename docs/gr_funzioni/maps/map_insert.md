@@ -16,7 +16,7 @@ map_insert(_map, key, value_)
 
 * `map_insert(map('1','one'),'3','three') → map: 1: 'one', 3: 'three'`
 
-![](/img/maps/map_insert/map_insert1.png)
+![](../../img/maps/map_insert/map_insert1.png)
 
 ## nota bene
 

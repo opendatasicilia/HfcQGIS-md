@@ -15,7 +15,7 @@ Restituisce un array con l'indice passato rimosso.
 
 * `array_remove_at(array(1,2,3),1) → array: 1,3`
 
-![](/img/arrays/array_remove_at/array_remove_at1.png)
+![](../../img/arrays/array_remove_at/array_remove_at1.png)
 
 ## nota bene
 

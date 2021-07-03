@@ -16,4 +16,4 @@ Restituisce 1 quando le condizioni a e b sono vere.
 
 0 significa **falso**
 
-![](/img/operatori/AND1.png)
+![](../../img/operatori/AND1.png)

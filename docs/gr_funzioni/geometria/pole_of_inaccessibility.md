@@ -15,7 +15,7 @@ pole_of_inaccessibility(_geometry, tolerance_)
 
 * `geom_to_wkt(pole_of_inaccessibility( geom_from_wkt('POLYGON((0 1,0 9,3 10,3 3, 10 3, 10 1, 0 1))'), 0.1)) → 'Point(1.55, 1.55)'`
 
-![](/img/geometria/pole_of_inaccessibility/pole_of_inaccessibility1.png)
+![](../../img/geometria/pole_of_inaccessibility/pole_of_inaccessibility1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ pole_of_inaccessibility(_geometry, tolerance_)
 
 --
 
-![](/img/geometria/pole_of_inaccessibility/pole_of_inaccessibility2.png)
+![](../../img/geometria/pole_of_inaccessibility/pole_of_inaccessibility2.png)

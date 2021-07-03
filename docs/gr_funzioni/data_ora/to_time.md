@@ -15,4 +15,4 @@ Converti una stringa in un oggetto time.
 to_time('12:30:01') → 12:30:01
 ```
 
-![](/img/data_e_ora/to_time1.png)
+![](../../img/data_e_ora/to_time1.png)

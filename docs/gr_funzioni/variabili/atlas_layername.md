@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/atlas_layername/atlas_layername1.png)
+![](../../img/variabili/atlas_layername/atlas_layername1.png)
 
 ## nota bene
 

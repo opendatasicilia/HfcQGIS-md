@@ -19,7 +19,7 @@ Estrae la parte mese da una data o datetime.
 * month('2012-05-12') → 05
 ```
 
-![](/img/data_e_ora/month1.png)
+![](../../img/data_e_ora/month1.png)
 
 ## Variabile intervallo
 
@@ -39,4 +39,4 @@ month(to_interval('3 months')) → 3
 month(age('2012-01-01','2010-01-01')) → 24.3333
 ```
 
-![](/img/data_e_ora/month1.png)
+![](../../img/data_e_ora/month1.png)

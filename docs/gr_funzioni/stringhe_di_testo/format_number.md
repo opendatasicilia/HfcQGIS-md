@@ -15,7 +15,7 @@ format_number(_<span style="color:red;">number</span>, <span style="color:red;">
 
 * `format_number(10000000.332,2) → '10,000,000.33'`
 
-![](/img/stringhe_di_testo/format_number/format_number1.png)
+![](../../img/stringhe_di_testo/format_number/format_number1.png)
 
 ## nota bene
 

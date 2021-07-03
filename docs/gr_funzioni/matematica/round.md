@@ -19,7 +19,7 @@ round(_<span style="color:red;">value</span>, <span style="color:red;">places</s
 
 ## Esempi
 
-![](/img/matematica/round/round1.png)
+![](../../img/matematica/round/round1.png)
 
 ## nota bene
 

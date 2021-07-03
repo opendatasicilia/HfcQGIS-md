@@ -14,7 +14,7 @@ array(_<span style="color:red;">value1</span>, <span style="color:red;">value2</
 
 * `array(2,10) → array: 2, 10`
 
-![](/img/arrays/array/array1.png)
+![](../../img/arrays/array/array1.png)
 
 ## nota bene
 

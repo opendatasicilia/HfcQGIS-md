@@ -17,7 +17,7 @@ Crea un valore temporale da ore, minuti e secondi numeri.
 
 * `make_time(13,45,30.5) → time value 13:45:30.500`
 
-![](/img/data_e_ora/make_time1.png)
+![](../../img/data_e_ora/make_time1.png)
 
 ## Osservazioni
 

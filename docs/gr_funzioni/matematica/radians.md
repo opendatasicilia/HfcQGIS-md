@@ -15,7 +15,7 @@ radians(_<span style="color:red;">degrees</span>_)
 * `radians(180) → 3.14159`
 * `radians(57.2958) → 1`
 
-![](/img/matematica/radians/radians1.png)
+![](../../img/matematica/radians/radians1.png)
 
 ## nota bene
 

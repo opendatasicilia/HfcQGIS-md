@@ -18,7 +18,7 @@ collect_geometries(_geometry 1, geometry 2_)
 
 * `geom_to_wkt(collect_geometries(make_point(1,2), make_point(3,4), make_point(5,6))) → 'MultiPoint ((1 2),(3 4),(5 6))'`
 
-![](/img/geometria/collect_geometries/collect_geometries2.png)
+![](../../img/geometria/collect_geometries/collect_geometries2.png)
 
 ## Lista argomenti variante con array
 
@@ -35,7 +35,7 @@ collect_geometries(_array_)
 
 * `geom_to_wkt(collect_geometries(array(make_point(1,2), make_point(3,4), make_point(5,6)))) → 'MultiPoint ((1 2),(3 4),(5 6))'`
 
-![](/img/geometria/collect_geometries/collect_geometries1.png)
+![](../../img/geometria/collect_geometries/collect_geometries1.png)
 
 ## nota bene
 

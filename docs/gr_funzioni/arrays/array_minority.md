@@ -16,10 +16,10 @@ array_minority(_<span style="color:red;">array</span>_)
 * `array_minority(array(3,4,5,3,2,1,14,14,1)) → 2`
 * `array_minority('a,b,c,a,a')->'c'`
 
-![](/img/arrays/array_minority/array_minority1.png)
+![](../../img/arrays/array_minority/array_minority1.png)
 
 dalla versione 1.4 del plugin:
-![](/img/arrays/array_minority/array_minority2.png)
+![](../../img/arrays/array_minority/array_minority2.png)
 
 ## nota bene
 

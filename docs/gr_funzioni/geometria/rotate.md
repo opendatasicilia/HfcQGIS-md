@@ -17,7 +17,7 @@ rotate(_geom[,point]_)
 * `rotate($geometry, 45, make_point(4, 5)) → la geometria ruotava di 45 gradi in senso orario attorno al punto (4, 5)`
 * `rotate($geometry, 45) → la geometria ruotava di 45 gradi in senso orario attorno al centro del riquadro di delimitazione`
 
-![](/img/geometria/rotate/rotate1.png)
+![](../../img/geometria/rotate/rotate1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ rotate(_geom[,point]_)
 
 ## osservazioni
 
-![screen](/img/novita_312/Image03.png)
+![screen](../../img/novita_312/Image03.png)

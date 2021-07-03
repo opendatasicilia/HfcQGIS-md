@@ -8,7 +8,7 @@ Memorizza il numero della riga corrente.
 
 ## Esempi
 
-![](/img/variabili/row_number/row_number1.png)
+![](../../img/variabili/row_number/row_number1.png)
 
 ## nota bene
 

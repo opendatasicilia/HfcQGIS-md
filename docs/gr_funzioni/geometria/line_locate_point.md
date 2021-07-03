@@ -15,7 +15,7 @@ line_locate_point(_geometry, point_)
 
 * `line_locate_point(geometry:=geom_from_wkt('LineString(0 0, 10 0)'),point:=geom_from_wkt('Point(5 1)')) → 5.0`
 
-![](/img/geometria/line_locate_point/line_locate_point1.png)
+![](../../img/geometria/line_locate_point/line_locate_point1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ line_locate_point(_geometry, point_)
 
 --
 
-![](/img/geometria/line_locate_point/line_locate_point1.png)
+![](../../img/geometria/line_locate_point/line_locate_point1.png)

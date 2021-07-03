@@ -9,7 +9,7 @@ NB: valore massimo memorizzabile in un campo numerico è 20! (243290200817664000
 
 * `fact(10)→ 3628800`
 
-![](/img/custom/fact1.png)
+![](../../img/custom/fact1.png)
 
 ## Codice Python
 

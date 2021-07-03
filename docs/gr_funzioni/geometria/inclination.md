@@ -18,7 +18,7 @@ inclination(_point_a, point_b_)
 * `inclination( make_point( 5, 10, 0 ), make_point( 50, 100, 0 ) ) → 90.0`
 * `inclination( make_point( 5, 10, 0 ), make_point( 5, 10, -5 ) ) → 180.0`
 
-![](/img/geometria/inclination/inclination1.png)
+![](../../img/geometria/inclination/inclination1.png)
 
 ## nota bene
 
@@ -28,4 +28,4 @@ inclination(_point_a, point_b_)
 
 --
 
-![](/img/geometria/inclination/inclination2.png)
+![](../../img/geometria/inclination/inclination2.png)

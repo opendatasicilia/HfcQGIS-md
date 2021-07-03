@@ -22,7 +22,7 @@ array_replace(_array_,_before_,_after_)
 - `array_replace(array(3,2,1),array(1,2,3),array(7,8,9)) → [ 0, 2 ]`
 - `array_replace(array('Q','G','I','S'),array('Q','S'),'-') → [ '-', 'G', 'I', '-' ]`
 
-![](/img/arrays/array_replace/img_01.png)
+![](../../img/arrays/array_replace/img_01.png)
 
 ## Variabile mappa
 

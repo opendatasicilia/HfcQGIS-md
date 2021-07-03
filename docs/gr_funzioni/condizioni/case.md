@@ -34,7 +34,7 @@ THEN  "DEN_REG"
 ELSE 'NON SONO ISOLE' 
 END
 ```
-![](/img/condizioni/case1.png)
+![](../../img/condizioni/case1.png)
 
 ```
 CASE 
@@ -44,9 +44,9 @@ ELSE 'CORTA'
 END
 ```
 
-![](/img/condizioni/case3.png)
+![](../../img/condizioni/case3.png)
 
-![](/img/condizioni/case2.png)
+![](../../img/condizioni/case2.png)
 
 ## Altri esempi
 
@@ -66,7 +66,7 @@ In questo esempio viene popolato un campo (dove è usata l'espressione) in funzi
 
 ### posizionamento etichetta 
 
-![](/img/condizioni/case_label1.png)
+![](../../img/condizioni/case_label1.png)
 
 <p align="center">
   <img width="460" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/condizioni/case_rot.png">

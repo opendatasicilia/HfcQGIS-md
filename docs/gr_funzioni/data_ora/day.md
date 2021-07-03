@@ -32,4 +32,4 @@ Calcola la lunghezza in giorni di un intervallo.
 * day(age('2012-01-01','2010-01-01')) → 730
 ```
 
-![](/img/data_e_ora/day1.png)
+![](../../img/data_e_ora/day1.png)

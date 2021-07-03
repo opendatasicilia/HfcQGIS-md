@@ -16,7 +16,7 @@ strpos(_<span style="color:red;">haystack</span>, <span style="color:red;">needl
 * `strpos('HELLO WORLD','WORLD') → 7`
 * `strpos('HELLO WORLD','GOODBYE') → 0`
 
-![](/img/stringhe_di_testo/strpos/strpos1.png)
+![](../../img/stringhe_di_testo/strpos/strpos1.png)
 
 ## nota bene
 

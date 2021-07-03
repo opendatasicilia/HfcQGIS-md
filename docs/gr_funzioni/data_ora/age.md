@@ -25,4 +25,4 @@ La differenza è restituita come _Interval_ e deve essere usata con una della se
 * `age('2012-05-12','2012-05-02') → intervallo (usa day per estrarre il numero di giorni)`
 * `day(age('2012-05-12','2012-05-02')) → 10`
 
-![](/img/data_e_ora/age1.png)
+![](../../img/data_e_ora/age1.png)

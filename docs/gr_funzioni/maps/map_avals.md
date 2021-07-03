@@ -14,7 +14,7 @@ map_avals(_map_)
 
 * `map_avals(map('1','one','2','two')) → array: 'one', 'two'`
 
-![](/img/maps/map_avals/map_avals1.png)
+![](../../img/maps/map_avals/map_avals1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ map_avals(_map_)
 
 --
 
-![](/img/maps/map_avals/map_avals2.png)
+![](../../img/maps/map_avals/map_avals2.png)

@@ -17,7 +17,7 @@ is_empty_or_null(<span style="color:red;">_geometry_</span>)
 * `is_empty_or_null(geom_from_wkt('POINT(7 4)')) → falso`
 * `is_empty_or_null(geom_from_wkt('POINT EMPTY')) → vero`
 
-![](/img/geometria/is_empty_or_null/is_empty_or_null1.png)
+![](../../img/geometria/is_empty_or_null/is_empty_or_null1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ is_empty_or_null(<span style="color:red;">_geometry_</span>)
 
 ## osservazioni
 
-![screen](/img/novita_312/Image02.png)
+![screen](../../img/novita_312/Image02.png)

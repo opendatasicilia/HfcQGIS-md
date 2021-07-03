@@ -14,7 +14,7 @@ num_rings(_geometry_)
 
 * `num_rings(geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1),(-0.1 -0.1, 0.4 0, 0.4 0.2, 0 0.2, -0.1 -0.1))')) → 2`
 
-![](/img/geometria/num_rings/num_rings1.png)
+![](../../img/geometria/num_rings/num_rings1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ num_rings(_geometry_)
 
 --
 
-![](/img/geometria/num_rings/num_rings2.png)
+![](../../img/geometria/num_rings/num_rings2.png)

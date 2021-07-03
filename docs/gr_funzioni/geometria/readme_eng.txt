@@ -99,4 +99,4 @@ Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. **lungh
 |[y_max](y_max.md)|Returns the maximum y coordinate of a geometry. Calculations are in the Spatial Reference System of this geometry
 |[z](z.md)|Returns the z coordinate of a point geometry|
 
-![](/img/geometria/gruppo_geometria1.png)
+![](../../img/geometria/gruppo_geometria1.png)

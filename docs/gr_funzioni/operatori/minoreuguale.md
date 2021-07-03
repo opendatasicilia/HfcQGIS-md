@@ -15,4 +15,4 @@ Confronta due valori e pone a 1 se il valore a sinistra è minore o uguale del v
 
 0 significa **falso**
 
-![](/img/operatori/minoreuguale1.png)
+![](../../img/operatori/minoreuguale1.png)

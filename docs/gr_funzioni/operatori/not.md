@@ -14,4 +14,4 @@ NOT 0 → 1
 
 0 significa **falso**
 
-![](/img/operatori/NOT1.png)
+![](../../img/operatori/NOT1.png)

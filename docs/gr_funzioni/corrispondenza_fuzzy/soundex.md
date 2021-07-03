@@ -17,8 +17,8 @@ Restituisce la rappresentazione Soundex di una stringa. Soundex è un algoritmo 
 * soundex('rubin') → 'R150'
 ```
 
-![](/img/corrispondenza_fuzzy/soundex1.png)
+![](../../img/corrispondenza_fuzzy/soundex1.png)
 
 secondo questo algoritmo *Sicilia bedda* e *Sicilia bella* hanno stesso suono :+1:
 
-![](/img/corrispondenza_fuzzy/soundex2.png)
+![](../../img/corrispondenza_fuzzy/soundex2.png)

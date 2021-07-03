@@ -14,7 +14,7 @@ Restituisce il numero di elementi di un array.
 
 * `array_length(array(1,2,3)) → 3`
 
-![](/img/arrays/array_length/array_length1.png)
+![](../../img/arrays/array_length/array_length1.png)
 
 ## nota bene
 

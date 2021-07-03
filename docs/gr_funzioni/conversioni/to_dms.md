@@ -20,6 +20,6 @@ Converte una coordinata in gradi, minuti e secondi
 * `to_dms(6.3545681, 'x', 3) → 6°21′16.445″`
 * `to_dms(6.3545681, 'y', 4, 'suffix') → 6°21′16.4452″N`
 
-![](/img/conversioni/to_dms1.png)
+![](../../img/conversioni/to_dms1.png)
 
 ## Nota bene

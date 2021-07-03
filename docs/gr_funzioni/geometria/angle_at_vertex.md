@@ -15,7 +15,7 @@ angle_at_vertex(_<span style="color:red;">geometry</span>, <span style="color:re
 
 * `angle_at_vertex(geometry:=geom_from_wkt('LineString(0 0, 10 0, 10 10)'),vertex:=1) → 45.0`
 
-![](/img/geometria/angle_at_vertex/angle_at_vertex1.png)
+![](../../img/geometria/angle_at_vertex/angle_at_vertex1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il 
 ## osservazioni
 
 --
-![](/img/geometria/angle_at_vertex/angle_at_vertex2.png)
+![](../../img/geometria/angle_at_vertex/angle_at_vertex2.png)

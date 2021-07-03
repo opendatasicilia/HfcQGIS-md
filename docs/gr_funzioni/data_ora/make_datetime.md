@@ -20,7 +20,7 @@ Crea un valore datetime da anno, mese, giorno, ora, minuti e secondi numeri.
 
 * `make_datetime(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500`
 
-![](/img/data_e_ora/make_datetime1.png)
+![](../../img/data_e_ora/make_datetime1.png)
 
 ## Osservazioni
 

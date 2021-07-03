@@ -14,7 +14,7 @@ convex_hull(_<span style="color:red;">geometry</span>_)
 
 * `geom_to_wkt( convex_hull( geom_from_wkt( 'LINESTRING(3 3, 4 4, 4 10)' ) ) ) → POLYGON((3 3,4 10,4 4,3 3))`
 
-![](/img/geometria/convex_hull/convex_hull1.png)
+![](../../img/geometria/convex_hull/convex_hull1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ convex_hull(_<span style="color:red;">geometry</span>_)
 
 La funzione restituisce sempre un poligono.
 
-![](/img/geometria/convex_hull/convex_hull2.png)
+![](../../img/geometria/convex_hull/convex_hull2.png)

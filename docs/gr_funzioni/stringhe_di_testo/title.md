@@ -14,7 +14,7 @@ title(_<span style="color:red;">string</span>_)
 
 * `title('hello WOrld') → 'Hello World'`
 
-![](/img/stringhe_di_testo/title/title1.png)
+![](../../img/stringhe_di_testo/title/title1.png)
 
 ## nota bene
 

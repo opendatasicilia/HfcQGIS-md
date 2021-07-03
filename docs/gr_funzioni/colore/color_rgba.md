@@ -18,7 +18,7 @@ color_rgba(_<span style="color:red;">red</span>, <span style="color:green;">gree
 * `color_rgba(255,127,0,200) → 255,127,0,2000`
 
 
-![](/img/colore/color_rgba/color_rgba1.png)
+![](../../img/colore/color_rgba/color_rgba1.png)
 
 ## nota bene
 

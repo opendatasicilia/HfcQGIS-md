@@ -18,7 +18,7 @@ clamp(_<span style="color:red;">minimum</span>, <span style="color:red;">input</
 * `clamp(1,0,10) → 1 (input è più piccolo del valore minimo di 1, così la funzione restituisce 1)`
 * `clamp(1,11,10) → 10 (input è più grande del valore massimo di 10, così la funzione restituisce 10)`
 
-![](/img/matematica/clamp/clamp1.png)
+![](../../img/matematica/clamp/clamp1.png)
 
 ## nota bene
 

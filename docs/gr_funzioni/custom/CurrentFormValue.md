@@ -10,9 +10,9 @@ CurrentFormValue('FIELD_NAME')
 
 * FIELD_NAME nome di un campo
 
-![](/img/custom/currentformvalue1.png)
+![](../../img/custom/currentformvalue1.png)
 
-![](/img/custom/formvaluerelation1.png)
+![](../../img/custom/formvaluerelation1.png)
 
 ## Note
 

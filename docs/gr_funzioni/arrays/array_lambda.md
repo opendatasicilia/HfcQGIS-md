@@ -16,10 +16,10 @@ array_lambda(_<span style="color:red;">array</span>, <span style="color:red;">la
 * `array_lambda(array(1,2,3),'x+10') → <array: 11,12,13>`
 *  `array_lambda( '1,2,3', '10') → <array: 11,12,13>`
 
-![](/img/arrays/array_lambda/array_lambda1.png)
+![](../../img/arrays/array_lambda/array_lambda1.png)
 
 dalla versione 1.4 del plugin:
-![](/img/arrays/array_lambda/array_lambda2.png)
+![](../../img/arrays/array_lambda/array_lambda2.png)
 
 ## nota bene
 

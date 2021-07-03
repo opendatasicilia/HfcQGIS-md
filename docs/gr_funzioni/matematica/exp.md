@@ -14,7 +14,7 @@ exp(_<span style="color:red;">value</span>_)
 
 * `exp(1.0) → 2.71828182845905`
 
-![](/img/matematica/exp/exp1.png)
+![](../../img/matematica/exp/exp1.png)
 
 ## nota bene
 

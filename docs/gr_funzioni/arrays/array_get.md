@@ -15,7 +15,7 @@ Restituisce l'ennesimo valore (0 per il primo) o l'ultimo -Nesimo valore (-1 per
 
 * `array_get(array('a','b','c'),-1) → 'c'`
 
-![](/img/arrays/array_get/array_get1.png)
+![](../../img/arrays/array_get/array_get1.png)
 
 ## nota bene
 

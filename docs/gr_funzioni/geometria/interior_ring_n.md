@@ -15,7 +15,7 @@ interior_ring_n(_geometry, index_)
 
 * `geom_to_wkt(interior_ring_n(geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1),(-0.1 -0.1, 0.4 0, 0.4 0.2, 0 0.2, -0.1 -0.1),(-1 -1, 4 0, 4 2, 0 2, -1 -1))'),1)) → 'LineString (-0.1 -0.1, 0.4 0, 0.4 0.2, 0 0.2, -0.1 -0.1))'`
 
-![](/img/geometria/interior_ring_n/interior_ring_n1.png)
+![](../../img/geometria/interior_ring_n/interior_ring_n1.png)
 
 ## nota bene
 
@@ -25,5 +25,5 @@ interior_ring_n(_geometry, index_)
 
 Restituisce una lineastring!!!
 
-![](/img/geometria/interior_ring_n/interior_ring_n2.png)
+![](../../img/geometria/interior_ring_n/interior_ring_n2.png)
 

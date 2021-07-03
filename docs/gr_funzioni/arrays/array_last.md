@@ -14,7 +14,7 @@ array_last(_<span style="color:red;">array</span>_)
 
 * `array_last(array('a','b','c')) → 'c'`
 
-![](/img/arrays/array_last/array_last1.png)
+![](../../img/arrays/array_last/array_last1.png)
 
 ## nota bene
 

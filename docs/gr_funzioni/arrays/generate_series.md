@@ -19,7 +19,7 @@ generate_series(_<span style="color:red;">start</span>,<span style="color:red;">
 * `generate_series(1,5) → [ 1, 2, 3, 4, 5 ]`
 * `generate_series(5,1,-1) → [ 5, 4, 3, 2, 1 ]`
 
-![](/img/arrays/generate_series/generate_series1.png)
+![](../../img/arrays/generate_series/generate_series1.png)
 
 ## nota bene
 

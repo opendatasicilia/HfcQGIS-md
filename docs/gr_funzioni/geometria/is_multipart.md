@@ -15,7 +15,7 @@ is_multipart(<span style="color:red;">_geometry_</span>)
 * `is_multipart(geom_from_wkt('MULTIPOINT ((0 0),(1 1),(2 2))')) → vero`
 * `is_multipart(geom_from_wkt('POINT (0 0)')) → falso`
 
-![](/img/geometria/is_multipart/is_multipart1.png)
+![](../../img/geometria/is_multipart/is_multipart1.png)
 
 ## nota bene
 

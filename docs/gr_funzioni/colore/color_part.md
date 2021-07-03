@@ -30,7 +30,7 @@ color_part(_<span style="color:red;">color</span>, <span style="color:red;">comp
 
 * `color_part('200,10,30','green') → 10`
 
-![](/img/colore/color_part/color_part1.png)
+![](../../img/colore/color_part/color_part1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ nodes_to_points(_geometry, ignore_closing_nodes_)
 * `geom_to_wkt(nodes_to_points(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → 'MultiPoint ((0 0),(1 1),(2 2))'`
 * `geom_to_wkt(nodes_to_points(geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))'),true)) → 'MultiPoint ((-1 -1),(4 0),(4 2),(0 2))'`
 
-![](/img/geometria/nodes_to_points/nodes_to_points1.png)
+![](../../img/geometria/nodes_to_points/nodes_to_points1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ nodes_to_points(_geometry, ignore_closing_nodes_)
 
 --
 
-![](/img/geometria/nodes_to_points/nodes_to_points1.png)
+![](../../img/geometria/nodes_to_points/nodes_to_points1.png)

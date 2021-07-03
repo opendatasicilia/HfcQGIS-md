@@ -14,7 +14,7 @@ map_akeys(_map_)
 
 * `map_akeys(map('1','one','2','two')) → array: '1', '2'`
 
-![](/img/maps/map_akeys/map_akeys1.png)
+![](../../img/maps/map_akeys/map_akeys1.png)
 
 ## nota bene
 
@@ -26,7 +26,7 @@ map_akeys(_map_)
 
 ## Altri esempi
 
-![](/img/maps/map_akeys/map_akeys2.png)
+![](../../img/maps/map_akeys/map_akeys2.png)
 
 ```
  map_akeys( 
@@ -37,9 +37,9 @@ map_akeys(_map_)
 
 `akeys` disponibili in ambito compositore stampe
 
-![](/img/maps/map_akeys/map_akeys3.png)
+![](../../img/maps/map_akeys/map_akeys3.png)
 
 * `wordwrap( array_to_string(  map_akeys(  item_variables( 'm1') ) ),1,',') `
 
 
-![](/img/maps/map_akeys/map_akeys4.png)
+![](../../img/maps/map_akeys/map_akeys4.png)

@@ -14,7 +14,7 @@ geom_from_gml(gml)
 
 * `geom_to_wkt(geom_from_gml('<gml:LineString srsName="EPSG:4326"><gml:coordinates>4,4 5,5 6,6</gml:coordinates></gml:LineString>') )  → 'LineString (4 4, 5 5, 6 6)'`
 
-![](/img/geometria/geom_from_gml/geom_from_gml1.png)
+![](../../img/geometria/geom_from_gml/geom_from_gml1.png)
 
 ## nota bene
 

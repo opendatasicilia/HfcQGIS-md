@@ -17,8 +17,8 @@ Restituisce un datetime il cui data e ora sono il numero di millisecondi, msec, 
 * datetime_from_epoch(1483225200000) → 2017-01-01T00:00:00
 ```
 
-![](/img/data_e_ora/datetime_from_epoch1.png)
+![](../../img/data_e_ora/datetime_from_epoch1.png)
 
 Feature introdotta a partire da **QGIS 3.12**
 
-![screen](/img/novita_312/Image04.png)
+![screen](../../img/novita_312/Image04.png)

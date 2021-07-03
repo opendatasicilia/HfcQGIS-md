@@ -25,4 +25,4 @@ Prova un'espressione e restituisce il suo valore se priva di errori. Se l'espres
 
 --
 
-![](/img/condizioni/try1.png)
+![](../../img/condizioni/try1.png)

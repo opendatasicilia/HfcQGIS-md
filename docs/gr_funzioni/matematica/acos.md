@@ -13,7 +13,7 @@ acos(_<span style="color:red;">value</span>_)
 
 * `acos(0.5) → 1.0471975511966`
 
-![](/img/matematica/acos/acos1.png)
+![](../../img/matematica/acos/acos1.png)
 
 ## nota bene
 

@@ -14,7 +14,7 @@ _<span style="color:red;">value</span>_ un numero
 
 * `abs(-2) → 2`
 
-![](/img/matematica/abs/abs1.png)
+![](../../img/matematica/abs/abs1.png)
 
 ## nota bene
 

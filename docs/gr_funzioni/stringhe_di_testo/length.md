@@ -18,7 +18,7 @@ length(_<span style="color:red;">string</span>_)
 
 * `length('hello') → 5`
 
-![](/img/stringhe_di_testo/length/length1.png)
+![](../../img/stringhe_di_testo/length/length1.png)
 
 ## Variabile geometria
 
@@ -36,7 +36,7 @@ length(_<span style="color:red;">geometry</span>_)
 
 * `length(geom_from_wkt('LINESTRING(0 0, 4 0)')) → 4`
 
-![](/img/stringhe_di_testo/length/length2.png)
+![](../../img/stringhe_di_testo/length/length2.png)
 
 ## nota bene
 

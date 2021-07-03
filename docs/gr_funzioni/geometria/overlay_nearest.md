@@ -31,7 +31,7 @@ overlay_nearest(_layer[,expression][,filter][,limit][,max_distance][,cache]_)
 * overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:= 5000) → un array di nomi, per tutti gli aeroporti entro una distanza di 5000 unità di mappa dall'elemento corrente, ordinato per distanza.
 ```
 
-![](/img/geometria/refFunction/overlay_nearest.png)
+![](../../img/geometria/refFunction/overlay_nearest.png)
 
 ## nota bene
 

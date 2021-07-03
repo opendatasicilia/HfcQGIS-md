@@ -15,5 +15,5 @@ Restituisce il tipo mime dei dati binari.
 * `mime_type('<html><body></body></html>') → text/html`
 * `mime_type(from_base64('R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIAOw==')) → image/gif`
 
-![](/img/generale/mime_type1.png)
+![](../../img/generale/mime_type1.png)
 ---

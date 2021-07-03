@@ -15,7 +15,7 @@ is_closed(<span style="color:red;">_geometry_</span>)
 * `is_closed(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)')) → falso`
 * `is_closed(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2, 0 0)')) → vero`
 
-![](/img/geometria/is_closed/is_closed1.png)
+![](../../img/geometria/is_closed/is_closed1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ is_closed(<span style="color:red;">_geometry_</span>)
 
 --
 
-![](/img/geometria/is_closed/is_closed2.png) 
+![](../../img/geometria/is_closed/is_closed2.png) 

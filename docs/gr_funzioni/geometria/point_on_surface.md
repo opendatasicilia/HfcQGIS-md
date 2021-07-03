@@ -14,7 +14,7 @@ point_on_surface(_geometry_)
 
 * `point_on_surface($geometry) → una geometria punto`
 
-![](/img/geometria/point_on_surface/point_on_surface1.png)
+![](../../img/geometria/point_on_surface/point_on_surface1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ point_on_surface(_geometry_)
 
 --
 
-![](/img/geometria/point_on_surface/point_on_surface2.png)
+![](../../img/geometria/point_on_surface/point_on_surface2.png)

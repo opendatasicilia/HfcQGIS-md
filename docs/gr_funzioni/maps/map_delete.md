@@ -15,7 +15,7 @@ map_delete(_map, key_)
 
 * `map_delete(map('1','one','2','two'),'2') → map: 1: 'one'`
 
-![](/img/maps/map_delete/map_delete1.png)
+![](../../img/maps/map_delete/map_delete1.png)
 
 ## nota bene
 

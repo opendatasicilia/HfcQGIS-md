@@ -17,7 +17,7 @@ line_substring(_<span style="color:red;">geometry</span>,<span style="color:red;
 * `geom_to_wkt(line_substring(geometry:=geom_from_wkt('LineString(0 0, 10 0)'),start_distance:=2,end_distance:=6)) → 'LineString (2 0,6 0)'`
 * `line_substring( $geometry,  $length *.1,$length *.6) → <geometria: LineString>`
 
-![](/img/geometria/line_substring/line_substring1.png)
+![](../../img/geometria/line_substring/line_substring1.png)
 
 ## nota bene
 
@@ -29,4 +29,4 @@ line_substring(_<span style="color:red;">geometry</span>,<span style="color:red;
 
 Funzione utile per la tematizzazione
 
-![](/img/geometria/line_substring/line_substring2.png)
+![](../../img/geometria/line_substring/line_substring2.png)

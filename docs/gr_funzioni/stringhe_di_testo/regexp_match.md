@@ -15,7 +15,7 @@ regexp_match(_<span style="color:red;">input_string</span>, <span style="color:r
 
 * `regexp_match('QGIS ROCKS','\\sROCKS') → 5`
 
-![](/img/stringhe_di_testo/regexp_match/regexp_match1.png)
+![](../../img/stringhe_di_testo/regexp_match/regexp_match1.png)
 
 ## nota bene
 

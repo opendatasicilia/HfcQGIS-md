@@ -17,7 +17,7 @@ color_hsva(_<span style="color:red;">hue</span>, <span style="color:red;">satura
 
 * `color_hsva(40,100,100,200) → 255,170,0,200`
 
-![](/img/colore/color_hsva/color_hsva1.png)
+![](../../img/colore/color_hsva/color_hsva1.png)
 
 ## nota bene
 

@@ -30,7 +30,7 @@ overlay_intersects(_layer[,expression][,filter][,limit][,cache]_)
 * overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni intersecate dall'elemento corrente
 ```
 
-![](/img/geometria/refFunction/overlay_intersects.png)
+![](../../img/geometria/refFunction/overlay_intersects.png)
 
 ## nota bene
 

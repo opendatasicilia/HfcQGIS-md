@@ -18,4 +18,4 @@ Restituisce la distanza di Hamming tra due stringhe. Questa equivale al numero d
 * hamming_distance(upper('abc'),upper('ABC')) → 0
 ```
 
-![](/img/corrispondenza_fuzzy/hamming_distance1.png)
+![](../../img/corrispondenza_fuzzy/hamming_distance1.png)

@@ -14,7 +14,7 @@ z(_geometry_)
 
 * `z( geom_from_wkt( 'POINTZ(2 5 7)' ) ) → 7`
 
-![](/img/geometria/z/z1.png)
+![](../../img/geometria/z/z1.png)
 
 ## nota bene
 

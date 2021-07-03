@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/cluster_color/cluster_color1.png)
+![](../../img/variabili/cluster_color/cluster_color1.png)
 
 ## nota bene
 

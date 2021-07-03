@@ -15,9 +15,9 @@ difference(_<span style="color:red;">geometry_a</span>, <span style="color:red;"
 
 * `geom_to_wkt( difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4)' ) ) ) → LINESTRING(4 4, 5 5)`
 
-![](/img/geometria/difference/difference1.png)
+![](../../img/geometria/difference/difference1.png)
 
-![](/img/geometria/difference/difference31.png)
+![](../../img/geometria/difference/difference31.png)
 
 Espressione:
 
@@ -37,7 +37,7 @@ make_line(  -- linea b
 -- a - b è diverso da b - a
 ```
 
-![](/img/geometria/difference/difference32.png)
+![](../../img/geometria/difference/difference32.png)
 
 ```
 -- differenza linea b - linea a
@@ -69,4 +69,4 @@ make_line(  -- linea a
 
 Esempio di sopra:
 
-![](/img/geometria/difference/difference2.png)
+![](../../img/geometria/difference/difference2.png)

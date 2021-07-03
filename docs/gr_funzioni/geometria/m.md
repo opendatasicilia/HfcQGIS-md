@@ -14,7 +14,7 @@ m(_geometry_)
 
 * `( geom_from_wkt( 'POINTM(2 5 4)' ) ) → 4`
 
-![](/img/geometria/m/m1.png)
+![](../../img/geometria/m/m1.png)
 
 ## nota bene
 

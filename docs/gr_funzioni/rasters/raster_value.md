@@ -16,22 +16,22 @@ Restituisce il valore raster trovato nel punto fornito. <span style="color:red;"
 
 *  `raster_value( 'DTM_Pescaglia',1,$geometry) → 631.2899169921875`
   
-![](/img/rasters/raster_value1.png)
+![](../../img/rasters/raster_value1.png)
 
 ## Nota bene
 
 ## Esempio
 
-![](/img/rasters/raster_value2.png)
+![](../../img/rasters/raster_value2.png)
 
 Animazione
 
-![](/img/rasters/raster_value.gif)
+![](../../img/rasters/raster_value.gif)
 
 **raster_value()** con più bande e più layer
 
 
-![](/img/rasters/raster_value2.gif)
+![](../../img/rasters/raster_value2.gif)
 
 espressione usata:
 ```

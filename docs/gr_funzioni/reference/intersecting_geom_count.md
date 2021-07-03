@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/reference/intersecting_geom_count/intersecting_geom_count1.png)
+![](../../img/reference/intersecting_geom_count/intersecting_geom_count1.png)
 
 ## nota bene
 

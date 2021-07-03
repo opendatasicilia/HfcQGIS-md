@@ -18,7 +18,7 @@ make_circle(_center, radius, segment…_)
 * `geom_to_wkt(make_circle(make_point(10,10,5), 5, 4)) → 'PolygonZ ((10 15 5, 15 10 5, 10 5 5, 5 10 5, 10 15 5))''`
 * `geom_to_wkt(make_circle(make_point(10,10,5,30), 5, 4)) → 'PolygonZM ((10 15 5 30, 15 10 5 30, 10 5 5 30, 5 10 5 30, 10 15 5 30))'`
 
-![](/img/geometria/make_circle/make_circle1.png)
+![](../../img/geometria/make_circle/make_circle1.png)
 
 ## nota bene
 
@@ -28,4 +28,4 @@ make_circle(_center, radius, segment…_)
 
 --
 
-![](/img/geometria/make_circle/make_circle2.png)
+![](../../img/geometria/make_circle/make_circle2.png)

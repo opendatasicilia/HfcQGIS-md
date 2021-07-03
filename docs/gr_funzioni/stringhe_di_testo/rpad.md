@@ -17,7 +17,7 @@ rpad(_<span style="color:red;">string</span>, <span style="color:red;">width</sp
 * `rpad('Hello', 10, 'x') → 'Helloxxxxx'`
 * `rpad('Hello', 3, 'x') → 'Hel'`
 
-![](/img/stringhe_di_testo/rpad/rpad1.png)
+![](../../img/stringhe_di_testo/rpad/rpad1.png)
 
 ## nota bene
 

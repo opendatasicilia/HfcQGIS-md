@@ -21,7 +21,7 @@ wordwrap('UNIVERSITY OF QGIS',-3) → 'UNIVERSITY
 OF QGIS'
 ```
 
-![](/img/stringhe_di_testo/wordwrap/wordwrap1.png)
+![](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)
 
 ## nota bene
 

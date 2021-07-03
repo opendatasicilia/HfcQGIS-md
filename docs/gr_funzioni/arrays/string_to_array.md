@@ -17,7 +17,7 @@ Divide la stringa in un array usando il delimitatore fornito e la stringa opzion
 * `string_to_array('1,2,3',',') → array: '1', '2', '3'`
 * `string_to_array('1,,3',',','0') → array: '1', '0', '3`'
 
-![](/img/arrays/string_to_array/string_to_array1.png)
+![](../../img/arrays/string_to_array/string_to_array1.png)
 
 ## nota bene
 

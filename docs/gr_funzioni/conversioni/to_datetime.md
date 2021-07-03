@@ -15,4 +15,4 @@ Converte una stringa in un oggetto datetime.
 to_datetime( '2018-05-06 12:02:00') → 2018-05-06T12:02:00
 ```
 
-![](/img/conversioni/to_datetime1.png)
+![](../../img/conversioni/to_datetime1.png)

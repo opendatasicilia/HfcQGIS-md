@@ -14,9 +14,9 @@ centroid(*<span style="color:red;">geometry</span>*)
 
 * `centroid($geometry) → una geometria punto`
 
-![](/img/geometria/centroid/centroid0.png)
+![](../../img/geometria/centroid/centroid0.png)
 
-![](/img/geometria/centroid/centroid1.png)
+![](../../img/geometria/centroid/centroid1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ centroid(*<span style="color:red;">geometry</span>*)
 
 La Funzione restituisce SEMPRE una geometry POINT
 
-![](/img/geometria/centroid/centroid2.png)
+![](../../img/geometria/centroid/centroid2.png)

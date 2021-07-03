@@ -32,7 +32,7 @@ overlay_disjoint(_layer[,expression][,filter][,limit][,cache]_)
 * overlay_disjoint(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni spazialmente disgiunte dall'elemento corrente
 ```
 
-![](/img/geometria/refFunction/overlay_disjoint.png)
+![](../../img/geometria/refFunction/overlay_disjoint.png)
 
 ## nota bene
 

@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/map_extent/map_extent1.png)
+![](../../img/variabili/map_extent/map_extent1.png)
 
 ## nota bene
 

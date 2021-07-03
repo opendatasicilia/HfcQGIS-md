@@ -20,4 +20,4 @@ Questo gruppo contiene funzioni espressione per la creazione e la manipolazione 
 [to_json](funzioni/to_json.md)|Creare una stringa in formato JSON da una mappa, array o altro valore|**>= QGIS 3.6**
 
 
-![](/img/maps/gruppo_maps1.png)
+![](../../img/maps/gruppo_maps1.png)

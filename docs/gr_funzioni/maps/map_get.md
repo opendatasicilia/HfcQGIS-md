@@ -15,7 +15,7 @@ map_get(_map, key_)
 
 * `map_get(map('1','one','2','two'),'2') → 'two'`
 
-![](/img/maps/map_get/map_get1.png)
+![](../../img/maps/map_get/map_get1.png)
 
 ## nota bene
 
@@ -27,7 +27,7 @@ map_get(_map, key_)
 
 ## Altri esempi
 
-![](/img/maps/map_get/map_get2.png)
+![](../../img/maps/map_get/map_get2.png)
 
 ```
 map_get(
@@ -37,7 +37,7 @@ map(Proprietario','Pippo','CF','FNDCCCDDDEEEFFF'),'CF') → 'FNDCCCDDDEEEFFF'
 
 ## Compositore di stampe >= QGIS 3.0
 
-![](/img/maps/map_get/map_get3.png)
+![](../../img/maps/map_get/map_get3.png)
 
 Nuova funzione `item_variables` presente, nel gruppo Layout, solo se utilizzate all'interno di un contesto di composizione.
 

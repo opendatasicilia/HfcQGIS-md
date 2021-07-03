@@ -15,7 +15,7 @@ Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_:
 1. selezionare un layer vettoriale di tipo poligonale;
 2. clic sull'icona del calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
 
-![](/img/geometria/area/area002.png)
+![](../../img/geometria/area/area002.png)
 
 1. di default è sempre spuntato;
 2. digitiamo il nome del campo _area_mq_;
@@ -24,7 +24,7 @@ Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_:
 5. doppio clic sulla funzione **$area** per inserirlo;
 6. clic su **OK** per eseguire.
 
-![](/img/geometria/area/area004.png)
+![](../../img/geometria/area/area004.png)
 
 nell'esempio ho usato un vettore poligonale con EPSG 3004 (sistema proiettato metrico):  la superficie di ogni elemento è in metri quadrati come evidenziato nella tabella attributi
 

@@ -10,7 +10,7 @@ Nome del sistema operativo, es. 'windows', 'linux' o 'osx'.
 
 * `Valore attuale: 'windows'`
 
-![](/img/variabili/qgis_os_name/qgis_os_name1.png)
+![](../../img/variabili/qgis_os_name/qgis_os_name1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ degrees(_<span style="color:red;">radians</span>_)
 * `degrees(1) → 57.2958`
 * `degrees(pi()) → 180`
 
-![](/img/matematica/degrees/degrees1.png)
+![](../../img/matematica/degrees/degrees1.png)
 
 ## nota bene
 

@@ -15,7 +15,7 @@ geometry(_feature_)
 * `geom_to_wkt( geometry( get_feature( layer, attributeField, value ) ) ) → 'POINT(6 50)'`
 * `intersects( $geometry, geometry( get_feature( layer, attributeField, value ) ) ) → vero`
 
-![](/img/geometria/geometry/geometry1.png)
+![](../../img/geometria/geometry/geometry1.png)
 
 ## nota bene
 
@@ -27,4 +27,4 @@ geometry(_feature_)
 
 Usando il **Select by Expression**: selezionare le feature di un layer (quartieri) in funzione di altro layer (test):
 
-![](/img/geometria/geometry/geometry2.png)
+![](../../img/geometria/geometry/geometry2.png)

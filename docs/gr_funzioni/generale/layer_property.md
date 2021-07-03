@@ -40,4 +40,4 @@ layer_property('airports','feature_count') → 120
 layer_property('landsat','crs') → 'EPSG:4326'
 ```
 
-![](/img/generale/layer_property1.png)
+![](../../img/generale/layer_property1.png)

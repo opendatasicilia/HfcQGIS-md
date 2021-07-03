@@ -14,7 +14,7 @@ Restituisce il primo valore di un array.
 
 * `array_first(array('a','b','c')) → 'a'`
 
-![](/img/arrays/array_first/array_first1.png)
+![](../../img/arrays/array_first/array_first1.png)
 
 ## nota bene
 

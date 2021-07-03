@@ -15,9 +15,9 @@ intersection(<span style="color:red;">_geometry1_</span>, <span style="color:red
 
 * `geom_to_wkt( intersection( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4)' ) ) ) → LINESTRING(3 3, 4 4)`
 
-![](/img/geometria/intersection/intersection1.png)
+![](../../img/geometria/intersection/intersection1.png)
 
-![](/img/geometria/intersection/intersection3.png)
+![](../../img/geometria/intersection/intersection3.png)
 
 Espressione:
 
@@ -48,4 +48,4 @@ make_line(  -- linea b
 
 --
 
-![](/img/geometria/intersection/intersection2.png)
+![](../../img/geometria/intersection/intersection2.png)

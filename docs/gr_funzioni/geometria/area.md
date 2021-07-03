@@ -12,9 +12,9 @@ area(_<span style="color:red;">geometry</span>_)
 
 ## Esempi
 
-![](/img/geometria/area/area001.png)
+![](../../img/geometria/area/area001.png)
 
-![](/img/geometria/area/area004.png)
+![](../../img/geometria/area/area004.png)
 
 ## nota bene
 

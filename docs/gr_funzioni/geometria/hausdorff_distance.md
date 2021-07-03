@@ -24,7 +24,7 @@ hausdorff_distance(_geometry a, geometry b, densify_fraction_)
 * `hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)')) → 14.142135623`
 * `hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)'),0.5) → 70.0`
 
-![](/img/geometria/hausdorff_distance/hausdorff_distance1.png)
+![](../../img/geometria/hausdorff_distance/hausdorff_distance1.png)
 
 ## nota bene
 
@@ -48,10 +48,10 @@ transform($geometry,'EPSG:4326','EPSG:3004'),
 transform(geometry(get_feature('fontanelle','n',1)),'EPSG:4326','EPSG:3004'))/1000,4) || ' km'
 ```
 
-![](/img/geometria/hausdorff_distance/hausdorff_distance3.png)
+![](../../img/geometria/hausdorff_distance/hausdorff_distance3.png)
 
 ---
 
 In questo esempio confronto due layer: il numero più piccolo indica il poligono più simile a al poligono più grande.
 
-![](/img/geometria/hausdorff_distance/hausdorff_distance2.png)
+![](../../img/geometria/hausdorff_distance/hausdorff_distance2.png)

@@ -14,7 +14,7 @@ Restituisce una linestring chiusa della linestring di input aggiungendo il primo
 * `geom_to_wkt(close_line(geom_from_wkt('LINESTRING(0 0, 1 0, 1 1)'))) → LineString (0 0, 1 0, 1 1, 0 0)`
 * `geom_to_wkt(close_line(geom_from_wkt('LINESTRING(0 0, 1 0, 1 1, 0 0)'))) → LineString (0 0, 1 0, 1 1, 0 0)`
 
-![](/img/geometria/close_line/close_line1.png)
+![](../../img/geometria/close_line/close_line1.png)
 
 ## nota bene
 

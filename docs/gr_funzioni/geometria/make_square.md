@@ -16,7 +16,7 @@ _point2_ Secondo punto
 * `geom_to_wkt(make_square( make_point(0,0), make_point(5,5))) → 'Polygon ((0 0, -0 5, 5 5, 5 0, 0 0))'`
 * `geom_to_wkt(make_square( make_point(5,0), make_point(5,5))) → 'Polygon ((5 0, 2.5 2.5, 5 5, 7.5 2.5, 5 0))'`
 
-![](/img/geometria/make_square/make_square1.png)
+![](../../img/geometria/make_square/make_square1.png)
 
 ## nota bene
 

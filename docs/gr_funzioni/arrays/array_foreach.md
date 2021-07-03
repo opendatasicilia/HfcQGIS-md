@@ -16,7 +16,7 @@ array_foreach(_<span style="color:red;">array</span>,<span style="color:red;">ex
 * `array_foreach(array('a','b','c'),upper(@element)) → array: 'A', 'B', 'C'`
 * `array_foreach(array(1,2,3),@element + 10) → array: 11, 12, 13`
 
-![](/img/arrays/array_foreach/array_foreach1.png)
+![](../../img/arrays/array_foreach/array_foreach1.png)
 
 ## nota bene
 

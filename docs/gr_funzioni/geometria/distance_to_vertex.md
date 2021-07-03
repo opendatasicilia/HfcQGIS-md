@@ -16,7 +16,7 @@ distance_to_vertex(_geometry, vertex_)
 
 * `distance_to_vertex(geometry:=geom_from_wkt('LineString(0 0, 10 0, 10 10)'),vertex:=1) → 10.0`
 
-![](/img/geometria/distance_to_vertex/distance_to_vertex1.png)
+![](../../img/geometria/distance_to_vertex/distance_to_vertex1.png)
 
 ## nota bene
 
@@ -27,4 +27,4 @@ distance_to_vertex(_geometry, vertex_)
 --
 esempio di sopra:
 
-![](/img/geometria/distance_to_vertex/distance_to_vertex3.png)
+![](../../img/geometria/distance_to_vertex/distance_to_vertex3.png)

@@ -19,4 +19,4 @@ Restituisce la sottostringa in comune più lunga tra due stringhe. Questa sottos
 * longest_common_substring(upper('abcDeF'),upper('abcdex')) → 'ABCDE'
 ```
 
-![](/img/corrispondenza_fuzzy/longest_common_substring1.png)
+![](../../img/corrispondenza_fuzzy/longest_common_substring1.png)

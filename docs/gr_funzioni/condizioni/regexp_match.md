@@ -26,4 +26,4 @@ In questo esempio la prima lettere di *Fiandaca* si trova alla posizione 10
 regexp_match('Salvatore Fiandaca','\\sFiandaca') → 10
 ```
 
-![](/img/condizioni/regexp_match1.png)
+![](../../img/condizioni/regexp_match1.png)

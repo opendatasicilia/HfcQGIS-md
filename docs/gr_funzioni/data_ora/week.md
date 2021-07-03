@@ -19,7 +19,7 @@ Estrae il numero della settimana da una data o un datetime.
 week('2018-05-09') → 19
 ```
 
-![](/img/data_e_ora/week1.png)
+![](../../img/data_e_ora/week1.png)
 
 ## Variabile intervallo
 
@@ -39,4 +39,4 @@ week(tointerval('3 weeks')) → 3
 week(age('2012-01-01','2010-01-01')) → 104.285
 ```
 
-![](/img/data_e_ora/week2.png)
+![](../../img/data_e_ora/week2.png)

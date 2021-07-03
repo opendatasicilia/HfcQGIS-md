@@ -15,7 +15,7 @@ boundary(*<span style="color:red;">geometry</span>*)
 
 `geom_to_wkt(boundary(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))'))) → 'LineString(1 1,0 0,-1 1,1 1)'`
 
-![](/img/geometria/boundary/boundari1.png)
+![](../../img/geometria/boundary/boundari1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ boundary(*<span style="color:red;">geometry</span>*)
 
 funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
 
-![](/img/geometria/boundary/boundari2.png)
+![](../../img/geometria/boundary/boundari2.png)

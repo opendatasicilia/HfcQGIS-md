@@ -15,7 +15,7 @@ ln(_<span style="color:red;">value</span>_)
 * `ln(1) → 0`
 * `ln(2.7182818284590452354) → 1`
 
-![](/img/matematica/ln/ln1.png)
+![](../../img/matematica/ln/ln1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ translate(_geometry, dx, dy_)
 
 * `translate($geometry, 5, 10) → una geometria dello stesso tipo come l'originale`
 
-![](/img/geometria/translate/translate1.png)
+![](../../img/geometria/translate/translate1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ translate(_geometry, dx, dy_)
 
 --
 
-![](/img/geometria/translate/translate2.png)
+![](../../img/geometria/translate/translate2.png)

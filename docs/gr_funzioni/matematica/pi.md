@@ -10,7 +10,7 @@ pi()
 
 * `pi() → 3.14159265358979`
 
-![](/img/matematica/pi/pi1.png)
+![](../../img/matematica/pi/pi1.png)
 
 ## nota bene
 
@@ -33,4 +33,4 @@ L'unione di tre simboli matematici che hanno rivoluzionato il Mondo:
 
 Con un po' di fantasia dovreste leggere il mio nome Totò 😎
 
-![](/img/logo_pi.png)
+![](../../img/logo_pi.png)

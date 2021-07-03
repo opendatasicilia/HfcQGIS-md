@@ -24,7 +24,7 @@ Restituisce una porzione dell'array. Il taglio è definito dagli argomenti _star
 * `array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),-2,-1) → array: 'Chugiak','Brighton'`
 
 
-![](/img/arrays/array_slice/array_slice1.png)
+![](../../img/arrays/array_slice/array_slice1.png)
 
 ## nota bene
 

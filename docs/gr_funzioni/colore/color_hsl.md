@@ -16,7 +16,7 @@ color_hsl(_<span style="color:red;">hue</span>, <span style="color:red;">saturat
 
 * `color_hsl(100,50,70) → 166,217,140`
 
-![](/img/colore/color_hsl/color_hsl1.png)
+![](../../img/colore/color_hsl/color_hsl1.png)
 
 ## nota bene
 

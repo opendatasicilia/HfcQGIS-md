@@ -17,7 +17,7 @@ min(_<span style="color:red;">value1</span>, <span style="color:red;">value2</sp
 
 ## Esempi
 
-![](/img/matematica/min/min1.png)
+![](../../img/matematica/min/min1.png)
 
 ## nota bene
 

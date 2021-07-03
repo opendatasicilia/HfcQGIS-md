@@ -19,7 +19,7 @@ rand(_<span style="color:red;">min</span>, <span style="color:red;">max</span><s
 * `rand(1, 10) → 8`
 * `rand( 10, 100,1) → 68`
 
-![](/img/matematica/rand/rand1.png)
+![](../../img/matematica/rand/rand1.png)
 
 ## nota bene
 
@@ -29,4 +29,4 @@ rand(_<span style="color:red;">min</span>, <span style="color:red;">max</span><s
 
 Novità introdotta nella **QGIS 3.12**
 
-![](/img/matematica/rand/rand2.png)
+![](../../img/matematica/rand/rand2.png)

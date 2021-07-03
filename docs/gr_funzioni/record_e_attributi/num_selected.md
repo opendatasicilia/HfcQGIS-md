@@ -16,4 +16,4 @@ Restituisce il numero di geometrie selezionate in un vettore dato. Per impostazi
 * `num_selected('streets') → Il numero di geometrie selezionate nel vettore streets`
 
 
-![](/img/record_e_attributi/num_selected1.png)
+![](../../img/record_e_attributi/num_selected1.png)

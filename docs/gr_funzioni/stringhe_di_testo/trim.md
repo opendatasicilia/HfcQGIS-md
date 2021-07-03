@@ -14,7 +14,7 @@ trim(_<span style="color:red;">string</span>_)
 
 * `trim(' hello world   ') → 'hello world'`
 
-![](/img/stringhe_di_testo/trim/trim1.png)
+![](../../img/stringhe_di_testo/trim/trim1.png)
 
 ## nota bene
 

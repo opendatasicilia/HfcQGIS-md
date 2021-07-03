@@ -19,7 +19,7 @@ ramp_color(_<span style="color:red;">ramp_name</span>, <span style="color:red;">
 
 * `ramp_color('Spectral',0.3) → '253,190,115,255'`
 
-![](/img/colore/ramp_color/ramp_color1.png)
+![](../../img/colore/ramp_color/ramp_color1.png)
 
 ## nota
 

@@ -18,7 +18,7 @@ extrude(_geometry, x, y_)
 * `extrude(geom_from_wkt('LineString(1 2, 3 2, 4 3)'), 1, 2) → Polygon ((1 2, 3 2, 4 3, 5 5, 4 4, 2 4, 1 2))`
 * `extrude(geom_from_wkt('MultiLineString((1 2, 3 2), (4 3, 8 3)'), 1, 2) → MultiPolygon (((1 2, 3 2, 4 4, 2 4, 1 2)),((4 3, 8 3, 9 5, 5 5, 4 3)))`
 
-![](/img/geometria/extrude/extrude1.png)
+![](../../img/geometria/extrude/extrude1.png)
 
 ## nota bene
 
@@ -28,4 +28,4 @@ extrude(_geometry, x, y_)
 
 Nell'esempio ho utilizzato la funzione boundary() perché la geometria di ingresso deve essere lineare.
 
-![](/img/geometria/extrude/extrude1.png)
+![](../../img/geometria/extrude/extrude1.png)

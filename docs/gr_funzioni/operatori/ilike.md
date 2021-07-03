@@ -25,4 +25,4 @@ Restituisce 1 se il primo parametro soddisfa senza tener conto delle maiuscole o
 
 0 significa **falso**
 
-![](/img/operatori/ILIKE1.png)
+![](../../img/operatori/ILIKE1.png)

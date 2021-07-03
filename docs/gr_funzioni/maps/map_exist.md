@@ -15,7 +15,7 @@ map_exist(_map, key_)
 
 * `map_exist(map('1','one','2','two'),'3') → falso`
 
-![](/img/maps/map_exist/map_exist1.png)
+![](../../img/maps/map_exist/map_exist1.png)
 
 ## nota bene
 

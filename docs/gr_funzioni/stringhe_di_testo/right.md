@@ -15,7 +15,7 @@ right(_<span style="color:red;">string</span>, <span style="color:red;">length</
 
 * `right('Hello World',5) → 'World'`
 
-![](/img/stringhe_di_testo/right/right1.png)
+![](../../img/stringhe_di_testo/right/right1.png)
 
 ## nota bene
 

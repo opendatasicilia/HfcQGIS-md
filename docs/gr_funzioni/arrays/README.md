@@ -39,4 +39,4 @@ Questo gruppo contiene funzioni espressione per la creazione e la manipolazione 
 |[string_to_array](string_to_array.html)|Divide la stringa in un array usando il delimitatore fornito e la stringa opzionale per valori mancanti|
 
 
-![](/img/arrays/gruppo_arrays1.png)
+![](../../img/arrays/gruppo_arrays1.png)

@@ -14,7 +14,7 @@ distance(_geometry a, geometry b_)
 
 ## Esempi
 
-![](/img/geometria/distance/distance1.png)
+![](../../img/geometria/distance/distance1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ distance(_geometry a, geometry b_)
 
 --
 
-![](/img/geometria/distance/distance2.png)
+![](../../img/geometria/distance/distance2.png)

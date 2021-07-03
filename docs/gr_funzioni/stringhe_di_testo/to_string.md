@@ -14,7 +14,7 @@ to_string(_<span style="color:red;">number</span>_)
 
 * `to_string(123.23) → '123.23'`
 
-![](/img/stringhe_di_testo/to_string/to_string1.png)
+![](../../img/stringhe_di_testo/to_string/to_string1.png)
 
 ## nota bene
 

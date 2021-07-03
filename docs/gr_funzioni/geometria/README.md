@@ -128,8 +128,8 @@ Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. **lungh
 [z_max](z_max.html)|Restituisce la coordinata z massima di una geometria.|>=3.14
 [z_min](z_min.html)|Restituisce la coordinata z minima di una geometria.|>=3.14
 
-![](/img/geometria/gruppo_geometria1.png)
+![](../../img/geometria/gruppo_geometria1.png)
 
 ## Evoluzione funzioni
 
-![](/img/geometria/gruppo_geometria2.png)
+![](../../img/geometria/gruppo_geometria2.png)

@@ -15,4 +15,4 @@ Restituisce l'intervallo in millisecondi fra l'[epoca unix](https://it.wikipedia
 * epoch(to_date('2017-01-01')) → 1483203600000
 ```
 
-![](/img/data_e_ora/epoch1.png)
+![](../../img/data_e_ora/epoch1.png)

@@ -34,4 +34,4 @@ _data_, _data e ora_ possono essere memorizzati in campi di testo dopo aver usat
 
 Gli intervalli possono essere memorizzati nei campi di tipo intero o decimale dopo aver utilizzato una delle funzioni di estrazione della data (ad es. _day()_ per ottenere l'intervallo espresso in giorni)
 
-![](/img/data_e_ora/gruppo_data_e_ora1.png)
+![](../../img/data_e_ora/gruppo_data_e_ora1.png)

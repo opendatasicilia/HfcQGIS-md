@@ -14,7 +14,7 @@ bounds_height(*<span style="color:red;">geometry</span>*)
 
 `bounds_height($geometry) → altezza del perimetro di delimitazione di $geometry`
 
-![](/img/geometria/bounds/bounds_height1.png)
+![](../../img/geometria/bounds/bounds_height1.png)
 
 ## nota bene
 

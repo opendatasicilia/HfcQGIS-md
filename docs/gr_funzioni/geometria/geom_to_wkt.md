@@ -14,7 +14,7 @@ geom_to_wkt(_geometry_)
 
 * `geom_to_wkt( $geometry ) → POINT(6 50)`
 
-![](/img/geometria/geom_to_wkt/geom_to_wkt1.png)
+![](../../img/geometria/geom_to_wkt/geom_to_wkt1.png)
 
 ## nota bene
 

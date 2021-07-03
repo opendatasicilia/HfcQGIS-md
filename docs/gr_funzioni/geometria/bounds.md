@@ -14,7 +14,7 @@ bounds(*<span style="color:red;">geometry</span>*)
 
 `bounds($geometry) → perimetro di delimitazione di $geometry`
 
-![](/img/geometria/bounds/bounds1.png)
+![](../../img/geometria/bounds/bounds1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ bounds(*<span style="color:red;">geometry</span>*)
 
 funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
 
-![](/img/geometria/bounds/bounds2.png)
+![](../../img/geometria/bounds/bounds2.png)

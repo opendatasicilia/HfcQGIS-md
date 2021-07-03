@@ -15,4 +15,4 @@ Converte una stringa in un oggetto data
 to_date('2018-05-04') → 2018-05-04
 ```
 
-![](/img/data_e_ora/to_date1.png)
+![](../../img/data_e_ora/to_date1.png)

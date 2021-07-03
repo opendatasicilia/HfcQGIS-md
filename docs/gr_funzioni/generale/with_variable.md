@@ -20,4 +20,4 @@ with_variable('my_sum', 1 + 2 + 3, @my_sum * 2 + @my_sum * 5) → 42
 with_variable('duepigreco',2*3.1415, @duepigreco * 2 +@duepigreco*5 ) → 43.981
 ```
 
-![](/img/generale/with_variable1.png)
+![](../../img/generale/with_variable1.png)

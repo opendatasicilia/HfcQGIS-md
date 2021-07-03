@@ -15,7 +15,7 @@ geometry_n(_geometry, index_)
 
 * `geom_to_wkt(geometry_n(geom_from_wkt('GEOMETRYCOLLECTION(POINT(0 1), POINT(0 0), POINT(1 0), POINT(1 1))'),3)) → 'Point (1 0)'`
 
-![](/img/geometria/geometry_n/geometry_n1.png)
+![](../../img/geometria/geometry_n/geometry_n1.png)
 
 ## nota bene
 

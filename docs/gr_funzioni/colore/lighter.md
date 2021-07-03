@@ -18,7 +18,7 @@ lighter(_<span style="color:red;">color</span>, <span style="color:red;">factor<
 
 * `lighter('200,10,30',200) → '255,158,168,255'`
 
-![](/img/colore/lighter/lighter1.png)
+![](../../img/colore/lighter/lighter1.png)
 
 ## nota bene
 

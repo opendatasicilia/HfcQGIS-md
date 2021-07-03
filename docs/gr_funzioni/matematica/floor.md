@@ -17,7 +17,7 @@ floor(_<span style="color:red;">value</span>_)
 
 ## Esempi
 
-![](/img/matematica/floor/floor1.png)
+![](../../img/matematica/floor/floor1.png)
 
 ## nota bene
 

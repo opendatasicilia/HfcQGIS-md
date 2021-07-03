@@ -15,7 +15,7 @@ ceil(_<span style="color:red;">value</span>_)
 * `ceil(4.9) → 5`
 * `ceil(-4.9) → -4`
 
-![](/img/matematica/ceil/ceil1.png)
+![](../../img/matematica/ceil/ceil1.png)
 
 ## nota bene
 

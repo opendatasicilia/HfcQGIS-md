@@ -15,7 +15,7 @@ shortest_line(_geometry 1, geometry 2_)
 
 * `geom_to_wkt(shortest_line(geom_from_wkt('LINESTRING (20 80, 98 190, 110 180, 50 75 )'),geom_from_wkt('POINT(100 100)'))) → LineString(73.0769 115.384, 100 100)`
 
-![](/img/geometria/shortest_line/shortest_line1.png)
+![](../../img/geometria/shortest_line/shortest_line1.png)
 
 ## nota bene
 
@@ -25,6 +25,6 @@ shortest_line(_geometry 1, geometry 2_)
 
 --
 
-![](/img/geometria/shortest_line/shortest_line2.png)
+![](../../img/geometria/shortest_line/shortest_line2.png)
 
 [![shortestline](https://img.youtube.com/vi/m2AqZjMZVvQ/0.jpg)](https://www.youtube.com/watch?v=m2AqZjMZVvQ&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu "shortest_line")

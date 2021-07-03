@@ -17,7 +17,7 @@ concat(_<span style="color:red;">string1</span>, <span style="color:red;">string
 * `concat('Anno ', 2018) → 'Anno 2018'`
 * `concat('QGIS 3.0', NULL) → 'QGIS 3.0'`
 
-![](/img/stringhe_di_testo/concat/concat1.png)
+![](../../img/stringhe_di_testo/concat/concat1.png)
 
 ## nota bene
 

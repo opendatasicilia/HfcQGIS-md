@@ -20,7 +20,7 @@ wedge_buffer(_center,azimuth,width,outer_radius[,inner_radius=0.0]_)
 
 * `wedge_buffer(center:=geom_from_wkt('POINT(1 2)'),azimuth:=90,width:=180,outer_radius:=1) → Un buffer a forma di cuneo centrato sul punto (1,2), rivolto verso est, con una larghezza di 180 gradi e raggio esterno di 1.`
 
-![](/img/geometria/wedge_buffer/wedge_buffer1.png)
+![](../../img/geometria/wedge_buffer/wedge_buffer1.png)
 
 ## nota bene
 
@@ -30,4 +30,4 @@ wedge_buffer(_center,azimuth,width,outer_radius[,inner_radius=0.0]_)
 
 --
 
-![](/img/geometria/wedge_buffer/wedge_buffer2.png)
+![](../../img/geometria/wedge_buffer/wedge_buffer2.png)

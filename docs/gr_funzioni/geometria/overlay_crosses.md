@@ -33,7 +33,7 @@ overlay_crosses(_ayer[,expression][,filter][,limit][,cache]_)
 * overlay_crosses(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni attraversate dall'elemento corrente
 ```
 
-![](/img/geometria/refFunction/overlay_crosses.png)
+![](../../img/geometria/refFunction/overlay_crosses.png)
 
 ## nota bene
 

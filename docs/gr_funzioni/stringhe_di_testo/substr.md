@@ -21,7 +21,7 @@ substr(_<span style="color:red;">string</span>, <span style="color:red;">start</
 * `substr('HELLO WORLD',-5,2) → 'WO'`
 * `substr('HELLO WORLD',-5,-1) → 'WORL'`
 
-![](/img/stringhe_di_testo/substr/substr1.png)
+![](../../img/stringhe_di_testo/substr/substr1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ azimuth(_<span style="color:red;">point_a</span>, <span style="color:red;">point
 * `degrees( azimuth( make_point(25, 45), make_point(75, 100) ) ) → 42.273689`
 * `degrees( azimuth( make_point(75, 100), make_point(25,45) ) ) → 222.273689`
 
-![](/img/matematica/azimuth/azimuth1.png)
+![](../../img/matematica/azimuth/azimuth1.png)
 
 ## nota bene
 

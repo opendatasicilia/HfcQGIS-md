@@ -30,4 +30,4 @@ hash('QGIS', 'keccak_384') → 'c57a3aed9d856fa04e5eeee9b62b6e027cca81ba574116d3
 hash('QGIS', 'keccak_512') → '6f0f751776b505e317de222508fa5d3ed7099d8f07c74fed54ccee6e7cdc…'
 ```
 
-![](/img/conversioni/hash1.png)
+![](../../img/conversioni/hash1.png)

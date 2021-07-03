@@ -15,7 +15,7 @@ y(_geometry_)
 * `y( geom_from_wkt( 'POINT(2 5)' ) ) → 5`
 * `y( $geometry ) → coordinata y del centroide dell'elemento corrente`
 
-![](/img/geometria/y/y1.png)
+![](../../img/geometria/y/y1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ y(_geometry_)
 
 --
 
-![](/img/geometria/y/y2.png)
+![](../../img/geometria/y/y2.png)

@@ -15,7 +15,7 @@ make_line(_point1, point2, …_)
 * `geom_to_wkt(make_line(make_point(2,4),make_point(3,5))) → 'LineString (2 4, 3 5)'`
 * `geom_to_wkt(make_line(make_point(2,4),make_point(3,5),make_point(9,7))) → 'LineString (2 4, 3 5, 9 7)'`
 
-![](/img/geometria/make_line/make_line1.png)
+![](../../img/geometria/make_line/make_line1.png)
 
 ## Array variant >= QGIS 3.10
 
@@ -33,7 +33,7 @@ make_line(_array_)
 
 * `geom_to_wkt(make_line(array(make_point(2,4),make_point(3,5),make_point(9,7)))) → 'LineString (2 4, 3 5, 9 7)'`
 
-![](/img/geometria/make_line/make_line3.png)
+![](../../img/geometria/make_line/make_line3.png)
 
 **Espressione usata**
 
@@ -54,4 +54,4 @@ array(geometry(
 
 --
 
-![](/img/geometria/make_line/make_line2.png)
+![](../../img/geometria/make_line/make_line2.png)

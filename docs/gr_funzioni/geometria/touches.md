@@ -17,7 +17,7 @@ touches(_geometry a, geometry b_)
 * `touches( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) → 0`
 
 
-![](/img/geometria/touches/touches1.png)
+![](../../img/geometria/touches/touches1.png)
 
 ## nota bene
 
@@ -37,7 +37,7 @@ dove:
 * _geometry b_ è `$geometry`
 
 
-![](/img/geometria/touches/touches2.png)
+![](../../img/geometria/touches/touches2.png)
 
 seleziono tutti i comuni `touches` (toccati) dalla provincia con `pk_uid`46 (Siena)
 
@@ -45,4 +45,4 @@ seleziono tutti i comuni `touches` (toccati) dalla provincia con `pk_uid`46 (Sie
 
 `NOT touches(geometry(get_feature( 'province_rt_rt','pk_uid','52')),$geometry)`
 
-![](/img/geometria/touches/touches3.png)
+![](../../img/geometria/touches/touches3.png)

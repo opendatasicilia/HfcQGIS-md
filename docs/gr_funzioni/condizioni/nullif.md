@@ -22,4 +22,4 @@ nullif("name", '') → NULL, se "name" è una stringa vuota (o già NULL), "name
 
 --
 
-![](/img/condizioni/nullif1.jpg)
+![](../../img/condizioni/nullif1.jpg)

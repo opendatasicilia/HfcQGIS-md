@@ -16,7 +16,7 @@ simplify_vw(_<span style="color:red;">geometry</span>, <span style="color:red;">
 
 * `geom_from_wkt('LineString(0 0, 5 0, 5.01 10, 5.02 0, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'`
 
-![](/img/geometria/simplify_vw/simplify_vw1.png)
+![](../../img/geometria/simplify_vw/simplify_vw1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ simplify_vw(_<span style="color:red;">geometry</span>, <span style="color:red;">
 
 --
 
-![](/img/geometria/simplify_vw/simplify_vw2.png)
+![](../../img/geometria/simplify_vw/simplify_vw2.png)

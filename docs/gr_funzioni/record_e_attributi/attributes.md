@@ -31,4 +31,4 @@ attributes( @atlas_feature )['name'] → valore memorizzato nell'attributo 'name
 * *feature* una geometria
 
 
-![](/img/record_e_attributi/attributes1.png)
+![](../../img/record_e_attributi/attributes1.png)

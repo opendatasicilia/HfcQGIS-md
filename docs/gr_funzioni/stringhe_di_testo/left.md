@@ -15,7 +15,7 @@ left(_<span style="color:red;">string</span>, <span style="color:red;">length</s
 
 * `left('Hello World',5) → 'Hello'`
 
-![](/img/stringhe_di_testo/left/left1.png)
+![](../../img/stringhe_di_testo/left/left1.png)
 
 ## nota bene
 

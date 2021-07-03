@@ -11,9 +11,9 @@ Questo gruppo contiene _funzioni Python_ create in modo personalizzato dall'uten
 [CurrentFormValue](CurrentFormValue.html)|Questa funzione restituisce il valore corrente di un campo nella form di inserimento dati.
 [Fattoriale](fattoriale.md)|Questa funzione calcola il fattoriale di un numero.
 
-![](/img/custom/gruppo_custom1.png)
+![](../../img/custom/gruppo_custom1.png)
 
 Il codice Python va incollato qui:
 
-![](/img/custom/editor_funzioni1.png)
+![](../../img/custom/editor_funzioni1.png)
 

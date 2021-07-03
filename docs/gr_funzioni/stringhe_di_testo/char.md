@@ -14,7 +14,7 @@ char(_<span style="color:red;">code</span>_)
 
 * `char(81) → 'Q'`
 
-![](/img/stringhe_di_testo/char/char1.png)
+![](../../img/stringhe_di_testo/char/char1.png)
 
 ## nota bene
 

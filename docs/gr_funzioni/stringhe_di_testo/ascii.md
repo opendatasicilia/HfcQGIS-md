@@ -14,7 +14,7 @@ ascii(_string_)
 
 * `ascii('Q') → 81`
 
-![](/img/stringhe_di_testo/ascii/ascii1.png)
+![](../../img/stringhe_di_testo/ascii/ascii1.png)
 
 ## nota bene
 

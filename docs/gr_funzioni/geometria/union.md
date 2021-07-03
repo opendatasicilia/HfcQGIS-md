@@ -15,9 +15,9 @@ union(_geometry1, geometry2_)
 
 * `geom_to_wkt( union( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) ) → MULTIPOINT(4 4, 5 5)`
 
-![](/img/geometria/union/union1.png)
+![](../../img/geometria/union/union1.png)
 
-![](/img/geometria/union/union3.png)
+![](../../img/geometria/union/union3.png)
 
 Espressione:
 
@@ -48,4 +48,4 @@ make_line(  -- linea b
 
 --
 
-![](/img/geometria/union/union2.png)
+![](../../img/geometria/union/union2.png)

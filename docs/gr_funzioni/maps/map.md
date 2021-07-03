@@ -15,7 +15,7 @@ map(_key1, value1, key2, value2, , …_)
 
 * `map('1','one','2', 'two') → map: 1: 'one', 2: 'two'`
 
-![](/img/maps/map/map1.png)
+![](../../img/maps/map/map1.png)
 --
 
 ## osservazioni
@@ -31,4 +31,4 @@ Definisco una _map_ con:
 * chiave **Perimetro_km**  -- Perimetro in km
 * valore **$perimeter/1000**
 
-![](/img/maps/map/map2.png)
+![](../../img/maps/map/map2.png)

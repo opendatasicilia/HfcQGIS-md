@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/layout_pageheight/layout_pageheight1.png)
+![](../../img/variabili/layout_pageheight/layout_pageheight1.png)
 
 ## nota bene
 

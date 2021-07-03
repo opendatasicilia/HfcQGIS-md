@@ -14,7 +14,7 @@ x_min(_geometry_)
 
 * `x_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 2`
 
-![](/img/geometria/x_min/x_min1.png)
+![](../../img/geometria/x_min/x_min1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ x_min(_geometry_)
 
 --
 
-![](/img/geometria/x_min/x_min2.png)
+![](../../img/geometria/x_min/x_min2.png)

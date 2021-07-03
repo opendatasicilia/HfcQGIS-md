@@ -15,7 +15,7 @@ line_merge(_geometry_)
 * `geom_to_wkt(line_merge(geom_from_wkt('MULTILINESTRING((0 0, 1 1),(1 1, 2 2))'))) → 'LineString(0 0,1 1,2 2)'`
 * `geom_to_wkt(line_merge(geom_from_wkt('MULTILINESTRING((0 0, 1 1),(11 1, 21 2))'))) → 'MultiLineString((0 0, 1 1),(11 1, 21 2)'`
 
-![](/img/geometria/line_merge/line_merge1.png)
+![](../../img/geometria/line_merge/line_merge1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ line_merge(_geometry_)
 
 --
 
-![](/img/geometria/line_merge/line_merge2.png)
+![](../../img/geometria/line_merge/line_merge2.png)

@@ -14,7 +14,7 @@ upper(_<span style="color:red;">string</span>_)
 
 * `upper('hello WOrld') → 'HELLO WORLD'`
 
-![](/img/stringhe_di_testo/upper/upper1.png)
+![](../../img/stringhe_di_testo/upper/upper1.png)
 
 ## nota bene
 

@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/layout_numpages/layout_numpages1.png)
+![](../../img/variabili/layout_numpages/layout_numpages1.png)
 
 ## nota bene
 

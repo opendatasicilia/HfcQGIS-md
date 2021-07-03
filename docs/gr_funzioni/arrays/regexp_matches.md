@@ -19,7 +19,7 @@ Restituisce un array di tutte le stringhe catturate dai gruppo, nell'ordine che 
 * `regexp_matches('key=>','(.*)=>','empty value') →'array: 'key'`
 * `regexp_matches('key=>7','(.*)=>(.*)','empty value') → array: 'key', '7'`
 
-![](/img/arrays/regexp_matches/regexp_matches1.png)
+![](../../img/arrays/regexp_matches/regexp_matches1.png)
 
 ## nota bene
 

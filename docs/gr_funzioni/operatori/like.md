@@ -24,4 +24,4 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 0 significa **falso**
 
-![](/img/operatori/LIKE1.png)
+![](../../img/operatori/LIKE1.png)

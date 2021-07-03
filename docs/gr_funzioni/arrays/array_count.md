@@ -15,7 +15,7 @@ array_count(array,value)
 
 * `array_count(array('a', 'b', 'c', 'b'), 'b') → 2`
 
-![](/img/arrays/array_count/img_02.png)
+![](../../img/arrays/array_count/img_02.png)
 
 ## nota bene
 

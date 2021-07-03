@@ -16,7 +16,7 @@ overlaps(_geometry a, geometry b_)
 * `overlaps( geom_from_wkt( 'LINESTRING(3 5, 4 4, 5 5, 5 3)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → 1`
 * `overlaps( geom_from_wkt( 'LINESTRING(0 0, 1 1)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → 0`
 
-![](/img/geometria/overlaps/overlaps1.png)
+![](../../img/geometria/overlaps/overlaps1.png)
 
 ## nota bene
 
@@ -36,7 +36,7 @@ dove:
 * _geometry b_ è `$geometry`
 
 
-![](/img/geometria/overlaps/overlaps2.png)
+![](../../img/geometria/overlaps/overlaps2.png)
 
 seleziono tutti i comuni `overlaps` (sovrapposti) al cerchio in figura.
 

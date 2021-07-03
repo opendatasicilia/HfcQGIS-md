@@ -9,4 +9,4 @@ Questo gruppo contiene le funzioni per comparazioni fuzzy fra i valori.
 |[longest_common_substring](longest_common_substring.html)|Restituisce la sottostringa in comune più lunga tra due stringhe. Questa sottostringa è la stringa più lunga che è una sottostringa delle due stringhe in ingresso. Es: la sottostringa in comune più lunga di "ABABC" e "BABCA" è "ABC". La sottostringa è sensibile alle lettere maiuscole|
 |[soundex](soundex.html)|Restituisce la rappresentazione Soundex di una stringa. Soundex è un algoritmo di abbinamento fonetico, per cui le stringhe con suoni simili dovrebbero essere rappresentate dallo stesso codice Soundex|
 
-![](/img/corrispondenza_fuzzy/gruppo_corrispondenza_fuzzy1.png)
+![](../../img/corrispondenza_fuzzy/gruppo_corrispondenza_fuzzy1.png)

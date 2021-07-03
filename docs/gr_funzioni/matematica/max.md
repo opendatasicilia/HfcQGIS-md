@@ -15,7 +15,7 @@ max(_<span style="color:red;">value1</span>, <span style="color:red;">value2<spa
 * `max(2,10.2,5.5) → 10.2`
 * `max(20.5,NULL,6.2) → 20.5`
 
-![](/img/matematica/max/max1.png)
+![](../../img/matematica/max/max1.png)
 
 ## nota bene
 

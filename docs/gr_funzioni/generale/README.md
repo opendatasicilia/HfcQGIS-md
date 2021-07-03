@@ -11,4 +11,4 @@ Questo gruppo contiene un'assortimento di funzioni generiche.
 |[var](var.html)|	Restituisce il valore memorizzato in una variabile specificata|
 |[with_variable](with_variable.html)|Questa funzione imposta una variabile per qualunque codice di espressione che sarà fornita come argomento terzo. Questo è utile solamente per espressioni complicate, in cui lo stesso valore calcolato deve essere usato in posti differenti|
 
-![](/img/generale/gruppo_generale1.png)
+![](../../img/generale/gruppo_generale1.png)

@@ -14,7 +14,7 @@ num_points(geometry)
 
 * `num_points($geometry) → numero di vertici in $geometry`
 
-![](/img/geometria/num_points/num_points1.png)
+![](../../img/geometria/num_points/num_points1.png)
 
 ## nota bene
 

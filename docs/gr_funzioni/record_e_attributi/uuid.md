@@ -20,4 +20,4 @@ Genera un Universally Unique Identifier (UUID) per ciascun record usando il meto
 * `uuid('Id128') → '0bd2f60ff1574a6d96afd4ba4cb366a1'`
 
 
-![](/img/record_e_attributi/uuid()1.png)
+![](../../img/record_e_attributi/uuid()1.png)

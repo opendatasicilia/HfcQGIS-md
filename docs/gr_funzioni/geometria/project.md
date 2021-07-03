@@ -15,7 +15,7 @@ project(_point, distance, bearing_)
 
 * `project(make_point(1, 2), 3, radians(270)) → Point(-2, 2)`
 
-![](/img/geometria/project/project1.png)
+![](../../img/geometria/project/project1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ project(_point, distance, bearing_)
 
 --
 
-![](/img/geometria/project/project1.gif)
+![](../../img/geometria/project/project1.gif)

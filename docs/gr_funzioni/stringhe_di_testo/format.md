@@ -15,7 +15,7 @@ format(_<span style="color:red;">string</span>, <span style="color:red;">arg1</s
 
 * `format('This %1 a %2','is', 'test') → 'This is a test''`
 
-![](/img/stringhe_di_testo/format/format1.png)
+![](../../img/stringhe_di_testo/format/format1.png)
 
 ## nota bene
 

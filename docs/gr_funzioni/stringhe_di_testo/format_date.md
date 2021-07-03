@@ -48,7 +48,7 @@ ap o a|interpretato come un orario nel formato AM/PM. ap deve essere "am" oppure
 
 * `format_date('2012-05-15','dd.MM.yyyy') → '15.05.2012'`
 
-![](/img/stringhe_di_testo/format_date/format_date1.png)
+![](../../img/stringhe_di_testo/format_date/format_date1.png)
 
 ## nota bene
 

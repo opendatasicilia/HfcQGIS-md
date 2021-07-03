@@ -33,4 +33,4 @@ Questo gruppo contiene funzioni matematiche es. radice quadrata, seno e coseno.
 |[sqrt](sqrt.html)|Restituisce la radice quadrata di un valore|
 |[tan](tan.html)|Restituisce la tangente di un angolo|
 
-![](/img/matematica/gruppo_matematica1.png)
+![](../../img/matematica/gruppo_matematica1.png)

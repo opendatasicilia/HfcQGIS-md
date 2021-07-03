@@ -14,7 +14,7 @@ array_min(_array_)
 
 * `array_min(array(43,42,54)) → 42`
 
-![](/img/arrays/array_min/array_min1.png)
+![](../../img/arrays/array_min/array_min1.png)
 
 ## nota bene
 

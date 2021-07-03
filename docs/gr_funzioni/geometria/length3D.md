@@ -18,7 +18,7 @@ length3D(geometry)
 
 - `length3D(geom_from_wkt('LINESTRINGZ(0 0 0, 3 0 4)')) → 5.0`
 
-![](/img/geometria/length3d/img_01.png)
+![](../../img/geometria/length3d/img_01.png)
 
 
 ## nota bene

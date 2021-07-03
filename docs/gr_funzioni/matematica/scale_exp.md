@@ -19,7 +19,7 @@ scale_exp(_<span style="color:red;">val</span>, <span style="color:red;">domain_
 * `scale_exp(5,0,10,0,100,2) → 25 (agevolazione graduale in entrata, usando un esponente di 2)`
 * `scale_exp(3,0,10,0,100,0.5) → 54.772 (agevolazione graduale in uscita, usando un esponente di 0.5)`
 
-![](/img/matematica/scale_exp/scale_exp1.png)
+![](../../img/matematica/scale_exp/scale_exp1.png)
 
 ## nota bene
 

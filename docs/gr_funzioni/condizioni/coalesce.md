@@ -25,8 +25,8 @@ Questa funzione √® utile all'interno di una espressione che prevede l'uso di pi√
 
 esempio senza l'uso della funzione *coalesce*:
 
-![](/img/condizioni/coalesce1.png)
+![](../../img/condizioni/coalesce1.png)
 
 esempio con l'uso della funzione *coalesce*:
 
-![](/img/condizioni/coalesce2.png)
+![](../../img/condizioni/coalesce2.png)

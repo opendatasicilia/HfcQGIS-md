@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/project_folder/project_folder1.png)
+![](../../img/variabili/project_folder/project_folder1.png)
 
 ## nota bene
 

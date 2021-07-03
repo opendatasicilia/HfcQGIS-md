@@ -17,7 +17,7 @@ crosses(_<span style="color:red;">geometry a</span>, <span style="color:red;">ge
 * `crosses( geom_from_wkt( 'LINESTRING(3 5, 4 4, 5 3)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → vero`
 * `crosses( geom_from_wkt( 'POINT(4 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → falso`
 
-![](/img/geometria/crosses/crosses1.png)
+![](../../img/geometria/crosses/crosses1.png)
 
 ## nota bene
 
@@ -36,7 +36,7 @@ dove:
 * _geometry b_ è `$geometry`
 
 
-![](/img/geometria/crosses/crosses2.png)
+![](../../img/geometria/crosses/crosses2.png)
 
 seleziono tutti i comuni `crosses` (attraversati) dal fiume ARNO
 

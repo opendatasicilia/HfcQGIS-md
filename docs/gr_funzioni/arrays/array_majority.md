@@ -15,7 +15,7 @@ array_majority(_array_)
 * `array_majority(array(0,1,42,42,43)) → [ 42 ]`
 * `array_majority(array(0,0,1,2,2,42)) → [ 0, 2 ]`
 
-![](/img/arrays/array_majority/array_majority1.png)
+![](../../img/arrays/array_majority/array_majority1.png)
 
 ## nota bene
 

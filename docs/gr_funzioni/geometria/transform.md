@@ -16,7 +16,7 @@ transform(_geomometry, source_auth_id, dest_auth_id_)
 
 * `geom_to_wkt( transform( $geometry, 'EPSG:2154', 'EPSG:4326' ) ) → POINT(0 51)`
 
-![](/img/geometria/transform/transform1.png)
+![](../../img/geometria/transform/transform1.png)
 
 ## nota bene
 
@@ -26,4 +26,4 @@ transform(_geomometry, source_auth_id, dest_auth_id_)
 
 --
 
-![](/img/geometria/transform/transform2.png)
+![](../../img/geometria/transform/transform2.png)

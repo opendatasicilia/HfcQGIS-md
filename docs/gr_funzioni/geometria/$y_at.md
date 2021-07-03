@@ -14,7 +14,7 @@ $y_at(_<span style="color:red;">i_</span>)
 
 * `$y_at(1) → 2`
 
-![](/img/geometria/_y_at/_y_at1.png)
+![](../../img/geometria/_y_at/_y_at1.png)
 
 ## nota bene
 

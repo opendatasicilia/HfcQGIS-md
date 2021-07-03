@@ -16,7 +16,7 @@ Crea un valore di data dai numeri di anno, mese e giorno.
 
 * `make_date(2020,5,4) → date value 2020-05-04`
 
-![](/img/data_e_ora/make_date1.png)
+![](../../img/data_e_ora/make_date1.png)
 
 ## Osservazioni
 

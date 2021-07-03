@@ -14,7 +14,7 @@ asin(_<span style="color:red;">value</span>_)
 
 * `asin(1.0) → 1.5707963267949`
 
-![](/img/matematica/asin/asin1.png)
+![](../../img/matematica/asin/asin1.png)
 
 ## nota bene
 

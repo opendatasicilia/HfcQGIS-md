@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/reference/wktcentroid/wktcentroid1.png)
+![](../../img/reference/wktcentroid/wktcentroid1.png)
 
 ## nota bene
 

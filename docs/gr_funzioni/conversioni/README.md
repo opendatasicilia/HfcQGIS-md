@@ -18,4 +18,4 @@ Questo gruppo contiene funzioni per convertire i dati da un tipo ad un'altro, es
 |[to_time](to_time.html)|Converti una stringa in un oggetto time|
 |[to_time](to_time.html)|Converti una stringa in un oggetto time|
 
-![](/img/conversioni/gruppo_conversioni1.png)
+![](../../img/conversioni/gruppo_conversioni1.png)

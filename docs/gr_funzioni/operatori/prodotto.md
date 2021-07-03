@@ -13,4 +13,4 @@ Moltiplicazione di due valori.
 
 --
 
-![](/img/operatori/prodotto1.png)
+![](../../img/operatori/prodotto1.png)

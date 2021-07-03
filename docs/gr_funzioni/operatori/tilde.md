@@ -13,4 +13,4 @@ Esegue un'espressione regolare su di una stringa.
 
 --
 
-![](/img/operatori/tilde1.png)
+![](../../img/operatori/tilde1.png)

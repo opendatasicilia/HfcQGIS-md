@@ -15,4 +15,4 @@ Converte una coordinata in gradi, minuti e secondi nel suo equivalente decimale.
 to_decimal('6°9′16.445″')) → 6.154568055555556
 ```
 
-![](/img/conversioni/to_decimal.png)
+![](../../img/conversioni/to_decimal.png)

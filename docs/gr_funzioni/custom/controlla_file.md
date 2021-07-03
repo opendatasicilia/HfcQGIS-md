@@ -6,7 +6,7 @@ Questa funzione ritorna true se il percorso esiste altrimenti false.
 
 * `controlla_file('path') -> true `
 
-![](/img/custom/controlla_file1.png)
+![](../../img/custom/controlla_file1.png)
 
 ## Codice Python
 

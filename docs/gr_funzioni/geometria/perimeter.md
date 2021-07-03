@@ -14,7 +14,7 @@ perimeter(_<span style="color:red;">geometry</span>_)
 
 * `perimeter(geom_from_wkt('POLYGON((0 0, 4 0, 4 2, 0 2, 0 0))')) → 12.0`
 
-![](/img/geometria/perimeter/perimeter1.png)
+![](../../img/geometria/perimeter/perimeter1.png)
 
 ## nota bene
 

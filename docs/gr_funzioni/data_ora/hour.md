@@ -18,7 +18,7 @@ Estrae la parte ore da un orario o data/ora.
 ```
 * hour(to_datetime('2018-05-09T11:58:57')) → 11
 ```
-![](/img/data_e_ora/hour1.png)
+![](../../img/data_e_ora/hour1.png)
 
 ## Variabile intervallo
 
@@ -41,4 +41,4 @@ hour(age('2012-01-01','2010-01-01')) → 17520
 ```
 
 
-![](/img/data_e_ora/hour2.png)
+![](../../img/data_e_ora/hour2.png)

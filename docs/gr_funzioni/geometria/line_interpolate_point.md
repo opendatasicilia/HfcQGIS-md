@@ -15,7 +15,7 @@ line_interpolate_point(_geometry, distance_)
 
 * `geom_to_wkt(line_interpolate_point(geometry:=geom_from_wkt('LineString(0 0, 10 0)'),distance:=5)) → 'Point (4 0)'`
 
-![](/img/geometria/line_interpolate_point/line_interpolate_point1.png)
+![](../../img/geometria/line_interpolate_point/line_interpolate_point1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ line_interpolate_point(_geometry, distance_)
 
 --
 
-![](/img/geometria/line_interpolate_point/line_interpolate_point2.png)
+![](../../img/geometria/line_interpolate_point/line_interpolate_point2.png)

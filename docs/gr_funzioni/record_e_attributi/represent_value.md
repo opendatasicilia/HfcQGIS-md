@@ -17,4 +17,4 @@ Restituisce il valore di rappresentazione configurato per un valore di campo. Di
 * `represent_value('static value', 'field_name') → Descrizione per il valore statico`
 
 
-![](/img/record_e_attributi/represent_value1.png)
+![](../../img/record_e_attributi/represent_value1.png)

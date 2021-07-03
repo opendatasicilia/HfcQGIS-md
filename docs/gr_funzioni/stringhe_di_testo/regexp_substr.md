@@ -15,7 +15,7 @@ regexp_substr(_<span style="color:red;">input_string</span>, <span style="color:
 
 * `regexp_substr('abc123','(\\d+)') → '123'`
 
-![](/img/stringhe_di_testo/regexp_substr/regexp_substr1.png)
+![](../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png)
 
 ## nota bene
 

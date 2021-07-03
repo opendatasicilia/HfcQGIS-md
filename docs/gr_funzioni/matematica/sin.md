@@ -15,7 +15,7 @@ sin(_<span style="color:red;">angle</span>_)
 * `sin(1.571) → 0.999999682931835`
 * `sin(pi()/2) → 1`
 
-![](/img/matematica/sin/sin1.png)
+![](../../img/matematica/sin/sin1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ color_mix_rgb(_<span style="color:red;">color1</span>,<span style="color:red;">c
 
 * `color_mix_rgb('0,0,0','255,255,255',0.5) → 127,127,127,255`
 
-![](/img/colore/color_mix_rgb/color_mix_rgb1.png)
+![](../../img/colore/color_mix_rgb/color_mix_rgb1.png)
 
 ## nota bene
 

@@ -15,7 +15,7 @@ array_median(_array_)
 * `array_median(array(0,1,42,42,43)) → 42`
 * `array_median(array(0,1,2,42,'a','b')) → 1.5`
 
-![](/img/arrays/array_median/array_median.png)
+![](../../img/arrays/array_median/array_median.png)
 
 ## nota bene
 

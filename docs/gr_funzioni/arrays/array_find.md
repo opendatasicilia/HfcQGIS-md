@@ -15,7 +15,7 @@ array_find(_<span style="color:red;">array</span>, <span style="color:red;">valu
 
 * `array_find(array(1,2,3),2) → 1`
 
-![](/img/arrays/array_find/array_find1.png)
+![](../../img/arrays/array_find/array_find1.png)
 
 ## nota bene
 

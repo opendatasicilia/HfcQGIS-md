@@ -14,7 +14,7 @@ geom_from_wkb(_binari_)
 
 * `geom_from_wkb( geom_to_wkb( make_point(4,5) ) ) → un oggetto geometria punto`
 
-![](/img/geometria/geom_from_wkb/geom_from_wkb1.png)
+![](../../img/geometria/geom_from_wkb/geom_from_wkb1.png)
 
 ## nota bene
 

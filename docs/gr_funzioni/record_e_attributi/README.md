@@ -15,4 +15,4 @@ Questo gruppo contiene funzioni e/o espressioni che agiscono sui record o attrib
 |[represent_value](represent_value.html)|	Restituisce il valore di rappresentazione configurato per un valore di campo. Dipende dal tipo di widget configurato. Spesso, questo è utile per i widget di 'Value Map'|
 |[uuid](uuid.html)|Genera un Identificatore Universale Unico (UUID) per ogni riga usando il metodo Qt QUuid::createUuid. Aggiornato a QGIS 3.18|
 
-![](/img/record_e_attributi/gruppo_record_e_attributi1.png)
+![](../../img/record_e_attributi/gruppo_record_e_attributi1.png)

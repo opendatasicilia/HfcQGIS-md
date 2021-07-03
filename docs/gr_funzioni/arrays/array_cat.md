@@ -14,7 +14,7 @@ array_cat(_<span style="color:red;">array1</span>, <span style="color:red;">arra
 
 * `array_cat(array(1,2),array(2,3)) → array: 1,2,2,3`
 
-![](/img/arrays/array_cat/array_cat1.png)
+![](../../img/arrays/array_cat/array_cat1.png)
 
 ## nota bene
 

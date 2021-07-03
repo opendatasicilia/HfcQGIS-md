@@ -18,7 +18,7 @@ darker(_<span style="color:red;">color</span>, <span style="color:red;">factor</
 
 * `darker('200,10,30',300) → '66,3,10,255'`
 
-![](/img/colore/darker/darker1.png)
+![](../../img/colore/darker/darker1.png)
 
 ## nota bene
 

@@ -16,7 +16,7 @@ array_all(_array_a, array_b, …_)
 * `array_all(array(1,2,3),array(2,3)) → vero`
 * `array_all(array(1,2,3),array(1,2,4)) → falso`
 
-![](/img/arrays/array_all/array_all1.png)
+![](../../img/arrays/array_all/array_all1.png)
 
 ## nota bene
 

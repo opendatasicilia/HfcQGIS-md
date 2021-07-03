@@ -16,4 +16,4 @@ Confronta due valori e pone a 1 se essi non sono uguali.
 
 0 significa **falso**
 
-![](/img/operatori/diverso1.png)
+![](../../img/operatori/diverso1.png)

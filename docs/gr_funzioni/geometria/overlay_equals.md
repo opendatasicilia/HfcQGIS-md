@@ -32,7 +32,7 @@ overlay_equals(_layer[,expression][,filter][,limit][,cache]_)
 * overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni spazialmente uguali all'elemento corrente
 ```
 
-![](/img/geometria/refFunction/overlay_equals.png)
+![](../../img/geometria/refFunction/overlay_equals.png)
 
 ## nota bene
 

@@ -15,9 +15,9 @@ sym_difference(_geometry1, geometry2_)
 
 * `geom_to_wkt( sym_difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 8 8)' ) ) ) → LINESTRING(5 5, 8 8)`
 
-![](/img/geometria/sym_difference/sym_difference1.png)
+![](../../img/geometria/sym_difference/sym_difference1.png)
 
-![](/img/geometria/sym_difference/sym_difference3.png)
+![](../../img/geometria/sym_difference/sym_difference3.png)
 
 Espressione:
 
@@ -48,4 +48,4 @@ make_line(  -- linea b
 
 --
 
-![](/img/geometria/sym_difference/sym_difference2.png)
+![](../../img/geometria/sym_difference/sym_difference2.png)

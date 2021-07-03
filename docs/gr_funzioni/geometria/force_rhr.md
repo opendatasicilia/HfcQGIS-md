@@ -15,7 +15,7 @@ force_rhr(_geometry_)
 
 * `geom_to_wkt(force_rhr(geometry:=geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))'))) → Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1))`
 
-![](/img/geometria/force_rhr/force_rhr1.png)
+![](../../img/geometria/force_rhr/force_rhr1.png)
 
 ## nota bene
 
@@ -25,4 +25,4 @@ force_rhr(_geometry_)
 
 Ecco un esempio pratico della funzione (presente anche nelgli strumenti fi processing) ovvero un poligono disegnato in senso antiorario viene forzato in senso orario e l'etichettature è visibile correttamente.
 
-![](/img/geometria/force_rhr/force_rhr.gif)
+![](../../img/geometria/force_rhr/force_rhr.gif)

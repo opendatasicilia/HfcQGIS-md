@@ -7,7 +7,7 @@ Funzione  | Descrizione
 :----------:|:-----------
 [campi e valori](campi_e_valori.html)|Contiene un elenco di campi del layer corrente
 
-![](/img/campi_e_valori/gruppo_campi_e_valori1.png)
+![](../../img/campi_e_valori/gruppo_campi_e_valori1.png)
 
 
-![](/img/calcolatore_campi2.png)
+![](../../img/calcolatore_campi2.png)

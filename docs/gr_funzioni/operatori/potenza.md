@@ -13,4 +13,4 @@ Elevazione a potenza di due valori.
 
 --
 
-![](/img/operatori/potenza1.png)
+![](../../img/operatori/potenza1.png)

@@ -14,7 +14,7 @@ map_concat(_map1, map2, …_)
 
 * `map_concat(map('1','one', '2','overridden'),map('2','two', '3','three')) → map: 1: 'one, 2: 'two', 3: 'three'`
 
-![](/img/maps/map_concat/map_concat1.png)
+![](../../img/maps/map_concat/map_concat1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ map_concat(_map1, map2, …_)
 
 --
 
-![](/img/maps/map_concat/map_concat2.png)
+![](../../img/maps/map_concat/map_concat2.png)

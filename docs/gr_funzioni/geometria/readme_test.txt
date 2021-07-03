@@ -103,4 +103,4 @@ A  B  C  D  E  F  G  H  I  L  M  N  O  P  Q  R  S  T  U  V  Z
 * [y_max](y_max.md) Returns the maximum y coordinate of a geometry. Calculations are in the Spatial Reference System of this geometry
 * [z](z.md) Returns the z coordinate of a point geometry 
 
-![](/img/geometria/gruppo_geometria1.png)
+![](../../img/geometria/gruppo_geometria1.png)

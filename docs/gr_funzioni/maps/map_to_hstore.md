@@ -14,7 +14,7 @@ map_to_hstore(_<span style="color:red;">map</span>_)
 
 * `map_to_hstore(map('qgis','rocks')) → "qgis"=>"rocks"}`
 
-![](/img/maps/map_to_hstore/map_to_hstore1.png)
+![](../../img/maps/map_to_hstore/map_to_hstore1.png)
 
 ## nota bene
 

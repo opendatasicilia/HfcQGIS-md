@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/reference/geomtouches/geomtouches1.png)
+![](../../img/reference/geomtouches/geomtouches1.png)
 
 ## nota bene
 

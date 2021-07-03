@@ -19,4 +19,4 @@ to_string(123) → '123'
 
 Il punto (.) è il separatore decimale; una stringa è sempre tra apici semplici es: '123'.
 
-![](/img/conversioni/to_string1.png)
+![](../../img/conversioni/to_string1.png)

@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/grid_axis/grid_axis1.png)
+![](../../img/variabili/grid_axis/grid_axis1.png)
 
 ## nota bene
 

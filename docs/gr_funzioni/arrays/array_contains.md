@@ -15,7 +15,7 @@ array_contains(_<span style="color:red;">array</span>, <span style="color:red;">
 
 * `array_contains(array(1,2,3),2) → true`
 
-![](/img/arrays/array_contains/array_contains1.png)
+![](../../img/arrays/array_contains/array_contains1.png)
 
 ## nota bene
 

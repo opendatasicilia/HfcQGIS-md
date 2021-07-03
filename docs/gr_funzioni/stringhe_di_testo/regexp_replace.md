@@ -15,7 +15,7 @@ regexp_replace(_<span style="color:red;">input_string</span>, <span style="color
 
 ## Esempi
 
-![](/img/stringhe_di_testo/regexp_replace/regexp_replace1.png)
+![](../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png)
 
 ## Esempio 2
 

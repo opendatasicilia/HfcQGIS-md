@@ -17,7 +17,7 @@ Concatena gli elementi di un array in una stringa separata da un delimitatore us
 * `array_to_string(array('1','2','3'),',') → 1,2,3'`
 * `array_to_string(array('1','','3'),',','0') → 1,0,3'`
 
-![](/img/arrays/array_to_string/array_to_string1.png)
+![](../../img/arrays/array_to_string/array_to_string1.png)
 
 ## nota bene
 

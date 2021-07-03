@@ -14,7 +14,7 @@ project_color(_<span style="color:red;">name</span>_)
 
 * `project_color('Logo color') → 20,140,50`
 
-![](/img/colore/project_color/project_color1.png)
+![](../../img/colore/project_color/project_color1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ project_color(_<span style="color:red;">name</span>_)
 
 --
 
-![](/img/colore/project_color/project_color2.png)
+![](../../img/colore/project_color/project_color2.png)

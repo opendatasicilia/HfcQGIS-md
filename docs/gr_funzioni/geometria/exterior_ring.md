@@ -17,7 +17,7 @@ exterior_ring(_geometry_)
 
 * `geom_to_wkt(exterior_ring(geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1),( 0.1 0.1, 0.1 0.2, 0.2 0.2, 0.2, 0.1, 0.1 0.1))'))) → 'LineString (-1 -1, 4 0, 4 2, 0 2, -1 -1)'`
 
-![](/img/geometria/exterior_ring/exterior_ring1.png)
+![](../../img/geometria/exterior_ring/exterior_ring1.png)
 
 ## nota bene
 
@@ -27,4 +27,4 @@ exterior_ring(_geometry_)
 
 --
 
-![](/img/geometria/exterior_ring/exterior_ring2.png)
+![](../../img/geometria/exterior_ring/exterior_ring2.png)

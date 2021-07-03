@@ -41,10 +41,10 @@ Se la funzione viene chiamata sia con un layer che con una feature, tornerà ver
 
 Esempio etichettatura tramite regola:
 
-![](/img/record_e_attributi/is_selected1.gif)
+![](../../img/record_e_attributi/is_selected1.gif)
 
 Esempio tematizzazione tramite regola:
 
-![](/img/record_e_attributi/is_selected3.png)
+![](../../img/record_e_attributi/is_selected3.png)
 
-![](/img/record_e_attributi/is_selected2.gif)
+![](../../img/record_e_attributi/is_selected2.gif)

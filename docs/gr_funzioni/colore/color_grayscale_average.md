@@ -14,7 +14,7 @@ color_grayscale_average(_<span style="color:red;">color</span>_)
 
 * `color_grayscale_average('255,100,50') → '135,135,135,255'`
 
-![](/img/colore/color_grayscale_average/color_grayscale_average1.png)
+![](../../img/colore/color_grayscale_average/color_grayscale_average1.png)
 
 ## nota bene
 

@@ -14,7 +14,7 @@ flip_coordinates(_geometry_)
 
 * `geom_to_wkt(flip_coordinates(make_point(1, 2))) → Point (2 1)`
 
-![](/img/geometria/flip_coordinates/flip_coordinates1.png)
+![](../../img/geometria/flip_coordinates/flip_coordinates1.png)
 
 ## nota bene
 
@@ -25,8 +25,8 @@ flip_coordinates(_geometry_)
 --
 Esempio con vettore poligonale (aggiorno la geometry): 
 
-![](/img/geometria/flip_coordinates/flip_coordinates2.png)
+![](../../img/geometria/flip_coordinates/flip_coordinates2.png)
 
 il flip è da usare con cautela perché cambia radicalemnte la posizione del vettore
 
-![](/img/geometria/flip_coordinates/flip_coordinates3.png)
+![](../../img/geometria/flip_coordinates/flip_coordinates3.png)

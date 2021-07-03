@@ -19,7 +19,7 @@ Estrae la parte anno da una data o datetime.
 week('2018-05-09') → 19
 ```
 
-![](/img/data_e_ora/year1.png)
+![](../../img/data_e_ora/year1.png)
 
 ## Variabile intervallo
 
@@ -39,4 +39,4 @@ year(to_interval('3 years')) → 3
 year(age('2012-01-01','2010-01-01')) → 1.9986
 ```
 
-![](/img/data_e_ora/year2.png)
+![](../../img/data_e_ora/year2.png)

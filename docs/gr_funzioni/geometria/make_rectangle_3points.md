@@ -18,7 +18,7 @@ make_rectangle_3points(_point1_,_point2_,_point3_[,option=0]…)
 * `geom_to_wkt(make_rectangle_3points(make_point(0, 0), make_point(0,5), make_point(5, 5), 0))) → 'Polygon ((0 0, 0 5, 5 5, 5 0, 0 0))'`
 * `geom_to_wkt(make_rectangle_3points(make_point(0, 0), make_point(0,5),make_point(5, 3), 1))) → 'Polygon ((0 0, 0 5, 5 5, 5 0, 0 0))'`
 
-![](/img/geometria/make_rectangle_3points/make_rectangle_3points1.png)
+![](../../img/geometria/make_rectangle_3points/make_rectangle_3points1.png)
 
 ## nota bene
 
@@ -28,4 +28,4 @@ make_rectangle_3points(_point1_,_point2_,_point3_[,option=0]…)
 
 --
 
-![](/img/geometria/make_rectangle_3points/make_rectangle_3points2.png)
+![](../../img/geometria/make_rectangle_3points/make_rectangle_3points2.png)

@@ -30,7 +30,7 @@ overlay_within(_layer[,expression][,filter][,limit][,cache]_)
 * overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni contenenti l'elemento corrente
 ```
 
-![](/img/geometria/refFunction/overlay_within.png)
+![](../../img/geometria/refFunction/overlay_within.png)
 
 ## nota bene
 

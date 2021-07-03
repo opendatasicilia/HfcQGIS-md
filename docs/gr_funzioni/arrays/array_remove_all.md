@@ -15,7 +15,7 @@ Restituisce un array con tutti gli elementi del valore passato rimossi.
 
 * `array_remove_all(array('a','b','c','b'),'b') → array: 'a','c'`
 
-![](/img/arrays/array_remove_all/array_remove_all1.png)
+![](../../img/arrays/array_remove_all/array_remove_all1.png)
 
 ## nota bene
 

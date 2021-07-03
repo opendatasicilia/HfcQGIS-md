@@ -18,7 +18,7 @@ inclination(_<span style="color:red;">point_a</span>, <span style="color:red;">p
 * `inclination( make_point( 5, 10, 0 ), make_point( 50, 100, 0 ) ) → 90.0`
 * `inclination( make_point( 5, 10, 0 ), make_point( 5, 10, -5 ) ) → 180.0`
 
-![](/img/matematica/Inclination/Inclination1.png)
+![](../../img/matematica/Inclination/Inclination1.png)
 
 ## nota bene
 

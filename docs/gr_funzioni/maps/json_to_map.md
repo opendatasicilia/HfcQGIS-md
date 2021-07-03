@@ -14,7 +14,7 @@ json_to_map(_<span style="color:red;">string</span>_)
 
 * `json_to_map('{"qgis":"rocks"}') → { "qgis" : "rocks" }`
 
-![](/img/maps/json_to_map/json_to_map1.png)
+![](../../img/maps/json_to_map/json_to_map1.png)
 
 ## nota bene
 

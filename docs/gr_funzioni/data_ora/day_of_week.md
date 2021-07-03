@@ -15,7 +15,7 @@ Restituisce il giorno della settimana per una data o un datetime. L'intervallo d
 * day_of_week(todate('2018-05-09')) → 3 (Mercoledì)
 ```
 
-![](/img/data_e_ora/day_of_week1.png)
+![](../../img/data_e_ora/day_of_week1.png)
 
 ## Osservazioni
 

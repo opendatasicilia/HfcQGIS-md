@@ -14,7 +14,7 @@ lower(_<span style="color:red;">string</span>_)
 
 * `lower('HELLO World') → 'hello world'`
 
-![](/img/stringhe_di_testo/lower/lower1.png)
+![](../../img/stringhe_di_testo/lower/lower1.png)
 
 ## nota bene
 

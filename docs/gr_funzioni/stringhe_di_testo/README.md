@@ -29,4 +29,4 @@ Questo gruppo contiene le funzioni che operano sulle stringhe es. _sostituzione_
 [wordwrap](wordwrap.html)|Restituisce una stringa posta a capo ad un massimo/minimo numero di caratteri
 
 
-![](/img/stringhe_di_testo/gruppo_stringhe_di_testo1.png)
+![](../../img/stringhe_di_testo/gruppo_stringhe_di_testo1.png)

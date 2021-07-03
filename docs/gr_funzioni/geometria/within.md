@@ -16,7 +16,7 @@ within(_geometry a, geometry b_)
 * `within( geom_from_wkt( 'POINT( 0.5 0.5)' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))' ) ) → 1`
 * `within( geom_from_wkt( 'POINT( 5 5 )' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0 ))' ) ) → 0`
 
-![](/img/geometria/within/within1.png)
+![](../../img/geometria/within/within1.png)
 
 ## nota bene
 
@@ -36,7 +36,7 @@ dove:
 * _geometry b_ è `geometry(get_feature( 'province_rt_rt','pk_uid','53'))`
 
 
-![](/img/geometria/within/within3.png)
+![](../../img/geometria/within/within3.png)
 
 seleziono tutti i comuni `within` (contenuti) nella provincia con `pk_uid`53 (Grosseto)
 
@@ -53,4 +53,4 @@ ELSE 'NON INTERNO'
 END
 ```
 
-![](/img/geometria/within/within2.png)
+![](../../img/geometria/within/within2.png)

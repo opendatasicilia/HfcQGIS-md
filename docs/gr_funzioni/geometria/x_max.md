@@ -14,7 +14,7 @@ x_max(_geometry_)
 
 * `x_max( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 4`
 
-![](/img/geometria/x_max/x_max1.png)
+![](../../img/geometria/x_max/x_max1.png)
 
 ## nota bene
 
@@ -24,4 +24,4 @@ x_max(_geometry_)
 
 --
 
-![](/img/geometria/x_max/x_max2.png)
+![](../../img/geometria/x_max/x_max2.png)

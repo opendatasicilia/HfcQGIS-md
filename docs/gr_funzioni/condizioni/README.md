@@ -12,4 +12,4 @@ Questo gruppo contiene funzioni per eseguire controlli condizionali nelle espres
 |[try](try.md)|Prova un'espressione e restituisce il suo valore se priva di errori|
 
 
-![](/img/condizioni/gruppo_condizioni1.png)
+![](../../img/condizioni/gruppo_condizioni1.png)

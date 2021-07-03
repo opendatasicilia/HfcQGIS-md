@@ -18,4 +18,4 @@ eval(@expression_var) → [qualsiasi risultato che dalla valutazione di @express
 eval( '@row_number  +10') → 11
 ```
 
-![](/img/generale/eval1.png)
+![](../../img/generale/eval1.png)

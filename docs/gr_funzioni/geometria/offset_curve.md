@@ -21,7 +21,7 @@ offset_curve(_geometry, distance, segments, join, miter_limit_)
 * `offset_curve($geometry, 10.5, segments=16, join=1) → linea scostata a sinistra di 10.5 unità, usando più segmenti per risultare in una curva più morbida`
 * `offset_curve($geometry, 10.5, join=3) → linea scostata a sinistra di 10.5 unità, usando un'unione smussata`
 
-![](/img/geometria/offset_curve/offset_curve1.png)
+![](../../img/geometria/offset_curve/offset_curve1.png)
 
 ## nota bene
 
@@ -31,4 +31,4 @@ offset_curve(_geometry, distance, segments, join, miter_limit_)
 
 La linea è scostata a sinistra o destra rispetto al verso della linea:
 
-![](/img/geometria/offset_curve/offset_curve2.png)
+![](../../img/geometria/offset_curve/offset_curve2.png)

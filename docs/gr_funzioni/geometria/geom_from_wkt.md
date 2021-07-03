@@ -15,7 +15,7 @@ geom_from_wkt(_text_)
 
 * `geom_from_wkt( 'POINT(4 5)' ) → un oggetto geometria`
 
-![](/img/geometria/geom_from_wkt/geom_from_wkt1.png)
+![](../../img/geometria/geom_from_wkt/geom_from_wkt1.png)
 
 ## nota bene
 

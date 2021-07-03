@@ -16,7 +16,7 @@ color_hsv(_<span style="color:red;">hue</span>, <span style="color:red;">saturat
 
 * `color_hsv(40,100,100) → 255,170,0`
 
-![](/img/colore/color_hsv/color_hsv1.png)
+![](../../img/colore/color_hsv/color_hsv1.png)
 
 ## nota bene
 

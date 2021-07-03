@@ -32,7 +32,7 @@ set_color_part(_<span style="color:red;">color</span>, <span style="color:red;">
 
 * `set_color_part('200,10,30','green',50) → 200,50,30`
 
-![](/img/colore/set_color_part/set_color_part1.png)
+![](../../img/colore/set_color_part/set_color_part1.png)
 
 ## nota bene
 

@@ -15,7 +15,7 @@ create_ramp(_<span style="color:red;">map</span>, <span style="color:red;">discr
 
 * `ramp_color(create_ramp(map(0,'0,0,0',1,'255,0,0')),1) → 255,0,0,255`
 
-![](/img/colore/create_ramp/create_ramp1.png)
+![](../../img/colore/create_ramp/create_ramp1.png)
 
 ## nota bene
 

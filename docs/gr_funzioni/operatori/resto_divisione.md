@@ -23,7 +23,7 @@ divisibile per un divisore.
 
 --
 
-![](/img/operatori/resto1.png)
+![](../../img/operatori/resto1.png)
 
 ## Altri esempi
 
@@ -35,8 +35,8 @@ ecco il risultato:
 
 PRIMA:
 
-![](/img/operatori/resto2.png)
+![](../../img/operatori/resto2.png)
 
 DOPO:
 
-![](/img/operatori/resto3.png)
+![](../../img/operatori/resto3.png)

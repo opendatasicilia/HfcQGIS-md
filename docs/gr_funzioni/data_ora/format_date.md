@@ -52,7 +52,7 @@ ap o a|interpretato come un orario nel formato AM/PM. ap deve essere "am" oppure
 * format_date('2012-06-15','d MMMM yyyy','it') → '15 giugno 2012'
 ```
 
-![](/img/data_e_ora/format_date1.png)
+![](../../img/data_e_ora/format_date1.png)
 
 
-![](/img/data_e_ora/format_data_2.png)
+![](../../img/data_e_ora/format_data_2.png)

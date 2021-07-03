@@ -17,7 +17,7 @@ lpad(_<span style="color:red;">string</span>, <span style="color:red;">width</sp
 * `lpad('Hello', 10, 'x') → 'xxxxxHello'`
 * `lpad('Hello', 3, 'x') → 'Hel'`
 
-![](/img/stringhe_di_testo/lpad/lpad1.png)
+![](../../img/stringhe_di_testo/lpad/lpad1.png)
 
 ## nota bene
 
@@ -41,7 +41,7 @@ id|path
 
 * `'segnale' || lpad( @row_number ,2, '00' )|| '.png' → 'segnale01.png'`
 
-![](/img/stringhe_di_testo/lpad/lpad2.png)
+![](../../img/stringhe_di_testo/lpad/lpad2.png)
 
 ---
 ### per ricostruire un identificativo univoco `CODICE_ASC`
@@ -61,4 +61,4 @@ lpad( "NUM_CIV",5,0) ||
 coalesce("BARRATO",'')
 ```
 
-![](/img/stringhe_di_testo/lpad/lpad3.png)
+![](../../img/stringhe_di_testo/lpad/lpad3.png)

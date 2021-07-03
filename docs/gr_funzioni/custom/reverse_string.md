@@ -6,7 +6,7 @@ Questa funzione ritorna il valore rovesciato di un testo
  
 * `reverse_string('Pigrecoinfinito) - > 'otinifniocergiP' `
 
-![](/img/custom/reverse_string1.png)
+![](../../img/custom/reverse_string1.png)
 
 ## Codice Python
 

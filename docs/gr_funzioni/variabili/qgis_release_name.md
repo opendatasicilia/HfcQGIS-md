@@ -8,7 +8,7 @@
 
 ## Esempi
 
-![](/img/variabili/qgis_release_name/qgis_release_name1.png)
+![](../../img/variabili/qgis_release_name/qgis_release_name1.png)
 
 ## nota bene
 

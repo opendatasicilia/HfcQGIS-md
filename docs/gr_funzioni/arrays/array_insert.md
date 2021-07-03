@@ -16,7 +16,7 @@ Restituisce un array con il valore passato aggiunto nella posizione indicata.
 
 * `array_insert(array(1,2,3),1,100) → array: 1,100,2,3`
 
-![](/img/arrays/array_insert/array_insert1.png)
+![](../../img/arrays/array_insert/array_insert1.png)
 
 ## nota bene
 

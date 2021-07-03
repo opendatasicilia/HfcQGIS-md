@@ -19,7 +19,7 @@ randf(_<span style="color:red;">[min=0.0]</span><span style="color:red;">[,max=1
 
 ## Esempi
 
-![](/img/matematica/randf/randf1.png)
+![](../../img/matematica/randf/randf1.png)
 
 ## nota bene
 
@@ -29,4 +29,4 @@ randf(_<span style="color:red;">[min=0.0]</span><span style="color:red;">[,max=1
 
 Novità introdotta nella **QGIS 3.12**
 
-![](/img/matematica/randf/randf2.png)
+![](../../img/matematica/randf/randf2.png)

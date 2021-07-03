@@ -84,16 +84,16 @@ Riguardano:
 [with_variable](with_variable.html)|Allows setting a variable for usage within an expression and avoid recalculating the same value repeatedly
 
 Gruppo sul calcolatore di campi,Seleziona per espressione
-![](/img/variabili/gruppo_variabili1.png)
+![](../../img/variabili/gruppo_variabili1.png)
 
 Geometry generator - stile ![epsilos](https://docs.qgis.org/testing/en/_images/mIconExpression.png)
-![](/img/variabili/gruppo_variabili2.png)
+![](../../img/variabili/gruppo_variabili2.png)
 
 Selezione per espressione ![exp](https://docs.qgis.org/testing/en/_images/mIconExpressionSelect.png)
-![](/img/variabili/gruppo_variabili3.png)
+![](../../img/variabili/gruppo_variabili3.png)
 
 Calcolatore di campi,Seleziona per espressione ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
-![](/img/variabili/gruppo_variabili4.png)
+![](../../img/variabili/gruppo_variabili4.png)
 
 Compositore di stampe ![print](https://docs.qgis.org/testing/en/_images/mActionNewLayout.png)
-![](/img/variabili/gruppo_variabili5.png)
+![](../../img/variabili/gruppo_variabili5.png)

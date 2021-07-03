@@ -18,7 +18,7 @@ contains(_geometry a, geometry b_)
 * `contains( geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → falso`
 
 
-![](/img/geometria/contains/contains1.png)
+![](../../img/geometria/contains/contains1.png)
 
 ## nota bene
 
@@ -38,7 +38,7 @@ dove:
 * _geometry b_ è `$geometry`
 
 
-![](/img/geometria/contains/contains2.png)
+![](../../img/geometria/contains/contains2.png)
 
 seleziono tutti i comuni `contains` (contenuti) nella provincia con `pk_uid`46 (Lucca)
 

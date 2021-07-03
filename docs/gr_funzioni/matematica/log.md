@@ -17,7 +17,7 @@ log(_<span style="color:red;">base</span>, <span style="color:red;">value</span>
 * `log(0.5, 32) → -5`
 * `log(2.7182818284590452354, 1) = ln(1) → 1`
 
-![](/img/matematica/log/log1.png)
+![](../../img/matematica/log/log1.png)
 
 ## nota bene
 

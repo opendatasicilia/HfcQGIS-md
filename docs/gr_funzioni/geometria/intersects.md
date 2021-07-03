@@ -16,7 +16,7 @@ intersects(<span style="color:red;">_geometry a_</span>, <span style="color:red;
 * `intersects( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → vero`
 * `intersects( geom_from_wkt( 'POINT(4 5)' ), geom_from_wkt( 'POINT(5 5)' ) ) → falso`
 
-![](/img/geometria/intersects/intersects1.png)
+![](../../img/geometria/intersects/intersects1.png)
 
 ## nota bene
 
@@ -36,7 +36,7 @@ dove:
 * _geometry b_ è `$geometry`
 
 
-![](/img/geometria/intersects/intersects2.png)
+![](../../img/geometria/intersects/intersects2.png)
 
 seleziono tutti i comuni `intersects` (interseca) nella provincia con `pk_uid`46 (Lucca)
 

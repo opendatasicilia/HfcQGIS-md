@@ -30,4 +30,4 @@ Funzioni geometriche:|
 [intersecting_geom_count](intersecting_geom_count.html)|Ottieni il conteggio delle funzionalità nel livello di destinazione intersecate dalla funzione di origine
 [intersecting_geom_sum](intersecting_geom_sum.html)|Somma gli attributi delle geometrie del livello di destinazione intersecati dalla funzione di origine
 
-![](/img/reference/gruppo_reference1.png)
+![](../../img/reference/gruppo_reference1.png)

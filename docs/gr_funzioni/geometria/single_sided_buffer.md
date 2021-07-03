@@ -21,7 +21,7 @@ single_sided_buffer(_geometry, distance, segments, join, miter_limit_)
 * `single_sided_buffer($geometry, 10.5, segments:=16, join:=1) → linea bufferizzata a sinistra di 10.5 unità, usando più segmenti per risultare in un buffer più morbido`
 * `single_sided_buffer($geometry, 10.5, join:=3) → linea bufferizzata a sinistra di 10.5 unità, usando un'unione smussata`
 
-![](/img/geometria/single_sided_buffer/single_sided_buffer1.png)
+![](../../img/geometria/single_sided_buffer/single_sided_buffer1.png)
 
 ## nota bene
 
@@ -31,4 +31,4 @@ single_sided_buffer(_geometry, distance, segments, join, miter_limit_)
 
 --
 
-![](/img/geometria/single_sided_buffer/single_sided_buffer2.png)
+![](../../img/geometria/single_sided_buffer/single_sided_buffer2.png)

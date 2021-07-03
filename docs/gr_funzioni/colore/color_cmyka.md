@@ -18,7 +18,7 @@ color_cmyka(_<span style="color:red;">cyan</span>, <span style="color:red;">mage
 
 * `color_cmyka(100,50,0,10,200) → 0,115,230,2000`
 
-![](/img/colore/color_cmyka/color_cmyka1.png)
+![](../../img/colore/color_cmyka/color_cmyka1.png)
 
 ## nota bene
 

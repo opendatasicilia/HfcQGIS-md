@@ -30,7 +30,7 @@ overlay_touches(_layer[,expression][,filter][,limit][,cache]_)
 ```
 
 
-![](/img/geometria/refFunction/overlay_touches.png)
+![](../../img/geometria/refFunction/overlay_touches.png)
 
 ## nota bene
 

@@ -19,8 +19,8 @@ env( 'COMPUTERNAME') → LENOVO_PC (è il mio notebook)
 env('home') → 'C:\Users\Salvatore'
 ```
 
-![](/img/generale/env1.png)
+![](../../img/generale/env1.png)
 
 alcune varibili li trovate qui: Impostazioni | Opzioni | Sistema
 
-![](/img/generale/env_variabili.png)
+![](../../img/generale/env_variabili.png)

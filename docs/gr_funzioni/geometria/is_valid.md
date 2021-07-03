@@ -15,7 +15,7 @@ is_valid(<span style="color:red;">_geom_</span>)
 * `is_valid(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2, 0 0)')) → vero`
 * `is_valid(geom_from_wkt('LINESTRING(0 0)')) → falso`
 
-![](/img/geometria/is_valid/is_valid1.png)
+![](../../img/geometria/is_valid/is_valid1.png)
 
 ## nota bene
 

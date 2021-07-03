@@ -10,4 +10,4 @@ Restituisce la data e l'ora correnti. La funzione è statica e restituirà risul
 
 * `now() → 2018-05-09 12:18:38`
 
-![](/img/data_e_ora/now1.png)
+![](../../img/data_e_ora/now1.png)
