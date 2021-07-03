@@ -149,9 +149,72 @@ nav:
             - Elenco:  gr_funzioni/array/array.md
             - Array_filter: gr_funzioni/array/array_filter.md
             - Array_foreach: gr_funzioni/array/array_foreach.md
-       - bla bla:
+       - Arrays:
             - bla bla: bla.md
             - bla bla: bla.md
+       - Campi e valori:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Colore:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Condizioni:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Conversioni:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Corrispondenza fuzzy:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Custom:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Data ora:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Generale:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Geometria:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Layer della mappa:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Maps:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Matematica:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Operatori:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Rasters:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Recente:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Record e attributi:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Reference:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Relazioni:
+            - bla bla: bla.md
+            - bla bla: bla.md  
+       - Stringhe di testo:
+            - bla bla: bla.md
+            - bla bla: bla.md
+       - Timemanager:
+            - bla bla: bla.md
+            - bla bla: bla.md 
+       - Variabili:
+            - bla bla: bla.md
+            - bla bla: bla.md              
        - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
