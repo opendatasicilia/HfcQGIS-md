@@ -151,19 +151,83 @@ nav:
             - Array_foreach: gr_funzioni/array/array_foreach.md
        - Arrays:
             - Elenco: gr_funzioni/arrays/arrays.md
-            - bla bla: bla.md
+            - array: array.md
+            - array_append: array_append.md
+            - array_avg: array_avg.md
+            - array_cat: array_cat.md
+            - array_contains: array_contains.md
+            - array_count: array_count.md
+            - array_distinct: array_distinct.md
+            - array_find: array_find.md
+            - array_first: array_first.md
+            - array_get: array_get.md
+            - array_insert: array_insert.md
+            - array_lambda: array_lambda.md
+            - array_intersect: array_intersect.md
+            - array_last: array_last.md
+            - array_length: array_length.md
+            - array_majority: array_majority.md
+            - array_minority: array_minority.md
+            - array_max: array_max.md
+            - array_min: array_min.md
+            - array_prepend: array_prepend.md
+            - array_prioritize: array_prioritize.md
+            - array_remove_all: array_remove_all.md
+            - array_remove_at: array_remove_at.md
+            - array_replace: array_replace.md
+            - array_reverse: array_reverse.md
+            - array_slice: array_slice.md
+            - array_sort: array_sort.md
+            - array_sum: array_sum.md
+            - array_to_string: array_to_string.md
+            - generate_series: generate_series.md
+            - regexp_matches: regexp_matches.md
+            - string_to_array: string_to_array.md
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
        - Colore:
             - Elenco: gr_funzioni/colore/colore.md
-            - bla bla: bla.md
+            - color_cmyk: color_cmyk.md
+            - color_cmyka: color_cmyka.md
+            - color_grayscale_average: color_grayscale_average.md
+            - color_hsl: color_hsl.md
+            - color_hsla: color_hsla.md
+            - color_hsv: color_hsv.md
+            - color_hsva: color_hsva.md
+            - color_mix_rgb: color_mix_rgb.md
+            - color_part: color_part.md
+            - color_rgb: color_rgb.md
+            - color_rgba: color_rgba.md
+            - create_ramp: create_ramp.md
+            - darker: darker.md
+            - lighter: lighter.md
+            - project_color: project_color.md
+            - ramp_color: ramp_color.md
+            - set_color_part: set_color_part.md
        - Condizioni:
             - Elenco: gr_funzioni/condizioni/condizioni.md
-            - bla bla: bla.md
+            - CASE: case.md
+            - coalesce: coalesce.md
+            - if: if.md
+            - regexp_match: regexp_match.md
+            - nullif: nullif.md
+            - try: try.md
        - Conversioni:
             - Elenco: gr_funzioni/conversioni/conversioni.md
-            - bla bla: bla.md
+            - hash: hash.md
+            - md5: md5.md
+            - sha256: sha256.md
+            - to_date: to_date.md
+            - to_datetime: to_datetime.md
+            - to_dm: to_dm.md
+            - to_dms: to_dms.md
+            - to_int: to_int.md
+            - to_interval: to_interval.md
+            - to_real: to_real.md
+            - to_string: to_string.md
+            - to_time: to_time.md
+            - to_time: to_time.md
        - Corrispondenza fuzzy:
             - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
             - bla bla: bla.md
