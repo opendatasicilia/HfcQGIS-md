@@ -14,5 +14,5 @@ mkdocs-jupyter
 mkdocs-exclude
 mkdocs-exclude-search
 mkdocs-macros-plugin
-
+pyyaml-env-tag==0.1
 
