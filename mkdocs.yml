@@ -69,6 +69,7 @@ plugins:
 - mkdocstrings
 - autolinks
 - tags
+- mkdocs_pymdownx_material_extras
 
 markdown_extensions:
 - toc:
