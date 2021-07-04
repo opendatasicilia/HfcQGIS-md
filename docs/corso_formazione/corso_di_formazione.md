@@ -25,7 +25,7 @@ Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due
    8. riorganizzazione campi tabella - processing;
    9. selezione per espressione;
    10. esercitazioni.
-2. **Calcolatore di campi** ![](/img/mActionCalculateField.png);
+2. **Calcolatore di campi** ![](../img/mActionCalculateField.png);
    1. Concetti fondamentali sul Calcolatore di campi;
    2. Interfaccia;
    3. gruppo funzioni;
