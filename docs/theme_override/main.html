@@ -5,14 +5,9 @@
 {{ super() }}
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb82cddf7f677"></script>
+<!-- Progress bar  -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://raw.githack.com/mburakerman/prognroll/master/src/prognroll.min.js"></script>
-
-{% endblock %}
-
-{% block content %} 
-{{ super() }}
-<!-- Progress bar  -->
 <script>
     $(function() {
       $("body").prognroll({
@@ -21,6 +16,11 @@
       });
     });
 </script> 
+{% endblock %}
+
+{% block content %} 
+{{ super() }}
+
 {% endblock content %}
 
 
