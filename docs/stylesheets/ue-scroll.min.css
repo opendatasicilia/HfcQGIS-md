@@ -4,10 +4,11 @@ position:fixed;
 transform:translateZ(0);
 cursor:pointer;
 top:auto;
-right:-20px;
+right:10px;
 bottom:4.5rem;
 left:auto;
 z-index:100;
+/*
 width:35px;
 height:35px;
 background-size:40%;
@@ -15,9 +16,9 @@ background-repeat:no-repeat;
 background-position:50%;
 margin: -2.8rem .4rem .4rem;
 outline: none;
-padding: .4rem;
+padding: .4rem;*/
 }
-@media only screen and (max-width: 1024px) {.ue-scroll{right:-5px; bottom:130px; !important;}}
+@media only screen and (max-width: 1024px) {.ue-scroll{right:0px; bottom:8rem!important;}}
 
 .ue-scroll.btn-black{background-color:#000}
 .ue-scroll.btn-gray{background-color:#999}
