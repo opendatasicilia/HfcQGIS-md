@@ -104,8 +104,8 @@ extra_javascript:
 extra_css:
    - stylesheets/gbextra.css
    - stylesheets/jquery-eu-cookie-law-popup.css
-             
- ## Page tree
+ 
+## Page tree
 nav:
     - Home: index.md
     
