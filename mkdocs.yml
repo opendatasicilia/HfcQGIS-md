@@ -69,8 +69,8 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
-- tags:
-    tags_file: tags.md
+# - tags:
+  #    tags_file: tags.md
 
 
 markdown_extensions:
