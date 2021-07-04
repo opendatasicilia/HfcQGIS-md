@@ -102,8 +102,9 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
-  # - stylesheets/prognroll.js
+  # - stylesheets/prognroll.min.js.js
   # - stylesheets/jquery-3.1.1.min.js
+  # - stylesheets/jquery-eu-cookie-law-popup.js
    
 extra_css:
    - stylesheets/gbextra.css
@@ -258,27 +259,27 @@ nav:
             - Fattoriale: gr_funzioni/custom/fattoriale.md
        - Data ora:
             - Elenco: gr_funzioni/data_ora/data_ora.md
-            - age: gr_funzioni/data_ora/funzioni/age.md
-            - datetime_from_epoch: gr_funzioni/data_ora/funzioni/datetime_from_epoch.md
-            - day: gr_funzioni/data_ora/funzioni/day.md
-            - day_of_week: gr_funzioni/data_ora/funzioni/day_of_week.md
-            - epoch: gr_funzioni/data_ora/funzioni/epoch.md
-            - format_date: gr_funzioni/data_ora/funzioni/format_date.md
-            - hour: gr_funzioni/data_ora/funzioni/hour.md
-            - make_date: gr_funzioni/data_ora/funzioni/make_date.md
-            - make_datetime: gr_funzioni/data_ora/funzioni/make_datetime.md
-            - make_interval: gr_funzioni/data_ora/funzioni/make_interval.md
-            - make_time: gr_funzioni/data_ora/funzioni/make_time.md
-            - minute: gr_funzioni/data_ora/funzioni/minute.md
-            - month: gr_funzioni/data_ora/funzioni/month.md
-            - now: gr_funzioni/data_ora/funzioni/now.md
-            - second: gr_funzioni/data_ora/funzioni/second.md
-            - to_date: gr_funzioni/data_ora/funzioni/to_date.md
-            - to_datetime: gr_funzioni/data_ora/funzioni/to_datetime.md
-            - to_interval: gr_funzioni/data_ora/funzioni/to_interval.md
-            - to_time: gr_funzioni/data_ora/funzioni/to_time.md
-            - week: gr_funzioni/data_ora/funzioni/week.md
-            - year: gr_funzioni/data_ora/funzioni/year.md
+            - age: gr_funzioni/data_ora/age.md
+            - datetime_from_epoch: gr_funzioni/data_ora/datetime_from_epoch.md
+            - day: gr_funzioni/data_ora/day.md
+            - day_of_week: gr_funzioni/data_ora/day_of_week.md
+            - epoch: gr_funzioni/data_ora/epoch.md
+            - format_date: gr_funzioni/data_ora/format_date.md
+            - hour: gr_funzioni/data_ora/hour.md
+            - make_date: gr_funzioni/data_ora/make_date.md
+            - make_datetime: gr_funzioni/data_ora/make_datetime.md
+            - make_interval: gr_funzioni/data_ora/make_interval.md
+            - make_time: gr_funzioni/data_ora/make_time.md
+            - minute: gr_funzioni/data_ora/minute.md
+            - month: gr_funzioni/data_ora/month.md
+            - now: gr_funzioni/data_ora/now.md
+            - second: gr_funzioni/data_ora/second.md
+            - to_date: gr_funzioni/data_ora/to_date.md
+            - to_datetime: gr_funzioni/data_ora/to_datetime.md
+            - to_interval: gr_funzioni/data_ora/to_interval.md
+            - to_time: gr_funzioni/data_ora/to_time.md
+            - week: gr_funzioni/data_ora/week.md
+            - year: gr_funzioni/data_ora/year.md
        - Espressione utente:
             - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
             - bla bla: bla.md                
@@ -317,7 +318,7 @@ nav:
             - centroid: gr_funzioni/geometria/centroid.md
             - close_line: gr_funzioni/geometria/close_line.md
             - closest_point: gr_funzioni/geometria/closest_point.md
-            - collect_geometries: gr_funzioni/geometria/funzioni/collect_geometries.md
+            - collect_geometries: gr_funzioni/geometria/collect_geometries.md
             - combine: gr_funzioni/geometria/combine.md
             - contains: gr_funzioni/geometria/contains.md
             - convex_hull: gr_funzioni/geometria/convex_hull.md
@@ -538,7 +539,7 @@ nav:
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo:
             - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
-            - ascii: gr_funzioni/stringhe_di_testo/funzioni/ascii.md
+            - ascii: gr_funzioni/stringhe_di_testo/ascii.md
             - char: gr_funzioni/stringhe_di_testo/char.md
             - concat: gr_funzioni/stringhe_di_testo/concat.md
             - format: gr_funzioni/stringhe_di_testo/format.md
