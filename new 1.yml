@@ -72,7 +72,6 @@ plugins:
 # - tags:
   #    tags_file: tags.md
 
-
 markdown_extensions:
 - toc:
         permalink: ↵
@@ -104,7 +103,7 @@ extra_javascript:
 extra_css:
    - stylesheets/gbextra.css
    - stylesheets/jquery-eu-cookie-law-popup.css
-             
+   - stylesheets/progress_bar.css 
  ## Page tree
 nav:
     - Home: index.md
@@ -225,9 +224,9 @@ nav:
             - try: gr_funzioni/condizioni/try.md
        - Conversioni:
             - Elenco: gr_funzioni/conversioni/conversioni.md
-            - hash: gr_funzioni/conversioni/hash.md
+            - hash: gr_funzioni/conversionihash.md
             - md5: gr_funzioni/conversioni/md5.md
-            - sha256: gr_funzioni/conversioni/sha256.md
+            - sha256: gr_funzioni/conversionisha256.md
             - to_date: gr_funzioni/conversioni/to_date.md
             - to_datetime: gr_funzioni/conversioni/to_datetime.md
             - to_dm: gr_funzioni/conversioni/to_dm.md
