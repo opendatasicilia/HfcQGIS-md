@@ -72,7 +72,6 @@ plugins:
 # - tags:
   #    tags_file: tags.md
 
-
 markdown_extensions:
 - toc:
         permalink: ↵
