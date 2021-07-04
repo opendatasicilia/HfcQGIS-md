@@ -2,8 +2,8 @@
   position: relative;
   padding: 0;
   color: #7f8b90;
-  border-top: 1px dotted #aaa;
-  border-bottom: 1px dotted #aaa;
+/*  border-top: 1px dotted #aaa;
+  border-bottom: 1px dotted #aaa;*/
 }
 .example-post p {
   font-size: 18px;
@@ -17,10 +17,9 @@
   display: block;
   background: linear-gradient(
     to right top,
-    #cddc39 0%,
-    #03a9f4 50%,
-    #e6f0f5 50%
-  );
+    #9dda77 0%,
+    #589632 50%,
+   #ee7313 50% );
   height: calc(100% - 100vh + 6px);
   width: 100%;
   position: absolute;
