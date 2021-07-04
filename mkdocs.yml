@@ -102,7 +102,6 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
-
    
 extra_css:
    - stylesheets/gbextra.css
