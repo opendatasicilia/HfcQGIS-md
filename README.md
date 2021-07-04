@@ -27,4 +27,4 @@ Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [
 <a href="https://stackexchange.com/users/8482031/pigreco"><img src="https://stackexchange.com/users/flair/8482031.png" width="208" height="58" alt="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
 
 ## HfcQGIS Vesione 2.0 
-[Read the Docs](https://readthedocs.org/) [Made with Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+[Read the Docs](https://readthedocs.org/) e [Made with Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
