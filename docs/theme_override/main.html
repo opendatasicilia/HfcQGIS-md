@@ -11,7 +11,7 @@
 {% block content %} 
 {{ super() }}
 {% endblock content %}
-
+<a href="#" class="md-top md-icon" title="Back to top" data-md-component="top"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg></a>
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
@@ -48,7 +48,7 @@
  <script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/ue-scroll.min.js"></script>
 <!-- <div id="ue-scroll" class="md-top ue-scroll btn-black arrow-white circle" style="display: block; opacity: 1;"></div> 
 <div id="ue-scroll" class="ue-scroll" style="display: block; opacity: 1;"><a href="#" class="md-top md-icon" title="Back to top" data-md-component="top"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg></a></div> --> 
-<a href="#" class="md-top md-icon" title="Back to top" data-md-component="top"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg></a>
+
 
 <script>
       UeScroll.init();
