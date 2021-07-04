@@ -49,16 +49,16 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb82cddf7f677"></script>  
 <!-- Progress bar  -->
 <!-- -->
-<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-3.1.1.min.js"></script> 
-<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/prognroll.min.js"></script>
-<script>
-    $(function() {
-      $("body").prognroll({
-        height: 4, //Progress bar height in pixels
-        color: "#589632", //Progress bar background color
-      });
-    });
-</script>  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/top-progress-bar.min"></script>
+    <script>
+        $(document).ready(function() {
+            $(document).topProgressBar({
+                bgColor: "#589632",
+                height: "4px"
+            });
+        });
+    </script>
 <!-- eu-cookie-lawt -->
 <div class="eupopup eupopup-top "></div>
 <script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-eu-cookie-law-popup.js"></script>
