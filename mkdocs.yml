@@ -96,19 +96,19 @@ markdown_extensions:
 - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+- attr_list 
+- def_list    
 
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
-      # PrognRoll
    - stylesheets/prognroll.js
    - stylesheets/jquery-3.1.1.min.js
    
 extra_css:
    - stylesheets/gbextra.css
    - stylesheets/jquery-eu-cookie-law-popup.css
-
-   
+             
  ## Page tree
 nav:
     - Home: index.md
