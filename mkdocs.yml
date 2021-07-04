@@ -100,12 +100,14 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
+      # PrognRoll
+   - stylesheets/prognroll.js
+   - stylesheets/jquery-3.1.1.min.js
    
 extra_css:
    - stylesheets/gbextra.css
    - stylesheets/jquery-eu-cookie-law-popup.css
-   - stylesheets/prognroll.js
-   - stylesheets/jquery-3.1.1.min.js
+
    
  ## Page tree
 nav:
