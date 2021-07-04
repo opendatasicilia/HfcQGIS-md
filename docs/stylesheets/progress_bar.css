@@ -1,7 +1,7 @@
 .example-post {
   position: relative;
   padding: 0;
-  color: #7f8b90;
+  color: #fff;
 /*  border-top: 1px dotted #aaa;
   border-bottom: 1px dotted #aaa;*/
 }
@@ -44,63 +44,10 @@ code {
   font-size: 14px;
 }
 .entry-content {
-  max-width: 790px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
   margin-bottom: calc(-100vh + 6px);
   padding: 0 15px;
-}
-
-/* demo stuff */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body {
-  background-color: #e6f0f5;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  margin: 0;
-}
-html,
-button,
-input,
-select,
-textarea {
-  font-family: "Nunito", sans-serif;
-  color: #92a4ad;
-}
-h1 {
-  text-align: center;
-  margin: 30px 15px;
-  font-size: 40px;
-}
-.zoom-area {
-  max-width: 650px;
-  margin: 50px auto 70px;
-  font-size: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-}
-.link-container {
-  text-align: center;
-}
-a.more-link {
-  font-size: 18px;
-  font-weight: 700;
-  background-color: transparent;
-  padding: 10px 5px 0;
-  border-radius: 0;
-  color: #416475;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  line-height: 1.5;
-  text-decoration: none;
-  margin-top: 50px;
-  letter-spacing: 1px;
-  border-bottom: 6px solid #92a4ad;
 }
