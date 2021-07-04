@@ -5,6 +5,7 @@
 {{ super() }}
  <!-- Qui Script header) --> 
  <link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
+<link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/ue-scroll.min.css" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block content %} 
@@ -43,7 +44,13 @@
   
   {% block scripts %}
 <!-- Qui Script footer) --> 
- 
+<!-- back to top) --> 
+ <script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/ue-scroll.min.js.download"></script>
+<div id="ue-scroll" class="ue-scroll btn-black arrow-white circle" style="display: block; opacity: 1;"></div>
+<script>
+      UeScroll.init();
+    </script>
+
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb82cddf7f677"></script>  
  <!-- Qui Progress bar) --> 
