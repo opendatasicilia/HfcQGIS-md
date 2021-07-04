@@ -4,7 +4,7 @@ position:fixed;
 transform:translateZ(0);
 cursor:pointer;
 top:auto;
-right:20px;
+right:-20px;
 bottom:4.5rem;
 left:auto;
 z-index:100;
@@ -17,6 +17,9 @@ margin: -2.8rem .4rem .4rem;
 outline: none;
 padding: .4rem;
 }
+
+@media screen and (max-width: 1180).ue-scroll {right:-5px; bottom:6.5rem; !important;}
+
 .ue-scroll.btn-black{background-color:#000}
 .ue-scroll.btn-gray{background-color:#999}
 .ue-scroll.btn-white{background-color:#fff}
