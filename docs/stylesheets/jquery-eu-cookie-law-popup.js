@@ -37,7 +37,7 @@ $.fn.euCookieLawPopup = (function() {
 		buttonContinueTitle : 'Chiudi!  ',
 	buttonLearnmoreTitle : 'Leggi l&rsquo;informatriva',
 		buttonLearnmoreOpenInNewWindow : false,
-		agreementExpiresInDays : 30,
+		agreementExpiresInDays : 8,
 		autoAcceptCookiePolicy : false,
 		htmlMarkup : null
 	};
