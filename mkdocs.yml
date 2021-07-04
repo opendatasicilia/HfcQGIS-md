@@ -102,9 +102,7 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
-#   - stylesheets/prognroll.js
-#   - stylesheets/jquery-3.1.1.min.js 
-   - stylesheets/jquery-eu-cookie-law-popup.js
+
    
 extra_css:
    - stylesheets/gbextra.css
