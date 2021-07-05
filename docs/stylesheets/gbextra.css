@@ -71,6 +71,8 @@ a.md-button.md-button:hover {
     color: #000000;
 }
 
+ /*sposta più in alto il back to top in mobile se è installata la condivisione social; */
+ @media screen and (max-width: 1100px) { .md-top {bottom: 2.5rem!important;}}
 
 /*Table styling*/
 table {
@@ -170,8 +172,7 @@ div.doc-contents:not(.first) {
 
 /*@media (min-width: 1100px) { .md-content{ flex-grow: 0!important; }}
 .md-content {flex-grow: 0!important;}
-@media screen and (max-width: 1180).md-content {flex-grow: 1!important;}*/
-
+@media screen and (max-width: 1180){.md-content {flex-grow: 1!important;}}*/
 
 /* logo hfc*/
 .md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem!important;    width: 12rem!important; padding-right: 3rem!important; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}
