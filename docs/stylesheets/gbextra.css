@@ -210,3 +210,22 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
 .clip_resize {height: 100% /*width: 100%;  border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) */} 
 
 .rst-versions.rst-badge .rst-current-version { display: none !important; }
+
+/* icona social */
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.75rem;
+  width: 1.75rem;
+  background-color: #343a409e;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;}
+
+.social-icons .social-icon:hover {
+  background-color: #ff9900;}
