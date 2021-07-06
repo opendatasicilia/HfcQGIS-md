@@ -26,6 +26,6 @@ Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [
 
 <a href="https://stackexchange.com/users/8482031/pigreco"><img src="https://stackexchange.com/users/flair/8482031.png" width="208" height="58" alt="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
 
-## HfcQGIS Vesione 2.0 
+## HfcQGIS Vesione 2.0 [fatta con Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 La versione in formato [Read the Docs](https://readthedocs.org/) del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità [OpenDataSicilia](https://hfcqgis-md.readthedocs.io/it/latest/ods/), in particolare da: [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca) e [Giovan Battista Vitrano](https://twitter.com/gbvitrano).
 [Read the Docs](https://readthedocs.org/) e [Made with Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
