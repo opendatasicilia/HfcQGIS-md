@@ -1,0 +1,94 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+
+ <!-- Font Awesome icons (free version)  -->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <!--  <link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/home.css" rel="stylesheet" type="text/css"/>   -->
+   <link rel="stylesheet" href="stylesheets/home.css">    
+  
+<!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+           <!--      <div class="masthead-subheading">HfcQGIS</div>
+               <div class="masthead-heading text-uppercase">Help funzioni calcolatore di campi di QGIS</div> -->
+          
+            </div>
+        </header>
+        <!-- Services--><br><br><br>
+        <section class="page-section" id="services">
+              <div class="container">
+                <div class="text-center">
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Consulta la guida </a>
+          <!-- <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a> --><br><br><br>
+                    <h2 class="section-heading text-uppercase">HfcQGIS: Help funzioni calcolatore di campi di QGIS</h2>
+                    <h3 class="section-subheading text-muted">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-regular fa-calculator fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Field Calculator</h4>
+                        <p class="text-muted"><a href="https://hfcqgis-md.readthedocs.io/it/latest/calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Il calcolatore di campi</a> consente di eseguire calcoli sulla base di valori di attributo esistenti o funzioni definite, ad esempio, per calcolare la lunghezza o l'area delle caratteristiche geometriche.<br>I risultati possono essere scritti in un nuovo campo di attributo, un campo virtuale, oppure possono essere utilizzati per aggiornare i valori in un campo esistente.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-thin fa-signature fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Funzioni</h4>
+                        <p class="text-muted">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi e per colmare un vuoto sulla guida online di QGIS con esempi e molti screenshot.<br>Nella sezione <a href="https://hfcqgis-md.readthedocs.io/it/latest/esempi/lista_esempi/" title="USO DELLE FUNZIONI" target="_parent">ESERCIZI</a> si trovano esempi pratici e svolti step by step per rendere facile la comprensione di alcune funzioni di base come Area, lunghezza, Buffer ecc... </p>
+                    </div>
+                      <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-solid fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Corso di formazione</h4>
+                        <p class="text-muted">Il corso è rivolto agli utenti che conoscono l'uso generale di QGIS e desiderano approfondire l'uso della tabella attributi e del calcolatore di campi.<br>Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due giorni da otto ore)<br>
+                        <a href="https://hfcqgis-md.readthedocs.io/it/latest/corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_parent">Programma...</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Guida</h4>
+                        <p class="text-muted">Questa guida NON sostituisce il <a href="https://qgis.org/it/docs/index.html#" title="Manuale online di QGIS" target="_blank">manuale</a> online di QGIS, cerca solo di rendere più facile la comprensione dello strumento.<br>La versione in formato <a href="https://docs.readthedocs.io/en/latest/index.html" title="Read The Docs" target="_blank">Read The Docs</a> del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità <a href="https://hfcqgis-md.readthedocs.io/it/latest/ods/" title="OpenDataSicilia"><strong>OpenDataSicilia</strong></a>, in particolare da: <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">Andrea Borruso</a>, <a href="https://twitter.com/totofiandaca" title="Totò Fiandaca" target="_blank">Totò Fiandaca</a> e <a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">Giovan Battista Vitrano</a>.</p>
+                    </div>
+                </div>
+            </div>
+    
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+<!-- Footer home page |  autore social licenza -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start"><a href="http://opendatasicilia.it/" title="OpenDataSicilia" target="_blank">By OpenDataSicilia </a></div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                    <!-- icone social -->     
+<div class="social-icons">
+<!-- Social twitter -->	
+<a class="social-icon" href="https://twitter.com/opendatasicilia" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+<!-- Social facebook -->	
+<a class="social-icon"  href="https://www.facebook.com/groups/opendatasicilia/" title="FaceBook" target="_blank" ><i class="fab fa-facebook"></i></a>
+<!-- Social telegram -->	
+<a class="social-icon" href="https://t.me/opendatasicilia" title="Gruppo Telegram" target="_blank" ><i class="fab fa-telegram"></i></a>
+<!-- Social github -->
+<a class="social-icon" href="https://github.com/opendatasicilia/HfcQGIS-md/" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+<!-- Social ML -->                    
+<a class="social-icon" href="https://groups.google.com/d/forum/opendatasicilia" title="Google mailing list" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <!-- <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a> -->
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/!" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">Licenza CC-BY-SA-4.0</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+{% endblock %}

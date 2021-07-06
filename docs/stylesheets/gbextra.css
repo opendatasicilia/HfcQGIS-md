@@ -11,7 +11,8 @@
 .md-source__icon+,
 .md-source__repository {
   font-family: "TruenoLight", /*Oswald,*/ sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase!important;  */
+ text-transform:  none!important; 
   font-weight: bold;
 }
 
@@ -23,7 +24,7 @@
 
 .md-typeset h1, .md-tabs, .md-header-nav__topic, .md-sidebar, .md-ellipsis {
     font-family: "TruenoLight", /*Oswald,*/ sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase!important;  */
     font-weight: bold;
 }
 .md-typeset h1, .md-typeset h2 {
@@ -71,8 +72,6 @@ a.md-button.md-button:hover {
     color: #000000;
 }
 
- /*sposta più in alto il back to top in mobile se è installata la condivisione social; */
- @media screen and (max-width: 1100px) { .md-top {bottom: 2.5rem!important;}}
 
 /*Table styling*/
 table {
@@ -172,13 +171,14 @@ div.doc-contents:not(.first) {
 
 /*@media (min-width: 1100px) { .md-content{ flex-grow: 0!important; }}
 .md-content {flex-grow: 0!important;}
-@media screen and (max-width: 1180){.md-content {flex-grow: 1!important;}}*/
+@media screen and (max-width: 1180).md-content {flex-grow: 1!important;}*/
 
-/* logo hfc*/
-.md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem!important;    width: 12rem!important; padding-right: 3rem!important; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}
 
-/* logo hfc mobile*/
-.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;}
+/* logo personalizzato*/
+ /*.md-header__button.md-logo img, .md-header__button.md-logo svg {height: 2.5rem!important;    width: 12rem!important; padding-right: 3rem!important; box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;}*/
+
+/* logo personalizzato mobile*/
+ /*.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {fill: currentColor; display: block; height: 2.5rem!important; width: 12rem !important; padding-right: 3rem; box-shadow: none !important;  border: none !important; border-radius: none !important; moz-border-radius: none !important; -webkit-border-radius: none !important;   background-color: transparent !important;}*/
 
 /*mod. colore primario deep orange*/
 [data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; --md-primary-fg-color--dark: #f18d36!important;}
@@ -187,29 +187,33 @@ div.doc-contents:not(.first) {
 [data-md-color-accent=green] { --md-accent-fg-color: #589632!important; }
 
 /*mod. colore footer prev/next*/
-:root>* {--md-footer-bg-color: rgb(241 141 54 / 100%)!important; }
+/*:root>* {--md-footer-bg-color: rgb(241 141 54 / 100%)!important; }*/
 
 /*mod. altezza footer prev/next*/
 .md-footer__link {padding-bottom: .1rem!important; padding-top: .4rem!important; }
 
-/*base iconw home*/
+/*base icona home*/
 .svg-inline--fa.fa-stack-2x { width: 1em!important;}
 	
 /* Sfondo QGIS*/
-.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background:  #efefef;}
+/*.md-main { background-image:url(../img/qsfondo_800.png)!important; background-repeat: no-repeat!important;  background-position: center center!important; background-size: 90%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background:  #efefef;}*/
 	
-/* bordo immagine*/
-img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px;background-color: #fff;}
+/* bordo immagine
+img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px;background-color: #fff;}*/
 	
-/* immagine no bordo/ no ombra */
-.immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}		
+/* immagine no bordo/ no ombra 
+.immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}		*/
 
-.hr {border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);  width: 100%; margin: 20px 0;}	
+ /*sposta più in alto il back to top in mobile se è installata la condivisione social; */
+ @media screen and (max-width: 1100px) { .md-top {bottom: 2.5rem!important;}}
+
+.hr-hfc {border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);  width: 100%; margin: 20px 0;}	
 	
   /*Clip resize; */
 .clip_resize {height: 100% /*width: 100%;  border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) */} 
 
-.rst-versions.rst-badge .rst-current-version { display: none !important; }
+.rst-versions.rst-badge .rst-current-version {display: none!important; }
+
 
 /* icona social */
 .social-icons .social-icon {
@@ -229,3 +233,4 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
 
 .social-icons .social-icon:hover {
   background-color: #ff9900;}
+  
