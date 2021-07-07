@@ -14,7 +14,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box;#f18d36 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2933,13 +2933,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #589632;
-  border-color: #589632;
+  background-color: #f18d36 ;
+  border-color: #f18d36;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #344c25;
-  border-color: #344c25;
+  background-color: #589632;
+  border-color: #589632;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
