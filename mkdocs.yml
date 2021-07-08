@@ -72,19 +72,24 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
+
 - rss:
     abstract_chars_count: 160
     date_from_meta:
-    as_creation: "date"
-    as_update: false
-  # datetime_format: "%Y-%m-%d"
-    datetime_format: "%d-%m-%Y"
+        as_creation: "date"
+        as_update: false 
+        datetime_format: "%d-%m-%Y"
+      # datetime_format: "%Y-%m-%d"
+    image: https://materialmkdocs-gb.readthedocs.io/it/latest/img/hfc_rss.png
     feed_ttl: 1440
     length: 20
-    pretty_print: false 
-# - tags:
-  #    tags_file: tags.md
-  
+    pretty_print: false
+    #  match_path: ".*"
+    #  url_parameters:
+    #      utm_source: "documentation"
+    #      utm_medium: "RSS"
+    #      utm_campaign: "feed-syndication"  
+ 
 markdown_extensions:
 - toc:
         permalink: ↵
