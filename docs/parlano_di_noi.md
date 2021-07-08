@@ -2,11 +2,11 @@
 
 * **16/12/2020** YouTube [Presentazione #HfcQGIS in Francia](https://youtu.be/xKoqCZF9NhY) dal minuto 5:07 (Grazie Pier Serafini)
 
-![screen](/img/parlano_di_noi/parlano_14.png)
+![screen](./img/parlano_di_noi/parlano_14.png)
 
 * **16/12/2020** [Twitter](https://twitter.com/geojulien/status/1339131660370108416)
 
-![screen](/img/parlano_di_noi/parlano_15.png)
+![screen](./img/parlano_di_noi/parlano_15.png)
 
 * **01/08/2020** Lista QGIS-it-user [Marco S.](http://osgeo-org.1560.x6.nabble.com/HfcQGIS-e-come-un-coltellino-svizzero-tc5443101.html)
 
