@@ -14,5 +14,7 @@ mkdocs-jupyter
 mkdocs-exclude
 mkdocs-exclude-search
 mkdocs-macros-plugin
+mkdocs-rss-plugin
+mkdocs-git-revision-date-localized-plugin
 
 

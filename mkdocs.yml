@@ -34,6 +34,9 @@ extra:
     - icon: fontawesome/solid/envelope
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
+    - icon: fontawesome/solid/rss
+      link: ../feed_rss_created.xml
+      name: Feed RSS
   analytics:
     provider: google
     property: UA-122084242-1
@@ -69,6 +72,16 @@ plugins:
 - search
 - mkdocstrings
 - autolinks
+- rss:
+    abstract_chars_count: 160
+    date_from_meta:
+    as_creation: "date"
+    as_update: false
+  # datetime_format: "%Y-%m-%d"
+    datetime_format: "%d-%m-%Y"
+    feed_ttl: 1440
+    length: 20
+    pretty_print: false 
 # - tags:
   #    tags_file: tags.md
   
