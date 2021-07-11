@@ -29,4 +29,4 @@ Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [
 ## HfcQGIS Vesione 2.0 [fatta con Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 La versione in formato [Read the Docs](https://readthedocs.org/) del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità [OpenDataSicilia](https://hfcqgis-md.readthedocs.io/), in particolare da: [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca) e [Giovan Battista Vitrano](https://twitter.com/gbvitrano).
 
-[![](/docs/imgs/site_beta_v2.png)](https://hfcqgis-md.readthedocs.io/)
+[![](/docs/img/site_beta_v2.png)](https://hfcqgis-md.readthedocs.io/)
