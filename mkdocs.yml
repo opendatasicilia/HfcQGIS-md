@@ -212,25 +212,25 @@ nav:
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
-       - Colore:
-            - Elenco: gr_funzioni/colore/colore.md
-            - color_cmyk: gr_funzioni/colore/color_cmyk.md
-            - color_cmyka: gr_funzioni/colore/color_cmyka.md
-            - color_grayscale_average: gr_funzioni/colore/color_grayscale_average.md
-            - color_hsl: gr_funzioni/colore/color_hsl.md
-            - color_hsla: gr_funzioni/colore/color_hsla.md
-            - color_hsv: gr_funzioni/colore/color_hsv.md
-            - color_hsva: gr_funzioni/colore/color_hsva.md
-            - color_mix_rgb: gr_funzioni/colore/color_mix_rgb.md
-            - color_part: gr_funzioni/colore/color_part.md
-            - color_rgb: gr_funzioni/colore/color_rgb.md
-            - color_rgba: gr_funzioni/colore/color_rgba.md
-            - create_ramp: gr_funzioni/colore/create_ramp.md
-            - darker: gr_funzioni/colore/darker.md
-            - lighter: gr_funzioni/colore/lighter.md
-            - project_color: gr_funzioni/colore/project_color.md
-            - ramp_color: gr_funzioni/colore/ramp_color.md
-            - set_color_part: gr_funzioni/colore/set_color_part.md
+       - Colore: gr_funzioni/colore/colore_paginone.md
+          #  - Elenco: gr_funzioni/colore/colore.md
+          #  - color_cmyk: gr_funzioni/colore/color_cmyk.md
+          #   - color_cmyka: gr_funzioni/colore/color_cmyka.md
+          #   - color_grayscale_average: gr_funzioni/colore/color_grayscale_average.md
+          #   - color_hsl: gr_funzioni/colore/color_hsl.md
+          #   - color_hsla: gr_funzioni/colore/color_hsla.md
+          #   - color_hsv: gr_funzioni/colore/color_hsv.md
+          #   - color_hsva: gr_funzioni/colore/color_hsva.md
+          #   - color_mix_rgb: gr_funzioni/colore/color_mix_rgb.md
+          #   - color_part: gr_funzioni/colore/color_part.md
+          #   - color_rgb: gr_funzioni/colore/color_rgb.md
+          #   - color_rgba: gr_funzioni/colore/color_rgba.md
+          #   - create_ramp: gr_funzioni/colore/create_ramp.md
+          #   - darker: gr_funzioni/colore/darker.md
+          #   - lighter: gr_funzioni/colore/lighter.md
+          #   - project_color: gr_funzioni/colore/project_color.md
+          #   - ramp_color: gr_funzioni/colore/ramp_color.md
+          #   - set_color_part: gr_funzioni/colore/set_color_part.md
        - Condizioni:
             - Elenco: gr_funzioni/condizioni/condizioni.md
             - CASE: gr_funzioni/condizioni/case.md

@@ -17,7 +17,7 @@ color_cmyk(_cyan, magenta, yellow, black_)
 
 * `color_cmyk(100,50,0,10) → 0,115,230`
 
-![](/img/colore/color_cmyk/color_cmyk1.png)
+!![](../../img/colore/color_cmyk/color_cmyk1.png)
 
 ## nota bene
 
@@ -47,7 +47,7 @@ color_cmyka(_cyan, magenta, yellow, black, alpha_)
 
 * `color_cmyka(100,50,0,10,200) → 0,115,230,2000`
 
-![](/img/colore/color_cmyka/color_cmyka1.png)
+!![](../../img/colore/color_cmyka/color_cmyka1.png)
 
 ## nota bene
 
@@ -73,7 +73,7 @@ color_grayscale_average(_color_)
 
 * `color_grayscale_average('255,100,50') → '135,135,135,255'`
 
-![](/img/colore/color_grayscale_average/color_grayscale_average1.png)
+!![](../../img/colore/color_grayscale_average/color_grayscale_average1.png)
 
 ## nota bene
 
@@ -100,7 +100,7 @@ color_hsl(_hue, saturation, lightness_)
 
 * `color_hsl(100,50,70) → 166,217,140`
 
-![](/img/colore/color_hsl/color_hsl1.png)
+!![](../../img/colore/color_hsl/color_hsl1.png)
 
 ## nota bene
 
@@ -129,7 +129,7 @@ color_hsl(_hue, saturation, lightness, alpha_)
 
 * `color_hsla(100,50,70,200) → 166,217,140,200`
 
-![](/img/colore/color_hsla/color_hsla1.png)
+!![](../../img/colore/color_hsla/color_hsla1.png)
 
 ## nota bene
 
@@ -157,7 +157,7 @@ color_hsv(_hue, saturation, value_)
 
 * `color_hsv(40,100,100) → 255,170,0`
 
-![](/img/colore/color_hsv/color_hsv1.png)
+!![](../../img/colore/color_hsv/color_hsv1.png)
 
 ## nota bene
 
@@ -186,7 +186,7 @@ color_hsva(_hue, saturation, value, alpha_)
 
 * `color_hsva(40,100,100,200) → 255,170,0,200`
 
-![](/img/colore/color_hsva/color_hsva1.png)
+!![](../../img/colore/color_hsva/color_hsva1.png)
 
 ## nota bene
 
@@ -214,7 +214,7 @@ color_mix_rgb(_color1,color2,ratio_)
 
 * `color_mix_rgb('0,0,0','255,255,255',0.5) → 127,127,127,255`
 
-![](/img/colore/color_mix_rgb/color_mix_rgb1.png)
+!![](../../img/colore/color_mix_rgb/color_mix_rgb1.png)
 
 ## nota bene
 
@@ -255,7 +255,7 @@ color_part(_color, component_)
 
 * `color_part('200,10,30','green') → 10`
 
-![](/img/colore/color_part/color_part1.png)
+!![](../../img/colore/color_part/color_part1.png)
 
 ## nota bene
 
@@ -283,7 +283,7 @@ color_rgb(_red, green, blue_)
 
 * `color_rgb(255,127,0) → 255,127,0`
 
-![](/img/colore/color_rgb/color_rgb1.png)
+!![](../../img/colore/color_rgb/color_rgb1.png)
 
 ## nota bene
 
@@ -313,7 +313,7 @@ color_rgba(_red, green, blue_)
 * `color_rgba(255,127,0,200) → 255,127,0,2000`
 
 
-![](/img/colore/color_rgba/color_rgba1.png)
+!![](../../img/colore/color_rgba/color_rgba1.png)
 
 ## nota bene
 
@@ -340,7 +340,7 @@ create_ramp(_map, discrete_)
 
 * `ramp_color(create_ramp(map(0,'0,0,0',1,'255,0,0')),1) → 255,0,0,255`
 
-![](/img/colore/create_ramp/create_ramp1.png)
+!![](../../img/colore/create_ramp/create_ramp1.png)
 
 ## nota bene
 
@@ -370,7 +370,7 @@ darker(_color, factor_)
 
 * `darker('200,10,30',300) → '66,3,10,255'`
 
-![](/img/colore/darker/darker1.png)
+!![](../../img/colore/darker/darker1.png)
 
 ## nota bene
 
@@ -400,7 +400,7 @@ lighter(_color, factor_)
 
 * `lighter('200,10,30',200) → '255,158,168,255'`
 
-![](/img/colore/lighter/lighter1.png)
+!![](../../img/colore/lighter/lighter1.png)
 
 ## nota bene
 
@@ -426,7 +426,7 @@ project_color(_name_)
 
 * `project_color('Logo color') → 20,140,50`
 
-![](/img/colore/project_color/project_color1.png)
+!![](../../img/colore/project_color/project_color1.png)
 
 ## nota bene
 
@@ -436,7 +436,7 @@ project_color(_name_)
 
 --
 
-![](/img/colore/project_color/project_color2.png)
+!![](../../img/colore/project_color/project_color2.png)
 
 # ramp_color
 
@@ -459,7 +459,7 @@ ramp_color(_ramp_name, value_)
 
 * `ramp_color('Spectral',0.3) → '253,190,115,255'`
 
-![](/img/colore/ramp_color/ramp_color1.png)
+!![](../../img/colore/ramp_color/ramp_color1.png)
 
 ## nota
 
@@ -520,7 +520,7 @@ set_color_part(_color, component, value_)
 
 * `set_color_part('200,10,30','green',50) → 200,50,30`
 
-![](/img/colore/set_color_part/set_color_part1.png)
+!![](../../img/colore/set_color_part/set_color_part1.png)
 
 ## nota bene
 
