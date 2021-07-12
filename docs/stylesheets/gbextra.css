@@ -59,6 +59,7 @@
 	font-size: 1.1rem;
 }
 .md-typeset h3 {
+	font-weight: bold;
     font-size: 0.9rem;
     color: var(--md-accent-fg-color);
 }
