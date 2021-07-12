@@ -62,11 +62,11 @@
 .md-tabs__link--active {
     font-weight: bold !important;
     color: var(--md-accent-fg-color);
-	text-transform: uppercase;
+	
 }
 .md-tabs__link:hover {
     color: var(--md-accent-fg-color);
-	text-transform: uppercase;
+	
 }
 
 
@@ -81,6 +81,8 @@
     color: var(--md-accent-fg-color);
 	text-transform: uppercase;
 }
+.md-nav__link--hover {text-transform: uppercase;}
+
 
 /* frontpage elements */
 .tx-hero h1 {
@@ -92,7 +94,7 @@ a.md-button.md-button--primary {
     color: #ffffff;
 }
 a.md-button.md-button--primary:hover {
-    color: #000000;
+    color: #000000;	
 }
 a.md-button.md-button:hover {
     color: #000000;

@@ -35,7 +35,7 @@ extra:
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
     - icon: fontawesome/solid/rss
-      link: ../feed_rss_created.xml
+      link: https://hfcqgis-md.readthedocs.io/it/latest/feed_rss_created.xml
       name: Feed RSS
   analytics:
     provider: google
@@ -208,7 +208,7 @@ nav:
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
-       - Colore: gr_funzioni/colore/colore_paginone2.md
+            - Colore test: gr_funzioni/colore/colore_paginone.md     
           #  - Elenco: gr_funzioni/colore/colore.md
           #  - color_cmyk: gr_funzioni/colore/color_cmyk.md
           #   - color_cmyka: gr_funzioni/colore/color_cmyka.md
