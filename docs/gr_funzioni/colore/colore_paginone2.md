@@ -4,28 +4,28 @@
 
 Restituisce una rappresentazione stringa di un colore basato sui suoi componenti ciano, magenta, giallo e nero
 
-Sintassi:
+**Sintassi**:
 
 * color_cmyk(_cyan, magenta, yellow, black_)
 
-Argomenti:
+**Argomenti**:
 
 * _cyan_ componente ciano del colore, come valore percentuale intero da 0 a 100
 * _magenta_ componente magenta del colore, come valore percentuale intero da 0 a 100
 * _yellow_ componente giallo del colore, come valore percentuale intero da 0 a 100
 * _black_ componente nero del colore, come valore percentuale intero da 0 a 100
 
-Esempi:
+**Esempi**:
 
 * `color_cmyk(100,50,0,10) → 0,115,230`
 
 ![](../../img/colore/color_cmyk/color_cmyk1.png)
 
-nota bene
+**nota bene**
 
-osservazioni
+**osservazioni**
 
-`color_cmyk(100,50,0,10) = color_rgb( 0,115,230 )`
+- `color_cmyk(100,50,0,10) = color_rgb( 0,115,230 )`
 
 ---
 
