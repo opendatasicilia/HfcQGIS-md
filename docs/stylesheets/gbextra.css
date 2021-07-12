@@ -49,11 +49,14 @@
     font-family: "TruenoLight", /*Oswald,*/ sans-serif;
     /* text-transform: uppercase!important;  */
     font-weight: bold;
+	font-size: 1.3rem;
 }
-.md-typeset h1, .md-typeset h2 {
-    /*font-weight: 300;*/
+/*testo titolo paragrafo funzioni*/
+/*.md-typeset h1,*/ .md-typeset h2 {
+    font-weight: bold;
     letter-spacing: -.01em;
-	font-size: 1.5em;
+	color: var(--md-accent-fg-color);
+	font-size: 1.1rem;
 }
 
 .md-tabs__link {
@@ -69,11 +72,16 @@
 	
 }
 
+.md-typeset h1, .md-typeset h2 {
+    font-weight: bolder !important;
+	color: var(--md-accent-fg-color);
+}
+
 
 /* navigation bar active color*/
 .md-nav__item .md-nav__link--active {
     font-weight: bold !important;
-    color: var(--md-accent-fg-color);
+    
 }
 .md-nav__item .md-nav__link--active {
     font-weight: bold !important;
