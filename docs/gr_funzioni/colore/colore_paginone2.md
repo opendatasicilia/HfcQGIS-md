@@ -59,7 +59,7 @@ nota bene
 
 osservazioni
 
-`color_cmyka(100,50,0,10,200) = color_rgba(0,115,230,200)`
+- `color_cmyka(100,50,0,10,200) = color_rgba(0,115,230,200)`
 
 ---
 
@@ -115,7 +115,7 @@ nota bene
 
 osservazioni
 
-`color_hsl(100,50,70) =  color_rgb( 166,217,140)`
+- `color_hsl(100,50,70) =  color_rgb( 166,217,140)`
 
 ---
 
@@ -146,7 +146,7 @@ nota bene
 
 osservazioni
 
-`color_hsla(100,50,70,200) =  color_rgba( 166,217,140,200)`
+- `color_hsla(100,50,70,200) =  color_rgba( 166,217,140,200)`
 
 ---
 
@@ -176,7 +176,7 @@ nota bene
 
 osservazioni
 
-`color_hsv(40,100,100) =  color_rgb( 255,170,0 )`
+- `color_hsv(40,100,100) =  color_rgb( 255,170,0 )`
 
 ---
 
@@ -207,7 +207,7 @@ nota bene
 
 osservazioni
 
-`color_hsva(40,100,100,200) = color_rgba( 255,170,0,200 )`
+- `color_hsva(40,100,100,200) = color_rgba( 255,170,0,200 )`
 
 ---
 
