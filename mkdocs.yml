@@ -54,7 +54,6 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.tabs
-    - navigation.sections
   palette:
     primary: deep orange
     accent: green
