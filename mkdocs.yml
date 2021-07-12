@@ -25,7 +25,7 @@ extra:
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/groups/opendatasicilia/
       name: gruppo facebook
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/opendatasicilia/HfcQGIS-md
       name: Repoisitory GitHub
     - icon: fontawesome/brands/telegram
