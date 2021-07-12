@@ -6,7 +6,7 @@ Restituisce una rappresentazione stringa di un colore basato sui suoi componenti
 
 Sintassi:
 
-color_cmyk(_cyan, magenta, yellow, black_)
+* color_cmyk(_cyan, magenta, yellow, black_)
 
 Argomenti:
 
