@@ -1,4 +1,6 @@
-# Concetti fondamentali sulla [tabella attributi](https://docs.qgis.org/testing/en/docs/user_manual/working_with_vector/attribute_table.html) di QGIS
+# Concetti fondamentali sulla tabella degli attributi di QGIS
+    
+<https://docs.qgis.org/testing/en/docs/user_manual/working_with_vector/attribute_table.html)>
 
 La tabella attributi ![ico](../img/tabella_attributi/icon/mActionOpenTable.png) (**F6**) è una tabella che contiene i dati alfanumerici (attributi) dello strato vettoriale e rappresenta una delle differenze fondamentali tra un vettore CAD e uno GIS.
 

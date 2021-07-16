@@ -1,7 +1,7 @@
 # Concetti fondamentali sul calcolatore di campi di QGIS
 
 1. il calcolatore di campi è attivabile solo per layer **vettoriale** e tabelle **editabili**;
-2. la creazione di un **nuovo campo** è relativo al layer selezionato nella TOC;
+2. la creazione di un **nuovo campo** è relativo al layer selezionato nella TOC (Pannello Layer);
 3. il calcolatore popola **un campo per volta** (la modifica multipla è un caso particolare);
 4. l'output del calcolatore popola, in generale, tutte le celle (della colonna) della tabella attributi o solo quelle selezionate (caso particolare);
 5. nella tabella attributi tutte le operazioni **agiscono riga per riga** (questo è uno dei motivi della lentezza di alcuni processi);
@@ -15,7 +15,9 @@
 13. con il doppio clic è possibile aggiungere funzioni o valori nelle espressioni nell'area di editing;
 14. è possibile aggiungere funzioni personalizzate tramite codice Python nel gruppo _Custom_;
 15. è possibile aggiungere altri gruppi di funzioni tramite plugin es:refFunction → gruppo Reference;
-16. è possibile editare/salvare/importare/esportare e condividere espressioni utente; >= QGIS 3.12.
+16. è possibile editare/salvare/importare/esportare e condividere espressioni utente; >= QGIS 3.12;
+17. è possibile cambiare l'attributo visualizzabile in `Elemento` dalle proprietà _Suggerimenti_ del layer;
+18. è possibile aumentare la dimenzione del testo all'interno dell'editor tramite la rotellina del mouse (`Ctrl+rotellina`)
 
 
 [![field_calc01](https://img.youtube.com/vi/454-t4_NcSs/0.jpg)](https://www.youtube.com/watch?v=454-t4_NcSs&index=7&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu "fiel_calc02")
