@@ -4,14 +4,14 @@ Prova un'espressione e restituisce il suo valore se priva di errori. Se l'espres
 
 ## Sintassi
 
-* try(_expression_[,alternative])
+* try(_<span style="color:red;">expression</span>_[,_<span style="color:red;">alternative</span>_])
 
 [ ] contrassegna componenti opzionali
 
 ## Argomenti
 
-* _expression_ l'espressione che dovrebbe essere eseguita
-* _alternative_ il risultato che verrà restituito se l'espressione restituisce un errore
+* _<span style="color:red;">expression</span>_ l'espressione che dovrebbe essere eseguita
+* _<span style="color:red;">alternative</span>_ il risultato che verrà restituito se l'espressione restituisce un errore
 
 
 ## Esempi

@@ -4,12 +4,12 @@ Restituisce un valore nullo se _value1_ è uguale a _value2_; altrimenti restitu
 
 ## Sintassi
 
-* nullif(_value1_,_value2_)
+* nullif(_<span style="color:red;">value1</span>_,_<span style="color:red;">value2</span>_)
 
 ## Argomenti
 
-* _value1_ Il valore che dovrebbe essere utilizzato o sostituito con `NULL`.
-* _value2_ Il valore di controllo che attiverà la sostituzione `NULL`.
+* _<span style="color:red;">value1</span>_ Il valore che dovrebbe essere utilizzato o sostituito con `NULL`.
+* _<span style="color:red;">value2</span>_ Il valore di controllo che attiverà la sostituzione `NULL`.
 
 ## Esempi
 ```

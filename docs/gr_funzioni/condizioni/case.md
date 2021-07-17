@@ -1,4 +1,4 @@
-# Espressione CASE
+# CASE
 
 Valuta un'espressione e restituisce un risultato diverso, sia esso vero o falso. Puoi testare più condizioni
 
@@ -15,11 +15,11 @@ END
 
 ## Argomenti
 
-* **WHEN** condizione - L'espressione di condizione da valutare. 
+* _<span style="color:red;">WHEN condizione</span>_ - L'espressione di condizione da valutare. 
 
-* **THEN** risultato - Se condizione valutata a True (vero) allora risultato viene valutato e restituito. 
+* _<span style="color:red;">THEN risultato</span>_ - Se _condizione_ valutata a True (vero) allora risultato viene valutato e restituito. 
 
-* **ELSE** risultato - Se nessuna delle condizioni valutate sopra restituisce True (vero) allora risultato viene valutato e restituito.
+* _<span style="color:red;">ELSE risultato</span>_ - Se nessuna delle condizioni valutate sopra restituisce True (vero) allora _risultato_ viene valutato e restituito.
 
 ## Esempi
 ```

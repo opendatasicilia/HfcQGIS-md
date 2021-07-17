@@ -1,4 +1,4 @@
-# Colore
+# Gruppo Colore
 
 Questo gruppo contiene le funzioni per manipolare i colori
 

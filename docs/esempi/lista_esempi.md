@@ -7,11 +7,11 @@ nro|Esempio|Descrizione|Autore | Livello
 ---:|------:|:----------|:------:|:------:
 1|[campo area](add_col_area.md)|aggiungere colonna area per calcolo superficie|Pigreco | 2
 2|[campi coordinate](add_coord_xy.md)|aggiungere colonne coordinate x e y|Pigreco | 2
-3|[campo virtuale](add_campo_virtuale.md)|aggiungere campo virtuale|Pigreco |
-4|[campo quota z](add_col_z.md)|aggingere colonna quota con valori z|Pigreco |
-5|[etichettare](etichette.md)|etichettare usando il campo geometry|Pigreco |
-6|[aggiornare geometria](agg_geom.md)|aggiornare il campo geometry|Pigreco |
-7|[conversione](conversione.md)|etichettare punti da sessadecimali a sessagesimali|Pigreco |
+3|[campo virtuale](add_campo_virtuale.md)|aggiungere campo virtuale|Pigreco | 2
+4|[campo quota z](add_col_z.md)|aggingere colonna quota con valori z|Pigreco | 2
+5|[etichettare](etichette.md)|etichettare usando il campo geometry|Pigreco | 2
+6|[aggiornare geometria](agg_geom.md)|aggiornare il campo geometry|Pigreco | 2
+7|[conversione](conversione.md)|etichettare punti da sessadecimali a sessagesimali|Pigreco | 2
 8|[tematizzare](tematizzare.md)|Tematizzare utilizzando la sovrascrittura definita dai dati|Pigreco |
 9|[legenda](espressione_regolare.md)|Legenda con testo lungo, inserimento carattere speciale|Pigreco |
 10|[selezione](select_with_aggregate.md)|Seleziona usando le funzioni di aggregazione|Pigreco |
@@ -37,12 +37,12 @@ nro|Esempio|Descrizione|Autore | Livello
 30|[Linea minima distanza tra due punti](linea_min_distanza.md)|Traccia una linea di minima distanza usando il generatore di geometrie|Pigreco |
 31|[Creare campo somma cumulativa](add_campo_sum_cumulativo.md)|Espressione per popolare campo con somma cumulativa|Pigreco |
 32|[aggiungere_punto_a_linea](aggiungere_punto_a_linea.md)|Aggiunge un nodo di disegno ad una linea|Pigreco |
-33|[drilldown form multiple](drilldown_form_multiple.md)|Creare Form con filtro dinamico drillDown (cascade)|Pigreco |
+33|[drilldown form multiple](drilldown_form_multiple.md)|Creare Form con filtro dinamico drillDown (cascade)|Pigreco | 3
 34|[selezionare primi n valori](selezionare_primi_n_valori.md)|Come selezionare i primi n poligoni più grandi|Pigreco |
 35|[Generalizzare isoipse](generalizzare_linee.md)|Generalizzare le linee di contorno|Valerio Pinna |
 36|[Campo coord in lat lon](campo_coord_in_lat_lon.md)|Generare due campi lon lat a partire da un unico campo|Pigreco |
 37|[calcolo incrementi giornalieri](calcolo_incrementi_giornalieri.md)|Calcola gli incrementi giornalieri di un attributo|Pigreco |
-38|[Tracciare un grafico](tracciare_grafico_generatore_geometrie.md)|Come tracciare un grafico per ogni feature usando il generatore di geometrie|Pigreco |
+38|[Tracciare un grafico](tracciare_grafico_generatore_geometrie.md)|Come tracciare un grafico per ogni feature usando il generatore di geometrie|Pigreco | 4
 39|[Elenco ordinato di Comuni](elenco_ordinato_comuni_attraversati.md)|Come ottenere l'elenco ordinato dei Comuni attraversati da un itinerario|Pigreco |
 40|[Etichettare con chiave-valore](etichettare_chiave_valore.md)|Etichettare facendo vedere sia il nome del campo che il corrispondente valore|Pigreco |
 41|[Etichettare itinerario con elenco ordinato Comuni](etichettare_itinerario_elenco_comuni_attraversati.md)|Etichettare itinerario con elenco ordinato di Comuni attraversti|Valerio Pinna |
