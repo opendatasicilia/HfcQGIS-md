@@ -32,4 +32,4 @@ Gruppo funzioni|nro funzioni*|info
 
 ![](../img/gruppi_funzioni.png)
 
-\* i numeri tra parentesi rappresentano: `( numero funzioni dovumentate / numero funzioni nel gruppo)`
+\* i numeri tra parentesi rappresentano: `( numero funzioni documentate / numero funzioni nel gruppo)`
