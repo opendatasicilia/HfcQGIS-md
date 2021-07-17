@@ -568,7 +568,6 @@ nav:
             - trim: gr_funzioni/stringhe_di_testo/trim.md
             - upper: gr_funzioni/stringhe_di_testo/upper.md
             - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
-       - Timemanager:  gr_funzioni/timemanager/timemanager.md
        - Variabili:
             - Elenco: gr_funzioni/variabili/variabili.md
             - atlas_feature: gr_funzioni/variabili/atlas_feature.md
