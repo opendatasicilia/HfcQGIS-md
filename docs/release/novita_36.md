@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.6 22/02/2019
+# Novità rilevanti introdotte nella 3.6 Noosa
 
 ## Nuove funzioni
 

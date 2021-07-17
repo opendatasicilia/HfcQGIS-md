@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.12
+# Novità rilevanti introdotte nella 3.12 Bucaresti
 
 ## Nuove funzioni
 

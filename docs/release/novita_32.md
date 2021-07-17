@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.2
+# Novità rilevanti introdotte nella 3.2 Bonn
 
 ## Generatore di espressioni più utile.
 

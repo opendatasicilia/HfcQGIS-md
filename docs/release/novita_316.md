@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.16
+# Novità rilevanti introdotte nella 3.16 Hannover
 
 ## Miglioramenti help in linea
 

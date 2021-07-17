@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.18
+# Novità rilevanti introdotte nella 3.18 Zürich
 
 ## Espressioni
 

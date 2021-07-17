@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.0
+# Novità rilevanti introdotte nella 3.0 Girona
 
 ## Changelog
 

@@ -3,7 +3,7 @@ tags:
   - Novità
 ---
 
-# Novità rilevanti introdotte nella 3.10
+# Novità rilevanti introdotte nella 3.10 A Coruña
 
 ## Nuove funzioni
 
