@@ -1,12 +1,25 @@
-# Array (NOVITÀ QGIS 3.4)
+# array
 
-Questo gruppo contiene funzioni espressione per la creazione e la manipolazione di array (noti anche come strutture dati ad elenco). L'ordine dei valori all'interno dell'array è importante, al contrario della struttura dati 'a mappa' ([gruppo Maps](../maps)), in cui l'ordine delle coppie chiave-valore è irrilevante e i valori vengono identificati dalle loro chiavi.
+Restituisce un array contenente tutti i valori passati come parametro.
 
-| Funzione  | Descrizione|Info
-|----------:|:-----------|--------
-|[array_filter](array_filter.md)|Restituisce un array con solo gli elementi per i quali l'espressione restituisce true (vero)| **>= QGIS 3.4**
-|[array_foreach](array_foreach.md)|Restituisce una matrice con l'espressione data valutata su ciascun elemento| **>= QGIS 3.4**
+## Sintassi
 
+array(_<span style="color:red;">value1</span>, <span style="color:red;">value2</span>, <span style="color:red;">…</span>_)
 
-![](../../img/array/neo_gruppo.png)
+## Argomenti
 
+* _<span style="color:red;">value</span>_ un valore
+
+## Esempi
+
+* `array(2,10) → array: 2, 10`
+
+![](../../img/arrays/array/array1.png)
+
+## nota bene
+
+--
+
+## osservazioni
+
+--

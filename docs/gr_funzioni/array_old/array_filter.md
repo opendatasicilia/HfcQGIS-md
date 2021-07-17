@@ -15,7 +15,7 @@ array_filter(_<span style="color:red;">array</span>,<span style="color:red;">exp
 
 * `array_filter(array(1,2,3),@element < 3) → [ 1, 2 ]`
 
-![](../../img/arrays/array_filter/array_filter1.png)
+![](../../img/array/array_filter/array_filter1.png)
 
 ## nota bene
 
