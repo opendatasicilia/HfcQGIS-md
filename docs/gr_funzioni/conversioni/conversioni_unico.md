@@ -74,7 +74,7 @@ Argomenti:
 
 Esempi:
 
-- md5('QGIS') → '57470aaa9e22adaefac7f5f342f1c6da'
+- `md5('QGIS') → '57470aaa9e22adaefac7f5f342f1c6da'`
 
 ![](../../img/conversioni/md51.png)
 
