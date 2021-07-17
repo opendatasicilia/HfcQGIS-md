@@ -5,14 +5,6 @@ tags:
 
 # Novità rilevanti introdotte nella 3.18
 
-<!-- TOC -->
-
-- [Novità rilevanti introdotte nella 3.18](#novità-rilevanti-introdotte-nella-318)
-  - [Espressioni](#espressioni)
-  - [GUI/UX](#guiux)
-
-<!-- /TOC -->
-
 ## Espressioni
 
 - `UUID` https://github.com/qgis/QGIS/pull/39414

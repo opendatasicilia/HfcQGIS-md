@@ -5,14 +5,6 @@ tags:
 
 # Novità rilevanti introdotte nella 3.16
 
-<!-- TOC -->
-
-- [Novità rilevanti introdotte nella 3.16](#novità-rilevanti-introdotte-nella-316)
-  - [Miglioramenti help in linea](#miglioramenti-help-in-linea)
-  - [Nuove funzioni](#nuove-funzioni)
-
-<!-- /TOC -->
-
 ## Miglioramenti help in linea
 
 help in linea: <https://github.com/qgis/QGIS/pull/37532>

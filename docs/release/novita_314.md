@@ -5,17 +5,6 @@ tags:
 
 # Novità rilevanti introdotte nella 3.14 Pi
 
-<!-- TOC -->
-
-- [Novità rilevanti introdotte nella 3.14 Pi (π)](#novità-rilevanti-introdotte-nella-314-pi-π)
-  - [Nuove funzioni](#nuove-funzioni)
-  - [Fix](#fix)
-  - [GUI/UI/Forms](#guiuiforms)
-  - [Variabili](#variabili)
-  - [Migliormasnti funzioni](#migliormasnti-funzioni)
-
-<!-- /TOC -->
-
 ## Nuove funzioni
 
 * **Ascii** : <https://github.com/qgis/QGIS/pull/35839>

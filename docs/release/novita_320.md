@@ -5,15 +5,6 @@ tags:
 
 # Novità rilevanti introdotte nella 3.20 Odense
 
-<!-- TOC -->
-
-- [Novità rilevanti introdotte nella 3.20 Odense](#novità-rilevanti-introdotte-nella-320-odense)
-  - [espressioni](#espressioni)
-  - [tabella attributi](#tabella-attributi)
-  - [GUI/UI](#guiui)
-
-<!-- /TOC -->
-
 ## espressioni
 
 - `length3D` : https://github.com/qgis/QGIS/pull/41127
