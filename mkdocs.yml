@@ -129,17 +129,17 @@ nav:
        - Concetti fondamentali sulla tabella attributi: calcolatore_campi/tabella_attributi.md
        
     - Novità:
-       - QGIS 3.20 21/06/2021: release/novita_320.md   
-       - QGIS 3.18 22/02/2021: release/novita_318.md
-       - QGIS 3.16 23/10/2020: release/novita_316.md
-       - QGIS 3.14 19/06/2020: release/novita_314.md
-       - QGIS 3.12 21/02/2020: release/novita_312.md
-       - QGIS 3.10 25/10/2019: release/novita_310.md
-       - QGIS 3.8 21/06/2019: release/novita_38.md
-       - QGIS 3.6 22/02/2019: release/novita_36.md
-       - QGIS 3.4 26/10/2018: release/novita_34.md
-       - QGIS 3.2 22/06/2018: release/novita_32.md
-       - QGIS 3.0 23/02/2018: release/novita_30.md
+       - QGIS 3.20 | 21/06/2021: release/novita_320.md   
+       - QGIS 3.18 | 22/02/2021: release/novita_318.md
+       - QGIS 3.16 | 23/10/2020: release/novita_316.md
+       - QGIS 3.14 | 19/06/2020: release/novita_314.md
+       - QGIS 3.12 | 21/02/2020: release/novita_312.md
+       - QGIS 3.10 | 25/10/2019: release/novita_310.md
+       - QGIS 3.8  | 21/06/2019: release/novita_38.md
+       - QGIS 3.6  | 22/02/2019: release/novita_36.md
+       - QGIS 3.4  | 26/10/2018: release/novita_34.md
+       - QGIS 3.2  | 22/06/2018: release/novita_32.md
+       - QGIS 3.0  | 23/02/2018: release/novita_30.md
        
     - Funzioni:
        - Elenco funzioni QGIS: gr_funzioni/gruppo_funzioni.md
