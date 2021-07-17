@@ -203,9 +203,8 @@ nav:
           #   - generate_series: gr_funzioni/arrays/generate_series.md
           #   - regexp_matches: gr_funzioni/arrays/regexp_matches.md
           #   - string_to_array: gr_funzioni/arrays/string_to_array.md
-       - Campi e valori:
-            - Elenco: gr_funzioni/campi_e_valori/campi.md
-            - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
+       - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori_unico.md
+          #   - Elenco: gr_funzioni/campi_e_valori/campi.md
        - Colore: gr_funzioni/colore/colore_unico.md               
           #   - Elenco: gr_funzioni/colore/colore_gruppo.md
           #   - color_cmyk: gr_funzioni/colore/color_cmyk.md
