@@ -206,9 +206,8 @@ nav:
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
-       - Colore: gr_funzioni/colore/colore_paginone2.md  
-       - Colore test: gr_funzioni/colore/colore_paginone.md              
-          #  - Elenco: gr_funzioni/colore/colore.md
+       - Colore: gr_funzioni/colore/colore_unico.md               
+            - Elenco: gr_funzioni/colore/colore_gruppo.md
           #  - color_cmyk: gr_funzioni/colore/color_cmyk.md
           #   - color_cmyka: gr_funzioni/colore/color_cmyka.md
           #   - color_grayscale_average: gr_funzioni/colore/color_grayscale_average.md
@@ -226,14 +225,14 @@ nav:
           #   - project_color: gr_funzioni/colore/project_color.md
           #   - ramp_color: gr_funzioni/colore/ramp_color.md
           #   - set_color_part: gr_funzioni/colore/set_color_part.md
-       - Condizioni:
-            - Elenco: gr_funzioni/condizioni/condizioni.md
-            - CASE: gr_funzioni/condizioni/case.md
-            - coalesce: gr_funzioni/condizioni/coalesce.md
-            - if: gr_funzioni/condizioni/if.md
-            - regexp_match: gr_funzioni/condizioni/regexp_match.md
-            - nullif: gr_funzioni/condizioni/nullif.md
-            - try: gr_funzioni/condizioni/try.md
+       - Condizioni: gr_funzioni/condizioni/condizioni_unico.md
+            - Elenco: gr_funzioni/condizioni/condizioni_gruppo.md
+         #   - CASE: gr_funzioni/condizioni/case.md
+         #  - coalesce: gr_funzioni/condizioni/coalesce.md
+         #   - if: gr_funzioni/condizioni/if.md
+         #   - regexp_match: gr_funzioni/condizioni/regexp_match.md
+         #   - nullif: gr_funzioni/condizioni/nullif.md
+         #   - try: gr_funzioni/condizioni/try.md
        - Conversioni:
             - Elenco: gr_funzioni/conversioni/conversioni.md
             - hash: gr_funzioni/conversioni/hash.md
