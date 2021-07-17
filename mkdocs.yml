@@ -142,7 +142,7 @@ nav:
        - QGIS 3.0 23/02/2018: release/novita_30.md
        
     - Funzioni:
-       - Elenco funzioni QGIS: gr_funzioni/elenco_funzioni.md
+       - Elenco funzioni QGIS: gr_funzioni/gruppo_funzioni.md
        - Aggrega:
             - Elenco:  gr_funzioni/aggrega/aggrega_gruppo.md
             - aggregate: gr_funzioni/aggrega/aggregate.md
@@ -169,7 +169,7 @@ nav:
             - stdev: gr_funzioni/aggrega/stdev.md
             - sum: gr_funzioni/aggrega/sum.md
        - Array:
-            - Elenco: gr_funzioni/array/array.md
+            - Elenco: gr_funzioni/array/array_gruppo.md
             - array: gr_funzioni/array/array.md
             - array_append: gr_funzioni/array/array_append.md
             - array_avg: gr_funzioni/array/array_avg.md
@@ -183,7 +183,6 @@ nav:
             - Array_foreach: gr_funzioni/array/array_foreach.md
             - array_get: gr_funzioni/array/array_get.md
             - array_insert: gr_funzioni/array/array_insert.md
-            - array_lambda: gr_funzioni/array/array_lambda.md
             - array_intersect: gr_funzioni/array/array_intersect.md
             - array_last: gr_funzioni/array/array_last.md
             - array_length: gr_funzioni/array/array_length.md
