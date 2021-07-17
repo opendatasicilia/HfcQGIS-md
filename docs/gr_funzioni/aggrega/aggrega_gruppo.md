@@ -1,4 +1,4 @@
-# Aggregates
+# Gruppo Aggrega
 
 Contiene funzioni che aggregano valori nei livelli e campi. A partire da **QGIS 2.16** il motore di espressioni supporta l'uso di [parametri con nome](http://changelog.qgis.org/en/qgis/version/2.16.0/#named-parameters-expressions).
 
@@ -8,6 +8,7 @@ Contiene funzioni che aggregano valori nei livelli e campi. A partire da **QGIS 
 |[array_agg](array_agg.md)|Restituisce un array di valori aggregati da un campo o espressione|
 |[collect](collect.md)|Restituisce la geometria a parti multiple di geometrie aggregate da una espressione|
 |[concatenate](concatenate.md)|	Restituisce tutte le stringhe aggregate tratte da un campo o da una espressione unite con un delimitatore|
+|[concatenate_unique](concatenate_unique.md)|Restituisce tutte le stringhe uniche tratte da un campo o da una espressione unite con un delimitatore|
 |[count](count.md)|Restituisce il conteggio degli elementi corrispondenti|
 |[count_distinct](count_distinct.md)|Restituisce il conteggio dei valori differenti|
 |[count_missing](count_missing.md)|Restituisce il conteggio dei valori mancanti (nulli)|
@@ -34,7 +35,8 @@ Contiene funzioni che aggregano valori nei livelli e campi. A partire da **QGIS 
 Grazie ai [_parametri denominati_](http://changelog.qgis.org/en/qgis/version/2.16.0/#named-parameters-expressions) non è più indispensabile seguire, nella sintassi, l'ordine degli argomenti, ecco un esempio:
 
 La sintassi prevede due possibilità:
+
 1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. count_distinct(_expression, group_by, filter_)
+    1. `count_distinct(expression, group_by, filter)`
 2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. count_distinct(filter:= ,_expression:= ,group_by:=_)
+    1. `count_distinct(filter:= ,_expression:= ,group_by:=)`

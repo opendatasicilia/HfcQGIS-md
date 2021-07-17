@@ -4,8 +4,8 @@ Questa guida nasce per rispondere alle numerose richieste di aiuto sull'uso del 
 
 Gruppo funzioni|nro funzioni*|info
 ---------------|:----------:|----
-[Aggrega](./aggregates/aggregates.md) |(23/23/)| >= QGIS 2.16 
-[Array](./arrays/arrays.md)| (33/33) |>= QGIS 3.0 (SpatiaLite, PostGIS) - ArrayPlus Plugin
+[Aggrega](./aggregates/aggregalist.md) |(23/23/)| >= QGIS 2.16 
+[Array](./arrays/array.md)| (33/33) |>= QGIS 3.0 (SpatiaLite, PostGIS) - ArrayPlus Plugin
 [Campi e valori](./campi_e_valori/campi.md)| (1/1/)|
 [Colore](./colore/colore.md)| (17/17/)|
 [Condizioni](./condizioni/condizioni.md)| (6/6/)|aggiornate a **QGIS 3.6**
