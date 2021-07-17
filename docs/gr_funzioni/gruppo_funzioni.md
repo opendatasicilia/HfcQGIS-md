@@ -1,9 +1,9 @@
 # Gruppi funzioni QGIS 
 
-Nell'Interfaccia del Field Calc (e nel costruttore di espressione) è presente, nella parte centrale, una sezione che raccoglie i Gruppi delle Funzioni (14 e 15) elencate sotto:
+Nell'Interfaccia del **Field Calc** (e nel costruttore di espressione) è presente, nella parte centrale, una sezione che raccoglie i Gruppi delle Funzioni elencate sotto:
 
 Gruppo funzioni|nro funzioni*|info
----------------|:----------:|----
+---------------|:-----------:|----
 [Aggrega](./aggregates/aggregalist.md) |(23/23)| >= **QGIS 2.16** 
 [Array](./arrays/array.md)| (33/33) |>= **QGIS 3.0**
 [Campi e valori](./campi_e_valori/campi.md)| (1/1)| Elenco dei campi del layer selezionato
@@ -31,3 +31,5 @@ Gruppo funzioni|nro funzioni*|info
 [Variabili](./variabili/variabili.md) |(4/65) |>= **QGIS 2.12**
 
 ![](../img/gruppi_funzioni.png)
+
+\* i numeri tra parentesi rappresentano: `( numero funzioni dovumentate / numero funzioni nel gruppo)`
