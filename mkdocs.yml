@@ -226,7 +226,7 @@ nav:
           #   - ramp_color: gr_funzioni/colore/ramp_color.md
           #   - set_color_part: gr_funzioni/colore/set_color_part.md
        - Condizioni: gr_funzioni/condizioni/condizioni_unico.md
-          #  - Elenco: gr_funzioni/condizioni/condizioni_gruppo.md
+          #   - Elenco: gr_funzioni/condizioni/condizioni_gruppo.md
           #   - CASE: gr_funzioni/condizioni/case.md
           #   - coalesce: gr_funzioni/condizioni/coalesce.md
           #   - if: gr_funzioni/condizioni/if.md
