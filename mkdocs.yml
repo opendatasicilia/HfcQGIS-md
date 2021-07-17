@@ -227,12 +227,12 @@ nav:
           #   - set_color_part: gr_funzioni/colore/set_color_part.md
        - Condizioni: gr_funzioni/condizioni/condizioni_unico.md
             - Elenco: gr_funzioni/condizioni/condizioni_gruppo.md
-         #   - CASE: gr_funzioni/condizioni/case.md
-         #  - coalesce: gr_funzioni/condizioni/coalesce.md
-         #   - if: gr_funzioni/condizioni/if.md
-         #   - regexp_match: gr_funzioni/condizioni/regexp_match.md
-         #   - nullif: gr_funzioni/condizioni/nullif.md
-         #   - try: gr_funzioni/condizioni/try.md
+          #   - CASE: gr_funzioni/condizioni/case.md
+          #   - coalesce: gr_funzioni/condizioni/coalesce.md
+          #   - if: gr_funzioni/condizioni/if.md
+          #   - regexp_match: gr_funzioni/condizioni/regexp_match.md
+          #   - nullif: gr_funzioni/condizioni/nullif.md
+          #   - try: gr_funzioni/condizioni/try.md
        - Conversioni:
             - Elenco: gr_funzioni/conversioni/conversioni.md
             - hash: gr_funzioni/conversioni/hash.md
