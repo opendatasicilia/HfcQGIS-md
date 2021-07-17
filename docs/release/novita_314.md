@@ -5,6 +5,10 @@ tags:
 
 # Novità rilevanti introdotte nella 3.14 Pi
 
+![](../img/splashscreen/splash_3_14.png)
+
+<https://www.qgis.org/it/site/forusers/visualchangelog314/index.html>
+
 ## Nuove funzioni
 
 * **Ascii** : <https://github.com/qgis/QGIS/pull/35839>

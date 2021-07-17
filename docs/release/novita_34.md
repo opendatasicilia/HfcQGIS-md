@@ -5,7 +5,11 @@ tags:
 
 # Novità rilevanti introdotte nella 3.4 Madeira
 
-## Nuovo/i gruppo/i funzione/i nel calcolatore di campi (le funzioni all'interno del gruppo Array potrebbero essere presenti nel gruppo Arrays)
+![](../img/splashscreen/splash_3_4_0.png)
+
+<https://www.qgis.org/it/site/forusers/visualchangelog34/index.html>
+
+## Nuovo/i gruppo/i funzione/i nel calcolatore di campi
 ![](../img/novita_34/neo_gruppo2.png)
 
 ## Nuove funzioni

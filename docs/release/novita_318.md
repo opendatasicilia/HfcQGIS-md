@@ -5,6 +5,10 @@ tags:
 
 # Novità rilevanti introdotte nella 3.18 Zürich
 
+![](../img/splashscreen/splash_3_18.png)
+
+<https://www.qgis.org/it/site/forusers/visualchangelog318/index.html>
+
 ## Espressioni
 
 - `UUID` https://github.com/qgis/QGIS/pull/39414

@@ -5,6 +5,10 @@ tags:
 
 # Novità rilevanti introdotte nella 3.20 Odense
 
+![](../img/splashscreen/splash_3_20.png)
+
+<https://www.qgis.org/it/site/forusers/visualchangelog320/index.html>
+
 ## espressioni
 
 - `length3D` : https://github.com/qgis/QGIS/pull/41127

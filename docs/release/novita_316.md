@@ -5,6 +5,10 @@ tags:
 
 # Novità rilevanti introdotte nella 3.16 Hannover
 
+![](../img/splashscreen/splash_3_16.png)
+
+<https://www.qgis.org/it/site/forusers/visualchangelog316/index.html>
+
 ## Miglioramenti help in linea
 
 help in linea: <https://github.com/qgis/QGIS/pull/37532>
