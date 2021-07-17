@@ -248,12 +248,12 @@ nav:
           #   - to_string: gr_funzioni/conversioni/to_string.md
           #   - to_time: gr_funzioni/conversioni/to_time.md
           #   - to_time: gr_funzioni/conversioni/to_time.md
-       - Corrispondenza fuzzy:
-            - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
-            - hamming_distance: gr_funzioni/corrispondenza_fuzzy/hamming_distance.md
-            - levenshtein: gr_funzioni/corrispondenza_fuzzy/levenshtein.md
-            - longest_common_substring: gr_funzioni/corrispondenza_fuzzy/longest_common_substring.md
-            - soundex: gr_funzioni/corrispondenza_fuzzy/soundex.md
+       - Corrispondenza fuzzy: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy_unico.md
+          #   - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
+          #   - hamming_distance: gr_funzioni/corrispondenza_fuzzy/hamming_distance.md
+          #   - levenshtein: gr_funzioni/corrispondenza_fuzzy/levenshtein.md
+          #   - longest_common_substring: gr_funzioni/corrispondenza_fuzzy/longest_common_substring.md
+          #   - soundex: gr_funzioni/corrispondenza_fuzzy/soundex.md
        - Custom:
             - Elenco: gr_funzioni/custom/custom.md
             - my_sum: gr_funzioni/custom/my_sum.md
