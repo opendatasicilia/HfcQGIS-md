@@ -1,5 +1,5 @@
 # Concetti fondamentali sulla tabella degli attributi di QGIS
-    
+
 <https://docs.qgis.org/3.16/it/docs/user_manual/working_with_vector/attribute_table.html>
 
 La tabella degli attributi ![ico](../img/tabella_attributi/icon/mActionOpenTable.png) (**F6**) è una tabella che contiene i dati alfanumerici (attributi) dello strato vettoriale e rappresenta una delle differenze fondamentali tra un vettore CAD e uno GIS.
@@ -81,7 +81,7 @@ nella **Vista Modulo** è presente un ulterione menu:
 3. ![](../img/icon/sort.png) Ordina...;
 4. storico.
 
-## Barra del calcolatore di campi rapida
+## Calcolatore di campi rapido
 
 Questa barra è visibile solo se è attiva la modalità modifica ![ico](../img/tabella_attributi/icon/mActionToggleEditing.png) e consente di applicare rapidamente calcoli a tutte o parte delle feature del livello. Questa barra utilizza le stesse espressioni del calcolatore di campi ![ico](../img/tabella_attributi/icon/mActionCalculateField.png)
 
@@ -99,7 +99,7 @@ nel nostro caso (vedi screenshot sotto), se cliccassi su 4 (aggiorna tutto) aggi
 
 ![tab_attr](../img/tabella_attributi/tab_attr11.png)
 
-## Interagire con il corpo della tabella
+## Corpo della tabella
 
 È possibile interagire con il corpo della tabella usando il tasto destro del mouse: sulla intestazione dei campi oppure sulle celle:
 
