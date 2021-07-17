@@ -689,6 +689,7 @@ nav:
            - Fill-down con QGIS: esempi/fill-down.md
            - Finestra temporale: esempi/finestra_temporale.md
            - Rotazione simbolo parallelo ad una linea: esempi/rotazione_simbolo_parallelo_linea.md
+           - Livello acqua: esempi/livello_acqua.md
         - Provaci tu: mettiti_alla_prova.md   
         
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
