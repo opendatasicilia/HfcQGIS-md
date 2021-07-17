@@ -168,41 +168,41 @@ nav:
           #   - relation_aggregate: gr_funzioni/aggrega/relation_aggregate.md
           #   - stdev: gr_funzioni/aggrega/stdev.md
           #   - sum: gr_funzioni/aggrega/sum.md
-       - Array:
-            - Elenco: gr_funzioni/array/array_gruppo.md
-            - array: gr_funzioni/array/array.md
-            - array_append: gr_funzioni/array/array_append.md
-            - array_avg: gr_funzioni/array/array_avg.md
-            - array_cat: gr_funzioni/array/array_cat.md
-            - array_contains: gr_funzioni/array/array_contains.md
-            - array_count: gr_funzioni/array/array_count.md
-            - array_distinct: gr_funzioni/array/array_distinct.md
-            - array_find: gr_funzioni/array/array_find.md
-            - Array_filter: gr_funzioni/array/array_filter.md
-            - array_first: gr_funzioni/array/array_first.md
-            - Array_foreach: gr_funzioni/array/array_foreach.md
-            - array_get: gr_funzioni/array/array_get.md
-            - array_insert: gr_funzioni/array/array_insert.md
-            - array_intersect: gr_funzioni/array/array_intersect.md
-            - array_last: gr_funzioni/array/array_last.md
-            - array_length: gr_funzioni/array/array_length.md
-            - array_majority: gr_funzioni/array/array_majority.md
-            - array_minority: gr_funzioni/array/array_minority.md
-            - array_max: gr_funzioni/array/array_max.md
-            - array_min: gr_funzioni/array/array_min.md
-            - array_prepend: gr_funzioni/array/array_prepend.md
-            - array_prioritize: gr_funzioni/array/array_prioritize.md
-            - array_remove_all: gr_funzioni/array/array_remove_all.md
-            - array_remove_at: gr_funzioni/array/array_remove_at.md
-            - array_replace: gr_funzioni/array/array_replace.md
-            - array_reverse: gr_funzioni/array/array_reverse.md
-            - array_slice: gr_funzioni/array/array_slice.md
-            - array_sort: gr_funzioni/array/array_sort.md
-            - array_sum: gr_funzioni/array/array_sum.md
-            - array_to_string: gr_funzioni/array/array_to_string.md
-            - generate_series: gr_funzioni/arrays/generate_series.md
-            - regexp_matches: gr_funzioni/arrays/regexp_matches.md
-            - string_to_array: gr_funzioni/arrays/string_to_array.md
+       - Array: gr_funzioni/array/array_unico.md
+          #   - Elenco: gr_funzioni/array/array_gruppo.md
+          #   - array: gr_funzioni/array/array.md
+          #   - array_append: gr_funzioni/array/array_append.md
+          #   - array_avg: gr_funzioni/array/array_avg.md
+          #   - array_cat: gr_funzioni/array/array_cat.md
+          #   - array_contains: gr_funzioni/array/array_contains.md
+          #   - array_count: gr_funzioni/array/array_count.md
+          #   - array_distinct: gr_funzioni/array/array_distinct.md
+          #   - array_find: gr_funzioni/array/array_find.md
+          #   - Array_filter: gr_funzioni/array/array_filter.md
+          #   - array_first: gr_funzioni/array/array_first.md
+          #   - Array_foreach: gr_funzioni/array/array_foreach.md
+          #   - array_get: gr_funzioni/array/array_get.md
+          #   - array_insert: gr_funzioni/array/array_insert.md
+          #   - array_intersect: gr_funzioni/array/array_intersect.md
+          #   - array_last: gr_funzioni/array/array_last.md
+          #   - array_length: gr_funzioni/array/array_length.md
+          #   - array_majority: gr_funzioni/array/array_majority.md
+          #   - array_minority: gr_funzioni/array/array_minority.md
+          #   - array_max: gr_funzioni/array/array_max.md
+          #   - array_min: gr_funzioni/array/array_min.md
+          #   - array_prepend: gr_funzioni/array/array_prepend.md
+          #   - array_prioritize: gr_funzioni/array/array_prioritize.md
+          #   - array_remove_all: gr_funzioni/array/array_remove_all.md
+          #   - array_remove_at: gr_funzioni/array/array_remove_at.md
+          #   - array_replace: gr_funzioni/array/array_replace.md
+          #   - array_reverse: gr_funzioni/array/array_reverse.md
+          #   - array_slice: gr_funzioni/array/array_slice.md
+          #   - array_sort: gr_funzioni/array/array_sort.md
+          #   - array_sum: gr_funzioni/array/array_sum.md
+          #   - array_to_string: gr_funzioni/array/array_to_string.md
+          #   - generate_series: gr_funzioni/arrays/generate_series.md
+          #   - regexp_matches: gr_funzioni/arrays/regexp_matches.md
+          #   - string_to_array: gr_funzioni/arrays/string_to_array.md
        - Campi e valori:
             - Elenco: gr_funzioni/campi_e_valori/campi.md
             - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori.md
