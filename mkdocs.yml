@@ -143,31 +143,31 @@ nav:
        
     - Funzioni:
        - Elenco funzioni QGIS: gr_funzioni/gruppo_funzioni.md
-       - Aggrega:
-            - Elenco:  gr_funzioni/aggrega/aggrega_gruppo.md
-            - aggregate: gr_funzioni/aggrega/aggregate.md
-            - array_agg: gr_funzioni/aggrega/array_agg.md
-            - collect: gr_funzioni/aggrega/collect.md
-            - concatenate: gr_funzioni/aggrega/concatenate.md
-            - concatenate_unique: gr_funzioni/aggrega/concatenate_unique.md
-            - count: gr_funzioni/aggrega/count.md
-            - count_distinct: gr_funzioni/aggrega/count_distinct.md
-            - count_missing: gr_funzioni/aggrega/count_missing.md
-            - iqr: gr_funzioni/aggrega/iqr.md
-            - majority: gr_funzioni/aggrega/majority.md
-            - max_length: gr_funzioni/aggrega/max_length.md
-            - maximum: gr_funzioni/aggrega/maximum.md
-            - mean: gr_funzioni/aggrega/mean.md
-            - median: gr_funzioni/aggrega/median.md
-            - min_length: gr_funzioni/aggrega/min_length.md
-            - minimum: gr_funzioni/aggrega/minimum.md
-            - minority: gr_funzioni/aggrega/minority.md
-            - q1: gr_funzioni/aggrega/q1.md
-            - q3: gr_funzioni/aggrega/q3.md
-            - range: gr_funzioni/aggrega/.md
-            - relation_aggregate: gr_funzioni/aggrega/relation_aggregate.md
-            - stdev: gr_funzioni/aggrega/stdev.md
-            - sum: gr_funzioni/aggrega/sum.md
+       - Aggrega: gr_funzioni/aggrega/aggrega_unico.md
+          #   - Elenco:  gr_funzioni/aggrega/aggrega_gruppo.md
+          #   - aggregate: gr_funzioni/aggrega/aggregate.md
+          #   - array_agg: gr_funzioni/aggrega/array_agg.md
+          #   - collect: gr_funzioni/aggrega/collect.md
+          #   - concatenate: gr_funzioni/aggrega/concatenate.md
+          #   - concatenate_unique: gr_funzioni/aggrega/concatenate_unique.md
+          #   - count: gr_funzioni/aggrega/count.md
+          #   - count_distinct: gr_funzioni/aggrega/count_distinct.md
+          #   - count_missing: gr_funzioni/aggrega/count_missing.md
+          #   - iqr: gr_funzioni/aggrega/iqr.md
+          #   - majority: gr_funzioni/aggrega/majority.md
+          #   - max_length: gr_funzioni/aggrega/max_length.md
+          #   - maximum: gr_funzioni/aggrega/maximum.md
+          #   - mean: gr_funzioni/aggrega/mean.md
+          #   - median: gr_funzioni/aggrega/median.md
+          #   - min_length: gr_funzioni/aggrega/min_length.md
+          #   - minimum: gr_funzioni/aggrega/minimum.md
+          #   - minority: gr_funzioni/aggrega/minority.md
+          #   - q1: gr_funzioni/aggrega/q1.md
+          #   - q3: gr_funzioni/aggrega/q3.md
+          #   - range: gr_funzioni/aggrega/.md
+          #   - relation_aggregate: gr_funzioni/aggrega/relation_aggregate.md
+          #   - stdev: gr_funzioni/aggrega/stdev.md
+          #   - sum: gr_funzioni/aggrega/sum.md
        - Array:
             - Elenco: gr_funzioni/array/array_gruppo.md
             - array: gr_funzioni/array/array.md
