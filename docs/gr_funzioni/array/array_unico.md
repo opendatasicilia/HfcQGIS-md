@@ -176,7 +176,7 @@ Sintassi:
 
 Argomenti:
 
-* __<span style="color:red;">array</span>_ un array
+* _<span style="color:red;">array</span>_ un array
 * _<span style="color:red;">value</span>_ un valore da contare
 
 Esempi:
@@ -761,7 +761,7 @@ Osservazioni
 
 Restituisce un array con il valore, l'array o la mappa dei valori forniti sostituiti.
 
-## Valore & variante dell'array
+Valore & variante dell'array
 
 Restituisce un array con il valore o con un array di valori forniti sostituito da un altro valore o da un altro array di valori.
 
