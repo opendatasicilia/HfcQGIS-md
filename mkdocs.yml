@@ -123,10 +123,10 @@ nav:
     
     - Field Calculator:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
-       - Concetti fondamentali: calcolatore_campi/concetti.md
-       - Interfaccia calcolatore di campi: calcolatore_campi/interfaccia.md
+       - Concetti Field Calc: calcolatore_campi/concetti.md
+       - Interfaccia Field Calc: calcolatore_campi/interfaccia.md
        - Operatori interfaccia: calcolatore_campi/operatori.md
-       - Concetti fondamentali sulla tabella attributi: calcolatore_campi/tabella_attributi.md
+       - Concetti tabella attributi: calcolatore_campi/tabella_attributi.md
        
     - Novità:
        - QGIS 3.20 | 21/06/2021: release/novita_320.md   
