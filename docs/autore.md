@@ -20,7 +20,7 @@ Prima di iniziare l'attività di divulgatore del Open Source (OS), _Salvatore_ h
 
 Cura il Blog '[Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/)' e il [canale](https://www.youtube.com/user/vediamo13/) YouTube dove scrive e parla di QGIS,Qfield, SpatiaLite, PostegreSQL/PostGIS, GDAL/OGR, GRASS GIS, SAGA GIS, GitHub, OSGeo4W, ed altri FOSS; ama usare, nella professione e non solo, software OS come LibreOffice, InkSCAPE, GIMP ecc...
 
-Libero Professionista, attualmente è socio [GFOSS.it](http://gfoss.it/), membro di [QGIS Italia](https://www.facebook.com/qgis.it/) e [QGIS.rog](https://qgis.org/it/site/), moderatore di vari forum con argomenti GFOSS. Partecipa, nel 2014, alla fondazione di _Open Data Sicilia_ realizzando uno dei primi progetti del gruppo (Balneazione Palermo 2014, [Piano regolatore del Comune di Palermo 2015](http://blog.spaziogis.it/static/palermo_prg/#12/38.1375/13.3450)), nel 2016 è tra i relatori del [#ODS16 OpenDataSicilia Summer Edition](http://ods16.opendatasicilia.it/) Messina, in cui parla di QGIS.
+Libero Professionista, attualmente è socio [GFOSS.it](http://gfoss.it/), membro di [QGIS Italia](https://www.facebook.com/qgis.it/) dal 2015 e di [QGIS.org](https://qgis.org/it/site/) dal 2020, moderatore di vari forum con argomenti GFOSS. Partecipa, nel 2014, alla fondazione di _Open Data Sicilia_ realizzando uno dei primi progetti del gruppo (Balneazione Palermo 2014, [Piano regolatore del Comune di Palermo 2015](http://blog.spaziogis.it/static/palermo_prg/#12/38.1375/13.3450)), nel 2016 è tra i relatori del [#ODS16 OpenDataSicilia Summer Edition](http://ods16.opendatasicilia.it/) Messina, in cui parla di QGIS.
 
 
 **_Salvatore_ è disponibile per nuovi progetti di divulgazione, oltre a consulenze private.**
