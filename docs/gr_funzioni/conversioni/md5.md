@@ -4,11 +4,11 @@ Crea un hash md5 da una stringa.
 
 ## Sintassi
 
-* md5(_string_)
+* md5(_<span style="color:red;">string</span>_)
 
 ## Argomenti
 
-* _string_ stringa di md5
+* _<span style="color:red;">string</span>_ stringa di md5
 
 ## Esempi
 ```

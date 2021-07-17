@@ -1,5 +1,7 @@
 # Gruppo Colore
 
+Questo gruppo contiene funzioni per manipolare i colori
+
 ## color_cmyk
 
 Restituisce una rappresentazione stringa di un colore basato sui suoi componenti ciano, magenta, giallo e nero

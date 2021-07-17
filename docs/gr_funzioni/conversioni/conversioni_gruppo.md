@@ -4,9 +4,10 @@ Questo gruppo contiene funzioni per convertire i dati da un tipo ad un'altro, es
 
 | Funzione  | Descrizione| Info
 |----------:|:-----------|-----
-|[hash](hash.md)|Crea un hash da una stringa con un determinato metodo|>= QGIS 3.12
+|[from_base64](from_base64.md)|Decodifica una stringa Base64 in un valore binario|>= QGIS 3.14
 |[md5](md5.md)|Crea un hash md5 da una stringa.|>= QGIS 3.12
 |[sha256](sha256.md)|Crea un hash sha256 da una stringa|>= QGIS 3.12
+|[to_base64](to_base64.md)|Decodifica una stringa Base64 in un valore binario.|>= QGIS 3.14
 |[to_date](to_date.md)|	Converte una stringa in un oggetto data|
 |[to_datetime](to_datetime.md)|Converte una stringa in un oggetto datetime|
 |[to_dm](to_dm.md)|Converte una coordinata in gradi, minuti| >= QGIS 3.4
@@ -16,6 +17,6 @@ Questo gruppo contiene funzioni per convertire i dati da un tipo ad un'altro, es
 |[to_real](to_real.md)|Converte una stringa in un numero reale. Non viene restituito nulla se un valore non può essere convertito a reale (es. '123.56asd' non è valido). I numeri sono arrotondati dopo aver salvato le modifiche se la precisione è minore del risultato della conversione|
 |[to_string](to_string.md)|	Converte un numero in stringa|
 |[to_time](to_time.md)|Converti una stringa in un oggetto time|
-|[to_time](to_time.md)|Converti una stringa in un oggetto time|
+
 
 ![](../../img/conversioni/gruppo_conversioni1.png)

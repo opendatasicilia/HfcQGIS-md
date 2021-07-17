@@ -4,12 +4,12 @@ Crea un [hash](https://it.wikipedia.org/wiki/Funzione_crittografica_di_hash) da 
 
 ## Sintassi
 
-* hash(_string_, _method_)
+* hash(_<span style="color:red;">string</span>_, _<span style="color:red;">method</span>_)
 
 ## Argomenti
 
-* _string_ stringa di hash
-* _method_ Il metodo hash tra 'md4', 'md5', 'sha1', 'sha224', 'sha384', 'sha512', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'keccak_224', 'keccak_256 ',' keccak_384 ',' keccak_512 '
+* _<span style="color:red;">string</span>_ stringa di hash
+* _<span style="color:red;">method</span>_ Il metodo hash tra 'md4', 'md5', 'sha1', 'sha224', 'sha384', 'sha512', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'keccak_224', 'keccak_256 ',' keccak_384 ',' keccak_512 '
 
 ## Esempi
 ```

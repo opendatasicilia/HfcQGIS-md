@@ -233,21 +233,21 @@ nav:
           #   - regexp_match: gr_funzioni/condizioni/regexp_match.md
           #   - nullif: gr_funzioni/condizioni/nullif.md
           #   - try: gr_funzioni/condizioni/try.md
-       - Conversioni:
-            - Elenco: gr_funzioni/conversioni/conversioni.md
-            - hash: gr_funzioni/conversioni/hash.md
-            - md5: gr_funzioni/conversioni/md5.md
-            - sha256: gr_funzioni/conversioni/sha256.md
-            - to_date: gr_funzioni/conversioni/to_date.md
-            - to_datetime: gr_funzioni/conversioni/to_datetime.md
-            - to_dm: gr_funzioni/conversioni/to_dm.md
-            - to_dms: gr_funzioni/conversioni/to_dms.md
-            - to_int: gr_funzioni/conversioni/to_int.md
-            - to_interval: gr_funzioni/conversioni/to_interval.md
-            - to_real: gr_funzioni/conversioni/to_real.md
-            - to_string: gr_funzioni/conversioni/to_string.md
-            - to_time: gr_funzioni/conversioni/to_time.md
-            - to_time: gr_funzioni/conversioni/to_time.md
+       - Conversioni: gr_funzioni/conversioni/conversioni_unico.md
+          #   - Elenco: gr_funzioni/conversioni/conversioni.md
+          #   - hash: gr_funzioni/conversioni/hash.md
+          #   - md5: gr_funzioni/conversioni/md5.md
+          #   - sha256: gr_funzioni/conversioni/sha256.md
+          #   - to_date: gr_funzioni/conversioni/to_date.md
+          #   - to_datetime: gr_funzioni/conversioni/to_datetime.md
+          #   - to_dm: gr_funzioni/conversioni/to_dm.md
+          #   - to_dms: gr_funzioni/conversioni/to_dms.md
+          #   - to_int: gr_funzioni/conversioni/to_int.md
+          #   - to_interval: gr_funzioni/conversioni/to_interval.md
+          #   - to_real: gr_funzioni/conversioni/to_real.md
+          #   - to_string: gr_funzioni/conversioni/to_string.md
+          #   - to_time: gr_funzioni/conversioni/to_time.md
+          #   - to_time: gr_funzioni/conversioni/to_time.md
        - Corrispondenza fuzzy:
             - Elenco: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy.md
             - hamming_distance: gr_funzioni/corrispondenza_fuzzy/hamming_distance.md
