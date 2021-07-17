@@ -8,7 +8,7 @@ Decodifica una stringa Base64 in un valore binario.
 
 Sintassi:
 
-- from_base64* md5(_<span style="color:red;">string</span>_)
+- from_base64(_<span style="color:red;">string</span>_)
 
 Argomenti:
 
