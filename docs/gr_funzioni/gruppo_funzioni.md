@@ -4,8 +4,8 @@ Nell'Interfaccia del **Field Calc** (e nel costruttore di espressione) è presen
 
 Gruppo funzioni|nro funzioni*|info
 ---------------|:-----------:|----
-[Aggrega](./aggregates/aggrega_unico.md) |(23/23)| >= **QGIS 2.16** 
-[Array](./arrays/array_unico.md)| (35/35) |aggiornate a **QGIS 3.20**
+[Aggrega](./aggrega/aggrega_unico.md) |(23/23)| >= **QGIS 2.16** 
+[Array](./array/array_unico.md)| (35/35) |aggiornate a **QGIS 3.20**
 [Campi e valori](./campi_e_valori/campi_unico.md)| (1/1)| Elenco dei campi del layer selezionato
 [Colore](./colore/colore_unico.md)| (17/17)| Per manipolare i colori
 [Condizioni](./condizioni/condizioni_unico.md)| (6/6)|aggiornate a **QGIS 3.6**
