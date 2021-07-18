@@ -16,7 +16,7 @@ Gruppo funzioni|nro funzioni*|info
 [Espressione utente](./espressione_utente/espressione_utente_unico.md)| (6/6)|aggiornate a **QGIS 3.12**
 [File e percorsi](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)|
 [Generale](./generale/generale_unico.md)| (7/7)|
-[Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.16**
+[Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.18**
 [Lat Long Tools](./lat_long_tools/lat_long_tools_unico.md)| (18/0)| [Plugin Lat Long Tools](https://plugins.qgis.org/plugins/latlontools/)
 [Layer mappa](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
 [Maps](./maps/maps_unico.md)| (12/12) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**
