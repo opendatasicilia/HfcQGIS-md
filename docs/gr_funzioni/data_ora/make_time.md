@@ -4,13 +4,13 @@ Crea un valore temporale da ore, minuti e secondi numeri.
 
 ## Sintassi
 
-* make_time(_hour,minute,second_)
+* make_time(_<span style="color:red;">hour</span>_,_<span style="color:red;">minute_<span</span>_>,_<span style="color:red;">second</span>_)
 
 ## Argomenti
 
-* _hour_ numero ore
-* _minute_ minuti
-* _second_ secondi (le frazioni includono i millisecondi)
+* _<span style="color:red;">hour</span>_ numero ore
+* _<span style="color:red;">minute</span>_ minuti
+* _<span style="color:red;">second</span>_ secondi (le frazioni includono i millisecondi)
 
 
 ## Esempi

@@ -4,13 +4,13 @@ Restituisce un datetime il cui data e ora sono il numero di millisecondi, msec, 
 
 ## Sintassi
 
-* datetime_from_epoch(_int_)
+* datetime_from_epoch(_<span style="color:red;">int</span>_)
 
 [ ] indica componenti opzionali
 
 ## Argomenti
 
-* _int_ numero (millisecondi)
+* _<span style="color:red;">int</span>_ numero (millisecondi)
   
 ## Esempi
 ```

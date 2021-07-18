@@ -4,13 +4,13 @@ Crea un valore di data dai numeri di anno, mese e giorno.
 
 ## Sintassi
 
-* make_date(_year,month,day_)
+* make_date(_<span style="color:red;">year</span>_,_<span style="color:red;">month</span>_,_<span style="color:red;">day</span>_)
 
 ## Argomenti
 
-* _year_ Numero dell'anno. Gli anni da 1 a 99 vengono interpretati così come sono. L'anno 0 non è valido.
-* _month_ Numero del mese, dove 1 = gennaio
-* _day_ Day Numero del giorno, che inizia con 1 per il primo giorno del mese.
+* _<span style="color:red;">year</span>_ Numero dell'anno. Gli anni da 1 a 99 vengono interpretati così come sono. L'anno 0 non è valido.
+* _<span style="color:red;">month</span>_ Numero del mese, dove 1 = gennaio
+* _<span style="color:red;">day</span>_ Day Numero del giorno, che inizia con 1 per il primo giorno del mese.
 
 ## Esempi
 

@@ -4,19 +4,19 @@ Crea un valore di intervallo dai valori di anno, mese, settimane, giorni, ore, m
 
 ## Sintassi
 
-* make_interval([years=0][,months=0][,weeks=0][,days=0][,hours=0][,minutes=0][,seconds=0])
+* make_interval(_<span style="color:red;">_years=0</span>_][,_<span style="color:red;">months=0</span>_][,_<span style="color:red;">weeks=0</span>_][,_<span style="color:red;">days=0</span>_][,_<span style="color:red;">hours=0</span>_][,_<span style="color:red;">minutes=0</span>_][,_<span style="color:red;">seconds=0</span>])
 
 [ ] indica componenti opzionali
 
 ## Argomenti
 
-* _year_ Numero di anni (presuppone una durata di 365,25 giorni).
-* _month_ Numero di mesi (presuppone una durata del mese di 30 giorni)
-* _weeks_ numero settimane;
-* _day_ Numero di giorno;
-* _hour_ numero ore;
-* _minute_ minuti;
-* _second_ secondi.
+* _<span style="color:red;">year</span>_ Numero di anni (presuppone una durata di 365,25 giorni).
+* _<span style="color:red;">month</span>_ Numero di mesi (presuppone una durata del mese di 30 giorni)
+* _<span style="color:red;">weeks</span>_ numero settimane;
+* _<span style="color:red;">day</span>_ Numero di giorno;
+* _<span style="color:red;">hour</span>_ numero ore;
+* _<span style="color:red;">minute</span>_ minuti;
+* _<span style="color:red;">second</span>_ secondi.
 
 
 ## Esempi

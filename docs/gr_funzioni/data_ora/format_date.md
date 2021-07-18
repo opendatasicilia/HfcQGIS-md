@@ -4,12 +4,12 @@ Formatta un tipo di data o stringa in un formato stringa personalizzato. Usa str
 
 ## Sintassi
 
-* format_date(_datetime, format[,language]_)
+* format_date(_<span style="color:red;">datetime</span>_, _<span style="color:red;">format</span>_[,_<span style="color:red;">language</span>_]_)
 
 ## Argomenti
 
-* _datetime_ valora data, ora, o data/ora
-* _format_ Modello di stringhe usato per formattare la stringa. 
+* _<span style="color:red;">datetime</span>_ valora data, ora, o data/ora
+* _<span style="color:red;">format</span>_ Modello di stringhe usato per formattare la stringa. 
 
 Espressione|In uscita
 ----------:|---------
@@ -42,7 +42,7 @@ AP o A|interpretato come un orario nel formato AM/PM. AP deve essere "AM" oppure
 ap o a|interpretato come un orario nel formato AM/PM. ap deve essere "am" oppure "pm".
 
 
-* _language_ linguaggio (minuscolo, due o tre lettere, codice ISO 639) utilizzato per formattare la data in una stringa personalizzata (**>= QGIS 3.12**)
+* _<span style="color:red;">language</span>_ linguaggio (minuscolo, due o tre lettere, codice ISO 639) utilizzato per formattare la data in una stringa personalizzata (**>= QGIS 3.12**)
 
 
 ## Esempi

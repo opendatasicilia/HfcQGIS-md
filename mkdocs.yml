@@ -261,29 +261,29 @@ nav:
             # - controlla_file: gr_funzioni/custom/controlla_file.md
             # - CurrentFormValue: gr_funzioni/custom/CurrentFormValue.md
             # - Fattoriale: gr_funzioni/custom/fattoriale.md
-       - Data ora:
-            - Elenco: gr_funzioni/data_ora/data_ora.md
-            - age: gr_funzioni/data_ora/age.md
-            - datetime_from_epoch: gr_funzioni/data_ora/datetime_from_epoch.md
-            - day: gr_funzioni/data_ora/day.md
-            - day_of_week: gr_funzioni/data_ora/day_of_week.md
-            - epoch: gr_funzioni/data_ora/epoch.md
-            - format_date: gr_funzioni/data_ora/format_date.md
-            - hour: gr_funzioni/data_ora/hour.md
-            - make_date: gr_funzioni/data_ora/make_date.md
-            - make_datetime: gr_funzioni/data_ora/make_datetime.md
-            - make_interval: gr_funzioni/data_ora/make_interval.md
-            - make_time: gr_funzioni/data_ora/make_time.md
-            - minute: gr_funzioni/data_ora/minute.md
-            - month: gr_funzioni/data_ora/month.md
-            - now: gr_funzioni/data_ora/now.md
-            - second: gr_funzioni/data_ora/second.md
-            - to_date: gr_funzioni/data_ora/to_date.md
-            - to_datetime: gr_funzioni/data_ora/to_datetime.md
-            - to_interval: gr_funzioni/data_ora/to_interval.md
-            - to_time: gr_funzioni/data_ora/to_time.md
-            - week: gr_funzioni/data_ora/week.md
-            - year: gr_funzioni/data_ora/year.md
+       - Data ora: gr_funzioni/data_ora/data_ora_unico.md
+            # - Elenco: gr_funzioni/data_ora/data_ora.md
+            # - age: gr_funzioni/data_ora/age.md
+            # - datetime_from_epoch: gr_funzioni/data_ora/datetime_from_epoch.md
+            # - day: gr_funzioni/data_ora/day.md
+            # - day_of_week: gr_funzioni/data_ora/day_of_week.md
+            # - epoch: gr_funzioni/data_ora/epoch.md
+            # - format_date: gr_funzioni/data_ora/format_date.md
+            # - hour: gr_funzioni/data_ora/hour.md
+            # - make_date: gr_funzioni/data_ora/make_date.md
+            # - make_datetime: gr_funzioni/data_ora/make_datetime.md
+            # - make_interval: gr_funzioni/data_ora/make_interval.md
+            # - make_time: gr_funzioni/data_ora/make_time.md
+            # - minute: gr_funzioni/data_ora/minute.md
+            # - month: gr_funzioni/data_ora/month.md
+            # - now: gr_funzioni/data_ora/now.md
+            # - second: gr_funzioni/data_ora/second.md
+            # - to_date: gr_funzioni/data_ora/to_date.md
+            # - to_datetime: gr_funzioni/data_ora/to_datetime.md
+            # - to_interval: gr_funzioni/data_ora/to_interval.md
+            # - to_time: gr_funzioni/data_ora/to_time.md
+            # - week: gr_funzioni/data_ora/week.md
+            # - year: gr_funzioni/data_ora/year.md
        - Espressione utente:
             - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
             - bla bla: bla.md                
