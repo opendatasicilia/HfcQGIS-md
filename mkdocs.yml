@@ -253,14 +253,14 @@ nav:
           #   - levenshtein: gr_funzioni/corrispondenza_fuzzy/levenshtein.md
           #   - longest_common_substring: gr_funzioni/corrispondenza_fuzzy/longest_common_substring.md
           #   - soundex: gr_funzioni/corrispondenza_fuzzy/soundex.md
-       - Custom:
-            - Elenco: gr_funzioni/custom/custom.md
-            - my_sum: gr_funzioni/custom/my_sum.md
-            - reverse_string: gr_funzioni/custom/reverse_string.md
-            - perimetro_km(): gr_funzioni/custom/perimetro_km().md
-            - controlla_file: gr_funzioni/custom/controlla_file.md
-            - CurrentFormValue: gr_funzioni/custom/CurrentFormValue.md
-            - Fattoriale: gr_funzioni/custom/fattoriale.md
+       - Custom: gr_funzioni/custom/custom_unico.md
+            # - Elenco: gr_funzioni/custom/custom.md
+            # - my_sum: gr_funzioni/custom/my_sum.md
+            # - reverse_string: gr_funzioni/custom/reverse_string.md
+            # - perimetro_km(): gr_funzioni/custom/perimetro_km().md
+            # - controlla_file: gr_funzioni/custom/controlla_file.md
+            # - CurrentFormValue: gr_funzioni/custom/CurrentFormValue.md
+            # - Fattoriale: gr_funzioni/custom/fattoriale.md
        - Data ora:
             - Elenco: gr_funzioni/data_ora/data_ora.md
             - age: gr_funzioni/data_ora/age.md
