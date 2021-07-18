@@ -4,32 +4,32 @@ Nell'Interfaccia del **Field Calc** (e nel costruttore di espressione) è presen
 
 Gruppo funzioni|nro funzioni*|info
 ---------------|:-----------:|----
-[Aggrega](./aggregates/aggregalist.md) |(23/23)| >= **QGIS 2.16** 
-[Array](./arrays/array.md)| (33/33) |>= **QGIS 3.0**
-[Campi e valori](./campi_e_valori/campi.md)| (1/1)| Elenco dei campi del layer selezionato
-[Colore](./colore/colore.md)| (17/17)|
-[Condizioni](./condizioni/condizioni.md)| (6/6)|aggiornate a **QGIS 3.6**
-[Conversioni](./conversioni/conversioni.md)| (13/13)|aggiornate a **QGIS 3.16**
-[Corrispondenza Fuzzy](./corrispondenza_fuzzy/corrispondenza_fuzzy.md)| (4/4)|
-[Custom](./custom/custom.md)| (5/5)| funzioni personalizzate
-[Data e ora](./data_ora/data_ora.md) |(21/21)|aggiornate a **QGIS 3.14**
-[Espressione utente](./espressione_utente/espressione_utente.md)| (6/6)|aggiornate a **QGIS 3.12**
-[File e percorsi](./file_e_percorsi/file_e_percorsi.md)| (8/8)|
-[Generale](./generale/generale.md)| (6/6)|
-[Geometria](./geometria/geometria.md) |(108/123)| aggiornate a **QGIS 3.16**
-[Lat Long Tools](./lat_long_tools/lat_long_tools.md)| (8/0)| [Plugin Lat Long Tools](https://plugins.qgis.org/plugins/latlontools/)
-[Layer mappa](./layer_della_mappa/layer.md)| (2/2)| aggiornate a **QGIS 3.6**
-[Maps](./maps/maps.md)| (14/14) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**
-[Matematica](./matematica/matematica.md)| (28/28)|aggiornate a **QGIS 3.12**
-[Operatori](./operatori/operatori.md)| (21/21)|
-[Rasters](./rasters/rasters.md)|(2/2)|>= **QGIS 3.4** 
-[Recente](./recente/recente.md) |(1/1)| Elenca le ultime 20 espressioni utilizzate
-[Record e attributi](./record_e_attributi/record_e_attributi.md)| (11/11)|aggiornate a **QGIS 3.10**
-[Reference](./reference/reference.md)| (0/21)| [Plugin refFunction](https://plugins.qgis.org/plugins/refFunctions/)
-[Relazioni](./relazioni/relazioni.md)| (?)| Visibile solo se ci sono relazioni di progetto
-[Stringhe di testo](./stringhe_di_testo/stringhe_di_testo.md)| (23/23)|aggiornate a **QGIS 3.14**
-[Variabili](./variabili/variabili.md) |(4/65) |>= **QGIS 2.12**
+[Aggrega](./aggregates/aggrega_unico.md) |(23/23)| >= **QGIS 2.16** 
+[Array](./arrays/array_unico.md)| (35/35) |aggiornate a **QGIS 3.20**
+[Campi e valori](./campi_e_valori/campi_unico.md)| (1/1)| Elenco dei campi del layer selezionato
+[Colore](./colore/colore_unico.md)| (17/17)| Per manipolare i colori
+[Condizioni](./condizioni/condizioni_unico.md)| (6/6)|aggiornate a **QGIS 3.6**
+[Conversioni](./conversioni/conversioni_unico.md)| (15/15)|aggiornate a **QGIS 3.16**
+[Corrispondenza Fuzzy](./corrispondenza_fuzzy/corrispondenza_fuzzy_unico.md)| (4/4)|
+[Custom](./custom/custom_unico.md)| (5/5)| funzioni personalizzate
+[Data e ora](./data_ora/data_ora_unico.md) |(21/21)|aggiornate a **QGIS 3.14**
+[Espressione utente](./espressione_utente/espressione_utente_unico.md)| (6/6)|aggiornate a **QGIS 3.12**
+[File e percorsi](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)|
+[Generale](./generale/generale_unico.md)| (6/6)|
+[Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.16**
+[Lat Long Tools](./lat_long_tools/lat_long_tools_unico.md)| (18/0)| [Plugin Lat Long Tools](https://plugins.qgis.org/plugins/latlontools/)
+[Layer mappa](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
+[Maps](./maps/maps_unico.md)| (12/12) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**
+[Matematica](./matematica/matematica_unico.md)| (28/28)|aggiornate a **QGIS 3.12**
+[Operatori](./operatori/operatori_unico.md)| (23/23)|aggiornate a **QGIS 3.20**
+[Raster](./rasters/rasters_unico.md)|(2/2)|>= **QGIS 3.4** 
+[Recente](./recente/recente_unico.md) |(1/1)| Elenca le ultime 20 espressioni utilizzate
+[Record e attributi](./record_e_attributi/record_e_attributi_unico.md)| (13/13)|aggiornate a **QGIS 3.10**
+[Reference](./reference/reference_unico.md)| (0/21)| [Plugin refFunction](https://plugins.qgis.org/plugins/refFunctions/)
+[Relazioni](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
+[Stringhe di testo](./stringhe_di_testo/stringhe_di_testo_unico.md)| (23/23)|aggiornate a **QGIS 3.14**
+[Variabili](./variabili/variabili_unico.md) |(4/65+) |>= **QGIS 2.12** - variano in funzione del contesto
 
 ![](../img/gruppi_funzioni.png)
 
-\* i numeri tra parentesi rappresentano: `( numero funzioni documentate / numero funzioni nel gruppo)`
+\* i numeri tra parentesi rappresentano: `(numero funzioni documentate / numero funzioni nel gruppo)`

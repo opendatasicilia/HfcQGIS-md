@@ -298,7 +298,7 @@ nav:
             - layer_property:  gr_funzioni/generale/layer_property.md
             - var:  gr_funzioni/generale/var.md
             - with_variable:  gr_funzioni/generale/with_variable.md  
-       - Lat e Long:
+       - Lat e Lon Tools:
             - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
             - bla bla: bla.md
        - Geometria:
@@ -497,7 +497,7 @@ nav:
             - a AND b: gr_funzioni/operatori/AND.md
             - NOT: gr_funzioni/operatori/NOT.md
             - a IN (a,b,..): gr_funzioni/operatori/IN.md
-       - Rasters:
+       - Raster:
             - Elenco: gr_funzioni/rasters/rasters.md
             - raster_statistic: gr_funzioni/rasters/raster_statistic.md
             - raster_value: gr_funzioni/rasters/raster_value.md
