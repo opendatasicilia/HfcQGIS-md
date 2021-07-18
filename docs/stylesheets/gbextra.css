@@ -108,6 +108,8 @@ a.md-button.md-button:hover {
     color: #000000;
 }
 
+/* Cambia lo sfondo del code */
+.md-typeset code {background-color: #d6d4d46e!important;}
 
 /*Table styling*/
 table {
