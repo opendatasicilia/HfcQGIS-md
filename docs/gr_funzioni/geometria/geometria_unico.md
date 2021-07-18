@@ -263,6 +263,7 @@ Nota bene:
 Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il valore dell'angolo e non la bisettrice.
 
 Osservazioni:
+
 --
 
 ![](../../img/geometria/angle_at_vertex/angle_at_vertex2.png)
@@ -2257,7 +2258,7 @@ Esempi:
 
 ![](../../img/geometria/make_line/make_line1.png)
 
-### Array variant >= QGIS 3.10
+### Array variant
 
 I vertici di linea sono specificati come una matrice di punti.
 
