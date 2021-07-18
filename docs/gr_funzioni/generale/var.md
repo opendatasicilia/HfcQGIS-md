@@ -11,9 +11,10 @@ Restituisce il valore memorizzato in una variabile specificata.
 * *<span style="color:red;">name</span>* un nome variabile
 
 ## Esempi
+
 ```
-var('qgis_version') → '3.0.2-Girona'
-var('user_account_name') → 'Salvatore'
+- var('qgis_version') → '3.0.2-Girona'
+- var('user_account_name') → 'Salvatore'
 ```
 
 ## Osservazioni

@@ -4,11 +4,11 @@ Restituisce il tipo mime dei dati binari.
 
 ## Sintassi
 
-* mime_type(_bytes_)
+* mime_type(_<span style="color:red;">bytes</span>_)
 
 ## Argomento
 
-* _bytes_ I dati binari
+* _<span style="color:red;">bytes</span>_ I dati binari
 
 ## Esempi
 
@@ -16,4 +16,3 @@ Restituisce il tipo mime dei dati binari.
 * `mime_type(from_base64('R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIAOw==')) → image/gif`
 
 ![](../../img/generale/mime_type1.png)
----

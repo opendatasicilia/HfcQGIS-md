@@ -290,14 +290,15 @@ nav:
        - File e percorsi:
             - Elenco: gr_funzioni/file_e_percorsi/file_e_percorsi.md
             - bla bla: bla.md            
-       - Generale:
-            - Elenco: gr_funzioni/generale/generale.md
-            - env:  gr_funzioni/generale/env.md
-            - eval:  gr_funzioni/generale/eval.md
-            - is_layer_visible:  gr_funzioni/generale/is_layer_visible.md
-            - layer_property:  gr_funzioni/generale/layer_property.md
-            - var:  gr_funzioni/generale/var.md
-            - with_variable:  gr_funzioni/generale/with_variable.md  
+       - Generale: gr_funzioni/generale/generale_unico.md
+            # - Elenco: gr_funzioni/generale/generale.md
+            # - env:  gr_funzioni/generale/env.md
+            # - eval:  gr_funzioni/generale/eval.md
+            # - eval_template:  gr_funzioni/generale/eval_template.md
+            # - is_layer_visible:  gr_funzioni/generale/is_layer_visible.md
+            # - mime_type:  gr_funzioni/generale/mime_type.md
+            # - var:  gr_funzioni/generale/var.md
+            # - with_variable:  gr_funzioni/generale/with_variable.md  
        - Lat e Lon Tools:
             - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
             - bla bla: bla.md
@@ -424,10 +425,11 @@ nav:
             - z: gr_funzioni/geometria/z.md
             - z_max: gr_funzioni/geometria/z_max.md
             - z_min: gr_funzioni/geometria/z_min.md
-       - Layer della mappa:
+       - Layer Mappa:
             - Elenco: gr_funzioni/layer_della_mappa/layer.md
             - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md
             - decode_uri: gr_funzioni/layer_della_mappa/decode_uri.md
+            - layer_property: gr_funzioni/layer_della_mappa/layer_property.md
        - Maps:
             - Elenco: gr_funzioni/maps/maps.md
             - from_json: gr_funzioni/maps/from_json.md
