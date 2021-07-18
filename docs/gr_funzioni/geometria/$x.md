@@ -4,11 +4,11 @@ Restituisce la coordinata x della geometria corrente.
 
 ## Sintassi
 
-$x
+- $x
 
 ## Esempi
 
-* $x → 12.2568971
+* `$x → 12.2568971`
 
 ![](../../img/geometria/_x/_x1.png)
 
@@ -16,7 +16,7 @@ $x
 
 ## nota bene
 
-La funzione $x restituisce la coordinata x della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
+La funzione `$x` restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
 
 ## osservazioni
 

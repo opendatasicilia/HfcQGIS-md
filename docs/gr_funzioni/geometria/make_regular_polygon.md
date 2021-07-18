@@ -4,14 +4,16 @@ Crea un poligono regolare.
 
 ## Sintassi
 
-make_regular_polygon(_center, radius, number_sides, circle…_)
+- make_regular_polygon(_<span style="color:red;">center</span>_, _<span style="color:red;">radius</span>_, _<span style="color:red;">number_sides</span>_[, _<span style="color:red;">circle=0</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _center_ centro del poligono regolare
-* _radius_ secondo punto. Il primo se il poligono regolare è inscritto. Il punto intermedio del primo lato se il poligono regolare è circoscritto.
-* _number_sides_ Numero di lati del poligono regolare
-* _circle_ Argomento opzionale per la costruzione del poligono regolare. Il valore predefinito è 0. Il valore può essere 0 (poligono iscritto) o 1 (poligono circoscritto)
+* _<span style="color:red;">center</span>_ centro del poligono regolare
+* _<span style="color:red;">radius</span>_ secondo punto. Il primo se il poligono regolare è inscritto. Il punto intermedio del primo lato se il poligono regolare è circoscritto.
+* _<span style="color:red;">number_sides</span>_ Numero di lati del poligono regolare
+* _<span style="color:red;">circle</span>_ Argomento opzionale per la costruzione del poligono regolare. Il valore predefinito è 0. Il valore può essere 0 (poligono iscritto) o 1 (poligono circoscritto)
 
 ## Esempi
 

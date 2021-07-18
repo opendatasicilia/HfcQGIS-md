@@ -4,7 +4,7 @@ Restituisce l'area minima della combinazione dei confini della geometria (cioè 
 
 ## Sintassi
 
-boundary(*<span style="color:red;">geometry</span>*)
+boundary(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
@@ -12,8 +12,11 @@ boundary(*<span style="color:red;">geometry</span>*)
 
 ## Esempi
 
-
-`geom_to_wkt(boundary(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))'))) → 'LineString(1 1,0 0,-1 1,1 1)'`
+```
+- geom_to_wkt(boundary(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))'))) → 'LineString(1 1,0 0,-1 1,1 1)'
+- geom_to_wkt(boundary(geom_from_wkt('LineString(1 1,0 0,-1 1)'))) → 'MultiPoint ((1 1),(-1 1))'
+```
+![](../../img/geometria/boundary/boundari0.png)
 
 ![](../../img/geometria/boundary/boundari1.png)
 

@@ -4,7 +4,7 @@ Restituisce il poligono convesso di una geometria. Rappresenta la minima geometr
 
 ## Sintassi
 
-convex_hull(_<span style="color:red;">geometry</span>_)
+- convex_hull(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
@@ -20,7 +20,7 @@ convex_hull(_<span style="color:red;">geometry</span>_)
 
 --
 
-## osservazioni
+## Osservazioni
 
 La funzione restituisce sempre un poligono.
 

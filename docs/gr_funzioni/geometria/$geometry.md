@@ -4,14 +4,15 @@ Restituisce la geometria dell'elemento attuale. Può essere usato per il process
 
 ## Sintassi
 
-$geometry
+- $geometry
 
 ## Esempi
 
-
+```
 * geomToWKT( $geometry ) → POINT(6 50)
 * area($geoamtry) → 1234567.89 mq
 * perimeter($geometry) → 25689.25 m
+```
 
 ![](../../img/geometria/_geometry/_geometry1.png)
 

@@ -4,11 +4,11 @@ Restituisce il numero di anelli interni in un poligono o in una raccolta di geom
 
 ## Sintassi
 
-num_interior_rings(_geometry_) 
+- num_interior_rings(_<span style="color:red;">geometry</span>_) 
 
 ## Argomenti
 
-* _geometry_ geometria in ingresso
+* _<span style="color:red;">geometry</span>_ geometria in ingresso
 
 ## Esempi
 

@@ -4,17 +4,18 @@ Restituisce la lunghezza del perimetro della geometria corrente. Il perimetro ca
 
 ## Sintassi
 
-$perimeter
+- $perimeter
 
 ## Esempi
 
-$perimeter → 2545897.26
+- `$perimeter → 2545897.26`
 
 ![](../../img/geometria/_perimeter/_perimeter1.png)
 
 ## nota bene
 
-Si utilizza SOLO per i poligoni, nel caso di feature lineari $length 
+!!! Nota
+    Si utilizza SOLO per i poligoni, nel caso di feature lineari [\$length ]($length.md)
 
 ## osservazioni
 

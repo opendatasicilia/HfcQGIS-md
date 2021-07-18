@@ -4,11 +4,11 @@ Restituisce il numero di geometrie in una raccolta di geometrie, o null se la ge
 
 ## Sintassi
 
-num_geometries(_geometry_)
+- num_geometries(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ raccolta di geometrie
+* _<span style="color:red;">geometry</span>_ raccolta di geometrie
 
 ## Esempi
 

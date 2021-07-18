@@ -4,12 +4,12 @@ Semplifica una geometria rimuovendo nodi usando una soglia basata sulla distanza
 
 ## Sintassi
 
-simplify(_geometry, tolerance_)
+- simplify(simplify_vw(_<span style="color:red;">geometry</span>, <span style="color:red;">tolerance</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
-* _tolerance_ deviazione massima dai segmenti rettilinei per i punti da rimuovere
+* _<span style="color:red;">geometry</span> una geometria
+* _<span style="color:red;">tolerance</span> deviazione massima dai segmenti rettilinei per i punti da rimuovere
 
 ## Esempi
 

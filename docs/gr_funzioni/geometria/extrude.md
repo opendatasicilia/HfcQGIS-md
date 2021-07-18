@@ -4,13 +4,13 @@ Restituisce una versione estrusa della geometria (Multi-)Curve o (Multi-)Linestr
 
 ## Sintassi
 
-extrude(_geometry, x, y_)
+- extrude(_<span style="color:red;">geometry</span>_,_<span style="color:red;">x</span>_, _<span style="color:red;">y</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria poligono
-* _x_ estensione x, valore numerico
-* _y_ estensione y, valore numerico
+* _<span style="color:red;">geometry</span>_ una geometria poligono
+* _<span style="color:red;">x</span>_ estensione x, valore numerico
+* _<span style="color:red;">y</span>_ estensione y, valore numerico
 
 
 ## Esempi
@@ -26,6 +26,6 @@ extrude(_geometry, x, y_)
 
 ## osservazioni
 
-Nell'esempio ho utilizzato la funzione boundary() perché la geometria di ingresso deve essere lineare.
+Nell'esempio ho utilizzato la funzione [boundary()](boundary.md) perché la geometria di ingresso deve essere lineare.
 
 ![](../../img/geometria/extrude/extrude1.png)

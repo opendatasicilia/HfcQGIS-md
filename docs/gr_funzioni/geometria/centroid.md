@@ -24,6 +24,6 @@ centroid(*<span style="color:red;">geometry</span>*)
 
 ## osservazioni
 
-La Funzione restituisce SEMPRE una geometry POINT
+La Funzione restituisce SEMPRE una geometry **POINT**
 
 ![](../../img/geometria/centroid/centroid2.png)

@@ -4,11 +4,11 @@ Restituisce la coordinata x massima di una geometria. I calcoli sono effettuati 
 
 ## Sintassi
 
-x_max(_geometry_)
+- x_max( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+*  _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

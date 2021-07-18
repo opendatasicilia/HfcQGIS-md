@@ -4,12 +4,12 @@ Restituisce la distanza lungo una geometria ad un vertice specificato.
 
 ## Sintassi
 
-distance_to_vertex(_geometry, vertex_)
+- distance_to_vertex(_<span style="color:red;">geometry</span>_, _<span style="color:red;">vertex</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria di tipo linestring
-* _vertex_ indice vertice, partendo da 0
+* _<span style="color:red;">geometry</span>_ una geometria di tipo linestring
+* _<span style="color:red;">vertex</span>_ indice vertice, partendo da 0; se il valore è negativo, l'indice del vertice selezionato sarà il suo conteggio totale meno il valore assoluto
 
 
 ## Esempi
@@ -25,6 +25,7 @@ distance_to_vertex(_geometry, vertex_)
 ## osservazioni
 
 --
+
 esempio di sopra:
 
 ![](../../img/geometria/distance_to_vertex/distance_to_vertex3.png)

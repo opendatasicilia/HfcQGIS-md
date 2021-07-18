@@ -4,12 +4,16 @@ Restituisce un punto proiettato da un punto di partenza usando una distanza e un
 
 ## Sintassi
 
-project(_point, distance, bearing_)
+- project(_<span style="color:red;">point</span>_, _<span style="color:red;">distance</span>_, _<span style="color:red;">azimuth</span>_[,_<span style="color:red;">elevation</span>_])
+
+[ ] indica componenti opzionali
+
 ## Argomenti
 
-* _point_ punto di partenza
-* _distance_ distanza dal progetto
-* _bearing_ direzione di immersione in radianti in senso orario, dove 0 corrisponde al nord
+* _<span style="color:red;">point</span>_ punto di partenza
+* _<span style="color:red;">point</span>_ distanza da proiettare
+* _<span style="color:red;">azimuth</span>_ azimuth in radianti in senso orario, dove 0 corrisponde a nord
+* _<span style="color:red;">elevation</span>_ angolo di inclinazione in radianti
 
 ## Esempi
 

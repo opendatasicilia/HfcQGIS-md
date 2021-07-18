@@ -4,15 +4,20 @@ Restituisce l'altezza del perimetro di delimitazione di una geometria. I calcoli
 
 ## Sintassi
 
-bounds_height(*<span style="color:red;">geometry</span>*)
+bounds_height(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* *<span style="color:red;">geometry</span>* una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 
-`bounds_height($geometry) → altezza del perimetro di delimitazione di $geometry`
+```
+- bounds_height($geometry) → altezza del perimetro di delimitazione dell'elemento geometrico corrente
+- bounds_height(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))')) → 1
+```
+
+![](../../img/geometria/bounds/bounds_height0.png)
 
 ![](../../img/geometria/bounds/bounds_height1.png)
 

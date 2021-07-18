@@ -4,12 +4,12 @@ Restituisce una geometria che rappresenta la porzione della _geometry_a_ che non
 
 ## Sintassi
 
-difference(_<span style="color:red;">geometry_a</span>, <span style="color:red;">geometry_b</span>_)
+- difference(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 ## Argomenti
 
-* _<span style="color:red;">geometry_a</span>_ una geometria
-* _<span style="color:red;">geometry_b</span>_ una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 

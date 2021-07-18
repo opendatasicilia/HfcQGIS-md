@@ -4,12 +4,14 @@ Restituisce la circonferenza circoscritta minima di una geometria. Rappresenta i
 
 ## Sintassi
 
-minimal_circle(geometry, segment)
+- minimal_circle(_<span style="color:red;">geometry</span>_[, _<span style="color:red;">segments=36</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _geometry_ una geometria
-* _segment_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
+* _<span style="color:red;">geometry</span>_ una geometria
+* _<span style="color:red;">segments</span>_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
 
 ## Esempi
 

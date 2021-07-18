@@ -4,13 +4,13 @@ Restituisce la geometria trasformata da un SR sorgente ad un SR di destinazione.
 
 ## Sintassi
 
-transform(_geomometry, source_auth_id, dest_auth_id_)
+- transform( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">source_auth_id</span>_,  _<span style="color:red;">dest_auth_id</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
-* _source_auth_id_ ID del SR sorgente
-* _dest_auth_id_ ID del SR destinazione
+*  _<span style="color:red;">geometry</span>_ una geometria
+*  _<span style="color:red;">source_auth_id</span>_ ID del SR sorgente
+*  _<span style="color:red;">dest_auth_id</span>_ ID del SR destinazione
 
 ## Esempi
 

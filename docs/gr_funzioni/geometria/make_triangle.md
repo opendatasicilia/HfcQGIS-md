@@ -4,14 +4,14 @@ Crea un poligono triangolare
 
 ## Sintassi
 
-make_triangle(_point 1, point 2, point 3_)
+- make_triangle(_<span style="color:red;">point1</span>_,_<span style="color:red;">point2</span>_,_<span style="color:red;">point3</span>_)
 
 ## Argomenti
 
-* _point 1_ primo punto del triangolo
-* _point 2_ secondo punto del triangolo
-* _point 3_ terzo punto del triangolo
-
+- _<span style="color:red;">point1</span>_ Primo punto del triangolo
+- _<span style="color:red;">point2</span>_ Secondo punto del triangolo
+- _<span style="color:red;">point3</span>_ Secondo punto del triangolo
+- 
 ## Esempi
 
 * `geom_to_wkt(make_triangle(make_point(0,0), make_point(5,5), make_point(0,10))) → 'Triangle ((0 0, 5 5, 0 10, 0 0))'`

@@ -4,11 +4,11 @@ Restituisce la minima coordinata x di una geometria punto, o la coordinata x del
 
 ## Sintassi
 
-x(_geometry_)
+- x( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+*  _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

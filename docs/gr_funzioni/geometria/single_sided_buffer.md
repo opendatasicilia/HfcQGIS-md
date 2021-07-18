@@ -4,15 +4,17 @@ Restituisce una geometria formata facendo un buffer solo da un lato di una geome
 
 ## Sintassi
 
-single_sided_buffer(_geometry, distance, segments, join, miter_limit_)
+- single_sided_buffer( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">distance</span>_[,  _<span style="color:red;">segments=8</span>_][,  _<span style="color:red;">join=1</span>_][,  _<span style="color:red;">miter_limit=2.0</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _geometry_ una geometria (multi)linestring
-* _distance_ distanza di buffer. Valori positivi saranno bufferizzati a sinistra delle linee, valori negativi a destra
-* _segments_ numero di segmenti da usare per rappresentare un quarto di cerchio quando è utilizzato uno stile di unione arrotondato. Un numero grande risulta in un buffer più morbido, con più nodi.
-* _join_ stile di unione per gli angoli, dove 1 = arrotondato, 2 = seghettato e 3 = smussato
-* _miter_limit_ limite sul rapporto di seghettatura usato per angoli molto appuntiti (solamente quando si usano le unioni seghettate)
+*  _<span style="color:red;">geometry</span>_ una geometria (multi)linestring
+*  _<span style="color:red;">distance</span>_ distanza di buffer. Valori positivi saranno bufferizzati a sinistra delle linee, valori negativi a destra
+*  _<span style="color:red;">segments</span>_ numero di segmenti da usare per rappresentare un quarto di cerchio quando è utilizzato uno stile di unione arrotondato. Un numero grande risulta in un buffer più morbido, con più nodi.
+*  _<span style="color:red;">join</span>_ stile di unione per gli angoli, dove 1 = arrotondato, 2 = seghettato e 3 = smussato
+*  _<span style="color:red;">miter_limit</span>_ limite sul rapporto di seghettatura usato per angoli molto appuntiti (solamente quando si usano le unioni seghettate)
 
 ## Esempi
 

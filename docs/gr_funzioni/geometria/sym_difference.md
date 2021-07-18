@@ -4,12 +4,12 @@ Restituisce una geometria che rappresenta la porzione di due geometrie che non s
 
 ## Sintassi
 
-sym_difference(_geometry1, geometry2_)
+- sym_difference( _<span style="color:red;">geometry1</span>_,  _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry1_ una geometria
-* _geometry2_ una geometria
+*  _<span style="color:red;">geometry1</span>_ una geometria
+*  _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 

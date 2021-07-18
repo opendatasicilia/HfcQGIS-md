@@ -4,12 +4,12 @@ Restituisce l'angolo parallelo alla geometria ad una distanza specifica lungo un
 
 ## Sintassi
 
-line_interpolate_angle(_geometry, distance_)
+- line_interpolate_angle(_<span style="color:red;">geometry</span>_, _<span style="color:red;">distance</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria di tipo linestring
-* _distance_ distanza lungo la linea a cui interpolare l'angolo
+* _<span style="color:red;">geometry</span>_ una geometria di tipo linestring
+* _<span style="color:red;">distance</span>_ distanza lungo la linea a cui interpolare l'angolo
 
 ## Esempi
 

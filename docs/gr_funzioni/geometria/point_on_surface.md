@@ -4,11 +4,11 @@ Restituisce un punto garantendo che sia giacente sulla superficie della geometri
 
 ## Sintassi
 
-point_on_surface(_geometry_)
+- point_on_surface(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

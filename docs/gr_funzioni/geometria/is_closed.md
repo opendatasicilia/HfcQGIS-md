@@ -4,7 +4,7 @@ Restituisce vero (true) se una linestring è chiusa (i punti di inizio e di fine
 
 ## Sintassi
 
-is_closed(<span style="color:red;">_geometry_</span>)
+- is_closed(<span style="color:red;">_geometry_</span>)
 
 ## Argomenti
 

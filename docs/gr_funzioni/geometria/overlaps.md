@@ -4,12 +4,12 @@ Controlla qualora una geometria si sovrapponga ad un'altra. Restituisce true (1)
 
 ## Sintassi
 
-overlaps(_geometry a, geometry b_)
+- overlaps(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 
@@ -32,8 +32,8 @@ espressione usata:
 
 dove:
 
-* _geometry a_ è `geometry(get_feature('cerchio','id','1'))`
-* _geometry b_ è `$geometry`
+* _geometry1_ è `geometry(get_feature('cerchio','id','1'))`
+* _geometry2_ è `$geometry`
 
 
 ![](../../img/geometria/overlaps/overlaps2.png)

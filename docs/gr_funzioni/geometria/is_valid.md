@@ -4,11 +4,11 @@ Restituisce vero se una geometria è valida; se è ben formato in 2D secondo le 
 
 ## Sintassi
 
-is_valid(<span style="color:red;">_geom_</span>)
+- is_valid(<span style="color:red;">_geometry_</span>)
 
 ## Argomenti
 
-* <span style="color:red;">_geom_</span> una geometria
+* <span style="color:red;">_geometry_</span> una geometria
 
 ## Esempi
 

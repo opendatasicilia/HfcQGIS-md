@@ -4,12 +4,12 @@ Verifica se una geometria tocca un'altra. Restituisce vero (1) se le geometrie h
 
 ## Sintassi
 
-touches(_geometry a, geometry b_)
+- touches( _<span style="color:red;">geometry1</span>_,  _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry_ a una geometria
-* _geometry_ b una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 
@@ -33,8 +33,8 @@ espressione usata:
 
 dove:
 
-* _geometry a_ è `geometry(get_feature( 'province_rt_rt','pk_uid','52'))`
-* _geometry b_ è `$geometry`
+* _geometry1_ è `geometry(get_feature( 'province_rt_rt','pk_uid','52'))`
+* _geometry2_ è `$geometry`
 
 
 ![](../../img/geometria/touches/touches2.png)

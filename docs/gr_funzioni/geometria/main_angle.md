@@ -23,3 +23,4 @@ Restituisce l'angolo principale di una geometria (senso orario, in gradi dal Nor
 ## osservazioni
 
 ![](https://user-images.githubusercontent.com/1829991/87367553-aae7d680-c5be-11ea-923a-e81200f2b90c.gif)
+

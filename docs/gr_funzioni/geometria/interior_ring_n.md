@@ -4,12 +4,12 @@ Restituisce un anello interno specifico da una geometria poligonale, o null se l
 
 ## Sintassi
 
-interior_ring_n(_geometry, index_)
+- interior_ring_n(_<span style="color:red;">geometry</span>_, _<span style="color:red;">index</span>_)
 
 ## Argomenti
 
-* _geometry_ geometria poligono
-* _index_ Indice dell'anello interno da restituire, dove 1 è il primo anello interno
+* _<span style="color:red;">geometry</span>_ geometria poligono
+* _<span style="color:red;">index</span>_ Indice dell'anello interno da restituire, dove 1 è il primo anello interno
 
 ## Esempi
 

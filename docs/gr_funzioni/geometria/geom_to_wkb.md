@@ -4,11 +4,11 @@ Restituisce la rappresentazione binaria ben nota (WKB) di una geometria come BLO
 
 ## Sintassi
 
-geom_to_wkb(_geometry_)
+- geom_to_wkb(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

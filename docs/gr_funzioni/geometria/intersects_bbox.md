@@ -4,7 +4,7 @@ Controlla se il perimetro di delimitazione della geometria si sovrappone a quell
 
 ## Sintassi
 
-intersects_bbox(<span style="color:red;">_geometry1_</span>, <span style="color:red;">_geometry2_</span>)
+- intersects_bbox(<span style="color:red;">_geometry1_</span>, <span style="color:red;">_geometry2_</span>)
 
 ## Argomenti
 

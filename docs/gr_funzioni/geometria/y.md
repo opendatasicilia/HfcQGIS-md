@@ -4,11 +4,11 @@ Restituisce la coordinata y minima di una geometria puntuale, o la coordinata y 
 
 ## Sintassi
 
-y(_geometry_)
+- y( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+*  _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

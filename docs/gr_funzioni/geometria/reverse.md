@@ -4,7 +4,7 @@ Inverte il verso di una linestring invertendo l'ordine dei sui vertici
 
 ## Sintassi
 
-reverse(_<span style="color:red;">geometry</span>_)
+- reverse(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 

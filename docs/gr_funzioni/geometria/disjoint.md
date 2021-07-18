@@ -4,12 +4,12 @@ Controlla qualora una geometria non ne interseca spazialmente un'altra. Restitui
 
 ## Sintassi
 
-disjoint(_geometry a, geometry b_)
+- disjoint(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+*_<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 
@@ -32,8 +32,8 @@ espressione usata:
 
 dove:
 
-* _geometry a_ è `geometry(get_feature( 'fiume_arno','nome','ARNO'))`
-* _geometry b_ è `$geometry`
+* _geometry1_ è `geometry(get_feature( 'fiume_arno','nome','ARNO'))`
+* _geometry2_ è `$geometry`
 
 
 ![](../../img/geometria/disjoint/disjoint2.png)

@@ -4,11 +4,11 @@ Restituisce la coordinata x minima di una geometria. I calcoli sono effettuati n
 
 ## Sintassi
 
-x_min(_geometry_)
+- x_min( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+*  _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 
@@ -19,7 +19,7 @@ x_min(_geometry_)
 ## nota bene
 
 --
-
+ _<span style="color:red;">geometry</span>_
 ## osservazioni
 
 --

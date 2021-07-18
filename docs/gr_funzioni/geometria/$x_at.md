@@ -4,15 +4,13 @@ Recupera una coordinata x per la geometria dell'elemento corrente.
 
 ## Sintassi
 
-$x_at(_<span style="color:red;">i</span>_)
+- $x_at(_<span style="color:red;">i</span>_)
 
 ## Argomento
 
-* _<span style="color:red;">i</span>_ indice del punto di una linea (indici partono da 0; valori negativi si applicano dall'ultimo indice)
-
+* _<span style="color:red;">i</span>_ indice del punto di una linea (indici partono da 0; valori negativi si applicano dall'ultimo indice, partendo da -1)
 
 ## Esempi
-
 
 * `$x_at(1) → 12.6882843`
 

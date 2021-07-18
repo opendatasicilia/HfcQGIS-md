@@ -4,12 +4,12 @@ Controlla qualora una geometria ne interseca un'altra. Restituisce true (1) se l
 
 ## Sintassi
 
-intersects(<span style="color:red;">_geometry a_</span>, <span style="color:red;">_geometry b_</span>)
+- intersects(<span style="color:red;">_geometry1_</span>, <span style="color:red;">_geometry2_</span>)
 
 ## Argomenti
 
-* <span style="color:red;">_geometry a_</span> una geometria
-* <span style="color:red;">_geometry b_</span> una geometria
+* <span style="color:red;">_geometry1_</span> una geometria
+* <span style="color:red;">_geometry2_</span> una geometria
 
 ## Esempi
 

@@ -4,12 +4,12 @@ Restituisce una geometria multi-punti costituita da ogni nodo della geometria in
 
 ## Sintassi
 
-nodes_to_points(_geometry, ignore_closing_nodes_)
+- nodes_to_points(_<span style="color:red;">geometry</span>_[, _<span style="color:red;">ignore_closing_nodes=false</span>_])
 
 ## Argomenti
 
-* _geometry_ oggetto geometria
-* _ignore_closing_nodes_ argomento opzionale che specifica se includere i nodi duplicati che chiudono linee o poligoni ad anello. Normalmente false, impostare a true per evitare di includere questi nodi duplicati nella raccolta in uscita.
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">ignore_closing_nodes</span>_ argomento opzionale che specifica se includere i nodi duplicati che chiudono linee o poligoni ad anello. Normalmente false, impostare a true per evitare di includere questi nodi duplicati nella raccolta in uscita.
 
 ## Esempi
 

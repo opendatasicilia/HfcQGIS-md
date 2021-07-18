@@ -4,12 +4,12 @@ Crea un quadrato da una diagonale.
 
 ## Sintassi
 
-make_square(_point1_,_point2…_)
+- make_square(_<span style="color:red;">point1</span>_,_<span style="color:red;">point2</span>_)
 
 ## Argomenti
 
-_point1_ Primo punto del poligono regolare
-_point2_ Secondo punto
+- _<span style="color:red;">point1</span>_ Primo punto della diagonale
+- _<span style="color:red;">point2</span>_ Secondo punto della diagonale
 
 ## Esempi
 

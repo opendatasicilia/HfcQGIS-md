@@ -4,11 +4,11 @@ Crea una geometria linea da una serie di geometrie punto.
 
 ## Sintassi
 
-make_line(_point1, point2, …_)
+- make_line(_<span style="color:red;">point1</span>_, _<span style="color:red;">point2</span>_, …_)
 
 ## Argomenti
 
-* _point_ una geometria punto
+* _<span style="color:red;">point</span>_ una geometria punto
 
 ## Esempi
 
@@ -23,11 +23,11 @@ I vertici di linea sono specificati come una matrice di punti.
 
 ## Sintassi
 
-make_line(_array_)
+- make_line(_<span style="color:red;">array</span>_)
 
 ## Argomenti
 
-* _array_ Matrice di punti
+* _<span style="color:red;">array</span>_ Matrice di punti
 
 ## Esempio
 

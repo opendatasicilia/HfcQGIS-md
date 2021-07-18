@@ -4,7 +4,7 @@ Restituisce vero se una geometria è vuota (senza coordinate), falso se la geome
 
 ## Sintassi
 
-is_empty_or_null(<span style="color:red;">_geometry_</span>)
+- is_empty_or_null(<span style="color:red;">_geometry_</span>)
 
 ## Argomenti
 

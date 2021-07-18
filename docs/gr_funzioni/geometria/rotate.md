@@ -4,13 +4,15 @@ Restituisce una versione ruotata di una geometria. I calcoli si trovano nel sist
 
 ## Sintassi
 
-rotate(_geom[,point]_)
+- rotate( _<span style="color:red;">geometry</span>_, _<span style="color:red;">rotation</span>_[, _<span style="color:red;">center</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _geom_ una geometria
-* _rotation_ rotazione oraria in gradi
-* _point_ punto centrale di rotazione. Se non specificato, viene utilizzato il centro del rettangolo di selezione della geometria.
+*  _<span style="color:red;">geometry</span>_ una geometria
+*  _<span style="color:red;">rotation</span>_ rotazione oraria in gradi
+*  _<span style="color:red;">center</span>_ punto centrale di rotazione. Se non specificato, viene utilizzato il centro del perimetro di delimitazione della geometria.
 
 ## Esempi
 

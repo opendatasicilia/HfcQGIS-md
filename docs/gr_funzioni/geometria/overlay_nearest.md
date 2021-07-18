@@ -6,18 +6,20 @@ Nota: questa funzione può essere lenta e consuma molta memoria per layer con mo
 
 ## Sintassi
 
-overlay_nearest(_layer[,expression][,filter][,limit][,max_distance][,cache]_)
+- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit=1</span>_][,_<span style="color:red;">max_distance</span>_][,_<span style="color:red;">cache</span>_]_)
 
 [ ] indica componenti opzionali
 
 ## Argomenti
 
-* _layer_ layer target;
-* _expression_ un'espressione opzionale per valutare gli elementi del layer target. Se non impostata, la funzione restituisce semplicemente un booleano che indica se c'è almeno una corrispondenza;
-* _filter_ un'espressione opzionale per filtrare gli elementi corrispondenti (se non impostata, verranno restituiti tutti gli elementi);
-* _limit_ un numero intero opzionale per limitare il numero di elementi corrispondenti (se non impostato, verranno restituiti tutti gli elementi). Se impostato su -1, restituisce tutti gli elementi corrispondenti;
-* _max_distance_ una distanza massima opzionale per limitare il numero di elementi corrispondenti (se non impostato, verrà restituita soltanto l'elemento più vicino);
-* _cache_ imposta su "true" per creare un indice spaziale locale (il più delle volte, questo è indesiderato, a meno che tu non stia lavorando con un fornitore di dati particolarmente lento);
+* _<span style="color:red;">layer</span>_ l'altro layer;
+* _<span style="color:red;">expression</span>_ un'espressione opzionale per valutare gli elementi dell'altro layer (se non impostata, la funzione restituisce semplicemente un booleano che indica se c'è almeno una corrispondenza);
+* _<span style="color:red;">filter</span>_ un'espressione opzionale per filtrare gli elementi corrispondenti (se non impostata, verranno restituiti tutti gli elementi);
+* _<span style="color:red;">limit</span>_ un numero intero opzionale per limitare il numero di elementi corrispondenti (se non impostato, verranno restituiti tutti gli elementi);
+* _<span style="color:red;">max_distance</span>_ una distanza opzionale per limitare la ricerca di elementi corrispondenti. Se non impostato, verranno usati tutti gli elementi nel layer di destinazione.
+* _<span style="color:red;">cache</span>_ imposta su "vero" per creare un indice spaziale locale (il più delle volte, questo è indesiderato, a meno che tu non stia lavorando con un fornitore di dati particolarmente lento);
+
+[ ] indica componenti opzionali
 
 ## Esempi
 

@@ -4,12 +4,12 @@ Restituisce una geometria che rappresenta l'insieme dei punti dell'unione delle 
 
 ## Sintassi
 
-union(_geometry1, geometry2_)
+- union( _<span style="color:red;">geometry1</span>_,  _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry1_ una geometria
-* _geometry2_ una geometria
+*  _<span style="color:red;">geometry1</span>_ una geometria
+*  _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 

@@ -4,12 +4,12 @@ Restituisce l'inclinazione misurata dallo zenit (0) al nadir (180) del _punto_a_
 
 ## Sintassi
 
-inclination(_point_a, point_b_)
+- inclination(_<span style="color:red;">point_a</span>_, _<span style="color:red;">point_b</span>_)
 
 ## Argomenti
 
-* _point_a_ geometria punto
-* _point_b_ geometria punto
+* _<span style="color:red;">point_a</span>_ geometria punto
+* _<span style="color:red;">point_b</span>_ geometria punto
 
 ## Esempi
 

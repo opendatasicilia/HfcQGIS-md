@@ -22,6 +22,6 @@ angle_at_vertex(_<span style="color:red;">geometry</span>, <span style="color:re
 Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il valore dell'angolo e non la bisettrice.
 
 ## osservazioni
-
 --
+
 ![](../../img/geometria/angle_at_vertex/angle_at_vertex2.png)

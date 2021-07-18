@@ -1,14 +1,14 @@
 # line_merge
 
-Restituisce una geometria di tipo LineString o MultiLineString, dove qualsiasi LineString connessa dalla geometria in ingresso è stata fusa (merge) in una linestring singola. Questa funzione restituirà null se la geometria considerata non è una LineString/MultiLineString.
+Restituisce una geometria di tipo LineString o MultiLineString, dove qualsiasi LineString connessa dalla geometria in ingresso è stata fusa (merge) in una linestring singola. Questa funzione restituirà `NULL` se la geometria considerata non è una LineString/MultiLineString.
 
 ## Sintassi
 
-line_merge(_geometry_)
+- line_merge(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria di tipo LineString/MultiLineString
+* _<span style="color:red;">geometry</span>_ una geometria di tipo LineString/MultiLineString
 
 ## Esempi
 

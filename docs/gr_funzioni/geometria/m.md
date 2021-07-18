@@ -4,11 +4,11 @@ Restituisce il valore m di una geometria puntuale.
 
 ## Sintassi
 
-m(_geometry_) 
+- m(_<span style="color:red;">geometry</span>_) 
 
 ## Argomenti
 
-* _geometry_ una geometria punto
+* _<span style="color:red;">geometry</span>_ una geometria punto
 
 ## Esempi
 

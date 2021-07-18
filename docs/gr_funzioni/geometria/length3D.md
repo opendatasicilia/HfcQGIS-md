@@ -1,6 +1,6 @@
 ## Funzione `length3D`
 
-Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione $length, che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.
+Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione [\$length]($length.md), che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.
 
 ## Variabile stringa
 
@@ -8,11 +8,11 @@ Restituisce il numero di caratteri contenuti in una stringa.
 
 ## Sintassi
 
-length3D(geometry)
+- length3D(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ oggetto geometria linea
+* _<span style="color:red;">geometry</span>_ oggetto geometria linea
 
 ## Esempi
 

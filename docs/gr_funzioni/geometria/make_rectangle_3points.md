@@ -4,14 +4,14 @@ Crea un rettangolo da 3 punti.
 
 ## Sintassi
 
-make_rectangle_3points(_point1_,_point2_,_point3_[,option=0]…)
+- make_rectangle_3points(_<span style="color:red;">point1</span>_,_<span style="color:red;">point2</span>_,_<span style="color:red;">point3</span>_[,option=0]…)
 
 ## Argomenti
 
-* _point1_ Primo punto
-* _punto2_ Secondo punto
-* _point3_ Terzo punto
-* _option_ Un argomento facoltativo per costruire il rettangolo. Di default questo valore è 0. Il valore può essere 0 (distanza) o 1 (proiettato). Distanza opzione: la seconda distanza è uguale alla distanza tra il 2 ° e il 3 ° punto. Opzione proiettata: la seconda distanza è uguale alla distanza della proiezione perpendicolare del terzo punto sul segmento o della sua estensione.
+* _<span style="color:red;">point1</span>_ Primo punto
+* _<span style="color:red;">point2</span>_ Secondo punto
+* _<span style="color:red;">point3</span>_ Terzo punto
+* _<span style="color:red;">option</span>_ Un argomento facoltativo per costruire il rettangolo. Di default questo valore è 0. Il valore può essere 0 (distanza) o 1 (proiettato). Distanza opzione: la seconda distanza è uguale alla distanza tra il 2 ° e il 3 ° punto. Opzione proiettata: la seconda distanza è uguale alla distanza della proiezione perpendicolare del terzo punto sul segmento o della sua estensione.
 
 ## Esempi
 

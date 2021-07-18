@@ -4,12 +4,11 @@ Forza una geometria a rispettare la regola della mano destra, in cui l'area deli
 
 ## Sintassi
 
-force_rhr(_geometry_)
+- force_rhr(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria. Qualsiasi geometria non poligonale viene restituita invariata.
-
+* _<span style="color:red;">geometry</span>_ una geometria. Qualsiasi geometria non poligonale viene restituita invariata.
 
 ## Esempi
 

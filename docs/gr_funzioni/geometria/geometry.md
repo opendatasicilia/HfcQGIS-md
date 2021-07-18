@@ -4,11 +4,11 @@ Restituisce la geometria di un elemento.
 
 ## Sintassi
 
-geometry(_feature_)
+- geometry(_<span style="color:red;">feature</span>_)
 
 ## Argomenti
 
-* _feature_ un oggetto geometria
+* _<span style="color:red;">feature</span>_ un oggetto elemento
 
 ## Esempi
 

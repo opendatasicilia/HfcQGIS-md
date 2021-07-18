@@ -4,13 +4,13 @@ Crea una geometria punto da una coordinata x, y ed un valore m.
 
 ## Sintassi
 
-make_point_m_(x, y, m_)
+- make_point_m_(_<span style="color:red;">x</span>_, _<span style="color:red;">y</span>_, _<span style="color:red;">m</span>_)
 
 ## Argomenti
 
-* _x_ coordinata x del punto
-* _y_ coordinata y del punto
-* _m_ valore m del punto
+* _<span style="color:red;">x</span>_ coordinata x del punto
+* _<span style="color:red;">y</span>_ coordinata y del punto
+* _<span style="color:red;">m</span>_ valore m del punto
 
 ## Esempi
 

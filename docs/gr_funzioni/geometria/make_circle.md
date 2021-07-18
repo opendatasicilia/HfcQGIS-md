@@ -4,13 +4,15 @@ Crea un poligono circolare.
 
 ## Sintassi
 
-make_circle(_center, radius, segment…_)
+- make_circle(_<span style="color:red;">center</span>_, _<span style="color:red;">radius</span>_[, _<span style="color:red;">segments=36</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _center_ centro del cerchio
-* _radius_ raggio del cerchio
-* _segment_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
+* _<span style="color:red;">center</span>_ centro del cerchio
+* _<span style="color:red;">radius</span>_ raggio del cerchio
+* _<span style="color:red;">segments</span>_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
 
 ## Esempi
 

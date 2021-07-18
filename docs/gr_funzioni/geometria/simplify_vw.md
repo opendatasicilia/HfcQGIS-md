@@ -4,13 +4,12 @@ Semplifica una geometria rimuovendo nodi usando una soglia basata sull'area (cio
 
 ## Sintassi
 
-simplify_vw(_<span style="color:red;">geometry</span>, <span style="color:red;">tolerance</span>_)
+- simplify_vw(_<span style="color:red;">geometry</span>, <span style="color:red;">tolerance</span>_)
 
 ## Argomenti
 
 * _<span style="color:red;">geometry</span>_ una geometria
 * _<span style="color:red;">tolerance</span>_ una misura dell'area massima creata da un nodo per il nodo da rimuovere
-
 
 ## Esempi
 

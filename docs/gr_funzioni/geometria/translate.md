@@ -4,13 +4,13 @@ Restituisce una versione traslata di una geometria. I calcoli sono effettuati ne
 
 ## Sintassi
 
-translate(_geometry, dx, dy_)
+- translate( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">dx</span>_,  _<span style="color:red;">dy</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
-* _dx_ delta x
-* _dy_ delta y
+* _<span style="color:red;">geometry</span>_ una geometria
+* _<span style="color:red;">dx</span>_ delta x
+* _<span style="color:red;">geomdyetry</span>_ delta y
 
 ## Esempi
 

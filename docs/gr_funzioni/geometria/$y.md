@@ -4,7 +4,7 @@ Restituisce la coordinata y della geometria corrente.
 
 ## Sintassi
 
-$y
+- $y
 
 ## Esempi
 
@@ -16,7 +16,7 @@ $y
 
 ## nota bene
 
-La funzione $y restituisce la coordinata y della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
+La funzione `$y` restituisce la coordinata `y` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
 
 ## osservazioni
 

@@ -4,11 +4,11 @@ Restituisce una geometria multi linea consistente in una linea per ogni segmento
 
 ## Sintassi
 
-segments_to_lines(_geometry_)
+- segments_to_lines( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ oggetto geometria
+*  _<span style="color:red;">geometry</span>_ oggetto geometria
 
 ## Esempi
 

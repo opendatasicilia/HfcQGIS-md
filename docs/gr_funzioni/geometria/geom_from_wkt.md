@@ -4,11 +4,11 @@ Restituisce una geometria creata da una rappresentazione Well-Known Text (WKT).
 
 ## Sintassi
 
-geom_from_wkt(_text_)
+- geom_from_wkt_<span style="color:red;">text</span>_)
 
 ## Argomenti
 
-* _text_ Rappresentazione Well-Known Text (WKT) di una geometria
+* _<span style="color:red;">text</span>_ Rappresentazione Well-Known Text (WKT) di una geometria
 
 
 ## Esempi

@@ -4,11 +4,11 @@ Restituisce il primo nodo di una geometria.
 
 ## Sintassi
 
-start_point(_geometry_)
+- start_point( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ oggetto geometria
+*  _<span style="color:red;">geometry</span>_ oggetto geometria
 
 ## Esempi
 
@@ -20,7 +20,7 @@ start_point(_geometry_)
 
 --
 
-## osservazioni
+## osservazioni _<span style="color:red;">geometry</span>_
 
 --
 Start_point di geometria poligonale:

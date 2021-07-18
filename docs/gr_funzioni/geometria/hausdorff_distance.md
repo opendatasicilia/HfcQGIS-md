@@ -10,13 +10,13 @@ Se l'approssimazione predefinita fornita da questo metodo è insufficiente, spec
 
 ## Sintassi
 
-hausdorff_distance(_geometry a, geometry b, densify_fraction_)
+- hausdorff_distance(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>_, _<span style="color:red;">densify_fraction</span>_)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
-* _densify_fraction_ quantità di densificazione della frazione
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
+* _<span style="color:red;">densify_fraction</span>_ quantità di densificazione della frazione
 
 ## Esempi
 

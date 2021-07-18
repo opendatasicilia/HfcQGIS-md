@@ -4,15 +4,15 @@ Crea un poligono ellittico.
 
 ## Sintassi
 
-make_ellipse(_center, semi_major_axis, semi_minor_axis, azimuth, segment…_)
+- make_ellipse(_<span style="color:red;">center</span>_, _<span style="color:red;">semi_major_axis</span>_, _<span style="color:red;">semi_minor_axis</span>_, _<span style="color:red;">azimuth</span>_[, _<span style="color:red;">segments=36</span>_])
 
 ## Argomenti
 
-* _center_ centro dell'ellisse
-* _semi_major_axis_ semi-asse maggiore dell'ellisse
-* _semi_minor_axis_ semi-asse minore dell'ellisse
-* _azimuth_ orientazione dell'ellisse
-* _segment_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
+* _<span style="color:red;">center</span>_ centro dell'ellisse
+* _<span style="color:red;">semi_major_axis</span>_ semi-asse maggiore dell'ellisse
+* _<span style="color:red;">semi_minor_axis</span>_ semi-asse minore dell'ellisse
+* _<span style="color:red;">azimuth</span>_ orientazione dell'ellisse
+* _<span style="color:red;">segments</span>_ argomento opzionale per la segmentazione del poligono. Valore predefinito pari a 36
 
 ## Esempi
 

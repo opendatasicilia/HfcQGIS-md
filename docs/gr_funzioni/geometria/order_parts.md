@@ -4,13 +4,15 @@ Ordina le parti di una MultiGeometria secondo un dato criterio
 
 ## Sintassi
 
-order_parts(_geometry, orderby, ascending_)
+- order_parts(_<span style="color:red;">geometry</span>_, _<span style="color:red;">orderby</span>_[, _<span style="color:red;">ascending=true</span>_])
+
+[ ] indica componenti opzionali
 
 ## Argomenti
 
-* _geometry_ una geometria multi-tipo
-* _orderby_ un espressione stringa che definisce il criterio di ordinamento
-* _ascending_ booleano, True per ascendente, False per discendente
+* _<span style="color:red;">geometry</span>_ una geometria multi-tipo
+* _<span style="color:red;">orderby</span>_ un espressione stringa che definisce il criterio di ordinamento
+* _<span style="color:red;">ascending</span>_ booleano, True per ascendente, False per discendente
 
 ## Esempi
 

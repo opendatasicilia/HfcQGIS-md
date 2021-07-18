@@ -4,12 +4,12 @@ Restituisce un nodo specifico da una geometria.
 
 ## Sintassi
 
-point_n(geometry, index)
+- point_n(_<span style="color:red;">geometry</span>_, _<span style="color:red;">index</span>_)
 
 ## Argomenti
 
-* _geometry_ oggetto geometria
-* _index_ indice del nodo da restituire, dove 1 è il primo nodo
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">index</span>_ indice del nodo da restituire, dove 1 è il primo nodo; se il valore è negativo, l'indice del vertice selezionato sarà il suo conteggio totale meno il valore assoluto
 
 ## Esempi
 

@@ -4,12 +4,12 @@ Restituisce la linea più corta che unisce la geometria 1 alla geometria 2. La l
 
 ## Sintassi
 
-shortest_line(_geometry 1, geometry 2_)
+- shortest_line( _<span style="color:red;">geometry1</span>_,  _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry 1_ geometria dalla quale cercare la linea più corta
-* _geometry 2_ geometria verso la quale cercare la linea più corta
+* _<span style="color:red;">geometry1</span>_ geometria _dalla_ quale cercare la linea più corta
+* _<span style="color:red;">geometry2</span>_ geometria _verso_ la quale cercare la linea più corta
 
 ## Esempi
 

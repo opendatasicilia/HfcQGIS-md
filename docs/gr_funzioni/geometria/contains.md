@@ -1,15 +1,15 @@
 # contains
 
-Verifica se una geometria ne contiene un'altra. Restituisce vero (1) se, e solo se, nessun punto della _geometria b_ giace all'esterno della _geometria a_, ed almeno un punto dell'interno di _b_ si trova all'interno di _a_.
+Verifica se una geometria ne contiene un'altra. Restituisce vero se e solo se nessun punto di geometry2 giace all'esterno di geometry1 e almeno un punto dell'interno di geometry2 si trova all'interno di geometry1.
 
 ## Sintassi
 
-contains(_geometry a, geometry b_)
+- contains(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
+* _<span style="color:red;">geometry1</span>_  una geometria
+* _<span style="color:red;">geometry2</span>_  una geometria
 
 ## Esempi
 

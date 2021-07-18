@@ -4,7 +4,7 @@ Restituisce vero se la geometria è di tipo Multi.
 
 ## Sintassi
 
-is_multipart(<span style="color:red;">_geometry_</span>)
+- is_multipart(<span style="color:red;">_geometry_</span>)
 
 ## Argomenti
 

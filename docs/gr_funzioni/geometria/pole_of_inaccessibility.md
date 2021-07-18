@@ -4,12 +4,12 @@ Calcola il polo dell'inaccessibilità approssimato per una superficie, che è il
 
 ## Sintassi
 
-pole_of_inaccessibility(_geometry, tolerance_)
+- pole_of_inaccessibility(_<span style="color:red;">geometry</span>_, _<span style="color:red;">tolerance</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
-* _tolerance_ distanza massima tra il punto restituito e la vera posizione del polo
+* _<span style="color:red;">geometry</span>_ una geometria
+* _<span style="color:red;">tolerance</span>_ distanza massima tra il punto restituito e la vera posizione del polo
 
 ## Esempi
 

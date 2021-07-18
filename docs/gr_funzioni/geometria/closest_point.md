@@ -1,16 +1,15 @@
 # closest_point
 
-Restituisce il punto sulla geometria 1 che è più vicino alla geometria 2.
+Restituisce il punto sulla geometria1 che è più vicino alla geometria2.
 
 ## Sintassi
 
-closest_point(_geometry 1, geometry 2_)
+closest_point(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 ## Argomenti
 
-* _geometry 1_ geometria sulla quale cercare il punto più vicino
-* _geometry 2_ geometria dalla quale cercare il punto più vicino
-
+* _<span style="color:red;">geometry1</span>_ geometria _sulla_ quale cercare il punto più vicino
+* _<span style="color:red;">geometry</span>_ geometria _dalla_ quale cercare il punto più vicino
 
 ## Esempi
 

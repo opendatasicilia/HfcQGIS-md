@@ -4,12 +4,12 @@ Restituisce la distanza minima (basata su riferimento spaziale) tra due geometri
 
 ## Sintassi
 
-distance(_geometry a, geometry b_)
+- distance(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 
 ## Esempi

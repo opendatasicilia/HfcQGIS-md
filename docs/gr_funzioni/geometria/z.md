@@ -4,11 +4,11 @@ Restituisce la coordinata z di una geometria puntuale.
 
 ## Sintassi
 
-z(_geometry_)
+- z( _<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria punto
+*  _<span style="color:red;">geometry</span>_ una geometria punto
 
 ## Esempi
 

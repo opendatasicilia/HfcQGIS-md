@@ -4,11 +4,11 @@ Restituisce il numero di anelli (includendo anche anelli esterni) in un poligono
 
 ## Sintassi
 
-num_rings(_geometry_)
+- num_rings(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ geometria in ingresso
+* _<span style="color:red;">geometry</span>_ geometria in ingresso
 
 ## Esempi
 

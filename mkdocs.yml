@@ -284,12 +284,12 @@ nav:
             # - to_time: gr_funzioni/data_ora/to_time.md
             # - week: gr_funzioni/data_ora/week.md
             # - year: gr_funzioni/data_ora/year.md
-       - Espressione utente:
-            - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
-            - bla bla: bla.md                
-       - File e percorsi:
-            - Elenco: gr_funzioni/file_e_percorsi/file_e_percorsi.md
-            - bla bla: bla.md            
+       - Espressione utente: gr_funzioni/espressione_utente/espressione_utente.md
+            # - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
+            # - bla bla: bla.md                
+       - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi.md
+            # - Elenco: gr_funzioni/file_e_percorsi/file_e_percorsi.md
+            # - bla bla: bla.md            
        - Generale: gr_funzioni/generale/generale_unico.md
             # - Elenco: gr_funzioni/generale/generale.md
             # - env:  gr_funzioni/generale/env.md
@@ -299,132 +299,132 @@ nav:
             # - mime_type:  gr_funzioni/generale/mime_type.md
             # - var:  gr_funzioni/generale/var.md
             # - with_variable:  gr_funzioni/generale/with_variable.md  
-       - Lat e Lon Tools:
-            - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
-            - bla bla: bla.md
-       - Geometria:
-            - Elenco: gr_funzioni/geometria/geometria.md
-            - $area: gr_funzioni/geometria/$area.md
-            - $geometry: gr_funzioni/geometria/$geometry.md
-            - $length: gr_funzioni/geometria/$length.md
-            - $perimeter: gr_funzioni/geometria/$perimeter.md
-            - $x: gr_funzioni/geometria/$x.md
-            - $x_at: gr_funzioni/geometria/$x_at.md
-            - $y: gr_funzioni/geometria/$y.md
-            - $y_at: gr_funzioni/geometria/$y_at.md
-            - angle_at_vertex: gr_funzioni/geometria/angle_at_vertex.md
-            - area: gr_funzioni/geometria/area.md
-            - azimuth: gr_funzioni/geometria/azimuth.md
-            - boundary: gr_funzioni/geometria/boundary.md
-            - bounds: gr_funzioni/geometria/bounds.md
-            - bounds_height: gr_funzioni/geometria/bounds_height.md
-            - bounds_width: gr_funzioni/geometria/bounds_width.md
-            - buffer: gr_funzioni/geometria/buffer.md
-            - centroid: gr_funzioni/geometria/centroid.md
-            - close_line: gr_funzioni/geometria/close_line.md
-            - closest_point: gr_funzioni/geometria/closest_point.md
-            - collect_geometries: gr_funzioni/geometria/collect_geometries.md
-            - combine: gr_funzioni/geometria/combine.md
-            - contains: gr_funzioni/geometria/contains.md
-            - convex_hull: gr_funzioni/geometria/convex_hull.md
-            - crosses: gr_funzioni/geometria/crosses.md
-            - difference: gr_funzioni/geometria/difference.md
-            - disjoint: gr_funzioni/geometria/disjoint.md
-            - distance: gr_funzioni/geometria/distance.md
-            - distance_to_vertex: gr_funzioni/geometria/distance_to_vertex.md
-            - end_point: gr_funzioni/geometria/end_point.md
-            - extend: gr_funzioni/geometria/extend.md
-            - exterior_ring: gr_funzioni/geometria/exterior_ring.md
-            - extrude: gr_funzioni/geometria/extrude.md
-            - flip_coordinates: gr_funzioni/geometria/flip_coordinates.md
-            - geom_from_gml: gr_funzioni/geometria/geom_from_gml.md
-            - geom_from_wkb: gr_funzioni/geometria/geom_from_wkb.md
-            - geom_from_wkt: gr_funzioni/geometria/geom_from_wkt.md
-            - geom_to_wkb: gr_funzioni/geometria/geom_to_wkb.md
-            - geom_to_wkt: gr_funzioni/geometria/geom_to_wkt.md
-            - geometry: gr_funzioni/geometria/geometry.md
-            - geometry_n: gr_funzioni/geometria/geometry_n.md
-            - hausdorff_distance: gr_funzioni/geometria/hausdorff_distance.md
-            - inclination: gr_funzioni/geometria/inclination.md
-            - interior_ring_n: gr_funzioni/geometria/interior_ring_n.md
-            - intersection: gr_funzioni/geometria/intersection.md
-            - intersects: gr_funzioni/geometria/intersects.md
-            - intersects_bbox: gr_funzioni/geometria/intersects_bbox.md
-            - is_closed: gr_funzioni/geometria/is_closed.md
-            - is_empty: gr_funzioni/geometria/is_empty.md
-            - is_empty_or_null: gr_funzioni/geometria/is_empty_or_null.md
-            - is_multipart: gr_funzioni/geometria/is_multipart.md
-            - is_valid: gr_funzioni/geometria/is_valid.md
-            - length: gr_funzioni/geometria/length.md
-            - line_interpolate_angle: gr_funzioni/geometria/line_interpolate_angle.md
-            - line_interpolate_point: gr_funzioni/geometria/line_interpolate_point.md
-            - line_locate_point: gr_funzioni/geometria/line_locate_point.md
-            - line_merge: gr_funzioni/geometria/line_merge.md
-            - line_substring: gr_funzioni/geometria/line_substring.md
-            - m: gr_funzioni/geometria/m.md
-            - m_max: gr_funzioni/geometria/m_max.md
-            - m_min: gr_funzioni/geometria/m_min.md
-            - main_angle: gr_funzioni/geometria/main_angle.md
-            - make_circle: gr_funzioni/geometria/make_circle.md
-            - make_ellipse: gr_funzioni/geometria/make_ellipse.md
-            - make_line: gr_funzioni/geometria/make_line.md
-            - make_point: gr_funzioni/geometria/make_point.md
-            - make_point_m: gr_funzioni/geometria/make_point_m.md
-            - make_polygon: gr_funzioni/geometria/make_polygon.md
-            - make_rectangle_3points: gr_funzioni/geometria/make_rectangle_3points.md
-            - make_regular_polygon: gr_funzioni/geometria/make_regular_polygon.md
-            - make_square: gr_funzioni/geometria/make_square.md
-            - make_triangle: gr_funzioni/geometria/make_triangle.md
-            - minimal_circle: gr_funzioni/geometria/minimal_circle.md
-            - nodes_to_points: gr_funzioni/geometria/nodes_to_points.md
-            - num_geometries: gr_funzioni/geometria/num_geometries.md
-            - num_interior_rings: gr_funzioni/geometria/num_interior_rings.md
-            - num_points: gr_funzioni/geometria/num_points.md
-            - num_rings: gr_funzioni/geometria/num_rings.md
-            - offset_curve: gr_funzioni/geometria/offset_curve.md
-            - order_parts: gr_funzioni/geometria/order_parts.md
-            - oriented_bbox: gr_funzioni/geometria/oriented_bbox.md
-            - overlaps: gr_funzioni/geometria/overlaps.md
-            - overlay_contains: gr_funzioni/geometria/overlay_contains.md)
-            - overlay_crosses: gr_funzioni/geometria/overlay_crosses.md
-            - overlay_disjoint: gr_funzioni/geometria/overlay_disjoint.md
-            - overlay_equals: gr_funzioni/geometria/overlay_equals.md
-            - overlay_intersects: gr_funzioni/geometria/overlay_intersects.md
-            - overlay_nearest: gr_funzioni/geometria/overlay_nearest.md
-            - overlay_touches: gr_funzioni/geometria/overlay_touches.md
-            - overlay_within: gr_funzioni/geometria/overlay_within.md
-            - perimeter: gr_funzioni/geometria/perimeter.md
-            - point_n: gr_funzioni/geometria/point_n.md
-            - point_on_surface: gr_funzioni/geometria/point_on_surface.md
-            - pole_of_inaccessibility: gr_funzioni/geometria/pole_of_inaccessibility.md
-            - project: gr_funzioni/geometria/project.md
-            - relate: gr_funzioni/geometria/relate.md
-            - reverse: gr_funzioni/geometria/reverse.md
-            - rotate: gr_funzioni/geometria/rotate.md
-            - segments_to_lines: gr_funzioni/geometria/segments_to_lines.md
-            - shortest_line: gr_funzioni/geometria/shortest_line.md
-            - simplify: gr_funzioni/geometria/simplify.md
-            - simplify_vw: gr_funzioni/geometria/simplify_vw.md
-            - single_sided_buffer: gr_funzioni/geometria/single_sided_buffer.md
-            - smooth: gr_funzioni/geometria/smooth.md
-            - start_point: gr_funzioni/geometria/start_point.md
-            - sym_difference: gr_funzioni/geometria/sym_difference.md
-            - tapered_buffer: gr_funzioni/geometria/tapered_buffer.md
-            - touches: gr_funzioni/geometria/touches.md
-            - transform: gr_funzioni/geometria/transform.md
-            - translate: gr_funzioni/geometria/translate.md
-            - union: gr_funzioni/geometria/union.md
-            - wedge_buffer: gr_funzioni/geometria/wedge_buffer.md
-            - within: gr_funzioni/geometria/within.md
-            - x: gr_funzioni/geometria/x.md
-            - x_min: gr_funzioni/geometria/x_min.md
-            - x_max: gr_funzioni/geometria/x_max.md
-            - y: gr_funzioni/geometria/y.md
-            - y_min: gr_funzioni/geometria/y_min.md
-            - y_max: gr_funzioni/geometria/y_max.md
-            - z: gr_funzioni/geometria/z.md
-            - z_max: gr_funzioni/geometria/z_max.md
-            - z_min: gr_funzioni/geometria/z_min.md
+       - Lat e Lon Tools: gr_funzioni/lat_long_tools/lat_long_tools.md
+            # - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
+            # - bla bla: bla.md
+       - Geometria: gr_funzioni/geometria/geometria_unico.md
+            # - Elenco: gr_funzioni/geometria/geometria.md
+            # - $area: gr_funzioni/geometria/$area.md
+            # - $geometry: gr_funzioni/geometria/$geometry.md
+            # - $length: gr_funzioni/geometria/$length.md
+            # - $perimeter: gr_funzioni/geometria/$perimeter.md
+            # - $x: gr_funzioni/geometria/$x.md
+            # - $x_at: gr_funzioni/geometria/$x_at.md
+            # - $y: gr_funzioni/geometria/$y.md
+            # - $y_at: gr_funzioni/geometria/$y_at.md
+            # - angle_at_vertex: gr_funzioni/geometria/angle_at_vertex.md
+            # - area: gr_funzioni/geometria/area.md
+            # - azimuth: gr_funzioni/geometria/azimuth.md
+            # - boundary: gr_funzioni/geometria/boundary.md
+            # - bounds: gr_funzioni/geometria/bounds.md
+            # - bounds_height: gr_funzioni/geometria/bounds_height.md
+            # - bounds_width: gr_funzioni/geometria/bounds_width.md
+            # - buffer: gr_funzioni/geometria/buffer.md
+            # - centroid: gr_funzioni/geometria/centroid.md
+            # - close_line: gr_funzioni/geometria/close_line.md
+            # - closest_point: gr_funzioni/geometria/closest_point.md
+            # - collect_geometries: gr_funzioni/geometria/collect_geometries.md
+            # - combine: gr_funzioni/geometria/combine.md
+            # - contains: gr_funzioni/geometria/contains.md
+            # - convex_hull: gr_funzioni/geometria/convex_hull.md
+            # - crosses: gr_funzioni/geometria/crosses.md
+            # - difference: gr_funzioni/geometria/difference.md
+            # - disjoint: gr_funzioni/geometria/disjoint.md
+            # - distance: gr_funzioni/geometria/distance.md
+            # - distance_to_vertex: gr_funzioni/geometria/distance_to_vertex.md
+            # - end_point: gr_funzioni/geometria/end_point.md
+            # - extend: gr_funzioni/geometria/extend.md
+            # - exterior_ring: gr_funzioni/geometria/exterior_ring.md
+            # - extrude: gr_funzioni/geometria/extrude.md
+            # - flip_coordinates: gr_funzioni/geometria/flip_coordinates.md
+            # - geom_from_gml: gr_funzioni/geometria/geom_from_gml.md
+            # - geom_from_wkb: gr_funzioni/geometria/geom_from_wkb.md
+            # - geom_from_wkt: gr_funzioni/geometria/geom_from_wkt.md
+            # - geom_to_wkb: gr_funzioni/geometria/geom_to_wkb.md
+            # - geom_to_wkt: gr_funzioni/geometria/geom_to_wkt.md
+            # - geometry: gr_funzioni/geometria/geometry.md
+            # - geometry_n: gr_funzioni/geometria/geometry_n.md
+            # - hausdorff_distance: gr_funzioni/geometria/hausdorff_distance.md
+            # - inclination: gr_funzioni/geometria/inclination.md
+            # - interior_ring_n: gr_funzioni/geometria/interior_ring_n.md
+            # - intersection: gr_funzioni/geometria/intersection.md
+            # - intersects: gr_funzioni/geometria/intersects.md
+            # - intersects_bbox: gr_funzioni/geometria/intersects_bbox.md
+            # - is_closed: gr_funzioni/geometria/is_closed.md
+            # - is_empty: gr_funzioni/geometria/is_empty.md
+            # - is_empty_or_null: gr_funzioni/geometria/is_empty_or_null.md
+            # - is_multipart: gr_funzioni/geometria/is_multipart.md
+            # - is_valid: gr_funzioni/geometria/is_valid.md
+            # - length: gr_funzioni/geometria/length.md
+            # - line_interpolate_angle: gr_funzioni/geometria/line_interpolate_angle.md
+            # - line_interpolate_point: gr_funzioni/geometria/line_interpolate_point.md
+            # - line_locate_point: gr_funzioni/geometria/line_locate_point.md
+            # - line_merge: gr_funzioni/geometria/line_merge.md
+            # - line_substring: gr_funzioni/geometria/line_substring.md
+            # - m: gr_funzioni/geometria/m.md
+            # - m_max: gr_funzioni/geometria/m_max.md
+            # - m_min: gr_funzioni/geometria/m_min.md
+            # - main_angle: gr_funzioni/geometria/main_angle.md
+            # - make_circle: gr_funzioni/geometria/make_circle.md
+            # - make_ellipse: gr_funzioni/geometria/make_ellipse.md
+            # - make_line: gr_funzioni/geometria/make_line.md
+            # - make_point: gr_funzioni/geometria/make_point.md
+            # - make_point_m: gr_funzioni/geometria/make_point_m.md
+            # - make_polygon: gr_funzioni/geometria/make_polygon.md
+            # - make_rectangle_3points: gr_funzioni/geometria/make_rectangle_3points.md
+            # - make_regular_polygon: gr_funzioni/geometria/make_regular_polygon.md
+            # - make_square: gr_funzioni/geometria/make_square.md
+            # - make_triangle: gr_funzioni/geometria/make_triangle.md
+            # - minimal_circle: gr_funzioni/geometria/minimal_circle.md
+            # - nodes_to_points: gr_funzioni/geometria/nodes_to_points.md
+            # - num_geometries: gr_funzioni/geometria/num_geometries.md
+            # - num_interior_rings: gr_funzioni/geometria/num_interior_rings.md
+            # - num_points: gr_funzioni/geometria/num_points.md
+            # - num_rings: gr_funzioni/geometria/num_rings.md
+            # - offset_curve: gr_funzioni/geometria/offset_curve.md
+            # - order_parts: gr_funzioni/geometria/order_parts.md
+            # - oriented_bbox: gr_funzioni/geometria/oriented_bbox.md
+            # - overlaps: gr_funzioni/geometria/overlaps.md
+            # - overlay_contains: gr_funzioni/geometria/overlay_contains.md)
+            # - overlay_crosses: gr_funzioni/geometria/overlay_crosses.md
+            # - overlay_disjoint: gr_funzioni/geometria/overlay_disjoint.md
+            # - overlay_equals: gr_funzioni/geometria/overlay_equals.md
+            # - overlay_intersects: gr_funzioni/geometria/overlay_intersects.md
+            # - overlay_nearest: gr_funzioni/geometria/overlay_nearest.md
+            # - overlay_touches: gr_funzioni/geometria/overlay_touches.md
+            # - overlay_within: gr_funzioni/geometria/overlay_within.md
+            # - perimeter: gr_funzioni/geometria/perimeter.md
+            # - point_n: gr_funzioni/geometria/point_n.md
+            # - point_on_surface: gr_funzioni/geometria/point_on_surface.md
+            # - pole_of_inaccessibility: gr_funzioni/geometria/pole_of_inaccessibility.md
+            # - project: gr_funzioni/geometria/project.md
+            # - relate: gr_funzioni/geometria/relate.md
+            # - reverse: gr_funzioni/geometria/reverse.md
+            # - rotate: gr_funzioni/geometria/rotate.md
+            # - segments_to_lines: gr_funzioni/geometria/segments_to_lines.md
+            # - shortest_line: gr_funzioni/geometria/shortest_line.md
+            # - simplify: gr_funzioni/geometria/simplify.md
+            # - simplify_vw: gr_funzioni/geometria/simplify_vw.md
+            # - single_sided_buffer: gr_funzioni/geometria/single_sided_buffer.md
+            # - smooth: gr_funzioni/geometria/smooth.md
+            # - start_point: gr_funzioni/geometria/start_point.md
+            # - sym_difference: gr_funzioni/geometria/sym_difference.md
+            # - tapered_buffer: gr_funzioni/geometria/tapered_buffer.md
+            # - touches: gr_funzioni/geometria/touches.md
+            # - transform: gr_funzioni/geometria/transform.md
+            # - translate: gr_funzioni/geometria/translate.md
+            # - union: gr_funzioni/geometria/union.md
+            # - wedge_buffer: gr_funzioni/geometria/wedge_buffer.md
+            # - within: gr_funzioni/geometria/within.md
+            # - x: gr_funzioni/geometria/x.md
+            # - x_min: gr_funzioni/geometria/x_min.md
+            # - x_max: gr_funzioni/geometria/x_max.md
+            # - y: gr_funzioni/geometria/y.md
+            # - y_min: gr_funzioni/geometria/y_min.md
+            # - y_max: gr_funzioni/geometria/y_max.md
+            # - z: gr_funzioni/geometria/z.md
+            # - z_max: gr_funzioni/geometria/z_max.md
+            # - z_min: gr_funzioni/geometria/z_min.md
        - Layer Mappa:
             - Elenco: gr_funzioni/layer_della_mappa/layer.md
             - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md

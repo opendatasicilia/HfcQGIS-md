@@ -4,12 +4,12 @@ Restituisce il punto interpolato ad una specifica distanza lungo una geometria d
 
 ## Sintassi
 
-line_interpolate_point(_geometry, distance_)
+- line_interpolate_point(_<span style="color:red;">geometry</span>_, _<span style="color:red;">distance</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria di tipo linestring
-* _distance_ distanza da interpolare lungo la linea
+* _<span style="color:red;">geometry</span>_ una geometria di tipo linestring
+* _<span style="color:red;">distance</span>_ distanza lungo la linea
 
 ## Esempi
 

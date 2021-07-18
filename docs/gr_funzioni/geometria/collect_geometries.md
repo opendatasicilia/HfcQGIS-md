@@ -2,17 +2,15 @@
 
 Raccoglie un set di geometrie in un oggetto geometria multiparte.
 
-## Lista argomenti variante 1
+## Variante geometry
 
 ## Sintassi
 
-collect_geometries(_geometry 1, geometry 2_)
+- collect_geometries(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>_...)
 
 ## Argomenti
 
-* _geometry 1_ geometria sulla quale cercare il punto più vicino
-* _geometry 2_ geometria dalla quale cercare il punto più vicino
-
+* _<span style="color:red;">geometry</span>_ geometria sulla quale cercare il punto più vicino
 
 ## Esempi
 
@@ -20,15 +18,15 @@ collect_geometries(_geometry 1, geometry 2_)
 
 ![](../../img/geometria/collect_geometries/collect_geometries2.png)
 
-## Lista argomenti variante con array
+## Variante con array
 
 ## Sintassi
 
-collect_geometries(_array_)
+- collect_geometries(_<span style="color:red;">array</span>_)
 
 ## Argomenti
 
-* _array_ array con oggetti geometrici
+* _<span style="color:red;">array</span>_ array con oggetti geometrici
 
 
 ## Esempi

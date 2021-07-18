@@ -4,11 +4,11 @@ Restituisce il valore minimo m (misura) di una geometria.
 
 ## Sintassi
 
-* m_min(_geometry_)
+* m_min(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria contenente m valori
+* _<span style="color:red;">geometry</span>_ una geometria contenente m valori
 
 ## Esempi
 

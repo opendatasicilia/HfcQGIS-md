@@ -4,12 +4,12 @@ Restituisce la distanza lungo una linestring corrispondente alla posizione più 
 
 ## Sintassi
 
-line_locate_point(_geometry, point_)
+- line_locate_point(_<span style="color:red;">geometry</span>_, _<span style="color:red;">point</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria di tipo linestring
-* _point_ geometria puntuale per cui ricercare la posizione più vicina sulla linestring
+* _<span style="color:red;">geometry</span>_ una geometria di tipo linestring
+* _<span style="color:red;">point</span>_ geometria puntuale per cui ricercare la posizione più vicina sulla linestring
 
 ## Esempi
 
@@ -25,4 +25,3 @@ line_locate_point(_geometry, point_)
 
 --
 
-![](../../img/geometria/line_locate_point/line_locate_point1.png)

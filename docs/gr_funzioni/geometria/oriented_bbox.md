@@ -4,11 +4,11 @@ Restituisce una geometria che rappresenta il perimetro di delimitazione minimo o
 
 ## Sintassi
 
-oriented_bbox(_geometry_) 
+- oriented_bbox(_<span style="color:red;">geometry</span>_) 
 
 ## Argomenti
 
-* _geometry_ una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

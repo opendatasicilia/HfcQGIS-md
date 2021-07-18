@@ -14,7 +14,9 @@ buffer_by_m(_<span style="color:red;">geometry</span>, <span style="color:red;">
 
 ## Esempi
 
-* `buffer_by_m(geometry:=geom_from_wkt('LINESTRINGM(1 2 0.5, 4 2 0.2)'),segments:=8)`
+```
+* buffer_by_m(geometry:=geom_from_wkt('LINESTRINGM(1 2 0.5, 4 2 0.2)'),segments:=8) → Un buffer di larghezza variabile che inizia con un diametro di 0,5 e termina con un diametro di 0,2 lungo la linea.
+```
 
 ![](../../img/geometria/buffer_by_m/buffer_by_m1.png)
 

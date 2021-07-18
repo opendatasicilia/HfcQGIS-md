@@ -4,12 +4,12 @@ Controlla qualora una geometria sia interna ad un'altra. Restituisce  1 (vero) s
 
 ## Sintassi
 
-within(_geometry a, geometry b_)
+- within( _<span style="color:red;">geometry1</span>_,  _<span style="color:red;">geometry2</span>_)
 
 ## Argomenti
 
-* _geometry a_ una geometria
-* _geometry b_ una geometria
+* _<span style="color:red;">geometry1</span>__ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 ## Esempi
 
@@ -32,8 +32,8 @@ espressione usata:
 
 dove:
 
-* _geometry a_ è `$geometry`
-* _geometry b_ è `geometry(get_feature( 'province_rt_rt','pk_uid','53'))`
+* _geometry1_ è `$geometry`
+* _geometry2_ è `geometry(get_feature( 'province_rt_rt','pk_uid','53'))`
 
 
 ![](../../img/geometria/within/within3.png)

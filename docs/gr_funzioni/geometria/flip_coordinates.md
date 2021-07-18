@@ -4,11 +4,11 @@ Restituisce una copia della geometria con le coordinate x e y scambiate. Utile p
 
 ## Sintassi
 
-flip_coordinates(_geometry_)
+- flip_coordinates(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 
@@ -23,6 +23,7 @@ flip_coordinates(_geometry_)
 ## osservazioni
 
 --
+
 Esempio con vettore poligonale (aggiorno la geometry): 
 
 ![](../../img/geometria/flip_coordinates/flip_coordinates2.png)

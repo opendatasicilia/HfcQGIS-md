@@ -4,11 +4,11 @@ Restituisce l'ultimo nodo di una geometria.
 
 ## Sintassi
 
-end_point(_geometry_)
+- end_point(_<span style="color:red;">geometry</span>_)
 
 ## Argomenti
 
-* _geometry_ oggetto geometria
+* _<span style="color:red;">geometry</span>_ oggetto geometria
 
 ## Esempi
 
@@ -23,6 +23,7 @@ end_point(_geometry_)
 ## osservazioni
 
 --
+
 End_point di geometria poligonale:
 
 ![](../../img/geometria/end_point/end_point2.png)

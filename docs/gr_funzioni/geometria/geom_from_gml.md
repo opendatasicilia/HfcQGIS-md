@@ -4,11 +4,11 @@ Restituisce una geometria da una rappresentazione GML di una geometria.
 
 ## Sintassi
 
-geom_from_gml(gml)
+- geom_from_gml(_<span style="color:red;"></span>_gml</span>_)
 
 ## Argomenti
 
-* _gml_ Rappresentazione GML di una geometria come stringa
+* _<span style="color:red;">gml</span>_ Rappresentazione GML di una geometria come stringa
 
 ## Esempi
 

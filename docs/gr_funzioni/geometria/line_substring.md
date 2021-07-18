@@ -4,7 +4,7 @@ Restituisce la porzione di una geometria di linea (o curva) che rientra tra le d
 
 ## Sintassi
 
-line_substring(_<span style="color:red;">geometry</span>,<span style="color:red;">start_distance</span>,<span style="color:red;">end_distance</span>_)
+- line_substring(_<span style="color:red;">geometry</span>,<span style="color:red;">start_distance</span>,<span style="color:red;">end_distance</span>_)
 
 ## Argomenti
 

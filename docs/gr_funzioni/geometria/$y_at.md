@@ -4,11 +4,11 @@ Recupera una coordinata y per la geometria dell'elemento corrente.
 
 ## Sintassi
 
-$y_at(_<span style="color:red;">i_</span>)
+- $y_at(_<span style="color:red;">i_</span>)
 
 ## Argomento
 
-* _<span style="color:red;">i</span>_ indice del punto di una linea (indici partono da 0; valori negativi si applicano dall'ultimo indice)
+* _<span style="color:red;">i</span>_ indice del punto di una linea (indici partono da 0; valori negativi si applicano dall'ultimo indice, partendo da -1)
 
 ## Esempi
 

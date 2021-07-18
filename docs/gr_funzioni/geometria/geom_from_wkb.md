@@ -4,11 +4,11 @@ Restituisce una geometria creata da una rappresentazione binaria ben nota (WKB).
 
 ## Sintassi
 
-geom_from_wkb(_binari_)
+- geom_from_wkb(_<span style="color:red;">binari</span>_)
 
 ## Argomenti
 
-* _binari_ Rappresentazione binaria ben nota (WKB) di una geometria (come BLOB binario)
+* _<span style="color:red;">binari</span>_ Rappresentazione binaria ben nota (WKB) di una geometria (come BLOB binario)
 
 ## Esempi
 

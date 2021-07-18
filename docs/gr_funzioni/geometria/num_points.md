@@ -4,11 +4,11 @@ Restituisce il numero di vertici in una geometria.
 
 ## Sintassi
 
-num_points(geometry) 
+- num_points(_<span style="color:red;">geometry</span>_) 
 
 ## Argomenti
 
-* _geometry_ una geometria
+* _<span style="color:red;">geometry</span>_ una geometria
 
 ## Esempi
 

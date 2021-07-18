@@ -4,12 +4,12 @@ Restituisce una geometria specifica da una raccolta di geometrie, o null se la g
 
 ## Sintassi
 
-geometry_n(_geometry, index_)
+- geometry_n(_<span style="color:red;">geometry</span>_, _<span style="color:red;">index</span>_)
 
 ## Argomenti
 
-* _geometry_ raccolta di geometrie
-* _index_ indice della geometria da restituire, dove 1 è la prima geometria nella raccolta
+* _<span style="color:red;">geometry</span>_ raccolta di geometrie
+* _<span style="color:red;">index</span>_ indice della geometria da restituire, dove 1 è la prima geometria nella raccolta
 
 ## Esempi
 
@@ -22,5 +22,3 @@ geometry_n(_geometry, index_)
 --
 
 ## osservazioni
-
-Personalmente mai usata!
