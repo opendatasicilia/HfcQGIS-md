@@ -109,8 +109,7 @@ a.md-button.md-button:hover {
 }
 
 /* Cambia lo sfondo del code */
-.md-typeset code {
-    background-color: #d6d4d46e!important;}
+.md-typeset code {background-color: #d6d4d46e!important;}
 
 /*Table styling*/
 table {
