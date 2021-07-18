@@ -41,11 +41,13 @@ Argomenti:
 
 Esempi:
 
-* `aggregate(layer:='province_g',aggregate:='sum',expression:=$area) → somma le aree di tutte le province valore mq (se EPSG proiettato)`
-* `aggregate(layer:='province_g',aggregate:='sum',expression:=$area/1000000) → somma le aree di tutte le province valore in kmq (se EPSG proiettato)`
-* `aggregate(layer:='province_g',aggregate:='sum',expression:=$area/1000000, filter:= "COD_REG" =19)  → somma tutti i valori dell'area delle province limitatamente alla regione Sicilia ("COD_REG"=19)`
-* `aggregate(layer:='province_g',aggregate:='concatenate',expression:= "DEN_PCM" , concatenator:=',')  → Elenco separato da virgole di tutte le denominazioni delle Province per tutte le geometrie nel vettore Regione`
-* `aggregate(layer:='province_g',aggregate:='concatenate',expression:= "DEN_PCM" ,concatenator:=',',filter:=intersects( centroid($geometry), geometry(@parent))) → Elenco separato delle denominazioni delle Province per ogni geometria del vettore Regione (cioè il  @parent)'`
+```
+* aggregate(layer:='province_g',aggregate:='sum',expression:=$area) → somma le aree di tutte le province valore mq (se EPSG proiettato)
+* aggregate(layer:='province_g',aggregate:='sum',expression:=$area/1000000) → somma le aree di tutte le province valore in kmq (se EPSG proiettato)
+* aggregate(layer:='province_g',aggregate:='sum',expression:=$area/1000000, filter:= "COD_REG" =19)  → somma tutti i valori dell'area delle province limitatamente alla regione Sicilia ("COD_REG"=19)
+* aggregate(layer:='province_g',aggregate:='concatenate',expression:= "DEN_PCM" , concatenator:=',')  → Elenco separato da virgole di tutte le denominazioni delle Province per tutte le geometrie nel vettore Regione
+* aggregate(layer:='province_g',aggregate:='concatenate',expression:= "DEN_PCM" ,concatenator:=',',filter:=intersects( centroid($geometry), geometry(@parent))) → Elenco separato delle denominazioni delle Province per ogni geometria del vettore Regione (cioè il  @parent)'
+```
 
 ![](../../img/aggregates/aggregate/aggregate1.png)
 
@@ -62,6 +64,9 @@ i nomi dei layer vanno scritti tra apici semplici (`'nome_layer'`) mentre i nomi
 Altri esempi
 
 Come realizzare una spatial-join con aggregazione usando solo il calcolatore di campi [qui](https://medium.com/@salvatorefiandaca/qgis-3-0-funzioni-di-aggregazione-9c8c389985c5)
+
+---
+
 ## array_agg
 
 Restituisce un array di valori aggregati da un campo o espressione.
@@ -719,12 +724,12 @@ Argomenti:
 
 Esempi:
 
-
-* `relation_aggregate(relation:='rel_prov_com',aggregate:='concatenate',concatenator:=',',expression:="COMUNE" ) →  elenco separato da virgole del campo "COMUNE" per tutte le geometrie figlie corrispondenti usando la relation 'rel_prov_com'`
-* `relation_aggregate(relation:='my_relation',aggregate:='mean',expression:="passengers") → valore medio di tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'`
-* `relation_aggregate('my_relation','sum', "passengers"/7) → somma del campo passengers diviso per 7 per tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'`
-* `relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo town per tutte le geometrie figlie corrispondenti usando la relation 'my_relation'`
-
+```
+* relation_aggregate(relation:='rel_prov_com',aggregate:='concatenate',concatenator:=',',expression:="COMUNE" ) →  elenco separato da virgole del campo "COMUNE" per tutte le geometrie figlie corrispondenti usando la relation 'rel_prov_com'
+* relation_aggregate(relation:='my_relation',aggregate:='mean',expression:="passengers") → valore medio di tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'
+* relation_aggregate('my_relation','sum', "passengers"/7) → somma del campo passengers diviso per 7 per tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'
+* relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo town per tutte le geometrie figlie corrispondenti usando la relation 'my_relation'
+```
 
 ![](../../img/aggregates/relation_aggregate/relation_aggregate1.png)
 

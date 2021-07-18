@@ -284,10 +284,10 @@ nav:
             # - to_time: gr_funzioni/data_ora/to_time.md
             # - week: gr_funzioni/data_ora/week.md
             # - year: gr_funzioni/data_ora/year.md
-       - Espressione utente: gr_funzioni/espressione_utente/espressione_utente.md
+       - Espressione utente: gr_funzioni/espressione_utente/espressione_utente_unico.md
             # - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
             # - bla bla: bla.md                
-       - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi.md
+       - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi_unico.md
             # - Elenco: gr_funzioni/file_e_percorsi/file_e_percorsi.md
             # - bla bla: bla.md            
        - Generale: gr_funzioni/generale/generale_unico.md
@@ -299,7 +299,7 @@ nav:
             # - mime_type:  gr_funzioni/generale/mime_type.md
             # - var:  gr_funzioni/generale/var.md
             # - with_variable:  gr_funzioni/generale/with_variable.md  
-       - Lat e Lon Tools: gr_funzioni/lat_long_tools/lat_long_tools.md
+       - Lat e Lon Tools: gr_funzioni/lat_long_tools/lat_long_tools_unico.md
             # - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
             # - bla bla: bla.md
        - Geometria: gr_funzioni/geometria/geometria_unico.md
