@@ -32,7 +32,7 @@ def controlla_file(value1, feature, parent):
 
 ---
 
-# fattoriale
+## fattoriale
 
 Calcola il fattoriale di un numero definito come il prodotto di tutti i numeri tra 1 e n.
 Per convenzione il fattoriale di 0 = 1 la notazione matematica per fattoriale è n!
@@ -110,7 +110,7 @@ def my_sum(value1, value2, feature, parent):
 
 ---
 
-# perimetro_km()
+## perimetro_km()
 
 Questa funzione ritorna il valore del perimetro della geometria in km 
 
