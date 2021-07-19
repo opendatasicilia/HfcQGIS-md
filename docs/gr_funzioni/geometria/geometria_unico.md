@@ -36,9 +36,8 @@ nell'esempio ho usato un vettore poligonale con EPSG 3004 (sistema proiettato, u
 !!! Danger "Nota bene"
     se il _<span style="color:red;">SR del progetto</span>_ in cui si sta calcolando l'area (**$area**) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) allora l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del progetto</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe _**gradi**_ e quindi poco comprensibile e valori piccoli (0.00001).
 
-Osservazioni:
-
-in generale `$area <> area($geometry)`
+!!! Warning "Attenzione!"
+	in generale `$area <> area($geometry)`
 
 ---
 
