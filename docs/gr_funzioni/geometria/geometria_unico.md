@@ -664,7 +664,7 @@ Argomenti:
 ![](../../img/geometria/contains/contains1.png)
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- contains(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
 	```
@@ -734,9 +734,7 @@ Argomenti:
 ![](../../img/geometria/crosses/crosses1.png)
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-	
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- crosses(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)
 	```
@@ -851,9 +849,7 @@ Argomenti:
 	Vero = 1; Falso= 0
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- disjoint(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)
 	```
@@ -1457,9 +1453,7 @@ Argomenti:
 ![](../../img/geometria/intersects/intersects1.png)
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- intersects(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
 	```
@@ -2484,9 +2478,7 @@ Argomenti:
 ![](../../img/geometria/overlaps/overlaps1.png)
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- overlaps(geometry(get_feature( 'cerchio','id','1')), $geometry)
 	```
@@ -3346,9 +3338,7 @@ Nota bene:
 --
 
 !!! Info "Osservazioni"	
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- touches(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
 	```
@@ -3530,13 +3520,10 @@ Argomenti:
 ![](../../img/geometria/within/within1.png)
 
 !!! Info "Osservazioni"
-	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (Ctrl+F3):
 	```
 	- within($geometry,geometry(get_feature( 'province_rt_rt','pk_uid','53')))
 	```
-
 dove:
 
 * _geometry1_ è `$geometry`
