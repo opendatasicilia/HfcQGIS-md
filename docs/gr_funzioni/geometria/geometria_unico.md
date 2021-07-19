@@ -65,9 +65,8 @@ Sintassi:
 
 ![](../../img/geometria/_length/_length1.png)
 
-Nota bene:
-
-Come evidenziano nella definizione della funzione, [$length](#length) calcola la lunghezza rispettando le impostazioni di progetto:
+!!! Warning "Attenzione!"
+	Come evidenziano nella definizione della funzione, [$length](#length) calcola la lunghezza rispettando le impostazioni di progetto:
 
 ![](../../img/geometria/_length/_length2.png)
 
@@ -100,12 +99,8 @@ Sintassi:
 
 ![](../../img/geometria/_perimeter/_perimeter1.png)
 
-Nota bene:
-
 !!! Nota
     Si utilizza SOLO per i poligoni, nel caso di feature lineari [$length ](#length)
-
-Osservazioni:
 
 !!! Info "Osservazioni"
 	**il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.**
@@ -130,13 +125,11 @@ Sintassi:
 
 ![](../../img/geometria/_x/_x2.png)
 
-Nota bene:
+!!! Warning "Attenzione!"
+	La funzione [$x](#x) restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
 
-La funzione `$x` restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
-
-Osservazioni:
-
-Per ottenere le coordinate x o y occorre utilizzare una combinazione di funzioni ed: x($geometry) che vale per qualunque tipologia di geometria (point, linestring, polygon)
+!!! Info "Osservazioni"
+	Per ottenere le coordinate `x` o `y` occorre utilizzare una combinazione di funzioni ed: `x($geometry)` che vale per qualunque tipologia di geometria (point, linestring, polygon)
 
 ---
 
@@ -160,13 +153,8 @@ Argomenti:
 
 ![](../../img/geometria/_x_at/_x_at1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre indici negativi significano che la conta inizia dalla l'ultimo vertice: -10 significa il 10-mo vertice partendo dall'ultimo vertice.
+!!! Info "Osservazioni"
+	Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre indici negativi significano che la conta inizia dalla l'ultimo vertice: -10 significa il 10-mo vertice partendo dall'ultimo vertice.
 
 ---
 
@@ -188,13 +176,11 @@ Sintassi:
 
 ![](../../img/geometria/_y/_y2.png)
 
-Nota bene:
+!!! Warning "Attenzione!"
+	La funzione [$y](#y_1) restituisce la coordinata `y` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
 
-La funzione `$y` restituisce la coordinata `y` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
-
-Osservazioni:
-
-Per ottenere le coordinate x o y occorre utilizzare una combinazione di funzioni es: y($geometry) che vale per qualunque tipologia di geometria (point, linestring, polygon)
+!!! Info "Osservazioni"
+	Per ottenere le coordinate x o y occorre utilizzare una combinazione di funzioni es: y($geometry) che vale per qualunque tipologia di geometria (point, linestring, polygon)
 
 ---
 
@@ -217,13 +203,8 @@ Argomenti:
 	```
 ![](../../img/geometria/_y_at/_y_at1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre indici negativi significano che la conta inizia dalla l'ultimo vertice: -10 significa il 10-mo vertice partendo dall'ultimo vertice.
+!!! Info "Osservazioni"
+	Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre indici negativi significano che la conta inizia dalla l'ultimo vertice: -10 significa il 10-mo vertice partendo dall'ultimo vertice.
 
 ---
 
@@ -246,13 +227,8 @@ Argomenti:
 
 ![](../../img/geometria/angle_at_vertex/angle_at_vertex1.png)
 
-Nota bene:
-
-Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il valore dell'angolo e non la bisettrice.
-
-Osservazioni:
-
---
+!!! Warning "Attenzione!"
+	Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il valore dell'angolo e non la bisettrice.
 
 ![](../../img/geometria/angle_at_vertex/angle_at_vertex2.png)
 
@@ -280,8 +256,6 @@ Argomenti:
 
 ![](../../img/geometria/area/area004.png)
 
-Nota bene:
-
 !!! Occhio
 	Se il _<span style="color:red;">SR del layer</span>_ in cui si sta calcolando l'area (_**area()**_) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del layer</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe in gradi e quindi poco comprensibile e valori piccoli.
 
@@ -298,7 +272,7 @@ in generale `area($geometry) <> $area`
 
 Sintassi:
 
-azimuth(<span style="color:red;">point_a</span>, <span style="color:red;">point_b</span>)
+- azimuth(<span style="color:red;">point_a</span>, <span style="color:red;">point_b</span>)
 
 Argomenti:
 
@@ -317,9 +291,8 @@ Argomenti:
 
 ![](../../img/geometria/azimuth/azimuth002.png)
 
-Nota bene:
-
-**Azimuth** per definizione restituisce un angolo in radianti, per trasformarlo in gradi usare la funzione [degrees()](../matematica/degrees.md)
+!!! Warning "Attenzione!"
+	**Azimuth** per definizione restituisce un angolo in radianti, per trasformarlo in gradi usare la funzione [degrees()](../matematica/degrees.md)
 
 ![](../../img/geometria/azimuth/azimuth004.png)
 
@@ -348,13 +321,8 @@ Argomenti:
 
 ![](../../img/geometria/boundary/boundari1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
+!!! Info "Osservazioni"
+	funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
 
 ![](../../img/geometria/boundary/boundari2.png)
 
@@ -367,7 +335,7 @@ funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geomet
 
 Sintassi:
 
-bounds(*<span style="color:red;">geometry</span>*)
+- bounds(*<span style="color:red;">geometry</span>*)
 
 Argomenti:
 
@@ -383,13 +351,8 @@ Argomenti:
 
 ![](../../img/geometria/bounds/bounds1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
+!!! Info "Osservazioni"
+	funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geometry generator
 
 ![](../../img/geometria/bounds/bounds2.png)
 
@@ -402,7 +365,7 @@ funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geomet
 
 Sintassi:
 
-bounds_height(_<span style="color:red;">geometry</span>_)
+- bounds_height(_<span style="color:red;">geometry</span>_)
 
 Argomenti:
 
@@ -418,13 +381,8 @@ Argomenti:
 
 ![](../../img/geometria/bounds/bounds_height1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-La funzione restituisce un numero che corrisponde all'altezza del rettangolo di ingombro di una geometria.
+!!! Info "Osservazioni"
+	La funzione restituisce un numero che corrisponde all'altezza del rettangolo di ingombro di una geometria.
 
 ---
 
@@ -435,7 +393,7 @@ La funzione restituisce un numero che corrisponde all'altezza del rettangolo di 
 
 Sintassi:
 
-bounds_width(*<span style="color:red;">geometry</span>*)
+- bounds_width(*<span style="color:red;">geometry</span>*)
 
 Argomenti:
 
@@ -450,13 +408,8 @@ Argomenti:
 
 ![](../../img/geometria/bounds/bounds_width1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-La funzione restituisce un numero che corrisponde alla larghezza del rettangolo di ingombro di una geometria.
+!!! Info "Osservazioni"
+	La funzione restituisce un numero che corrisponde alla larghezza del rettangolo di ingombro di una geometria.
 
 ---
 
@@ -467,7 +420,7 @@ La funzione restituisce un numero che corrisponde alla larghezza del rettangolo 
 
 Sintassi:
 
-buffer(*<span style="color:red;">geometry</span>*,*<span style="color:red;">distance</span>*[,_<span style="color:red;">segments=8</span>_])
+- buffer(*<span style="color:red;">geometry</span>*,*<span style="color:red;">distance</span>*[,_<span style="color:red;">segments=8</span>_])
 
 Argomenti:
 
@@ -483,8 +436,6 @@ Argomenti:
 ![](../../img/geometria/buffer/buffer0.png)
 
 ![](../../img/geometria/buffer/buffer1.png)
-
-Nota bene:
 
 !!! Danger
 	Utilizzando SR proiettati l'unità di misura è il metro, mentre, per SR geografici è il grado, quindi attenzione al valore della distanza.
@@ -505,7 +456,7 @@ Osservazioni:
 
 Sintassi:
 
-buffer_by_m(_<span style="color:red;">geometry</span>, <span style="color:red;">segments</span>_)
+- buffer_by_m(_<span style="color:red;">geometry</span>, <span style="color:red;">segments</span>_)
 
 Argomenti:
 
@@ -526,10 +477,6 @@ relativa all'esempio di sopra:
 
 ![](../../img/geometria/buffer_by_m/buffer_by_m3.png)
 
-Nota bene:
-
---
-
 Osservazioni:
 
 [QGIS - feature](https://github.com/qgis/QGIS/pull/6882)
@@ -543,7 +490,7 @@ Osservazioni:
 
 Sintassi:
 
-centroid(*<span style="color:red;">geometry</span>*)
+- centroid(*<span style="color:red;">geometry</span>*)
 
 Argomenti:
 
@@ -557,10 +504,6 @@ Argomenti:
 ![](../../img/geometria/centroid/centroid0.png)
 
 ![](../../img/geometria/centroid/centroid1.png)
-
-Nota bene:
-
---
 
 !!! Osservazioni
 	La Funzione restituisce SEMPRE una geometry **POINT**
@@ -590,14 +533,6 @@ Argomenti:
 
 ![](../../img/geometria/close_line/close_line1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
---
-
 ---
 
 ## closest_point
@@ -607,7 +542,7 @@ Osservazioni:
 
 Sintassi:
 
-closest_point(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
+- closest_point(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>)
 
 Argomenti:
 
@@ -623,13 +558,8 @@ Argomenti:
 
 ![](../../img/geometria/closest_point/closest_point2.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Utilizzando il _geometry generator_ per i temi (il layer strade è una unica feature):
+!!! Info "Osservazioni"
+	Utilizzando il _geometry generator_ per i temi (il layer strade è una unica feature):
 
 * `closest_point( geometry(get_feature('strade', 'reg',19)),$geometry)`
 
@@ -681,10 +611,6 @@ Argomenti:
 
 ![](../../img/geometria/collect_geometries/collect_geometries1.png)
 
-Nota bene:
-
---
-
 Osservazioni:
 
 ![screen](https://user-images.githubusercontent.com/1829991/63907352-6ca4ff80-ca5e-11e9-9b18-82a1618e1eba.png)
@@ -713,14 +639,6 @@ Argomenti:
 
 ![](../../img/geometria/combine/combine1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
---
-
 ---
 
 ## contains
@@ -745,23 +663,16 @@ Argomenti:
 
 ![](../../img/geometria/contains/contains1.png)
 
-Nota bene:
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
---
-
-Osservazioni:
-
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-espressione usata:
-
-`contains(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+!!! Tip "Espressione:"
+	- `contains(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
 
 dove:
 
 * _geometry1_ è `geometry(get_feature( 'province_rt_rt','pk_uid','46'))`
 * _geometry2_ è `$geometry`
-
 
 ![](../../img/geometria/contains/contains2.png)
 
@@ -793,13 +704,8 @@ Argomenti:
 
 ![](../../img/geometria/convex_hull/convex_hull1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-La funzione restituisce sempre un poligono.
+!!! Info "Osservazioni"
+	La funzione restituisce sempre un poligono.
 
 ![](../../img/geometria/convex_hull/convex_hull2.png)
 
@@ -827,22 +733,16 @@ Argomenti:
 
 ![](../../img/geometria/crosses/crosses1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-espressione usata:
-
-`crosses(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
+	
+!!! Tip "Espressione:"
+	- `crosses(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
 
 dove:
 
-* _geometry a_ è `geometry(get_feature( 'fiume_arno','nome','ARNO'))`
-* _geometry b_ è `$geometry`
-
+* _geometry1_ è `geometry(get_feature( 'fiume_arno','nome','ARNO'))`
+* _geometry2_ è `$geometry`
 
 ![](../../img/geometria/crosses/crosses2.png)
 
@@ -915,17 +815,8 @@ Espressione:
 	-- a - b è diverso da b - a
 	```
 
-prova tu:
-
-[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
+!!! Question "Prova tu"
+	[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
 
 Esempio di sopra:
 
@@ -955,17 +846,14 @@ Argomenti:
 
 ![](../../img/geometria/disjoint/disjoint.png)
 
-Nota bene:
+!!! Warning "Attenzione!"
+	Vero = 1; Falso= 0
 
-Vero = 1; Falso= 0
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
-Osservazioni:
-
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-espressione usata:
-
-`disjoint(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
+!!! Tip "Espressione:"
+	- `disjoint(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
 
 dove:
 
@@ -1001,12 +889,6 @@ Argomenti:
 
 ![](../../img/geometria/distance/distance1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 ![](../../img/geometria/distance/distance2.png)
@@ -1035,12 +917,6 @@ Argomenti:
 
 ![](../../img/geometria/distance_to_vertex/distance_to_vertex1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 esempio di sopra:
@@ -1068,12 +944,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/end_point/end_point1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -1111,12 +981,6 @@ Argomenti:
 
 ![](../../img/geometria/extend/extend1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 ![](../../img/geometria/extend/extend1.png)
@@ -1143,12 +1007,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/exterior_ring/exterior_ring1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -1180,13 +1038,8 @@ Argomenti:
 
 ![](../../img/geometria/extrude/extrude1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Nell'esempio ho utilizzato la funzione [boundary()](boundary.md) perché la geometria di ingresso deve essere lineare.
+!!! Info "Osservazioni"
+	Nell'esempio ho utilizzato la funzione [boundary()](boundary.md) perché la geometria di ingresso deve essere lineare.
 
 ![](../../img/geometria/extrude/extrude1.png)
 
@@ -1211,12 +1064,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/flip_coordinates/flip_coordinates1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -1250,13 +1097,8 @@ Argomenti:
 
 ![](../../img/geometria/force_rhr/force_rhr1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Ecco un esempio pratico della funzione (presente anche nelgli strumenti fi processing) ovvero un poligono disegnato in senso antiorario viene forzato in senso orario e l'etichettature è visibile correttamente.
+!!! Info "Osservazioni"
+	Ecco un esempio pratico della funzione (presente anche nelgli strumenti fi processing) ovvero un poligono disegnato in senso antiorario viene forzato in senso orario e l'etichettature è visibile correttamente.
 
 ![](../../img/geometria/force_rhr/force_rhr.gif)
 
@@ -1282,12 +1124,6 @@ Argomenti:
 
 ![](../../img/geometria/geom_from_gml/geom_from_gml1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## geom_from_wkb
@@ -1309,14 +1145,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/geom_from_wkb/geom_from_wkb1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
 
 ---
 
@@ -1341,12 +1169,6 @@ Argomenti:
 
 ![](../../img/geometria/geom_from_wkt/geom_from_wkt1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## geom_to_wkb
@@ -1368,12 +1190,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/geom_to_wkb/geom_to_wkb1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -1399,12 +1215,6 @@ Argomenti:
 
 ![](../../img/geometria/geom_to_wkt/geom_to_wkt1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## geometry
@@ -1426,12 +1236,6 @@ Argomenti:
 * `intersects( $geometry, geometry( get_feature( layer, attributeField, value ) ) ) → vero`
 
 ![](../../img/geometria/geometry/geometry1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -1461,12 +1265,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/geometry_n/geometry_n1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -1499,12 +1297,6 @@ Argomenti:
 
 ![](../../img/geometria/hausdorff_distance/hausdorff_distance1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 Nel caso di geometrie puntuali la [hausdorff_distance](#hausdorff_distance) coincide con la funzione [distance](#distance), segue un esempio:
@@ -1524,7 +1316,7 @@ Nel caso di geometrie puntuali la [hausdorff_distance](#hausdorff_distance) coin
 
 ![](../../img/geometria/hausdorff_distance/hausdorff_distance3.png)
 
----
+--
 
 In questo esempio confronto due layer: il numero più piccolo indica il poligono più simile a al poligono più grande.
 
@@ -1556,12 +1348,6 @@ Argomenti:
 
 ![](../../img/geometria/inclination/inclination1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 ![](../../img/geometria/inclination/inclination2.png)
@@ -1589,13 +1375,8 @@ Argomenti:
 
 ![](../../img/geometria/interior_ring_n/interior_ring_n1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-Restituisce una lineastring!!!
+!!! Info "Osservazioni"
+	Restituisce una lineastring!!!
 
 ![](../../img/geometria/interior_ring_n/interior_ring_n2.png)
 
@@ -1641,15 +1422,8 @@ Argomenti:
 	-- NB: -- l' ordine delle geometrie è indifferente
 	```
 
-prova tu:
-
-[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
-
-Nota bene:
-
---
-
-Osservazioni:
+!!! Question "Prova tu"
+	[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
 
 --
 
@@ -1679,17 +1453,11 @@ Argomenti:
 
 ![](../../img/geometria/intersects/intersects1.png)
 
-Nota bene:
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
---
-
-Osservazioni:
-
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-espressione usata:
-
-`intersects(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+!!! Tip "Espressione:"
+	- `intersects(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
 
 dove:
 
@@ -1728,12 +1496,6 @@ Argomenti:
 	```
 ![](../../img/geometria/intersects_bbox/intersects_bbox1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## is_closed
@@ -1756,12 +1518,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/is_closed/is_closed1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -1792,12 +1548,6 @@ Argomenti:
 
 ![](../../img/geometria/is_empty/is_empty1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ![screen](../../img/novita_312/Image02.png)
 
 ---
@@ -1824,12 +1574,6 @@ Argomenti:
 
 ![](../../img/geometria/is_empty_or_null/is_empty_or_null1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ![screen](../../img/novita_312/Image02.png)
 
 ---
@@ -1855,12 +1599,6 @@ Argomenti:
 
 ![](../../img/geometria/is_multipart/is_multipart1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## is_valid
@@ -1883,12 +1621,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/is_valid/is_valid1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -1934,12 +1666,6 @@ Argomenti:
 
 ![](../../img/geometria/length/length2.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## length3D
@@ -1961,13 +1687,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/length3d/img_01.png)
-
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -1991,12 +1710,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/line_interpolate_angle/line_interpolate_angle1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -2025,12 +1738,6 @@ Argomenti:
 
 ![](../../img/geometria/line_interpolate_point/line_interpolate_point1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 ![](../../img/geometria/line_interpolate_point/line_interpolate_point2.png)
@@ -2058,12 +1765,6 @@ Argomenti:
 
 ![](../../img/geometria/line_locate_point/line_locate_point1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 ## line_merge
@@ -2086,12 +1787,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/line_merge/line_merge1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -2122,12 +1817,6 @@ Argomenti:
 
 ![](../../img/geometria/line_substring/line_substring1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 --
 
 Funzione utile per la tematizzazione
@@ -2156,12 +1845,6 @@ Argomenti:
 
 ![](../../img/geometria/m/m1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## m_max
@@ -2184,14 +1867,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/m_max/m_max1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
 
 ---
 
@@ -2216,12 +1891,6 @@ Argomenti:
 
 ![](../../img/geometria/m_min/m_min1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## main_angle
@@ -2244,9 +1913,6 @@ Argomenti:
 
 ![](../../img/geometria/main_angle/img_01.png)
 
-Nota bene:
-
---
 
 Osservazioni:
 
@@ -2280,14 +1946,6 @@ Argomenti:
 
 ![](../../img/geometria/make_circle/make_circle1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
---
-
 ![](../../img/geometria/make_circle/make_circle2.png)
 
 ---
@@ -2317,14 +1975,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/make_ellipse/make_ellipse1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
 
 ![](../../img/geometria/make_ellipse/make_ellipse2.png)
 
@@ -2380,14 +2030,6 @@ Argomenti:
 			) 
 	```
 
-Nota bene:
-
---
-
-Osservazioni:
-
---
-
 ![](../../img/geometria/make_line/make_line2.png)
 
 ---
@@ -2415,12 +2057,6 @@ Argomenti:
 
 ![](../../img/geometria/make_point/make_point1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## make_point_m
@@ -2444,12 +2080,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/make_point_m/make_point_m1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -2476,12 +2106,6 @@ Argomenti:
 	```
 ![](../../img/geometria/make_polygon/make_polygon1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## make_rectangle_3points
@@ -2507,12 +2131,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/make_rectangle_3points/make_rectangle_3points1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -2546,14 +2164,6 @@ Argomenti:
 
 ![](../../img/geometria/make_regular_polygon/make_regular_polygon1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
---
-
 ![](../../img/geometria/make_regular_polygon/make_regular_polygon2.png)
 
 ---
@@ -2580,12 +2190,6 @@ Argomenti:
 
 ![](../../img/geometria/make_square/make_square1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
 ---
 
 ## make_triangle
@@ -2610,12 +2214,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/make_triangle/make_triangle1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -2642,12 +2240,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/minimal_circle/minimal_circle1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -2676,12 +2268,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/nodes_to_points/nodes_to_points1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -2812,9 +2398,8 @@ Argomenti:
 
 ![](../../img/geometria/offset_curve/offset_curve1.png)
 
-Osservazioni:
-
-La linea è scostata a sinistra o destra rispetto al verso della linea:
+!!! Info "Osservazioni"
+	La linea è scostata a sinistra o destra rispetto al verso della linea:
 
 ![](../../img/geometria/offset_curve/offset_curve2.png)
 
@@ -2844,12 +2429,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/order_parts/order_parts1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -2899,13 +2478,11 @@ Argomenti:
 
 ![](../../img/geometria/overlaps/overlaps1.png)
 
-Osservazioni:
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-espressione usata:
-
-`overlaps(geometry(get_feature( 'cerchio','id','1')), $geometry)`
+!!! Tip "Espressione:"
+	- `overlaps(geometry(get_feature( 'cerchio','id','1')), $geometry)`
 
 dove:
 
@@ -3137,7 +2714,6 @@ Argomenti:
 
 ![](../../img/geometria/refFunction/overlay_nearest.png)
 
-
 Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distanza2.html>
 
 ---
@@ -3263,7 +2839,7 @@ Argomenti:
 
 ---
 
-!!! Example "Esempi" correlati
+Esempi correlati:
 
 [esempio nro 4](/esempi/add_col_z.md) - Come aggiungere la quota Z alla tabella attributi
 
@@ -3288,12 +2864,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/point_on_surface/point_on_surface1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3321,12 +2891,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/pole_of_inaccessibility/pole_of_inaccessibility1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3358,12 +2922,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/project/project1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3444,12 +3002,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/reverse/reverse1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3717,9 +3269,8 @@ Argomenti:
 	-- NB: -- l' ordine delle geometrie è indifferente
 	```
 
-prova tu:
-
-[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
+!!! Question "Prova tu"
+	[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
 
 --
 
@@ -3787,13 +3338,11 @@ Nota bene:
 
 --
 
-Osservazioni:
-
+!!! Info "Osservazioni"	
 Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
-espressione usata:
-
-`touches(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+!!! Tip "Espressione:"
+	- `touches(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
 
 dove:
 
@@ -3914,9 +3463,8 @@ Argomenti:
 	-- NB: -- l' ordine delle geometrie è indifferente
 	```
 
-prova tu:
-
-[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
+!!! Question "Prova tu"
+	[Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
 
 --
 
@@ -3978,17 +3526,11 @@ Argomenti:
 
 ![](../../img/geometria/within/within1.png)
 
-Nota bene:
+!!! Info "Osservazioni"
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
---
-
-Osservazioni:
-
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-espressione usata:
-
-`within($geometry,geometry(get_feature( 'province_rt_rt','pk_uid','53')))`
+!!! Tip "Espressione:"
+	- `within($geometry,geometry(get_feature( 'province_rt_rt','pk_uid','53')))`
 
 dove:
 
@@ -4039,12 +3581,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/x/x1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4124,12 +3660,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/y/y1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
