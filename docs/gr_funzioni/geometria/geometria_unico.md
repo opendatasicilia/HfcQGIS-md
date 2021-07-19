@@ -5,16 +5,16 @@
 	**Questo gruppo contiene funzioni che operano sugli oggetti geometrici es: _lunghezza_, _area_.**
 
 
-| Area           |      lunghezza           |        Predicati          |      Overlay_*                            | Richiama layer                         | vari
-|----------------|--------------------------|---------------------------|-------------------------------------------|----------------------------------------|---------------
-|[$area](#area)  | [$length](#length)       | [contains](#contains)     | [overlay_contains](#overlay_contains)     | [get_feature](#get_feature)            | [centroid](#centroid)
-|[area](#area)   | [length](#length)        | [crosses](#crosses)       | [overlay_crosses](#overlay_crosses)       | [get_feature_by_id](#get_feature_by_id)| [buffer](#buffer)
-|    -           | [$perimeter](#perimeter) | [disjoint](#disjoint)     | [overlay_disjoint](#overlay_disjoint)     |               -                        |
-|	-		     | [perimeter](#perimeter)  | [intersects](#intersects) | [overlay_equals](#overlay_equals)         |               -                        |
-|	-			 |			-			    | [overlaps](#overlaps)	    | [overlay_intersects](#overlay_intersects) |               -                        |
-|	-			 |			-			    | [touches](#touches)	    | [overlay_nearest](#overlay_nearest)       |               -                        |
-|	-			 |			-			    | [within][#within]		    | [overlay_touches](#overlay_touches)       |               -                        |
-|	-			 |			-			    |           -               | [overlay_within](#overlay_within)         |               -                        |
+| Area           |      lunghezza           |        Predicati          |      Overlay_*                            | coordinate            | vari
+|----------------|--------------------------|---------------------------|-------------------------------------------|----------------------|---------------
+|[$area](#area)  | [$length](#length)       | [contains](#contains)     | [overlay_contains](#overlay_contains)     | [$x](#x1)            | [centroid](#centroid)
+|[area](#area)   | [length](#length)        | [crosses](#crosses)       | [overlay_crosses](#overlay_crosses)       | [$y](#y1)|           | [buffer](#buffer)
+|    -           | [$perimeter](#perimeter) | [disjoint](#disjoint)     | [overlay_disjoint](#overlay_disjoint)     | [x](#x_1)            |
+|	-		     | [perimeter](#perimeter)  | [intersects](#intersects) | [overlay_equals](#overlay_equals)         | [y](#y_1)            |
+|	-			 |			-			    | [overlaps](#overlaps)	    | [overlay_intersects](#overlay_intersects) | [z](#z)              |
+|	-			 |			-			    | [touches](#touches)	    | [overlay_nearest](#overlay_nearest)       | [m](m)               |
+|	-			 |			-			    | [within][#within]		    | [overlay_touches](#overlay_touches)       |      -               |
+|	-			 |			-			    |           -               | [overlay_within](#overlay_within)         |      -               |
 
 ---
 
