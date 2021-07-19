@@ -488,11 +488,13 @@ Esempi:
 
 Nota bene:
 
-Utilizzando SR proiettati l'unità di misura è il metro, mentre, per SR geografici è il grado, quindi attenzione al valore della distanza.
+!!! Danger
+	Utilizzando SR proiettati l'unità di misura è il metro, mentre, per SR geografici è il grado, quindi attenzione al valore della distanza.
 
 Osservazioni:
 
-La Funzione restituisce SEMPRE un poligono sia per geometry **POINT**, **LINESTRING** o **POLYGON**
+!!! Nota
+	La Funzione restituisce SEMPRE un poligono sia per geometry **POINT**, **LINESTRING** o **POLYGON**
 
 ![](../../img/geometria/buffer/buffer2.png)
 
@@ -560,9 +562,8 @@ Nota bene:
 
 --
 
-Osservazioni:
-
-La Funzione restituisce SEMPRE una geometry **POINT**
+!!! Osservazioni
+	La Funzione restituisce SEMPRE una geometry **POINT**
 
 ![](../../img/geometria/centroid/centroid2.png)
 
@@ -749,8 +750,8 @@ espressione usata:
 
 dove:
 
-* _geometry a_ è `geometry(get_feature( 'province_rt_rt','pk_uid','46'))`
-* _geometry b_ è `$geometry`
+* _geometry1_ è `geometry(get_feature( 'province_rt_rt','pk_uid','46'))`
+* _geometry2_ è `$geometry`
 
 
 ![](../../img/geometria/contains/contains2.png)
