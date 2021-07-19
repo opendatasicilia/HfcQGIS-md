@@ -13,25 +13,10 @@ Sintassi:
 
 - $area
 
-Esempi:
+!!! Example "Esempi"
+	* $area → 131196498,619546
 
-Aggiungere un campo _area_mq_ e lo popolare con la funzione _$area_:
-
-1. selezionare un layer vettoriale di tipo poligonale;
-2. clic sull'icona del calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
-
-![](../../img/geometria/area/area002.png)
-
-1. di default è sempre spuntato;
-2. digitare il nome del campo _area_mq_;
-3. il tipo di campo di uscita in questo caso è _numero decimale (Double)_, definire la lunghezza del campo;
-4. ricercare la funzione digitando _area_;
-5. doppio clic sulla funzione **$area** per inserirlo;
-6. clic su **OK** per eseguire.
-
-![](../../img/geometria/area/area004.png)
-
-nell'esempio ho usato un vettore poligonale con EPSG 3004 (sistema proiettato, unità metro):  la superficie di ogni elemento è in metri quadrati come evidenziato nella tabella attributi
+![](../../img/geometria/area/area1.png)
 
 !!! Danger "Nota bene"
     se il _<span style="color:red;">SR del progetto</span>_ in cui si sta calcolando l'area (**$area**) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) allora l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del progetto</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe _**gradi**_ e quindi poco comprensibile e valori piccoli (0.00001).
