@@ -1444,12 +1444,10 @@ Osservazioni:
 ## hausdorff_distance
 
 !!! Note "Definizione"
-	**Restituisce la distanza di _Hausdorff_ tra due geometrie. Questa è in sostanza una misura di come le 2 geometrie sono simili o dissimili: una distanza più bassa indica geometrie più simili. La funzione può essere eseguita con un argomento opzionale di densificazione della frazione. Se non viene specificato, viene utilizzata una approssimazione alla distanza standard di Hausdorff. Questa approssimazione è esatta o abbastanza vicina per un grande sottoinsieme di casi utili. Esempi di questi sono: 
-
+	Restituisce la distanza di _Hausdorff_ tra due geometrie. Questa è in sostanza una misura di come le 2 geometrie sono simili o dissimili: una distanza più bassa indica geometrie più simili. La funzione può essere eseguita con un argomento opzionale di densificazione della frazione. Se non viene specificato, viene utilizzata una approssimazione alla distanza standard di Hausdorff. Questa approssimazione è esatta o abbastanza vicina per un grande sottoinsieme di casi utili. Esempi di questi sono: 
   * calcolare la distanza tra Linestrings che sono approssimativamente paralleli tra loro e sono sostanzialmente uguali in lunghezza. Ciò si verifica nelle verifica di reti lineari. 
   * testare la somiglianza di geometrie. 
-
-	Se l'approssimazione predefinita fornita da questo metodo è insufficiente, specifica l'argomento opzionale di densificazione della frazione. Specificando questo argomento si esegue una densificazione del segmento prima di calcolare la distanza Hausdorff discreta. Il parametro imposta la frazione con cui densificare ogni segmento. Ogni segmento sarà suddiviso in un numero di subsegmenti di uguale lunghezza, la cui frazione della lunghezza totale è la più vicina alla frazione data. Riducendo il parametro di densificazione della frazione, la distanza restituita si avvicinerà alla vera distanza Hausdorff per le geometrie.**
+	Se l'approssimazione predefinita fornita da questo metodo è insufficiente, specifica l'argomento opzionale di densificazione della frazione. Specificando questo argomento si esegue una densificazione del segmento prima di calcolare la distanza Hausdorff discreta. Il parametro imposta la frazione con cui densificare ogni segmento. Ogni segmento sarà suddiviso in un numero di subsegmenti di uguale lunghezza, la cui frazione della lunghezza totale è la più vicina alla frazione data. Riducendo il parametro di densificazione della frazione, la distanza restituita si avvicinerà alla vera distanza Hausdorff per le geometrie.
 
 Sintassi:
 
@@ -3250,7 +3248,8 @@ Osservazioni:
 
 ## perimeter
 
-Calcola il perimetro di un oggetto a geometria poligonale. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura della lunghezza restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione [$perimeter](#perimeter), la quale esegue calcoli ellissoidali basati sull'ellissoide del progetto e sulle impostazioni delle unità di misura della distanza.
+!!! Note "Definizione"
+	**Calcola il perimetro di un oggetto a geometria poligonale. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura della lunghezza restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione [$perimeter](#perimeter), la quale esegue calcoli ellissoidali basati sull'ellissoide del progetto e sulle impostazioni delle unità di misura della distanza.**
 
 Sintassi:
 
@@ -3276,7 +3275,8 @@ Osservazioni:
 
 ## point_n
 
-Restituisce un nodo specifico da una geometria.
+!!! Note "Definizione"
+	**Restituisce un nodo specifico da una geometria.**
 
 Sintassi:
 
@@ -3314,7 +3314,8 @@ Esempi: correlati
 
 ## point_on_surface
 
-Restituisce un punto garantendo che sia giacente sulla superficie della geometria.
+!!! Note "Definizione"
+	**Restituisce un punto garantendo che sia giacente sulla superficie della geometria.**
 
 Sintassi:
 
@@ -3344,7 +3345,8 @@ Osservazioni:
 
 ## pole_of_inaccessibility
 
-Calcola il polo dell'inaccessibilità approssimato per una superficie, che è il punto interno più distante dal contorno della superficie. Questa funzione usa l'algoritmo 'polylabel' (Vladimir Agafonkin, 2016), che è un approccio iterativo garantito per trovare il vero polo dell'inaccessibilità all'interno di una tolleranza specificata. Tolleranze più precise richiedono più iterazioni e sarà necessario più tempo per il calcolo.
+!!! Note "Definizione"
+	**Calcola il polo dell'inaccessibilità approssimato per una superficie, che è il punto interno più distante dal contorno della superficie. Questa funzione usa l'algoritmo 'polylabel' (Vladimir Agafonkin, 2016), che è un approccio iterativo garantito per trovare il vero polo dell'inaccessibilità all'interno di una tolleranza specificata. Tolleranze più precise richiedono più iterazioni e sarà necessario più tempo per il calcolo.**
 
 Sintassi:
 
@@ -3375,7 +3377,8 @@ Osservazioni:
 
 ## project
 
-Restituisce un punto proiettato da un punto di partenza usando una distanza e una direzione di immersione (azimut) in radianti.
+!!! Note "Definizione"
+	**Restituisce un punto proiettato da un punto di partenza usando una distanza e una direzione di immersione (azimut) in radianti.**
 
 Sintassi:
 
@@ -3410,7 +3413,8 @@ Osservazioni:
 
 ## relate
 
-Testa la rappresentazione Dimensional Extended 9 Intersection [Model (DE-9IM)](https://en.wikipedia.org/wiki/DE-9IM) della relazione tra due geometrie.
+!!! Note "Definizione"
+	**Testa la rappresentazione Dimensional Extended 9 Intersection [Model (DE-9IM)](https://en.wikipedia.org/wiki/DE-9IM) della relazione tra due geometrie.**
 
 ### Variabile di relazione
 
@@ -3469,7 +3473,8 @@ Link utili:
 
 ## reverse
 
-Inverte il verso di una linestring invertendo l'ordine dei sui vertici
+!!! Note "Definizione"
+	**Inverte il verso di una linestring invertendo l'ordine dei sui vertici.**
 
 Sintassi:
 
@@ -3499,7 +3504,8 @@ Osservazioni:
 
 ## rotate
 
-Restituisce una versione ruotata di una geometria. I calcoli si trovano nel sistema di riferimento spaziale di questa geometria.
+!!! Note "Definizione"
+	**Restituisce una versione ruotata di una geometria. I calcoli si trovano nel sistema di riferimento spaziale di questa geometria.**
 
 Sintassi:
 
@@ -3532,7 +3538,8 @@ Osservazioni:
 
 ## segments_to_lines
 
-Restituisce una geometria multi linea consistente in una linea per ogni segmento nella geometria in ingresso.
+!!! Note "Definizione"
+	**Restituisce una geometria multi linea consistente in una linea per ogni segmento nella geometria in ingresso.**
 
 Sintassi:
 
@@ -3558,7 +3565,8 @@ Osservazioni:
 
 ## shortest_line
 
-Restituisce la linea più corta che unisce la geometria 1 alla geometria 2. La linea risultante partirà dalla geometria 1 e finirà nella geometria 2.
+!!! Note "Definizione"
+	**Restituisce la linea più corta che unisce la geometria 1 alla geometria 2. La linea risultante partirà dalla geometria 1 e finirà nella geometria 2.**
 
 Sintassi:
 
@@ -3591,7 +3599,8 @@ Osservazioni:
 
 ## simplify
 
-Semplifica una geometria rimuovendo nodi usando una soglia basata sulla distanza (cioè, l'algoritmo Douglas Peucker). L'algoritmo mantiene grandi deviazioni nelle geometrie e riduce il numero di vertici in segmenti quasi rettilinei.
+!!! Note "Definizione"
+	**Semplifica una geometria rimuovendo nodi usando una soglia basata sulla distanza (cioè, l'algoritmo Douglas Peucker). L'algoritmo mantiene grandi deviazioni nelle geometrie e riduce il numero di vertici in segmenti quasi rettilinei.**
 
 Sintassi:
 
@@ -3618,7 +3627,8 @@ Osservazioni:
 
 ## simplify_vw
 
-Semplifica una geometria rimuovendo nodi usando una soglia basata sull'area (cioè, l'algoritmo Visvalingam-Whyatt ). L'algoritmo rimuove i vertici che creano piccole aree nelle geometrie, ad esempio picchi stretti o segmenti quasi rettilinei.
+!!! Note "Definizione"
+	**Semplifica una geometria rimuovendo nodi usando una soglia basata sull'area (cioè, l'algoritmo Visvalingam-Whyatt ). L'algoritmo rimuove i vertici che creano piccole aree nelle geometrie, ad esempio picchi stretti o segmenti quasi rettilinei.**
 
 Sintassi:
 
@@ -3649,7 +3659,8 @@ Osservazioni:
 
 ## single_sided_buffer
 
-Restituisce una geometria formata facendo un buffer solo da un lato di una geometria di tipo linestring. Le distanze sono espresse nel SR di tale geometria.
+!!! Note "Definizione"
+	**Restituisce una geometria formata facendo un buffer solo da un lato di una geometria di tipo linestring. Le distanze sono espresse nel SR di tale geometria.**
 
 Sintassi:
 
@@ -3688,7 +3699,8 @@ Osservazioni:
 
 ## smooth
 
-Smussa una geometria con l'aggiunta di ulteriori nodi che arrotondano gli angoli nella geometria.
+!!! Note "Definizione"
+	**Smussa una geometria con l'aggiunta di ulteriori nodi che arrotondano gli angoli nella geometria.**
 
 Sintassi:
 
@@ -3716,7 +3728,8 @@ Osservazioni:
 
 ## start_point
 
-Restituisce il primo nodo di una geometria.
+!!! Note "Definizione"
+	**Restituisce il primo nodo di una geometria.**
 
 Sintassi:
 
@@ -3752,7 +3765,8 @@ Start_point di geometria lineare:
 
 ## sym_difference
 
-Restituisce una geometria che rappresenta la porzione di due geometrie che non si interseca.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta la porzione di due geometrie che non si interseca.**
 
 Sintassi:
 
@@ -3771,22 +3785,21 @@ Esempi:
 
 ![](../../img/geometria/sym_difference/sym_difference3.png)
 
-Espressione:
-
-```
--- differenza simmetrica tra le due linee
-sym_difference( 
-make_line(  -- linea a
-	start_point(geometry(get_feature_by_id('linea_a',0))), 
-	start_point($geometry),
-	end_point(geometry(get_feature_by_id('linea_a',0)))),
-make_line(  -- linea b
-	start_point($geometry), 
-	end_point(geometry(get_feature_by_id('linea_a',0))),
-	end_point($geometry))
-				)
--- NB: -- l' ordine delle geometrie è indifferente
-```
+!!! Tip "Espressione"
+	```
+	-- differenza simmetrica tra le due linee
+	sym_difference( 
+	make_line(  -- linea a
+		start_point(geometry(get_feature_by_id('linea_a',0))), 
+		start_point($geometry),
+		end_point(geometry(get_feature_by_id('linea_a',0)))),
+	make_line(  -- linea b
+		start_point($geometry), 
+		end_point(geometry(get_feature_by_id('linea_a',0))),
+		end_point($geometry))
+					)
+	-- NB: -- l' ordine delle geometrie è indifferente
+	```
 
 prova tu:
 
@@ -3806,7 +3819,8 @@ Osservazioni:
 
 ## tapered_buffer
 
-Crea un buffer lungo una geometria della linea in cui il diametro del buffer varia in modo uniforme sulla lunghezza della linea.
+!!! Note "Definizione"
+	**Crea un buffer lungo una geometria della linea in cui il diametro del buffer varia in modo uniforme sulla lunghezza della linea.**
 
 Sintassi:
 
@@ -3844,7 +3858,8 @@ Osservazioni:
 
 ## touches
 
-Verifica se una geometria tocca un'altra. Restituisce vero (1) se le geometrie hanno almeno un punto in comune, ma i loro interni non si intersecano.
+!!! Note "Definizione"
+	**Verifica se una geometria tocca un'altra. Restituisce vero (1) se le geometrie hanno almeno un punto in comune, ma i loro interni non si intersecano.**
 
 Sintassi:
 
@@ -3895,7 +3910,8 @@ seleziono tutti i comuni `touches` (toccati) dalla provincia con `pk_uid`46 (Sie
 
 ## transform
 
-Restituisce la geometria trasformata da un SR sorgente ad un SR di destinazione.
+!!! Note "Definizione"
+	**Restituisce la geometria trasformata da un SR sorgente ad un SR di destinazione.**
 
 Sintassi:
 
@@ -3927,7 +3943,8 @@ Osservazioni:
 
 ## translate
 
-Restituisce una versione traslata di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce una versione traslata di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -3959,7 +3976,8 @@ Osservazioni:
 
 ## union
 
-Restituisce una geometria che rappresenta l'insieme dei punti dell'unione delle geometrie.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta l'insieme dei punti dell'unione delle geometrie.**
 
 Sintassi:
 
@@ -3978,22 +3996,21 @@ Esempi:
 
 ![](../../img/geometria/union/union3.png)
 
-Espressione:
-
-```
--- unione delle due linee
-union( 
-make_line(  -- linea a
-	start_point(geometry(get_feature_by_id('linea_a',0))), 
-	start_point($geometry),
-	end_point(geometry(get_feature_by_id('linea_a',0)))),
-make_line(  -- linea b
-	start_point($geometry), 
-	end_point(geometry(get_feature_by_id('linea_a',0))),
-	end_point($geometry))
-				)
--- NB: -- l' ordine delle geometrie è indifferente
-```
+!!! Tip "Espressione"
+	```
+	-- unione delle due linee
+	union( 
+	make_line(  -- linea a
+		start_point(geometry(get_feature_by_id('linea_a',0))), 
+		start_point($geometry),
+		end_point(geometry(get_feature_by_id('linea_a',0)))),
+	make_line(  -- linea b
+		start_point($geometry), 
+		end_point(geometry(get_feature_by_id('linea_a',0))),
+		end_point($geometry))
+					)
+	-- NB: -- l' ordine delle geometrie è indifferente
+	```
 
 prova tu:
 
@@ -4013,7 +4030,8 @@ Osservazioni:
 
 ## wedge_buffer
 
-Restituisce un buffer a forma di cuneo che origina da una geometria del punto.
+!!! Note "Definizione"
+	**Restituisce un buffer a forma di cuneo che origina da una geometria del punto.**
 
 Sintassi:
 
@@ -4049,7 +4067,8 @@ Osservazioni:
 
 ## within
 
-Controlla qualora una geometria sia interna ad un'altra. Restituisce  1 (vero) se la _geometria a_ è completamente contenuta nella_ geometria b_.
+!!! Note "Definizione"
+	**Controlla qualora una geometria sia interna ad un'altra. Restituisce  1 (vero) se la _geometria a_ è completamente contenuta nella_ geometria b_.**
 
 Sintassi:
 
@@ -4095,13 +4114,14 @@ seleziono tutti i comuni `within` (contenuti) nella provincia con `pk_uid`53 (Gr
 
 Altro esempio con condizione sulle etichette
 
-```
-CASE WHEN within( $geometry,
-geometry(get_feature('poligono','id',1))) = 1
-THEN 'INTERNO'
-ELSE 'NON INTERNO'
-END
-```
+!!! Tip "Espressione"
+	```
+	CASE WHEN within( $geometry,
+	geometry(get_feature('poligono','id',1))) = 1
+	THEN 'INTERNO'
+	ELSE 'NON INTERNO'
+	END
+	```
 
 ![](../../img/geometria/within/within2.png)
 
@@ -4109,7 +4129,8 @@ END
 
 ## x
 
-Restituisce la minima coordinata x di una geometria punto, o la coordinata x del centroide di una geometria non puntuale.
+!!! Note "Definizione"
+	**Restituisce la minima coordinata x di una geometria punto, o la coordinata x del centroide di una geometria non puntuale.**
 
 Sintassi:
 
@@ -4140,7 +4161,8 @@ Osservazioni:
 
 ## x_max
 
-Restituisce la coordinata x massima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata x massima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -4170,7 +4192,8 @@ Osservazioni:
 
 ## x_min
 
-Restituisce la coordinata x minima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata x minima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -4200,7 +4223,8 @@ Osservazioni:
 
 ## y
 
-Restituisce la coordinata y minima di una geometria puntuale, o la coordinata y del centroide di una geometria non puntuale.
+!!! Note "Definizione"
+	**Restituisce la coordinata y minima di una geometria puntuale, o la coordinata y del centroide di una geometria non puntuale.**
 
 Sintassi:
 
@@ -4231,7 +4255,8 @@ Osservazioni:
 
 ## y_max
 
-Restituisce la coordinata y massima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata y massima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -4261,7 +4286,8 @@ Osservazioni:
 
 ## y_min
 
-Restituisce la coordinata y minima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata y minima di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -4291,7 +4317,8 @@ Osservazioni:
 
 ## z
 
-Restituisce la coordinata z di una geometria puntuale.
+!!! Note "Definizione"
+	**Restituisce la coordinata z di una geometria puntuale.**
 
 Sintassi:
 
@@ -4317,7 +4344,8 @@ Osservazioni:
 
 ## z_max
 
-Restituisce la coordinata z massima di una geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata z massima di una geometria.**
 
 Sintassi:
 
@@ -4351,7 +4379,8 @@ Osservazioni:
 
 ## z_min
 
-Restituisce la coordinata z minima di una geometria.
+!!! Note "Definizione"
+	**Restituisce la coordinata z minima di una geometria.**
 
 Sintassi:
 
