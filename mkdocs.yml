@@ -299,7 +299,7 @@ nav:
             # - mime_type:  gr_funzioni/generale/mime_type.md
             # - var:  gr_funzioni/generale/var.md
             # - with_variable:  gr_funzioni/generale/with_variable.md  
-       - Lat e Lon Tools: gr_funzioni/lat_long_tools/lat_lon_tools_unico.md
+       - Lat e Lon Tools: gr_funzioni/lat_lon_tools/lat_lon_tools_unico.md
             # - Elenco: gr_funzioni/lat_long_tools/lat_long_tools.md
             # - bla bla: bla.md
        - Geometria: gr_funzioni/geometria/geometria_unico.md
