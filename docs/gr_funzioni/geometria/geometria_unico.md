@@ -49,7 +49,8 @@ Sintassi:
 
 ## $length
 
-Restituisce la lunghezza di una linestring. Se hai bisogno della lunghezza del bordo di un poligono, utilizza invece [$perimeter](#perimeter). La lunghezza calcolata da questa funzione rispetta le impostazioni sia dell'ellissoide sia delle unità di misura del progetto corrente. Per esempio, se è stato impostato un ellissoide per il progetto allora la lunghezza calcolata sarà ellisoidica altrimenti se non è stato impostato alcun ellissoide la lunghezza calcolata sarà planimetrica.
+!!! Note "Definizione"
+	**Restituisce la lunghezza di una linestring. Se hai bisogno della lunghezza del bordo di un poligono, utilizza invece [$perimeter](#perimeter). La lunghezza calcolata da questa funzione rispetta le impostazioni sia dell'ellissoide sia delle unità di misura del progetto corrente. Per esempio, se è stato impostato un ellissoide per il progetto allora la lunghezza calcolata sarà ellisoidica altrimenti se non è stato impostato alcun ellissoide la lunghezza calcolata sarà planimetrica.**
 
 Sintassi:
 
@@ -82,7 +83,8 @@ Queste modofiche non valgono per l'etichettatura, la lunghezza sarà quella rela
 
 ## $perimeter
 
-Restituisce la lunghezza del perimetro della geometria corrente. Il perimetro calcolato da questa funzione rispetta le impostazioni sia dell'ellissoide sia delle unità di misura del progetto corrente. Per esempio, se è stato impostato un ellissoide per il progetto allora il perimetro calcolato sarà ellisoidico altrimenti se non è stato impostato alcun ellissoide il perimetro calcolato sarà planimetrico.
+!!! Note "Definizione"
+	**Restituisce la lunghezza del perimetro della geometria corrente. Il perimetro calcolato da questa funzione rispetta le impostazioni sia dell'ellissoide sia delle unità di misura del progetto corrente. Per esempio, se è stato impostato un ellissoide per il progetto allora il perimetro calcolato sarà ellisoidico altrimenti se non è stato impostato alcun ellissoide il perimetro calcolato sarà planimetrico.**
 
 Sintassi:
 
@@ -108,7 +110,8 @@ Osservazioni:
 
 ## $x
 
-Restituisce la coordinata x della geometria corrente.
+!!! Note "Definizione"
+	**Restituisce la coordinata x della geometria corrente.**
 
 Sintassi:
 
@@ -134,7 +137,8 @@ Per ottenere le coordinate x o y occorre utilizzare una combinazione di funzioni
 
 ## $x_at
 
-Recupera una coordinata x per la geometria dell'elemento corrente.
+!!! Note "Definizione"
+	**Recupera una coordinata x per la geometria dell'elemento corrente.**
 
 Sintassi:
 
@@ -162,7 +166,8 @@ Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre
 
 ## $y
 
-Restituisce la coordinata y della geometria corrente.
+!!! Note "Definizione"
+	**Restituisce la coordinata y della geometria corrente.**
 
 Sintassi:
 
@@ -188,7 +193,8 @@ Per ottenere le coordinate x o y occorre utilizzare una combinazione di funzioni
 
 ## $y_at
 
-Recupera una coordinata y per la geometria dell'elemento corrente.
+!!! Note "Definizione"
+	**Recupera una coordinata y per la geometria dell'elemento corrente.**
 
 Sintassi:
 
@@ -216,7 +222,8 @@ Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre
 
 ## angle_at_vertex
 
-Restituisce l'angolo della bisettrice (angolo medio) della geometria per un vertice specifico di una geometria di tipo linestring. Gli angoli sono in gradi in senso orario dal nord.
+!!! Note "Definizione"
+	**Restituisce l'angolo della bisettrice (angolo medio) della geometria per un vertice specifico di una geometria di tipo linestring. Gli angoli sono in gradi in senso orario dal nord.**
 
 Sintassi:
 
@@ -247,7 +254,8 @@ Osservazioni:
 
 ## area
 
-Restituisce l'area di un oggetto a geometria poligonale. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura dell'area restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione $area, la quale esegue calcoli ellisoidici basati sull'ellissoide del progetto e sulle impostazioni delle unità di misura dell'area.
+!!! Note "Definizione"
+	**Restituisce l'area di un oggetto a geometria poligonale. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura dell'area restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione $area, la quale esegue calcoli ellisoidici basati sull'ellissoide del progetto e sulle impostazioni delle unità di misura dell'area.**
 
 Sintassi:
 
@@ -276,7 +284,8 @@ in generale `area($geometry) <> $area`
 
 ## Azimuth
 
-Restituisce l'azimut dal nord quale angolo in radianti misurato in senso orario dalla verticale del punto_a al punto_b.
+!!! Note "Definizione"
+	**Restituisce l'azimut dal nord quale angolo in radianti misurato in senso orario dalla verticale del punto_a al punto_b.**
 
 Sintassi:
 
@@ -310,7 +319,8 @@ Nota bene:
 
 ## boundary
 
-Restituisce l'area minima della combinazione dei confini della geometria (cioè il confine topologico della geometria). Per esempio, una geometria poligonale avrà un confine costituito dalle linee di ogni anello nel poligono. Alcuni tipi di geometrie non hanno confini, es collezioni di punti o geometrie e pertanto verrà restituito null.
+!!! Note "Definizione"
+	**Restituisce l'area minima della combinazione dei confini della geometria (cioè il confine topologico della geometria). Per esempio, una geometria poligonale avrà un confine costituito dalle linee di ogni anello nel poligono. Alcuni tipi di geometrie non hanno confini, es collezioni di punti o geometrie e pertanto verrà restituito null.**
 
 Sintassi:
 
@@ -344,7 +354,8 @@ funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geomet
 
 ## bounds
 
-Restituisce la geometria che rappresenta il perimetro di delimitazione di una geometria in ingresso. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la geometria che rappresenta il perimetro di delimitazione di una geometria in ingresso. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -378,7 +389,8 @@ funzione molto utile per la tematizzazione aggiungendo un nuovo layer con geomet
 
 ## bounds_height
 
-Restituisce l'altezza del perimetro di delimitazione di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce l'altezza del perimetro di delimitazione di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -411,7 +423,8 @@ La funzione restituisce un numero che corrisponde all'altezza del rettangolo di 
 
 ## bounds_width
 
-Restituisce la larghezza del perimetro di delimitazione di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.
+!!! Note "Definizione"
+	**Restituisce la larghezza del perimetro di delimitazione di una geometria. I calcoli sono effettuati nel sistema di riferimento spaziale di tale geometria.**
 
 Sintassi:
 
@@ -441,7 +454,8 @@ La funzione restituisce un numero che corrisponde alla larghezza del rettangolo 
 
 ## buffer
 
-Restituisce una geometria che rappresenta tutti i punti la cui distanza dalla geometria è minore o uguale alla distanza inserita. I calcoli vengono effettuati nel sistema di riferimento spaziale della geometria.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta tutti i punti la cui distanza dalla geometria è minore o uguale alla distanza inserita. I calcoli vengono effettuati nel sistema di riferimento spaziale della geometria.**
 
 Sintassi:
 
@@ -477,7 +491,8 @@ Osservazioni:
 
 ## buffer_by_m
 
-Crea un _buffer_ lungo una geometria _linestring_ in cui il diametro del buffer varia in base ai valori _m_ nei vertici della linea.
+!!! Note "Definizione"
+	**Crea un _buffer_ lungo una geometria _linestring_ in cui il diametro del buffer varia in base ai valori _m_ nei vertici della linea.**
 
 Sintassi:
 
@@ -515,7 +530,8 @@ Osservazioni:
 
 ## centroid
 
-Restituisce il centro geometrico di una geometria.
+!!! Note "Definizione"
+	**Restituisce il centro geometrico di una geometria.**
 
 Sintassi:
 
@@ -546,7 +562,8 @@ Nota bene:
 
 ## close_line
 
-Restituisce una linestring chiusa della linestring di input aggiungendo il primo punto alla fine della linea, se non è già chiusa. Se la geometria non è una linestring o una MultiLinestring, il risultato sarà NULL.
+!!! Note "Definizione"
+	**Restituisce una linestring chiusa della linestring di input aggiungendo il primo punto alla fine della linea, se non è già chiusa. Se la geometria non è una linestring o una MultiLinestring, il risultato sarà NULL.**
 
 Sintassi:
 
@@ -575,7 +592,8 @@ Osservazioni:
 
 ## closest_point
 
-Restituisce il punto sulla geometria1 che è più vicino alla geometria2.
+!!! Note "Definizione"
+	**Restituisce il punto sulla geometria1 che è più vicino alla geometria2.**
 
 Sintassi:
 
@@ -614,7 +632,8 @@ Gif animata: _geometry 1_ è la rete stradale; _geometry 2_ sono i punti; in ros
 
 ## collect_geometries
 
-Raccoglie un set di geometrie in un oggetto geometria multiparte.
+!!! Note "Definizione"
+	**Raccoglie un set di geometrie in un oggetto geometria multiparte.**
 
 ### Variante geometry
 
@@ -661,7 +680,8 @@ Osservazioni:
 
 ## combine
 
-Restituisce la combinazione di due geometrie.
+!!! Note "Definizione"
+	**Restituisce la combinazione di due geometrie.**
 
 Sintassi:
 
@@ -691,7 +711,8 @@ Osservazioni:
 
 ## contains
 
-Verifica se una geometria ne contiene un'altra. Restituisce vero se e solo se nessun punto di geometry2 giace all'esterno di geometry1 e almeno un punto dell'interno di geometry2 si trova all'interno di geometry1.
+!!! Note "Definizione"
+	**Verifica se una geometria ne contiene un'altra. Restituisce vero se e solo se nessun punto di geometry2 giace all'esterno di geometry1 e almeno un punto dell'interno di geometry2 si trova all'interno di geometry1.**
 
 Sintassi:
 
@@ -741,7 +762,8 @@ seleziono tutti i comuni `contains` (contenuti) nella provincia con `pk_uid`46 (
 
 ## convex_hull
 
-Restituisce il poligono convesso di una geometria. Rappresenta la minima geometria convessa che racchiude tutte le geometria contenute nell'insieme.
+!!! Note "Definizione"
+	**Restituisce il poligono convesso di una geometria. Rappresenta la minima geometria convessa che racchiude tutte le geometria contenute nell'insieme.**
 
 Sintassi:
 
@@ -771,7 +793,8 @@ La funzione restituisce sempre un poligono.
 
 ## crosses
 
-Verifica se una geometria interseca un'altra. Restituisce vero (1) se le geometrie interessate hanno qualche, ma non tutti, punto interno in comune.
+!!! Note "Definizione"
+	**Verifica se una geometria interseca un'altra. Restituisce vero (1) se le geometrie interessate hanno qualche, ma non tutti, punto interno in comune.**
 
 Sintassi:
 
@@ -818,7 +841,8 @@ seleziono tutti i comuni `crosses` (attraversati) dal fiume ARNO
 
 ## difference
 
-Restituisce una geometria che rappresenta la porzione della _geometry_a_ che non interseca la _geometry_b_.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta la porzione della _geometry_a_ che non interseca la _geometry_b_.**
 
 Sintassi:
 
@@ -839,39 +863,41 @@ Esempi:
 
 Espressione:
 
-```
--- differenza linea a - linea b
-difference( 
-make_line(  -- linea a
-	start_point(geometry(get_feature_by_id('linea_a',0))), 
-	start_point($geometry),
-	end_point(geometry(get_feature_by_id('linea_a',0)))),
-make_line(  -- linea b
-	start_point($geometry), 
-	end_point(geometry(get_feature_by_id('linea_a',0))),
-	end_point($geometry))
-				)
--- NB: -- è importante ordine delle geometrie
--- a - b è diverso da b - a
-```
+!!! Tip "Espressione"
+	```
+	-- differenza linea a - linea b
+	difference( 
+	make_line(  -- linea a
+		start_point(geometry(get_feature_by_id('linea_a',0))), 
+		start_point($geometry),
+		end_point(geometry(get_feature_by_id('linea_a',0)))),
+	make_line(  -- linea b
+		start_point($geometry), 
+		end_point(geometry(get_feature_by_id('linea_a',0))),
+		end_point($geometry))
+					)
+	-- NB: -- è importante ordine delle geometrie
+	-- a - b è diverso da b - a
+	```
 
 ![](../../img/geometria/difference/difference32.png)
 
-```
--- differenza linea b - linea a
-difference( 
-make_line( -- linea b
-	start_point($geometry), 
-	end_point(geometry(get_feature_by_id('linea_a',0))),
-	end_point($geometry)),
-make_line(  -- linea a
-	start_point(geometry(get_feature_by_id('linea_a',0))), 
-	start_point($geometry),
-	end_point(geometry(get_feature_by_id('linea_a',0))))
-				)
--- NB: -- è importante ordine delle geometrie
--- a - b è diverso da b - a
-```
+!!! Tip "Espressione"
+	```
+	-- differenza linea b - linea a
+	difference( 
+	make_line( -- linea b
+		start_point($geometry), 
+		end_point(geometry(get_feature_by_id('linea_a',0))),
+		end_point($geometry)),
+	make_line(  -- linea a
+		start_point(geometry(get_feature_by_id('linea_a',0))), 
+		start_point($geometry),
+		end_point(geometry(get_feature_by_id('linea_a',0))))
+					)
+	-- NB: -- è importante ordine delle geometrie
+	-- a - b è diverso da b - a
+	```
 
 prova tu:
 
@@ -893,7 +919,8 @@ Esempio di sopra:
 
 ## disjoint
 
-Controlla qualora una geometria non ne interseca spazialmente un'altra. Restituisce true (1) se le geometrie non condividono nessuno spazio comune.
+!!! Note "Definizione"
+	**Controlla qualora una geometria non ne interseca spazialmente un'altra. Restituisce true (1) se le geometrie non condividono nessuno spazio comune.**
 
 Sintassi:
 
@@ -937,7 +964,8 @@ seleziono tutti i comuni `disjoint` (disgiunti) dal fiume ARNO
 
 ## distance
 
-Restituisce la distanza minima (basata su riferimento spaziale) tra due geometrie in unità proiettate.
+!!! Note "Definizione"
+	**Restituisce la distanza minima (basata su riferimento spaziale) tra due geometrie in unità proiettate.**
 
 Sintassi:
 
@@ -967,7 +995,8 @@ Osservazioni:
 
 ## distance_to_vertex
 
-Restituisce la distanza lungo una geometria ad un vertice specificato.
+!!! Note "Definizione"
+	**Restituisce la distanza lungo una geometria ad un vertice specificato.**
 
 Sintassi:
 
@@ -1001,7 +1030,8 @@ esempio di sopra:
 
 ## end_point
 
-Restituisce l'ultimo nodo di una geometria.
+!!! Note "Definizione"
+	**Restituisce l'ultimo nodo di una geometria.**
 
 Sintassi:
 
@@ -1037,7 +1067,8 @@ End_point di geometria lineare:
 
 ## extend
 
-Estende l'inizio e la fine di una geometria di tipo linestring di una quantità specificata. Le linee sono estese usando la direzione di immersione del primo e dell'ultimo segmento nella linea. Le distanze sono espresse nel SR di tale geometria.
+!!! Note "Definizione"
+	**Estende l'inizio e la fine di una geometria di tipo linestring di una quantità specificata. Le linee sono estese usando la direzione di immersione del primo e dell'ultimo segmento nella linea. Le distanze sono espresse nel SR di tale geometria.**
 
 Sintassi:
 
@@ -1073,7 +1104,8 @@ Osservazioni:
 
 ## exterior_ring
 
-Restituisce una linestring che rappresenta l'anello esterno di una geometria poligonale. Se la geometria non è un poligono, il risultato sarà NULL.
+!!! Note "Definizione"
+	**Restituisce una linestring che rappresenta l'anello esterno di una geometria poligonale. Se la geometria non è un poligono, il risultato sarà NULL.**
 
 Sintassi:
 
@@ -1104,7 +1136,8 @@ Osservazioni:
 
 ## extrude
 
-Restituisce una versione estrusa della geometria (Multi-)Curve o (Multi-)Linestring in ingresso, con un'estensione specificata da x e y.
+!!! Note "Definizione"
+	**Restituisce una versione estrusa della geometria (Multi-)Curve o (Multi-)Linestring in ingresso, con un'estensione specificata da x e y.**
 
 Sintassi:
 
@@ -1138,7 +1171,8 @@ Nell'esempio ho utilizzato la funzione [boundary()](boundary.md) perché la geom
 
 ## flip_coordinates
 
-Restituisce una copia della geometria con le coordinate x e y scambiate. Utile per riparare le geometrie che hanno invertito i valori di latitudine e longitudine.
+!!! Note "Definizione"
+	**Restituisce una copia della geometria con le coordinate x e y scambiate. Utile per riparare le geometrie che hanno invertito i valori di latitudine e longitudine.**
 
 Sintassi:
 
@@ -1174,7 +1208,8 @@ il flip è da usare con cautela perché cambia radicalemnte la posizione del vet
 
 ## force_rhr
 
-Forza una geometria a rispettare la regola della mano destra, in cui l'area delimitata da un poligono si trova a destra del limite. In particolare, l'anello esterno è orientato in senso orario e l'interno in senso antiorario.
+!!! Note "Definizione"
+	**Forza una geometria a rispettare la regola della mano destra, in cui l'area delimitata da un poligono si trova a destra del limite. In particolare, l'anello esterno è orientato in senso orario e l'interno in senso antiorario.**
 
 Sintassi:
 
@@ -1204,7 +1239,8 @@ Ecco un esempio pratico della funzione (presente anche nelgli strumenti fi proce
 
 ## geom_from_gml
 
-Restituisce una geometria da una rappresentazione GML di una geometria.
+!!! Note "Definizione"
+	**Restituisce una geometria da una rappresentazione GML di una geometria.**
 
 Sintassi:
 
@@ -1230,7 +1266,8 @@ Osservazioni:
 
 ## geom_from_wkb
 
-Restituisce una geometria creata da una rappresentazione binaria ben nota (WKB).
+!!! Note "Definizione"
+	**Restituisce una geometria creata da una rappresentazione binaria ben nota (WKB).**
 
 Sintassi:
 
@@ -1258,7 +1295,8 @@ Osservazioni:
 
 ## geom_from_wkt
 
-Restituisce una geometria creata da una rappresentazione Well-Known Text (WKT).
+!!! Note "Definizione"
+	**Restituisce una geometria creata da una rappresentazione Well-Known Text (WKT).**
 
 Sintassi:
 
@@ -1285,7 +1323,8 @@ Osservazioni:
 
 ## geom_to_wkb
 
-Restituisce la rappresentazione binaria ben nota (WKB) di una geometria come BLOB binario.
+!!! Note "Definizione"
+	**Restituisce la rappresentazione binaria ben nota (WKB) di una geometria come BLOB binario.**
 
 Sintassi:
 
@@ -1311,7 +1350,8 @@ Osservazioni:
 
 ## geom_to_wkt
 
-Restituisce la rappresentazione Well-Known Text (WKT) della geometria senza metadati del SR
+!!! Note "Definizione"
+	**Restituisce la rappresentazione Well-Known Text (WKT) della geometria senza metadati del SR**
 
 Sintassi:
 
@@ -1341,7 +1381,8 @@ Osservazioni:
 
 ## geometry
 
-Restituisce la geometria di un elemento.
+!!! Note "Definizione"
+	**Restituisce la geometria di un elemento.**
 
 Sintassi:
 
@@ -1374,7 +1415,8 @@ Usando il **Select by Expression**: selezionare le feature di un layer (quartier
 
 ## geometry_n
 
-Restituisce una geometria specifica da una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.
+!!! Note "Definizione"
+	**Restituisce una geometria specifica da una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.**
 
 Sintassi:
 
@@ -1401,13 +1443,13 @@ Osservazioni:
 
 ## hausdorff_distance
 
-Restituisce la distanza di _Hausdorff_ tra due geometrie. Questa è in sostanza una misura di come le 2 geometrie sono simili o dissimili: una distanza più bassa indica geometrie più simili. 
-La funzione può essere eseguita con un argomento opzionale di densificazione della frazione. Se non viene specificato, viene utilizzata una approssimazione alla distanza standard di Hausdorff. Questa approssimazione è esatta o abbastanza vicina per un grande sottoinsieme di casi utili. Esempi di questi sono: 
+!!! Note "Definizione"
+	**Restituisce la distanza di _Hausdorff_ tra due geometrie. Questa è in sostanza una misura di come le 2 geometrie sono simili o dissimili: una distanza più bassa indica geometrie più simili. La funzione può essere eseguita con un argomento opzionale di densificazione della frazione. Se non viene specificato, viene utilizzata una approssimazione alla distanza standard di Hausdorff. Questa approssimazione è esatta o abbastanza vicina per un grande sottoinsieme di casi utili. Esempi di questi sono: 
 
-* calcolare la distanza tra Linestrings che sono approssimativamente paralleli tra loro e sono sostanzialmente uguali in lunghezza. Ciò si verifica nelle verifica di reti lineari. 
-* testare la somiglianza di geometrie. 
+  * calcolare la distanza tra Linestrings che sono approssimativamente paralleli tra loro e sono sostanzialmente uguali in lunghezza. Ciò si verifica nelle verifica di reti lineari. 
+  * testare la somiglianza di geometrie. 
 
-Se l'approssimazione predefinita fornita da questo metodo è insufficiente, specifica l'argomento opzionale di densificazione della frazione. Specificando questo argomento si esegue una densificazione del segmento prima di calcolare la distanza Hausdorff discreta. Il parametro imposta la frazione con cui densificare ogni segmento. Ogni segmento sarà suddiviso in un numero di subsegmenti di uguale lunghezza, la cui frazione della lunghezza totale è la più vicina alla frazione data. Riducendo il parametro di densificazione della frazione, la distanza restituita si avvicinerà alla vera distanza Hausdorff per le geometrie.
+	Se l'approssimazione predefinita fornita da questo metodo è insufficiente, specifica l'argomento opzionale di densificazione della frazione. Specificando questo argomento si esegue una densificazione del segmento prima di calcolare la distanza Hausdorff discreta. Il parametro imposta la frazione con cui densificare ogni segmento. Ogni segmento sarà suddiviso in un numero di subsegmenti di uguale lunghezza, la cui frazione della lunghezza totale è la più vicina alla frazione data. Riducendo il parametro di densificazione della frazione, la distanza restituita si avvicinerà alla vera distanza Hausdorff per le geometrie.**
 
 Sintassi:
 
@@ -1421,9 +1463,11 @@ Argomenti:
 
 Esempi:
 
-* `hausdorff_distance( geometry1:= geom_from_wkt('LINESTRING (0 0, 2 1)'),geometry2:=geom_from_wkt('LINESTRING (0 0, 2 0)')) → 2`
-* `hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)')) → 14.142135623`
-* `hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)'),0.5) → 70.0`
+```
+* hausdorff_distance( geometry1:= geom_from_wkt('LINESTRING (0 0, 2 1)'),geometry2:=geom_from_wkt('LINESTRING (0 0, 2 0)')) → 2
+* hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)')) → 14.142135623
+* hausdorff_distance( geom_from_wkt('LINESTRING (130 0, 0 0, 0 150)'),geom_from_wkt('LINESTRING (10 10, 10 150, 130 10)'),0.5) → 70.0
+```
 
 ![](../../img/geometria/hausdorff_distance/hausdorff_distance1.png)
 
@@ -1435,19 +1479,20 @@ Osservazioni:
 
 --
 
-Nel caso di geometrie puntuali la `hausdorff_distance` coincide con la funzione `distance`, segue un esempio:
+Nel caso di geometrie puntuali la [hausdorff_distance](#hausdorff_distance) coincide con la funzione [distance](#distance), segue un esempio:
 
-```
-format_number(
-hausdorff_distance( 
-transform($geometry,'EPSG:4326','EPSG:3004'), 
-transform(geometry(get_feature('fontanelle','n',1)),'EPSG:4326','EPSG:3004'))/1000,4) || ' km'  
-|| '\n'|| 
-format_number(
-distance( 
-transform($geometry,'EPSG:4326','EPSG:3004'), 
-transform(geometry(get_feature('fontanelle','n',1)),'EPSG:4326','EPSG:3004'))/1000,4) || ' km'
-```
+!!! Tip "Espressione"
+	```
+	format_number(
+	hausdorff_distance( 
+	transform($geometry,'EPSG:4326','EPSG:3004'), 
+	transform(geometry(get_feature('fontanelle','n',1)),'EPSG:4326','EPSG:3004'))/1000,4) || ' km'  
+	|| '\n'|| 
+	format_number(
+	distance( 
+	transform($geometry,'EPSG:4326','EPSG:3004'), 
+	transform(geometry(get_feature('fontanelle','n',1)),'EPSG:4326','EPSG:3004'))/1000,4) || ' km'
+	```
 
 ![](../../img/geometria/hausdorff_distance/hausdorff_distance3.png)
 
@@ -1461,7 +1506,8 @@ In questo esempio confronto due layer: il numero più piccolo indica il poligono
 
 ## inclination
 
-Restituisce l'inclinazione misurata dallo zenit (0) al nadir (180) del _punto_a_ al _punto_b_.
+!!! Note "Definizione"
+	**Restituisce l'inclinazione misurata dallo zenit (0) al nadir (180) del _punto_a_ al _punto_b_.**
 
 Sintassi:
 
@@ -1495,7 +1541,8 @@ Osservazioni:
 
 ## interior_ring_n
 
-Restituisce un anello interno specifico da una geometria poligonale, o null se la geometria non è un poligono.
+!!! Note "Definizione"
+	**Restituisce un anello interno specifico da una geometria poligonale, o null se la geometria non è un poligono.**
 
 Sintassi:
 
@@ -1526,7 +1573,8 @@ Restituisce una lineastring!!!
 
 ## intersection
 
-Restituisce una geometria che rappresenta la porzione condivisa fra le due geometrie.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta la porzione condivisa fra le due geometrie.**
 
 Sintassi:
 
@@ -1548,22 +1596,21 @@ Esempi:
 
 ![](../../img/geometria/intersection/intersection3.png)
 
-Espressione:
-
-```
--- intersezione tra le due linee
-intersection( 
-make_line( -- linea a
-	start_point($geometry), 
-	end_point(geometry(get_feature_by_id('linea_a',0))),
-	end_point($geometry)),
-make_line(  -- linea b
-	start_point(geometry(get_feature_by_id('linea_a',0))), 
-	start_point($geometry),
-	end_point(geometry(get_feature_by_id('linea_a',0))))
-				)
--- NB: -- l' ordine delle geometrie è indifferente
-```
+!!! Tip "Espressione"
+	```
+	-- intersezione tra le due linee
+	intersection( 
+	make_line( -- linea a
+		start_point($geometry), 
+		end_point(geometry(get_feature_by_id('linea_a',0))),
+		end_point($geometry)),
+	make_line(  -- linea b
+		start_point(geometry(get_feature_by_id('linea_a',0))), 
+		start_point($geometry),
+		end_point(geometry(get_feature_by_id('linea_a',0))))
+					)
+	-- NB: -- l' ordine delle geometrie è indifferente
+	```
 
 prova tu:
 
@@ -1583,7 +1630,8 @@ Osservazioni:
 
 ## intersects
 
-Controlla qualora una geometria ne interseca un'altra. Restituisce true (1) se la geometrie si intersecano spazialmente (condividono una porzione di spazio) altrimenti da false (0).
+!!! Note "Definizione"
+	**Controlla qualora una geometria ne interseca un'altra. Restituisce true (1) se la geometrie si intersecano spazialmente (condividono una porzione di spazio) altrimenti da false (0).**
 
 Sintassi:
 
@@ -1631,7 +1679,8 @@ seleziono tutti i comuni `intersects` (interseca) nella provincia con `pk_uid`46
 
 ## intersects_bbox
 
-Controlla se il perimetro di delimitazione della geometria si sovrappone a quello di un'altra geometria. Restituisce vero (1) se le geometrie intersecano spazialmente il perimetro di delimitazione definito e falso (0) se non lo intersecano.
+!!! Note "Definizione"
+	**Controlla se il perimetro di delimitazione della geometria si sovrappone a quello di un'altra geometria. Restituisce vero (1) se le geometrie intersecano spazialmente il perimetro di delimitazione definito e falso (0) se non lo intersecano.**
 
 Sintassi:
 
@@ -1659,7 +1708,8 @@ Osservazioni:
 
 ## is_closed
 
-Restituisce vero (true) se una linestring è chiusa (i punti di inizio e di fine coincidono), o falso (false) se una linestring non è chiusa. Se la geometria non è una linestring, il risultato sarà NULL.
+!!! Note "Definizione"
+	**Restituisce vero (true) se una linestring è chiusa (i punti di inizio e di fine coincidono), o falso (false) se una linestring non è chiusa. Se la geometria non è una linestring, il risultato sarà NULL.**
 
 Sintassi:
 
@@ -1690,7 +1740,8 @@ Osservazioni:
 
 ## is_empty
 
-Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty_or_null`.
+!!! Note "Definizione"
+	**Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty_or_null`.**
 
 Sintassi:
 
@@ -1721,7 +1772,8 @@ Osservazioni:
 
 ## is_empty_or_null
 
-Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty_or_null_or_null`.
+!!! Note "Definizione"
+	**Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty_or_null_or_null`.**
 
 Sintassi:
 
@@ -1752,7 +1804,8 @@ Osservazioni:
 
 ## is_multipart
 
-Restituisce vero se la geometria è di tipo Multi.
+!!! Note "Definizione"
+	**Restituisce vero se la geometria è di tipo Multi.**
 
 Sintassi:
 
@@ -1779,7 +1832,8 @@ Osservazioni:
 
 ## is_valid
 
-Restituisce vero se una geometria è valida; se è ben formato in 2D secondo le regole **OGC**
+!!! Note "Definizione"
+	**Restituisce vero se una geometria è valida; se è ben formato in 2D secondo le regole **OGC****
 
 Sintassi:
 
@@ -1806,7 +1860,8 @@ Osservazioni:
 
 ## length
 
-Restituisce il numero di caratteri in una stringa o la lunghezza di una geometria di tipo linestring.
+!!! Note "Definizione"
+	**Restituisce il numero di caratteri in una stringa o la lunghezza di una geometria di tipo linestring.**
 
 ### Variabile stringa
 
@@ -1854,7 +1909,8 @@ Osservazioni:
 
 ## length3D
 
-Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione [$length](#length), che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.
+!!! Note "Definizione"
+	**Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione [$length](#length), che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.**
 
 Sintassi:
 
@@ -1881,7 +1937,8 @@ Osservazioni:
 
 ## line_interpolate_angle
 
-Restituisce l'angolo parallelo alla geometria ad una distanza specifica lungo una geometria di tipo linestring. Gli angoli sono in gradi in senso orario dal nord.
+!!! Note "Definizione"
+	**Restituisce l'angolo parallelo alla geometria ad una distanza specifica lungo una geometria di tipo linestring. Gli angoli sono in gradi in senso orario dal nord.**
 
 Sintassi:
 
@@ -1912,7 +1969,8 @@ Osservazioni:
 
 ## line_interpolate_point
 
-Restituisce il punto interpolato ad una specifica distanza lungo una geometria di tipo linestring.
+!!! Note "Definizione"
+	**Restituisce il punto interpolato ad una specifica distanza lungo una geometria di tipo linestring.**
 
 Sintassi:
 
@@ -1943,7 +2001,8 @@ Osservazioni:
 
 ## line_locate_point
 
-Restituisce la distanza lungo una linestring corrispondente alla posizione più vicina alla linestring di una geometria puntuale specificata.
+!!! Note "Definizione"
+	**Restituisce la distanza lungo una linestring corrispondente alla posizione più vicina alla linestring di una geometria puntuale specificata.**
 
 Sintassi:
 
@@ -1970,7 +2029,8 @@ Osservazioni:
 
 ## line_merge
 
-Restituisce una geometria di tipo LineString o MultiLineString, dove qualsiasi LineString connessa dalla geometria in ingresso è stata fusa (merge) in una linestring singola. Questa funzione restituirà `NULL` se la geometria considerata non è una LineString/MultiLineString.
+!!! Note "Definizione"
+	**Restituisce una geometria di tipo LineString o MultiLineString, dove qualsiasi LineString connessa dalla geometria in ingresso è stata fusa (merge) in una linestring singola. Questa funzione restituirà `NULL` se la geometria considerata non è una LineString/MultiLineString.**
 
 Sintassi:
 
@@ -2001,7 +2061,8 @@ Osservazioni:
 
 ## line_substring
 
-Restituisce la porzione di una geometria di linea (o curva) che rientra tra le distanze iniziale e finale specificate (misurata dall'inizio della linea). I valori Z e M sono linearmente interpolati dai valori esistenti.
+!!! Note "Definizione"
+	**Restituisce la porzione di una geometria di linea (o curva) che rientra tra le distanze iniziale e finale specificate (misurata dall'inizio della linea). I valori Z e M sono linearmente interpolati dai valori esistenti.**
 
 Sintassi:
 
@@ -2036,7 +2097,8 @@ Funzione utile per la tematizzazione
 
 ## m
 
-Restituisce il valore m di una geometria puntuale.
+!!! Note "Definizione"
+	**Restituisce il valore m di una geometria puntuale.**
 
 Sintassi:
 
@@ -2062,7 +2124,8 @@ Osservazioni:
 
 ## m_max
 
-Restituisce il valore minimo m (misura) di una geometria.
+!!! Note "Definizione"
+	**Restituisce il valore minimo m (misura) di una geometria.**
 
 Sintassi:
 
@@ -2091,7 +2154,8 @@ Osservazioni:
 
 ## m_min
 
-Restituisce il valore minimo m (misura) di una geometria.
+!!! Note "Definizione"
+	**Restituisce il valore minimo m (misura) di una geometria.**
 
 Sintassi:
 
@@ -2118,7 +2182,8 @@ Osservazioni:
 
 ## main_angle
 
-Restituisce l'angolo principale di una geometria (senso orario, in gradi dal Nord), il quale rappresenta l'angolo dell'orientamento del rettangolo minimo che copre completamente la geometria.
+!!! Note "Definizione"
+	**Restituisce l'angolo principale di una geometria (senso orario, in gradi dal Nord), il quale rappresenta l'angolo dell'orientamento del rettangolo minimo che copre completamente la geometria.**
 
 Sintassi:
 
@@ -2146,7 +2211,8 @@ Osservazioni:
 
 ## make_circle
 
-Crea un poligono circolare.
+!!! Note "Definizione"
+	**Crea un poligono circolare.**
 
 Sintassi:
 
@@ -2182,7 +2248,8 @@ Osservazioni:
 
 ## make_ellipse
 
-Crea un poligono ellittico.
+!!! Note "Definizione"
+	**Crea un poligono ellittico.**
 
 Sintassi:
 
@@ -2218,7 +2285,8 @@ Osservazioni:
 
 ## make_line
 
-Crea una geometria linea da una serie di geometrie punto.
+!!! Note "Definizione"
+	**Crea una geometria linea da una serie di geometrie punto.**
 
 Sintassi:
 
@@ -2253,16 +2321,15 @@ Esempi:o
 
 ![](../../img/geometria/make_line/make_line3.png)
 
-**Espressione usata**
-
-```
-make_line(
-array(geometry(
-	get_feature_by_id('fontanelle_Palermo',$id))),
-array(geometry(
-	get_feature_by_id('fontanelle_Palermo',not $id%2)))
-		) 
-```
+!!! Tip "Espressione"
+	```
+	make_line(
+	array(geometry(
+		get_feature_by_id('fontanelle_Palermo',$id))),
+	array(geometry(
+		get_feature_by_id('fontanelle_Palermo',not $id%2)))
+			) 
+	```
 
 Nota bene:
 
@@ -2278,7 +2345,8 @@ Osservazioni:
 
 ## make_point
 
-Crea una geometria punto da valori x ed y (e opzionalmente z ed m).
+!!! Note "Definizione"
+	**Crea una geometria punto da valori x ed y (e opzionalmente z ed m).**
 
 Sintassi:
 
@@ -2307,7 +2375,8 @@ Osservazioni:
 
 ## make_point_m
 
-Crea una geometria punto da una coordinata x, y ed un valore m.
+!!! Note "Definizione"
+	**Crea una geometria punto da una coordinata x, y ed un valore m.**
 
 Sintassi:
 
@@ -2335,7 +2404,8 @@ Osservazioni:
 
 ## make_polygon
 
-Crea una geometria poligono da un'anello esterno e opzionalmente da geometrie ad anello interne.
+!!! Note "Definizione"
+	**Crea una geometria poligono da un'anello esterno e opzionalmente da geometrie ad anello interne.**
 
 Sintassi:
 
@@ -2364,7 +2434,8 @@ Osservazioni:
 
 ## make_rectangle_3points
 
-Crea un rettangolo da 3 punti.
+!!! Note "Definizione"
+	**Crea un rettangolo da 3 punti.**
 
 Sintassi:
 
@@ -2398,7 +2469,8 @@ Osservazioni:
 
 ## make_regular_polygon
 
-Crea un poligono regolare.
+!!! Note "Definizione"
+	**Crea un poligono regolare.**
 
 Sintassi:
 
@@ -2434,7 +2506,8 @@ Osservazioni:
 
 ## make_square
 
-Crea un quadrato da una diagonale.
+!!! Note "Definizione"
+	**Crea un quadrato da una diagonale.**
 
 Sintassi:
 
@@ -2462,7 +2535,8 @@ Osservazioni:
 
 ## make_triangle
 
-Crea un poligono triangolare
+!!! Note "Definizione"
+	**Crea un poligono triangolare**
 
 Sintassi:
 
@@ -2491,7 +2565,8 @@ Osservazioni:
 
 ## minimal_circle
 
-Restituisce la circonferenza circoscritta minima di una geometria. Rappresenta il cerchio minimo che circoscrive tutte le geometrie presenti in un dataset.
+!!! Note "Definizione"
+	**Restituisce la circonferenza circoscritta minima di una geometria. Rappresenta il cerchio minimo che circoscrive tutte le geometrie presenti in un dataset.**
 
 Sintassi:
 
@@ -2525,7 +2600,8 @@ Osservazioni:
 
 ## nodes_to_points
 
-Restituisce una geometria multi-punti costituita da ogni nodo della geometria in ingresso.
+!!! Note "Definizione"
+	**Restituisce una geometria multi-punti costituita da ogni nodo della geometria in ingresso.**
 
 Sintassi:
 
@@ -2557,7 +2633,8 @@ Osservazioni:
 
 ## num_geometries
 
-Restituisce il numero di geometrie in una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.
+!!! Note "Definizione"
+	**Restituisce il numero di geometrie in una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.**
 
 Sintassi:
 
@@ -2584,7 +2661,8 @@ Osservazioni:
 
 ## num_interior_rings
 
-Restituisce il numero di anelli interni in un poligono o in una raccolta di geometrie, o null se la geometria in ingresso non è un poligono o una raccolta.
+!!! Note "Definizione"
+	**Restituisce il numero di anelli interni in un poligono o in una raccolta di geometrie, o null se la geometria in ingresso non è un poligono o una raccolta.**
 
 Sintassi:
 
@@ -2614,7 +2692,8 @@ Osservazioni:
 
 ## num_points
 
-Restituisce il numero di vertici in una geometria.
+!!! Note "Definizione"
+	**Restituisce il numero di vertici in una geometria.**
 
 Sintassi:
 
@@ -2640,7 +2719,8 @@ Osservazioni:
 
 ## num_rings
 
-Restituisce il numero di anelli (includendo anche anelli esterni) in un poligono o in una raccolta di geometrie, o null se la geometria in ingresso non è un poligono o una raccolta.
+!!! Note "Definizione"
+	**Restituisce il numero di anelli (includendo anche anelli esterni) in un poligono o in una raccolta di geometrie, o null se la geometria in ingresso non è un poligono o una raccolta.**
 
 Sintassi:
 
@@ -2670,7 +2750,8 @@ Osservazioni:
 
 ## offset_curve
 
-Restituisce una geometria formata facendo l'offset di una geometria di tipo linestring a lato. Le distanze sono espresse nel SR di tale geometria.
+!!! Note "Definizione"
+	**Restituisce una geometria formata facendo l'offset di una geometria di tipo linestring a lato. Le distanze sono espresse nel SR di tale geometria.**
 
 Sintassi:
 
@@ -2709,7 +2790,8 @@ La linea è scostata a sinistra o destra rispetto al verso della linea:
 
 ## order_parts
 
-Ordina le parti di una MultiGeometria secondo un dato criterio
+!!! Note "Definizione"
+	**Ordina le parti di una MultiGeometria secondo un dato criterio**
 
 Sintassi:
 
@@ -2740,7 +2822,8 @@ Osservazioni:
 
 ## oriented_bbox
 
-Restituisce una geometria che rappresenta il perimetro di delimitazione minimo orientato di una geometria.
+!!! Note "Definizione"
+	**Restituisce una geometria che rappresenta il perimetro di delimitazione minimo orientato di una geometria.**
 
 Sintassi:
 
@@ -2770,7 +2853,8 @@ Osservazioni:
 
 ## overlaps
 
-Controlla qualora una geometria si sovrapponga ad un'altra. Restituisce true (1) se le geometrie condividono aree, ma non sono completamente contenute una nell'altra.
+!!! Note "Definizione"
+	**Controlla qualora una geometria si sovrapponga ad un'altra. Restituisce true (1) se le geometrie condividono aree, ma non sono completamente contenute una nell'altra.**
 
 Sintassi:
 
@@ -2818,9 +2902,8 @@ seleziono tutti i comuni `overlaps` (sovrapposti) al cerchio in figura.
 
 ## overlay_contains
 
-Restituisce se l'elemento corrente contiene spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target contenuti nell'elemento corrente.
-
-Ulteriori informazioni sul predicato GEOS "Contains" sottostante, come descritto nella funzione PostGIS [ST_CONTAINS](https://postgis.net/docs/ST_Contains.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente contiene spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target contenuti nell'elemento corrente. Ulteriori informazioni sul predicato GEOS "Contains" sottostante, come descritto nella funzione PostGIS [ST_CONTAINS](https://postgis.net/docs/ST_Contains.html).**
 
 Sintassi:
 
@@ -2862,9 +2945,8 @@ Osservazioni:
 
 ## overlay_crosses
 
-Restituisce se l'elemento corrente attraversa spazialmente almeno un elemento di un layer target o un array di risultati basati su espressioni per gli elementi nel layer target attraversati dall'elemento corrente.
-
-Ulteriori informazioni sul predicato GEOS "Crosses" sottostante, come descritto nella funzione PostGIS [ST_Crosses](https://postgis.net/docs/ST_Crosses.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente attraversa spazialmente almeno un elemento di un layer target o un array di risultati basati su espressioni per gli elementi nel layer target attraversati dall'elemento corrente. Ulteriori informazioni sul predicato GEOS "Crosses" sottostante, come descritto nella funzione PostGIS [ST_Crosses](https://postgis.net/docs/ST_Crosses.html).**
 
 Sintassi:
 
@@ -2906,9 +2988,8 @@ Osservazioni:
 
 ## overlay_disjoint
 
-Restituisce se l'elemento corrente è spazialmente disgiunto da tutti gli elementi di un layer target, o un array di risultati basati su espressione per gli elementi nel layer target che sono disgiunti dall'elemento corrente. 
-
-Ulteriori informazioni sul sottostante predicato GEOS "Disjoint", come descritto nella funzione PostGIS [ST_Disjoint](https://postgis.net/docs/ST_Disjoint.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente è spazialmente disgiunto da tutti gli elementi di un layer target, o un array di risultati basati su espressione per gli elementi nel layer target che sono disgiunti dall'elemento corrente. Ulteriori informazioni sul sottostante predicato GEOS "Disjoint", come descritto nella funzione PostGIS [ST_Disjoint](https://postgis.net/docs/ST_Disjoint.html).**
 
 Sintassi:
 
@@ -2950,9 +3031,8 @@ Osservazioni:overlay_disjoint
 
 ## overlay_equals
 
-Restituisce se l'elemento corrente è spazialmente uguale ad almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target che sono spazialmente uguali all'elemento corrente.
-
-Ulteriori informazioni sul predicato GEOS "Equals" sottostante, come descritto nella funzione PostGIS [ST_Equals](https://postgis.net/docs/ST_Equals.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente è spazialmente uguale ad almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target che sono spazialmente uguali all'elemento corrente. Ulteriori informazioni sul predicato GEOS "Equals" sottostante, come descritto nella funzione PostGIS [ST_Equals](https://postgis.net/docs/ST_Equals.html).**
 
 Sintassi:
 
@@ -2994,9 +3074,8 @@ Osservazioni:
 
 ## overlay_intersects
 
-Restituisce se l'elemento corrente interseca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target intersecati dall'elemento corrente.
-
-Ulteriori informazioni sul predicato GEOS "Intersects" sottostante, come descritto nella funzione PostGIS [ST_INTERSECTS](https://postgis.net/docs/ST_Intersects.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente interseca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target intersecati dall'elemento corrente. Ulteriori informazioni sul predicato GEOS "Intersects" sottostante, come descritto nella funzione PostGIS [ST_INTERSECTS](https://postgis.net/docs/ST_Intersects.html).**
 
 Sintassi:
 
@@ -3038,9 +3117,8 @@ Osservazioni:
 
 ## overlay_nearest
 
-Restituisce se l'elemento corrente ha elementi da un layer target entro una data distanza o un array di risultati basati su espressioni per gli elementi nel layer di target entro una distanza dall'elemento corrente.
-
-Nota: questa funzione può essere lenta e consuma molta memoria per layer con molte feature.
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente ha elementi da un layer target entro una data distanza o un array di risultati basati su espressioni per gli elementi nel layer di target entro una distanza dall'elemento corrente. Nota: questa funzione può essere lenta e consuma molta memoria per layer con molte feature.**
 
 Sintassi:
 
@@ -3085,9 +3163,8 @@ Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distan
 
 ## overlay_touches
 
-Restituisce se l'elemento corrente tocca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target toccati dall'elemento corrente.
-
-Leggi ulteriori informazioni sul predicato GEOS "Touches", come descritto nella funzione PostGIS [ST_TOUCHES](https://postgis.net/docs/ST_Touches.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente tocca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target toccati dall'elemento corrente. Leggi ulteriori informazioni sul predicato GEOS "Touches", come descritto nella funzione PostGIS [ST_TOUCHES](https://postgis.net/docs/ST_Touches.html).**
 
 Sintassi:
 
@@ -3130,9 +3207,8 @@ Osservazioni:
 
 ## overlay_within
 
-Restituisce se l'elemento corrente è spazialmente all'interno di almeno un elemento da layer destinazione, o un array di risultati basati su espressione per gli elementi nel layer destinazione che contengono l'elemento corrente. 
-
-Ulteriori informazioni sul sottostante predicato GEOS "Within", come descritto nella funzione PostGIS [ST_WITHIN](https://postgis.net/docs/ST_Within.html).
+!!! Note "Definizione"
+	**Restituisce se l'elemento corrente è spazialmente all'interno di almeno un elemento da layer destinazione, o un array di risultati basati su espressione per gli elementi nel layer destinazione che contengono l'elemento corrente. Ulteriori informazioni sul sottostante predicato GEOS "Within", come descritto nella funzione PostGIS [ST_WITHIN](https://postgis.net/docs/ST_Within.html).**
 
 Sintassi:
 
