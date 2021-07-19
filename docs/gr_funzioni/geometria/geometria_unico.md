@@ -4,6 +4,11 @@
 !!! Abstract
 	**Questo gruppo contiene funzioni che operano sugli oggetti geometrici es: _lunghezza_, _area_.**
 
+
+[$area](#area) - [$geometry](#geometry) - [$length](#length) - [$perimeter](#perimeter) - [$x](#x) - [$x_at](#x_at) - [$y](#y) - [$y_at](#y_at) - [angle_at_vertex](#angle_at_vertex) - [area](#area) - [Azimuth](#azimuth) - [boundary](#boundary) - [bounds](#bounds) - [bounds_height](#bounds_height) - [bounds_width](#bounds_width) - [buffer](#buffer) - [buffer_by_m](#buffer_by_m) - [centroid](#centroid) - [close_line](#close_line) - [closest_point](#closest_point) - [collect_geometries](#collect_geometries) - [combine](#combine) - [contains](#contains) - [convex_hull](#convex_hull) - [crosses](#crosses) - [difference](#difference) - [disjoint](#disjoint) - [distance](#distance) - [distance_to_vertex](#distance_to_vertex) - [end_point](#end_point) - [extend](#extend) - [exterior_ring](#exterior_ring) - [extrude](#extrude) - [flip_coordinates](#flip_coordinates) - [force_rhr](#force_rhr) - [geom_from_gml](#geom_from_gml) - [geom_from_wkb](#geom_from_wkb) - [geom_from_wkt](#geom_from_wkt) - [geom_to_wkb](#geom_to_wkb) - [geom_to_wkt](#geom_to_wkt) - [geometry](#geometry) - [geometry_n](#geometry_n) - [hausdorff_distance](#hausdorff_distance) - [inclination](#inclination) - [interior_ring_n](#interior_ring_n) - [intersection](#intersection) - [intersects](#intersects) - [intersects_bbox](#intersects_bbox) - [is_closed](#is_closed) - [is_empty](#is_empty) - [is_empty_or_null](#is_empty_or_null) - [is_multipart](#is_multipart) - [is_valid](#is_valid) - [length](#length) - [length3D](#length3d) - [line_interpolate_angle](#line_interpolate_angle) - [line_interpolate_point](#line_interpolate_point) - [line_locate_point](#line_locate_point) - [line_merge](#line_merge) - [line_substring](#line_substring) - [m](#m) - [m_max](#m_max) - [m_min](#m_min) - [main_angle](#main_angle) - [make_circle](#make_circle) - [make_ellipse](#make_ellipse) - [make_line](#make_line) - [make_point](#make_point) - [make_point_m](#make_point_m) - [make_polygon](#make_polygon) - [make_rectangle_3points](#make_rectangle_3points) - [make_regular_polygon](#make_regular_polygon) - [make_square](#make_square) - [make_triangle](#make_triangle) - [minimal_circle](#minimal_circle) - [nodes_to_points](#nodes_to_points) - [num_geometries](#num_geometries) - [num_interior_rings](#num_interior_rings) - [num_points](#num_points) - [num_rings](#num_rings) - [offset_curve](#offset_curve) - [order_parts](#order_parts) - [oriented_bbox](#oriented_bbox) - [overlaps](#overlaps) - [overlay_contains](#overlay_contains) - [overlay_crosses](#overlay_crosses) - [overlay_disjoint](#overlay_disjoint) - [overlay_equals](#overlay_equals) - [overlay_intersects](#overlay_intersects) - [overlay_nearest](#overlay_nearest) - [overlay_touches](#overlay_touches) - [overlay_within](#overlay_within) - [perimeter](#perimeter) - [point_n](#point_n) - [point_on_surface](#point_on_surface) - [pole_of_inaccessibility](#pole_of_inaccessibility) - [project](#project) - [relate](#relate) - [reverse](#reverse) - [rotate](#rotate) - [segments_to_lines](#segments_to_lines) - [shortest_line](#shortest_line) - [simplify](#simplify) - [simplify_vw](#simplify_vw) - [single_sided_buffer](#single_sided_buffer) - [smooth](#smooth) - [start_point](#start_point) - [sym_difference](#sym_difference) - [tapered_buffer](#tapered_buffer) - [touches](#touches) - [transform](#transform) - [translate](#translate) - [union](#union) - [wedge_buffer](#wedge_buffer) - [within](#within) - [x](#x) - [x_max](#x_max) - [x_min](#x_min) - [y](#y) - [y_max](#y_max) - [y_min](#y_min) - [z](#z) - [z_max](#z_max) - [z_min](#z_min)
+
+---
+
 ## $area
 
 !!! Note "Definizione"
@@ -24,7 +29,9 @@ Sintassi:
     se il _<span style="color:red;">SR del progetto</span>_ in cui si sta calcolando l'area (**$area**) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) allora l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del progetto</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe _**gradi**_ e quindi poco comprensibile e valori piccoli (0.00001).
 
 !!! Warning "Attenzione!"
-	in generale `$area <> area($geometry)`
+	```
+	in generale $area <> area($geometry)
+	```
 
 ---
 
@@ -1766,7 +1773,7 @@ Argomenti:
 
 ![](../../img/geometria/line_locate_point/line_locate_point1.png)
 
---
+---
 
 ## line_merge
 
