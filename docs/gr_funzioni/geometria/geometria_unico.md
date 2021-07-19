@@ -2,12 +2,9 @@
 # Gruppo Geometria
 
 !!! Abstract
-	Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.
+	Questo gruppo contiene funzioni che operano sugli oggetti geometrici es: _lunghezza_, _area_.
 
 ## $area
-
-!!! Note ""
-	Restituisce l'area della geometria corrente. L'area calcolata da questa funzione rispetta sia le impostazioni dell'ellissoide del progetto corrente sia delle unità di misura. Per esempio, se è stato impostato un ellissoide per il progetto allora l'area calcolata sarà ellisoidica altrimenti se non è stato impostato alcun ellissoide l'area calcolata sarà planimetrica.
 
 !!! Note "Definizione"
 	Restituisce l'area della geometria corrente. L'area calcolata da questa funzione rispetta sia le impostazioni dell'ellissoide del progetto corrente sia delle unità di misura. Per esempio, se è stato impostato un ellissoide per il progetto allora l'area calcolata sarà ellisoidica altrimenti se non è stato impostato alcun ellissoide l'area calcolata sarà planimetrica.
@@ -18,7 +15,7 @@ Sintassi:
 
 Esempi:
 
-Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_:
+Aggiungere un campo _area_mq_ e lo popolare con la funzione _$area_:
 
 1. selezionare un layer vettoriale di tipo poligonale;
 2. clic sull'icona del calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
@@ -53,34 +50,14 @@ Sintassi:
 - $geometry
 
 !!! Example "Esempi"
-	```
 	* geomToWKT( $geometry ) → POINT(6 50)
 	* area($geoamtry) → 1234567.89 mq
 	* perimeter($geometry) → 25689.25 m
-	```
-
-!!! Example "Esempi"
-	* geomToWKT( $geometry ) → POINT(6 50)
-	* area($geoamtry) → 1234567.89 mq
-	* perimeter($geometry) → 25689.25 m
-	
-Esempi:
-
-```
-* geomToWKT( $geometry ) → POINT(6 50)
-* area($geoamtry) → 1234567.89 mq
-* perimeter($geometry) → 25689.25 m
-```
 
 ![](../../img/geometria/_geometry/_geometry1.png)
 
-Nota bene:
-
---
-
-Osservazioni:
-
-il $ indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
+!!! Info "Osservazioni"
+	il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
 
 ---
 
