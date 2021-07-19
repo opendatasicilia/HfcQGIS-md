@@ -3200,24 +3200,17 @@ Argomenti:
 [ ] indica componenti opzionali
 
 !!! Example "Esempi"
-
-```
-* overlay_within('regions') → true se l'elemento corrente è spazialmente all'interno di una regione
-* overlay_within('regions', filter:= population > 10000) → vero se l'elemento corrente è spazialmente all'interno di una regione con una popolazione maggiore di 10000
-* overlay_within('regions', name) → un array di nomi, per le regioni contenenti l'elemento corrente
-* array_to_string(overlay_within('regions', name)) → una stringa come lista di nomi separati da virgole, per le regioni che contengono l'elemento corrente
-* overlay_within('regions', name)[0] → una stringa con il nome della regione che contengono l'elemento corrente
-* array_sort(overlay_within(layer:='regions', expression:="name", filter:= population > 10000)) → un array ordinato di nomi, per le regioni contenenti l'elemento corrente e con una popolazione superiore a 10000
-* overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni contenenti l'elemento corrente
-```
+	```
+	* overlay_within('regions') → true se l'elemento corrente è spazialmente all'interno di una regione
+	* overlay_within('regions', filter:= population > 10000) → vero se l'elemento corrente è spazialmente all'interno di una regione con una popolazione maggiore di 10000
+	* overlay_within('regions', name) → un array di nomi, per le regioni contenenti l'elemento corrente
+	* array_to_string(overlay_within('regions', name)) → una stringa come lista di nomi separati da virgole, per le regioni che contengono l'elemento corrente
+	* overlay_within('regions', name)[0] → una stringa con il nome della regione che contengono l'elemento corrente
+	* array_sort(overlay_within(layer:='regions', expression:="name", filter:= population > 10000)) → un array ordinato di nomi, per le regioni contenenti l'elemento corrente e con una popolazione superiore a 10000
+	* overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni contenenti l'elemento corrente
+	```
 
 ![](../../img/geometria/refFunction/overlay_within.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -3235,16 +3228,11 @@ Argomenti:
 * _<span style="color:red;">geometry</span>_ oggetto geometria poligono
 
 !!! Example "Esempi"
-
-* `perimeter(geom_from_wkt('POLYGON((0 0, 4 0, 4 2, 0 2, 0 0))')) → 12.0`
+	```
+	* perimeter(geom_from_wkt('POLYGON((0 0, 4 0, 4 2, 0 2, 0 0))')) → 12.0
+	```
 
 ![](../../img/geometria/perimeter/perimeter1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -3263,17 +3251,11 @@ Argomenti:
 * _<span style="color:red;">index</span>_ indice del nodo da restituire, dove 1 è il primo nodo; se il valore è negativo, l'indice del vertice selezionato sarà il suo conteggio totale meno il valore assoluto
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(point_n(geom_from_wkt('POLYGON((0 0, 4 0, 4 2, 0 2, 0 0))'),2)) → 'Point (4 0)'`
-
+	```
+	* geom_to_wkt(point_n(geom_from_wkt('POLYGON((0 0, 4 0, 4 2, 0 2, 0 0))'),2)) → 'Point (4 0)'
+	```
 
 ![](../../img/geometria/point_n/point_n1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3301,8 +3283,9 @@ Argomenti:
 * _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `point_on_surface($geometry) → una geometria punto`
+	```
+	* point_on_surface($geometry) → una geometria punto
+	```
 
 ![](../../img/geometria/point_on_surface/point_on_surface1.png)
 
@@ -3333,8 +3316,9 @@ Argomenti:
 * _<span style="color:red;">tolerance</span>_ distanza massima tra il punto restituito e la vera posizione del polo
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(pole_of_inaccessibility( geom_from_wkt('POLYGON((0 1,0 9,3 10,3 3, 10 3, 10 1, 0 1))'), 0.1)) → 'Point(1.55, 1.55)'`
+	```
+	* geom_to_wkt(pole_of_inaccessibility( geom_from_wkt('POLYGON((0 1,0 9,3 10,3 3, 10 3, 10 1, 0 1))'), 0.1)) → 'Point(1.55, 1.55)'
+	```
 
 ![](../../img/geometria/pole_of_inaccessibility/pole_of_inaccessibility1.png)
 
@@ -3369,8 +3353,9 @@ Argomenti:
 * _<span style="color:red;">elevation</span>_ angolo di inclinazione in radianti
 
 !!! Example "Esempi"
-
-* `project(make_point(1, 2), 3, radians(270)) → Point(-2, 2)`
+	```
+	* project(make_point(1, 2), 3, radians(270)) → Point(-2, 2)
+	```
 
 ![](../../img/geometria/project/project1.png)
 
@@ -3406,8 +3391,9 @@ Argomenti:
 * _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ) ) → 'FF1F00102'`
+	```
+	* relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ) ) → 'FF1F00102'
+	```
 
 ![](../../img/geometria/relate/relate1.png)
 
@@ -3425,17 +3411,10 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 *  _<span style="color:red;">pattern</span>_ Tratteggio DE-9IM da far corrispondere
 
-!!! Example "Esempi"o
-
-* `relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ), '**1F001**' ) → Vero`
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
+!!! Example "Esempi"
+	```
+	* relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ), '**1F001**' ) → Vero
+	```
 
 ![](../../img/geometria/relate/relate1.png)
 
@@ -3460,8 +3439,9 @@ Argomenti:
 * _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(reverse(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → 'LINESTRING(2 2, 1 1, 0 0)'`
+	```
+	* geom_to_wkt(reverse(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → 'LINESTRING(2 2, 1 1, 0 0)'
+	```
 
 ![](../../img/geometria/reverse/reverse1.png)
 
@@ -3495,17 +3475,12 @@ Argomenti:
 *  _<span style="color:red;">center</span>_ punto centrale di rotazione. Se non specificato, viene utilizzato il centro del perimetro di delimitazione della geometria.
 
 !!! Example "Esempi"
-
-* `rotate($geometry, 45, make_point(4, 5)) → la geometria ruotava di 45 gradi in senso orario attorno al punto (4, 5)`
-* `rotate($geometry, 45) → la geometria ruotava di 45 gradi in senso orario attorno al centro del riquadro di delimitazione`
+	```
+	* rotate($geometry, 45, make_point(4, 5)) → la geometria ruotava di 45 gradi in senso orario attorno al punto (4, 5)
+	* rotate($geometry, 45) → la geometria ruotava di 45 gradi in senso orario attorno al centro del riquadro di delimitazione
+	```
 
 ![](../../img/geometria/rotate/rotate1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ![screen](../../img/novita_312/Image03.png)
 
@@ -3525,16 +3500,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ oggetto geometria
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(segments_to_lines(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → 'MultiLineString ((0 0, 1 1),(1 1, 2 2))'`
+	```
+	* geom_to_wkt(segments_to_lines(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → 'MultiLineString ((0 0, 1 1),(1 1, 2 2))'
+	```
 
 ![](../../img/geometria/segments_to_lines/segments_to_lines1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -3553,16 +3523,11 @@ Argomenti:
 * _<span style="color:red;">geometry2</span>_ geometria _verso_ la quale cercare la linea più corta
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(shortest_line(geom_from_wkt('LINESTRING (20 80, 98 190, 110 180, 50 75 )'),geom_from_wkt('POINT(100 100)'))) → LineString(73.0769 115.384, 100 100)`
+	```
+	* geom_to_wkt(shortest_line(geom_from_wkt('LINESTRING (20 80, 98 190, 110 180, 50 75 )'),geom_from_wkt('POINT(100 100)'))) → LineString(73.0769 115.384, 100 100)
+	```
 
 ![](../../img/geometria/shortest_line/shortest_line1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3587,16 +3552,11 @@ Argomenti:
 * _<span style="color:red;">tolerance</span> deviazione massima dai segmenti rettilinei per i punti da rimuovere
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(simplify(geometry:=geom_from_wkt('LineString(0 0, 5 0.1, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'`
+	```
+	* geom_to_wkt(simplify(geometry:=geom_from_wkt('LineString(0 0, 5 0.1, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'
+	```
 
 ![](../../img/geometria/simplify/simplify1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -3615,16 +3575,11 @@ Argomenti:
 * _<span style="color:red;">tolerance</span>_ una misura dell'area massima creata da un nodo per il nodo da rimuovere
 
 !!! Example "Esempi"
-
-* `geom_from_wkt('LineString(0 0, 5 0, 5.01 10, 5.02 0, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'`
+	```
+	* geom_from_wkt('LineString(0 0, 5 0, 5.01 10, 5.02 0, 10 0)'),tolerance:=5)) → 'LineString(0 0, 10 0)'
+	```
 
 ![](../../img/geometria/simplify_vw/simplify_vw1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3652,19 +3607,14 @@ Argomenti:
 *  _<span style="color:red;">miter_limit</span>_ limite sul rapporto di seghettatura usato per angoli molto appuntiti (solamente quando si usano le unioni seghettate)
 
 !!! Example "Esempi"
-
-* `single_sided_buffer($geometry, 10.5) → linea bufferizzata a sinistra di 10.5 unità`
-* `single_sided_buffer($geometry, -10.5) → linea bufferizzata a destra di 10.5 unità`
-* `single_sided_buffer($geometry, 10.5, segments:=16, join:=1) → linea bufferizzata a sinistra di 10.5 unità, usando più segmenti per risultare in un buffer più morbido`
-* `single_sided_buffer($geometry, 10.5, join:=3) → linea bufferizzata a sinistra di 10.5 unità, usando un'unione smussata`
+	```
+	* single_sided_buffer($geometry, 10.5) → linea bufferizzata a sinistra di 10.5 unità
+	* single_sided_buffer($geometry, -10.5) → linea bufferizzata a destra di 10.5 unità
+	* single_sided_buffer($geometry, 10.5, segments:=16, join:=1) → linea bufferizzata a sinistra di 10.5 unità, usando più segmenti per risultare in un buffer più morbido
+	* single_sided_buffer($geometry, 10.5, join:=3) → linea bufferizzata a sinistra di 10.5 unità, usando un'unione smussata
+	```
 
 ![](../../img/geometria/single_sided_buffer/single_sided_buffer1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3690,14 +3640,11 @@ Argomenti:
 *  _<span style="color:red;">max_angle</span>_ angolo massimo (0-180) da applicare al nodo per la smussatura. Abbassando intenzionalmente l'angolo massimo si abbassa l'arrotondamento sugli angoli della geometria. Per esempio, un valore di 80 gradi preserverà l'angolo nella geometria.
 
 !!! Example "Esempi"
+	```
+	- geom_to_wkt(smooth(geometry:=geom_from_wkt('LineString(0 0, 5 0, 5 5)'),iterations:=1,offset:=0.2,min_length:=-1,max_angle:=180)) → 'LineString (0 0, 4 0, 5 1, 5 5)'
+	```
 
 ![](../../img/geometria/smooth/smooth1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -3715,18 +3662,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ oggetto geometria
 
 !!! Example "Esempi"
-
-* `geom_to_wkt(start_point(geom_from_wkt('LINESTRING(4 0, 4 2, 0 2)'))) → 'Point (4 0)'`
+	```
+	* geom_to_wkt(start_point(geom_from_wkt('LINESTRING(4 0, 4 2, 0 2)'))) → 'Point (4 0)'
+	```
 
 ![](../../img/geometria/start_point/start_point1.png)
-
-Nota bene:
-
---
-
-Osservazioni: _<span style="color:red;">geometry</span>_
-
---
 
 Start_point di geometria poligonale:
 
@@ -3753,8 +3693,9 @@ Argomenti:
 *  _<span style="color:red;">geometry2</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `geom_to_wkt( sym_difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 8 8)' ) ) ) → LINESTRING(5 5, 8 8)`
+	```
+	* geom_to_wkt( sym_difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 8 8)' ) ) ) → LINESTRING(5 5, 8 8)
+	```
 
 ![](../../img/geometria/sym_difference/sym_difference1.png)
 
@@ -3779,12 +3720,6 @@ Argomenti:
 prova tu:
 
 [Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3811,16 +3746,11 @@ Argomenti:
 *  _<span style="color:red;">segments</span>_ numero di segmenti per approssimare le curve del quarto di cerchio nel buffer
 
 !!! Example "Esempi"
-
-* `tapered_buffer(geometry:=geom_from_wkt('LINESTRING(1 2, 4 2)'),start_width:=1,end_width:=2,segments:=8) → Un buffer rastremato che inizia con un diametro di 1 e termina con un diametro di 2 lungo la geometria della linea.`
+	```
+	* tapered_buffer(geometry:=geom_from_wkt('LINESTRING(1 2, 4 2)'),start_width:=1,end_width:=2,segments:=8) → Un buffer rastremato che inizia con un diametro di 1 e termina con un diametro di 2 lungo la geometria della linea.
+	```
 
 ![](../../img/geometria/tapered_buffer/tapered_buffer1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3846,10 +3776,10 @@ Argomenti:
 * _<span style="color:red;">geometry2</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `touches( geom_from_wkt( 'LINESTRING(5 3, 4 4)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → 1`
-* `touches( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) → 0`
-
+	```
+	* touches( geom_from_wkt( 'LINESTRING(5 3, 4 4)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → 1
+	* touches( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) → 0
+	```
 
 ![](../../img/geometria/touches/touches1.png)
 
@@ -3899,8 +3829,9 @@ Argomenti:
 *  _<span style="color:red;">dest_auth_id</span>_ ID del SR destinazione
 
 !!! Example "Esempi"
-
-* `geom_to_wkt( transform( $geometry, 'EPSG:2154', 'EPSG:4326' ) ) → POINT(0 51)`
+	```
+	* geom_to_wkt( transform( $geometry, 'EPSG:2154', 'EPSG:4326' ) ) → POINT(0 51)
+	```
 
 ![](../../img/geometria/transform/transform1.png)
 
@@ -3932,16 +3863,11 @@ Argomenti:
 * _<span style="color:red;">geomdyetry</span>_ delta y
 
 !!! Example "Esempi"
-
-* `translate($geometry, 5, 10) → una geometria dello stesso tipo come l'originale`
+	```
+	* translate($geometry, 5, 10) → una geometria dello stesso tipo come l'originale
+	```
 
 ![](../../img/geometria/translate/translate1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3964,8 +3890,9 @@ Argomenti:
 *  _<span style="color:red;">geometry2</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `geom_to_wkt( union( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) ) → MULTIPOINT(4 4, 5 5)`
+	```
+	* geom_to_wkt( union( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' ) ) ) → MULTIPOINT(4 4, 5 5)
+	```
 
 ![](../../img/geometria/union/union1.png)
 
@@ -3990,12 +3917,6 @@ Argomenti:
 prova tu:
 
 [Dati e progetto qgz](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/DIFFERENCE.zip)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4023,16 +3944,11 @@ Argomenti:
 *  _<span style="color:red;">inner_radius</span>_ raggio interno opzionale per i buffers
 
 !!! Example "Esempi"
-
-* `wedge_buffer(center:=geom_from_wkt('POINT(1 2)'),azimuth:=90,width:=180,outer_radius:=1) → Un buffer a forma di cuneo centrato sul punto (1,2), rivolto verso est, con una larghezza di 180 gradi e raggio esterno di 1.`
+	```
+	* wedge_buffer(center:=geom_from_wkt('POINT(1 2)'),azimuth:=90,width:=180,outer_radius:=1) → Un buffer a forma di cuneo centrato sul punto (1,2), rivolto verso est, con una larghezza di 180 gradi e raggio esterno di 1.
+	```
 
 ![](../../img/geometria/wedge_buffer/wedge_buffer1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4055,9 +3971,10 @@ Argomenti:
 * _<span style="color:red;">geometry2</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `within( geom_from_wkt( 'POINT( 0.5 0.5)' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))' ) ) → 1`
-* `within( geom_from_wkt( 'POINT( 5 5 )' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0 ))' ) ) → 0`
+	```
+	* within( geom_from_wkt( 'POINT( 0.5 0.5)' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))' ) ) → 1
+	* within( geom_from_wkt( 'POINT( 5 5 )' ), geom_from_wkt( 'POLYGON((0 0, 0 1, 1 1, 1 0, 0 0 ))' ) ) → 0
+	```
 
 ![](../../img/geometria/within/within1.png)
 
@@ -4116,9 +4033,10 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `x( geom_from_wkt( 'POINT(2 5)' ) ) → 2`
-* `x( $geometry ) → coordinata x del centroide dell'elemento corrente`
+	```
+	* x( geom_from_wkt( 'POINT(2 5)' ) ) → 2
+	* x( $geometry ) → coordinata x del centroide dell'elemento corrente
+	```
 
 ![](../../img/geometria/x/x1.png)
 
@@ -4148,16 +4066,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `x_max( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 4`
+	```
+	* x_max( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 4
+	```
 
 ![](../../img/geometria/x_max/x_max1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4179,16 +4092,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `x_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 2`
+	```
+	* x_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 2
+	```
 
 ![](../../img/geometria/x_min/x_min1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4210,9 +4118,10 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `y( geom_from_wkt( 'POINT(2 5)' ) ) → 5`
-* `y( $geometry ) → coordinata y del centroide dell'elemento corrente`
+	```
+	* y( geom_from_wkt( 'POINT(2 5)' ) ) → 5
+	* y( $geometry ) → coordinata y del centroide dell'elemento corrente
+	```
 
 ![](../../img/geometria/y/y1.png)
 
@@ -4242,16 +4151,11 @@ Argomenti:
 * _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `y_max( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 8`
+	```
+	* y_max( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 8
+	```
 
 ![](../../img/geometria/y_max/y_max1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4273,16 +4177,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 
 !!! Example "Esempi"
-
-* `y_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 5`
+	```
+	* y_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 5
+	```
 
 ![](../../img/geometria/y_min/y_min1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -4304,16 +4203,11 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria punto
 
 !!! Example "Esempi"
-
-* `z( geom_from_wkt( 'POINTZ(2 5 7)' ) ) → 7`
+	```
+	* z( geom_from_wkt( 'POINTZ(2 5 7)' ) ) → 7
+	```
 
 ![](../../img/geometria/z/z1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 ---
 
@@ -4331,24 +4225,15 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria con z coordinata
 
 !!! Example "Esempi"
-
-```
-* z_max( geom_from_wkt( 'POINT ( 0 0 1 )' ) ) → 1
-* z_max( geom_from_wkt( 'MULTIPOINT ( 0 0 1 , 1 1 3 )' ) ) → 3
-* z_max( make_line( make_point( 0,0,0 ), make_point( -1,-1,-2 ) ) ) → 0
-* z_max( geom_from_wkt( 'LINESTRING( 0 0 0, 1 0 2, 1 1 -1 )' ) ) → 2
-* z_max( geom_from_wkt( 'POINT ( 0 0 )' ) ) → NULL
-```
+	```
+	* z_max( geom_from_wkt( 'POINT ( 0 0 1 )' ) ) → 1
+	* z_max( geom_from_wkt( 'MULTIPOINT ( 0 0 1 , 1 1 3 )' ) ) → 3
+	* z_max( make_line( make_point( 0,0,0 ), make_point( -1,-1,-2 ) ) ) → 0
+	* z_max( geom_from_wkt( 'LINESTRING( 0 0 0, 1 0 2, 1 1 -1 )' ) ) → 2
+	* z_max( geom_from_wkt( 'POINT ( 0 0 )' ) ) → NULL
+	```
 
 ![](../../img/geometria/z_max/z_max1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
 
 ---
 
@@ -4366,21 +4251,12 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria con z coordinata
 
 !!! Example "Esempi"
-
-```
-* z_min( geom_from_wkt( 'POINT ( 0 0 1 )' ) ) → 1
-* z_min( geom_from_wkt( 'MULTIPOINT ( 0 0 1 , 1 1 3 )' ) ) → 1
-* z_min( make_line( make_point( 0,0,0 ), make_point( -1,-1,-2 ) ) ) → -2
-* z_min( geom_from_wkt( 'LINESTRING( 0 0 0, 1 0 2, 1 1 -1 )' ) ) → -1
-* z_min( geom_from_wkt( 'POINT ( 0 0 )' ) ) → NULL
-```
+	```
+	* z_min( geom_from_wkt( 'POINT ( 0 0 1 )' ) ) → 1
+	* z_min( geom_from_wkt( 'MULTIPOINT ( 0 0 1 , 1 1 3 )' ) ) → 1
+	* z_min( make_line( make_point( 0,0,0 ), make_point( -1,-1,-2 ) ) ) → -2
+	* z_min( geom_from_wkt( 'LINESTRING( 0 0 0, 1 0 2, 1 1 -1 )' ) ) → -1
+	* z_min( geom_from_wkt( 'POINT ( 0 0 )' ) ) → NULL
+	```
 
 ![](../../img/geometria/z_min/z_min1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
-
---
