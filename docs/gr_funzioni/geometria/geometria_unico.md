@@ -215,7 +215,7 @@ Argomenti:
 
 Sintassi:
 
-angle_at_vertex(_<span style="color:red;">geometry</span>, <span style="color:red;">vertex</span>_)
+- angle_at_vertex(_<span style="color:red;">geometry</span>, <span style="color:red;">vertex</span>_)
 
 Argomenti:
 
@@ -223,7 +223,9 @@ Argomenti:
 * _<span style="color:red;">vertex</span>_ indice vertice, partendo da 0
 
 !!! Example "Esempi"
-  * `angle_at_vertex(geometry:=geom_from_wkt('LineString(0 0, 10 0, 10 10)'),vertex:=1) → 45.0`
+	```
+	* angle_at_vertex(geometry:=geom_from_wkt('LineString(0 0, 10 0, 10 10)'),vertex:=1) → 45.0
+	```
 
 ![](../../img/geometria/angle_at_vertex/angle_at_vertex1.png)
 
@@ -241,7 +243,7 @@ Argomenti:
 
 Sintassi:
 
-area(_<span style="color:red;">geometry</span>_)
+- area(_<span style="color:red;">geometry</span>_)
 
 Argomenti:
 
@@ -259,10 +261,10 @@ Argomenti:
 !!! Occhio
 	Se il _<span style="color:red;">SR del layer</span>_ in cui si sta calcolando l'area (_**area()**_) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del layer</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe in gradi e quindi poco comprensibile e valori piccoli.
 
-Osservazioni:
-
-in generale `area($geometry) <> $area`
-
+!!! Info "Osservazioni"
+	```
+	in generale area($geometry) <> $area
+	```
 ---
 
 ## Azimuth
@@ -305,7 +307,7 @@ Argomenti:
 
 Sintassi:
 
-boundary(_<span style="color:red;">geometry</span>_)
+- boundary(_<span style="color:red;">geometry</span>_)
 
 Argomenti:
 
@@ -624,7 +626,7 @@ Osservazioni:
 
 Sintassi:
 
-combine(_<span style="color:red;">geometry1</span>, <span style="color:red;">geometry2</span>_)
+- combine(_<span style="color:red;">geometry1</span>, <span style="color:red;">geometry2</span>_)
 
 Argomenti:
 
