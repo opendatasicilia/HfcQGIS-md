@@ -5,8 +5,7 @@ Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghez
 
 ## $area
 
-Restituisce l'area della geometria corrente.
-L'area calcolata da questa funzione rispetta sia le impostazioni dell'ellissoide del progetto corrente sia delle unità di misura.
+Restituisce l'area della geometria corrente. L'area calcolata da questa funzione rispetta sia le impostazioni dell'ellissoide del progetto corrente sia delle unità di misura.
 Per esempio, se è stato impostato un ellissoide per il progetto allora l'area calcolata sarà ellisoidica
 altrimenti se non è stato impostato alcun ellissoide l'area calcolata sarà planimetrica.
 
@@ -16,7 +15,8 @@ Sintassi:
 
 Esempi:
 
-Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_: 
+Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_:
+
 1. selezionare un layer vettoriale di tipo poligonale;
 2. clic sull'icona del calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
 
@@ -33,9 +33,7 @@ Aggiungiamo un campo _area_mq_ e lo popoliamo con la funzione _$area_:
 
 nell'esempio ho usato un vettore poligonale con EPSG 3004 (sistema proiettato, unità metro):  la superficie di ogni elemento è in metri quadrati come evidenziato nella tabella attributi
 
-Nota bene:
-
-!!! Danger
+!!! Danger "Nota bene"
     se il _<span style="color:red;">SR del progetto</span>_ in cui si sta calcolando l'area (**$area**) fosse un sistema proiettato (es:EPSG 3003/4; 32632/33/34 ecc..) allora l'unità di misura sarebbe il metro, invece se il _<span style="color:red;">SR del progetto</span>_ fosse EPSG 4326, cioè un sistema geografico, allora l'unità di misura dell'area sarebbe _**gradi**_ e quindi poco comprensibile e valori piccoli (0.00001).
 
 Osservazioni:
@@ -88,7 +86,7 @@ Esempi:
 
 Nota bene:
 
-Come evidenziano nella definizione della funzione, `$length` calcola la lunghezza rispettando le impostazioni di progetto:
+Come evidenziano nella definizione della funzione, [$length](#length) calcola la lunghezza rispettando le impostazioni di progetto:
 
 ![](../../img/geometria/_length/_length2.png)
 
@@ -123,7 +121,7 @@ Esempi:
 Nota bene:
 
 !!! Nota
-    Si utilizza SOLO per i poligoni, nel caso di feature lineari [\$length ]($length.md)
+    Si utilizza SOLO per i poligoni, nel caso di feature lineari [$length ](#length)
 
 Osservazioni:
 
@@ -1853,7 +1851,7 @@ Esempi:
 
 ### Variabile geometria
 
-Calcola la lunghezza di un oggetto a geometria lineare. I calcoli sono sempre _planimetrici_ nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura della lunghezza restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione [$length]($length.md), la quale esegue calcoli _ellissoidici_ basati sull'ellissoide del progetto e sulle impostazioni delle unità di distanza.
+Calcola la lunghezza di un oggetto a geometria lineare. I calcoli sono sempre _planimetrici_ nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura della lunghezza restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione [$length](#length), la quale esegue calcoli _ellissoidici_ basati sull'ellissoide del progetto e sulle impostazioni delle unità di distanza.
 
 Sintassi:
 
@@ -1879,7 +1877,7 @@ Osservazioni:
 
 ## length3D
 
-Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione [\$length]($length.md), che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.
+Calcola la lunghezza 3D di un oggetto linea geometrica. Se la geometria non è un oggetto linea 3D, restituisce la sua lunghezza 2D. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di questa geometria, e le unità della lunghezza restituita corrisponderanno alle unità per l'SR. Questo differisce dai calcoli eseguiti dalla funzione [$length](#length), che eseguirà calcoli ellissoidali basati sulle impostazioni dell'ellissoide e dell'unità di distanza del progetto.
 
 Sintassi:
 
