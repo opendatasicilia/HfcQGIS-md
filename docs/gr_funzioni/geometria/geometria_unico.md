@@ -1,7 +1,8 @@
 
 # Gruppo Geometria
 
-Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.
+!!! Abstract
+	Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.
 
 ## $area
 
