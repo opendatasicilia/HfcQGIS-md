@@ -28,7 +28,8 @@ Sintassi:
 
 ## $geometry
 
-Restituisce la geometria dell'elemento attuale. Può essere usato per il processamento con altre funzioni.
+!!! Note "Definizione"
+	**Restituisce la geometria dell'elemento attuale. Può essere usato per il processamento con altre funzioni.**
 
 Sintassi:
 
@@ -42,7 +43,7 @@ Sintassi:
 ![](../../img/geometria/_geometry/_geometry1.png)
 
 !!! Info "Osservazioni"
-	il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
+	**il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.**
 
 ---
 
@@ -74,9 +75,8 @@ Occorre cambiare entrambe le impostazioni, sia quelle dell'ellissoide → 'None/
 
 Queste modofiche non valgono per l'etichettatura, la lunghezza sarà quella relativa alla geometria e quindi al suo SR.
 
-Osservazioni:
-
-il $ indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
+!!! Info "Osservazioni"
+	**il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.**
 
 ---
 
@@ -101,7 +101,8 @@ Nota bene:
 
 Osservazioni:
 
-il $ indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
+!!! Info "Osservazioni"
+	**il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.**
 
 ---
 
