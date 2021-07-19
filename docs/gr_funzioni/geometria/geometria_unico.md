@@ -665,9 +665,9 @@ Argomenti:
 
 !!! Info "Osservazioni"
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
-
-!!! Tip "Espressione:"
-	- `contains(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+	```
+	- contains(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
+	```
 
 dove:
 
@@ -737,8 +737,9 @@ Argomenti:
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 	
 !!! Tip "Espressione:"
-	- `crosses(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
-
+	```
+	- crosses(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)
+	```
 dove:
 
 * _geometry1_ è `geometry(get_feature( 'fiume_arno','nome','ARNO'))`
@@ -853,7 +854,9 @@ Argomenti:
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
 !!! Tip "Espressione:"
-	- `disjoint(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)`
+	```
+	- disjoint(geometry(get_feature( 'fiume_arno','nome','ARNO')), $geometry)
+	```
 
 dove:
 
@@ -1457,7 +1460,9 @@ Argomenti:
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
 !!! Tip "Espressione:"
-	- `intersects(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+	```
+	- intersects(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
+	```
 
 dove:
 
@@ -2482,7 +2487,9 @@ Argomenti:
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
 !!! Tip "Espressione:"
-	- `overlaps(geometry(get_feature( 'cerchio','id','1')), $geometry)`
+	```
+	- overlaps(geometry(get_feature( 'cerchio','id','1')), $geometry)
+	```
 
 dove:
 
@@ -2506,7 +2513,7 @@ seleziono tutti i comuni `overlaps` (sovrapposti) al cerchio in figura.
 
 Sintassi:
 
-- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2542,7 +2549,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_crosses(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_crosses(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2578,7 +2585,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_disjoint(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_disjoint(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2614,7 +2621,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_equals(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_equals(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2650,7 +2657,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_intersects(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_intersects(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2686,7 +2693,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit=1</span>_][,_<span style="color:red;">max_distance</span>_][,_<span style="color:red;">cache</span>_]_)
+- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit=1</span>_][,_<span style="color:red;">max_distance</span>_][,_<span style="color:red;">cache</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2725,7 +2732,7 @@ Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distan
 
 Sintassi:
 
-- overlay_touches(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_touches(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2761,7 +2768,7 @@ Argomenti:
 
 Sintassi:
 
-- overlay_within(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_]_)
+- overlay_within(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2940,7 +2947,7 @@ Restituisce la rappresentazione Dimensional Extended 9 Intersection Model (DE-9I
 
 Sintassi:
 
-* relate(_<span style="color:red;">geometry</span>_, _<span style="color:red;">geometry</span>_, geometry_)
+* relate(_<span style="color:red;">geometry</span>_, _<span style="color:red;">geometry</span>_)
 )
 
 Argomenti:
@@ -3100,8 +3107,8 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">geometry</span> una geometria
-* _<span style="color:red;">tolerance</span> deviazione massima dai segmenti rettilinei per i punti da rimuovere
+* _<span style="color:red;">geometry</span>_ una geometria
+* _<span style="color:red;">tolerance</span>_ deviazione massima dai segmenti rettilinei per i punti da rimuovere
 
 !!! Example "Esempi"
 	```
@@ -3339,10 +3346,12 @@ Nota bene:
 --
 
 !!! Info "Osservazioni"	
-Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
+	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
 !!! Tip "Espressione:"
-	- `touches(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)`
+	```
+	- touches(geometry(get_feature( 'province_rt_rt','pk_uid','46')),$geometry)
+	```
 
 dove:
 
@@ -3383,12 +3392,6 @@ Argomenti:
 	```
 
 ![](../../img/geometria/transform/transform1.png)
-
-Nota bene:
-
---
-
-Osservazioni:
 
 --
 
@@ -3479,7 +3482,7 @@ Argomenti:
 
 Sintassi:
 
-- wedge_buffer( _<span style="color:red;">geometry</span>_, _<span style="color:red;">azimuth</span>_, _<span style="color:red;">width</span>_, _<span style="color:red;">outer_radius</span>_[,_<span style="color:red;">inner_radius=0.0</span>_]_)
+- wedge_buffer( _<span style="color:red;">geometry</span>_, _<span style="color:red;">azimuth</span>_, _<span style="color:red;">width</span>_, _<span style="color:red;">outer_radius</span>_[,_<span style="color:red;">inner_radius=0.0</span>_])
 
 [ ] contrassegna componenti opzionali
 
@@ -3515,7 +3518,7 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">geometry1</span>__ una geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
 * _<span style="color:red;">geometry2</span>_ una geometria
 
 !!! Example "Esempi"
@@ -3530,7 +3533,9 @@ Argomenti:
 	Usando algoritmo `Seleziona per espressione` presente in strumenti di processing oppure ![icona](https://docs.qgis.org/2.18/en/_images/mIconExpressionSelect.png) (ctrl+F3):
 
 !!! Tip "Espressione:"
-	- `within($geometry,geometry(get_feature( 'province_rt_rt','pk_uid','53')))`
+	```
+	- within($geometry,geometry(get_feature( 'province_rt_rt','pk_uid','53')))
+	```
 
 dove:
 
