@@ -57,7 +57,9 @@ Sintassi:
 - $length
 
 !!! Example "Esempi"
+	```
   * $length → 42.4711 
+	```
 
 ![](../../img/geometria/_length/_length1.png)
 
@@ -90,7 +92,9 @@ Sintassi:
 - $perimeter
 
 !!! Example "Esempi"
-  - `$perimeter → 2545897.26`
+	```
+  - $perimeter → 2545897.26
+	```
 
 ![](../../img/geometria/_perimeter/_perimeter1.png)
 
@@ -116,7 +120,9 @@ Sintassi:
 - $x
 
 !!! Example "Esempi"
-  * `$x → 12.2568971`
+	```
+  * $x → 12.2568971
+	```
 
 ![](../../img/geometria/_x/_x1.png)
 
@@ -146,7 +152,9 @@ Argomenti:
 * _<span style="color:red;">i</span>_ indice del punto di una linea (indici partono da 0; valori negativi si applicano dall'ultimo indice, partendo da -1)
 
 !!! Example "Esempi"
-  * `$x_at(1) → 12.6882843`
+  	```
+  * $x_at(1) → 12.6882843
+	```
 
 ![](../../img/geometria/_x_at/_x_at1.png)
 
