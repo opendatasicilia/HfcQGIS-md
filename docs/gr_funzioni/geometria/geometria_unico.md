@@ -13,7 +13,7 @@
 |	-		     | [perimeter](#perimeter)  | [intersects](#intersects) | [overlay_equals](#overlay_equals)         | [y](#y_1)            |
 |	-			 |			-			    | [overlaps](#overlaps)	    | [overlay_intersects](#overlay_intersects) | [z](#z)              |
 |	-			 |			-			    | [touches](#touches)	    | [overlay_nearest](#overlay_nearest)       | [m](m)               |
-|	-			 |			-			    | [within][#within]		    | [overlay_touches](#overlay_touches)       |      -               |
+|	-			 |			-			    | [within](#within)		    | [overlay_touches](#overlay_touches)       |      -               |
 |	-			 |			-			    |           -               | [overlay_within](#overlay_within)         |      -               |
 
 ---
