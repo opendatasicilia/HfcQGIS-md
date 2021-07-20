@@ -9,6 +9,15 @@ Gruppo Operatori
 
 Restituisce 1 quando le condizioni a e b sono vere.
 
+Sintassi:
+
+- _<span style="color:red;">a</span>_ AND _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ condizione
+- _<span style="color:red;">b</span>_ condizione
+
 Esempi:
 
 ```
@@ -28,9 +37,18 @@ Osservazioni:
 
 ---
 
-# <>
+## <> (diverso)
 
 Confronta due valori e pone a 1 se essi non sono uguali.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ <> _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -51,9 +69,18 @@ Osservazioni:
 
 ---
 
-# Operatore / (divisione)
+## / (diviso)
 
 Divisione di due valori.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ / _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -67,10 +94,20 @@ NULL / 5 → NULL
 
 ---
 
-# ||
+## || (doppio pipe)
 
 Unisce due valori assieme in una stringa.
+
 Se uno dei valori è NULL il risultato sarà NULL. Vedi la funzione CONCAT con caratteristiche differenti.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ || _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -89,9 +126,18 @@ Puoi concatenare stringhe usando `||` o `+`. Quest'ultimo significa anche somma 
 
 ---
 
-# ILIKE
+## ILIKE
 
 Restituisce 1 se il primo parametro soddisfa senza tener conto delle maiuscole o minuscole il modello fornito. LIKE può essere usato al posto di ILIKE per eseguire una comparazione che tenga conto delle maiuscole e minuscole. Funziona anche con i numeri.
+
+Sintassi:
+
+- _<span style="color:red;">string/number</span>_ ILIKE _<span style="color:red;">pattern</span>_
+
+Argomenti:
+
+- _<span style="color:red;">string/number</span>_ stringa da cercare
+- _<span style="color:red;">pattern</span>_ pattern di ricerca, puoi usare `'%'` come carattere jolly, `'_'` come un singolo carattere e `'\'` per eseguire l'escape.
 
 Esempi:
 
@@ -121,9 +167,18 @@ Osservazioni:
 
 ---
 
-# Operatore IN
+## IN
 
 Restituisce 1 se il valore viene trovato in una lista di valori.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ IN_<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ lista di valori
 
 Esempi:
 
@@ -144,9 +199,18 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 ---
 
-# IS
+## IS
 
 Restituisce 1 se _a_ è uguale a _b_.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ IS _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ qualsiasi valore
+- _<span style="color:red;">b</span>_ qualsiasi valore
 
 Esempi:
 
@@ -167,11 +231,47 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 0 significa **falso**
 
-![](../../img/operatori/IS1.png)## Is Not
+![](../../img/operatori/IS1.png)
+
+## Is Not
+
+Restituisce 1 se a non è uguale a b.
+
+Sintassi:
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ IS NOT _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
+
+Esempi:
+
+```
+'a' IS NOT 'b' → 1
+'a' IS NOT 'a' → 0
+4 IS NOT 2+2 → 0
+```
+
+![](../../img/operatori/IS_not1.png)
+
+---
 
 ## LIKE
 
 Restituisce 1 se il primo parametro soddisfa il modello fornito. Funziona anche con i numeri.
+
+Sintassi:
+
+- _<span style="color:red;">string/number</span>_ LIKE _<span style="color:red;">pattern</span>_
+
+Argomenti:
+
+- _<span style="color:red;">string/number</span>_ valore
+- _<span style="color:red;">pattern</span>_ pattern con cui confrontare il valore, puoi usare `'%'` come carattere jolly, `'_'` come un singolo carattere e `'\'` per eseguire l'escape.
 
 Esempi:
 
@@ -200,9 +300,18 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 ---
 
-# >
+## > (maggiore)
 
 Confronta due valori e pone a 1 se il valore a sinistra è maggiore del valore a destra.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ > _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -222,9 +331,18 @@ Osservazioni:
 
 ---
 
-# >=
+## >= (maggiore uguale)
 
 Confronta due valori e pone a 1 se il valore a sinistra è maggiore o uguale del valore a destra.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ >= _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -257,9 +375,18 @@ NULL - 5 → NULL
 
 ---
 
-# <
+## < (minore)
 
 Confronta due valori e pone a 1 se il valore a sinistra è minore del valore a destra.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ < _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -279,9 +406,18 @@ Osservazioni:
 
 ---
 
-# Operatore <= (minore uguale)
+## <= (minore uguale)
 
 Confronta due valori e pone a 1 se il valore a sinistra è minore o uguale del valore a destra.
+
+Sintassi:
+
+- _<span style="color:red;">a</span>_ <= _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -301,9 +437,17 @@ Osservazioni:
 
 ---
 
-# NOT
+## NOT
 
 Nega una condizione.
+
+Sintassi
+
+- NOT _<span style="color:red;">a</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_
 
 Esempi:
 
@@ -322,9 +466,18 @@ Osservazioni:
 
 ---
 
-# OR
+## OR
 
 Restituisce 1 quando la condizione a oppure b è vera.
+
+Sintassi
+
+- <span style="color:red;">a</span> OR _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ condizione
+- _<span style="color:red;">b</span>_ condizione
 
 Esempi:
 
@@ -344,9 +497,9 @@ Osservazioni:
 
 ---
 
+## [] Indice operatore
 
-
-## []Indice operatore. Restituisce un elemento da un array o valore mappa.
+Restituisce un elemento da un array o valore mappa.
 
 Sintassi:
 
@@ -359,7 +512,6 @@ Argomenti:
 Esempi:
 
 ```
-
 array(1,2,3)[0] → 1
 array(1,2,3)[2] → 3
 array(1,2,3)[-1] → 3
@@ -367,9 +519,11 @@ map('a',1,'b',2)['a'] → 1
 map('a',1,'b',2)['b'] → 2
 ```
 
+![](../../img/operatori/indice_operatore1.png)
+
 ---
 
-## ^
+## ^ (potenza)
 
 Elevazione a potenza di due valori.
 
@@ -390,17 +544,24 @@ Esempi:
 NULL ^ 5 → NULL
 ```
 
-Osservazioni:
-
 --
 
 ![](../../img/operatori/potenza1.png)
 
 ---
 
-# *
+## * (prodotto)
 
 Moltiplicazione di due valori.
+
+Sintassi
+
+- <span style="color:red;">a</span> * _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
@@ -414,13 +575,23 @@ NULL 5 → NULL
 
 ---
 
-# %
+## % (resto divisione)
 
 Resto della divisione.
 In aritmetica il resto è la quantità di *dividendoche è _avanzata_ dalla divisione, cioè quella quantità che non è stata possibile dividere per il divisore affinché il risultato rimanga nell'insieme dei `numeri interi`.
 Per definizione: Il resto di una divisione denota la quantità da sottrarre a un dividendo al fine di renderlo divisibile per un divisore.
 
+Sintassi
+
+- <span style="color:red;">a</span> % _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
+
 Esempio:
+
 17 : 2 = 8 resto 1
 
 Sottraendo a 17 il resto di 1 si ottiene 16, numero divisibile per due (la cui metà è 8). Nella divisione tra 17 e 2, va tenuto da parte il resto, ossia quel numero che, se diviso, farebbe rientrare il risultato in un altro insieme numerico.
@@ -458,15 +629,26 @@ DOPO:
 
 ---
 
-# +
+## + (somma)
 
 Addizione di due valori. Se uno dei due valori è NULL il risultato sarà NULL.
+
+Sintassi
+
+- <span style="color:red;">a</span> + _<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
 ```
 5 + 4 → 9
 5 + NULL → NULL
+'QGIS ' + 'ROCKS' → 'QGIS ROCKS'
+to_datetime('2020-08-01 12:00:00') + '1 day 2 hours' → 2020-08-02T14:00:00
 ```
 
 Osservazioni:
@@ -477,9 +659,18 @@ Puoi concatenare stringhe usando `||` o `+`. Quest'ultimo significa anche somma 
 
 ---
 
-# Operatore ~ (tilde)
+## ~ (tilde)
 
 Esegue un'espressione regolare su di una stringa.
+
+Sintassi
+
+- _<span style="color:red;">a</span>_~_<span style="color:red;">regex</span>_
+
+Argomenti:
+
+- _<span style="color:red;">string</span>_ Un valore stringa
+- _<span style="color:red;">regex</span>_ Un'espressione regolare. Le slash devono essere precedute da caratteri di escape, es. `\\d`
 
 Esempi:
 
@@ -493,9 +684,18 @@ Esempi:
 
 ---
 
-# =
+## = (uguale)
 
 Confronta due valori e pone a 1 se essi sono uguali.
+
+Sintassi
+
+- _<span style="color:red;">a</span>_=_<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
