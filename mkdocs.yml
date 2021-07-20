@@ -425,27 +425,30 @@ nav:
             # - z: gr_funzioni/geometria/z.md
             # - z_max: gr_funzioni/geometria/z_max.md
             # - z_min: gr_funzioni/geometria/z_min.md
-       - Layer Mappa:
-            - Elenco: gr_funzioni/layer_della_mappa/layer.md
-            - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md
-            - decode_uri: gr_funzioni/layer_della_mappa/decode_uri.md
-            - layer_property: gr_funzioni/layer_della_mappa/layer_property.md
-       - Maps:
-            - Elenco: gr_funzioni/maps/maps.md
-            - from_json: gr_funzioni/maps/from_json.md
-            - hstore_to_map: gr_funzioni/maps/hstore_to_map.md
-            - json_to_map: gr_funzioni/maps/json_to_map.md
-            - map: gr_funzioni/maps/map.md
-            - map_akeys: gr_funzioni/maps/map_akeys.md
-            - map_avals: gr_funzioni/maps/map_avals.md
-            - map_concat: gr_funzioni/maps/map_concat.md
-            - map_delete: gr_funzioni/maps/map_delete.md
-            - map_exist: gr_funzioni/maps/map_exist.md
-            - map_get: gr_funzioni/maps/map_get.md
-            - map_insert: gr_funzioni/maps/map_insert.md
-            - map_to_hstore: gr_funzioni/maps/map_to_hstore.md
-            - map_to_json: gr_funzioni/maps/map_to_json.md
-            - to_json: gr_funzioni/maps/to_json.md 
+       - Layer Mappa: gr_funzioni/layer_mappa/layer_unico.md
+            # - Elenco: gr_funzioni/layer_della_mappa/layer.md
+            # - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md
+            # - decode_uri: gr_funzioni/layer_della_mappa/decode_uri.md
+            # - layer_property: gr_funzioni/layer_della_mappa/layer_property.md
+       - Layer layout: gr_funzioni/layout/layout_unico.md
+            # - item_variables: gr_funzioni/layout/item_variables.md
+            # - map_credits: gr_funzioni/layout/map_credits.md
+       - Maps: gr_funzioni/maps/maps_unico.md
+            # - Elenco: gr_funzioni/maps/maps.md
+            # - from_json: gr_funzioni/maps/from_json.md
+            # - hstore_to_map: gr_funzioni/maps/hstore_to_map.md
+            # - json_to_map: gr_funzioni/maps/json_to_map.md
+            # - map: gr_funzioni/maps/map.md
+            # - map_akeys: gr_funzioni/maps/map_akeys.md
+            # - map_avals: gr_funzioni/maps/map_avals.md
+            # - map_concat: gr_funzioni/maps/map_concat.md
+            # - map_delete: gr_funzioni/maps/map_delete.md
+            # - map_exist: gr_funzioni/maps/map_exist.md
+            # - map_get: gr_funzioni/maps/map_get.md
+            # - map_insert: gr_funzioni/maps/map_insert.md
+            # - map_to_hstore: gr_funzioni/maps/map_to_hstore.md
+            # - map_to_json: gr_funzioni/maps/map_to_json.md
+            # - to_json: gr_funzioni/maps/to_json.md 
        - Matematica:
             - Elenco: gr_funzioni/matematica/matematica.md
             - abs: gr_funzioni/matematica/abs.md
