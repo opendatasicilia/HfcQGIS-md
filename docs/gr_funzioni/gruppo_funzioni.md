@@ -19,8 +19,8 @@ Gruppo funzioni|nro funzioni*|info
 [Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.18**
 [Lat Lon Tools](./lat_lon_tools/lat_lon_tools_unico.md)| (18/0)| [Plugin Lat Long Tools](https://plugins.qgis.org/plugins/latlontools/)
 [Layer mappa](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
-[Layout](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
-[Maps](./maps/layout_unico.md)| (2/2) | Visibile solo nel layout di stampa
+[Layout](./maps/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
+[Maps](./layer_della_mappa/layer_unico.md)| (2/2) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**
 [Matematica](./matematica/matematica_unico.md)| (28/28)|aggiornate a **QGIS 3.12**
 [Operatori](./operatori/operatori_unico.md)| (23/23)|aggiornate a **QGIS 3.20**
 [Raster](./rasters/rasters_unico.md)|(2/2)|>= **QGIS 3.4** 
