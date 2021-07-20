@@ -233,7 +233,7 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 ![](../../img/operatori/IS1.png)
 
-## Is Not
+## IS NOT
 
 Restituisce 1 se a non è uguale a b.
 
@@ -256,7 +256,7 @@ Esempi:
 4 IS NOT 2+2 → 0
 ```
 
-![](../../img/operatori/IS_not1.png)
+![](../../img/operatori/is_not1.png)
 
 ---
 
@@ -358,17 +358,29 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/maggioreuguale1.png)# Operatore - (meno)
+![](../../img/operatori/maggioreuguale1.png)
+
+---
+
+# Operatore - (meno)
 
 Sottrazione di due valori. Se uno dei due valori è NULL il risultato sarà NULL.
+
+Sintassi
+
+- _<span style="color:red;">a</span>_-_<span style="color:red;">b</span>_
+
+Argomenti:
+
+- _<span style="color:red;">a</span>_ valore
+- _<span style="color:red;">b</span>_ valore
 
 Esempi:
 
 ```
 5 - 4 → 1
 5 - NULL → NULL
-NULL - 5 → NULL
-4 - 5 → -1
+to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 ```
 
 ![](../../img/operatori/meno1.png)
