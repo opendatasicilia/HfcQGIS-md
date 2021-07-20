@@ -1,6 +1,9 @@
 # Gruppo Custom
 
-Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.
+!!! Abstract
+  **Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.**
+
+---
 
 ## controlla_file
 

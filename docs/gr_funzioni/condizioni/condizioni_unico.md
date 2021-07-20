@@ -1,6 +1,9 @@
 # Gruppo Condizioni
 
-Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.
+!!! Abstract
+  **Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.**
+
+---
 
 ## CASE
 

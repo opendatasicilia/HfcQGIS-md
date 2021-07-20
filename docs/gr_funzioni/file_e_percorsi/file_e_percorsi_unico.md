@@ -1,6 +1,9 @@
 # Gruppo File e Percorsi
 
-Contiene funzioni che manipolano nomi di file e di percorsi.
+!!! Abstract
+    **Contiene funzioni che manipolano nomi di file e di percorsi.**
+
+---
 
 ## base_file_name
 

@@ -2,27 +2,25 @@
 
 Restituisce una mappa con tutte le chiavi ed i valori passati come coppie di parametri.
 
-## Sintassi
+Sintassi:
 
-map(_key1, value1, key2, value2, , …_)
+map(_<span style="color:red;">key1</span>_, _<span style="color:red;">value1</span>_, _<span style="color:red;">key2</span>_, _<span style="color:red;">value2</span>_ , …_)
 
-## Argomenti
+Argomenti:
 
-* _key_ una chiave (stringa)
-* _value_ un valore
+* _<span style="color:red;">key</span>_ una chiave (stringa)
+* _<span style="color:red;">value</span>_ un valore
 
-## Esempi
+Esempi:
 
-* `map('1','one','2', 'two') → map: 1: 'one', 2: 'two'`
+```
+map('1','one','2', 'two') → map: 1: 'one', 2: 'two'
+```
 
 ![](../../img/maps/map/map1.png)
 --
 
-## osservazioni
-
---
-
-## ALtri esempi:
+Altri esempi:
 
 Definisco una _map_ con:
 
@@ -32,3 +30,4 @@ Definisco una _map_ con:
 * valore **$perimeter/1000**
 
 ![](../../img/maps/map/map2.png)
+

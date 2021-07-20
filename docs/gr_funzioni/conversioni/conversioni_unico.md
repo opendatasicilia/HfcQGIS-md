@@ -1,6 +1,9 @@
 # Gruppo Conversioni
 
-Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.
+!!! Abstract
+    **Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.**
+
+---
 
 ## from_base64
 

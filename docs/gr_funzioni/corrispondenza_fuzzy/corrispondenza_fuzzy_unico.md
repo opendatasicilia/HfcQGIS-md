@@ -1,6 +1,9 @@
 # Gruppo corrispondenza fuzzy
 
-Questo gruppo contiene funzioni per [confronti fuzzy](https://it.wikipedia.org/wiki/Logica_fuzzy) fra valori.
+!!! Abstract
+    **Questo gruppo contiene funzioni per [confronti fuzzy](https://it.wikipedia.org/wiki/Logica_fuzzy) fra valori.**
+
+---
 
 ## hamming_distance
 

@@ -1,6 +1,9 @@
 # Gruppo Aggrega
 
-Contiene funzioni che aggregano valori nei livelli e campi.
+!!! Abstract
+    **Contiene funzioni che aggregano valori nei livelli e campi.**
+
+---
 
 ## aggregate
 

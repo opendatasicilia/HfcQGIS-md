@@ -402,7 +402,7 @@ bounds_height(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))')) → 1
 
 Osservazioni:
 
-	La funzione restituisce un numero che corrisponde all'altezza del rettangolo di ingombro di una geometria.
+La funzione restituisce un numero che corrisponde all'altezza del rettangolo di ingombro di una geometria.
 
 ---
 

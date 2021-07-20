@@ -1,6 +1,9 @@
 # Gruppo Generale
 
-Questo gruppo contiene un assortimento di funzioni generiche.
+!!! Abstract
+    **Questo gruppo contiene un assortimento di funzioni generiche.**
+
+---
 
 ## env
 

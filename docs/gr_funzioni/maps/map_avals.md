@@ -2,26 +2,24 @@
 
 Restituisce tutti valori di una mappa come un array.
 
-## Sintassi
+Sintassi:
 
-map_avals(_map_)
+- map_avals(_<span style="color:red;">map</span>_)
 
-## Argomenti
+Argomenti:
 
-* _map_ una mappa
+- _<span style="color:red;">map</span>_ una mappa
 
-## Esempi
+Esempi:
 
-* `map_avals(map('1','one','2','two')) → array: 'one', 'two'`
+```
+map_avals(map('1','one','2','two')) → array: 'one', 'two'
+```
 
 ![](../../img/maps/map_avals/map_avals1.png)
-
-## nota bene
-
---
-
-## osservazioni
 
 --
 
 ![](../../img/maps/map_avals/map_avals2.png)
+
+---

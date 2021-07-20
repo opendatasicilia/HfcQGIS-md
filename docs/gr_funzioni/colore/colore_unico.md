@@ -1,6 +1,9 @@
 # Gruppo Colore
 
-Questo gruppo contiene funzioni per manipolare i colori
+!!! Abstract
+    **Questo gruppo contiene funzioni per manipolare i colori**
+
+---
 
 ## color_cmyk
 
