@@ -519,32 +519,32 @@ nav:
             - num_selected: gr_funzioni/record_e_attributi/num_selected.md
             - represent_value: gr_funzioni/record_e_attributi/represent_value.md
             - uuid: gr_funzioni/record_e_attributi/uuid.md
-       - Reference:
-            - Elenco: gr_funzioni/reference/reference.md
-            - dbvalue: gr_funzioni/reference/dbvalue.md
-            - dbvaluebyid: gr_funzioni/reference/dbvaluebyid.md
-            - dbquery: gr_funzioni/reference/dbquery.md
-            - dbsql: gr_funzioni/reference/dbsql.md
-            - Funzioni WKT:
-                - WKTcentroid: gr_funzioni/reference/WKTcentroid.md
-                - WKTpointonsurface: gr_funzioni/reference/WKTpointonsurface.md
-                - WKTlenght: gr_funzioni/reference/WKTlenght.md
-                - WKTarea: gr_funzioni/reference/WKTarea.md
-            - Funzioni geometriche:
-                - geomRedef: gr_funzioni/reference/geomRedef.md
-                - geomnearest: gr_funzioni/reference/geomnearest.md
-                - geomdistance: gr_funzioni/reference/geomdistance.md
-                - geomwithin: gr_funzioni/reference/geomwithin.md
-                - geomtouches: gr_funzioni/reference/geomtouches.md
-                - geomintersects: gr_funzioni/reference/geomintersects.md
-                - geomcontains: gr_funzioni/reference/geomcontains.md
-                - geomcwithin: gr_funzioni/reference/geomcwithin.md
-                - geomequals: gr_funzioni/reference/geomequals.md
-                - geomoverlaps: gr_funzioni/reference/geomoverlaps.md
-                - geomcrosses: gr_funzioni/reference/geomcrosses.md
-                - geomdisjoint: gr_funzioni/reference/geomdisjoint.md
-                - intersecting_geom_count: gr_funzioni/reference/intersecting_geom_count.md
-                - intersecting_geom_sum: gr_funzioni/reference/intersecting_geom_sum.md
+      #  - Reference:
+            # - Elenco: gr_funzioni/reference/reference.md
+            # - dbvalue: gr_funzioni/reference/dbvalue.md
+            # - dbvaluebyid: gr_funzioni/reference/dbvaluebyid.md
+            # - dbquery: gr_funzioni/reference/dbquery.md
+            # - dbsql: gr_funzioni/reference/dbsql.md
+            # - Funzioni WKT:
+            #     - WKTcentroid: gr_funzioni/reference/WKTcentroid.md
+            #     - WKTpointonsurface: gr_funzioni/reference/WKTpointonsurface.md
+            #     - WKTlenght: gr_funzioni/reference/WKTlenght.md
+            #     - WKTarea: gr_funzioni/reference/WKTarea.md
+            # - Funzioni geometriche:
+            #     - geomRedef: gr_funzioni/reference/geomRedef.md
+            #     - geomnearest: gr_funzioni/reference/geomnearest.md
+            #     - geomdistance: gr_funzioni/reference/geomdistance.md
+            #     - geomwithin: gr_funzioni/reference/geomwithin.md
+            #     - geomtouches: gr_funzioni/reference/geomtouches.md
+            #     - geomintersects: gr_funzioni/reference/geomintersects.md
+            #     - geomcontains: gr_funzioni/reference/geomcontains.md
+            #     - geomcwithin: gr_funzioni/reference/geomcwithin.md
+            #     - geomequals: gr_funzioni/reference/geomequals.md
+            #     - geomoverlaps: gr_funzioni/reference/geomoverlaps.md
+            #     - geomcrosses: gr_funzioni/reference/geomcrosses.md
+            #     - geomdisjoint: gr_funzioni/reference/geomdisjoint.md
+            #     - intersecting_geom_count: gr_funzioni/reference/intersecting_geom_count.md
+            #     - intersecting_geom_sum: gr_funzioni/reference/intersecting_geom_sum.md
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo:
             - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
