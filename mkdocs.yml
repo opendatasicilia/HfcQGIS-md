@@ -425,12 +425,12 @@ nav:
             # - z: gr_funzioni/geometria/z.md
             # - z_max: gr_funzioni/geometria/z_max.md
             # - z_min: gr_funzioni/geometria/z_min.md
-       - Layer Mappa: gr_funzioni/layer_mappa/layer_unico.md
+       - Layer Mappa: gr_funzioni/layer_mappa/layer_mappa_unico.md
             # - Elenco: gr_funzioni/layer_della_mappa/layer.md
             # - Layer della mappa: gr_funzioni/layer_della_mappa/layer_della_mappa.md
             # - decode_uri: gr_funzioni/layer_della_mappa/decode_uri.md
             # - layer_property: gr_funzioni/layer_della_mappa/layer_property.md
-       - Layer layout: gr_funzioni/layout/layout_unico.md
+       - Layout: gr_funzioni/layout/layout_unico.md
             # - item_variables: gr_funzioni/layout/item_variables.md
             # - map_credits: gr_funzioni/layout/map_credits.md
        - Maps: gr_funzioni/maps/maps_unico.md
