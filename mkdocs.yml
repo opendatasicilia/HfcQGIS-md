@@ -449,36 +449,36 @@ nav:
             # - map_to_hstore: gr_funzioni/maps/map_to_hstore.md
             # - map_to_json: gr_funzioni/maps/map_to_json.md
             # - to_json: gr_funzioni/maps/to_json.md 
-       - Matematica:
-            - Elenco: gr_funzioni/matematica/matematica.md
-            - abs: gr_funzioni/matematica/abs.md
-            - acos: gr_funzioni/matematica/acos.md
-            - asin: gr_funzioni/matematica/asin.md
-            - atan: gr_funzioni/matematica/atan.md
-            - atan2(dy,dx): gr_funzioni/matematica/atan2.md
-            - azimuth(a,b): gr_funzioni/matematica/azimuth.md
-            - ceil: gr_funzioni/matematica/ceil.md
-            - clamp: gr_funzioni/matematica/clamp.md
-            - cos: gr_funzioni/matematica/cos.md
-            - degrees: gr_funzioni/matematica/degrees.md
-            - exp: gr_funzioni/matematica/exp.md
-            - floor: gr_funzioni/matematica/floor.md
-            - Inclination: gr_funzioni/matematica/Inclination.md
-            - ln: gr_funzioni/matematica/ln.md
-            - log: gr_funzioni/matematica/log.md
-            - log10: gr_funzioni/matematica/log10.md
-            - max: gr_funzioni/matematica/max.md
-            - min: gr_funzioni/matematica/min.md
-            - pi: gr_funzioni/matematica/pi.md
-            - radians: gr_funzioni/matematica/radians.md
-            - rand: gr_funzioni/matematica/rand.md
-            - randf: gr_funzioni/matematica/randf.md
-            - round: gr_funzioni/matematica/round.md
-            - scale_exp: gr_funzioni/matematica/scale_exp.md
-            - scale_linear: gr_funzioni/matematica/scale_linear.md
-            - sin: gr_funzioni/matematica/sin.md
-            - sqrt: gr_funzioni/matematica/sqrt.md
-            - tan: gr_funzioni/matematica/tan.md
+       - Matematica: gr_funzioni/matematica/matematica_unico.md
+          #   - Elenco: gr_funzioni/matematica/matematica.md
+          #   - abs: gr_funzioni/matematica/abs.md
+          #   - acos: gr_funzioni/matematica/acos.md
+          #   - asin: gr_funzioni/matematica/asin.md
+          #   - atan: gr_funzioni/matematica/atan.md
+          #   - atan2(dy,dx): gr_funzioni/matematica/atan2.md
+          #   - azimuth(a,b): gr_funzioni/matematica/azimuth.md
+          #   - ceil: gr_funzioni/matematica/ceil.md
+          #   - clamp: gr_funzioni/matematica/clamp.md
+          #   - cos: gr_funzioni/matematica/cos.md
+          #   - degrees: gr_funzioni/matematica/degrees.md
+          #   - exp: gr_funzioni/matematica/exp.md
+          #   - floor: gr_funzioni/matematica/floor.md
+          #   - Inclination: gr_funzioni/matematica/Inclination.md
+          #   - ln: gr_funzioni/matematica/ln.md
+          #   - log: gr_funzioni/matematica/log.md
+          #   - log10: gr_funzioni/matematica/log10.md
+          #   - max: gr_funzioni/matematica/max.md
+          #   - min: gr_funzioni/matematica/min.md
+          #   - pi: gr_funzioni/matematica/pi.md
+          #   - radians: gr_funzioni/matematica/radians.md
+          #   - rand: gr_funzioni/matematica/rand.md
+          #   - randf: gr_funzioni/matematica/randf.md
+          #   - round: gr_funzioni/matematica/round.md
+          #   - scale_exp: gr_funzioni/matematica/scale_exp.md
+          #   - scale_linear: gr_funzioni/matematica/scale_linear.md
+          #   - sin: gr_funzioni/matematica/sin.md
+          #   - sqrt: gr_funzioni/matematica/sqrt.md
+          #   - tan: gr_funzioni/matematica/tan.md
        - Operatori:
             - Elenco: gr_funzioni/operatori/operatori.md
             - a + b: gr_funzioni/operatori/somma.md
