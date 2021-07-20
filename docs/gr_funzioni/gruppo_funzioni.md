@@ -26,7 +26,6 @@ Gruppo funzioni|nro funzioni*|info
 [Raster](./rasters/rasters_unico.md)|(2/2)|>= **QGIS 3.4** 
 [Recente](./recente/recente_unico.md) |(1/1)| Elenca le ultime 20 espressioni utilizzate
 [Record e attributi](./record_e_attributi/record_e_attributi_unico.md)| (13/13)|aggiornate a **QGIS 3.10**
-[Reference](./reference/reference_unico.md)| (0/21)| [Plugin refFunction](https://plugins.qgis.org/plugins/refFunctions/)
 [Relazioni](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
 [Stringhe di testo](./stringhe_di_testo/stringhe_di_testo_unico.md)| (23/23)|aggiornate a **QGIS 3.14**
 [Variabili](./variabili/variabili_unico.md) |(4/65+) |>= **QGIS 2.12** - variano in funzione del contesto
