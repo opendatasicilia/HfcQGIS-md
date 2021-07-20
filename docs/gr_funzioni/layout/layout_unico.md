@@ -1,7 +1,7 @@
 # Gruppo layout
 
 !!! Abstract
-    **Questo gruppo contiene funzioni per manipolare le proprietà degli _<span style="color:red;">oggetti del layout di stampa</span>_. **
+    **Questo gruppo contiene funzioni per manipolare le proprietà degli _<span style="color:red;">oggetti del layout di stampa</span>_.**
 
 ## item_variables
 
