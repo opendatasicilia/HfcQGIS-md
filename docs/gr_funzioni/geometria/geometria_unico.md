@@ -17,7 +17,7 @@ Sintassi:
 Esempi:
 
 ```
-*$area → 131196498,619546
+* $area → 131196498,619546
 ```
 
 ![](../../img/geometria/area/area1.png)
@@ -45,9 +45,9 @@ Sintassi:
 Esempi:
 
 ```
-*geomToWKT( $geometry ) → POINT(6 50)
-*area($geoamtry) → 1234567.89 mq
-*perimeter($geometry) → 25689.25 m
+* geomToWKT( $geometry ) → POINT(6 50)
+* area($geoamtry) → 1234567.89 mq
+* perimeter($geometry) → 25689.25 m
 ```
 
 ![](../../img/geometria/_geometry/_geometry1.png)
@@ -69,7 +69,7 @@ Sintassi:
 Esempi:
 
 ```
-*$length → 42.4711 
+* $length → 42.4711 
 ```
 
 ![](../../img/geometria/_length/_length1.png)
@@ -131,7 +131,7 @@ Sintassi:
 Esempi:
 
 ```
-  *$x → 12.2568971
+* $x → 12.2568971
 ```
 
 ![](../../img/geometria/_x/_x1.png)
@@ -140,11 +140,8 @@ Esempi:
 
 Osservazione:
 
-	La funzione [$x](#x) restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
-
-Osservazioni:
-
-	Per ottenere le coordinate `x` o `y` occorre utilizzare una combinazione di funzioni ed: `x($geometry)` che vale per qualunque tipologia di geometria (point, linestring, polygon)
+- La funzione [$x](#x) restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
+- Per ottenere le coordinate `x` o `y` occorre utilizzare una combinazione di funzioni ed: `x($geometry)` che vale per qualunque tipologia di geometria (point, linestring, polygon)
 
 ---
 
@@ -163,7 +160,7 @@ Argomenti:
 Esempi:
 
 ```
-    * $x_at(1) → 12.6882843
+* $x_at(1) → 12.6882843
 ```
 
 ![](../../img/geometria/_x_at/_x_at1.png)
@@ -185,7 +182,7 @@ Sintassi:
 Esempi:
 
 ```
-    * $y → 12.2568971
+* $y → 12.2568971
 ```
 
 ![](../../img/geometria/_y/_y1.png)
@@ -425,7 +422,7 @@ Sintassi:
 
 Argomenti:
 
-* *<span style="color:red;">geometry</span>* una geometria
+* <span style="color:red;">geometry</span> una geometria
 
 Esempi:
 
@@ -528,7 +525,7 @@ Argomenti:
 Esempi:
 
 ```
-    * centroid($geometry) → una geometria punto
+* centroid($geometry) → una geometria punto
 ```
 
 ![](../../img/geometria/centroid/centroid0.png)
@@ -761,8 +758,8 @@ Argomenti:
 Esempi:
 
 ```
-    * crosses( geom_from_wkt( 'LINESTRING(3 5, 4 4, 5 3)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → vero
-    * crosses( geom_from_wkt( 'POINT(4 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → falso
+* crosses( geom_from_wkt( 'LINESTRING(3 5, 4 4, 5 3)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → vero
+* crosses( geom_from_wkt( 'POINT(4 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ) ) → falso
 ```
 
 ![](../../img/geometria/crosses/crosses1.png)
@@ -804,7 +801,7 @@ Argomenti:
 Esempi:
 
 ```
-    * geom_to_wkt( difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4)' ) ) ) → LINESTRING(4 4, 5 5)
+* geom_to_wkt( difference( geom_from_wkt( 'LINESTRING(3 3, 4 4, 5 5)' ), geom_from_wkt( 'LINESTRING(3 3, 4 4)' ) ) ) → LINESTRING(4 4, 5 5)
 ```
 
 ![](../../img/geometria/difference/difference1.png)
@@ -1129,7 +1126,7 @@ Argomenti:
 Esempi:
 
 ```
-    * geom_to_wkt(force_rhr(geometry:=geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))'))) → Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1))
+* geom_to_wkt(force_rhr(geometry:=geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))'))) → Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1))
 ```
 
 ![](../../img/geometria/force_rhr/force_rhr1.png)
@@ -1157,7 +1154,7 @@ Argomenti:
 Esempi:
 
 ```
-    * geom_to_wkt(geom_from_gml('<gml:LineString srsName="EPSG:4326"><gml:coordinates>4,4 5,5 6,6</gml:coordinates></gml:LineString>') )  → 'LineString (4 4, 5 5, 6 6)'
+* geom_to_wkt(geom_from_gml('<gml:LineString srsName="EPSG:4326"><gml:coordinates>4,4 5,5 6,6</gml:coordinates></gml:LineString>') )  → 'LineString (4 4, 5 5, 6 6)'
 ```
 
 ![](../../img/geometria/geom_from_gml/geom_from_gml1.png)
