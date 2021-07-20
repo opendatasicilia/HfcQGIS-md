@@ -479,28 +479,28 @@ nav:
           #   - sin: gr_funzioni/matematica/sin.md
           #   - sqrt: gr_funzioni/matematica/sqrt.md
           #   - tan: gr_funzioni/matematica/tan.md
-       - Operatori:
-            - Elenco: gr_funzioni/operatori/operatori.md
-            - a + b: gr_funzioni/operatori/somma.md
-            - a - b: gr_funzioni/operatori/meno.md
-            - a * b: gr_funzioni/operatori/prodotto.md
-            - a / b: gr_funzioni/operatori/divisione.md
-            - a % b: gr_funzioni/operatori/resto_divisione.md
-            - a ^ b: gr_funzioni/operatori/potenza.md
-            - a < b: gr_funzioni/operatori/minore.md
-            - a <= b: gr_funzioni/operatori/minoreuguale.md
-            - a <> b: gr_funzioni/operatori/diverso.md
-            - a = b: gr_funzioni/operatori/uguale.md
-            - a > b: gr_funzioni/operatori/maggiore.md
-            - a >= b: gr_funzioni/operatori/maggioreuguale.md
-            - a ~ b: gr_funzioni/operatori/tilde.md
-            - \|\|: gr_funzioni/operatori/doppio_pipe.md
-            - LIKE: gr_funzioni/operatori/LIKE.md
-            - ILIKE: gr_funzioni/operatori/ILIKE.md
-            - a IS b: gr_funzioni/operatori/IS.md
-            - a OR b: gr_funzioni/operatori/OR.md
-            - a AND b: gr_funzioni/operatori/AND.md
-            - NOT: gr_funzioni/operatori/NOT.md
+       - Operatori: gr_funzioni/operatori/operatori_unico.md
+            # - Elenco: gr_funzioni/operatori/operatori.md
+            # - a + b: gr_funzioni/operatori/somma.md
+            # - a - b: gr_funzioni/operatori/meno.md
+            # - a * b: gr_funzioni/operatori/prodotto.md
+            # - a / b: gr_funzioni/operatori/divisione.md
+            # - a % b: gr_funzioni/operatori/resto_divisione.md
+            # - a ^ b: gr_funzioni/operatori/potenza.md
+            # - a < b: gr_funzioni/operatori/minore.md
+            # - a <= b: gr_funzioni/operatori/minoreuguale.md
+            # - a <> b: gr_funzioni/operatori/diverso.md
+            # - a = b: gr_funzioni/operatori/uguale.md
+            # - a > b: gr_funzioni/operatori/maggiore.md
+            # - a >= b: gr_funzioni/operatori/maggioreuguale.md
+            # - a ~ b: gr_funzioni/operatori/tilde.md
+            # - \|\|: gr_funzioni/operatori/doppio_pipe.md
+            # - LIKE: gr_funzioni/operatori/LIKE.md
+            # - ILIKE: gr_funzioni/operatori/ILIKE.md
+            # - a IS b: gr_funzioni/operatori/IS.md
+            # - a OR b: gr_funzioni/operatori/OR.md
+            # - a AND b: gr_funzioni/operatori/AND.md
+            # - NOT: gr_funzioni/operatori/NOT.md
             - a IN (a,b,..): gr_funzioni/operatori/IN.md
        - Raster:
             - Elenco: gr_funzioni/rasters/rasters.md
