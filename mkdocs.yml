@@ -502,10 +502,10 @@ nav:
             # - a AND b: gr_funzioni/operatori/AND.md
             # - NOT: gr_funzioni/operatori/NOT.md
             # - a IN (a,b,..): gr_funzioni/operatori/IN.md
-       - Raster:
-            - Elenco: gr_funzioni/rasters/rasters.md
-            - raster_statistic: gr_funzioni/rasters/raster_statistic.md
-            - raster_value: gr_funzioni/rasters/raster_value.md
+       - Raster: gr_funzioni/raster/raster_unico.md
+            # - Elenco: gr_funzioni/rasters/rasters.md
+            # - raster_statistic: gr_funzioni/rasters/raster_statistic.md
+            # - raster_value: gr_funzioni/rasters/raster_value.md
        - Recente: gr_funzioni/recente/recente.md
        - Record e attributi:
             - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
