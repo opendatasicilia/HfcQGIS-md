@@ -507,18 +507,18 @@ nav:
             # - raster_statistic: gr_funzioni/rasters/raster_statistic.md
             # - raster_value: gr_funzioni/rasters/raster_value.md
        - Recente: gr_funzioni/recente/recente.md
-       - Record e attributi:
-            - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
-            - \$currentfeature: gr_funzioni/record_e_attributi/$currentfeature.md
-            - \$id: gr_funzioni/record_e_attributi/$id.md
-            - \$map: gr_funzioni/record_e_attributi/$map.md
-            - attribute: gr_funzioni/record_e_attributi/attribute.md
-            - get_feature: gr_funzioni/record_e_attributi/get_feature.md
-            - get_feature_by_id: gr_funzioni/record_e_attributi/get_feature_by_id.md
-            - is_selected: gr_funzioni/record_e_attributi/is_selected.md
-            - num_selected: gr_funzioni/record_e_attributi/num_selected.md
-            - represent_value: gr_funzioni/record_e_attributi/represent_value.md
-            - uuid: gr_funzioni/record_e_attributi/uuid.md
+       - Record e attributi: gr_funzioni/record_e_attributi/record_e_attributi_unico.md
+            # - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
+            # - \$currentfeature: gr_funzioni/record_e_attributi/$currentfeature.md
+            # - \$id: gr_funzioni/record_e_attributi/$id.md
+            # - \$map: gr_funzioni/record_e_attributi/$map.md
+            # - attribute: gr_funzioni/record_e_attributi/attribute.md
+            # - get_feature: gr_funzioni/record_e_attributi/get_feature.md
+            # - get_feature_by_id: gr_funzioni/record_e_attributi/get_feature_by_id.md
+            # - is_selected: gr_funzioni/record_e_attributi/is_selected.md
+            # - num_selected: gr_funzioni/record_e_attributi/num_selected.md
+            # - represent_value: gr_funzioni/record_e_attributi/represent_value.md
+            # - uuid: gr_funzioni/record_e_attributi/uuid.md
       #  - Reference:
             # - Elenco: gr_funzioni/reference/reference.md
             # - dbvalue: gr_funzioni/reference/dbvalue.md
