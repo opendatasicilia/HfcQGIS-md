@@ -19,8 +19,9 @@ Argomenti:
 
 Esempi:
 
-- `from_base64('UUdJUw==') → 'QGIS'`
-
+```
+from_base64('UUdJUw==') → 'QGIS'
+```
 
 ![](../../img/conversioni/from_base64.png)
 
@@ -77,7 +78,9 @@ Argomenti:
 
 Esempi:
 
-- `md5('QGIS') → '57470aaa9e22adaefac7f5f342f1c6da'`
+```
+md5('QGIS') → '57470aaa9e22adaefac7f5f342f1c6da'
+```
 
 ![](../../img/conversioni/md51.png)
 
@@ -97,7 +100,9 @@ Argomenti:
 
 Esempi:
 
-- `sha256('QGIS') → 'eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309'`
+```
+sha256('QGIS') → 'eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309'
+```
 
 ![](../../img/conversioni/sha2561.png)
 
@@ -117,8 +122,9 @@ Argomenti:
 
 Esempi:
 
-- `to_base64('QGIS') → 'UUdJUw=='`
-
+```
+to_base64('QGIS') → 'UUdJUw=='
+```
 
 ![](../../img/conversioni/to_base64.png)
 
@@ -139,7 +145,9 @@ Argomenti:
 
 Esempi:
 
-- `to_date('2012-05-04') → 2012-05-04`
+```
+to_date('2012-05-04') → 2012-05-04
+```
 
 ![](../../img/conversioni/to_date1.png)
 
@@ -159,7 +167,9 @@ Argomenti:
 
 Esempi:
 
-- `to_datetime( '2018-05-06 12:02:00') → 2018-05-06T12:02:00`
+```
+to_datetime( '2018-05-06 12:02:00') → 2018-05-06T12:02:00
+```
 
 ![](../../img/conversioni/to_datetime1.png)
 
@@ -179,7 +189,9 @@ Argomenti:
 
 Esempi:
 
-- `to_decimal('6°9′16.445″')) → 6.154568055555556`
+```
+to_decimal('6°9′16.445″')) → 6.154568055555556
+```
 
 ![](../../img/conversioni/to_decimal.png)
 
@@ -193,7 +205,7 @@ Sintassi:
 
 * to_dm(_<span style="color:red;">coordinate</span>,<span style="color:red;">axis</span>,<span style="color:red;">precision</span>[,<span style="color:red;">formatting</span>]_)
 
-[ ] marks optional components
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -204,12 +216,12 @@ Argomenti:
 
 Esempi:
 
-* `to_dm(6.3545681, 'x', 3) → 6°21.274′`
-* `to_dm(6.3545681, 'y', 4, 'suffix') → 6°21.2741′N`
+```
+to_dm(6.3545681, 'x', 3) → 6°21.274′
+to_dm(6.3545681, 'y', 4, 'suffix') → 6°21.2741′N
+```
 
 ![](../../img/conversioni/to_dm1.png)
-
-Nota bene
 
 ---
 
@@ -221,7 +233,7 @@ Sintassi:
 
 * to_dms(_<span style="color:red;">coordinate</span>,<span style="color:red;">axis<span style="color:red;">,<span style="color:red;">precision</span>[,<span style="color:red;">formatting</span>]_)
 
-[ ] marks optional components
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -232,12 +244,12 @@ Argomenti:
 
 Esempi:
 
-* `to_dms(6.3545681, 'x', 3) → 6°21′16.445″`
-* `to_dms(6.3545681, 'y', 4, 'suffix') → 6°21′16.4452″N`
+```
+to_dms(6.3545681, 'x', 3) → 6°21′16.445″
+to_dms(6.3545681, 'y', 4, 'suffix') → 6°21′16.4452″N
+```
 
 ![](../../img/conversioni/to_dms1.png)
-
-Nota bene
 
 ---
 
@@ -255,9 +267,11 @@ Argomenti:
 
 Esempi:
 
-- `to_int('123') → 123`
+```
+to_int('123') → 123
+```
 
-Nota bene
+Nota bene:
 
 un testo va scritto sempre tra apici semplici es: '123'
 
@@ -279,7 +293,9 @@ Argomenti:
 
 Esempi:
 
-- `to_datetime('2018-05-04 12:23:00') - to_interval('1 day 2 hours') → 2018-05-03T10:23:00`
+```
+to_datetime('2018-05-04 12:23:00') - to_interval('1 day 2 hours') → 2018-05-03T10:23:00
+```
 
 ![](../../img/conversioni/to_interval1.png)
 
@@ -299,11 +315,13 @@ Argomenti:
 
 Esempi:
 
-- `to_real('123.45') → 123.45`
+```
+to_real('123.45') → 123.45
+```
 
-Nota bene
+Nota bene:
 
-Il punto (.) è il separatore decimale.
+Il punto (`.`) è il separatore decimale.
 
 ![](../../img/conversioni/to_real1.png)
 
@@ -323,12 +341,14 @@ Argomenti:
 
 Esempi:
 
-- `to_string(123.45) → '123.45'`
-- `to_string(123) → '123'`
+```
+to_string(123.45) → '123.45'
+to_string(123) → '123'
+```
 
-Nota bene
+Nota bene:
 
-Il punto (.) è il separatore decimale; una stringa è sempre tra apici semplici es: '123'.
+Il punto (`.`) è il separatore decimale; una stringa è sempre tra apici semplici es: '123'.
 
 ![](../../img/conversioni/to_string1.png)
 
@@ -348,6 +368,10 @@ Argomenti:
 
 Esempi:
 
-- `to_time('12:30:01') → 12:30:0`
+```
+to_time('12:30:01') → 12:30:0
+```
 
 ![](../../img/conversioni/to_time1.png)
+
+---
