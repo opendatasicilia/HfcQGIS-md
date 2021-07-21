@@ -1,7 +1,7 @@
 # Gruppo Condizioni
 
 !!! Abstract
-  **Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.**
+    **Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.**
 
 ---
 
@@ -18,6 +18,7 @@ WHEN condizione THEN risultato
 [ ELSE risultato ]
 END
 ```
+
 [ ] indica componenti opzionali
 
 Argomenti:
@@ -33,6 +34,7 @@ CASE
 WHEN "column" IS NULL THEN 'None'
 END
 ```
+
 ```
 CASE 
 WHEN  "COD_REG" =19 or  "COD_REG"  = 20
@@ -40,6 +42,9 @@ THEN  "DEN_REG"
 ELSE 'NON SONO ISOLE' 
 END
 ```
+
+![](../../img/condizioni/case0.png)
+
 ![](../../img/condizioni/case1.png)
 
 ```
@@ -66,9 +71,10 @@ WHEN "livello3" ILIKE 'C%' THEN 'ciaone'
 ELSE 'CUCU'
 END
 ```
+
 In questo Esempio viene popolato un campo (dove è usata l'espressione) in funzione del campo _livello3_: se il campo contiene un valore che inizia per _A_ allora scriverà _ciao_, se contiene un valore che inizia con _B_ scriverà _arrivederci_; se contiene un valore che inizia per _C_ scriverà _ciaone_ in tutti gli altri casi scriverà _CUCU_
 
----
+--
 
 posizionamento etichetta 
 
@@ -102,7 +108,9 @@ coalesce(7, NULL, 3*2) → 7
 coalesce("fieldA", "fallbackField", 'ERRORE') → valore di "fieldA" se non è NULL, altrimenti il valore di "fallbackField" o la stringa 'ERRORE' se sono entrambi NULL
 ```
 
-Osservazioni
+![](../../img/condizioni/coalesce0.png)
+
+Osservazioni:
 
 Questa funzione è utile all'interno di una espressione che prevede l'uso di più campi ed uno o più di essi ha valore NULL, questo valore penalizza l'intera stringa e rende non visibile il risultato.
 
@@ -133,16 +141,18 @@ Argomenti:
 Esempi:
 
 ```
-* if( 1+1=2, 'Sì', 'No' ) → 'Sì'
-* if( 1+1=3, 'Sì', 'No' ) → 'No'
-* if( 5 > 3, 1, 0) → 1
-* if( '', 'It is true (not empty)', 'It is false (empty)' ) → 'It is false (empty)'
-* if( ' ', 'It is true (not empty)', 'It is false (empty)' ) → 'It is true (not empty)'
-* if( 0, 'One', 'Zero' ) → 'Zero'
-* if( 10, 'One', 'Zero' ) → 'One'
+if( 1+1=2, 'Sì', 'No' ) → 'Sì'
+if( 1+1=3, 'Sì', 'No' ) → 'No'
+if( 5 > 3, 1, 0) → 1
+if( '', 'It is true (not empty)', 'It is false (empty)' ) → 'It is false (empty)'
+if( ' ', 'It is true (not empty)', 'It is false (empty)' ) → 'It is true (not empty)'
+if( 0, 'One', 'Zero' ) → 'Zero'
+if( 10, 'One', 'Zero' ) → 'One'
 ```
 
-Osservazioni
+![](../../img/condizioni/if0.png)
+
+Osservazioni:
 
 --
 
@@ -164,17 +174,14 @@ Argomenti:
 * _<span style="color:red;">value2</span>_ Il valore di controllo che attiverà la sostituzione `NULL`.
 
 Esempi:
+
 ```
 nullif('(none)', '(none)') → NULL
 nullif('text', '(none)') → 'text'
 nullif("name", '') → NULL, se "name" è una stringa vuota (o già NULL), "name" in qualsiasi altro caso.
 ```
 
-Osservazioni
-
---
-
-![](../../img/condizioni/nullif1.jpg)
+![](../../img/condizioni/nullif0.jpg)
 
 ---
 
@@ -184,19 +191,20 @@ Restituisce la prima posizione di corrispondenza che soddisfa un'espressione reg
 
 Sintassi:
 
-* regexp_match(<span style="color:red;">input_string</span>, <span style="color:red;">regex</span>)
+* regexp_match(_<span style="color:red;">input_string</span>_, _<span style="color:red;">regex</span>_)
 
 Argomenti:
 
-* <span style="color:red;">input_string</span> la stringa da confrontare con l'espressione regolare
-* <span style="color:red;">regex</span> L'espressione regolare da confrontare. I caratteri backslash devono essere doppiamente escaped (es "\\s" per selezionare un carattere spazio bianco).
+* _<span style="color:red;">_input_string_</span>_ la stringa da confrontare con l'espressione regolare
+* _<span style="color:red;">_regex_</span>_ L'espressione regolare da confrontare. I caratteri backslash devono essere doppiamente escaped (es "\\s" per selezionare un carattere spazio bianco).
 
 Esempi:
+
 ```
 regexp_match('QGIS ROCKS','\\sROCKS') → 5
 ```
 
-Osservazioni
+Osservazioni:
 
 --
 
@@ -228,13 +236,9 @@ Argomenti:
 Esempi:
 
 ```
-* try( to_int( '1' ), 0 ) → 1
-* try( to_int( 'a' ), 0 ) → 0
-* try( to_date( 'invalid_date' ) ) → NULL
+try( to_int( '1' ), 0 ) → 1
+try( to_int( 'a' ), 0 ) → 0
+try( to_date( 'invalid_date' ) ) → NULL
 ```
-
-Osservazioni
-
---
 
 ![](../../img/condizioni/try1.png)

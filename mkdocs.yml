@@ -507,19 +507,19 @@ nav:
             # - raster_statistic: gr_funzioni/rasters/raster_statistic.md
             # - raster_value: gr_funzioni/rasters/raster_value.md
        - Recente: gr_funzioni/recente/recente.md
-       - Record e attributi:
-            - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
-            - \$currentfeature: gr_funzioni/record_e_attributi/$currentfeature.md
-            - \$id: gr_funzioni/record_e_attributi/$id.md
-            - \$map: gr_funzioni/record_e_attributi/$map.md
-            - attribute: gr_funzioni/record_e_attributi/attribute.md
-            - get_feature: gr_funzioni/record_e_attributi/get_feature.md
-            - get_feature_by_id: gr_funzioni/record_e_attributi/get_feature_by_id.md
-            - is_selected: gr_funzioni/record_e_attributi/is_selected.md
-            - num_selected: gr_funzioni/record_e_attributi/num_selected.md
-            - represent_value: gr_funzioni/record_e_attributi/represent_value.md
-            - uuid: gr_funzioni/record_e_attributi/uuid.md
-      #  - Reference:
+       - Record e attributi: gr_funzioni/record_e_attributi/record_e_attributi_unico.md
+            # - Elenco: gr_funzioni/record_e_attributi/record_e_attributi.md
+            # - \$currentfeature: gr_funzioni/record_e_attributi/$currentfeature.md
+            # - \$id: gr_funzioni/record_e_attributi/$id.md
+            # - \$map: gr_funzioni/record_e_attributi/$map.md
+            # - attribute: gr_funzioni/record_e_attributi/attribute.md
+            # - get_feature: gr_funzioni/record_e_attributi/get_feature.md
+            # - get_feature_by_id: gr_funzioni/record_e_attributi/get_feature_by_id.md
+            # - is_selected: gr_funzioni/record_e_attributi/is_selected.md
+            # - num_selected: gr_funzioni/record_e_attributi/num_selected.md
+            # - represent_value: gr_funzioni/record_e_attributi/represent_value.md
+            # - uuid: gr_funzioni/record_e_attributi/uuid.md
+      #  - Reference: è plugin
             # - Elenco: gr_funzioni/reference/reference.md
             # - dbvalue: gr_funzioni/reference/dbvalue.md
             # - dbvaluebyid: gr_funzioni/reference/dbvaluebyid.md
@@ -546,98 +546,98 @@ nav:
             #     - intersecting_geom_count: gr_funzioni/reference/intersecting_geom_count.md
             #     - intersecting_geom_sum: gr_funzioni/reference/intersecting_geom_sum.md
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
-       - Stringhe di testo:
-            - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
-            - ascii: gr_funzioni/stringhe_di_testo/ascii.md
-            - char: gr_funzioni/stringhe_di_testo/char.md
-            - concat: gr_funzioni/stringhe_di_testo/concat.md
-            - format: gr_funzioni/stringhe_di_testo/format.md
-            - format_date: gr_funzioni/stringhe_di_testo/format_date.md
-            - format_number: gr_funzioni/stringhe_di_testo/format_number.md
-            - left(string, n): gr_funzioni/stringhe_di_testo/left.md
-            - length: gr_funzioni/stringhe_di_testo/length.md
-            - lower: gr_funzioni/stringhe_di_testo/lower.md
-            - lpad: gr_funzioni/stringhe_di_testo/lpad.md
-            - regexp_match: gr_funzioni/stringhe_di_testo/regexp_match.md
-            - regexp_replace: gr_funzioni/stringhe_di_testo/regexp_replace.md
-            - regexp_substr: gr_funzioni/stringhe_di_testo/regexp_substr.md
-            - replace: gr_funzioni/stringhe_di_testo/replace.md
-            - right(string, n): gr_funzioni/stringhe_di_testo/right.md
-            - rpad: gr_funzioni/stringhe_di_testo/rpad.md
-            - strpos: gr_funzioni/stringhe_di_testo/strpos.md
-            - substr: gr_funzioni/stringhe_di_testo/substr.md
-            - title: gr_funzioni/stringhe_di_testo/title.md
-            - to_string: gr_funzioni/stringhe_di_testo/to_string.md
-            - trim: gr_funzioni/stringhe_di_testo/trim.md
-            - upper: gr_funzioni/stringhe_di_testo/upper.md
-            - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
-       - Variabili:
-            - Elenco: gr_funzioni/variabili/variabili.md
-            - atlas_feature: gr_funzioni/variabili/atlas_feature.md
-            - atlas_featureid: gr_funzioni/variabili/atlas_featureid.md
-            - atlas_featurenumber: gr_funzioni/variabili/atlas_featurenumber.md
-            - atlas_filename: gr_funzioni/variabili/atlas_filename.md
-            - atlas_geometry: gr_funzioni/variabili/atlas_geometry.md
-            - atlas_layerid: gr_funzioni/variabili/atlas_layerid.md
-            - atlas_layername: gr_funzioni/variabili/atlas_layername.md
-            - atlas_pagename: gr_funzioni/variabili/atlas_pagename.md
-            - atlas_totalfeatures: gr_funzioni/variabili/atlas_totalfeatures.md
-            - cluster_color: gr_funzioni/variabili/cluster_color.md
-            - cluster_size: gr_funzioni/variabili/cluster_size.md
-            - geometry_part_count: gr_funzioni/variabili/geometry_part_count.md
-            - geometry_part_num: gr_funzioni/variabili/geometry_part_num.md
-            - geometry_point_count: gr_funzioni/variabili/geometry_point_count.md
-            - geometry_point_num: gr_funzioni/variabili/geometry_point_num.md
-            - grid_axis: gr_funzioni/variabili/grid_axis.md
-            - grid_number: gr_funzioni/variabili/grid_number.md
-            - item_id: gr_funzioni/variabili/item_id.md
-            - item_uuid: gr_funzioni/variabili/item_uuid.md
-            - layer: gr_funzioni/variabili/layer.md
-            - layer_id: gr_funzioni/variabili/layer_id.md
-            - layer_name: gr_funzioni/variabili/layer_name.md
-            - layout_dpi: gr_funzioni/variabili/layout_dpi.md
-            - layout_name: gr_funzioni/variabili/layout_name.md
-            - layout_numpages: gr_funzioni/variabili/layout_numpages.md
-            - layout_page: gr_funzioni/variabili/layout_page.md
-            - layout_pageheight: gr_funzioni/variabili/layout_pageheight.md
-            - layout_pagewidth: gr_funzioni/variabili/layout_pagewidth.md
-            - map_crs: gr_funzioni/variabili/map_crs.md
-            - map_crs_definition: gr_funzioni/variabili/map_crs_definition.md
-            - map_extent: gr_funzioni/variabili/map_extent.md
-            - map_extent_center: gr_funzioni/variabili/map_extent_center.md
-            - map_extent_height: gr_funzioni/variabili/map_extent_height.md
-            - map_extent_width: gr_funzioni/variabili/map_extent_width.md
-            - map_id: gr_funzioni/variabili/map_id.md
-            - map_rotation: gr_funzioni/variabili/map_rotation.md
-            - map_scale: gr_funzioni/variabili/map_scale.md
-            - map_units: gr_funzioni/variabili/map_units.md
-            - parent: gr_funzioni/variabili/parent.md
-            - project_abstract: gr_funzioni/variabili/project_abstract.md
-            - project_author: gr_funzioni/variabili/project_author.md
-            - project_creation_date: gr_funzioni/variabili/project_creation_datemd
-            - project_identifier: gr_funzioni/variabili/project_identifier.md
-            - project_keywords: gr_funzioni/variabili/project_keywords.md
-            - project_crs: gr_funzioni/variabili/project_crs.md
-            - project_crs_definition: gr_funzioni/variabili/project_crs_definition.md
-            - project_filename: gr_funzioni/variabili/project_filename.md
-            - project_folder: gr_funzioni/variabili/project_folder.md
-            - project_path: gr_funzioni/variabili/project_path.md
-            - project_title: gr_funzioni/variabili/project_title.md
-            - qgis_locale: gr_funzioni/variabili/qgis_locale.md
-            - qgis_os_name: gr_funzioni/variabili/qgis_os_name.md
-            - qgis_platform: gr_funzioni/variabili/qgis_platform.md
-            - qgis_release_name: gr_funzioni/variabili/qgis_release_name.md
-            - qgis_short_version: gr_funzioni/variabili/qgis_short_version.md
-            - qgis_version: gr_funzioni/variabili/qgis_version.md
-            - qgis_version_no: gr_funzioni/variabili/qgis_version_no.md
-            - snapping_results: gr_funzioni/variabili/snapping_results.md
-            - symbol_angle: gr_funzioni/variabili/symbol_angle.md
-            - symbol_color: gr_funzioni/variabili/symbol_color.md
-            - user_account_name: gr_funzioni/variabili/user_account_name.md
-            - user_full_name: gr_funzioni/variabili/user_full_name.md
-            - row_number: gr_funzioni/variabili/row_number.md
-            - value: gr_funzioni/variabili/value.md
-            - with_variable: gr_funzioni/variabili/with_variable.md    
+       - Stringhe di testo: gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md
+            # - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
+            # - ascii: gr_funzioni/stringhe_di_testo/ascii.md
+            # - char: gr_funzioni/stringhe_di_testo/char.md
+            # - concat: gr_funzioni/stringhe_di_testo/concat.md
+            # - format: gr_funzioni/stringhe_di_testo/format.md
+            # - format_date: gr_funzioni/stringhe_di_testo/format_date.md
+            # - format_number: gr_funzioni/stringhe_di_testo/format_number.md
+            # - left(string, n): gr_funzioni/stringhe_di_testo/left.md
+            # - length: gr_funzioni/stringhe_di_testo/length.md
+            # - lower: gr_funzioni/stringhe_di_testo/lower.md
+            # - lpad: gr_funzioni/stringhe_di_testo/lpad.md
+            # - regexp_match: gr_funzioni/stringhe_di_testo/regexp_match.md
+            # - regexp_replace: gr_funzioni/stringhe_di_testo/regexp_replace.md
+            # - regexp_substr: gr_funzioni/stringhe_di_testo/regexp_substr.md
+            # - replace: gr_funzioni/stringhe_di_testo/replace.md
+            # - right(string, n): gr_funzioni/stringhe_di_testo/right.md
+            # - rpad: gr_funzioni/stringhe_di_testo/rpad.md
+            # - strpos: gr_funzioni/stringhe_di_testo/strpos.md
+            # - substr: gr_funzioni/stringhe_di_testo/substr.md
+            # - title: gr_funzioni/stringhe_di_testo/title.md
+            # - to_string: gr_funzioni/stringhe_di_testo/to_string.md
+            # - trim: gr_funzioni/stringhe_di_testo/trim.md
+            # - upper: gr_funzioni/stringhe_di_testo/upper.md
+            # - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
+       - Variabili: gr_funzioni/variabili/variabili.md
+            # - Elenco: gr_funzioni/variabili/variabili.md
+            # - atlas_feature: gr_funzioni/variabili/atlas_feature.md
+            # - atlas_featureid: gr_funzioni/variabili/atlas_featureid.md
+            # - atlas_featurenumber: gr_funzioni/variabili/atlas_featurenumber.md
+            # - atlas_filename: gr_funzioni/variabili/atlas_filename.md
+            # - atlas_geometry: gr_funzioni/variabili/atlas_geometry.md
+            # - atlas_layerid: gr_funzioni/variabili/atlas_layerid.md
+            # - atlas_layername: gr_funzioni/variabili/atlas_layername.md
+            # - atlas_pagename: gr_funzioni/variabili/atlas_pagename.md
+            # - atlas_totalfeatures: gr_funzioni/variabili/atlas_totalfeatures.md
+            # - cluster_color: gr_funzioni/variabili/cluster_color.md
+            # - cluster_size: gr_funzioni/variabili/cluster_size.md
+            # - geometry_part_count: gr_funzioni/variabili/geometry_part_count.md
+            # - geometry_part_num: gr_funzioni/variabili/geometry_part_num.md
+            # - geometry_point_count: gr_funzioni/variabili/geometry_point_count.md
+            # - geometry_point_num: gr_funzioni/variabili/geometry_point_num.md
+            # - grid_axis: gr_funzioni/variabili/grid_axis.md
+            # - grid_number: gr_funzioni/variabili/grid_number.md
+            # - item_id: gr_funzioni/variabili/item_id.md
+            # - item_uuid: gr_funzioni/variabili/item_uuid.md
+            # - layer: gr_funzioni/variabili/layer.md
+            # - layer_id: gr_funzioni/variabili/layer_id.md
+            # - layer_name: gr_funzioni/variabili/layer_name.md
+            # - layout_dpi: gr_funzioni/variabili/layout_dpi.md
+            # - layout_name: gr_funzioni/variabili/layout_name.md
+            # - layout_numpages: gr_funzioni/variabili/layout_numpages.md
+            # - layout_page: gr_funzioni/variabili/layout_page.md
+            # - layout_pageheight: gr_funzioni/variabili/layout_pageheight.md
+            # - layout_pagewidth: gr_funzioni/variabili/layout_pagewidth.md
+            # - map_crs: gr_funzioni/variabili/map_crs.md
+            # - map_crs_definition: gr_funzioni/variabili/map_crs_definition.md
+            # - map_extent: gr_funzioni/variabili/map_extent.md
+            # - map_extent_center: gr_funzioni/variabili/map_extent_center.md
+            # - map_extent_height: gr_funzioni/variabili/map_extent_height.md
+            # - map_extent_width: gr_funzioni/variabili/map_extent_width.md
+            # - map_id: gr_funzioni/variabili/map_id.md
+            # - map_rotation: gr_funzioni/variabili/map_rotation.md
+            # - map_scale: gr_funzioni/variabili/map_scale.md
+            # - map_units: gr_funzioni/variabili/map_units.md
+            # - parent: gr_funzioni/variabili/parent.md
+            # - project_abstract: gr_funzioni/variabili/project_abstract.md
+            # - project_author: gr_funzioni/variabili/project_author.md
+            # - project_creation_date: gr_funzioni/variabili/project_creation_datemd
+            # - project_identifier: gr_funzioni/variabili/project_identifier.md
+            # - project_keywords: gr_funzioni/variabili/project_keywords.md
+            # - project_crs: gr_funzioni/variabili/project_crs.md
+            # - project_crs_definition: gr_funzioni/variabili/project_crs_definition.md
+            # - project_filename: gr_funzioni/variabili/project_filename.md
+            # - project_folder: gr_funzioni/variabili/project_folder.md
+            # - project_path: gr_funzioni/variabili/project_path.md
+            # - project_title: gr_funzioni/variabili/project_title.md
+            # - qgis_locale: gr_funzioni/variabili/qgis_locale.md
+            # - qgis_os_name: gr_funzioni/variabili/qgis_os_name.md
+            # - qgis_platform: gr_funzioni/variabili/qgis_platform.md
+            # - qgis_release_name: gr_funzioni/variabili/qgis_release_name.md
+            # - qgis_short_version: gr_funzioni/variabili/qgis_short_version.md
+            # - qgis_version: gr_funzioni/variabili/qgis_version.md
+            # - qgis_version_no: gr_funzioni/variabili/qgis_version_no.md
+            # - snapping_results: gr_funzioni/variabili/snapping_results.md
+            # - symbol_angle: gr_funzioni/variabili/symbol_angle.md
+            # - symbol_color: gr_funzioni/variabili/symbol_color.md
+            # - user_account_name: gr_funzioni/variabili/user_account_name.md
+            # - user_full_name: gr_funzioni/variabili/user_full_name.md
+            # - row_number: gr_funzioni/variabili/row_number.md
+            # - value: gr_funzioni/variabili/value.md
+            # - with_variable: gr_funzioni/variabili/with_variable.md    
        - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
