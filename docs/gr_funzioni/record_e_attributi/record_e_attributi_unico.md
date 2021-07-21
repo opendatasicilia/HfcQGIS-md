@@ -315,7 +315,7 @@ Esempio tematizzazione tramite regola:
 
 ## maptip
 
-Restituisce il suggerimento mappa di un dato elemento in un vettore. L'espressione è sempre valutata. Può essere usata con zero, uno o più argomenti, vedi sotto per dettagli.
+Restituisce il suggerimento mappa di un dato elemento in un vettore. Per impostazione predefinita, l'espressione è valutata. Può essere usata con zero, uno o più argomenti, vedi sotto per dettagli.
 
 ### Nessun parametro
 
