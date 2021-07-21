@@ -3,6 +3,8 @@
 !!! Abstract
     **Questo gruppo contiene funzioni per manipolare le proprietà degli _<span style="color:red;">oggetti del layout di stampa</span>_.**
 
+---
+
 ## item_variables
 
 Restituisce una mappa delle variabili da un oggetto del layout dentro il layout di stampa.
