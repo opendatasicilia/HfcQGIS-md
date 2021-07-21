@@ -29,8 +29,10 @@ Argomenti:
 
 Esempi:
 
-* `age('2012-05-12','2012-05-02') → intervallo (usa day per estrarre il numero di giorni)`
-* `day(age('2012-05-12','2012-05-02')) → 10`
+```
+age('2012-05-12','2012-05-02') → intervallo (usa day per estrarre il numero di giorni)
+day(age('2012-05-12','2012-05-02')) → 10
+```
 
 ![](../../img/data_e_ora/age1.png)
 
@@ -53,7 +55,7 @@ Argomenti:
 Esempi:
 
 ```
-* datetime_from_epoch(1483225200000) → 2017-01-01T00:00:00
+datetime_from_epoch(1483225200000) → 2017-01-01T00:00:00
 ```
 
 ![](../../img/data_e_ora/datetime_from_epoch1.png)
@@ -95,8 +97,8 @@ Argomenti:
 Esempi:
 
 ```
-* day(tointerval('3 days')) → 3
-* day(age('2012-01-01','2010-01-01')) → 730
+day(tointerval('3 days')) → 3
+day(age('2012-01-01','2010-01-01')) → 730
 ```
 
 ![](../../img/data_e_ora/day1.png)
@@ -118,7 +120,7 @@ Argomenti:
 Esempi:
 
 ```
-* day_of_week(todate('2018-05-09')) → 3 (Mercoledì)
+day_of_week(todate('2018-05-09')) → 3 (Mercoledì)
 ```
 
 ![](../../img/data_e_ora/day_of_week1.png)
@@ -150,7 +152,7 @@ Argomenti:
 Esempi:
 
 ```
-* epoch(to_date('2017-01-01')) → 1483203600000
+epoch(to_date('2017-01-01')) → 1483203600000
 ```
 
 ![](../../img/data_e_ora/epoch1.png)
@@ -206,9 +208,9 @@ ap o a|interpretato come un orario nel formato AM/PM. ap deve essere "am" oppure
 Esempi:
 
 ```
-* format_date('2012-05-15','dd.MM.yyyy') → '15.05.2012'
-* format_date('2012-06-15','d MMMM yyyy','fr') → '15 juin 2012'
-* format_date('2012-06-15','d MMMM yyyy','it') → '15 giugno 2012'
+format_date('2012-05-15','dd.MM.yyyy') → '15.05.2012'
+format_date('2012-06-15','d MMMM yyyy','fr') → '15 juin 2012'
+format_date('2012-06-15','d MMMM yyyy','it') → '15 giugno 2012'
 ```
 
 ![](../../img/data_e_ora/format_date1.png)
@@ -237,7 +239,7 @@ Argomenti:
 Esempi:
 
 ```
-* hour(to_datetime('2018-05-09T11:58:57')) → 11
+hour(to_datetime('2018-05-09T11:58:57')) → 11
 ```
 ![](../../img/data_e_ora/hour1.png)
 
@@ -281,11 +283,10 @@ Argomenti:
 
 Esempi:
 
-* `make_date(2020,5,4) → date value 2020-05-04`
+
+make_date(2020,5,4) → date value 2020-05-04`
 
 ![](../../img/data_e_ora/make_date1.png)
-
-Osservazioni:
 
 ---
 
@@ -308,7 +309,9 @@ Argomenti:
 
 Esempi:
 
-* `make_datetime(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500`
+```
+make_datetime(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500
+```
 
 ![](../../img/data_e_ora/make_datetime1.png)
 
@@ -339,11 +342,11 @@ Argomenti:
 
 Esempi:
 
-* `make_interval(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500`
+```
+make_interval(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500
+```
 
 ![](../../img/data_e_ora/make_interval1.png)
-
-Osservazioni:
 
 ---
 
@@ -364,11 +367,11 @@ Argomenti:
 
 Esempi:
 
-* `make_time(13,45,30.5) → time value 13:45:30.500`
+```
+make_time(13,45,30.5) → time value 13:45:30.500
+```
 
 ![](../../img/data_e_ora/make_time1.png)
-
-Osservazioni:
 
 ---
 
@@ -391,7 +394,7 @@ Argomenti:
 Esempi:
 
 ```
-* minute('2012-07-22T13:24:57') → 24
+minute('2012-07-22T13:24:57') → 24
 ```
 ![](../../img/data_e_ora/minute1.png)
 
@@ -438,7 +441,7 @@ Argomenti:
 Esempi:
 
 ```
-* month('2012-05-12') → 05
+month('2012-05-12') → 05
 ```
 
 ![](../../img/data_e_ora/month1.png)
@@ -476,7 +479,9 @@ Sintassi:
 
 Esempi:
 
-* `now() → 2018-05-09 12:18:38`
+```
+now() → 2018-05-09 12:18:38`
+```
 
 ![](../../img/data_e_ora/now1.png)
 
@@ -501,7 +506,7 @@ Argomenti:
 Esempi:
 
 ```
-* second('2012-07-22T13:24:57') → 57
+second('2012-07-22T13:24:57') → 57
 ```
 
 ![](../../img/data_e_ora/second1.png)
@@ -521,8 +526,8 @@ Argomenti:
 Esempi:
 
 ```
-- second(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 1200
-- second(age('2012-01-01','2010-01-01')) → 63072000
+second(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 1200
+second(age('2012-01-01','2010-01-01')) → 63072000
 ```
 
 ![](../../img/data_e_ora/second2.png)
@@ -548,9 +553,9 @@ Argomenti:
 Esempi:
 
 ```
-- to_date('2012-05-04') → 2012-05-04
-- to_date('June 29, 2019','MMMM d, yyyy') → 2019-06-29, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
-- to_date('29 juin, 2019','d MMMM, yyyy','fr') → 2019-06-29
+to_date('2012-05-04') → 2012-05-04
+to_date('June 29, 2019','MMMM d, yyyy') → 2019-06-29, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
+to_date('29 juin, 2019','d MMMM, yyyy','fr') → 2019-06-29
 ```
 
 ![](../../img/data_e_ora/to_date1.png)
@@ -576,9 +581,9 @@ Argomenti:
 Esempi:
 
 ```
-- to_datetime('2012-05-04 12:50:00') → 2012-05-04T12:50:00
-- to_datetime('June 29, 2019 @ 12:34','MMMM d, yyyy @ HH:mm') → 2019-06-29T12:34, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
-- to_datetime('29 juin, 2019 @ 12:34','d MMMM, yyyy @ HH:mm','fr') → 2019-06-29T12:3
+to_datetime('2012-05-04 12:50:00') → 2012-05-04T12:50:00
+to_datetime('June 29, 2019 @ 12:34','MMMM d, yyyy @ HH:mm') → 2019-06-29T12:34, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
+to_datetime('29 juin, 2019 @ 12:34','d MMMM, yyyy @ HH:mm','fr') → 2019-06-29T12:3
 ```
 
 ![](../../img/data_e_ora/to_datetime1.png)
@@ -600,9 +605,9 @@ Argomenti:
 Esempi:
 
 ```
-- to_interval('1 day 2 hours') → interval: 1.08333 days
-- to_interval( '0.5 hours' ) → intervallo: 30 minuti
-- to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
+to_interval('1 day 2 hours') → interval: 1.08333 days
+to_interval( '0.5 hours' ) → intervallo: 30 minuti
+to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 ```
 
 ![](../../img/data_e_ora/to_interval1.png)
@@ -626,9 +631,9 @@ Argomenti:
 Esempi:
 
 ```
-- to_time('12:30:01') → 12:30:01
-- to_time('12:34','HH:mm') → 12:34:00
-- to_time('12:34','HH:mm','fr') → 12:34:00
+to_time('12:30:01') → 12:30:01
+to_time('12:34','HH:mm') → 12:34:00
+to_time('12:34','HH:mm','fr') → 12:34:00
 ```
 
 ![](../../img/data_e_ora/to_time1.png)
@@ -701,7 +706,7 @@ Argomenti:
 Esempi:
 
 ```
-- week('2018-05-09') → 19
+week('2018-05-09') → 19
 ```
 
 ![](../../img/data_e_ora/year1.png)
@@ -721,8 +726,10 @@ Argomenti:
 Esempi:
 
 ```
-- year(to_interval('3 years')) → 3
-- year(age('2012-01-01','2010-01-01')) → 1.9986
+year(to_interval('3 years')) → 3
+year(age('2012-01-01','2010-01-01')) → 1.9986
 ```
 
 ![](../../img/data_e_ora/year2.png)
+
+---

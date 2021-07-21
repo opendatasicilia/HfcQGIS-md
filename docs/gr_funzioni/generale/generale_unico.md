@@ -20,11 +20,11 @@ Argomento:
 Esempi:
 
 ```
-* env( 'LANG' ) → 'en_US.UTF-8'
-* env( 'MIO_PREFISSO_VARIABILE' ) → 'Z:'
-* env( 'I_DO_NOT_EXIST' ) → NULL
-* env( 'COMPUTERNAME') → LENOVO_PC (è il mio notebook)
-* env('home') → 'C:\Users\Salvatore'
+env( 'LANG' ) → 'en_US.UTF-8'
+env( 'MIO_PREFISSO_VARIABILE' ) → 'Z:'
+env( 'I_DO_NOT_EXIST' ) → NULL
+env( 'COMPUTERNAME') → LENOVO_PC (è il mio notebook)
+env('home') → 'C:\Users\Salvatore'
 ```
 
 ![](../../img/generale/env1.png)
@@ -50,9 +50,9 @@ Argomento:
 Esempi:
 
 ```
-* eval(''nice'') → 'nice'
-* eval(@expression_var) → [qualsiasi risultato che dalla valutazione di @expression_var potrebbe assumere...]
-* eval( '@row_number  +10') → 11
+eval(''nice'') → 'nice'
+eval(@expression_var) → [qualsiasi risultato che dalla valutazione di @expression_var potrebbe assumere...]
+eval( '@row_number  +10') → 11
 ```
 
 ![](../../img/generale/eval1.png)
@@ -73,7 +73,9 @@ Argomento:
 
 Esempi:
 
-- `eval_template('QGIS [% upper(\'rocks\') %]') → QGIS ROCKS`
+```
+eval_template('QGIS [% upper(\'rocks\') %]') → QGIS ROCKS
+```
 
 ![](../../img/generale/eval_template1.png)
 
@@ -93,7 +95,9 @@ Argomento:
 
 Esempi:
 
-* `is_layer_visible('baseraster') → Vero`
+```
+is_layer_visible('baseraster') → Vero
+```
 
 ![](../../img/generale/is_layer_visible1.png)
 
@@ -101,6 +105,7 @@ Esempi:
 Altri esempi:
 
 ![](../../img/generale/is_layer_visible3.png)
+
 Due layer sovrapposti ed etichettati.
 
 ![](../../img/generale/is_layer_visible2.png)
@@ -135,8 +140,10 @@ Argomento:
 
 Esempi:
 
-* `mime_type('<html><body></body></html>') → text/html`
-* `mime_type(from_base64('R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIAOw==')) → image/gif`
+```
+mime_type('<html><body></body></html>') → text/html
+mime_type(from_base64('R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIAOw==')) → image/gif
+```
 
 ![](../../img/generale/mime_type1.png)
 
@@ -157,8 +164,8 @@ Argomento:
 Esempi:
 
 ```
-- var('qgis_version') → '3.0.2-Girona'
-- var('user_account_name') → 'Salvatore'
+var('qgis_version') → '3.0.2-Girona'
+var('user_account_name') → 'Salvatore'
 ```
 
 Osservazioni
@@ -186,8 +193,10 @@ Argomento:
 Esempi:
 
 ```
-* with_variable('my_sum', 1 + 2 + 3, @my_sum * 2 + @my_sum * 5) → 42
-* with_variable('duepigreco',2*3.1415, @duepigreco * 2 +@duepigreco*5 ) → 43.981
+with_variable('my_sum', 1 + 2 + 3, @my_sum * 2 + @my_sum * 5) → 42
+with_variable('duepigreco',2*3.1415, @duepigreco * 2 +@duepigreco*5 ) → 43.981
 ```
 
 ![](../../img/generale/with_variable1.png)
+
+---

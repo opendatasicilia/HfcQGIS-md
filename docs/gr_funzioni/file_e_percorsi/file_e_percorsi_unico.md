@@ -20,7 +20,7 @@ Argomenti:
 Esempi:
 
 ```
-- base_file_name('/home/qgis/data/country_boundaries.shp') → 'country_boundaries'
+base_file_name('/home/qgis/data/country_boundaries.shp') → 'country_boundaries'
 ```
 
 ![](../../img/file_e_percorsi/base_file_name1.png)
@@ -40,7 +40,7 @@ Argomenti:
 Esempi:
 
 ```
-- file_exists('/home/qgis/data/country_boundaries.shp') → vero
+file_exists('/home/qgis/data/country_boundaries.shp') → vero
 ```
 
 ![](../../img/file_e_percorsi/file_exists1.png)
@@ -60,7 +60,7 @@ Argomenti:
 Esempi:
 
 ```
-- file_name('/home/qgis/data/country_boundaries.shp') → 'country_boundaries.shp'
+file_name('/home/qgis/data/country_boundaries.shp') → 'country_boundaries.shp'
 ```
 
 ![](../../img/file_e_percorsi/file_name1.png)
@@ -80,7 +80,7 @@ Argomenti:
 Esempi:
 
 ```
-- file_path('/home/qgis/data/country_boundaries.shp') → '/home/qgis/data'
+file_path('/home/qgis/data/country_boundaries.shp') → '/home/qgis/data'
 ```
 
 ![](../../img/file_e_percorsi/file_path1.png)
@@ -100,7 +100,7 @@ Argomenti:
 Esempi:
 
 ```
-- file_size('/home/qgis/data/country_boundaries.geojson') → 5674
+file_size('/home/qgis/data/country_boundaries.geojson') → 5674
 ```
 
 ![](../../img/file_e_percorsi/file_size1.png)
@@ -120,7 +120,7 @@ Argomenti:
 Esempi:
 
 ```
-- file_suffix('/home/qgis/data/country_boundaries.shp') → 'shp'
+file_suffix('/home/qgis/data/country_boundaries.shp') → 'shp'
 ```
 
 ![](../../img/file_e_percorsi/file_suffix1.png)
@@ -140,8 +140,8 @@ Argomenti:
 Esempi:
 
 ```
-- is_directory('/home/qgis/data/country_boundaries.shp') → falso
-- is_directory('/home/qgis/data/') → vero
+is_directory('/home/qgis/data/country_boundaries.shp') → falso
+is_directory('/home/qgis/data/') → vero
 ```
 
 ![](../../img/file_e_percorsi/is_directory1.png)
@@ -161,8 +161,10 @@ Argomenti:
 Esempi:
 
 ```
-- is_file('/home/qgis/data/country_boundaries.shp') → vero
-- is_file('/home/qgis/data/') → falso
+is_file('/home/qgis/data/country_boundaries.shp') → vero
+is_file('/home/qgis/data/') → falso
 ```
 
 ![](../../img/file_e_percorsi/is_file1.png)
+
+---

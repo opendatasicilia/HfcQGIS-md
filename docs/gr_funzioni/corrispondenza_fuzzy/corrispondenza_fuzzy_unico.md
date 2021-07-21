@@ -21,9 +21,9 @@ Argomenti:
 Esempi:
 
 ```
-* hamming_distance('abc','xec') → 2
-* hamming_distance('abc','ABc') → 2
-* hamming_distance(upper('abc'),upper('ABC')) → 0
+hamming_distance('abc','xec') → 2
+hamming_distance('abc','ABc') → 2
+hamming_distance(upper('abc'),upper('ABC')) → 0
 ```
 
 ![](../../img/corrispondenza_fuzzy/hamming_distance1.png)
@@ -47,9 +47,9 @@ Argomenti:
 Esempi:
 
 ```
-* levenshtein('kittens','mitten') → 2
-* levenshtein('Kitten','kitten') → 1
-* levenshtein(upper('Kitten'),upper('kitten')) → 0
+levenshtein('kittens','mitten') → 2
+levenshtein('Kitten','kitten') → 1
+levenshtein(upper('Kitten'),upper('kitten')) → 0
 ```
 
 ![](../../img/corrispondenza_fuzzy/levenshtein1.png)
@@ -73,9 +73,9 @@ Argomenti:
 Esempi:
 
 ```
-* longest_common_substring('ABABC','BABCA') → 'ABC'
-* longest_common_substring('abcDeF','abcdef') → 'abc'
-* longest_common_substring(upper('abcDeF'),upper('abcdex')) → 'ABCDE'
+longest_common_substring('ABABC','BABCA') → 'ABC'
+longest_common_substring('abcDeF','abcdef') → 'abc'
+longest_common_substring(upper('abcDeF'),upper('abcdex')) → 'ABCDE'
 ```
 
 ![](../../img/corrispondenza_fuzzy/longest_common_substring1.png)
@@ -97,9 +97,9 @@ Argomenti:
 Esempi:
 
 ```
-* soundex('robert') → 'R163'
-* soundex('rupert') → 'R163'
-* soundex('rubin') → 'R150'
+soundex('robert') → 'R163'
+soundex('rupert') → 'R163'
+soundex('rubin') → 'R150'
 ```
 
 ![](../../img/corrispondenza_fuzzy/soundex1.png)
