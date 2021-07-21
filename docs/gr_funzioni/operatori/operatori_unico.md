@@ -362,7 +362,7 @@ Osservazioni:
 
 ---
 
-# Operatore - (meno)
+## Operatore - (meno)
 
 Sottrazione di due valori. Se uno dei due valori è NULL il risultato sarà NULL.
 
