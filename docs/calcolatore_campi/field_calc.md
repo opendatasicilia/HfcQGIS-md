@@ -5,6 +5,7 @@ Il pulsante ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateFie
 ## Dove usarlo
 
 Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la modifica. Il Calcolatore in realtà è solo una interfaccia che ci permette di accedere alle funzioni e ci da la possibilità di creare semplici o complesse espressioni. Le espressioni di QGIS vengono utilizzate ovunque, per esempio:
+
 1. tabella degli attributi;
 2. tematizzazione;
 3. etichettatura;
