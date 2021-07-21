@@ -519,7 +519,7 @@ nav:
             # - num_selected: gr_funzioni/record_e_attributi/num_selected.md
             # - represent_value: gr_funzioni/record_e_attributi/represent_value.md
             # - uuid: gr_funzioni/record_e_attributi/uuid.md
-      #  - Reference:
+      #  - Reference: è plugin
             # - Elenco: gr_funzioni/reference/reference.md
             # - dbvalue: gr_funzioni/reference/dbvalue.md
             # - dbvaluebyid: gr_funzioni/reference/dbvaluebyid.md

@@ -1,4 +1,4 @@
-Gruppo Record e Attributi
+# Gruppo Record e Attributi
 
 !!! Abstract
     **Questo gruppo contiene funzioni che operano sugli identificativi dei record.**
@@ -119,8 +119,8 @@ Sintassi:
 Argomenti:
 
 - _<span style="color:red;">feature</span>_ un elemento
-- 
-Esempi:o
+
+Esempi:
 
 ```
 attributes( @atlas_feature )['name'] → valore memorizzato nell'attributo 'name' per l'elemento corrente dell'atlante
