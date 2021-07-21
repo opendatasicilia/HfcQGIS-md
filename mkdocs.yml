@@ -546,31 +546,31 @@ nav:
             #     - intersecting_geom_count: gr_funzioni/reference/intersecting_geom_count.md
             #     - intersecting_geom_sum: gr_funzioni/reference/intersecting_geom_sum.md
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
-       - Stringhe di testo:
-            - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
-            - ascii: gr_funzioni/stringhe_di_testo/ascii.md
-            - char: gr_funzioni/stringhe_di_testo/char.md
-            - concat: gr_funzioni/stringhe_di_testo/concat.md
-            - format: gr_funzioni/stringhe_di_testo/format.md
-            - format_date: gr_funzioni/stringhe_di_testo/format_date.md
-            - format_number: gr_funzioni/stringhe_di_testo/format_number.md
-            - left(string, n): gr_funzioni/stringhe_di_testo/left.md
-            - length: gr_funzioni/stringhe_di_testo/length.md
-            - lower: gr_funzioni/stringhe_di_testo/lower.md
-            - lpad: gr_funzioni/stringhe_di_testo/lpad.md
-            - regexp_match: gr_funzioni/stringhe_di_testo/regexp_match.md
-            - regexp_replace: gr_funzioni/stringhe_di_testo/regexp_replace.md
-            - regexp_substr: gr_funzioni/stringhe_di_testo/regexp_substr.md
-            - replace: gr_funzioni/stringhe_di_testo/replace.md
-            - right(string, n): gr_funzioni/stringhe_di_testo/right.md
-            - rpad: gr_funzioni/stringhe_di_testo/rpad.md
-            - strpos: gr_funzioni/stringhe_di_testo/strpos.md
-            - substr: gr_funzioni/stringhe_di_testo/substr.md
-            - title: gr_funzioni/stringhe_di_testo/title.md
-            - to_string: gr_funzioni/stringhe_di_testo/to_string.md
-            - trim: gr_funzioni/stringhe_di_testo/trim.md
-            - upper: gr_funzioni/stringhe_di_testo/upper.md
-            - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
+       - Stringhe di testo: gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md
+            # - Elenco: gr_funzioni/stringhe_di_testo/stringhe_di_testo.md
+            # - ascii: gr_funzioni/stringhe_di_testo/ascii.md
+            # - char: gr_funzioni/stringhe_di_testo/char.md
+            # - concat: gr_funzioni/stringhe_di_testo/concat.md
+            # - format: gr_funzioni/stringhe_di_testo/format.md
+            # - format_date: gr_funzioni/stringhe_di_testo/format_date.md
+            # - format_number: gr_funzioni/stringhe_di_testo/format_number.md
+            # - left(string, n): gr_funzioni/stringhe_di_testo/left.md
+            # - length: gr_funzioni/stringhe_di_testo/length.md
+            # - lower: gr_funzioni/stringhe_di_testo/lower.md
+            # - lpad: gr_funzioni/stringhe_di_testo/lpad.md
+            # - regexp_match: gr_funzioni/stringhe_di_testo/regexp_match.md
+            # - regexp_replace: gr_funzioni/stringhe_di_testo/regexp_replace.md
+            # - regexp_substr: gr_funzioni/stringhe_di_testo/regexp_substr.md
+            # - replace: gr_funzioni/stringhe_di_testo/replace.md
+            # - right(string, n): gr_funzioni/stringhe_di_testo/right.md
+            # - rpad: gr_funzioni/stringhe_di_testo/rpad.md
+            # - strpos: gr_funzioni/stringhe_di_testo/strpos.md
+            # - substr: gr_funzioni/stringhe_di_testo/substr.md
+            # - title: gr_funzioni/stringhe_di_testo/title.md
+            # - to_string: gr_funzioni/stringhe_di_testo/to_string.md
+            # - trim: gr_funzioni/stringhe_di_testo/trim.md
+            # - upper: gr_funzioni/stringhe_di_testo/upper.md
+            # - wordwrap: gr_funzioni/stringhe_di_testo/wordwrap.md
        - Variabili:
             - Elenco: gr_funzioni/variabili/variabili.md
             - atlas_feature: gr_funzioni/variabili/atlas_feature.md
