@@ -476,13 +476,13 @@ Genera un Universally Unique Identifier (UUID) per ciascun record usando il meto
 
 Sintassi:
 
-* uuid(_[format='WithBraces']_)
+* uuid([_<span style="color:red;">format='WithBraces'</span>_])
 
 [ ] indica componenti opzionali
 
 Argomenti:
 
-- `format` Il formato, come l'UUID verrà formattato. 'WithBraces' (con parentesi {}), 'WithoutBraces' (senza parentesi) o 'Id128' (senza trattino).
+- _<span style="color:red;">format</span>_ Il formato, come l'UUID verrà formattato. 'WithBraces' (con parentesi {}), 'WithoutBraces' (senza parentesi) o 'Id128' (senza trattino).
 
 
 Esempi:
