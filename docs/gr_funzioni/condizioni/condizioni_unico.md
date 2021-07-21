@@ -43,6 +43,8 @@ ELSE 'NON SONO ISOLE'
 END
 ```
 
+![](../../img/condizioni/case0.png)
+
 ![](../../img/condizioni/case1.png)
 
 ```
@@ -106,6 +108,8 @@ coalesce(7, NULL, 3*2) → 7
 coalesce("fieldA", "fallbackField", 'ERRORE') → valore di "fieldA" se non è NULL, altrimenti il valore di "fallbackField" o la stringa 'ERRORE' se sono entrambi NULL
 ```
 
+![](../../img/condizioni/coalesce0.png)
+
 Osservazioni:
 
 Questa funzione è utile all'interno di una espressione che prevede l'uso di più campi ed uno o più di essi ha valore NULL, questo valore penalizza l'intera stringa e rende non visibile il risultato.
@@ -146,6 +150,8 @@ if( 0, 'One', 'Zero' ) → 'Zero'
 if( 10, 'One', 'Zero' ) → 'One'
 ```
 
+![](../../img/condizioni/if0.png)
+
 Osservazioni:
 
 --
@@ -175,11 +181,7 @@ nullif('text', '(none)') → 'text'
 nullif("name", '') → NULL, se "name" è una stringa vuota (o già NULL), "name" in qualsiasi altro caso.
 ```
 
-Osservazioni:
-
---
-
-![](../../img/condizioni/nullif1.jpg)
+![](../../img/condizioni/nullif0.jpg)
 
 ---
 
@@ -189,12 +191,12 @@ Restituisce la prima posizione di corrispondenza che soddisfa un'espressione reg
 
 Sintassi:
 
-* regexp_match(<span style="color:red;">input_string</span>, <span style="color:red;">regex</span>)
+* regexp_match(_<span style="color:red;">input_string</span>_, _<span style="color:red;">regex</span>_)
 
 Argomenti:
 
-* <span style="color:red;">input_string</span> la stringa da confrontare con l'espressione regolare
-* <span style="color:red;">regex</span> L'espressione regolare da confrontare. I caratteri backslash devono essere doppiamente escaped (es "\\s" per selezionare un carattere spazio bianco).
+* _<span style="color:red;">_input_string_</span>_ la stringa da confrontare con l'espressione regolare
+* _<span style="color:red;">_regex_</span>_ L'espressione regolare da confrontare. I caratteri backslash devono essere doppiamente escaped (es "\\s" per selezionare un carattere spazio bianco).
 
 Esempi:
 
