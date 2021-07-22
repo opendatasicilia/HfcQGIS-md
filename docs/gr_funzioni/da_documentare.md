@@ -1,30 +1,9 @@
 # Vuoi documentare una funzione? Ecco quelle ancora non pronte
 
 
-Al momento sono **83**!
+Al momento sono **62**!
 
 
-- [dbquery](./reference/dbquery.md)
-- [dbsql](./reference/dbsql.md)
-- [dbvalue](./reference/dbvalue.md)
-- [dbvaluebyid](./reference/dbvaluebyid.md)
-- [geomcontains](./reference/geomcontains.md)
-- [geomcrosses](./reference/geomcrosses.md)
-- [geomdisjoint](./reference/geomdisjoint.md)
-- [geomdistance](./reference/geomdistance.md)
-- [geomequals](./reference/geomequals.md)
-- [geomintersects](./reference/geomintersects.md)
-- [geomnearest](./reference/geomnearest.md)
-- [geomoverlaps](./reference/geomoverlaps.md)
-- [geomredef](./reference/geomredef.md)
-- [geomtouches](./reference/geomtouches.md)
-- [geomwithin](./reference/geomwithin.md)
-- [intersecting_geom_count](./reference/intersecting_geom_count.md)
-- [intersecting_geom_sum](./reference/intersecting_geom_sum.md)
-- [wktarea](./reference/wktarea.md)
-- [wktcentroid](./reference/wktcentroid.md)
-- [wktlenght](./reference/wktlenght.md)
-- [wktpointonsurface](./reference/wktpointonsurface.md)
 - [atlas_feature](./variabili/atlas_feature.md)
 - [atlas_featureid](./variabili/atlas_featureid.md)
 - [atlas_featurenumber](./variabili/atlas_featurenumber.md)

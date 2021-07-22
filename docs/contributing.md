@@ -19,7 +19,7 @@ Se trovi qualche malfunzionamento segnalalo, così da migliorare la guida.
 Se hai suggerimenti o migliorie segnalali.
 
 ### Suggerire esempi/esercizi
-Se vuoi che la [sezione esempi](./esempi/index.html) cresca, suggerisci degli esempi che vorresti vedere.
+Se vuoi che la [sezione esempi](./esempi/lista_esempi.md) cresca, suggerisci degli esempi che vorresti vedere.
 
 ### Pull Requests
 Includere screenshot e GIF animate nella richiesta di pull, quando possibile.
@@ -28,4 +28,4 @@ Terminare tutti i file con una nuova riga
 Evita il codice dipendente dalla piattaforma
 
 ### Elenco funzione da documentare con donazione
-[Apri elenco](./gr_funzioni/da_documentare.html)
+[Apri elenco](./gr_funzioni/da_documentare.md)
