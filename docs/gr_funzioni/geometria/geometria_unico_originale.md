@@ -1,21 +1,4 @@
-<header>
- <!-- facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ config.site_description }}" />
-  <meta property="og:url" content="{{ page.canonical_url }}" />
-  <meta property="og:image" content="https://hfcqgis-md.readthedocs.io/it/latest/img/hfc_fuz_geom.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-<!-- twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="<hfcqgis.opendatasicilia.it>" />
-  <meta name="twitter:creator" content="<Salvatore Fiandaca>" />
-  <meta name="twitter:title" content="{{ title }}" />
-  <meta name="twitter:description" content="{{ config.site_description }}" />
-  <meta name="twitter:image" content="https://hfcqgis-md.readthedocs.io/it/latest/img/hfc_fuz_geom.png" />
-</header>
+
 # Gruppo Geometria
 
 !!! Abstract
