@@ -11,7 +11,7 @@ Restituisce un array contenente tutti i valori passati come parametro.
 
 Sintassi:
 
-- array(_<span style="color:red;">value1</span>, <span style="color:red;">value2</span>, <span style="color:red;">…</span>_)
+- array(_<span style="color:red;">value1</span>, <span style="color:red;">value2</span>, …)
 
 Argomenti:
 
@@ -19,15 +19,11 @@ Argomenti:
 
 Esempi:
 
-* `array(2,10) → array: 2, 10`
+```
+array(2,10) → array: 2, 10
+```
 
-![](../../img/arrays/array/array1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array/array1.png)
 
 ---
 
@@ -37,25 +33,21 @@ Restituisce true se un array contiene tutti i valori di un determinato array.
 
 Sintassi:
 
-- array_all(_array_a, array_b, …_)
+- array_all(_<span style="color:red;">array_a</span>_, _<span style="color:red;">array_b</span>_, …_)
 
 Argomenti:
 
-* *array_a* un array
-* *array_b* un array di valori da cercare
+* _<span style="color:red;">array_a</span>_ un array
+* _<span style="color:red;">array_b</span>_ un array di valori da cercare
 
 Esempi:
 
-* `array_all(array(1,2,3),array(2,3)) → vero`
-* `array_all(array(1,2,3),array(1,2,4)) → falso`
+```
+array_all(array(1,2,3),array(2,3)) → vero
+array_all(array(1,2,3),array(1,2,4)) → falso
+```
 
-![](../../img/arrays/array_all/array_all1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_all/array_all1.png)
 
 ---
 
@@ -74,45 +66,11 @@ Argomenti:
 
 Esempi:
 
-* `array_append(array(1,2,3),4) → array: 1,2,3,4`
+```
+array_append(array(1,2,3),4) → array: 1,2,3,4
+```
 
-![](../../img/arrays/array_append/array_append1.png)
-
-Nota bene
-
---
-
-Osservazioni
-
----
-
-## array_avg
-
-Calcola il valore medio di un array.
-
-Sintassi:
-
-- array_avg(_<span style="color:red;">array</span>_)
-
-Argomenti:
-
-* _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola) 
-
-Esempi:
-
-* `array_avg(array(1,2,3)) → 2`
-* `array_avg('1,2,3') → 2` dalla versione 1.4 del plugin!!!
-
-![](../../img/arrays/array_avg/array_avg1.png)
-
-dalla versione 1.4 del plugin:
-![](../../img/arrays/array_avg/array_avg2.png)
-
-Nota bene
-
-Questa funzione sarà presente, nel calcolatore, solo dopo l'installazione del plugin [ArrayPlus](https://framagit.org/jbdesbas/arrayPlus)
-
-Osservazioni
+![](../../img/array/array_append/array_append1.png)
 
 ---
 
@@ -130,15 +88,11 @@ Argomenti:
 
 Esempi:
 
-* `array_cat(array(1,2),array(2,3)) → array: 1,2,2,3`
+```
+array_cat(array(1,2),array(2,3)) → array: 1,2,2,3
+```
 
-![](../../img/arrays/array_cat/array_cat1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_cat/array_cat1.png)
 
 ---
 
@@ -157,15 +111,11 @@ Argomenti:
 
 Esempi:
 
-* `array_contains(array(1,2,3),2) → true`
+```
+array_contains(array(1,2,3),2) → true
+```
 
-![](../../img/arrays/array_contains/array_contains1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_contains/array_contains1.png)
 
 ---
 
@@ -184,13 +134,11 @@ Argomenti:
 
 Esempi:
 
-* `array_count(array('a', 'b', 'c', 'b'), 'b') → 2`
+```
+array_count(array('a', 'b', 'c', 'b'), 'b') → 2
+```
 
-![](../../img/arrays/array_count/img_02.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_count/img_02.png)
 
 ---
 
@@ -208,15 +156,11 @@ Argomenti:
 
 Esempi:
 
-* `array_distinct(array(1,2,3,2,1)) → array: 1,2,3`
+```
+array_distinct(array(1,2,3,2,1)) → array: 1,2,3
+```
 
-![](../../img/arrays/array_distinct/array_distinct1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_distinct/array_distinct1.png)
 
 ---
 
@@ -226,24 +170,22 @@ Restituisce un array con solo gli elementi per i quali l'espressione restituisce
 
 Sintassi:
 
-- array_filter(_<span style="color:red;">array</span>,<span style="color:red;">expression</span>_)
+- array_filter(_<span style="color:red;">array</span>,<span style="color:red;">expression</span>_[,_<span style="color:red;">limit=0</span>_])
 
 Argomenti:
 
 * _<span style="color:red;">array</span>_ un array
 * _<span style="color:red;">expression</span>_ un'espressione da valutare su ogni oggetto. La variabile `@ element` sarà sostituita dal valore corrente.
+* _<span style="color:red;">limit</span>_ numero massimo di elementi da restituire. Usa 0 per restituire tutti i valori.
+
 
 Esempi:
 
-* `array_filter(array(1,2,3),@element < 3) → [ 1, 2 ]`
+```
+array_filter(array(1,2,3),@element < 3) → [ 1, 2 ]
+```
 
-![](../../img/arrays/array_filter/array_filter1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_filter/array_filter1.png)
 
 ---
 
@@ -262,15 +204,11 @@ Argomenti:
 
 Esempi:
 
-* `array_find(array(1,2,3),2) → 1`
+```
+array_find(array(1,2,3),2) → 1
+```
 
-![](../../img/arrays/array_find/array_find1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_find/array_find1.png)
 
 ---
 
@@ -288,15 +226,11 @@ Argomenti:
 
 Esempi:
 
-* `array_first(array('a','b','c')) → 'a'`
+```
+array_first(array('a','b','c')) → 'a'
+```
 
-![](../../img/arrays/array_first/array_first1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_first/array_first1.png)
 
 ---
 
@@ -315,14 +249,12 @@ Argomenti:
 
 Esempi:
 
-* `array_foreach(array('a','b','c'),upper(@element)) → array: 'A', 'B', 'C'`
-* `array_foreach(array(1,2,3),@element + 10) → array: 11, 12, 13`
+```
+array_foreach(array('a','b','c'),upper(@element)) → [ 'A', 'B', 'C' ]
+array_foreach(array(1,2,3),@element + 10) → [ 11, 12, 13 ]
+```
 
-![](../../img/arrays/array_foreach/array_foreach1.png)
-
-Nota bene
-
---
+![](../../img/array/array_foreach/array_foreach1.png)
 
 Osservazioni
 
@@ -347,15 +279,11 @@ Argomenti:
 
 Esempi:
 
-* `array_get(array('a','b','c'),-1) → 'c'`
+```
+array_get(array('a','b','c'),-1) → 'c'
+```
 
-![](../../img/arrays/array_get/array_get1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_get/array_get1.png)
 
 ---
 
@@ -375,15 +303,11 @@ Argomenti:
 
 Esempi:
 
-* `array_insert(array(1,2,3),1,100) → array: 1,100,2,3`
+```
+array_insert(array(1,2,3),1,100) → [ 1, 100, 2, 3 ]
+```
 
-![](../../img/arrays/array_insert/array_insert1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_insert/array_insert1.png)
 
 ---
 
@@ -393,7 +317,7 @@ Restituisce true (vero) se almeno un elemento dell'_array1_ esiste in _array2_.
 
 Sintassi:
 
-array_intersect(_<span style="color:red;">array1</span>, <span style="color:red;">array2</span>_)
+- array_intersect(_<span style="color:red;">array1</span>, <span style="color:red;">array2</span>_)
 
 Argomenti:
 
@@ -402,46 +326,11 @@ Argomenti:
 
 Esempi:
 
-* `array_intersect(array(1,2,3,4),array(4,0,2,5)) → true`
+```
+array_intersect(array(1,2,3,4),array(4,0,2,5)) → true
+```
 
-![](../../img/arrays/array_intersect/array_intersect1.png)
-
-Nota bene
-
---
-
-Osservazioni
-
----
-
-## array_lambda
-
-Applica una funzione personalizzata a ciascun elemento (x)
-
-Sintassi:
-
-- array_lambda(_<span style="color:red;">array</span>, <span style="color:red;">lambda function</span>_) 
-
-Argomenti:
-
-* _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola) 
-* _<span style="color:red;">lambda function</span>_ una stringa che rappresenta la funzione da applicare. L'elemento array è rappresentato come 'x'
-
-Esempi:
-
-* `array_lambda(array(1,2,3),'x+10') → <array: 11,12,13>`
-*  `array_lambda( '1,2,3', '10') → <array: 11,12,13>`
-
-![](../../img/arrays/array_lambda/array_lambda1.png)
-
-dalla versione 1.4 del plugin:
-![](../../img/arrays/array_lambda/array_lambda2.png)
-
-Nota bene
-
-Questa funzione sarà presente, nel calcolatore, solo dopo l'installazione del plugin [ArrayPlus](https://framagit.org/jbdesbas/arrayPlus)
-
-Osservazioni
+![](../../img/array/array_intersect/array_intersect1.png)
 
 ---
 
@@ -459,15 +348,11 @@ Argomenti:
 
 Esempi:
 
-* `array_last(array('a','b','c')) → 'c'`
+```
+array_last(array('a','b','c')) → 'c'
+```
 
-![](../../img/arrays/array_last/array_last1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_last/array_last1.png)
 
 ---
 
@@ -485,40 +370,45 @@ Argomenti:
 
 Esempi:
 
-* `array_length(array(1,2,3)) → 3`
+```
+array_length(array(1,2,3)) → 3
+```
 
-![](../../img/arrays/array_length/array_length1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_length/array_length1.png)
 
 ---
 
 ## array_majority
 
-Restituisce un array contenente il valore più comune in un array. L'array restituito può contenere più di un valore se più valori si verificano con la stessa frequenza.
+Restituisce i valori più comuni in un array.
 
 Sintassi:
 
-- array_majority(_<span style="color:red;">array</span>_)  
+- array_majority(_<span style="color:red;">array</span>_[,_<span style="color:red;">option='all'</span>_])  
 
 Argomenti:
 
 * _<span style="color:red;">array</span>_ un array
+* _<span style="color:red;">option='all'</span>_ una stringa che specifica la gestione dei valori restituiti. Le opzioni valide sono:
+
+- _all_: Predefinito, tutti i valori più comuni vengono restituiti in un array.
+- _any_: Restituisce uno dei valori più comuni.
+- _median_: Restituisce la mediana dei valori più comuni. I valori non aritmetici sono ignorati.
+- _real_majority_: Restituisce il valore che si verifica più della metà delle volte rispetto alla dimensione dell'array.
 
 Esempi:
 
-* `array_majority(array(0,1,42,42,43)) → [ 42 ]`
-* `array_majority(array(0,0,1,2,2,42)) → [ 0, 2 ]`
+```
+array_majority(array(0,1,42,42,43), 'all') → [ 42 ]
+array_majority(array(0,1,42,42,43,1), 'all') → [ 42, 1 ]
+array_majority(array(0,1,42,42,43,1), 'any') → 1 or 42
+array_majority(array(0,1,1,2,2), 'median') → 1.5
+array_majority(array(0,1,42,42,43), 'real_majority') → NULL
+array_majority(array(0,1,42,42,43,42), 'real_majority') → NULL
+array_majority(array(0,1,42,42,43,42,42), 'real_majority') → 42
+```
 
-![](../../img/arrays/array_majority/array_majority1.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_majority/array_majority1.png)
 
 ---
 
@@ -536,13 +426,11 @@ Argomenti:
 
 Esempi:
 
-* `array_max(array(0,42,4,2)) → 42`
+```
+array_max(array(0,42,4,2)) → 42
+```
 
-![](../../img/arrays/array_max/array_max1.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_max/array_max1.png)
 
 ---
 
@@ -552,7 +440,7 @@ Restituisce la media dei valori aritmetici in un array. I valori non-numerici ne
 
 Sintassi:
 
-array_mean(_<span style="color:red;">array</span>_)  
+- array_mean(_<span style="color:red;">array</span>_)  
 
 Argomenti:
 
@@ -560,14 +448,12 @@ Argomenti:
 
 Esempi:
 
-* `array_mean(array(0,1,7,66.6,135.4)) → 42`
-* `array_mean(array(0,84,'a','b','c')) → 42`
+```
+array_mean(array(0,1,7,66.6,135.4)) → 42.000000
+array_mean(array(0,84,'a','b','c')) → 42
+```
 
-![](../../img/arrays/array_mean/array_mean.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_mean/array_mean.png)
 
 ---
 
@@ -585,14 +471,12 @@ Argomenti:
 
 Esempi:
 
-* `array_median(array(0,1,42,42,43)) → 42`
-* `array_median(array(0,1,2,42,'a','b')) → 1.5`
+```
+array_median(array(0,1,42,42,43)) → 42
+array_median(array(0,1,2,42,'a','b')) → 1.5`
+```
 
-![](../../img/arrays/array_median/array_median.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_median/array_median.png)
 
 ---
 
@@ -610,44 +494,45 @@ Argomenti:
 
 Esempi:
 
-* `array_min(array(43,42,54)) → 42`
+```
+array_min(array(43,42,54)) → 42
+```
 
-![](../../img/arrays/array_min/array_min1.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_min/array_min1.png)
 
 ---
 
 ## array_minority
 
-Restituisce il valore più comune. Restituisce un valore arbitrario se ex-equo.
+Restituisce i valori meno comuni in un array.
 
 Sintassi:
 
-- array_minority(_<span style="color:red;">array</span>_)  
+- array_minority(_<span style="color:red;">array</span>_[,_<span style="color:red;">option='all'</span>_])  
 
 Argomenti:
 
-* _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola)
+* _<span style="color:red;">array</span>_ un array
+* _<span style="color:red;">option='all'</span>_ una stringa che specifica la gestione dei valori restituiti. Le opzioni valide sono:
+
+- _all_: Predefinito, tutti i valori meno comuni vengono restituiti in un array.
+- _any_: Restituisce uno dei valori meno comuni.
+- _median_: Restituisce la mediana dei valori meno comuni. I valori non aritmetici sono ignorati.
+- _real_minority_: Restituisce valori che si verificano meno della metà delle volte rispetto alla dimensione dell'array.
 
 Esempi:
 
-* `array_minority(string_to_array( 'a,b,c,a,a'))->'c'`
-* `array_minority(array(3,4,5,3,2,1,14,14,1)) → 2`
-* `array_minority('a,b,c,a,a')->'c'`
+```
+array_minority(array(0,42,42), 'all') → [ 0 ]
+array_minority(array(0,1,42,42), 'all') → [ 0, 1 ]
+array_minority(array(0,1,42,42,43,1), 'any') → 0 or 43
+array_minority(array(1,2,3,3), 'median') → 1.5
+array_minority(array(0,1,42,42,43), 'real_minority') → [ 42, 43, 0, 1 ]
+array_minority(array(0,1,42,42,43,42), 'real_minority') → [ 42, 43, 0, 1 ]
+array_minority(array(0,1,42,42,43,42,42), 'real_minority') → [ 43, 0, 1 ]
+```
 
-![](../../img/arrays/array_minority/array_minority1.png)
-
-dalla versione 1.4 del plugin:
-![](../../img/arrays/array_minority/array_minority2.png)
-
-Nota bene
-
-Questa funzione sarà presente, nel calcolatore, solo dopo l'installazione del plugin [ArrayPlus](https://framagit.org/jbdesbas/arrayPlus)
-
-Osservazioni
+![](../../img/array/array_minority/array_minority1.png)
 
 ---
 
@@ -666,43 +551,35 @@ Argomenti:
 
 Esempi:
 
-* `array_prepend(array(1,2,3),0) → array: 0,1,2,3`
+```
+array_prepend(array(1,2,3),0) → [ 0, 1, 2, 3 ]
+```
 
-![](../../img/arrays/array_prepend/array_prepend1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_prepend/array_prepend1.png)
 
 ---
 
 ## array_prioritize
 
-Ordina un array rispetto ad un altro
+Restituisce un array ordinato usando l'ordine specificato in un altro array. I valori che sono presenti nel primo array ma assenti nel secondo array saranno aggiunti alla fine del risultato.
 
 Sintassi:
 
-- array_prioritize(_<span style="color:red;">array</span>_,_<span style="color:red;">prioritized array</span>_) 
+- array_prioritize(_<span style="color:red;">array</span>_,_<span style="color:red;">array_prioritize</span>_) 
 
 Argomenti:
 
 * _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola) 
-* _<span style="color:red;">prioritized array</span>_ array o stringa (valori separati da virgola) contenenti i valori ordinati
+* _<span style="color:red;">array_prioritize</span>_ array o stringa (valori separati da virgola) contenenti i valori ordinati
 
 Esempi:
 
-* `array_prioritize( array(1,8,2,5), array(5,4,2,1,3,8) ) → <array: 5, 2, 1, 8>`
-* `array_prioritize( '1,8,2,5', '5,4,2,1,3,8') → <array: '5', '2', '1', '8'>`
+```
+array_prioritize(array(1, 8, 2, 5), array(5, 4, 2, 1, 3, 8)) → [ 5, 2, 1, 8 ]
+array_prioritize(array(5, 4, 2, 1, 3, 8), array(1, 8, 6, 5)) → [ 1, 8, 5, 4, 2, 3 ]
+```
 
-![](../../img/arrays/array_prioritize/array_prioritize1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_prioritize/array_prioritize1.png)
 
 ---
 
@@ -721,15 +598,11 @@ Argomenti:
 
 Esempi:
 
-* `array_remove_all(array('a','b','c','b'),'b') → array: 'a','c'`
+```
+array_remove_all(array('a','b','c','b'),'b') → [ 'a', 'c' ]
+```
 
-![](../../img/arrays/array_remove_all/array_remove_all1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_remove_all/array_remove_all1.png)
 
 ---
 
@@ -748,15 +621,11 @@ Argomenti:
 
 Esempi:
 
-* `array_remove_at(array(1,2,3),1) → array: 1,3`
+```
+array_remove_at(array(1,2,3),1) → [ 1, 3 ]
+```
 
-![](../../img/arrays/array_remove_at/array_remove_at1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_remove_at/array_remove_at1.png)
 
 ---
 
@@ -764,13 +633,13 @@ Osservazioni
 
 Restituisce un array con il valore, l'array o la mappa dei valori forniti sostituiti.
 
-Valore & variante dell'array
+### Valore & variante dell'array
 
 Restituisce un array con il valore o con un array di valori forniti sostituito da un altro valore o da un altro array di valori.
 
 Sintassi:
 
-array_replace(_<span style="color:red;">array</span>_,_<span style="color:red;">before</span>_,_<span style="color:red;">after</span>_)
+- array_replace(_<span style="color:red;">array</span>_,_<span style="color:red;">before</span>_,_<span style="color:red;">after</span>_)
 
 Argomenti:
 
@@ -780,13 +649,15 @@ Argomenti:
 
 Esempi:
 
-- `array_replace(array('QGIS','SHOULD','ROCK'),'SHOULD','DOES') → [ 'QGIS', 'DOES', 'ROCK' ]`
-- `array_replace(array(3,2,1),array(1,2,3),array(7,8,9)) → [ 0, 2 ]`
-- `array_replace(array('Q','G','I','S'),array('Q','S'),'-') → [ '-', 'G', 'I', '-' ]`
+```
+array_replace(array('QGIS','SHOULD','ROCK'),'SHOULD','DOES') → [ 'QGIS', 'DOES', 'ROCK' ]
+array_replace(array(3,2,1),array(1,2,3),array(7,8,9)) → [ 9, 8, 7 ]
+array_replace(array('Q','G','I','S'),array('Q','S'),'-') → [ '-', 'G', 'I', '-' ]
+```
 
-![](../../img/arrays/array_replace/img_01.png)
+![](../../img/array/array_replace/img_01.png)
 
-Variabile mappa
+### Variabile mappa
 
 Restituisce un array con le chiavi della mappa fornite sostituite dai loro valori abbinati.
 
@@ -801,12 +672,11 @@ Argomenti:
 
 Esempi:
 
-- `array_replace(array('APP', 'SHOULD', 'ROCK'),map('APP','QGIS','SHOULD','DOES')) → [ 'QGIS', 'DOES', 'ROCK' ]`
+```
+array_replace(array('APP', 'SHOULD', 'ROCK'),map('APP','QGIS','SHOULD','DOES')) → [ 'QGIS', 'DOES', 'ROCK' ]
+```
 
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_replace/img_02.png)
 
 ---
 
@@ -824,15 +694,11 @@ Argomenti:
 
 Esempi:
 
-* `array_reverse(array(2,4,0,10)) → array: 10,0,4,2`
+```
+array_reverse(array(2,4,0,10)) → [ 10, 0, 4, 2 ]
+```
 
-![](../../img/arrays/array_reverse/array_reverse1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_reverse/array_reverse1.png)
 
 ---
 
@@ -852,23 +718,18 @@ Argomenti:
 
 Esempi:
 
-* `array_slice(array(1,2,3,4,5),0,3) → array: 1,2,3,4`
-* `array_slice(array(1,2,3,4,5),0,-1) → array: 1,2,3,4,5`
-* `array_slice(array(1,2,3,4,5),-5,-1) → array: 1,2,3,4,5`
-* `array_slice(array(1,2,3,4,5),0,0) → array: 1`
-* `array_slice(array(1,2,3,4,5),-2,-1) → array: 4,5`
-* `array_slice(array(1,2,3,4,5),-1,-1) → array: 5`
-* `array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),1,2) → array: 'Valmiera','Chugiak'`
-* `array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),-2,-1) → array: 'Chugiak','Brighton'`
+```
+array_slice(array(1,2,3,4,5),0,3) → [ 1, 2, 3, 4 ]
+array_slice(array(1,2,3,4,5),0,-1) → [ 1, 2, 3, 4, 5 ]
+array_slice(array(1,2,3,4,5),-5,-1) → [ 1, 2, 3, 4, 5 ]
+array_slice(array(1,2,3,4,5),0,0) → [ 1 ]
+array_slice(array(1,2,3,4,5),-2,-1) → [ 4, 5 ]
+array_slice(array(1,2,3,4,5),-1,-1) → [ 5 ]
+array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),1,2) → [ 'Valmiera', 'Chugiak' ]
+array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),-2,-1) → [ 'Chugiak', 'Brighton' ]
+```
 
-
-![](../../img/arrays/array_slice/array_slice1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_slice/array_slice1.png)
 
 ---
 
@@ -878,28 +739,20 @@ Ordina i valori in ordine crescente (usa _array_reverse_ per desc).
 
 Sintassi:
 
-array_sort(_<span style="color:red;">array</span>_) 
+- array_sort(_<span style="color:red;">array</span>_[,_<span style="color:red;">ascending=true</span>_]) 
 
 Argomenti:
 
-* _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola) 
+* _<span style="color:red;">array</span>_ un array o stringa (valori separati da virgola)
+* _<span style="color:red;">ascending</span>_ imposta questo parametro a false per ordinare l'array in modo decrescente
 
 Esempi:
 
-* `array_sort(string_to_array( 'a,b,c,a,a')) → <array: 'a', 'a', 'a', 'b', 'c'>`
-* `array_sort( array(3,4,5,3,2,1,14,14,1)) → <array: 1, 1, 2, 3, 3, 4, 5, 14, 14>`
-* `array_sort('a,b,c,a,a') → <array: 'a', 'a', 'a', 'b', 'c'>`
+```
+array_sort(array(3,2,1)) → [ 1, 2, 3 ]
+```
 
-![](../../img/arrays/array_sort/array_sort1.png)
-
-dalla versione 1.4 del plugin:
-![](../../img/arrays/array_sort/array_sort2.png)
-
-Nota bene
-
-Questa funzione sarà presente, nel calcolatore, solo dopo l'installazione del plugin [ArrayPlus](https://framagit.org/jbdesbas/arrayPlus)
-
-Osservazioni
+![](../../img/array/array_sort/array_sort1.png)
 
 ---
 
@@ -917,13 +770,11 @@ Argomenti:
 
 Esempi:
 
-* `array_sum(array(0,1,39.4,1.6,'a')) → 42.0`
+```
+array_sum(array(0,1,39.4,1.6,'a')) → 42.0
+```
 
-![](../../img/arrays/array_sum/array_sum1.png)
-
-Nota bene
-
-Osservazioni
+![](../../img/array/array_sum/array_sum1.png)
 
 ---
 
@@ -933,7 +784,9 @@ Concatena gli elementi di un array in una stringa separata da un delimitatore us
 
 Sintassi:
 
-* array_to_string(_<span style="color:red;">array</span>, <span style="color:red;">delimiter</span>, <span style="color:red;">empty_value</span>_)
+* array_to_string(_<span style="color:red;">array</span>[,<span style="color:red;">delimiter</span>][,<span style="color:red;">empty_value</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -943,16 +796,13 @@ Argomenti:
 
 Esempi:
 
-* `array_to_string(array('1','2','3'),',') → 1,2,3'`
-* `array_to_string(array('1','','3'),',','0') → 1,0,3'`
+```
+array_to_string(array('1','2','3')) → '1,2,3'
+array_to_string(array(1,2,3),'-') → '1-2-3'
+array_to_string(array('1','','3'),',','0') → '1,0,3'
+```
 
-![](../../img/arrays/array_to_string/array_to_string1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/array_to_string/array_to_string1.png)
 
 ---
 
@@ -962,7 +812,7 @@ La funzione crea una matrice contenente una sequenza di numeri, segue le stesse 
 
 Sintassi:
 
-generate_series(_<span style="color:red;">start</span>,<span style="color:red;">stop</span>[,<span style="color:red;">step</span>=1]_)
+- generate_series(_<span style="color:red;">start</span>,<span style="color:red;">stop</span>[,<span style="color:red;">step</span>=1]_)
 
 [ ] contrassegna componenti opzionali
 
@@ -974,16 +824,12 @@ Argomenti:
 
 Esempi:
 
-* `generate_series(1,5) → [ 1, 2, 3, 4, 5 ]`
-* `generate_series(5,1,-1) → [ 5, 4, 3, 2, 1 ]`
+```
+generate_series(1,5) → [ 1, 2, 3, 4, 5 ]
+generate_series(5,1,-1) → [ 5, 4, 3, 2, 1 ]
+```
 
-![](../../img/arrays/generate_series/generate_series1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/generate_series/generate_series1.png)
 
 ---
 
@@ -993,7 +839,9 @@ Restituisce un array di tutte le stringhe catturate dai gruppo, nell'ordine che 
 
 Sintassi:
 
-* regexp_matches(_<span style="color:red;">string</span>, <span style="color:red;">regex</span>, <span style="color:red;">empty_value</span>_)
+* regexp_matches(_<span style="color:red;">string</span>, <span style="color:red;">regex</span>[,<span style="color:red;">empty_value=''</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -1003,18 +851,12 @@ Argomenti:
 
 Esempi:
 
-* `regexp_matches('QGIS=>rocks','(.*)=>(.*)') → array: 'QGIS', 'rocks'`
-* `regexp_matches('key=>','(.*)=>(.*)','empty value') → array: 'key', 'empty value'`
-* `regexp_matches('key=>','(.*)=>','empty value') →'array: 'key'`
-* `regexp_matches('key=>7','(.*)=>(.*)','empty value') → array: 'key', '7'`
+```
+regexp_matches('QGIS=>rocks','(.*)=>(.*)') → [ 'QGIS', 'rocks' ]
+regexp_matches('key=>','(.*)=>(.*)','empty value') → [ 'key', 'empty value' ]
+```
 
-![](../../img/arrays/regexp_matches/regexp_matches1.png)
-
-Nota bene
-
---
-
-Osservazioni
+![](../../img/array/regexp_matches/regexp_matches1.png)
 
 ---
 
@@ -1024,7 +866,9 @@ Divide la stringa in un array usando il delimitatore fornito e la stringa opzion
 
 Sintassi:
 
-* string_to_array(_<span style="color:red;">string</span>, <span style="color:red;">delimiter</span>, <span style="color:red;">empty_value</span>_)
+* string_to_array(_<span style="color:red;">string</span>[,<span style="color:red;">delimiter</span>][,<span style="color:red;">empty_value=''</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -1034,15 +878,11 @@ Argomenti:
 
 Esempi:
 
-* `string_to_array('1,2,3',',') → array: '1', '2', '3'`
-* `string_to_array('1,,3',',','0') → array: '1', '0', '3`'
+```
+string_to_array('1,2,3',',') → [ '1', '2', '3' ]
+string_to_array('1,,3',',','0') → [ '1', '0', '3' ]
+```
 
-![](../../img/arrays/string_to_array/string_to_array1.png)
+![](../../img/array/string_to_array/string_to_array1.png)
 
-Nota bene
-
---
-
-Osservazioni
-
---
+---
