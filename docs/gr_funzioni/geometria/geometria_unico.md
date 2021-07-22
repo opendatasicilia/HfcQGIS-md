@@ -1,4 +1,4 @@
-<header>
+<head>
  <!-- facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ title }}" />
@@ -15,7 +15,7 @@
   <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ config.site_description }}" />
   <meta name="twitter:image" content="https://hfcqgis-md.readthedocs.io/it/latest/img/hfc_fuz_geom.png" />
-</header>
+</head>
 # Gruppo Geometria
 
 !!! Abstract
