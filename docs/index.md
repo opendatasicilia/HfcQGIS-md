@@ -1,4 +1,123 @@
 ---
-template: home.html
-title: HfcQGIS
+title: HfcQGIS - Help field calculator
+hide:
+  - navigation
+  - toc
 ---
+<style>
+.md-typeset .md-content__button {display: none!important; }
+.md-footer__inner {   display: none!important; }
+.md-typeset h1, .md-typeset h2 {   display: none!important; }
+.md-typeset h5 {text-transform: none!important; color: #212529!important;}
+.md-typeset h3 { font-weight: bold!important; color: #212529!important;}
+</style
+ <header>
+    <!--  Jquery js  -->
+    <script src="stylesheets/js/jquery-1.12.4.min.js"></script>
+    <!--  Bootstrap js  -->
+    <script src="stylesheets/js/bootstrap.min.js"></script>
+    <!--  Appear js  -->
+    <script src="stylesheets/js/jquery.appear.min.js"></script>
+    <!--  Scrolling Nav js  -->
+    <!--  Main js  -->
+    <script src="stylesheets/js/main.js"></script>
+  <!-- css home  -->
+<link rel="stylesheet" href="stylesheets/hfc_home.css">   
+<!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+          </div>
+        </header>
+
+<body>
+     <br>
+        <section class="page-section" id="services">
+              <div class="container">
+                <div class="text-center">
+                <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
+  <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
+         <!--        <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Consulta la guida </a>
+          <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a> -->
+		  
+<!--  SERVICES PART START  -->
+<!--  <section id="services" class="services_area  pt-115 pb-120"> -->
+ <section id="services pt-115 pb-120"> 
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-30">
+           <!-- <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
+                        <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> -->   
+                </div>
+            </div>
+<!-- row -->
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="service_icon">
+                            <i class="lni lni-calculator"></i>
+                        </div>
+                        <div class="service_content">
+                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Field Calculator</a></h4>
+                            <p><a href="https://hfcqgis-md.readthedocs.io/it/latest/calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Il calcolatore di campi</a> consente di eseguire calcoli sulla base di valori di attributo esistenti o funzioni definite, ad esempio, per calcolare la lunghezza o l'area delle caratteristiche geometriche.<br>
+                            I risultati possono essere scritti in un nuovo campo di attributo, un campo virtuale, oppure possono essere utilizzati per aggiornare i valori in un campo esistente.</p>
+                        </div>
+                    </div> 
+	<!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="service_icon">
+                            <i class="lni lni-ruler-pencil"></i>
+                        </div>
+                        <div class="service_content">
+                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/gr_funzioni/elenco_funzioni/" title="Elenco funzioni QGIS" target="_parent">Funzioni</a></h4>
+                            <p>Questa guida nasce per rispondere alle numerose richieste di aiuto sull&rsquo;uso del calcolatore di campi e per colmare un vuoto sulla guida online di QGIS con esempi e molti screenshot.<br>
+                            Nella sezione <a href="https://hfcqgis-md.readthedocs.io/it/latest/esempi/lista_esempi/" title="USO DELLE FUNZIONI" target="_parent">ESERCIZI</a> si trovano esempi pratici e svolti step by step per rendere facile la comprensione di alcune funzioni di base come Area, lunghezza, Buffer ecc...</p>
+                        </div>
+                    </div>
+	<!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                        <div class="service_icon">
+                            <i class="lni lni-euro"></i>
+                        </div>
+                        <div class="service_content">
+                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent">Corso di formazione</a></h4>
+                          <p>Il corso è rivolto agli utenti che conoscono l'uso generale di QGIS e desiderano approfondire l'uso della tabella attributi e del calcolatore di campi.<br>
+                              Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due giorni da otto ore)<br>
+                            <a href="https://hfcqgis-md.readthedocs.io/it/latest/corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_blank">Programma...</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        </div>
+                    </div> 
+	<!-- single service -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="service_icon">
+                           <i class="lni lni-users"></i>
+                        </div>
+                      <div class="service_content">
+                        <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/contributing/" title="Supporter" target="_parent">Supporter </a></h4>
+                          <p>Per realizzare questa guida ho impiegato del tempo e messo a disposizione tutta la mia conoscenza sullo strumento.<br>	  
+						  Puoi contribuire a&nbsp;<strong>HfcQGIS</strong> con una <a href="https://hfcqgis-md.readthedocs.io/it/latest/contributing/#donazione" target="_blank">donazione</a>, divulgando questo manuale, segnalando bug, suggerendo miglioramenti, suggerendo esempi/esercizi, Pull Requests o documentare una funzione con donazione.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;</p>
+                      </div>
+                    </div> 
+       <!-- single service -->
+                </div>
+
+                </div>
+            </div>
+	<!-- row -->
+        </div>
+		    <div class="container">
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-12">
+                      <div class="header_hero_content mt-45"> 
+                        <br><hr><br>
+                        <h4 class="service_title">La guida</h4>
+                          <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Questa guida NON sostituisce il <a href="https://qgis.org/it/docs/index.html#" title="Manuale online di QGIS" target="_blank">manuale</a> online di QGIS, cerca solo di rendere più facile la comprensione dello strumento.<br>
+La versione in formato <a href="https://docs.readthedocs.io/en/latest/index.html" title="Read The Docs" target="_blank">Read The Docs</a> del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità <a href="https://hfcqgis-md.readthedocs.io/it/latest/ods/" title="OpenDataSicilia"><strong>OpenDataSicilia</strong></a>, in particolare da: <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">Andrea Borruso</a>, <a href="https://twitter.com/totofiandaca" title="Totò Fiandaca" target="_blank">Totò Fiandaca</a> e <a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">Giovan Battista Vitrano</a> utilizzando il tema <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a></p>
+                          </div> 
+                  </div>
+</body>

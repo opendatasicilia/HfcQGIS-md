@@ -216,7 +216,7 @@ div.doc-contents:not(.first) {
 [data-md-color-primary=deep-orange] {--md-primary-fg-color: #f18d36!important; --md-primary-fg-color--dark: #f18d36!important;}
 
 /*mod. colore accent green*/	
-[data-md-color-accent=green] { --md-accent-fg-color: #589632!important; }
+[data-md-color-accent=green] { --md-accent-fg-color: #344c25!important; }
 
 /*mod. colore footer prev/next*/
 :root>* {--md-footer-bg-color: rgb(241 141 54 / 100%)!important; }
@@ -236,7 +236,7 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
 /* immagine no bordo/ no ombra */
 .immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}		
 
-.hr-hfc {border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);  width: 100%; margin: 20px 0;}	
+.hr-hfc {border: 0; height: 1px; background:    #344c25; background-image: linear-gradient(to right, #93b023,   #344c25, #93b023);  width: 100%; margin: 20px 0;}	
 	
   /*Clip resize; */
 .clip_resize {height: 100% /*width: 100%;  border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) */} 
@@ -286,7 +286,7 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
  [data-ea-publisher].loaded, [data-ea-type].loaded {display: none!important; }
 
 /* linea separazione */
-.hr {border: 0; height: 2px; background: hsl(97, 50%, 39%); width: 100%; margin: 20px 0;}
+.hr {border: 0; height: 2px; background:  #344c25; width: 100%; margin: 20px 0;}
 
 .md-typeset hr {
     border-bottom: .05rem solid var(--md-default-fg-color--lightest);
@@ -294,7 +294,7 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
     margin: 1.5em 0;
     border: 0;
     height: 1px;
-    background: #589632;
-    background-image: linear-gradient(to right, #93b023, #589632, #93b023);
+    background:  #344c25;
+    background-image: linear-gradient(to right, #93b023, #344c25, #93b023);
     width: 100%;
    }
