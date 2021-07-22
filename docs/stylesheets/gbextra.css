@@ -116,7 +116,7 @@ a.md-button.md-button:hover {
 .md-typeset code {background-color: #4f724b4d!important;}
 
 /* cerca*/
- @media screen and (min-width: 60em) { .md-search__input  {background-color: rgba(0,0,0,0.075);}}  
+ @media screen and (min-width: 60em) { .md-search__input  {background-color: rgba(0,0,0,.075);}}  
 
 /*Table styling*/
 table {
