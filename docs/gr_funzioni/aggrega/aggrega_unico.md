@@ -111,10 +111,9 @@ Per prendere un valore specifico dell'array:
 
 dove `"z"` è un attributo
 
-Osservazioni: 
-
-- la funzione `array_agg` permette di trasformare un attributo (colonna di una tabella) in un array!!!
-- la funzione [attributes](..\record_e_attributi\record_e_attributi_unico.md#attributes) permette di trasformare una feature (riga di una tabella) in una maps e quindi in un array!!!
+!!! Success "Osservazioni:" 
+    - la funzione `array_agg` permette di trasformare un attributo (colonna di una tabella) in un array!!!
+    - la funzione [attributes](..\record_e_attributi\record_e_attributi_unico.md#attributes) permette di trasformare una feature (riga di una tabella) in una maps e quindi in un array!!!
 
 ---
 
