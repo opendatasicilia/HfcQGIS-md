@@ -6,7 +6,7 @@ Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://q
 
 ## Durata del corso
 
-Il corso è strutturato per durare almeno 16 ore IN PRESENZA - preferibilmente fulltime (due giorni da otto ore)
+Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmente fulltime (due giorni da otto ore)
 
 ## Programma Corso
 
