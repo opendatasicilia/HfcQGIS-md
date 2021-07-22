@@ -229,7 +229,7 @@ count("stations",group_by:="state") → conta le stazioni, raggruppate per il ca
 
 ![](../../img/aggregate/count/count1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
 
@@ -249,7 +249,9 @@ Restituisce il conteggio dei valori differenti.
 
 Sintassi:
 
-- count_distinct(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+- count_distinct(_<span style="color:red;">expression</span>[,<span style="color:red;">group_by</span>][,<span style="color:red;">filter</span>]_)
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -259,19 +261,23 @@ Argomenti:
 
 Esempi:
 
-* `count_distinct(expression:= "DEN_PCM" ,group_by:= "COD_REG" ,filter:= "COD_REG"<5) → conta i valori differenti delle "DEN_PCM", raggruppate per il campo "COD_REG" con filtro le prime 4 Regioni`
+```
+count_distinct("stations",group_by:="state") → conta i valori differenti delle stazioni, raggruppate per il campo state
+```
 
 ![](../../img/aggregate/count_distinct/count_distinct1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. majority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. majority(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. count_distinct(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. count_distinct(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 --
 
@@ -281,11 +287,13 @@ Osservazioni
 
 ## count_missing
 
-Restituisce il conteggio dei valori mancanti (nulli).
+Restituisce il numero di valori nulli (NULL).
 
 Sintassi:
 
-- count_missing(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+- count_missing(_<span style="color:red;">expression</span>[,<span style="color:red;">group_by</span>][,<span style="color:red;">filter</span>]_)
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -295,21 +303,23 @@ Argomenti:
 
 Esempi:
 
-* ` count_missing( filter:= "COD_REG">=10,expression:= "DEN_PCM" , group_by:= "COD_REG") → conta i valori mancanti (nulli) delle "DEN_PCM", raggruppate per il campo "COD_REG" con filtro le ultime 10 Regioni`
+```
+count_missing("stations",group_by:="state") → conta i valori mancanti (NULL) delle stazioni, raggruppati per il campo state
+```
 
 ![](../../img/aggregate/count_missing/count_missing1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
+
 1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
     1. count_missing(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
     1. count_missing(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
-
---
-
-Osservazioni
 
 ---
 
@@ -319,7 +329,9 @@ Restituisce lo scarto interquartile calcolato da un campo o espressione.
 
 Sintassi:
 
-- iqr(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+- iqr(_<span style="color:red;">expression</span>[,<span style="color:red;">group_by</span>][,<span style="color:red;">filter</span>]_)
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -329,19 +341,23 @@ Argomenti:
 
 Esempi:
 
-* ` iqr(  "j_tot_maschi" , "COD_REG")  → scarto interquartile del valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+iqr("population",group_by:="state") → scarto interquartile del valore popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/iqr/irq1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
+
 1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
     1. iqr(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
     1. iqr(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
-    
-Osservazioni
 
 ---
 
@@ -351,7 +367,9 @@ Restituisce la maggioranza aggregata di valori (valore più comunemente presente
 
 Sintassi:
 
-- majority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+- majority(_<span style="color:red;">expression</span>[,<span style="color:red;">group_by</span>][,<span style="color:red;">filter</span>]_)
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -361,19 +379,23 @@ Argomenti:
 
 Esempi:
 
-* ` majority(  "j_tot_maschi" , "COD_REG")  → valore di classe più comunemente presente, raggruppato per il campo "COD_REG"`
+```
+majority("class",group_by:="state") → valore di classe più comunemente presente, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/majority/majority1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. majority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. majority(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. majority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. majority(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -383,7 +405,9 @@ Restituisce la lunghezza massima delle stringhe di un campo o espressione.
 
 Sintassi:
 
-- max_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+- max_length(_<span style="color:red;">expression</span>[,<span style="color:red;">group_by</span>][,<span style="color:red;">filter</span>]_)
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
@@ -393,19 +417,23 @@ Argomenti:
 
 Esempi:
 
-* ` max_length("COMUNE", "COD_REG")  → lunghezza massima di "COMUNE", raggruppato per il campo "COD_REG"`
+```
+max_length("town_name",group_by:="state") → lunghezza massima di town_name, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/max_length/max_length1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. max_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. max_length(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. max_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. max_length(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -417,6 +445,8 @@ Sintassi:
 
 - maximum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -425,20 +455,23 @@ Argomenti:
 
 Esempi:
 
-* ` maximum("j_tot_femmine", "COD_REG")  → valore massimo di "j_tot_femmine", raggruppato per il campo "COD_REG"`
+```
+maximum("population",group_by:="state") → valore massimo di population, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/maximum/maximum1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
+
 1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
     1. maximum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
     1. maximum(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
-
-
-Osservazioni
 
 ---
 
@@ -450,6 +483,8 @@ Sintassi:
 
 - mean(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -458,19 +493,23 @@ Argomenti:
 
 Esempi:
 
-* ` mean("j_tot_femmine", "COD_REG")  → valore massimo di "j_tot_femmine", raggruppato per il campo "COD_REG"`
+```
+mean("population",group_by:="state") → valore medio di population, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/mean/mean1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. mean(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. mean(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span> )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. mean(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. mean(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -482,6 +521,8 @@ Sintassi:
 
 - median(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -490,19 +531,23 @@ Argomenti:
 
 Esempi:
 
-* ` median("j_tot_femmine", "COD_REG")  → mediana della "j_tot_femmine", raggruppato per il campo "COD_REG"`
+```
+median("population",group_by:="state") → mediana della popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/median/median1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. median(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. median(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. median(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. median(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -514,6 +559,8 @@ Sintassi:
 
 - min_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -522,19 +569,23 @@ Argomenti:
 
 Esempi:
 
-* ` min_length("COMUNE", "COD_REG")  → lunghezza minima di "COMUNE", raggruppato per il campo "COD_REG"`
+```
+min_length("town_name",group_by:="state") → lunghezza minima di town_name, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/min_length/min_length1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. min_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. min_length(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. min_length(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. min_length(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -546,6 +597,8 @@ Sintassi:
 
 - minimum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -554,18 +607,23 @@ Argomenti:
 
 Esempi:
 
-* ` minimum("j_tot_femmine", "COD_REG")  → valore minimo di "j_tot_femmine", raggruppato per il campo "COD_REG"`
+```
+minimum("population",group_by:="state") → valore minimo di population, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/minimum/minimum1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. minimum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. minimum(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. minimum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. minimum(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 Esempio:
 
@@ -585,6 +643,8 @@ Sintassi:
 
 - minority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -593,19 +653,23 @@ Argomenti:
 
 Esempi:
 
-* `minority(  "j_tot_maschi" , "COD_REG")  → valore di classe meno comunemente presente, raggruppato per il campo "COD_REG"`
+```
+minority("class",group_by:="state") → valore di classe meno presente, ragguppato per il campo state
+```
 
 ![](../../img/aggregate/minority/minority1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. minority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. minority(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. minority(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. minority(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -617,6 +681,8 @@ Sintassi:
 
 - q1(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -625,19 +691,23 @@ Argomenti:
 
 Esempi:
 
-* `q1("j_tot_maschi" , "COD_REG")  → primo quartile del valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+q1("population",group_by:="state") → primo quartile del valore popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/q1/q11.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. q1(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. q1(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. q1(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. q1(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -649,6 +719,8 @@ Sintassi:
 
 - q3(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -657,19 +729,23 @@ Argomenti:
 
 Esempi:
 
-* `q3("j_tot_maschi" , "COD_REG")  → terzo quartile del valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+q3("population",group_by:="state") → terzo quartile del valore popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/q3/q31.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. q3(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. q3(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. q3(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. q3(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -681,6 +757,8 @@ Sintassi:
 
 - range(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -689,34 +767,39 @@ Argomenti:
 
 Esempi:
 
-* `range("j_tot_maschi" , "COD_REG")  → intervallo di valori "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+range("population",group_by:="state") → intervallo di valori di popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/range/range1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. range(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. range(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. range(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. range(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
 ## relation_aggregate
 
-Restituisce un valore aggregato calcolato usando tutte le geometrie figlie corrispondenti da un altro vettore.
+Restituisce un valore aggregato calcolato usando tutti gli elementi figli corrispondenti da una relazione di layer.
 
 Sintassi:
 
-- relation_aggregate(_<span style="color:red;">relation</span>, <span style="color:red;">aggregate</span>, <span style="color:red;">expression</span>, <span style="color:red;">concatenator</span>_)
+- relation_aggregate(_<span style="color:red;">relation</span>, <span style="color:red;">aggregate</span>, <span style="color:red;">expression</span>[,<span style="color:red;">concatenator</span>][,<span style="color:red;">order_by</span>]_)
 
 Argomenti:
 
 * <span style="color:red;">_relation_</span> una stringa, rappresentante un ID di relazione
 * <span style="color:red;">_aggregate_</span> una stringa corrispondente all'aggregato da calcolare. Opzioni valide sono:
+
     * count
     * count_distinct
     * count_missing
@@ -739,27 +822,30 @@ Argomenti:
     
 * <span style="color:red;">_expression_</span> sotto espressione o nome campo da aggregare
 * <span style="color:red;">_concatenator_</span> stringa opzionale da usare per unire i valori per il raggruppamento 'concatenate'
+* _<span style="color:red;">order_by</span>_ espressione filtro opzionale atta ad ordinare gli elementi usati per calcolare il valore aggregato. Campi e geometria provengono dagli elementi del vettore unito. In modo predefinito, gli elementi verranno restituiti senza un ordine specifico.
 
 Esempi:
 
 ```
-* relation_aggregate(relation:='rel_prov_com',aggregate:='concatenate',concatenator:=',',expression:="COMUNE" ) →  elenco separato da virgole del campo "COMUNE" per tutte le geometrie figlie corrispondenti usando la relation 'rel_prov_com'
-* relation_aggregate(relation:='my_relation',aggregate:='mean',expression:="passengers") → valore medio di tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'
-* relation_aggregate('my_relation','sum', "passengers"/7) → somma del campo passengers diviso per 7 per tutte le geometrie figlie corrispondenti usando la relazione 'my_relation'
-* relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo town per tutte le geometrie figlie corrispondenti usando la relation 'my_relation'
+relation_aggregate(relation:='my_relation',aggregate:='mean',expression:="passengers") → valore medio di tutti gli elementi figli corrispondenti usando la relazione 'my_relation'
+relation_aggregate('my_relation','sum', "passengers"/7) → somma del campo passengers diviso per 7 per tutti gli elementi figli corrispondenti usando la relazione 'my_relation' 
+relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo towns per tutte le geometrie figlie corrispondenti che usano la relation 'my_relation'
+relation_aggregate('my_relation','array_agg', "id") → array del campo id derivato da tutti gli elementi figlio corrispondenti usando la relazione 'my_relation'
 ```
 
 ![](../../img/aggregate/relation_aggregate/relation_aggregate1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. relation_aggregate(_<span style="color:red;">relation</span>, <span style="color:red;">aggregate</span>, <span style="color:red;">expression</span>, <span style="color:red;">concatenator</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. relation_aggregate(_<span style="color:red;">relation:=</span>, <span style="color:red;">aggregate:=</span>, <span style="color:red;">expression:=<span style="color:red;">, <span style="color:red;">concatenator:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. relation_aggregate(_<span style="color:red;">relation</span>, <span style="color:red;">aggregate</span>, <span style="color:red;">expression</span>[,<span style="color:red;">concatenator</span>][,<span style="color:red;">order_by</span>]_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. relation_aggregate(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 --
 
@@ -775,6 +861,8 @@ Sintassi:
 
 - stdev(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * _<span style="color:red;">expression</span>_ sotto espressione o campo da aggregare
@@ -784,19 +872,23 @@ Argomenti:
 
 Esempi:
 
-* ` stdev("j_tot_maschi" , "COD_REG")  → deviazione standard di un valore "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+stdev("population",group_by:="state") → deviazione standard di un valore popolazione, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/stdev/stdev1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
-1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. stdev(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. stdev(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
+
+    1. stdev(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
+
+    1. stdev(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
 
 ---
 
@@ -808,6 +900,8 @@ Sintassi:
 
 - sum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
 
+[ ] indica componenti opzionali
+
 Argomenti:
 
 * <span style="color:red;">_expression_</span> sotto espressione o campo da aggregare
@@ -816,18 +910,22 @@ Argomenti:
 
 Esempi:
 
-* ` sum("j_tot_maschi" , "COD_REG")  → valore somma di "j_tot_maschi", raggruppato per il campo "COD_REG"`
+```
+sum("population",group_by:="state") → valore somma di population, raggruppato per il campo state
+```
 
 ![](../../img/aggregate/sum/sum1.png)
 
-Nota bene
+Nota bene:
 
 La sintassi prevede due possibilità:
+
 1. quella classica, senza l'uso dei paramentri denominati (l'ordine è fondamentale);
-    1. sum(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
-2. con i parametri denominati (l'ordine non è più fondamentale): 
-    1. sum(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_)
 
-Osservazioni
+    1. stdev(_<span style="color:red;">expression</span>, <span style="color:red;">group_by</span>, <span style="color:red;">filter</span>_)
+   
+2. con i parametri denominati (l'ordine non è più fondamentale):
 
---
+    1. stdev(_<span style="color:red;">filter:=</span> ,<span style="color:red;">expression:=</span> ,<span style="color:red;">group_by:=</span>_ )
+
+---
