@@ -142,7 +142,7 @@ nav:
        - QGIS 3.0  | 23/02/2018: release/novita_30.md
        
     - Funzioni:
-       - Elenco funzioni QGIS: gr_funzioni/gruppo_funzioni.md
+       - Elenco funzioni: gr_funzioni/gruppo_funzioni.md
        - Aggrega: gr_funzioni/aggrega/aggrega_unico.md
           #   - Elenco:  gr_funzioni/aggrega/aggrega_gruppo.md
           #   - aggregate: gr_funzioni/aggrega/aggregate.md

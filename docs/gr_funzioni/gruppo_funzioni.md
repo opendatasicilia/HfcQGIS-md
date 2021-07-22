@@ -1,4 +1,4 @@
-# Gruppi funzioni QGIS 
+# Gruppi funzioni
 
 Nell'Interfaccia del **Field Calc** (e nel costruttore di espressione) è presente, nella parte centrale, una sezione che raccoglie i Gruppi delle Funzioni elencate sotto:
 
