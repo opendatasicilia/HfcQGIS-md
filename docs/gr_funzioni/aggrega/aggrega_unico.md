@@ -18,26 +18,26 @@ Argomenti:
 - *<span style="color:red;">layer</span>* una stringa, rappresentante o un nome di un layer o un ID di layer
 - *<span style="color:red;">aggregate</span>* una stringa corrispondente all'aggregato da calcolare. Opzioni valide sono:
 
-  - count
-  - count_distinct
-  - count_missing
-  - min
-  - max
-  - sum
-  - mean
-  - median
-  - stdev
-  - stdevsample
-  - range
-  - minority
-  - majority
-  - q1: primo quartile
-  - q3: terzo quartile
-  - iqr: inter quartile range
-  - min_length: minima lunghezza stringa
-  - max_length: massima lunghezza stringa
-  - concatenate: unisce stringhe con un concatenatore
-  - collect: crea una geometria multiparte aggregata
+    - count
+    - count_distinct
+    - count_missing
+    - min
+    - max
+    - sum
+    - mean
+    - median
+    - stdev
+    - stdevsample
+    - range
+    - minority
+    - majority
+    - q1: primo quartile
+    - q3: terzo quartile
+    - iqr: inter quartile range
+    - min_length: minima lunghezza stringa
+    - max_length: massima lunghezza stringa
+    - concatenate: unisce stringhe con un concatenatore
+    - collect: crea una geometria multiparte aggregata
 
 * *<span style="color:red;">expression</span>* sotto-espressione o nome campo da aggregare
 * *<span style="color:red;">filter</span>* espressione filtro opzionale per limitare gli elementi usati per calcolare l'aggregato. I campi e la geometria provengono dagli elementi del vettore unito. Si può accedere all'elemento sorgente con la variabile `@parent`.
