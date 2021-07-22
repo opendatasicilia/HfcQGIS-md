@@ -1,0 +1,336 @@
+{
+    "author": "Salvatore Fiandaca",
+    "exported_at": "2021-07-22T18:21:55",
+    "expressions": [
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "with_variable(\r\n'andy', \r\narray('Ciro',2,'QGIS',4,5,'Borruso',7,'Totò',9,'gbvitrno'),\r\n@andy[array_length(@andy)/2])",
+            "group": "user",
+            "name": "Andy",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">IT: Converte l'area in ha (ettari)</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EPSG proiettasto con unit = meters</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">#HfcQGIS : <a href=\"http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/area.html?\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/area.html?</span></a></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#0000ff;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EN : Converts the area into ha</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EPSG projected with unit = meters</p></body></html>",
+            "expression": "format_number($area/10000,2)  || ' ha'",
+            "group": "user",
+            "name": "Area in hectares",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">IT: Converte l'area in km²</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EPSG proiettasto con unit = meters</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">#HfcQGIS : <a href=\"http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/area.html?\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/area.html?</span></a></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EN : Converts the area into km²</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EPSG projected with unit = meters</p></body></html>",
+            "expression": "format_number($area/1000000,2)  || ' km²'",
+            "group": "user",
+            "name": "Area in km²",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Lista dei nomi dei layer caricati nel pannella dei layer</p></body></html>",
+            "expression": "/*array di nome layer caricati*/\r\narray_foreach( \r\n     @layer_ids,  \r\n     regexp_replace( \r\n         @element, '(.+)(.){37}$','\\\\1'))\r\n",
+            "group": "user",
+            "name": "Array di nome layer caricati nella TOC",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Crea il Bounding Box delle particelle tramite sue punti, ovvero la diagonale del BBOX</p></body></html>",
+            "expression": " bounds(\r\n make_line(  \r\n make_point (\"p1-lon\" , \"p1-lat\"  ),\r\n make_point (\"p3-lon\" , \"p3-lat\"  ))\r\n )",
+            "group": "user",
+            "name": "BBOX particelle",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Conteggio caratteri distinti<br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">esempio:<br /><br />array_length(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_distinct(  </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">string_to_array(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">regexp_replace( 'ABBACD','(.)\\\\B','\\\\1,'))))  → 4</p></body></html>",
+            "expression": "array_length(\r\narray_distinct(  \r\nstring_to_array(\r\nregexp_replace( 'ABBACD','(.)\\\\B','\\\\1,')))) ",
+            "group": "user",
+            "name": "Conteggio caratteri distinti",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">'World Map : Natural Earth Data' </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">||  '\\n'  || </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">'© '|| @project_author||' QGIS - '||@qgis_version</p></body></html>",
+            "expression": "'World Map : Natural Earth Data' \r\n||  '\\n'  || \r\n'© '|| @project_author||' QGIS - '||@qgis_version",
+            "group": "user",
+            "name": "Copyright_2",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Decoration - copyrigth</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">IT: con nome utente e versione di QGIS usata</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">#HfcQGIS : <a href=\"http://hfcqgis.opendatasicilia.it/it/latest/\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/</span></a></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#0000ff;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EN: with username and version of QGIS used</p></body></html>",
+            "expression": "'© '|| @project_author||' QGIS - '||@qgis_version",
+            "group": "user",
+            "name": "Decoration - copyrigth",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Decorazione OpenStreetMap Contributors</p></body></html>",
+            "expression": "'© '|| 'OpenStreetMap Contributors' || '\\n' ||\r\n@project_author||' QGIS - '||@qgis_version",
+            "group": "user",
+            "name": "Decorazione OSM",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Calcola incremento giornaliero</p></body></html>",
+            "expression": "with_variable(\r\n'my_exp', \r\narray_find(  \r\narray_sort( array_agg( \r\nexpression:= \"data\" ,\r\norder_by:=  \"data\"  ) , ascending:=true ) ,  \"data\" ),\r\n if( \r\n@my_exp = 0, 0,\r\n(  \"tot_att_pos\"  -\r\n(array_agg( \r\nexpression:=  \"tot_att_pos\"  , \r\norder_by:=  \"data\"  )[@my_exp-1]))))",
+            "group": "user",
+            "name": "Delta-giornaliero",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Due JOIN al volo con due layer diversi</p></body></html>",
+            "expression": "with_variable(\r\n'arr',\r\narray_foreach( @layer_ids,  regexp_replace( @element, '^(.+?)(_.+)$','\\\\1')),\r\n\r\nCASE \r\nWHEN array_contains(@arr, 'file1') and \r\n\"codice1\" = attribute(get_feature('file1','codice2',attribute($currentfeature,'codice1')),'codice2')\r\nTHEN attribute(get_feature(layer:='file1', attribute:='codice2', value:=attribute($currentfeature,'codice1')),'B')\r\nWHEN array_contains(@arr, 'file2') and \r\n\"codice1\" = attribute(get_feature('file2','codice2',attribute($currentfeature,'codice1')),'codice2')\r\nTHEN attribute(get_feature(layer:='file2', attribute:='codice2', value:=attribute($currentfeature,'codice1')),'B')\r\nELSE 'CIAO'\r\nEND ) ",
+            "group": "user",
+            "name": "Due join al volo",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EPSG layer corrente</p></body></html>",
+            "expression": " layer_property( @layer_name,'crs')",
+            "group": "user",
+            "name": "EPSG layer corrente",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Effetto Curvy per le linee</p></body></html>",
+            "expression": "make_line( start_point( $geometry), translate( centroid( $geometry), $length/10, $length/10), end_point($geometry))",
+            "group": "user",
+            "name": "Effetto Curvy",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Estrae il Foglio e la Particella Catastale a partire da un punto ricandente dentro il perimetro di un poligono.</p></body></html>",
+            "expression": "/*estrae il foglio e la particella catastale*/\r\nwith_variable('fp',\r\n\t\twith_variable('geom3045',\r\n\t\t\t\ttransform($geometry,'EPSG:4326', @project_crs ),\r\n\t\t\t\tget_parcel_info( \r\n\t\t\t\t\t\tx( point_on_surface( @geom3045)),\r\n\t\t\t\t\t\ty( point_on_surface( @geom3045)))),\r\n\tregexp_replace( @fp ,'^(.+)\\\\.(.+)\\\\.(.+)\\\\.(.+)_(.+)\\\\.(.+)$', '\\\\5/\\\\6')\r\n\t\t\t)\r\n",
+            "group": "user",
+            "name": "Estrae Foglio e Particella Catasto",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "/*estrarre dati da un layer sovrapposto*/\r\n\r\n/*soluzione tramite attributi alfanumerici*/\r\naggregate( \r\n layer:='ProvCM01012020_g_WGS84',\r\n aggregate:='concatenate',\r\n expression:= \"den_uts\",\r\n filter:= \"cod_reg\" = attribute(@parent,'cod_reg'),\r\n concatenator:=',' )\r\n \r\n|| '\\n' ||\r\n/*soluzione tramite attributo geometrico*/\r\n\r\naggregate( \r\n layer:='ProvCM01012020_g_WGS84',\r\n aggregate:='concatenate',\r\n expression:=\"den_uts\",\r\n filter:=contains(geometry(@parent),$geometry),\r\n concatenator:=',')\r\n \r\n|| '\\n' ||\r\n/*soluzione tramite attributo geometrico*/\r\n\r\narray_to_string(\r\n overlay_contains(   \r\n layer:='ProvCM01012020_g_WGS84',\r\n expression:=\"den_uts\"))\r\n",
+            "group": "user",
+            "name": "Estrarre dati dal layer sottostante",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Etichetta tutti i campi con chieve:valore</p></body></html>",
+            "expression": "replace(\r\nreplace (\r\nmap_to_hstore( attributes())\r\n,'\"',''), '=>',' = ')\r\n",
+            "group": "user",
+            "name": "Etichetta All",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Etichetta poligoni multipart</p></body></html>",
+            "expression": "/* etichetta poligoni multipart*/\r\ncollect_geometries(array_foreach( \r\ngenerate_series(1,num_geometries( $geometry)),\r\ncentroid(geometry_n($geometry,@element))))",
+            "group": "user",
+            "name": "Etichetta poligoni multipart",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">le etichette delle isoipse seguono la linea</p></body></html>",
+            "expression": " intersection( \r\n$geometry, buffer(geometry(get_feature_by_id('mline', 1)),1))",
+            "group": "user",
+            "name": "Etichettare isoipse",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Generalizza Isoipse<br />Link:<br /><a href=\"http://hfcqgis.opendatasicilia.it/it/latest/esempi/generalizzare_linee.html\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/esempi/generalizzare_linee.html</span></a></p></body></html>",
+            "expression": "CASE\r\nWHEN $length >  25\r\nTHEN \r\nsmooth(simplify($geometry,10),21,0.2)\r\nEND",
+            "group": "user",
+            "name": "Generalizza",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Generalizza</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">```</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">CASE</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">WHEN $length &gt;  25</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">THEN </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">smooth(simplify($geometry,10),21,0.2)</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">ELSE  geom_from_wkt( 'MultiLineString EMPTY')</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">END</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">```</p></body></html>",
+            "expression": "CASE\r\nWHEN $length >  25\r\nTHEN \r\nsmooth(simplify($geometry,10),21,0.2)\r\nELSE  geom_from_wkt( 'MultiLineString EMPTY')\r\nEND",
+            "group": "user",
+            "name": "Generalizza2",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Crea multilinea con caratteri normali e Grassetto</p></body></html>",
+            "expression": "with_variable(\r\n  'normal_characters',\r\n  array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9'),\r\n  with_variable(\r\n    'bold_characters',\r\n    array('𝗮','𝗯','𝗰','𝗱','𝗲','𝗳','𝗴','𝗵','𝗶','𝗷','𝗸','𝗹','𝗺','𝗻','𝗼','𝗽','𝗾','𝗿','𝘀','𝘁','𝘂','𝘃','𝘄','𝘅','𝘆','𝘇','𝗔','𝗕','𝗖','𝗗','𝗘','𝗙','𝗚','𝗛','𝗜','𝗝','𝗞','𝗟','𝗠','𝗡','𝗢','𝗣','𝗤','𝗥','𝗦','𝗧','𝗨','𝗩','𝗪','𝗫','𝗬','𝗭','𝟬','𝟭','𝟮','𝟯','𝟰','𝟱','𝟲','𝟳','𝟴','𝟵'),\r\n    replace( upper(\"comune\") , @normal_characters, @bold_characters)\r\n      )\r\n)\r\n ||  '\\n'  ||  \"comune\" ",
+            "group": "user",
+            "name": "Grassetto stessa label",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Realizza una JOIN tabellare al volo!</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NOTE:</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `pop_res_regioni_ISTAT20190101` nome del layer 'sinistro` che contiene il dato da visualizzare/usare;</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `cod_ISTAT` nome dell'attributo (pop_res_regioni_ISTAT20190101) da correlare con il layer di `destra`;</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `cod_reg` nome dell'attributo del layer di `destra` da correlare con `cod_ISTAT`del layer di sinistra;</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `pop_res2019` attributo del layer di `sinistra` da usare/visualizzare</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "format_number(\r\nattribute(\r\nget_feature (\r\nlayer:='pop_res_regioni_ISTAT20190101',\r\nattribute:='cod_ISTAT',\r\nvalue:= attribute($currentfeature , 'cod_reg')),\r\n'pop_res2019'),0)",
+            "group": "user",
+            "name": "JOIN al volo",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Concatena le lunghezze dei lati di un poligono</p></body></html>",
+            "expression": "array_to_string(\r\narray_foreach(\r\narray_foreach(\r\ngenerate_series(1, num_geometries( segments_to_lines($geometry))),\r\ngeometry_n(segments_to_lines($geometry),@element)),round(length(@element),2))) \r\n\r\n",
+            "group": "user",
+            "name": "Lunghezza lati poligono",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": " @atlas_featurenumber ||'/'|| @atlas_totalfeatures ",
+            "group": "user",
+            "name": "Pagine atlas",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> /*EPSG dei due layer*/</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">/*layer lineare*/</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">'Layer lineare →' || </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">layer_property('Fiumi_principali_e_secondari_d15155ad_1c93_4a64_af73_9578ce470796','crs')</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> ||  '\\n'  || </p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">/* layer poligonale*/</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">'Layer poligonale →' || </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">layer_property('ProvCM01012020_g_WGS84_2c9debf0_3295_4c0e_a72c_f7ac5a4acefd','crs')</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">/* Transform è la funzione per trasformare da un SR all'altro*/</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> ||  '\\n'  || </p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">geom_to_wkt(transform ( $geometry,'EPSG:4326', 'EPSG:32632'))</p></body></html>",
+            "expression": " /*EPSG dei due layer*/\r\n\r\n/*layer lineare*/\r\n\r\n'Layer lineare →' || \r\nlayer_property('Fiumi_principali_e_secondari_d15155ad_1c93_4a64_af73_9578ce470796','crs')\r\n\r\n ||  '\\n'  || \r\n\r\n/* layer poligonale*/\r\n\r\n'Layer poligonale →' || \r\nlayer_property('ProvCM01012020_g_WGS84_2c9debf0_3295_4c0e_a72c_f7ac5a4acefd','crs')\r\n\r\n/* Transform è la funzione per trasformare da un SR all'altro*/\r\n\r\n ||  '\\n'  || \r\n\r\ngeom_to_wkt(transform ( $geometry,'EPSG:4326', 'EPSG:32632'))",
+            "group": "user",
+            "name": "Proprietà Layer",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Relazione al Volo</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NOTE:<br /><br />- `materiali` nome del layer figlio;</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `n_reparto` nome attributo da conteggiare;</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- `us` attributo del layer figlio (materiali) da correlare;<br />- `us_s` nome attributo layer padre</p></body></html>",
+            "expression": "aggregate( \r\nlayer:='materiali',\r\naggregate:='count',\r\nexpression:= \"n_reperto\",\r\nfilter:= \"us\" = attribute(@parent,'us_s') )",
+            "group": "user",
+            "name": "Relazione al volo",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">with_variable('toto' ,array_find( </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_agg(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">is_selected( 'rios', get_feature('rios', 'id', &quot;id&quot;))), true) +1,</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">distance</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">($geometry, geometry(get_feature_by_id('rios',@toto)))&lt;2000)</p></body></html>",
+            "expression": "with_variable('toto' ,array_find( \r\narray_agg(\r\nis_selected( 'rios', get_feature('rios', 'id', \"id\"))), true) +1,\r\ndistance\r\n($geometry, geometry(get_feature_by_id('rios',@toto)))<2000)",
+            "group": "user",
+            "name": "Seleziona entro un valore",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">second(@frame_duration) * @frame_number</p></body></html>",
+            "expression": "second(@frame_duration) * @frame_number",
+            "group": "user",
+            "name": "Un punto nel tempo",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">QUali e auante variabili ha un oggetto del Layout di stampe?</p></body></html>",
+            "expression": "wordwrap( \narray_to_string(\nmap_akeys(item_variables('mappa1'))),1,',')",
+            "group": "user",
+            "name": "Variabili Oggetto Layout",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Zoom Level by <a href=\"https://twitter.com/kgjenkins\"><span style=\" font-family:'system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,sans-serif'; font-size:15px; font-weight:600; color:#000000;\">Keith Jenkins</span></a></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"https://twitter.com/kgjenkins/status/1217874426563350530\"><span style=\" text-decoration: underline; color:#0000ff;\">https://twitter.com/kgjenkins/status/1217874426563350530</span></a></p></body></html>",
+            "expression": "'Zoom Level '||round (29.1402-log(2, @map_scale),2)",
+            "group": "user",
+            "name": "Zoom Level",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Array dei campi di un layer.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sostituire a @layer il nome del layer di interesse</p></body></html>",
+            "expression": "map_akeys(attributes(get_feature_by_id(@layer,$id)))",
+            "group": "user",
+            "name": "campi di un layer",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "closest_point(\r\ngeometry(get_feature('strade','ID',\r\nattribute( $currentfeature, 'ID TRACCIA' ))),\r\n$geometry)",
+            "group": "user",
+            "name": "closest_point per attributo",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">with_variable('toto',  reverse( geometry(get_feature('percorso','fid',1))),</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_find( </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_filter(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_sort(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">array_agg(</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">line_locate_point(@toto, line_interpolate_point( intersection($geometry,@toto ), </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">length(intersection($geometry,@toto)) /2 ) ))), @element &gt;0),</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">line_locate_point(@toto, line_interpolate_point( intersection($geometry,@toto ), </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">length(intersection($geometry,geometry(get_feature('percorso','fid',1)))) /2 ) )</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">) </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">) </p></body></html>",
+            "expression": "with_variable('toto',  reverse( geometry(get_feature('percorso','fid',1))),\r\n\r\narray_find( \r\narray_filter(\r\narray_sort(\r\narray_agg(\r\nline_locate_point(@toto, line_interpolate_point( intersection($geometry,@toto ), \r\nlength(intersection($geometry,@toto)) /2 ) ))), @element >0),\r\n\r\nline_locate_point(@toto, line_interpolate_point( intersection($geometry,@toto ), \r\nlength(intersection($geometry,geometry(get_feature('percorso','fid',1)))) /2 ) )\r\n) \r\n) ",
+            "group": "user",
+            "name": "elenco ordinato comuni",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": " concat(  \r\n '<h style=\"color:blue\">'||\"cod_rip\"||'</h>',\r\n '/',\r\n '<h style=\"color:green\">'||\"den_rip\"||'</h>',\r\n '/',\r\n '<h style=\"color:red\">'||\"shape_leng\"||' m</h>')",
+            "group": "user",
+            "name": "etichette con vari colori",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "if( \"zona\" is NULL,\r\nattribute( get_feature_by_id(@layer, $id -1),\r\n'zona_fill') , \"zona\")",
+            "group": "user",
+            "name": "fill_down",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Occorre creare due variabili</p></body></html>",
+            "expression": "with_variable('caratteri_normali',\r\nstring_to_array(@stile_normale) ,\r\nwith_variable('grassetto',\r\nstring_to_array(@stile_grassetto) ,\r\nreplace( \"COMUNE\" , @caratteri_normali,  @grassetto ))) ",
+            "group": "user",
+            "name": "grassetto stessa etichetta",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "with_variable('index',\r\narray_find( \r\n aggregate( \r\n layer:='dpc_covid19_ita_regioni_7f6d9240_e7df_4a0f_9b92_3fce411ece8b',\r\n aggregate:='array_agg',\r\n expression:=format_date(to_datetime(\"data\"),'yyyy-MM-dd'),\r\n filter:=\"denominazione_regione\" = @atlas_pagename), \"datasetIniISO\" ),\r\n \r\n aggregate( \r\n layer:='dpc_covid19_ita_regioni_7f6d9240_e7df_4a0f_9b92_3fce411ece8b',\r\n aggregate:='array_agg',\r\n expression:=to_int(\"totale_positivi\"),\r\n filter:=\"denominazione_regione\" = @atlas_pagename)[@index])\r\n\r\n \r\n ",
+            "group": "user",
+            "name": "index",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "/*per etichettare punti in modo ortogonale a una linea*/\r\nline_interpolate_angle( \r\noverlay_nearest('linea',$geometry)[0],\r\nline_locate_point( \r\noverlay_nearest('linea',$geometry)[0],\r\n$geometry))",
+            "group": "user",
+            "name": "label ortogonali",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "overlay_nearest(\r\nmap_akeys( \r\nwith_variable('liv',array('linea','poligoni','edifici'),\r\nwith_variable('indice',\r\narray_find(\r\narray_foreach(@liv,\r\ndistance(\r\noverlay_nearest(@element,$geometry)[0],\r\n$geometry)),\r\narray_sort(array_foreach(@liv,\r\ndistance(\r\noverlay_nearest(@element,$geometry)[0],\r\n$geometry)))[0]),\r\nmap(@liv[@indice],\r\narray_sort(array_foreach(@liv,\r\ndistance(\r\noverlay_nearest(@element,$geometry)[0],\r\n$geometry)))[0])\r\n)))[0],\"name\")[0]\r\n",
+            "group": "user",
+            "name": "layer e feature più vicino",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "difference(\r\n$geometry,\r\n-- bounding Box\r\nmake_rectangle_3points(\r\npoint_n(bounds($geometry),4),\r\npoint_n(bounds($geometry),3),\r\n-- punto altezza rettangolo\r\n make_point( x(point_n(bounds($geometry),1)),\r\n\t\t\t (y(point_n(bounds($geometry),1)))\r\n\t\t\t + bounds_height($geometry)*0.5),1))",
+            "group": "user",
+            "name": "livello acqua",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">IT: Seleziona l'area più estesa di un layer poligonale</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">#HfcQGIS : <a href=\"http://hfcqgis.opendatasicilia.it/it/latest/\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/</span></a></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#0000ff;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EN: Select the largest area of a polygonal layer</p></body></html>",
+            "expression": "maximum($area) = $area",
+            "group": "user",
+            "name": "max Area",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">IT: Seleziona l'area meno estesa di un layer poligonale</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">#HfcQGIS : <a href=\"http://hfcqgis.opendatasicilia.it/it/latest/\"><span style=\" text-decoration: underline; color:#0000ff;\">http://hfcqgis.opendatasicilia.it/it/latest/</span></a></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#0000ff;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">EN: Select the least extended area of a polygonal layer</p></body></html>",
+            "expression": "minimum($area) = $area",
+            "group": "user",
+            "name": "min Area",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Posizionamento etichette per poligoni multipart e geometria non convessa</p></body></html>",
+            "expression": "CASE WHEN \r\nnum_geometries( $geometry)> 1 THEN \r\ncollect_geometries(array_foreach( \r\ngenerate_series(1,num_geometries( $geometry)),\r\npoint_on_surface(geometry_n($geometry,@element))))\r\nELSE centroid($geometry)\r\nEND\r\n\r\n",
+            "group": "user",
+            "name": "posizionamento",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "with_variable('luca', overlay_touches(@layer_name,$geometry)[0],\r\nIF (\r\noverlay_touches(@layer_name),\r\nclosest_point(intersection($geometry,@luca),\r\ncentroid(intersection($geometry,@luca))),\r\nnull))",
+            "group": "user",
+            "name": "punto centrale tra geometrie che si toccano",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "with_variable(\r\n  'caratteri_normali',\r\n  array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9'),\r\n\r\nwith_variable(\r\n'corsivo',\r\narray('𝘢','𝘣','𝘤','𝘥','𝘦','𝘧','𝘨','𝘩','𝘪','𝘫','𝘬','𝘭','𝘮','𝘯','𝘰','𝘱','𝘲','𝘳','𝘴','𝘵','𝘶','𝘷','𝘸','𝘹','𝘺','𝘻','𝘈','𝘉','𝘊','𝘋','𝘌','𝘍','𝘎','𝘏','𝘐','𝘑','𝘒','𝘓','𝘔','𝘕','𝘖','𝘗','𝘘','𝘙','𝘚','𝘛','𝘜','𝘝','𝘞','𝘟','𝘠','𝘡','0','1','2','3','4','5','6','7','8','9'),\r\n\r\nwith_variable(\r\n    'grassetto',\r\n    array('𝗮','𝗯','𝗰','𝗱','𝗲','𝗳','𝗴','𝗵','𝗶','𝗷','𝗸','𝗹','𝗺','𝗻','𝗼','𝗽','𝗾','𝗿','𝘀','𝘁','𝘂','𝘃','𝘄','𝘅','𝘆','𝘇','𝗔','𝗕','𝗖','𝗗','𝗘','𝗙','𝗚','𝗛','𝗜','𝗝','𝗞','𝗟','𝗠','𝗡','𝗢','𝗣','𝗤','𝗥','𝗦','𝗧','𝗨','𝗩','𝗪','𝗫','𝗬','𝗭','𝟬','𝟭','𝟮','𝟯','𝟰','𝟱','𝟲','𝟳','𝟴','𝟵'),\r\n\r\nwith_variable('scrittura_a_mano', \r\n\r\narray('𝒶','𝒷','𝒸','𝒹','𝑒','𝒻','𝑔','𝒽','𝒾','𝒿','𝓀','𝓁','𝓂','𝓃','𝑜','𝓅','𝓆','𝓇','𝓈','𝓉','𝓊','𝓋','𝓌','𝓍','𝓎','𝓏','𝒜','𝐵','𝒞','𝒟','𝐸','𝐹','𝒢','𝐻','𝐼','𝒥','𝒦','𝐿','𝑀','𝒩','𝒪','𝒫','𝒬','𝑅','𝒮','𝒯','𝒰','𝒱','𝒲','𝒳','𝒴','𝒵','𝟢','𝟣','𝟤','𝟥','𝟦','5','𝟨','𝟩','𝟪','𝟫'),\r\n\r\nwith_variable('stiloso',\r\narray('𝕒','𝕓','𝕔','𝕕','𝕖','𝕗','𝕘','𝕙','𝕚','𝕛','𝕜','𝕝','𝕞','𝕟','𝕠','𝕡','𝕢','𝕣','𝕤','𝕥','𝕦','𝕧','𝕨','𝕩','𝕪','𝕫','𝔸','𝔹','ℂ','𝔻','𝔼','𝔽','𝔾','ℍ','𝕀','𝕁','𝕂','𝕃','𝕄','ℕ','𝕆','ℙ','ℚ','ℝ','𝕊','𝕋','𝕌','𝕍','𝕎','𝕏','𝕐','ℤ','𝟘','𝟙','𝟚','𝟛','𝟜','𝟝','𝟞','𝟟','𝟠','𝟡'),\r\n\t\r\n   replace(\"den_reg\", @caratteri_normali, @grassetto) \r\n\t|| '\\n'  ||  \r\n\treplace(\"den_reg\", @caratteri_normali, @corsivo)\r\n    || '\\n'  ||  \r\n    replace(\"den_reg\", @caratteri_normali, @scrittura_a_mano)\r\n     || '\\n'  ||  \r\n    replace(\"den_reg\", @caratteri_normali, @stiloso)\r\n  \r\n)))))",
+            "group": "user",
+            "name": "stiloso",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": " aggregate( \r\n layer:='@layer_name',\r\n aggregate:= 'concatenate',\r\n expression:= \"Rischio\",\r\n filter:= intersects($geometry, geometry(@parent)) ) ",
+            "group": "user",
+            "name": "tema per posizione",
+            "type": "expression"
+        },
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>",
+            "expression": "make_line( array(make_point(x(centroid($geometry)),y(centroid($geometry)))),\r\narray_foreach(\r\narray(\r\nmake_point(\r\narray_foreach( \r\nrelation_aggregate( \r\nrelation:='rel1',\r\naggregate:='array_agg',\r\nexpression:=$id), @element+x(centroid($geometry)))[$id],\r\narray_foreach( \r\nrelation_aggregate( \r\nrelation:='rel1',\r\naggregate:='array_agg',\r\nexpression:=\"totale_casi\"), @element+y(centroid($geometry)))[$id]\r\n)), @element) )\r\n",
+            "group": "user",
+            "name": "test",
+            "type": "expression"
+        }
+    ],
+    "qgis_version": "3.20.1-Odense"
+}
