@@ -11,7 +11,7 @@ hide:
 .md-typeset h5 {text-transform: none!important; color: #212529!important;}
 .md-typeset h3 { font-weight: bold!important; color: #212529!important;}
 </style
- <header>
+  <head>
     <!--  Jquery js  -->
     <script src="stylesheets/js/jquery-1.12.4.min.js"></script>
     <!--  Bootstrap js  -->
@@ -27,7 +27,7 @@ hide:
         <header class="masthead">
             <div class="container">
           </div>
-        </header>
+          </head>
 
 <body>
      <br>
