@@ -12,7 +12,7 @@ hide:
 .md-typeset h3 { font-weight: bold!important; color: #212529!important;}
 </style
   <header>
-    <!--  Jquery js  -->
+   <!--  Jquery js  -->
     <script src="stylesheets/js/jquery-1.12.4.min.js"></script>
     <!--  Bootstrap js  -->
     <script src="stylesheets/js/bootstrap.min.js"></script>
