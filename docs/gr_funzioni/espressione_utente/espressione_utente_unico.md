@@ -11,7 +11,7 @@
 
 ## Espressioni Utente
 
-- scarica file con le espressioni create da Pigreco
+- [scarica](https://raw.githubusercontent.com/opendatasicilia/HfcQGIS-md/main/docs/prova_tu/espressioni_pigreco.json) file con le espressioni create da Pigreco
 
 Per installarle nel proprio profilo cliccare su (1) e selezionare il file `espressioni_pigreco.json`
 
