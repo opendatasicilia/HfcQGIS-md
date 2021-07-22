@@ -68,3 +68,9 @@ L'interfaccia del calcolatore rende immediatamente disponibili alcuni operatori:
     (12 || 24 ) ||'\n' ||( '12' || '24' ) → stamperà '1224' su 1224' in due righe;
     - molto utile per le etichette su due o più righe;
 
+Un altro operatore nascosto è `'\t'` tabulazione:
+
+utile per esempio nelle legende, legi [qui](https://geoobserver.wordpress.com/2021/07/19/qgis-tipp-tabellenartige-legenden-mit/)
+
+
+
