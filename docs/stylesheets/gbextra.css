@@ -115,6 +115,9 @@ a.md-button.md-button:hover {
 /* Cambia lo sfondo del code */
 .md-typeset code {background-color: #4f724b4d!important;}
 
+/* cerca*/
+ @media screen and (min-width: 60em) { .md-search__input  {background-color: rgba(0,0,0,0.075);}}  
+
 /*Table styling*/
 table {
   padding: 0; }
@@ -198,11 +201,9 @@ table {
 /* Site width etc.*/
 .md-grid {
     max-width: 64rem !important;
-	/*max-width: 100% !important;*/
-}
+	/*max-width: 100% !important;*/}
 
-
-/* mkdocstrings styling
+/* mkdocstrings styling*/
 /* Indentation. */
 div.doc-contents:not(.first) {
   padding-left: 25px;
