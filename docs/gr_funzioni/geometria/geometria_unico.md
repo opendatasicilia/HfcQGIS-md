@@ -1,4 +1,3 @@
-
 # Gruppo Geometria
 
 !!! Abstract
