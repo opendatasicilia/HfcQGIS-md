@@ -108,6 +108,10 @@ Esempi:o
 attributes()['name'] → valore memorizzato nell'attributo 'name' per l'elemento corrente
 ```
 
+per trasformare una feature (una riga di una tabella) in un array:
+
+![](../../img/record_e_attributi/attributes2.png)
+
 ### Variante 2
 
 Consente di specificare la feature di destinazione.
