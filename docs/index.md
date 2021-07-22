@@ -58,8 +58,8 @@ hide:
                             <i class="lni lni-calculator"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Field Calculator</a></h4>
-                            <p><a href="https://hfcqgis-md.readthedocs.io/it/latest/calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Il calcolatore di campi</a> consente di eseguire calcoli sulla base di valori di attributo esistenti o funzioni definite, ad esempio, per calcolare la lunghezza o l'area delle caratteristiche geometriche.<br>
+                            <h4 class="service_title"><a href="calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Field Calculator</a></h4>
+                            <p><a href="calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Il calcolatore di campi</a> consente di eseguire calcoli sulla base di valori di attributo esistenti o funzioni definite, ad esempio, per calcolare la lunghezza o l'area delle caratteristiche geometriche.<br>
                             I risultati possono essere scritti in un nuovo campo di attributo, un campo virtuale, oppure possono essere utilizzati per aggiornare i valori in un campo esistente.</p>
                         </div>
                     </div> 
@@ -71,9 +71,9 @@ hide:
                             <i class="lni lni-ruler-pencil"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/gr_funzioni/elenco_funzioni/" title="Elenco funzioni QGIS" target="_parent">Funzioni</a></h4>
+                            <h4 class="service_title"><a href="gr_funzioni/gruppo_funzioni/" title="Elenco funzioni QGIS" target="_parent">Funzioni</a></h4>
                             <p>Questa guida nasce per rispondere alle numerose richieste di aiuto sull&rsquo;uso del calcolatore di campi e per colmare un vuoto sulla guida online di QGIS con esempi e molti screenshot.<br>
-                            Nella sezione <a href="https://hfcqgis-md.readthedocs.io/it/latest/esempi/lista_esempi/" title="USO DELLE FUNZIONI" target="_parent">ESERCIZI</a> si trovano esempi pratici e svolti step by step per rendere facile la comprensione di alcune funzioni di base come Area, lunghezza, Buffer ecc...</p>
+                            Nella sezione <a href="esempi/lista_esempi/" title="USO DELLE FUNZIONI" target="_parent">ESERCIZI</a> si trovano esempi pratici e svolti step by step per rendere facile la comprensione di alcune funzioni di base come Area, lunghezza, Buffer ecc...</p>
                         </div>
                     </div>
 	<!-- single service -->
@@ -84,10 +84,10 @@ hide:
                             <i class="lni lni-euro"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent">Corso di formazione</a></h4>
+                            <h4 class="service_title"><a href="corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent">Corso di formazione</a></h4>
                           <p>Il corso è rivolto agli utenti che conoscono l'uso generale di QGIS e desiderano approfondire l'uso della tabella attributi e del calcolatore di campi.<br>
                               Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due giorni da otto ore)<br>
-                            <a href="https://hfcqgis-md.readthedocs.io/it/latest/corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_blank">Programma...</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            <a href="corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_parent">Programma...</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                         </div>
                     </div> 
 	<!-- single service -->
@@ -98,9 +98,9 @@ hide:
                            <i class="lni lni-users"></i>
                         </div>
                       <div class="service_content">
-                        <h4 class="service_title"><a href="https://hfcqgis-md.readthedocs.io/it/latest/contributing/" title="Supporter" target="_parent">Supporter </a></h4>
+                        <h4 class="service_title"><a href="contributing/" title="Supporter" target="_parent">Supporter </a></h4>
                           <p>Per realizzare questa guida ho impiegato del tempo e messo a disposizione tutta la mia conoscenza sullo strumento.<br>	  
-						  Puoi contribuire a&nbsp;<strong>HfcQGIS</strong> con una <a href="https://hfcqgis-md.readthedocs.io/it/latest/contributing/#donazione" target="_blank">donazione</a>, divulgando questo manuale, segnalando bug, suggerendo miglioramenti, suggerendo esempi/esercizi, Pull Requests o documentare una funzione con donazione.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;</p>
+						  Puoi contribuire a&nbsp;<strong>HfcQGIS</strong> con una <a href="contributing/#donazione" target="_parent">donazione</a>, divulgando questo manuale, segnalando bug, suggerendo miglioramenti, suggerendo esempi/esercizi, Pull Requests o documentare una funzione con donazione.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;</p>
                       </div>
                     </div> 
        <!-- single service -->
