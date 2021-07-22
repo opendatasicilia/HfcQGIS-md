@@ -10,6 +10,6 @@ Giovan Battista Vitrano è famoso con il nikname `gbvitrano`.
 
 ## contatti
 
-- Twitter: https://twitter.com/gbvitrano
-- facebook : https://www.facebook.com/gbvitrano
-- sito web : https://coseerobe.gbvitrano.it/
+- **Twitter**: https://twitter.com/gbvitrano
+- **facebook** : https://www.facebook.com/gbvitrano
+- **sito web** : https://coseerobe.gbvitrano.it/
