@@ -28,7 +28,7 @@ Gruppo funzioni|nro funzioni*|info
 [Record e attributi](./record_e_attributi/record_e_attributi_unico.md)| (13/13)|aggiornate a **QGIS 3.18**
 [Relazioni](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
 [Stringhe di testo](./stringhe_di_testo/stringhe_di_testo_unico.md)| (23/23)|aggiornate a **QGIS 3.14**
-[Variabili](./variabili/variabili_unico.md) |(4/65+) |>= **QGIS 2.12** - variano in funzione del contesto
+[Variabili](./variabili/variabili.md) |(4/65+) |>= **QGIS 2.12** - variano in funzione del contesto
 
 ![](../img/gruppi_funzioni.png)
 
