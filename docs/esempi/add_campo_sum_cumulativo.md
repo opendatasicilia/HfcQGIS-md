@@ -36,8 +36,8 @@ attribute($currentfeature, 'l') +
 attribute(get_feature_by_id(@layer_name, $id-1), 'cum'))
 ```
 
-Alternativamente si potrebbe usare, invece che la funzione `$id`, la variabile
-`@row_number`, in quanto quest'ultima dovrebbe iniziare sempre da 1 e quindi
+Alternativamente si potrebbe usare, invece che la funzione [$id](../gr_funzioni/record_e_attributi/record_e_attributi_unico#id), la variabile
+[@row_number](../gr_funzioni/variabili/row_number.md), in quanto quest'ultima dovrebbe iniziare sempre da 1 e quindi
 la seguente espressione dovrebbe funzionare in ogni caso :
 
 ```
@@ -53,7 +53,7 @@ vuole che i valori vengano sommati.
 
 ### Seconda soluzione
 
-In questa soluzione valgono sempre gli Alert della prima, ma utilizzeremo altre funzioni come gli `Array:`
+In questa soluzione valgono sempre gli Alert della prima, ma utilizzeremo altre funzioni come gli [Array:](../gr_funzioni/array/array_unico.md)
 
 ```
 if(
@@ -67,7 +67,7 @@ array_slice( array_agg( "l"),0,$id-1)), ',','+'))
 
 ### Terza soluzione
 
-In questa soluzione valgono sempre gli Alert della prima, ma utilizzeremo le funzioni del gruppo `Array`, in particolare una funzione ancora non presente nel core di QGIS ela prenderemo dal Plugin [ArrayPlus](https://framagit.org/jbdesbas/arrayPlus)
+In questa soluzione valgono sempre gli Alert della prima, ma utilizzeremo le funzioni del gruppo `Array`, in particolare la funzione [array_sum](../gr_funzioni/array/array_unico.md#array_sum) presente in QGIS a partire dalla 3.18
 
 ```
 if(

@@ -2,7 +2,7 @@
 
 Calcolare l’area delle porzioni di poligoni che ricadono dentro ad una cella di un reticolo.
 
-Esempio: lo strato è un dusaf (Destinazione d’Uso dei Suoli Agricoli e forestali ndr), la domanda a cui rispondere è: quanta superficie di quegli usi del suolo ricadono nella singola maglia del reticolo?
+**Esempio**: lo strato è un _dusaf_ (Destinazione d’Uso dei Suoli Agricoli e forestali ndr), la domanda a cui rispondere è: quanta superficie di quegli usi del suolo ricadono nella singola maglia del reticolo?
 
 ![](../img/esempi/calcolo_area_poligoni_reticolo/calcolo_area_pol1.png)
 
@@ -23,4 +23,12 @@ filter:=intersects( $geometry,geometry(@parent)))
 
 La funzione di aggregazione calcola l’area della porzione di dusaf che interseca ogni rettangolo del reticolo e poi somma per ogni rettangolo.
 
+Funzione 
+
 il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+- [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)

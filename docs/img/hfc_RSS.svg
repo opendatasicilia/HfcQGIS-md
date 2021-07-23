@@ -9,7 +9,7 @@
    viewBox="0 0 256 151.67999"
    sodipodi:docname="hfc_RSS.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   inkscape:export-filename="H:\GitHub - Clone\OpenDataSicilia\HfcQGIS-md\docs\img\hfc_rss.png"
+   inkscape:export-filename="D:\GitHub\HfcQGIS-md\docs\img\card_social\hfc_gr_variabili.png"
    inkscape:export-xdpi="187.34178"
    inkscape:export-ydpi="187.34178"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -31,23 +31,14 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="2.8357664"
-     inkscape:cx="127.30245"
-     inkscape:cy="91.157015"
+     inkscape:cx="83.751609"
+     inkscape:cy="102.0888"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1272"
-     inkscape:window-y="-8"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1773">
-    <sodipodi:guide
-       position="102.9704,63.167765"
-       orientation="1,0"
-       id="guide3887" />
-    <sodipodi:guide
-       position="12.342342,62.462488"
-       orientation="1,0"
-       id="guide3889" />
-  </sodipodi:namedview>
+     inkscape:current-layer="g1773" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -63,17 +54,29 @@
        inkscape:export-ydpi="384.17725" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7779px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;opacity:0.99;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.667552px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="11.528502"
-       y="118.39008"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7779px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.667552px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="127.79882"
+       y="120.39008"
        id="text960"
-       inkscape:export-filename="H:\GitHub - Clone\OpenDataSicilia\HfcQGIS-md\docs\img\hfc_funzioni.png"
+       inkscape:export-filename="D:\GitHub\HfcQGIS-md\docs\img\card_social\hfc_gr_recente.png"
        inkscape:export-xdpi="384.17725"
        inkscape:export-ydpi="384.17725"><tspan
          sodipodi:role="line"
-         id="tspan958"
-         x="11.528502"
-         y="118.39008"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ff6600;stroke-width:0.667552px">Funzioni -Gruppo Geometria </tspan></text>
+         x="127.79882"
+         y="120.39008"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.667552px"
+         id="tspan47203">Funzioni - Gruppo Relazioni</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.09268px;line-height:1.25;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.379964"
+       x="-88.28582"
+       y="19.649765"
+       id="text3759"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="-88.28582"
+         y="19.649765"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ffffff;stroke-width:0.379964">DAL 2018</tspan></text>
   </g>
 </svg>

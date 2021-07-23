@@ -23,7 +23,7 @@ selezionare il layer (presente nel _Layer Panel_), tasto destro mouse 'Apri tabe
 
 ![](../img/esempi/add_col_area/add_col_a4.png)
 
-verrà aggiunta la colonna _area_ e popolata con la funzione [\$area](../gr_funzioni/geometria/$area.html)
+verrà aggiunta la colonna _area_ e popolata con la funzione [\$area](../gr_funzioni/geometria/geometria_unico.md#area)
 
 il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
 

@@ -1,6 +1,6 @@
 ## Da un campo di coordinate a due campi
 
-Alcune volte abbiamo a che fare con un campo che contiene entrambe le coordinate separate da una virgola `44.8636937,10.0077403`, come questa di sotto
+Alcune volte abbiamo a che fare con un campo che contiene entrambe le coordinate separate da una virgola `44.8636937,10.0077403`, come questa di sotto:
 
 DATA|NOME|GPS
 ----|----|---
@@ -34,3 +34,9 @@ vediamo come farlo usando il calcolatore di campi:
 Infine, per tracciare i punti, utilizzare l'algoritmo `Create points layer from table` ed utilizzare i due campi `longitude` e `latitude`.
 
 ![](../img/esempi/lonlat_regex/img_03.png)
+
+---
+
+Funzioni e variabili utilizzate:
+
+- [regexp_match](../gr_funzioni/condizioni/condizioni_unico.md#regexp_match)

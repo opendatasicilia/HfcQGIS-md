@@ -5,7 +5,7 @@
 * Qual è la regione italiana che ha una sola regione confinante??
 * Per ogni regione quali sono le regioni confinante??
 
-a questa ed altre domande è possibile rispondere utilizzando le funzioni di aggregazione del calcolatore di campi di QGIS.
+a questa e altre domande è possibile rispondere utilizzando le funzioni di aggregazione del calcolatore di campi di QGIS.
 
 **Numero di regioni:**
 
@@ -36,7 +36,7 @@ aggregate(
  )
 ```
 
-funzione [aggregate](/gr_funzioni/aggregates/aggregate.md)
+funzione [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
 
 
 **Prova tu**

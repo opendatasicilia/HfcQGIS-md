@@ -32,7 +32,7 @@ Un campo virtuale è un campo basato su un'espressione calcolata al volo, il che
 
 ## Aggiorna geometria
 
-Attraverso il calcolatore di campi è possibile aggiornare tutti gli attributi di un layer editabile, ma è possibile anche aggiornare la gemetria, per esempio diminuire il numero di vertici di una linea o di un poligono; spostare/traslare i punti ecc...
+Attraverso il calcolatore di campi è possibile aggiornare tutti gli attributi di un layer editabile, ma è possibile anche [aggiornare la gemetria](../esempi/agg_geom.md), per esempio diminuire il numero di vertici di una linea o di un poligono; spostare/traslare i punti ecc...
 
 ## Field Calc rapido
 

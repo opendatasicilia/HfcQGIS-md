@@ -53,8 +53,11 @@ questo ci permette di creare questi due grafici:
 
 ![](https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png)
 
+---
 
+Funzioni e variabili utilizzate:
 
-
-
-
+- [with_variable](../gr_funzioni/variabili/variabili.md/with_variable.md)
+- [if](../gr_funzioni/condizioni/condizioni_unico.md#if)
+- [array_find](../gr_funzioni/array/array_unico.md#array_find)
+- [array_agg](../gr_funzioni/aggrega/aggrega_unico.md#array_agg)

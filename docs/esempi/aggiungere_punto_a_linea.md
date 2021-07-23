@@ -1,8 +1,8 @@
 ## Come aggiungere un punto ad una linea
 
-Alcune volte puo' essere utile aggiungere un nodo di disegno ad una linea, per esempio quando occorre spezzarla proprio in quel punto o in altri casi di sovrapposizione con altre linee.
+Alcune volte può essere utile aggiungere un nodo di disegno ad una linea, per esempio quando occorre spezzarla proprio in quel punto o in altri casi di sovrapposizione con altre linee.
 
-L'aggiornamento delle geometria è possibile farla usando il calcolatore di campi.
+L'[aggiornamento delle geometria](agg_geom.md) è possibile farla usando il calcolatore di campi.
 
 Supponiamo di avere due linee sovrapposte parzialmente (`linea A` e `linea B`) e di volere aggingere alla `linea B` un nodo di disegno in corrispondenza del punto `A` che è il vertice finale della `linea A`:
 
