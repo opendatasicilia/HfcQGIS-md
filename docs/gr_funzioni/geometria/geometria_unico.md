@@ -2,7 +2,7 @@
 social_image: img/hfc_funz_geom.png
 ---
 
-# Gruppo Geometria
+# Gruppo Geometria  
 
 !!! Abstract
 	**Questo gruppo contiene funzioni che operano sugli oggetti geometrici es: _lunghezza_, _area_.**
