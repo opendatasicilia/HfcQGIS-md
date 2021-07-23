@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_recordAttributi.png
+---
+
 # Gruppo Record e Attributi
 
 !!! Abstract

@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_gr_variabili.png
+---
+
 # Variabili
 
 [Funzionalità](http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/) introdotta da [Nyall Dawson](https://twitter.com/nyalldawson) nella **QGIS 2.12 Lyon**

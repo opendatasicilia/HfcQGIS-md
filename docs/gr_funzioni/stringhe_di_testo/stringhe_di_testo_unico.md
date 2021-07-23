@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_stringheTesto.png
+---
+
 # Gruppo Stringhe di Testo
 
 !!! Abstract

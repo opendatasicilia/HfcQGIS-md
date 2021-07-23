@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_gr_colore.png
+---
+
 # Gruppo Colore
 
 !!! Abstract

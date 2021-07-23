@@ -1,4 +1,8 @@
-Gruppo Operatori
+---
+social_image: img/card_social/hfc_gr_operatori.png
+---
+
+# Gruppo Operatori
 
 !!! Abstract
     **Questo gruppo contiene operatori es. + - ***

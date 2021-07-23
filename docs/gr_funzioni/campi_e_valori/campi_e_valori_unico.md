@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_gr_campiValore.png
+---
+
 # campi e valori
 
 !!! Abstract

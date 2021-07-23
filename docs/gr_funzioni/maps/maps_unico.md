@@ -1,3 +1,7 @@
+---
+social_image: img/card_social/hfc_gr_maps.png
+---
+
 # Gruppo Maps
 
 !!! Abstract
