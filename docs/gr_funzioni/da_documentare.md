@@ -1,8 +1,8 @@
 # Vuoi documentare una variabile? Ecco quelle ancora non pronte
 
-
 Al momento sono circa **130**
 
+## elenco variabili
 
 Variable|Description
 --------|-----------
@@ -137,7 +137,9 @@ Variable|Description
 [with_variable](./variabili/with_variable.md)|Allows setting a variable for usage within an expression and avoid recalculating the same value repeatedly
 [zoom_level](./variabili/zoom_level.md)|Zoom level of the tile that is being rendered (derived from the current map scale). Normally in interval [0, 20].
 
+---
 
+## come sostenere
 
 <a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="400"  class="immagonobox" 
 src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/sviluppo_funzioni.png" 
