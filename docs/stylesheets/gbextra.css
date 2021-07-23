@@ -329,3 +329,7 @@ max-height:100px;
    /* background-color: #3a632196;*/
 	-webkit-border-radius: 6px;
 }
+/* cambia colore al footer ed page next/pre*/
+.md-footer {    background-color: #efefef;  color: #000000de;
+    /* color: var(--md-footer-fg-color); */}
+.md-footer-meta {    background-color: var(--md-footer-bg-color);}
