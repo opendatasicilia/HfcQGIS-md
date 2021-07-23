@@ -15,7 +15,7 @@ sono sovrapposti i simboli di pi greco, dell'infinito e della derivata prima: tr
 Prima di iniziare l'attività di divulgatore del Open Source (OS), _Salvatore_ ha utilizzato - per anni - software proprietari, solo dopo la scoperta del OS abbandonò definitivamente il mondo Close Source e decise di divulgare la filosofia OS tramite blog post e video su youtube. Attualmente il blog è seguito in tutto il mondo ed il canale youtube ha oltre 2800 iscritti (giu-2021).
 
 <p align="center">
-  <img src="./img/world_wp06.png" width="70%">
+  <img src="img/world_wp06.png" width="70%">
 </p>
 
 Cura il Blog '[Pigrecoinfinito](https://pigrecoinfinito.com/)' e il [canale](https://www.youtube.com/user/vediamo13/) YouTube dove scrive e parla di QGIS,Qfield, SpatiaLite, PostegreSQL/PostGIS, GDAL/OGR, GRASS GIS, SAGA GIS, GitHub, OSGeo4W, ed altri FOSS; ama usare, nella professione e non solo, software OS come LibreOffice, InkSCAPE, GIMP ecc...
@@ -32,20 +32,20 @@ Molto attivo nella comunità di QGIS: ha partecipato alla realizzazione di un pl
 
 
 <p align="center">
-  <img width="600" src="./img/hfita1_2017_bologna.png">
+  <img width="600" src="img/hfita1_2017_bologna.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Bologna 2017, da sinistra: _Luca Mandolesi, Giuseppe Guarino, Salvatore Fiandaca, Pierluigi de Rosa e Enrico Ferreguti (uno dei più attivi sviluppatori di plugin italiani_
 
 
 <p align="center">
-  <img width="600" src="./img/hfita2_2017_padova.png">
+  <img width="600" src="img/hfita2_2017_padova.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Padova 2017, da sinistra: _Salvatore Fiandaca, Amedeo Fadini, Federico Gianoli, Matteo Ghetta,prof. Massimo De Marchi, Stefano Campus, Alessandro Sarretta, Enrico Ferreguti_
 
 <p align="center">
-  <img width="600" src="./img/hfita3_2018_viterbo.png">
+  <img width="600" src="img/hfita3_2018_viterbo.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Viterbo 2018
