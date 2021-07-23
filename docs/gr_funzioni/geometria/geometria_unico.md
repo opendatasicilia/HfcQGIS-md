@@ -1,5 +1,5 @@
 ---
-social_image: img/hfc_fuz_geom.png
+social_image: img/hfc_funz_geom.png
 ---
 
 # Gruppo Geometria

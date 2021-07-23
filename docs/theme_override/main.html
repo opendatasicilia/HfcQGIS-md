@@ -27,7 +27,26 @@
 
 <!-- blocco meta tag e social -->
 {% block extrahead %}
-	   <!-- Social card full site-->	 
+	   <!-- Social card full site twetter -->	 
+  {% set title = config.site_name %}
+    {% if page and page.meta and page.meta.title %}
+    {% set title = title ~ " - " ~ page.meta.title %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = title ~ " - " ~ page.title | striptags %}
+	 {% endif %}
+ <!-- twitter --> 
+  <meta property="twitter:image" content="https://hfcqgis-md.readthedocs.io/it/latest/img/hfc_social_new.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ config.site_url }}"/>
+  <meta name="twitter:creator" content="Giovan Battista Vitrano" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ config.site_description }}" />	  
+  <!-- facebook single page -->
+  {% if page and page.meta and page.meta.social_image %}
+ <meta property="og:image" content="{{ config.site_url ~ page.meta.social_image }}" />
+ {% endif %}
+
+	   <!-- Social card full site face -->	  
   {% set title = config.site_name %}
     {% if page and page.meta and page.meta.title %}
     {% set title = title ~ " - " ~ page.meta.title %}
