@@ -1,6 +1,6 @@
 # Variabili
 
-[Funzionalità](http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/) introdotta da [Nyall Dowson](https://twitter.com/nyalldawson) nella **QGIS 2.12 Lyon**
+[Funzionalità](http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/) introdotta da [Nyall Dawson](https://twitter.com/nyalldawson) nella **QGIS 2.12 Lyon**
 
 Questo gruppo contiene variabili dinamiche relative all'applicazione, al file di progetto e ad altre impostazioni. Significa che alcune funzioni potrebbero non essere disponibili in base al contesto:
 
@@ -149,17 +149,21 @@ Variable|Description
 [with_variable](with_variable.md)|Allows setting a variable for usage within an expression and avoid recalculating the same value repeatedly
 [zoom_level](zoom_level.md)|Zoom level of the tile that is being rendered (derived from the current map scale). Normally in interval [0, 20].
 
-Gruppo sul calcolatore di campi,Seleziona per espressione
+---
+
+- Proprietà Progetto
+- ![](../../img/variabili/gruppo_variabili_progetto1.png)
+- Gruppo sul calcolatore di campi,Seleziona per espressione
 ![](../../img/variabili/gruppo_variabili1.png)
 
-Geometry generator - stile ![epsilos](https://docs.qgis.org/testing/en/_images/mIconExpression.png)
-![](../../img/variabili/gruppo_variabili2.png)
+- Generatore di geometria- stile ![epsilos](https://docs.qgis.org/testing/en/_images/mIconExpression.png)
+- ![](../../img/variabili/gruppo_variabili2.png)
 
-Selezione per espressione ![exp](https://docs.qgis.org/testing/en/_images/mIconExpressionSelect.png)
-![](../../img/variabili/gruppo_variabili3.png)
+- Selezione per espressione ![exp](https://docs.qgis.org/testing/en/_images/mIconExpressionSelect.png)
+- ![](../../img/variabili/gruppo_variabili3.png)
 
-Calcolatore di campi,Seleziona per espressione ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
-![](../../img/variabili/gruppo_variabili4.png)
+- Calcolatore di campi,Seleziona per espressione ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
+- ![](../../img/variabili/gruppo_variabili4.png)
 
-Compositore di stampe ![print](https://docs.qgis.org/testing/en/_images/mActionNewLayout.png)
-![](../../img/variabili/gruppo_variabili5.png)
+- Compositore di stampe ![print](https://docs.qgis.org/testing/en/_images/mActionNewLayout.png)
+- ![](../../img/variabili/gruppo_variabili5.png)
