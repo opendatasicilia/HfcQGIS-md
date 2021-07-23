@@ -1,16 +1,18 @@
-# qgis_locale
+# nome_variabile
 
-Restituisce la sigla 'it_IT'
+--
 
 ## Sintassi
 
-* @qgis_locale
+--
 
 ## Esempi
 
-* `Valore attuale: 'it_IT'`
+```
+bla bla
+```
 
-![](../../img/variabili/qgis_locale/qgis_locale1.png)
+![](../../img/variabili/nome_variabile/nome_variabile1.png)
 
 ## nota bene
 
@@ -19,3 +21,7 @@ Restituisce la sigla 'it_IT'
 ## osservazioni
 
 --
+
+---
+<br>
+<a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="400"  class="immagonobox" src="https://raw.githubusercontent.com/pigreco/HfcQGIS/master/img/sviluppo_variabili_01.png" Title="La documentazione di questa funzione non è stata ancora sviluppata. Se vuoi sostenerla fai una donazione con PayPal, scrivendo ..." alt="Donazione HfcQgis" style="margin: 0 auto; display: block;" /></a>
