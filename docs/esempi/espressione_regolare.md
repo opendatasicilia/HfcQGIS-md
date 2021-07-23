@@ -18,9 +18,9 @@ else regexp_replace( "TRIM_STR_C" , '(\\S+\\s+\\S+)(\\s+)(.*)','\\1$\\3')
 END
 ```
 
-Questa espressione [condizionale](../gr_funzioni/condizioni/case.html) controlla prima la lunghezza della stringa (label) e se >34 applica la prima regexp_replace altrimenti la seconda;
+Questa espressione [condizionale](../gr_funzioni/condizioni_unico_md) controlla prima la lunghezza della stringa (label) e se >34 applica la prima regexp_replace altrimenti la seconda;
 
-la [regexp_replace](../gr_funzioni/stringhe_di_testo/regexp_replace.html):
+la [regexp_replace](../gr_funzioni/stringhe_di_testo_unico#regexp_replace):
 
 `(\\S+\\s+\\S+\\s+\\S+)(\\s+)(.*)` acchiappa il terzo spazio presente in tutta la frase e per sostituirgli un carattere spaciale: `\\1$\\3` dove `\\1` è la prima parte prima del terzo spazio mentre `\\3` è la terza parte contando anche lo spazio;
 
@@ -38,4 +38,12 @@ Altra possibile soluzione, molto più elegante è la [seguente](https://regex101
 
 ovvero, il numero tra parentesi graffe indica la parola oltre la quale inserire il carattere speciale:
 
-* `regexp_replace('Via Mario Miglioranza detto Pinto','^((\\S+\\s*?){3})(\\s+)(.*?)$','\\1#\\4')  → Via Mario Miglioranza#detto Pinto`
+```
+regexp_replace('Via Mario Miglioranza detto Pinto','^((\\S+\\s*?){3})(\\s+)(.*?)$','\\1#\\4')  → Via Mario Miglioranza#detto Pinto
+```
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [regexp_replace](../gr_funzioni/stringhe_di_testo_unico#regexp_replace)

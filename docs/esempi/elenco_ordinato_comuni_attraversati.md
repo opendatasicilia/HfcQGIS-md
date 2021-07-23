@@ -57,3 +57,17 @@ Maggiori dettagli nel [blog](https://pigrecoinfinito.com/2020/05/20/elenco-ordin
 ### prova tu
 
 [dati e progetto QGIS 3.12](https://mega.nz/file/lUgwhIIA#gEwH2RpsdkNFGWM6qvqDFnXcMS6IIlfqhnkJnH3m164)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [with_variable](../gr_funzioni/variabili/with_variable.md)
+* [array_find](../gr_funzioni/array/array_unico.md#array_find)
+* [array_filter](../gr_funzioni/array/array_unico.md#array_filter)
+* [array_agg](../gr_funzioni/aggrega/aggrega_unico.md#array_agg)
+* [line_locate_point](../gr_funzioni/geometria/geometria_unico.md#line_locate_point)
+* [line_interpolate_point](../gr_funzioni/geometria/geometria_unico.md#line_interpolate_point)
+* [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
+* [length](../gr_funzioni/geometria/geometria_unico.md#length)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

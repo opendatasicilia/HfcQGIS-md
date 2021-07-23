@@ -8,8 +8,10 @@ Un modo rapido per evitare la creazione di un nuovo layer è quello di utilizzar
 
 1. creare un nuovo campo '_nro_' nel layer poligonale;
 2. popolarlo utilizzando la seguente espressione: 
-   
-`aggregate(layer:='punti', aggregate:='count', expression:="id", filter:=intersects( $geometry, geometry(@parent)))`
+
+```   
+aggregate(layer:='punti', aggregate:='count', expression:="id", filter:=intersects( $geometry, geometry(@parent)))
+```
 
 ![](../img/esempi/conta_punti_in_poligono/conta_01.png)
 
@@ -20,3 +22,9 @@ risultato:
  Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
  
  [QUI VIDEO](https://youtu.be/vlmnmI6sjAg)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)

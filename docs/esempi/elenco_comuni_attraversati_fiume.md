@@ -37,3 +37,9 @@ ecco la tabella attributi:
 ### prova tu
 
 [dati e progetto QGIS 3.4](/prova_tu/elenco_comuni.zip)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)

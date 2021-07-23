@@ -17,7 +17,6 @@ floor( ($y - floor($y))*60)
 format_number( 
 to_real((($y - floor($y))*60) -floor((($y - floor($y))*60 )))*60 ,2) ||'" N'
 ```
-Funzione [floor](../gr_funzioni/matematica/floor.html)
 
 ![](../img/esempi/conversione/conversione1.png)
 
@@ -28,4 +27,14 @@ Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati
 
 ## Nota bene
 
-Dalla versione QGIS 3.4 è possibile usare le funzioni [to_dm](../gr_funzioni/conversioni/to_dm.html) o [to_dms](../gr_funzioni/conversioni/to_dms.html)
+Dalla versione QGIS 3.4 è possibile usare le funzioni [to_dm](../gr_funzioni/conversioni_unico.md#to_dm) o [to_dms](../gr_funzioni/conversioni_unico.md#to_dms)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [floor](../gr_funzioni/matematica/matematica_unico.md#floor)
+* [format_number](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#format_number)
+* [to_real](../gr_funzioni/conversioni/conversioni_unico.md#to_real)
+* [\$x](../gr_funzioni/geometria/geometria_unico.md#$x)
+* [\$y](../gr_funzioni/geometria/geometria_unico.md#$y)

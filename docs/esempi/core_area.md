@@ -12,7 +12,9 @@ Caricare il layer bosco, selezionarlo e aprire il Calcolatore dei Campi. Aggiung
 
 Nella finestra delle espressioni digitare:
 
-`area(buffer($geometry, -20))/10000`
+```
+area(buffer($geometry, -20))/10000
+```
 
 ![](../img/esempi/core_area/img2.png)
 
@@ -20,7 +22,14 @@ Il risultato sarà **17.08 ha**
 
 Vediamo l'espressione utilizzata:
 
-1. `buffer($geometry,-20)`: Crea un [buffer](../gr_funzioni/geometria/buffer.html) del poligono utilizzando la funzione [$geometry](../gr_funzioni/geometria/$geometry.html), con una profondità negativa di 20 metri (buffer interno)
-2. `area`: Calcola l'[area](../gr_funzioni/geometria/area.html) della geometria appena definita, in ettari (/10000)
+1. `buffer($geometry,-20)`: Crea un [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer) del poligono utilizzando la funzione [$geometry](../gr_funzioni/geometria/$geometry.html), con una profondità negativa di 20 metri (buffer interno)
+2. `area`: Calcola l'[area](../gr_funzioni/geometria/geometria_unico.md#area_1) della geometria appena definita, in ettari (/10000)
 
 Il GeoPackage, con il vettore bosco, è disponibile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/core_area.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [area](../gr_funzioni/geometria/geometria_unico.md#area_1)
+* [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer)

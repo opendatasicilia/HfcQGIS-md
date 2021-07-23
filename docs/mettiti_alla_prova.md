@@ -1,6 +1,7 @@
 # Mettiti alla prova con le espressioni di QGIS
 
 <img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mettiti_alla_prova/HfcQGIS.png" class="immagonobox" width="641" height="143" title="HfcQGIS" alt="HfcQGIS"/>
+
 ---
 
 ## Provaci Tu
@@ -195,4 +196,5 @@ nro| range (risposte esatte) | significato
 
 
 ---
+
 Contatto : ✉ `pigrecoinfinito@gmail.com`

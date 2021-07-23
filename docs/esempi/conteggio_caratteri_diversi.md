@@ -49,4 +49,13 @@ string_to_array(
 regexp_replace( "field",'(.)\\B','\\1,'))))
 ```
 
+---
+
+Funzioni e variabili utilizzate:
+
+* [array_length](../gr_funzioni/array/array_unico.md#array_length)
+* [array_distinct](../gr_funzioni/array/array_unico.md#array_distinct)
+* [string_to_array](../gr_funzioni/array/stringhe_di_testo_unico.md#string_to_array)
+* [substr](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#substr)
+* [regexp_replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#regexp_replace)
 
