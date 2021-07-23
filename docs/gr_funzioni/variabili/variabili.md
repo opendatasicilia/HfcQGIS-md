@@ -14,6 +14,8 @@ In **QGIS**, puoi utilizzare le variabili per memorizzare dati utili con valori 
 
 Puoi utilizzare queste variabili per creare stringhe di testo o altre espressioni personalizzate utilizzando il carattere '@' prima del nome della variabile.
 
+## Elenco variabili
+
 Riguardano (aggiornato a QGIS 3.20 Odense):
 
 Variable|Description
@@ -150,6 +152,8 @@ Variable|Description
 [zoom_level](zoom_level.md)|Zoom level of the tile that is being rendered (derived from the current map scale). Normally in interval [0, 20].
 
 ---
+
+## Screenshot livelli
 
 - Proprietà Progetto
 - ![](../../img/variabili/gruppo_variabili_progetto1.png)
