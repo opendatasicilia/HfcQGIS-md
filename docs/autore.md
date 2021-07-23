@@ -2,11 +2,11 @@
 
 Salvatore **FIANDACA** (_aka `pigreco`, per gli amici `Totò`_)
 
-Usa spesso, nei vari social, il nickname pigreco ma è nel titolo del suo blog - [pigrecoinfinito](https://pigrecoinfinito.wordpress.com/) - che si cela il suo nome in siciliano. Per capire quale sia occorre osservare con attenzione il logo che lo rappresenta:
+Usa spesso, nei vari social, il nickname pigreco ma è nel titolo del suo blog - [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/) - che si cela il suo nome in siciliano. Per capire quale sia occorre osservare con attenzione il logo che lo rappresenta:
 
 
 <p align="center">
-  <a href="https://pigrecoinfinito.wordpress.com/" target="_blank"><img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logopigreco.png" alt="pigrecoinfinito
+  <a href="https://pigrecoinfinito.com/" target="_blank"><img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logopigreco.png" alt="Pigrecoinfinito
 "  width="200" class="immagonobox" title="“Se la conoscenza deve essere aperta a tutti, perchè mai limitarne l’accesso?” R. Stallman"></a>
 </p>
 
@@ -15,10 +15,10 @@ sono sovrapposti i simboli di pi greco, dell'infinito e della derivata prima: tr
 Prima di iniziare l'attività di divulgatore del Open Source (OS), _Salvatore_ ha utilizzato - per anni - software proprietari, solo dopo la scoperta del OS abbandonò definitivamente il mondo Close Source e decise di divulgare la filosofia OS tramite blog post e video su youtube. Attualmente il blog è seguito in tutto il mondo ed il canale youtube ha oltre 2800 iscritti (giu-2021).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/world_wp05.png" width="70%">
+  <img src="./img/world_wp06.png" width="70%">
 </p>
 
-Cura il Blog '[Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/)' e il [canale](https://www.youtube.com/user/vediamo13/) YouTube dove scrive e parla di QGIS,Qfield, SpatiaLite, PostegreSQL/PostGIS, GDAL/OGR, GRASS GIS, SAGA GIS, GitHub, OSGeo4W, ed altri FOSS; ama usare, nella professione e non solo, software OS come LibreOffice, InkSCAPE, GIMP ecc...
+Cura il Blog '[Pigrecoinfinito](https://pigrecoinfinito.com/)' e il [canale](https://www.youtube.com/user/vediamo13/) YouTube dove scrive e parla di QGIS,Qfield, SpatiaLite, PostegreSQL/PostGIS, GDAL/OGR, GRASS GIS, SAGA GIS, GitHub, OSGeo4W, ed altri FOSS; ama usare, nella professione e non solo, software OS come LibreOffice, InkSCAPE, GIMP ecc...
 
 Libero Professionista, attualmente è socio [GFOSS.it](http://gfoss.it/) dal 2017, membro di [QGIS Italia](https://www.facebook.com/qgis.it/) dal 2015 e di [QGIS.org](https://qgis.org/it/site/) dal 2020, moderatore di vari forum con argomenti GFOSS. Partecipa, nel 2014, alla fondazione di _Open Data Sicilia_ realizzando uno dei primi progetti del gruppo (Balneazione Palermo 2014, [Piano regolatore del Comune di Palermo 2015](http://blog.spaziogis.it/static/palermo_prg/#12/38.1375/13.3450)), nel 2016 è tra i relatori del [#ODS16 OpenDataSicilia Summer Edition](http://ods16.opendatasicilia.it/) Messina, in cui parla di QGIS.
 
@@ -32,20 +32,20 @@ Molto attivo nella comunità di QGIS: ha partecipato alla realizzazione di un pl
 
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/pigreco/HfcQGIS/master/img/hfita1_2017_bologna.png">
+  <img width="600" src="./img/hfita1_2017_bologna.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Bologna 2017, da sinistra: _Luca Mandolesi, Giuseppe Guarino, Salvatore Fiandaca, Pierluigi de Rosa e Enrico Ferreguti (uno dei più attivi sviluppatori di plugin italiani_
 
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/pigreco/HfcQGIS/master/img/hfita2_2017_padova.png">
+  <img width="600" src="./img/hfita2_2017_padova.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Padova 2017, da sinistra: _Salvatore Fiandaca, Amedeo Fadini, Federico Gianoli, Matteo Ghetta,prof. Massimo De Marchi, Stefano Campus, Alessandro Sarretta, Enrico Ferreguti_
 
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/hfita3_2018_viterbo.png">
+  <img width="600" src="./img/hfita3_2018_viterbo.png">
 </p>
 
 **Foto**: Hack Fest QGIS ITA Viterbo 2018
