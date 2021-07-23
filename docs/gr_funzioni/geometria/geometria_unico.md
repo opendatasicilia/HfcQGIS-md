@@ -1,3 +1,7 @@
+---
+social_image: img/hfc_fuz_geom.png
+---
+
 # Gruppo Geometria
 
 !!! Abstract
