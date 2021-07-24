@@ -17,7 +17,6 @@ Gruppo funzioni|nro funzioni*|info
 [File e percorsi](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)| manipolano nomi di file e di percorsi
 [Generale](./generale/generale_unico.md)| (7/7)| assortimento di funzioni generiche
 [Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.20**
-[Lat Lon Tools](./lat_lon_tools/lat_lon_tools_unico.md)| (18/0)| [Plugin Lat Long Tools](https://plugins.qgis.org/plugins/latlontools/)
 [Layer mappa](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
 [Layout](./maps/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
 [Maps](./layer_della_mappa/layer_unico.md)| (2/2) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**
