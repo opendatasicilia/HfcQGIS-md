@@ -700,10 +700,12 @@ nav:
     -  Lavora con Noi:
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
-        - Contribuire a HfcQGIS: contributing.md
-        
+        # - Contribuire a HfcQGIS: contributing.md
+    
+    - Sostieni: contributing.md
+
     - About:
-        - OpenDataSicilia: ods.md    
+        - OpenDataSicilia: ods.md
         - Autore HfcQGIS: autore.md
         - Webmaster: webmaster/gbvitrano.md 
         - Traduzione: traduzione.md
