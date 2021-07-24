@@ -702,7 +702,8 @@ nav:
         - Parlano di noi: parlano_di_noi.md
         # - Contribuire a HfcQGIS: contributing.md
     
-    - Sostieni: contributing.md
+    - Sostieni: 
+        - sostieni: contributing.md
         - da documentare: gr_funzioni/da_documentare.md
 
     - About:
