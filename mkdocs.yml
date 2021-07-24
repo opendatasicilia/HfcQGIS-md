@@ -644,7 +644,7 @@ nav:
         
     - Esempi svolti: 
         - Uso delle funzioni: esempi/lista_esempi.md
-        - Esempi svolti:
+        - Esempi svolti: esempi/lista_esempi.md
           #  - Campo area: esempi/add_col_area.md
           #  - Campi coordinate: esempi/add_coord_xy.md
           #  - Campo virtuale: esempi/add_campo_virtuale.md

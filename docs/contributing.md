@@ -9,17 +9,17 @@ Quella che segue è una serie di linee guida per contribuire a **HfcQGIS**. Ques
 ### Donazione 
 Per realizzare questa guida ho impiegato del tempo e messo a disposizione tutta la mia conoscenza sullo strumento. <a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="70" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/PayPal.png" class="immagonobox" Title="Dona con PayPal" alt="Dona con PayPal" /></a>
 
-### Divulgando questo manuale
+### Divulgando
 Per favore usa i tasti di condivisione social inserendo alcuni hastag: #hfcqgis #qgis @opendatasicilia (se hai attivo un _ad blocker_, i tasti di condivisione non verranno visualizzati).
 
-### Segnalazione di bug
+### Segnalando
 Se trovi qualche malfunzionamento segnalalo, così da migliorare la guida.
 
-### Suggerire miglioramenti
+### Suggerendo
 Se hai suggerimenti o migliorie segnalali.
 
-### Suggerire esempi/esercizi
-Se vuoi che la [sezione esempi](./esempi/lista_esempi.md) cresca, suggerisci degli esempi che vorresti vedere.
+### Esercizi
+Se vuoi che la [sezione esempi](./esempi/lista_esempi.md) cresca, suggerisci degli esempi/esercizi che vorresti vedere.
 
 ### Pull Requests
 Includere screenshot e GIF animate nella richiesta di pull, quando possibile.
@@ -27,5 +27,8 @@ Documenta bene
 Terminare tutti i file con una nuova riga
 Evita il codice dipendente dalla piattaforma
 
-### Elenco funzione da documentare con donazione
+### da documentare
+
+Elenco funzione/variabili da documentare tramite donazione
+
 [Apri elenco](./gr_funzioni/da_documentare.md)
