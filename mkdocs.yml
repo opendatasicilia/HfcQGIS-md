@@ -639,8 +639,6 @@ nav:
             # - value: gr_funzioni/variabili/value.md
             # - with_variable: gr_funzioni/variabili/with_variable.md    
       #  - da documentare: gr_funzioni/da_documentare.md
-    
-    - da documentare: gr_funzioni/da_documentare.md
         
     - Esempi svolti: 
         - Uso delle funzioni: esempi/lista_esempi.md
@@ -705,6 +703,7 @@ nav:
         # - Contribuire a HfcQGIS: contributing.md
     
     - Sostieni: contributing.md
+        - da documentare: gr_funzioni/da_documentare.md
 
     - About:
         - OpenDataSicilia: ods.md
