@@ -2,7 +2,9 @@
 
 Questa pagina raccoglie i nominativi delle persone che hanno contribuito alla guida in termini _finanziari_ o di _conoscenza_:
 
-## Contributi finanziari su PayPal
+## Contributi finanziari 
+
+tramite [PayPal](https://www.paypal.me/pigrecoinfinito)
 
 nro| contributo| luogo| messaggio
 --:|-----------|------|:--------
@@ -14,7 +16,9 @@ nro| contributo| luogo| messaggio
 6 | Luca Bellami | Messico|un contributo davvero piccolo per l'enorme lavoro che fai per la comunitá! un abbraccio Luca
 7 | Roberto Montagnetti | Inghilterra | Un piccolo modesto supporto alle attività di Pigrecoinfinito
 
-## Contributi in conoscenza su HfcQGIS
+## Contributi in conoscenza
+
+tramite esercizi, pull request e funzioni personalizzate
 
 nro| contributo|Luogo | sito  |sezione
 --:|-----------|------|-------|:-------
