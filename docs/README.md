@@ -15,7 +15,7 @@ Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [
 
 ## Donate
 
-💶 [HfcQGIS](https://www.paypal.me/pigrecoinfinito) 💶 💳
+💶 [HfcQGIS](https://www.paypal.me/pigrecoinfinito) 💶
 
 ## Autore `HfcQGIS`
 
