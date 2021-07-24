@@ -4,14 +4,14 @@
 {% block libs %}
 {{ super() }}
  <!-- Qui Script header) --> 
-<link href="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
+<link href="{{ config.site_url}}stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <!-- Qui Script footer) --> 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb82cddf7f677"></script>  
  <!-- Qui Progress bar) --> 
-<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-3.1.1.min.js"></script>
-<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/prognroll.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/jquery-3.1.1.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/prognroll.min.js"></script>
 <script>
     $(function() {
       $("body").prognroll({
@@ -22,9 +22,8 @@
 </script> 
 <!-- eu-cookie-lawt -->
 <div class="eupopup eupopup-top "></div>
-<script src="https://hfcqgis-md.readthedocs.io/it/latest/stylesheets/jquery-eu-cookie-law-popup.js"></script> 
+<script src="{{ config.site_url}}stylesheets/jquery-eu-cookie-law-popup.js"></script> 
 {% endblock %}
-
 <!-- blocco meta tag e social -->
 {% block extrahead %}
 	   <!-- Social card full site twetter -->	 
@@ -45,7 +44,6 @@
   {% if page and page.meta and page.meta.social_image %}
  <meta property="og:image" content="{{ config.site_url ~ page.meta.social_image }}" />
  {% endif %}
-
 	   <!-- Social card full site facebook -->	  
   {% set title = config.site_name %}
     {% if page and page.meta and page.meta.title %}

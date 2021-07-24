@@ -4,20 +4,19 @@
 
 /* forza il back to top a tornare in basso */
 .md-top {
-    background: var(--md-primary-fg-color)!important; 
-    border-radius: 100%!important; 
-    bottom: .4rem!important; 
-    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 10%), 0 0.025rem 0.05rem rgb(0 0 0 / 10%)!important; 
-    color: var(--md-primary-bg-color)!important; 
-    float: right!important; 
-    margin: -2.8rem .4rem .4rem!important; 
-    outline: none!important; 
-    padding: .4rem!important; 
-    position: -webkit-sticky!important; 
-    position: sticky!important; 
+    background: var(--md-primary-fg-color); 
+    border-radius: 100%; 
+    bottom: .4rem; 
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 10%), 0 0.025rem 0.05rem rgb(0 0 0 / 10%); 
+    color: var(--md-primary-bg-color); 
+    float: right; 
+    margin: -2.8rem .4rem .4rem;
+    padding: .4rem; 
+    position: -webkit-sticky; 
+    position: sticky; 
     transform: translateY(0)!important; 
-    transition: opacity 125ms,transform 125ms cubic-bezier(.4,0,.2,1),background-color 125ms!important; 
-    z-index: 1!important; 
+    transition: opacity 125ms,transform 125ms cubic-bezier(.4,0,.2,1),background-color 125ms; 
+    z-index: 1; 
 	font-size: 0px!important; 
 }
 
