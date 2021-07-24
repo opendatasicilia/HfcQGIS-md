@@ -20,33 +20,33 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 ## Quesiti
 
-1.Usando il layer _**Reg01012020_g_WGS84**_, tracciare il _Bounding Box_ (poligono) delle regioni, usando il Generatore di geometrie:
+1. Usando il layer _**Reg01012020_g_WGS84**_, tracciare il _Bounding Box_ (poligono) delle regioni, usando il Generatore di geometrie:
 
 ![](./img/mettiti_alla_prova/img_01.png)
 
-2.segue esempio 1), visualizzare etichetta solo nel Bounding Box della Puglia, nell'angolo in alto a destra:
+2. segue esempio 1), visualizzare etichetta solo nel Bounding Box della Puglia, nell'angolo in alto a destra:
 
 ![](./img/mettiti_alla_prova/img_02.png)
 
-3.Usando i layer _**Reg01012021_g_WGS84**_ e _**RipGeo01012021_WGS84**_ creare un vettore lineare usando il geo-algoritmo _Geometria tramite espressione_ che colleghi i centroidi delle ripartizioni geografiche con i centroidi delle relative regioni, vedi sotto:
+3. Usando i layer _**Reg01012021_g_WGS84**_ e _**RipGeo01012021_WGS84**_ creare un vettore lineare usando il geo-algoritmo _Geometria tramite espressione_ che colleghi i centroidi delle ripartizioni geografiche con i centroidi delle relative regioni, vedi sotto:
 
 ![](./img/mettiti_alla_prova/img_03.png)
 
-4.Usando il layer _**ProvCM01012021_WGS84**_, calcolare la lunghezza della linea che collega tutti i point_on_surface delle province ordinate per regione; poi etichettare lo stesso strato in modo da visualizzare in basso a sinistra la lunghezza totale formattata, vedi sotto:
+4. Usando il layer _**ProvCM01012021_WGS84**_, calcolare la lunghezza della linea che collega tutti i point_on_surface delle province ordinate per regione; poi etichettare lo stesso strato in modo da visualizzare in basso a sinistra la lunghezza totale formattata, vedi sotto:
 
 ![](./img/mettiti_alla_prova/img_04.png)
 
-5.Come selezionare la provincia italiana che ha il maggior numero di province confinanti?;
+5. Come selezionare la provincia italiana che ha il maggior numero di province confinanti?;
 
-6.Come selezionare la terza provincia più estesa della ripartizione geografica _**Nord-Est**_;
+6. Come selezionare la terza provincia più estesa della ripartizione geografica _**Nord-Est**_;
 
-7.Creare un campo numerico e popolarlo con la classifica (1,2,3,4….) delle province più estese raggruppate per ripartizione geografica (ovvero, 5 classifiche, una per ogni ripartizione, in modo che possa leggere quale sia l'ordine delle province più estese per ogni ripartizione);
+7. Creare un campo numerico e popolarlo con la classifica (1,2,3,4….) delle province più estese raggruppate per ripartizione geografica (ovvero, 5 classifiche, una per ogni ripartizione, in modo che possa leggere quale sia l'ordine delle province più estese per ogni ripartizione);
 
-8.Perché in generale `$area <> area($geometry)` ?
+8. Perché in generale `$area <> area($geometry)` ?
 
-9.Con quale espressione è possibile tracciare il centroide lungo una linea (non rettilinea)?
+9. Con quale espressione è possibile tracciare il centroide lungo una linea (non rettilinea)?
 
-10.Perché sono utili i campi virtuali?
+10. Perché sono utili i campi virtuali?
 
 11.In che condizioni è vera questa uguaglianza `$x = x($geometry))`?
 
