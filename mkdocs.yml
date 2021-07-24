@@ -142,7 +142,7 @@ nav:
        - QGIS 3.0  | 23/02/2018: release/novita_30.md
        
     - Funzioni:
-       - Elenco funzioni: gr_funzioni/gruppo_funzioni.md
+       - Elenco gruppi: gr_funzioni/gruppo_funzioni.md
        - Aggrega: gr_funzioni/aggrega/aggrega_unico.md
           #   - Elenco:  gr_funzioni/aggrega/aggrega_gruppo.md
           #   - aggregate: gr_funzioni/aggrega/aggregate.md
@@ -284,7 +284,7 @@ nav:
             # - to_time: gr_funzioni/data_ora/to_time.md
             # - week: gr_funzioni/data_ora/week.md
             # - year: gr_funzioni/data_ora/year.md
-       - Espressione utente: gr_funzioni/espressione_utente/espressione_utente_unico.md
+       - Espressioni utente: gr_funzioni/espressione_utente/espressione_utente_unico.md
             # - Elenco: gr_funzioni/espressione_utente/espressione_utente.md
             # - bla bla: bla.md                
        - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi_unico.md
@@ -638,7 +638,9 @@ nav:
             # - row_number: gr_funzioni/variabili/row_number.md
             # - value: gr_funzioni/variabili/value.md
             # - with_variable: gr_funzioni/variabili/with_variable.md    
-       - da documentare: gr_funzioni/da_documentare.md
+      #  - da documentare: gr_funzioni/da_documentare.md
+    
+    - da documentare: gr_funzioni/da_documentare.md
         
     - Esercizi: 
         - Uso delle funzioni: esempi/lista_esempi.md
