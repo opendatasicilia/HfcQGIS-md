@@ -131,8 +131,8 @@ PS: Find/Replace è un plugin!
 
 ![tab_attr](../img/tabella_attributi/tab_attr7.png)
 
-## Novità introdotta nella QGIS 3.4:
+## dockify tabella
 
-nuovo pulsante nella barra degli strumenti della tabella degli attributi per passare dalla modalità docked alla modalità finestra
+nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti della tabella degli attributi per passare dalla modalità docked alla modalità finestra
 
 ![tab_attr](../img/tabella_attributi/dockify.gif)
