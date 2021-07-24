@@ -697,14 +697,14 @@ nav:
         
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
     
-    -  Lavora con Noi:
+    - Lavora con Noi:
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
         # - Contribuire a HfcQGIS: contributing.md
     
     - Sostieni: 
-        - sostieni: contributing.md
-        - da documentare: gr_funzioni/da_documentare.md
+        - Contribuire: contributing.md
+        - Da documentare: gr_funzioni/da_documentare.md
 
     - About:
         - OpenDataSicilia: ods.md
