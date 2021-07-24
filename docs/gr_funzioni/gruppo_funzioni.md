@@ -16,7 +16,7 @@ Gruppo funzioni|nro funzioni*|info
 [Espressione utente](./espressione_utente/espressione_utente_unico.md)| (?)|aggiornate a **QGIS 3.12**
 [File e percorsi](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)| manipolano nomi di file e di percorsi
 [Generale](./generale/generale_unico.md)| (7/7)| assortimento di funzioni generiche
-[Geometria](./geometria/geometria_unico.md) |(123/123)| aggiornate a **QGIS 3.20**
+[Geometria](./geometria/geometria_unico.md) |(124/143)| aggiornate a **QGIS 3.20**
 [Layer mappa](./layer_della_mappa/layer_unico.md)| (2/2)| aggiornate a **QGIS 3.6**
 [Layout](./maps/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
 [Maps](./layer_della_mappa/layer_unico.md)| (2/2) |>= **QGIS 3.0** aggiornate a **QGIS 3.6**

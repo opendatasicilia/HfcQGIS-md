@@ -21,3 +21,8 @@ Release        | Data | changelog | nuove funzioni
 [QGIS 3.2 Bonn](novita_32.md)  |22/06/2018 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog32/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_2_0.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.2"></a> | nuove variabili, ecc...
 [QGIS 3.0 Girona](novita_30.md)  |23/02/2018 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog30/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_0_0.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.0"></a> | vedi changelog
 
+---
+
+## Grafico
+
+![](../img/grafico_espressioni1.png)
