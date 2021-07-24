@@ -3,6 +3,8 @@
 
 ---
 
+## Elenco esempi
+
 **(Livello di difficoltà: 1 -> Facile -- 5 -> Difficile)**
 
 nro|Esempio|Descrizione|Autore | Livello
@@ -57,3 +59,9 @@ nro|Esempio|Descrizione|Autore | Livello
 48|[Finestra temporale](finestra_temporale.md)|Fissata una data, calcolare la somma di un attributo relativo ai 6 giorni precedenti|Pigreco | 4
 49|[Rotazione simbolo parallelo ad una linea](rotazione_simbolo_parallelo_linea.md)|Lunghezze dei segmenti di un poligono|Pigreco | 3
 50|[Livello acqua](livello_acqua.md)|Effetto riempimento recipiente d'acqua|Pigreco | 4
+
+## Partecipa
+
+Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis-md.readthedocs.io/it/latest/contributing/#suggerire-esempiesercizi):
+
+per maggiori info [scrivi all'autore](https://hfcqgis-md.readthedocs.io/it/latest/autore/#contatti)
