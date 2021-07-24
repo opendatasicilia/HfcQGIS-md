@@ -1,6 +1,6 @@
 ## Etichettare un itinerario con l’elenco ordinato dei Comuni attraversati
 
-Qualche giorno fa in queste pagine é stato pubblicato un esempio su come creare, tramite calcolatore di campi, un **elenco ordinato di Comuni attraversati da un itinerario** ([esempio 39](http://hfcqgis.opendatasicilia.it/it/latest/esempi/elenco_ordinato_comuni_attraversati.html)). Nell’esempio citato l’espressione utilizzata permetteva di creare un nuovo campo con numerazione progressiva all’interno del layer poligonale contenente i limiti comunali. 
+Qualche giorno fa in queste pagine é stato pubblicato un esempio su come creare, tramite calcolatore di campi, un **elenco ordinato di Comuni attraversati da un itinerario** ([esempio 39](elenco_ordinato_comuni_attraversati.md)). Nell’esempio citato l’espressione utilizzata permetteva di creare un nuovo campo con numerazione progressiva all’interno del layer poligonale contenente i limiti comunali. 
 In questo esempio vedremo invece come sia possibile, sempre utilizzando iI calcolatore di campi, intervenire direttamente sul layer lineare rappresentante l’itinerario e creare una etichetta (o un nuovo campo testuale della tabella attributi) contenente un elenco ordinato e numerato dei comuni attraversati. 
 
 ![](../img/esempi/etichettare_itinerario/1.jpg)
@@ -88,3 +88,20 @@ Realizzato da **Valerio Pinna** (grazie mille!)
 ### prova tu
 
 [dati e progetto QGIS 3.12](https://mega.nz/file/9VIzlagL#yNAo3yxVf6o_4ImJ8OhQDYXT11E2mit_8Fs2CAKGvhk)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [@parent](../gr_funzioni/variabili/parent.md)
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
+* [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string)
+* [array_get](../gr_funzioni/array/array_unico.md#array_get)
+* [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach)
+* [generate_series](../gr_funzioni/aggrega/aggrega_unico.md#generate_series)
+* [num_geometries](../gr_funzioni/geometria/geometria_unico.md#num_geometries)
+* [collect_geometries](../gr_funzioni/geometria/geometria_unico.md#collect_geometries)
+* [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
+* [start_point](../gr_funzioni/geometria/geometria_unico.md#start_point)
+* [concat](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#concat)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

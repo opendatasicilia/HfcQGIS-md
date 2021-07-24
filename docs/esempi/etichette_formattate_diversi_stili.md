@@ -1,4 +1,4 @@
-## Etichette formattate con diversi stili all'interno del testo
+# Etichette formattate con diversi stili all'interno del testo
 
 Una richiesta che spesso si ritrova nei canali social della Comunitá **QGIS** é quella di poter creare delle etichette al cui interno solo una parte del testo é formattata con uno stile diverso dal resto della stringa.  In **QGIS**, infatti, é possibile utilizzare gli strumenti offerti dal sistema per formattare in grassetto o corsivo l’intera etichetta ma non é possibile, di default, applicare lo stile ad una sola parte del testo. 
 Una soluzione a questo problema é offerta dal **Calcolatore di campi**, dimostrando ancora una volta la potenza di questo strumento. <br>
@@ -39,7 +39,7 @@ array('𝕒','𝕓','𝕔','𝕕','𝕖','𝕗','𝕘','𝕙','𝕚','𝕛','�
 )))))
 ```
 
-**Vediamo come opera**. <br>
+## Vediamo come opera
 
 Per ogni stile che si vuole utilizzare é necessario creare una variabile usando la funzione `with_variable` contenente un’`array` composta da tutti i caratteri (maiuscolo, minuscolo e numeri).<br>
 La prima variabile creata contiene i caratteri normali, non formattati, mentre le altre variabili nell’espressione contengono serie di caratteri formattati nei diversi stili. Per creare queste array si deve semplicemente copiare e incollare il contenuto della prima array coi caratteri normali in uno dei siti suddescritti e una volta creato il testo formattato copiarlo nella nuova array. <br>
@@ -99,3 +99,12 @@ Realizzato da **Valerio Pinna** (grazie mille!)
 ### Prova tu
 
 Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/raw/master/esempi/etichette_con_stile.gpkg)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [with_variable](../gr_funzioni/variabili/with_variable.md)
+* [array](../gr_funzioni/array/array_unico.md#array)
+* [string_to_array](../gr_funzioni/array/array_unico.md#string_to_array)
+* [replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#replace)

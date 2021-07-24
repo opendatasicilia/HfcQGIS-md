@@ -9,7 +9,7 @@ with_variable('pos',
     array_find(array_agg( expression:="campodata"),"campodata"),
         with_variable('dat',
             array_length(array_agg("campodata")),
-array_sum(
+array_length(
 array_slice(
     array_agg("campo1",group_by:="campo2"),
     -@dat+@pos-6,
@@ -41,3 +41,15 @@ array_slice(
 ```
 
 ![](https://pigrecoinfinito.files.wordpress.com/2021/03/image-33.png)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [with_variable](../gr_funzioni/variabili/with_variable.md)
+* [array_find](../gr_funzioni/array/array_unico.md#array_find)
+* [array_filter](../gr_funzioni/array/array_unico.md#array_filter)
+* [array_agg](../gr_funzioni/aggrega/aggrega_unico.md#array_agg)
+* [array_length](../gr_funzioni/aggrega/aggrega_unico.md#array_length)
+* [array_sum](../gr_funzioni/aggrega/aggrega_unico.md#array_sum)
+* [array_slice](../gr_funzioni/aggrega/aggrega_unico.md#array_slice)

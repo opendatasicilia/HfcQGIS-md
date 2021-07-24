@@ -3,6 +3,7 @@
 L'attributo _geometry_ è l'unico campo non visibile nella tabella attributi, ma c'è!!!
 
 La geometry è espressa in un modo non comprensibile dall'uomo e quindi si evita di farla vedere, questo attibuto porta con se altri attibuti impliciti alla geometria stessa come:
+
 - nel caso di geometry (MULTI)POINT(ZM): le coordinate x,y,z,m;
 - nel caso di geometry (MULTI)LINESTRING(ZM): lunghezza della linea e coordinate dei nodi/vertici;
 - nel caso di geometry (MULTI)POLYGON(ZM): area, perimetro e coordinate dei vertici;
@@ -14,6 +15,7 @@ Un modo per richiamarle è attraverso l'etichettatura:
 * caso (MULTI)POINT(ZM):
 
 espressione da scrivere nel calcolatore di campi
+****
 ```
 'x= ' || to_int($x)  
 || '\n'  || 
@@ -46,3 +48,17 @@ espressione da scrivere nel calcolatore di campi
  ![](../img/esempi/etichette/etichette3.png)
 
  Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [to_int](../gr_funzioni/conversioni/conversioni_unico.md#to_int)
+* [format_number](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#format_number)
+* [\$x](../gr_funzioni/geometria/geometria_unico.md#x)
+* [\$y](../gr_funzioni/geometria/geometria_unico.md#y)
+* [z](../gr_funzioni/geometria/geometria_unico.md#z)
+* [m](../gr_funzioni/geometria/geometria_unico.md#m)
+* [\$length](../gr_funzioni/geometria/geometria_unico.md#length)
+* [start_point](../gr_funzioni/geometria/geometria_unico.md#start_point)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

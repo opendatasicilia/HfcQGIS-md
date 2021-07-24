@@ -1,4 +1,4 @@
-## Numerazione dei poligoni in base alla relazione spaziale
+# Numerazione dei poligoni in base alla relazione spaziale
 
 Etichettare le regioni italiane ISTAT in funzione della superficie, per esempio: la regione più estesa deve avere come etichetta 1 e poi via via aumentare al decrescere dell' area.
 
@@ -88,7 +88,25 @@ array_get(
 ovvero tre volte la variabile `@element`.
 
 
-Prova tu
+## Prova tu
 
 [Geopackage](/esempi/dati_esempi.gpkg)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [@element](../gr_funzioni/variabili/element.md)
+* [array_agg](../gr_funzioni/array/array_unico.md#array_agg)
+* [array_sort](../gr_funzioni/array/array_unico.md#array_sort)
+* [string_to_array](../gr_funzioni/array/array_unico.md#string_to_array)
+* [array_get](../gr_funzioni/array/array_unico.md#array_get)
+* [array_find](../gr_funzioni/array/array_unico.md#array_find)
+* [array_reverse](../gr_funzioni/array/array_unico.md#array_reverse)
+* [\$Area](../gr_funzioni/geometria/geometria_unico.md#area)
+* [count](../gr_funzioni/aggrega/aggrega_unico.md#y_min)
+* [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach)
+* [upper](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#upper)
+* [to_int](../gr_funzioni/conversioni/conversioni_unico.md#to_int)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
 

@@ -30,3 +30,10 @@ WHEN   length( "ID_OD" ) =3  THEN '255,0,255'
 ELSE '255,255,0'
 END
 ```
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [CASE](../gr_funzioni/condizioni/condizioni_unico.md#CASE)
+* [length](../gr_funzioni/geometria/geometria_unico.md#length_1)

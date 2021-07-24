@@ -1,4 +1,4 @@
-## Spatial join 
+# Spatial join 
 
 L’unione spaziale di attributi è un problema frequente in ambito GIS - si tratta di trasferire attributi da un layer ad un altro basandosi solo sulle loro reciproche relazioni spaziali. In QGIS questa feature può essere avviata attraverso lo strumento **Unisci attributi per posizione** 
 
@@ -44,3 +44,14 @@ Tematizzo con i valori del nuovo campo:
 1. ottengo il risultato sperato solo perché ho utilizzato il Buffer negativo altrimenti avrei ottenuto un risultato diverso (ovvero tutti le regioni che si intersecavano con la provincia);
 2. il calcolatore di campi permette di aggiungere un campo nuovo nella stessa tabella attributi, cosa che è molto utile per questi lavori.
 3. un risultato del genere NON è possibile ottenerlo cosi rapidamente.
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [@parent](../gr_funzioni/variabili/parent.md)
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
+* [geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
+* [to_string](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#to_string)
+* [intersects](../gr_funzioni/geometria/geometria_unico.md#intersects)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

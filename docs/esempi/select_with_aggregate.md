@@ -8,17 +8,19 @@ seleziono (nel panel layer) il layer dove effettuare la selezione e premo il tas
 
 scrivo l'espressione:
 
-`$area = minimum($area, group_by:= "COD_PROV" )`
-
+```
+$area = minimum($area, group_by:= "COD_PROV" )
+```
 e poi clicco su (2) _seleziona elementi_:
 
 ![](../img/esempi/select_with_aggregate/sel_minimum1.png)
 
-funzioni usate:
-
-* [$area](../gr_funzioni/geometria/$area.html)
-* [minimum](../gr_funzioni/aggregates/minimum.html)
-
-
-
 il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [\$area](../gr_funzioni/geometria/geometria_unico.md#area)
+* [minimum](../gr_funzioni/aggrega/aggrega_unico.md#minimum)
+* [uguale](../gr_funzioni/operatore/operatore_unico.md#uguale)

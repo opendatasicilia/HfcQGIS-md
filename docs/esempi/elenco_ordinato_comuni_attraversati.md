@@ -1,4 +1,4 @@
-## Elenco ordinato di Comuni attraversati da un itinerario
+# Elenco ordinato di Comuni attraversati da un itinerario
 
 Come ottenere l'elenco ordinato dei Comuni attraversati da un itinerario.
 

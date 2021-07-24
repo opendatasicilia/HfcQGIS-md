@@ -1,4 +1,4 @@
-## Effetto riempimento recipiente d'acqua
+# Effetto riempimento recipiente d'acqua
 
 In questo breve tutorial vedremo come realizzare una tematizzazione, tramite espressioni geometriche, che simuli il riempimento di un recipente di acqua, e lo applicheremo ai nostri poligoni.
 
@@ -43,3 +43,23 @@ point_n(bounds($geometry),1),
 qui video demo:
 
 <https://youtu.be/uUEGSdWraPY>
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [difference](../gr_funzioni/geometria/geometria_unico.md#difference)
+* [make_rectangle_3points](../gr_funzioni/geometria/geometria_unico.md#make_rectangle_3points)
+* [point_n](../gr_funzioni/geometria/geometria_unico.md#point_n)
+* [bounds](../gr_funzioni/geometria/geometria_unico.md#bounds)
+* [make_point](../gr_funzioni/geometria/geometria_unico.md#make_point)
+* [x](../gr_funzioni/geometria/geometria_unico.md#x_1)
+* [y](../gr_funzioni/geometria/geometria_unico.md#y_1)
+* [bounds_height](../gr_funzioni/geometria/geometria_unico.md#bounds_height)
+* [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
+* [area](../gr_funzioni/geometria/geometria_unico.md#area_1)
+* [second](../gr_funzioni/data_e_ora/data_e_ora_unico.md#second)
+* [now](../gr_funzioni/data_e_ora/data_e_ora_unico.md#now)
+* [area](../gr_funzioni/geometria/geometria_unico.md#area_1)
+* [format_number](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#format_number)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

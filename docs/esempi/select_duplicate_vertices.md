@@ -1,4 +1,4 @@
-## Selezionare vertici duplicati
+# Selezionare vertici duplicati
 
 Ogni volta che estraiamo i vertici in una geometria (lineare o poligonale) otteniamo quasi sempre dei vertici duplicati, in questo esempio vedremo come selezionarli usando le espressioni.
 
@@ -33,7 +33,7 @@ per entrambe stesso risultato:
 
 ![](../img/esempi/select_duplicate_vertices/img_02.png)
 
-### Selezionare solo uno dei due punti doppi
+## Selezionare solo uno dei due punti doppi
 
 espressione da utilizzare:
 
@@ -96,6 +96,24 @@ if($id =
 
 In collaborazione con **Valerio Pinna** che ringrazio per la disponibilità.
 
-### Prova tu
+## Prova tu
 
 il geopackage è scaricabile [qui](https://github.com/pigreco/HfcQGIS/raw/master/esempi/vertici_duplicati.gpkg)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [if](../gr_funzioni/condizioni/condizioni_unico.md#if)
+* [\$id](../gr_funzioni/array/array_unico.md#id)
+* [get_feature_by_id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#get_feature_by_id)
+* [array_agg](../gr_funzioni/array/array_unico.md#array_agg)
+* [array_sort](../gr_funzioni/array/array_unico.md#array_sort)
+* [string_to_array](../gr_funzioni/array/array_unico.md#string_to_array)
+* [array_last](../gr_funzioni/array/array_unico.md#array_last)
+* [array_find](../gr_funzioni/array/array_unico.md#array_find)
+* [array_reverse](../gr_funzioni/array/array_unico.md#array_reverse)
+* [geom_to_wkt](../gr_funzioni/geometria/geometria_unico.md#geom_to_wkt)
+* [count](../gr_funzioni/aggrega/aggrega_unico.md#y_min)
+* [array_length](../gr_funzioni/array/array_unico.md#array_length)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

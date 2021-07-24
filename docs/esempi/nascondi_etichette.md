@@ -1,4 +1,4 @@
-## Nascondi etichette
+# Nascondi etichette
 
 Appena attiviamo le etichette queste sono sempre al top e sempre visibili, vediamo in questo esempio come nascondere alcune etichette utilizzando le opzioni di visualizzazione delle etichette e le funzioni di aggregazione.
 
@@ -26,6 +26,19 @@ Ora nascenderò le etichette, del layer quartieri, che sono sotto le circorscriz
 
 espressione usata:
 
-`not aggregate('circoscrizioni', 'count', 'PK_UID', intersects ($geometry,  point_on_surface( geometry(@parent))))`
+```
+not aggregate('circoscrizioni', 'count', 'PK_UID', intersects ($geometry,  point_on_surface( geometry(@parent))))
+```
 
  il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [@parent](../gr_funzioni/variabili/parent.md)
+* [not](../gr_funzioni/operatori/operatori_unico.md#not)
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
+* [intersects](../gr_funzioni/geometria/geometria_unico.md#intersects)
+* [point_on_surface](../gr_funzioni/geometria/geometria_unico.md#point_on_surface)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

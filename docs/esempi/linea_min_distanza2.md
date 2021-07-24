@@ -1,4 +1,4 @@
-## Calcolo distanza minima tra due vettori
+# Calcolo distanza minima tra due vettori
 
 Dati due layer (es_uno puntuale e l'altro lineare), calcolare la lunghezza del segmento di minima distanza tra gli elementi dei due layer usando il calcolatore di campi:
 
@@ -38,3 +38,12 @@ shortest_line(
 ```
 
 Osservazione: la funzione `overlay_nearest` è presente in QGIS a partire dalla 3.16 Hannover
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
+* [shortest_line](../gr_funzioni/geometria/geometria_unico.md#shortest_line)
+* [overlay_nearest](../gr_funzioni/geometria/geometria_unico.md#overlay_nearest)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

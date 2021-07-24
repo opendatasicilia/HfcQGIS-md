@@ -24,6 +24,12 @@ map_to_hstore( attributes()) → '"cod_reg"=>"1","cod_rip"=>"1","den_reg"=>"Piem
 
 le funzioni `replace()` servono a modificare l'output, cioè a togliere i doppi apici e la freccia.
 
-**NB:** I campi sono rdinati alfabeticamente!
+**NB:** I campi sono ordinati alfabeticamente!
 
+---
 
+Funzioni e variabili utilizzate:
+
+* [replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#replace)
+* [map_to_hstore](../gr_funzioni/maps/maps_unico.md#map_to_hstore)
+* [attributes](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#attributes)

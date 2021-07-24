@@ -1,4 +1,4 @@
-## Vestizione generalizzata delle linee di contorno
+# Vestizione generalizzata delle linee di contorno
 
 Quando si creano linee di contorno a partire da un modello digitale del terreno spesso la geometria lineare risultante si presenta ricca di asperitá. 
 Esistono diversi algoritmi o plugin che permettono di generalizzare e semplificare le linee al fine di renderle piú adatte ad un loro uso su mappe stampate o schermate. 
@@ -16,6 +16,8 @@ THEN
 smooth(simplify($geometry,10),21,0.2)
 END
 ```
+
+## spiegazioni
 
 Vediamo le diverse parti che compongono l'espressione:
 
@@ -55,3 +57,13 @@ Il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/raw/mast
 --
 
 Realizzato da [Valerio Pinna](https://www.facebook.com/valerio.pinna.5811)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [CASE](../gr_funzioni/condizioni/condizioni_unico.md#CASE)
+* [\$length](../gr_funzioni/geometria/geometria_unico.md#length)
+* [simplify](../gr_funzioni/geometria/geometria_unico.md#simplify)
+* [smooth](../gr_funzioni/geometria/geometria_unico.md#smooth)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

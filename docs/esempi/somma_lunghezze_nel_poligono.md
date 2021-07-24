@@ -1,4 +1,4 @@
-## Somma lunghezze nel poligono
+# Somma lunghezze nel poligono
 
 Sommare le feature di un layer lineare che ricadono dentro poligoni, e ‘appendere’ i valori nella tabella attributi del layer poligonale.
 
@@ -34,3 +34,16 @@ risultato:
 NB: la piccola differenza tra le lunghezze è imputabile alla trasformazione di EPSG!!! La prima tabella è relativa al vettore poligonale la seconda, lunghezze delle linea, deriva dal geo-algoritmo in processing.
 
 il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [@parent](../gr_funzioni/variabili/parent.md)
+* [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
+* [length](../gr_funzioni/geometria/geometria_unico.md#length_1)
+* [geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
+* [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
+* [intersects](../gr_funzioni/geometria/geometria_unico.md#intersects)
+* [transform](../gr_funzioni/geometria/geometria_unico.md#transform)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

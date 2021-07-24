@@ -3,6 +3,7 @@
 Come creare `hub lines` usando il calcolatore di campi di QGIS
 
 ![screen](../img/esempi/hub_lines/hub_lines_00.jpg)
+****
 `#QGISUserConf2019` `A Coruña`
 
 Tabella di partenza: **A Coruña** da usare come `hub`
@@ -26,7 +27,9 @@ Oviedo|Spain|43.3619145|-5.8493887
 
 Creare un campo **WKT** testuale di 50 caratteri e popolare il campo con la seguente espressione:
 
-`'LINESTRING (-8.4115401 43.3623436 ,' ||  "Longitude"  || ' ' ||  "Latitude"  || ')'`
+```
+'LINESTRING (-8.4115401 43.3623436 ,' ||  "Longitude"  || ' ' ||  "Latitude"  || ')'
+```
 
 ![screen](../img/esempi/hub_lines/hub_lines_02.png)
 
@@ -38,6 +41,12 @@ successivamente importata in QGIS come testo delimitato e geometria di tipo WKT
 
 ![screen](../img/esempi/hub_lines/hub_lines_03.png)
 
-**Prova tu**
+## Prova tu
 
 [dati](https://github.com/pigreco/QGISUserConf2019/tree/master/dati)
+
+---
+
+Funzioni e variabili utilizzate:
+
+* [doppio-pipe](../gr_funzioni/operatori/operatori_unico.md#doppio-pipe)

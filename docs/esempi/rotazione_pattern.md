@@ -1,4 +1,4 @@
-## Rotazione di pattern lineare
+# Rotazione di pattern lineare
 
 Campire degli edifici con pattern lineari e rotazione dipendente dalle feature
 
@@ -12,9 +12,11 @@ Vediamo come calcolare un angolo diverso per ogni edificio in modo da limitare i
 
 l'espressione da usare è:
 
-`angle_at_vertex(shortest_line(centroid(oriented_bbox($geometry)), boundary(oriented_bbox($geometry))),0)`
+```
+angle_at_vertex(shortest_line(centroid(oriented_bbox($geometry)), boundary(oriented_bbox($geometry))),0)
+```
 
-nel linguaggio umano significa:
+## nel linguaggio umano significa:
 
 calcola l'angolo del segmento (in blue) più corto tra il centroide del bounding box orientato (tratteggio rosso) e il bounding box stesso.
 
@@ -28,5 +30,14 @@ prova tu usando in file qml:
 
 [file QML](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/rotazione_pattern_lineare.zip)
 
+---
 
+Funzioni e variabili utilizzate:
+
+* [angle_at_vertex](../gr_funzioni/geometria/geomatria_unico.md#angle_at_vertex)
+* [shortest_line](../gr_funzioni/geometria/geomatria_unico.md#shortest_line)
+* [centroid](../gr_funzioni/geometria/geomatria_unico.md#centroid)
+* [oriented_bbox](../gr_funzioni/geometria/geomatria_unico.md#oriented_bbox)
+* [boundary](../gr_funzioni/geometria/geomatria_unico.md#boundary)
+* [\$geometry](../gr_funzioni/geometria/geomatria_unico.md#geometry)
 

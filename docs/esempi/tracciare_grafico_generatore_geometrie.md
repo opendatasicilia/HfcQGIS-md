@@ -1,4 +1,4 @@
-## Tracciare un grafico usando solo il generatore di geometrie, uno per ogni feature
+# Tracciare un grafico usando solo il generatore di geometrie, uno per ogni feature
 
 Supponiamo di avere uno shapefile poligonale, le province siciliane, e i relativi dati sul COVID-19 in un file CSV. Tracciare, a partire dal centroide di ogni feature (ogni provincia), una curva che rappresenti l'andamento, nel tempo, del parametro medico presente nel file CSV (in questo caso specifico è `totale_casi`).
 
@@ -130,7 +130,7 @@ Gif animata realizzata con il plugin TimeManager di Anita Graser
 
 ![](../img/esempi/geoplot/covid19_geoplot_sicilia.gif)
 
-### Prova tu
+## Prova tu
 
 - **file CSV** : <https://raw.githubusercontent.com/pigreco/COVID19_Sicilia/master/risorse/dpc-covid19-ita-province.vrt>
 - **shapefile** : <https://github.com/pigreco/COVID19_Sicilia/raw/master/risorse/province.7z>
@@ -196,3 +196,20 @@ Begues|26|21|2020-04-11|080207
 Begues|26|21|2020-04-13|080207
 Begues|26|21|2020-04-15|080207
 
+---
+
+Funzioni e variabili utilizzate:
+
+* [@with_variable](../gr_funzioni/variabili/with_variable.md)
+* [relation_aggregate](../gr_funzioni/aggrega/aggrega_unico.md#relation_aggregate)
+* [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string)
+* [array_get](../gr_funzioni/array/array_unico.md#array_get)
+* [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach)
+* [generate_series](../gr_funzioni/aggrega/aggrega_unico.md#generate_series)
+* [translate](../gr_funzioni/geometria/geometria_unico.md#translate)
+* [make_line](../gr_funzioni/geometria/geometria_unico.md#make_line)
+* [make_point](../gr_funzioni/geometria/geometria_unico.md#make_point)
+* [centroid](../gr_funzioni/geometria/geometria_unico.md#centroid)
+* [end_point](../gr_funzioni/geometria/geometria_unico.md#end_point)
+* [round](../gr_funzioni/matematica/matematica_unico.md#round)
+* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
