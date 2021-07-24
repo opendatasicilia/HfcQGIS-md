@@ -22,7 +22,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
 OpenDataSicilia fa _scruscio_ ("rumore" in siciliano) qui:
 
 <a href="http://twitter.com/opendatasicilia" title="Twitter" target="_blank"><i class="fa fa-twitter-square"></i>&nbsp;&nbsp; Twitter</a><br>
-<a href="https://t.me/opendatasicilia" title="gruppo Telegram" target="_blank"><i class="fa fa-telegram"></i>&nbsp;&nbsp; gruppo Telegram</a><br>
-<a href="https://www.facebook.com/groups/opendatasicilia/" title="gruppo Facebook" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp; gruppo Facebook</a><br>
+<a href="https://t.me/opendatasicilia" title="gruppo Telegram" target="_blank"><i class="fa fa-telegram"></i>&nbsp;&nbsp; Gruppo Telegram</a><br>
+<a href="https://www.facebook.com/groups/opendatasicilia/" title="gruppo Facebook" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp; Gruppo Facebook</a><br>
 <a href="https://groups.google.com/forum/#!forum/opendatasicilia/" title="Mailing List" target="_blank"><i class="fa fa-envelope"></i>&nbsp;&nbsp; Mailing List</a><br>
 <a href="http://opendatasicilia.it" title="opendatasicilia.it" target="_blank"><i class="fa fa-globe"></i>&nbsp;&nbsp; opendatasicilia.it</a><br>
