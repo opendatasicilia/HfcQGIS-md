@@ -2,9 +2,9 @@
 
 Questa pagina raccoglie i nominativi delle persone che hanno contribuito alla guida in termini _finanziari_ o di _conoscenza_:
 
-## Contributi finanziari 
+## Contributi finanziari
 
-tramite [PayPal](https://www.paypal.me/pigrecoinfinito)
+tramite <a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="70" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/PayPal.png" class="immagonobox" Title="Dona con PayPal" alt="Dona con PayPal" /></a>
 
 nro| contributo| luogo| messaggio
 --:|-----------|------|:--------
