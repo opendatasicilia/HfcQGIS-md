@@ -11,16 +11,8 @@ hide:
 .md-typeset h5 {text-transform: none!important; color: #212529!important;}
 .md-typeset h3 { font-weight: bold!important; color: #212529!important;}
 </style
-  <header>
-   <!--  Jquery js  -->
-    <script src="stylesheets/js/jquery-1.12.4.min.js"></script>
-    <!--  Bootstrap js  -->
-    <script src="stylesheets/js/bootstrap.min.js"></script>
-    <!--  Appear js  -->
-    <script src="stylesheets/js/jquery.appear.min.js"></script>
-    <!--  Scrolling Nav js  -->
-    <!--  Main js  -->
-    <script src="stylesheets/js/main.js"></script>
+ <body> 
+<header>
   <!-- css home  -->
 <link rel="stylesheet" href="stylesheets/hfc_home.css">   
 <!-- Masthead-->
@@ -28,26 +20,17 @@ hide:
             <div class="container">
           </div>
           </header>
-
-<body>
      <br>
         <section class="page-section" id="services">
               <div class="container">
                 <div class="text-center">
                 <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
   <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
-         <!--        <a class="btn btn-primary btn-xl text-uppercase" href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Consulta la guida </a>
-          <a class="btn btn-primary btn-xl text-uppercase" href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button"> GitHub  </a> -->
-		  
-<!--  SERVICES PART START  -->
-<!--  <section id="services" class="services_area  pt-115 pb-120"> -->
- <section id="services pt-115 pb-120"> 
+		   <section id="services pt-115 pb-120"> 
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center pb-30">
-           <!-- <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
-                        <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> -->   
                 </div>
             </div>
 <!-- row -->
