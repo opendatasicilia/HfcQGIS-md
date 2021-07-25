@@ -34,7 +34,7 @@ Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmen
    6. come creare delle espressioni complesse;
    7. come richiamare altri layer;
    8. come aggiungere attributi geometrici alla tabella;
-   9. le funzioni di aggregazione;
+   9. le funzioni di aggregazione e gli array;
    10. le variabili;
    11. aggiornare un campo esistente;
    12. campi virtuali, utilità;
