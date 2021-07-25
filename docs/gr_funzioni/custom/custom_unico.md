@@ -5,7 +5,7 @@ social_image: img/card_social/hfc_gr_custom.png
 # Gruppo Custom
 
 !!! Abstract
-  **Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.**
+    **Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.**
 
 ---
 
@@ -18,13 +18,15 @@ NB: valore massimo memorizzabile in un campo numerico è 20! (243290200817664000
 
 Esempio:
 
-* `fact(10)→ 3628800`
+```
+fact(10)→ 3628800`
+```
 
 ![](../../img/custom/fact1.png)
 
 Codice Python:
 
-```
+```py
 from qgis.core import *
 from qgis.gui import *
 import math
@@ -59,16 +61,16 @@ Calcola la somma dei due parametri valore1 e valore2.
 
 Esempio:
 
-* `my_sum(5, 8) -> 13 `
-* `my_sum("fiel1", "field2") -> 42 `
+```
+my_sum(5, 8) -> 13
+my_sum("fiel1", "field2") -> 42
+```
 
 ![](../../img/custom/my_sum1.png)
 
 Codice Python:
 
-Da copiare ed incollare
-
-```
+```py
 from qgis.core import *
 from qgis.gui import *
 
@@ -93,15 +95,15 @@ Questa funzione ritorna il valore del perimetro della geometria in km
 
 Esempio:
 
-* `perimetro_km() - > 25 `
+```
+perimetro_km() - > 25
+```
 
 ![](../../img/custom/perimetro_km().png)
 
 Codice Python:
 
-Da copiare ed incollare
-
-```
+```py
 from qgis.core import *
 from qgis.gui import *
 
@@ -133,9 +135,7 @@ reverse_string('Pigrecoinfinito) - > 'otinifniocergiP' `
 
 Codice Python:
 
-Da copiare ed incollare
-
-```
+```py
 from qgis.core import *
 from qgis.gui import *
 
@@ -154,9 +154,9 @@ def reverse_string(string_to_reverse, feature, parent):
 
 ## get_parcel_info
 
-WMS Catasto Agenzia delle Entrate CC BY 4.0:
+[WMS Catasto Agenzia delle Entrate CC BY 4.0](https://www.agenziaentrate.gov.it/portale/it/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia):
 
-La funzione, tramite una richiesta GetFeatureInfo, restituisce le informazioni utili sulla particella che ricade sotto il pixel di mio interesse:
+La funzione, tramite una richiesta [GetFeatureInfo](https://gdal.org/drivers/raster/wms.html?highlight=getfeatureinfo), restituisce le informazioni utili sulla particella che ricade sotto il pixel di mio interesse:
 
 Sintassi:
 
@@ -172,7 +172,8 @@ Esempio:
 ```
 get_parcel_info(355461.5,4222490.7) → 'IT.AGE.PLA.G273_0033A0.673'
 ```
-Funzione personalizzata:
+
+codice Python:
 
 ```py
 # -*- coding: utf-8 -*-
@@ -212,3 +213,119 @@ def get_parcel_info(xx, yy, feature, parent):
 ```
 
 ![](../../img/custom/get_parcel_info1.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+## get_catastal_info
+
+[Catasto Agenzia delle Entrate CC BY 4.0](https://www.agenziaentrate.gov.it/portale/it/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia):
+
+La funzione, tramite una richiesta ajax.php, restituisce le informazioni disponibili su quel che ricade sotto il punto selezionato.
+
+Sintassi:
+
+- get_catastal_info(_<span style="color:red;">longitudine</span>_, _<span style="color:red;">latitudine</span>_, _<span style="color:red;">chiave</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">longitudine</span>_ coordinata  x del punto
+- _<span style="color:red;">latitudine</span>_ coordinata  y del punto
+- _<span style="color:red;">chiave</span>_ per le Particelle: 
+
+    * SIGLA_PROV 
+    * COD_COMUNE 
+    * DENOM 
+    * SEZIONE 
+    * FOGLIO 
+    * ALLEGATO 
+    * SVILUPPO 
+    * NUM_PART 
+    * TIPOLOGIA
+
+  Per Acque e Strade:
+
+    * TIPOLOGIA 
+    * COMUNI 
+
+Esempio:
+
+```
+get_catastal_info(12.567315,37.914197, 'TIPOLOGIA') -> 'ACQUA'
+```
+
+codice Python:
+
+```py
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ WMS Catasto Agenzia delle Entrate CC BY 4.0
+                              -------------------
+        copyright            : (C) 2020 by Giulio Fattori
+        email                : giulio.fattori@tin.it
+ ***************************************************************************/
+"""
+
+from qgis.core import *
+from qgis.gui import *
+import requests, json
+
+@qgsfunction(args='auto', group='Custom')
+def get_catastal_info(xx, yy, chiave, feature, parent):
+    """
+    <h1>Catasto Agenzia delle Entrate CC BY 4.0:</h1>    
+    La funzione, tramite una richiesta ajax.php, restituisce le informazioni disponibili su quel che ricade sotto il punto selezionato.
+    
+    <p style="color:Olive"><b>Sintassi</b></p>
+    <p style="color:blue"><b>get_catastal_info</b><mark style="color:black">(</mark>
+    <mark style="color:red">x</mark>
+    <mark style="color:black">,</mark>
+    <mark style="color:red">y</mark>
+    <mark style="color:black">,</mark>
+    <mark style="color:red">chiave</mark>
+    <mark style="color:black">)</mark><br>
+    
+    <br><mark style="color:black"><b>Le possibili chiavi sono:
+    <ul>
+        Per le particelle:
+        <li>SIGLA_PROV</li>
+        <li>COD_COMUNE</li>
+        <li>DENOM</li>
+        <li>SEZIONE</li>
+        <li>FOGLIO</li>
+        <li>ALLEGATO</li>
+        <li>SVILUPPO</li>
+        <li>NUM_PART</li>
+        <li>TIPOLOGIA</li>
+    </ul>    
+    <ul>Per Acque e Strade:
+        <li>TIPOLOGIA</li>
+        <li>COMUNI</li>
+    </ul></b>
+    
+    <h2>Esempio:</h2>
+    <ul>
+      <li>get_catastal_info(12.567315,37.914197, 'TIPOLOGIA') -> 'ACQUA'</li>
+    </ul>
+    
+    <h2><b>Le coordinate X e Y devono essere espresse nel sistema WGS84 (EPSG:4326)</h2>
+    <h2><b>Il campo risultante deve essere di tipo string di adeguata lunghezza</h2>
+    <h2><b>Se la chiave non è presente risulterà ND</h2>
+    """
+    
+    req = "https://wms.cartografia.agenziaentrate.gov.it/inspire/ajax/ajax.php?op=getDatiOggetto&lon=" + str(xx) + "&lat=" + str(yy)
+    r = requests.get(req, auth=('user', 'pass'))
+    res = json.loads(r.text)
+    try:
+        b = str(res[chiave])
+    except:
+        b = 'ND'
+    
+    return b
+```
+
+![](../../img/custom/get_catastal_info1.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
