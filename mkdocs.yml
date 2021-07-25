@@ -34,7 +34,7 @@ extra:
     - icon: fontawesome/solid/envelope
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
-    - icon: fontawesome/brands/paypal.svg
+    - icon: fontawesome/brands/paypal
       link: https://hfcqgis-md.readthedocs.io/it/latest/contributing/
       name: Donanazione a HfcQGIS con PayPal
     - icon: fontawesome/solid/rss
