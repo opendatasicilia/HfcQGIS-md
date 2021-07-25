@@ -9,36 +9,6 @@ social_image: img/card_social/hfc_gr_custom.png
 
 ---
 
-## controlla_file
-
-Questa funzione ritorna true se il percorso esiste altrimenti false.
-
-Esempio:
-
-* `controlla_file('path') -> true `
-
-![](../../img/custom/controlla_file1.png)
-
-Codice Python:
-
-```
-from qgis.core import *
-from qgis.gui import *
-from  os.path import *
-
-@qgsfunction(args='auto', group='Custom')
-def controlla_file(value1, feature, parent):
-	""" 
-	Questa funzione ritorna true se il percorso esiste altrimenti false
-	<ul>
-      <li>controlla_file('path') -> true</li>
-    </ul>
-	"""
-	return os.path.exists(value1)
-```
-
----
-
 ## fattoriale
 
 Calcola il fattoriale di un numero definito come il prodotto di tutti i numeri tra 1 e n.
@@ -179,3 +149,6 @@ def reverse_string(string_to_reverse, feature, parent):
 ```
 
 ---
+
+## get_info_parcel
+
