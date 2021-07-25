@@ -50,8 +50,6 @@ Sintassi:
 
 * datetime_from_epoch(_<span style="color:red;">int</span>_)
 
-[ ] indica componenti opzionali
-
 Argomenti:
 
 * _<span style="color:red;">int</span>_ numero (millisecondi)
@@ -65,8 +63,6 @@ datetime_from_epoch(1483225200000) → 2017-01-01T00:00:00
 ![](../../img/data_e_ora/datetime_from_epoch1.png)
 
 Feature introdotta a partire da **QGIS 3.12**
-
-![screen](../../img/novita_312/Image04.png)
 
 ---
 
@@ -101,7 +97,8 @@ Argomenti:
 Esempi:
 
 ```
-day(tointerval('3 days')) → 3
+day(to_interval('3 days')) → 3
+day(to_interval('3 weeks 2 days')) → 23
 day(age('2012-01-01','2010-01-01')) → 730
 ```
 
@@ -207,14 +204,16 @@ AP o A|interpretato come un orario nel formato AM/PM. AP deve essere "AM" oppure
 ap o a|interpretato come un orario nel formato AM/PM. ap deve essere "am" oppure "pm".
 
 
-* _<span style="color:red;">language</span>_ linguaggio (minuscolo, due o tre lettere, codice ISO 639) utilizzato per formattare la data in una stringa personalizzata (**>= QGIS 3.12**)
+* _<span style="color:red;">language</span>_ linguaggio (minuscolo, due o tre lettere, [codice ISO 639](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)) utilizzato per formattare la data in una stringa personalizzata (**>= QGIS 3.12**)
 
 Esempi:
 
 ```
 format_date('2012-05-15','dd.MM.yyyy') → '15.05.2012'
-format_date('2012-06-15','d MMMM yyyy','fr') → '15 juin 2012'
-format_date('2012-06-15','d MMMM yyyy','it') → '15 giugno 2012'
+format_date('2012-05-15','d MMMM yyyy','fr') → '15 mai 2012'
+format_date('2012-05-15','dddd') → 'Tuesday', se la lingua corrente è una variante inglese
+format_date('2012-05-15 13:54:20','dd.MM.yy') → '15.05.12'
+format_date('13:54:20','hh:mm AP') → '01:54 PM'
 ```
 
 ![](../../img/data_e_ora/format_date1.png)
@@ -360,7 +359,7 @@ Crea un valore temporale da ore, minuti e secondi numeri.
 
 Sintassi:
 
-* make_time(_<span style="color:red;">hour</span>_,_<span style="color:red;">minute_<span</span>_>,_<span style="color:red;">second</span>_)
+* make_time(_<span style="color:red;">hour</span>_,_<span style="color:red;">minute_</span>_,_<span style="color:red;">second</span>_)
 
 Argomenti:
 
@@ -540,7 +539,7 @@ second(age('2012-01-01','2010-01-01')) → 63072000
 
 ## to_date
 
-Converte una stringa in un oggetto data
+Converte una stringa in un oggetto data. È possibile fornire una stringa di formato opzionale per analizzare la stringa; vedi [QDate::fromString](https://doc.qt.io/qt-5/qdate.html#fromString-2) o la documentazione della funzione format_date per ulteriore documentazione sul formato. Per impostazione predefinita, viene utilizzata la locale dell'utente di QGIS corrente.
 
 Sintassi:
 
@@ -620,11 +619,13 @@ to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04
 
 ## to_time
 
-Converti una stringa in un oggetto time.
+Converte un stringa in un oggetto ora. Una stringa opzionale di formato può essere fornita per valutare la stringa; Vedi [QTime::fromString](https://doc.qt.io/qt-5/qtime.html#fromString-1) per documentazione aggiuntiva sul formato.
 
 Sintassi:
 
 * to_time(_<span style="color:red;">string</span>_,[_<span style="color:red;">format</span>_][,_<span style="color:red;">language</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
