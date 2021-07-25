@@ -24,19 +24,19 @@ extra:
       name: account twitter
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/groups/opendatasicilia/
-      name: gruppo facebook
+      name: gruppo facebook OpenDataSicilia
     - icon: fontawesome/brands/github
       link: https://github.com/opendatasicilia/HfcQGIS-md
       name: Repoisitory GitHub
     - icon: fontawesome/brands/telegram
       link: http://twitter.com/opendatasicilia
-      name: gruppo Telegram
+      name: gruppo Telegram OpenDataSicilia
     - icon: fontawesome/solid/envelope
       link: https://groups.google.com/forum/#!forum/opendatasicilia
       name: mailing list OpenDataSicilia
     - icon: fontawesome/brands/paypal
       link: https://www.paypal.com/paypalme/pigrecoinfinito
-      name: Donanazione a HfcQGIS con PayPal
+      name: Donazione a HfcQGIS con PayPal
     - icon: fontawesome/solid/rss
       link: https://hfcqgis-md.readthedocs.io/it/latest/feed_rss_created.xml
       name: Feed RSS
