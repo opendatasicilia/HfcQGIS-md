@@ -717,7 +717,8 @@ nav:
         - Autore HfcQGIS: autore.md
         - Webmaster: webmaster/gbvitrano.md 
         - Traduzione: traduzione.md
-        - Release : release.md
+        - Release: release.md
+        - Changelog: changelog.md
         - Disclaimer: disclaimer.md
       #  - Informativa privacy estesa: privacy.md
     # - Webmaster: webmaster/gbvitrano.md 
