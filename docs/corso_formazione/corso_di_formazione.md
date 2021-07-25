@@ -67,12 +67,6 @@ Per maggiori Info contattatemi
 - `Twitter`: [https://twitter.com/totofiandaca](https://twitter.com/totofiandaca)
 - `Telegram`: [https://t.me/pigreco71](https://t.me/pigreco71)
 
-<a href="https://twitter.com/totofiandaca" title="Twitter" target="_blank"><i class="fa fa-twitter-square"></i>&nbsp;&nbsp; Twitter</a><br>
-<a href="https://t.me/pigreco71" title="Telegram" target="_blank"><i class="fa fa-telegram"></i>&nbsp;&nbsp; Telegram</a><br>
-<a href="https://www.facebook.com/pigreco314" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp; Facebook</a><br>
-<a href="pigrecoinfinito@gmail.com" title="Mail" target="_blank"><i class="fa fa-envelope"></i>&nbsp;&nbsp; Mail</a><br>
-
-
 ### Sitografia
 
 - `blog`: <https://pigrecoinfinito.com/>
