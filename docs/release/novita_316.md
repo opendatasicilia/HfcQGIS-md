@@ -47,4 +47,3 @@ overlay_nearest(layer[,expression][,filter][,limit][,max_distance][,cache])
 - rename: <https://github.com/qgis/QGIS/pull/39174>
 
 ![](../img/novita_316/39174.png)
-

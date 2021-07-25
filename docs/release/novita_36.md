@@ -12,23 +12,23 @@ tags:
 ## Nuove funzioni
 
 ### Gruppo Geometria
-* [**force_rhr**](../gr_funzioni/geometria/force_rhr.html)
-* [**make_rectangle_3points**](../gr_funzioni/geometria/make_rectangle_3points.html)
-* [**make_square**](../gr_funzioni/geometria/make_square.html)
+* [**force_rhr**](../gr_funzioni/geometria/geometrias_unico.md#force_rhr)
+* [**make_rectangle_3points**](../gr_funzioni/geometria/geometrias_unico.md#make_rectangle_3points)
+* [**make_square**](../gr_funzioni/geometria/geometrias_unico.md#make_square)
 
 ### Gruppo layer della mappa
-* [**decode_uri**](../gr_funzioni/layer_della_mappa/decode_uri.html)
+* [**decode_uri**](../gr_funzioni/layer_della_mappa/layer_della_mappa.md#decode_uri)
 
 ### Gruppo Condizioni
-* [**nullif**](../gr_funzioni/condizioni/nullif.html)
-* [**try**](../gr_funzioni/condizioni/try.html)
+* [**nullif**](../gr_funzioni/condizioni/condizioni_unico.md#nullif)
+* [**try**](../gr_funzioni/condizioni/consizioni_unico.md#try)
 
 ### Gruppo maps
-* [**from_json**](./gr_funzioni/maps/from_json.md)
-* [**to_json**](./gr_funzioni/maps/to_json.md)
+* [**from_json**](../gr_funzioni/maps/maps_unico.md#from_json)
+* [**to_json**](../gr_funzioni/maps/maps_unico.md#to_json)
 
 ### Gruppo Record e Attributi
-* [**sqlite_fetch_and_increment**](./gr_funzioni/record_e_attributi/sqlite_fetch_and_increment.md)
+* [**sqlite_fetch_and_increment**](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#sqlite_fetch_and_increment)
 
 ## Interfaccia calcolatore campi
 

@@ -13,17 +13,17 @@ tags:
 ![](../img/novita_34/neo_gruppo2.png)
 
 ## Nuove funzioni
-* [**raster_value()**](../gr_funzioni/rasters/raster_value.html)
-* [**line_substring**](../gr_funzioni/geometria/line_substring.html)
-* [**array_foreach**](../gr_funzioni/array/array_foreach.html)
-* [**generate_series**](../gr_funzioni/arrays/generate_series.html)
-* [**array_filter**](../gr_funzioni/array/array_filter.html)
-* [**to_dm**](../gr_funzioni/conversioni/to_dm.html)
-* [**to_dms**](../gr_funzioni/conversioni/to_dms.html)
-* [**hstore_to_map**](../gr_funzioni/maps/hstore_to_map.html)
-* [**json_to_map**](../gr_funzioni/maps/json_to_map.html)
-* [**map_to_hstore**](../gr_funzioni/maps/map_to_hstore.html)
-* [**map_to_json**](../gr_funzioni/maps/map_to_json.html)
+* [**raster_value()**](../gr_funzioni/raster/raster_unico.md#raster_value)
+* [**line_substring**](../gr_funzioni/geometria/geometria_unico.md#line_substring)
+* [**array_foreach**](../gr_funzioni/array/arrayunico.md#array_foreach)
+* [**generate_series**](../gr_funzioni/array/array_unico#generate_series)
+* [**array_filter**](../gr_funzioni/array/array_unico.md#array_filter)
+* [**to_dm**](../gr_funzioni/conversioni/conversioni_unico.md#to_dm)
+* [**to_dms**](../gr_funzioni/conversioni/conversioni_unico.md#to_dms)
+* [**hstore_to_map**](../gr_funzioni/maps/maps_unico.md#hstore_to_map)
+* [**json_to_map**](../gr_funzioni/maps/maps_unico.md#json_to_map)
+* [**map_to_hstore**](../gr_funzioni/maps/maps_unico.md#map_to_hstore)
+* [**map_to_json**](../gr_funzioni/maps/maps_unico.md#map_to_json)
 
 ## Completamento codice per il costruttore di espressioni
 ![](../img/novita_34/completa_field_calc.gif)

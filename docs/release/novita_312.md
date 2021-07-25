@@ -15,32 +15,32 @@ tags:
 
 ## Gruppo Matematica
 
-- [`rand`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/rand.html)
-- [`randf`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/randf.html)
+- [`rand`](../gr_funzioni/matematica/matematica_unico.md#rand)
+- [`randf`](../gr_funzioni/matematica/matematica.md#randf)
 
 qui PR: <https://github.com/qgis/QGIS/pull/33204>
 
 ### Gruppo Geometria
 
-- [`is_valid`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/is_valid.html)
+- [`is_valid`](../gr_funzioni/geometria/geometria_unico.md#is_valid)
 
 qui PR: <https://github.com/qgis/QGIS/pull/32900>
 
 ![screen](../img/novita_312/Image01.png)
 
-- [`geom_from_wkb`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_from_wkb.html)
-- [`geom_to_wkb`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_to_wkb.html)
+- [`geom_from_wkb`](../gr_funzioni/geometria/geometria_unico.md#geom_from_wkb)
+- [`geom_to_wkb`](../gr_funzioni/geometria/geometria_unico.md#geom_to_wkb)
 
 qui PR: <https://github.com/qgis/QGIS/pull/32561>
 
-- [`is_empy`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/is_empty.html)
-- [`is_empty_or_null`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/is_empty_or_null.html)
+- [`is_empy`](../gr_funzioni/geometria/geometria_unico.md#is_empty)
+- [`is_empty_or_null`](../gr_funzioni/geometria/geometria_unico.md#is_empty_or_null)
 
 qui PR: <https://github.com/qgis/QGIS/pull/33333>
 
 ![screen](../img/novita_312/Image02.png)
 
-- [`rotate`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/rotate.html)
+- [`rotate`](../gr_funzioni/geometria/geometria_unico.md#rotate)
 
 qui PR: <https://github.com/qgis/QGIS/pull/33125>
 
@@ -48,13 +48,13 @@ qui PR: <https://github.com/qgis/QGIS/pull/33125>
 
 ### Gruppo Data e ora
 
-- [`datetime_from_epoch`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/datetime_from_epoch.html)
+- [`datetime_from_epoch`](../gr_funzioni/data_ora/data_ora_unico.md#datetime_from_epoch)
 
 qui PR: <https://github.com/qgis/QGIS/pull/32551>
 
 ![screen](../img/novita_312/Image04.png)
 
-- [`format_date`](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/format_date.html)
+- [`format_date`](../gr_funzioni/data_ora/data_ora_unico.md#format_date)
 
 qui PR: <https://github.com/qgis/QGIS/pull/32908>
 
@@ -62,9 +62,9 @@ qui PR: <https://github.com/qgis/QGIS/pull/32908>
 
 ### Gruppo Conversioni
 
-* [`hash`(value, method)](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/hash.html) 
-* [`md5`(value)](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/md5.html)
-* [`sha256`(value)](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/sha256.html)
+* [`hash`(value, method)](../gr_funzioni/conversioni/conversioni_unico.md#hash) 
+* [`md5`(value)](../gr_funzioni/conversioni/conversioni_unico.md#md5)
+* [`sha256`(value)](../gr_funzioni/conversioni/conversioni_unico.md#sha256)
 
 qui PR: <https://github.com/qgis/QGIS/pull/31726>
 
@@ -86,7 +86,7 @@ qui PR: <https://github.com/qgis/QGIS/pull/33436>
 
 ![](https://user-images.githubusercontent.com/28384354/70978774-ab63d180-20b0-11ea-901b-d51d44fa8fa4.gif)
 
-- `Stored expressions` <https://github.com/qgis/QGIS/pull/33437> -- [**IDEATA DA ME!!!**](https://pigrecoinfinito.com/2019/12/14/field-calc-di-qgis-save-expressions-crowdfunding/)
+- `Stored expressions` <https://github.com/qgis/QGIS/pull/33437> -- [**IDEATA MIA!!!**](https://pigrecoinfinito.com/2019/12/14/field-calc-di-qgis-save-expressions-crowdfunding/)
 
 ![](https://user-images.githubusercontent.com/142164/70983414-faae0000-20b8-11ea-9f25-14b338d4c680.gif)
 
