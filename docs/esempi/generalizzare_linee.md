@@ -52,7 +52,7 @@ Una volta trovata la combinazione migliore di valori che restituisce la simbolog
 
 ## Prova tu
 
-Il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/HFCQGIS-Smoothing_example.gpkg) 
+Il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/HFCQGIS-Smoothing_example.gpkg) 
 
 --
 

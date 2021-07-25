@@ -28,7 +28,7 @@ espressione:
 
 prova tu usando in file qml:
 
-[file QML](https://github.com/gbvitrano/HfcQGIS/raw/master/prova_tu/rotazione_pattern_lineare.zip)
+[file QML](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/rotazione_pattern_lineare.zip)
 
 ---
 

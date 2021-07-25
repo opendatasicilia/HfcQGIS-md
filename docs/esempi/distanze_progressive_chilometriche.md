@@ -20,7 +20,7 @@ END
 
 ## Prova tu
 
-[dati e progetto](https://github.com/gbvitrano/HfcQGIS/blob/master/prova_tu/rotazione_pattern_lineare.zip?raw=true)
+[dati e progetto](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/rotazione_pattern_lineare.zip)
 
 ---
 

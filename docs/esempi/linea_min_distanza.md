@@ -33,8 +33,7 @@ poi, con un po' di magia è possibile aggiungere l'etichetta con il valore della
 
 ## Prova tu
 
-Geopackage è [qui](https://github.com/gbvitrano/HfcQGIS/raw/master/esempi/minima_distanza_tra_oggetti_qgis38.gpkg)
-
+Geopackage è [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/minima_distanza_tra_oggetti_qgis38.gpkg)
 NB: occorre >= QGIS 3.8, nel gpkg trovare anche il progetto QGIS!!!
 
 ---

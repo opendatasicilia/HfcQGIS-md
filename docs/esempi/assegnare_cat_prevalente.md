@@ -29,7 +29,7 @@ concatenator:=',')
 
 Prova tu
 
-[Geopackage](/esempi/dati_esempi.gpkg)
+[Geopackage](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
 
 ---
 

@@ -25,4 +25,4 @@ evidenziata la colonna con le quote z
 * in caso di (Multi)LinestringZ → z([start_point](../gr_funzioni/geometria/geometria_unico.md#start_point)([$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry))) isoipse;
 * in caso di PoligonZ z([point_n](../gr_funzioni/geometria/geometria_unico.md#point_n)($geometry,1))
 
-il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)

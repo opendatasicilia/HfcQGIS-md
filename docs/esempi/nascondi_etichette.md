@@ -30,7 +30,7 @@ espressione usata:
 not aggregate('circoscrizioni', 'count', 'PK_UID', intersects ($geometry,  point_on_surface( geometry(@parent))))
 ```
 
- il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+ il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
 
 ---
 

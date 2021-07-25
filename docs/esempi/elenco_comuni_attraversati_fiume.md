@@ -36,7 +36,7 @@ ecco la tabella attributi:
 
 ### prova tu
 
-[dati e progetto QGIS 3.4](/prova_tu/elenco_comuni.zip)
+[dati e progetto QGIS 3.4](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/elenco_comuni.zip)
 
 ---
 

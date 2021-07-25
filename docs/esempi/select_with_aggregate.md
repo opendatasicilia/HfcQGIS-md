@@ -15,7 +15,7 @@ e poi clicco su (2) _seleziona elementi_:
 
 ![](../img/esempi/select_with_aggregate/sel_minimum1.png)
 
-il geopackage è scaricabile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/dati_esempi.zip?raw=true)
+il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
 
 ---
 
