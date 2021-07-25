@@ -4,15 +4,17 @@ La descrizione delle funzioni in italiano è stata realizzata dal gruppo di trad
 
 Marco Braida, Stefano Campus, Roberta Castelli, Francesco D'Amore, Eleonora D'Elia, Simone Falceri, Giulio Fattori, Matteo Ghetta, Federico Gianoli, Marco Grisolia, Italang, Luca76, Pipep, Valerio Pinna, Alberto Vallortigara, Salvatore Fiandaca (reporter)*, Giuseppe Mattiozzi (documentation)
 
-- QGIS 3.16.9 LTR Hannover
+## QGIS 3.16.9 LTR Hannover
 
 ![](./img/traduzione_316_ltr.png)
 
-- QGIS 3.20.2 Odense
+## QGIS 3.20.2 Odense
 
 ![](./img/traduzione_320.png)
 
-- QGIS dev
+## QGIS dev 
+
+[d0a3ceab91](https://github.com/qgis/QGIS/commit/d0a3ceab91)
 
 ![](./img/traduzione_dev.png)
 
