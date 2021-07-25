@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logo_hfc_00.png" alt="pigrecoinfinito
+  <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_2018.png" alt="pigrecoinfinito
 "  width="800" class="immagonobox" title="“Sito realizzato dalla comunità OpenDataSicilia"></a>
 </p>
 
@@ -27,6 +27,6 @@ Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [
 ## HfcQGIS Vesione 2.0 [realizzata con Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 La versione in formato [Read the Docs](https://readthedocs.org/) del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità [OpenDataSicilia](https://hfcqgis-md.readthedocs.io/), in particolare da: [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca) e [Giovan Battista Vitrano](https://twitter.com/gbvitrano).
 
-[![](/docs/img/site_beta_v2.png)](https://hfcqgis-md.readthedocs.io/)
+[![](/docs/img/site_beta_v3.png)](https://hfcqgis-md.readthedocs.io/)
 
 ## [gh-pages](https://opendatasicilia.github.io/HfcQGIS-md/): [opendatasicilia.github.io/HfcQGIS-md](https://opendatasicilia.github.io/HfcQGIS-md/)
