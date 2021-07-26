@@ -5,7 +5,7 @@ social_image: img/card_social/hfc_gr_custom.png
 # Gruppo Custom
 
 !!! Abstract
-    **Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.**
+    **Questo gruppo contiene funzioni Python create dall'utente. <br> Le funzioni vanno salvate in file *.py nella cartella `espression` presente nel profilo utente QGIS `(C:\Users\nomeUtente\AppData\Roaming\QGIS\QGIS3\profiles\default\python\expressions)`**
 
 ---
 
@@ -14,7 +14,7 @@ social_image: img/card_social/hfc_gr_custom.png
 Calcola il fattoriale di un numero definito come il prodotto di tutti i numeri tra 1 e n.
 Per convenzione il fattoriale di 0 = 1 la notazione matematica per fattoriale è n!
 La funzione è compresa nel modulo math
-NB: valore massimo memorizzabile in un campo numerico è 20! (2432902008176640000)
+**NB:** valore massimo memorizzabile in un campo numerico è 20! (2432902008176640000)
 
 Esempio:
 
@@ -243,9 +243,7 @@ Argomenti:
     * SVILUPPO 
     * NUM_PART 
     * TIPOLOGIA
-
-  Per Acque e Strade:
-
+  <br>Per Acque e Strade:
     * TIPOLOGIA 
     * COMUNI 
 
