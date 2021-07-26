@@ -240,7 +240,7 @@ img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-ra
 /* bordo immagine*/
 img {/*max-width: 60%!important;*/ box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px; background-color: #fff; cursor: pointer; cursor: -webkit-zoom-in; cursor: zoom-in;}
 
-@media screen and (max-width: 1000px){ img.zoomed { display:none;  }}	
+@media screen and (max-width: 1000px) { img.zoomed {display:none!important;}} 
 
 img.zoomed { cursor: -webkit-zoom-out; cursor: zoom-out; padding: 0; margin: 2% 2% 2% 0%; width: 50%;  border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632; position:absolute;  z-index: 1501;  display: block; }
 
