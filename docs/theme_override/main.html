@@ -72,4 +72,20 @@
      <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="RSS feed of created content" href="{{ config.site_url }}feed_rss_created.xml">
   <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="{{ config.site_url }}feed_rss_updated.xml">
+ <!-- zoom -->
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/zoomify.js"></script>
+<script>
+$('p img').zoomify();
+</script>
   {% endblock %}
+  
+  {% block content %}
+  {{ super() }}
+ <!-- zoom -->
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/zoomify.js"></script>
+<script>
+$('p img').zoomify();
+</script>
+{% endblock content %}
