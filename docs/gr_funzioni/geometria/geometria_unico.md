@@ -2575,9 +2575,8 @@ overlay_contains(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2
 
 ![](../../img/geometria/overlay_/overlay_contains1.png)
 
-Nota bene: 
-
-La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
 ---
 
@@ -2615,6 +2614,9 @@ overlay_crosses(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2)
 
 ![](../../img/geometria/overlay_/overlay_crosses1.png)
 
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
+
 ---
 
 ## overlay_disjoint
@@ -2651,9 +2653,8 @@ overlay_disjoint(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2
 
 ![](../../img/geometria/overlay_/overlay_disjoint1.png)
 
-Nota bene: 
-
-La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
 ---
 
@@ -2691,6 +2692,9 @@ overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) 
 
 ![](../../img/geometria/overlay_/overlay_equals1.png)
 
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
+
 ---
 
 ## overlay_intersects
@@ -2727,9 +2731,8 @@ overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), limit:
 
 ![](../../img/geometria/overlay_/overlay_intersects1.png)
 
-Nota bene: 
-
-La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
 ---
 
@@ -2770,6 +2773,9 @@ overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:
 
 Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distanza2.html>
 
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
+
 ---
 
 ## overlay_touches
@@ -2806,9 +2812,8 @@ overlay_touches(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2)
 
 ![](../../img/geometria/overlay_/overlay_touches1.png)
 
-Nota bene: 
-
-La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
 ---
 
