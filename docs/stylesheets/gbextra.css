@@ -246,7 +246,7 @@ img-shadow { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%;
 
 img-shadow.zoomed { opacity: 1; cursor: pointer; cursor: -webkit-zoom-out; cursor: zoom-out; }
 	
-@media screen and (max-width: 1000px){ img.zoomed{ display:none;  }}	
+@media screen and (max-width: 1000px){ img.zoomed img-shadow img-shadow.zoomed{ display:none;  }}	
 	
 	
 /* immagine no bordo/ no ombra */
