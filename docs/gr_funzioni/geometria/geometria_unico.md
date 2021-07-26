@@ -2851,9 +2851,8 @@ overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) 
 
 ![](../../img/geometria/overlay_/overlay_within1.png)
 
-Nota bene: 
-
-La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
+!!! Warning "Nota bene:" 
+	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
 ---
 
