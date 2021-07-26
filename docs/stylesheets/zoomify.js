@@ -114,7 +114,7 @@
 		
 		this._zooming = true;
 		this.$image.trigger('zoom-out.zoomify');
-		this.transformScaleAndTranslate(1.2, 0, 0, function () {
+		this.transformScaleAndTranslate(1, 0, 0, function () {
 			that._zooming = false;
 			that.$image.removeClass('zoomed').trigger('zoom-out-complete.zoomify');
 		});
