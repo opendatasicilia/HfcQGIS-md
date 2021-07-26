@@ -39,6 +39,8 @@ in generale $area <> area($geometry)
 
 Restituisce la geometria dell'elemento attuale. Può essere usato per il processamento con altre funzioni.
 
+nb: `$geoemtry` richiama l'attributo geometria
+
 Sintassi:
 
 - $geometry
@@ -137,8 +139,6 @@ $x → 12.2568971
 
 ![](../../img/geometria/_x/_x1.png)
 
-![](../../img/geometria/_x/_x2.png)
-
 Osservazione:
 
 - La funzione [$x](#x) restituisce la coordinata `x` della geometria corrente purchè sia un POINT altrimenti restituisce NULL (vedi screenshot)
@@ -187,8 +187,6 @@ $y → 12.2568971
 ```
 
 ![](../../img/geometria/_y/_y1.png)
-
-![](../../img/geometria/_y/_y2.png)
 
 Osservazione:
 
@@ -320,7 +318,7 @@ Azimuth per definizione restituisce un angolo in radianti, per trasformarlo in g
 
 ## boundary
 
-Restituisce l'area minima della combinazione dei confini della geometria (cioè il confine topologico della geometria). Per esempio, una geometria poligonale avrà un confine costituito dalle linee di ogni anello nel poligono. Alcuni tipi di geometrie non hanno confini, es collezioni di punti o geometrie e pertanto verrà restituito null.
+Restituisce l'area minima della combinazione dei confini della geometria (cioè il confine topologico della geometria). Per esempio, una geometria poligonale avrà un confine costituito dalle linee di ogni anello nel poligono. Alcuni tipi di geometrie non hanno confini, es collezioni di punti o geometrie e pertanto verrà restituito `NULL`.
 
 Sintassi:
 
@@ -1254,7 +1252,7 @@ geom_to_wkt(centroid(geom_from_wkt('Polygon((1 1, 0 0, -1 1, 1 1))')), 2) → 'P
 
 ## geometry
 
-Restituisce la geometria di un elemento.
+Restituisce la geometria di un elemento con geometria
 
 Sintassi:
 
@@ -1262,7 +1260,7 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">feature</span>_ un oggetto elemento
+* _<span style="color:red;">feature</span>_ un oggetto elemento con geometria
 
 Esempi:
 
@@ -2575,7 +2573,11 @@ array_sort(overlay_contains(layer:='regions', expression:="name", filter:= popul
 overlay_contains(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni contenute nell'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_contains.png)
+![](../../img/geometria/overlay_/overlay_contains1.png)
+
+Nota bene: 
+
+La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
 
 ---
 
@@ -2611,7 +2613,7 @@ array_sort(overlay_crosses(layer:='regions', expression:="name", filter:= popula
 overlay_crosses(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni attraversate dall'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_crosses.png)
+![](../../img/geometria/overlay_/overlay_crosses1.png)
 
 ---
 
@@ -2647,7 +2649,11 @@ array_sort(overlay_disjoint(layer:='regions', expression:="name", filter:= popul
 overlay_disjoint(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni spazialmente disgiunte dall'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_disjoint.png)
+![](../../img/geometria/overlay_/overlay_disjoint1.png)
+
+Nota bene: 
+
+La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
 
 ---
 
@@ -2683,7 +2689,7 @@ array_sort(overlay_equals(layer:='regions', expression:="name", filter:= populat
 overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni spazialmente uguali all'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_equals.png)
+![](../../img/geometria/overlay_/overlay_equals1.png)
 
 ---
 
@@ -2719,7 +2725,11 @@ array_sort(overlay_intersects(layer:='regions', expression:="name", filter:= pop
 overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni intersecate dall'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_intersects.png)
+![](../../img/geometria/overlay_/overlay_intersects1.png)
+
+Nota bene: 
+
+La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
 
 ---
 
@@ -2756,7 +2766,7 @@ overlay_nearest(layer:='airports', expression:="name", filter:= "Use"='Civilian'
 overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:= 5000) → un array di nomi, per tutti gli aeroporti entro una distanza di 5000 unità di mappa dall'elemento corrente, ordinato per distanza.
 ```
 
-![](../../img/geometria/refFunction/overlay_nearest.png)
+![](../../img/geometria/overlay_/overlay_nearest1.png)
 
 Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distanza2.html>
 
@@ -2794,7 +2804,11 @@ array_sort(overlay_touches(layer:='regions', expression:="name", filter:= popula
 overlay_touches(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni toccate dall'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_touches.png)
+![](../../img/geometria/overlay_/overlay_touches1.png)
+
+Nota bene: 
+
+La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
 
 ---
 
@@ -2830,7 +2844,11 @@ array_sort(overlay_within(layer:='regions', expression:="name", filter:= populat
 overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni contenenti l'elemento corrente
 ```
 
-![](../../img/geometria/refFunction/overlay_within.png)
+![](../../img/geometria/overlay_/overlay_within1.png)
+
+Nota bene: 
+
+La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!
 
 ---
 
@@ -3019,7 +3037,7 @@ Esempi:
 relate( geom_from_wkt( 'LINESTRING(40 40,120 120)' ), geom_from_wkt( 'LINESTRING(40 40,60 120)' ), '**1F001**' ) → Vero
 ```
 
-![](../../img/geometria/relate/relate1.png)
+![](../../img/geometria/relate/relate2.png)
 
 Link utili:
 
@@ -3831,3 +3849,5 @@ z_min( geom_from_wkt( 'POINT ( 0 0 )' ) ) → NULL
 ```
 
 ![](../../img/geometria/z_min/z_min1.png)
+
+---
