@@ -8,7 +8,7 @@ Marco Braida, Stefano Campus, Roberta Castelli, Francesco D'Amore, Eleonora D'El
 
 ![](./img/traduzione_316_ltr.png)
 
-## QGIS 3.20.2 Odense
+## QGIS 3.20.1 Odense
 
 ![](./img/traduzione_320.png)
 
