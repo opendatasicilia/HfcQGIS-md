@@ -112,7 +112,7 @@ a.md-button.md-button:hover {
 }
 
 /* Cambia lo sfondo del code */
-.md-typeset code {background-color: #9e9e9e52!important;}
+.md-typeset code {background-color: #9e9e9e52!important; font-weight: bold!important;}
 
 /* cerca*/
  @media screen and (min-width: 60em) { .md-search__input {background-color: rgba(0,0,0,.05);}}  
