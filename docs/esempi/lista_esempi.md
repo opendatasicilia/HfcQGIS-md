@@ -3,6 +3,12 @@
 
 ---
 
+Attualmente ci sono **50** esempi svolti! (in evoluzione)
+
+... e **50** esempi da svolgere: mettiti alla prova!
+
+---
+
 ## Elenco esempi
 
 **(Livello di difficoltà: 1 -> Facile -- 5 -> Difficile)**
