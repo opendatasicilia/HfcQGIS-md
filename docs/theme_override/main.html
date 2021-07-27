@@ -4,10 +4,9 @@
 
 {% block libs %}
 {{ super() }}
-{% include "partials/prognroll.html" %}
-{% include "partials/cookies_e_vari.html" %}
+<!-- script top	-->
+{% include "partials/script_top.html" %}
 {% endblock %}
-
 
 <!-- blocco meta tag e social -->
 {% block extrahead %} 
@@ -21,6 +20,8 @@
 {% block content %}
 <!-- pulsante stampa 	-->
 {{ super() }}
+<!-- script bottom	-->
+ {% include "partials/script_bottom.html" %}
 <!-- zoom image	-->
 {% include "partials/zoom_image.html" %}
 {% endblock content %}
