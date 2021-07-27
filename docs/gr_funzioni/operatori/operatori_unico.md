@@ -681,7 +681,7 @@ Esegue un'espressione regolare su di una stringa.
 
 Sintassi
 
-- _<span style="color:red;">a</span>_~_<span style="color:red;">regex</span>_
+- _<span style="color:red;">string</span>_~_<span style="color:red;">regex</span>_
 
 Argomenti:
 
