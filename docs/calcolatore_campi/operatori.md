@@ -70,7 +70,7 @@ L'interfaccia del calcolatore rende immediatamente disponibili alcuni operatori:
 
 Un altro operatore nascosto è `'\t'` tabulazione:
 
-utile per esempio nelle legende, legi [qui](https://geoobserver.wordpress.com/2021/07/19/qgis-tipp-tabellenartige-legenden-mit/)
+utile per esempio nelle legende, leggi [qui](https://geoobserver.wordpress.com/2021/07/19/qgis-tipp-tabellenartige-legenden-mit/)
 
 
 
