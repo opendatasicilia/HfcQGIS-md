@@ -261,11 +261,11 @@ Restituisce una mappa con tutte le entità della mappe fornite. Se due mappe con
 
 Sintassi:
 
-map_concat(_map1, map2, …_)
+map_concat(__<span style="color:red;">map1</span>_, _<span style="color:red;">map2</span>_, …_)
 
 Argomenti:
 
-* _map_ una mappa
+* __<span style="color:red;">map</span>__ una mappa
 
 Esempi:
 
@@ -469,7 +469,7 @@ Sintassi:
 
 Argomenti:
 
-* _value_ valore di input
+* _<span style="color:red;">value</span>_ valore di input
 
 Esempi:
 
