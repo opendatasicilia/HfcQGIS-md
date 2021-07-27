@@ -1,0 +1,11 @@
+ {% if page.url_to_print_page %}
+    <a href="{{ page.url_to_print_page }}" title="Stampa il sito in PDF" class="md-content__button md-icon">
+        {% include ".icons/material/printer.svg" %}
+    </a>
+{% endif %}
+ <!-- pulsante pdf -->
+{% if page.url_to_pdf %}
+<a href="{{ page.url_to_pdf }}" title="Scarica il PDF" class="md-content__button md-icon">
+        {% include ".icons/material/pdf-box.svg" %}
+    </a>
+	{% endif %}
