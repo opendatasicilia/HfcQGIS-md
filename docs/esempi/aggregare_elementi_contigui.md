@@ -41,5 +41,5 @@ funzione [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate)
 
 **Prova tu**
 
-[Geopackage]https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+[Geopackage](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
 
