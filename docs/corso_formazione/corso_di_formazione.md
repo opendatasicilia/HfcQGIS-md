@@ -48,12 +48,13 @@ Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmen
 
 Sul Field Calc QGIS 3.x - 30 video lezioni (23 ore)
 
-Per maggiori Info contattatemi
+Per maggiori Info contattatemi.
 
 [![](https://img.youtube.com/vi/FvLSgc8Llq0/0.jpg)](https://youtu.be/FvLSgc8Llq0 "Presentazione Corso FULL")
 
 
-[Playlist Corso FULL su Youtube](https://www.youtube.com/playlist?list=PLqDFjeQq7NBhCKPcP1gRbmyM0z3-Gqr5g)
+- [Blog post su Pigrecoinfinito](https://pigrecoinfinito.com/2021/05/21/corso-field-calc-qgis-3-v3/)
+- [Playlist Corso FULL su Youtube](https://www.youtube.com/playlist?list=PLqDFjeQq7NBhCKPcP1gRbmyM0z3-Gqr5g)
 
 ## Docente 
 
