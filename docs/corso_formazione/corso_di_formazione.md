@@ -50,6 +50,11 @@ Sul Field Calc QGIS 3.x - 30 video lezioni (23 ore)
 
 Per maggiori Info contattatemi
 
+[![](https://img.youtube.com/vi/FvLSgc8Llq0/0.jpg)](https://youtu.be/FvLSgc8Llq0 "Presentazione Corso FULL")
+
+
+[Playlist Corso FULL su Youtube](https://www.youtube.com/playlist?list=PLqDFjeQq7NBhCKPcP1gRbmyM0z3-Gqr5g)
+
 ## Docente 
 
 [Ing. Salvatore Fiandaca](http://hfcqgis.opendatasicilia.it/it/latest/autore.html)
