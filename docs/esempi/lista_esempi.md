@@ -5,7 +5,7 @@
 
 Attualmente ci sono **50** esempi svolti! (in evoluzione)
 
-... e **50** esempi da svolgere: mettiti alla prova!
+... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
 ---
 
