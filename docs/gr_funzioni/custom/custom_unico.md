@@ -327,3 +327,149 @@ def get_catastal_info(xx, yy, chiave, feature, parent):
 ![](../../img/custom/get_catastal_info1.png)
 
 Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+## fill-down
+
+Restituisce un valore dal campo specificato, dove il valore del campo della riga precedente viene propagato ai campi con valori `NULL` successivi. Opera in base all'id dei record.
+
+Sintassi:
+
+- fill_down(_<span style="color:red;">attibuto</span>_) -> popola le celle sottostanti
+
+Argomenti:
+
+- _<span style="color:red;">attributo</span>_ un campo
+
+Esempio:
+
+```
+fill-down("attributo")
+```
+
+```py
+from qgis.core import *
+from qgis.gui import *
+mem = 'NULL'
+
+@qgsfunction(args='auto', group='Custom', handlesnull=True)
+def fill_down(value1, feature, parent):
+    """
+    Restituisce un valore dal campo specificato,
+    dove il valore del campo della riga precedente
+    viene propagato ai campi con valori Null successivi
+    <p>    
+    Returns a value from the specified field,
+    where the value of the field of the previous row
+    it is propagated to subsequent null fields
+    <h2>Example usage:</h2>
+    <ul>
+      <li>fill_down("Dato") -> Fill_Data</li>
+      <table>
+        <thead>
+        <tr>
+        <th>Dato</th>
+        <th>Fill_Data</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:right">a</td>
+        <td style="text-align:right">a</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td style="text-align:right">a</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td style="text-align:right">a</td>
+        </tr>
+        <tr>
+        <td style="text-align:right">b</td>
+        <td style="text-align:right">b</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td style="text-align:right">b</td>
+        </tr>
+        </tbody>
+        </table>
+            </ul>
+        
+        Opera in base all'id dei record
+        <p>
+        Operate based on the ID of the records
+    """
+    global mem
+    res = str(value1)
+    if res in ('NULL',''):
+        res = mem
+    else:
+        mem = str(value1)
+    return res
+```
+
+![](../../img/custom/fill-down1.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+# random_points_in_polygon
+
+Genera 'n' di punti all'interno della geometria del poligono corrente.
+
+Sintassi:
+
+- random_points_in_polygon(_<span style="color:red;">numero</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">numero</span>_
+
+```py
+from qgis.core import *
+from qgis.gui import *
+
+import random   # Needed for generating pseudo random numbers
+
+@qgsfunction(args='auto', group='Custom')
+def random_points_in_polygon(number_of_points, feature, parent):
+    """
+    <i>random_points_in_polygon( n )</i><br><br>
+    Generates 'n' number of points inside the current polygon geometry.<br><br>
+    <b>Requires</b><br>
+    <i>n</i> (Integer)<br><br>
+    <b>Example</b><br>
+    <i>random_points_in_polygon( 25 )</i><br>
+    <br>
+    &lt;geometry: MultiPoint&gt; with 25 points
+    """
+    points = list() # Create an empty list for the points
+    
+    
+    # Until there's the required points in the list, loop (not the best way probably)
+    while len(points) < number_of_points:
+        # Create random x and y coordinates inside feature geometry bounding box
+        rnd_x = random.uniform(feature.geometry().boundingBox().xMinimum(), feature.geometry().boundingBox().xMaximum())
+        rnd_y = random.uniform(feature.geometry().boundingBox().yMinimum(), feature.geometry().boundingBox().yMaximum())
+        # Use the coordinates to create a point
+        rnd_point = QgsPointXY(rnd_x, rnd_y)
+        
+        # Test if the point is inside the feature geometry
+        if QgsGeometry.fromPointXY(rnd_point).within(feature.geometry()):
+            # If it is inside, add it to the list (increasing the length of the list)
+            points.append(rnd_point)
+    
+    # Return a multipoint geometry
+    return QgsGeometry.fromMultiPointXY(points)
+```
+
+![](../../img/custom/random_points_in_polygon1.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
