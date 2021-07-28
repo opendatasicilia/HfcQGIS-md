@@ -22,7 +22,7 @@ Esempio:
 fact(10)→ 3628800`
 ```
 
-![](../../img/custom/fact1.png)
+[![](../../img/custom/fact1.png)](../../img/custom/fact1.png)
 
 Codice Python:
 
@@ -99,7 +99,7 @@ Esempio:
 perimetro_km() - > 25
 ```
 
-![](../../img/custom/perimetro_km().png)
+[![](../../img/custom/perimetro_km().png)](../../img/custom/perimetro_km().png)
 
 Codice Python:
 
