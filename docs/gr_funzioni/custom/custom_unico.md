@@ -66,7 +66,7 @@ my_sum(5, 8) -> 13
 my_sum("fiel1", "field2") -> 42
 ```
 
-![](../../img/custom/my_sum1.png)
+[![](../../img/custom/my_sum1.png)](../../img/custom/my_sum1.png)
 
 Codice Python:
 
@@ -131,7 +131,7 @@ Esempio:
 reverse_string('Pigrecoinfinito) - > 'otinifniocergiP' `
 ```
 
-![](../../img/custom/reverse_string1.png)
+[![](../../img/custom/reverse_string1.png)](../../img/custom/reverse_string1.png)
 
 Codice Python:
 
@@ -212,7 +212,7 @@ def get_parcel_info(xx, yy, feature, parent):
     return b
 ```
 
-![](../../img/custom/get_parcel_info1.png)
+[![](../../img/custom/get_parcel_info1.png)](../../img/custom/get_parcel_info1.png)
 
 Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
@@ -324,7 +324,7 @@ def get_catastal_info(xx, yy, chiave, feature, parent):
     return b
 ```
 
-![](../../img/custom/get_catastal_info1.png)
+[![](../../img/custom/get_catastal_info1.png)](../../img/custom/get_catastal_info1.png)
 
 Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
@@ -411,7 +411,7 @@ def fill_down(value1, feature, parent):
     return res
 ```
 
-![](../../img/custom/fill-down1.png)
+[![](../../img/custom/fill-down1.png)](../../img/custom/fill-down1.png)
 
 Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
@@ -467,7 +467,7 @@ def random_points_in_polygon(number_of_points, feature, parent):
     return QgsGeometry.fromMultiPointXY(points)
 ```
 
-![](../../img/custom/random_points_in_polygon1.png)
+[![](../../img/custom/random_points_in_polygon1.png)](../../img/custom/random_points_in_polygon1.png)
 
 Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
