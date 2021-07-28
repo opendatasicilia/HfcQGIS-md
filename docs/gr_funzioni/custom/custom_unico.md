@@ -427,7 +427,7 @@ Sintassi:
 
 Argomenti:
 
-- _<span style="color:red;">numero</span>_
+- _<span style="color:red;">numero</span>_ numero di punti da tracciare
 
 ```py
 from qgis.core import *
