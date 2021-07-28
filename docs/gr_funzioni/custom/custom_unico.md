@@ -417,7 +417,7 @@ Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Kort
 
 ---
 
-# random_points_in_polygon
+## random_points_in_polygon
 
 Genera 'n' di punti all'interno della geometria del poligono corrente.
 
