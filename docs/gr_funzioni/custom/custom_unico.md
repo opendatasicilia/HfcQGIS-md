@@ -99,7 +99,7 @@ Esempio:
 perimetro_km() - > 25
 ```
 
-![](../../img/custom/perimetro_km().png)
+[![](../../img/custom/perimetro_km().png)](../../img/custom/perimetro_km().png)
 
 Codice Python:
 
