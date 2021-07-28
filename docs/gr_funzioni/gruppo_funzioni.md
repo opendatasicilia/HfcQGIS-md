@@ -11,7 +11,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Condizioni**](./condizioni/condizioni_unico.md)| (6/6)|Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.|aggiornate a<br> **QGIS 3.6**
 [**Conversioni**](./conversioni/conversioni_unico.md)| (15/15)|Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.|aggiornate a<br> **QGIS 3.16**
 [**Corrispondenza Fuzzy**](./corrispondenza_fuzzy/corrispondenza_fuzzy_unico.md)| (4/4)| Questo gruppo contiene funzioni per confronti fuzzy fra valori.|funzioni per confronti fuzzy fra valori
-[**Custom**](./custom/custom_unico.md)| (6/6)| Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.|funzioni personalizzate
+[**Custom**](./custom/custom_unico.md)| (8/8)| Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.|funzioni personalizzate
 [**Data ora**](./data_ora/data_ora_unico.md) |(21/21)|Questo gruppo contiene funzioni per gestire dati con date e ore.|aggiornate a<br> **QGIS 3.14**
 [**Espressioni utente**](./espressione_utente/espressione_utente_unico.md)| (?)|Questo gruppo contiene espressioni memorizzate nel profilo utente.|aggiornate a<br> **QGIS 3.12**
 [**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi
