@@ -13,10 +13,12 @@ body.hidden-scroll {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #fff;
-  opacity: 0.7;
+  background: #344c25;
+   background-image:url(../../img/hfc_logo.svg)!important; background-repeat: no-repeat!important;  background-position:99% 10px!important; background-size: 10%!important;  background-attachment: fixed !important; 
+  opacity: 0.75;
   display: none;
-  z-index: 1035; }
+  z-index: 1035;
+  }
 
 .sl-wrapper {
   z-index: 1040;
