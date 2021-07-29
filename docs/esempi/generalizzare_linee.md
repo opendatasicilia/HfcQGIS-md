@@ -5,7 +5,7 @@ Esistono diversi algoritmi o plugin che permettono di generalizzare e semplifica
 
 In questo esempio l'operazione di semplificazione e smussamento della vestizione delle linee verrá fatto ricorrendo alle _espressioni e al generatore di geometrie_, cosi da non intervenire direttamente sulla geometria e mantenere il dataset originario del vettore.  
  
-![screen](../img/esempi/generalizzare_linee/fig_1.jpg)
+[![screen](../img/esempi/generalizzare_linee/fig_1.jpg)](../img/esempi/generalizzare_linee/fig_1.jpg)
 
 espressione da usare:
 
@@ -28,7 +28,7 @@ Vediamo le diverse parti che compongono l'espressione:
  
 - `smooth(simplify($geometry,10),21,0.2)` : smussa la geometria semplificata dall'espressione precedente. 21 corrisponde al numero di iterazioni di smussatura, mentre 0.2 é il valore di offset che controlla che controlla quanto la geometria smussata seguirá strettamente la geometria originale.
 
-![screen](../img/esempi/generalizzare_linee/fig_2.jpg)
+[![screen](../img/esempi/generalizzare_linee/fig_2.jpg)](../img/esempi/generalizzare_linee/fig_2.jpg)
 
 1.	Seleziona il layer contenente le curve di livello. 
 2.	Nel Pannelo Stile Layer seleziona la scheda Simbologia
@@ -40,7 +40,7 @@ La simbologia del layer si aggiornerá automaticamente. In questo modo é possib
 
 Una volta trovata la combinazione migliore di valori che restituisce la simbologia che si preferisce, é possibile utilizzare la stessa espessione nel Calcolatore di campi per `aggiornare` la Geometria:
 
-![screen](../img/esempi/generalizzare_linee/fig_3.jpg)
+[![screen](../img/esempi/generalizzare_linee/fig_3.jpg)](../img/esempi/generalizzare_linee/fig_3.jpg)
   
 
 1.	Seleziona il layer contenente le curve di livello. 

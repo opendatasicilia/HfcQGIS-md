@@ -2,7 +2,7 @@
 
 In questo breve tutorial vedremo come realizzare una tematizzazione, tramite espressioni geometriche, che simuli il riempimento di un recipente di acqua, e lo applicheremo ai nostri poligoni.
 
-![](https://i.imgur.com/bmRtkxl.png)
+[![](https://i.imgur.com/bmRtkxl.png)](https://i.imgur.com/bmRtkxl.png)
 
 espressione utilizzata nel generatore di geometrie:
 

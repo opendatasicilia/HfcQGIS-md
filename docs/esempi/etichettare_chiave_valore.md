@@ -4,7 +4,7 @@ Alcune volte nasce la necessità di etichettare le feature facendo vedere sia il
 
 Shapefile regioni ISTAT, creare l'etichetta in modo da visualizzare, per ogni regione, tutti i campi e relativi valori, vedi screenshot:
 
-![](../img/esempi/etichetta_chiave_valore/img_01.png)
+[![](../img/esempi/etichetta_chiave_valore/img_01.png)](../img/esempi/etichetta_chiave_valore/img_01.png)
 
 Espressione da usare:
 

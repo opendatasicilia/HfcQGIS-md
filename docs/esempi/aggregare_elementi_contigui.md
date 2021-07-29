@@ -9,7 +9,7 @@ a questa e altre domande è possibile rispondere utilizzando le funzioni di aggr
 
 **Numero di regioni:**
 
-![](../img/esempi/aggregare_elementi_adiacenti/img_01.png)
+[![](../img/esempi/aggregare_elementi_adiacenti/img_01.png)](../img/esempi/aggregare_elementi_adiacenti/img_01.png)
 
 espressione da usare:
 
@@ -24,7 +24,7 @@ aggregate(
 
 **Regioni confinanti:**
 
-![](../img/esempi/aggregare_elementi_adiacenti/img_02.png)
+[![](../img/esempi/aggregare_elementi_adiacenti/img_02.png)](../img/esempi/aggregare_elementi_adiacenti/img_02.png)
 
 ```
 aggregate(

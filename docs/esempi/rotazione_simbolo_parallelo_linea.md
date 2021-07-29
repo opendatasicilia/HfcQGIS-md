@@ -9,7 +9,7 @@ line_interpolate_angle( @geom,
 line_locate_point(@geom,closest_point(@geom,$geometry))))
 ```
 
-![](../img/esempi/rotazione_simbolo/rotazione_simbolo.gif)
+[![](../img/esempi/rotazione_simbolo/rotazione_simbolo.gif)](../img/esempi/rotazione_simbolo/rotazione_simbolo.gif)
 
 ---
 

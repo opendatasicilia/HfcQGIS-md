@@ -2,11 +2,11 @@
 
 Facciamo un esempio, geopackage con vettore lineare:
 
-![](../img/esempi/add_campo_virtuale/add_campo_virt3.png)
+[![](../img/esempi/add_campo_virtuale/add_campo_virt3.png)](../img/esempi/add_campo_virtuale/add_campo_virt3.png)
  
 selezionare il layer (presente nel _Layer Panel_), tasto destro mouse 'Apri tabella attributi' oppure cliccare sull'icona ![icona_tab_attr](https://docs.qgis.org/2.18/it/_images/mActionOpenTable.png) oppure tasto funzione F6
 
-![](../img/esempi/add_campo_virtuale/add_campo_virt1.png)
+[![](../img/esempi/add_campo_virtuale/add_campo_virt1.png)](../img/esempi/add_campo_virtuale/add_campo_virt1.png)
 
 1. attivare editing;
 2. aprire calcolatore di campi ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png)
@@ -17,7 +17,7 @@ selezionare il layer (presente nel _Layer Panel_), tasto destro mouse 'Apri tabe
 7. doppio clic sulla funzione **\$lenght** per aggiungerla;
 8. **OK** per eseguire;
 
-![](../img/esempi/add_campo_virtuale/add_campo_virt2.png)
+[![](../img/esempi/add_campo_virtuale/add_campo_virt2.png)](../img/esempi/add_campo_virtuale/add_campo_virt2.png)
 
 verrà aggiunta la colonna _lunghezza_dimanica_ popolata con la funzione [\$lenght](../gr_funzioni/geometria/geometria_unico.md#length)
 

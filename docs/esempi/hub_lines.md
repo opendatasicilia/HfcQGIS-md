@@ -2,7 +2,7 @@
 
 Come creare `hub lines` usando il calcolatore di campi di QGIS
 
-![screen](../img/esempi/hub_lines/hub_lines_00.jpg)
+[![screen](../img/esempi/hub_lines/hub_lines_00.jpg)](../img/esempi/hub_lines/hub_lines_00.jpg)
 ****
 `#QGISUserConf2019` `A Coruña`
 
@@ -31,15 +31,15 @@ Creare un campo **WKT** testuale di 50 caratteri e popolare il campo con la segu
 'LINESTRING (-8.4115401 43.3623436 ,' ||  "Longitude"  || ' ' ||  "Latitude"  || ')'
 ```
 
-![screen](../img/esempi/hub_lines/hub_lines_02.png)
+[![screen](../img/esempi/hub_lines/hub_lines_02.png)](../img/esempi/hub_lines/hub_lines_02.png)
 
 otterremo la tabella:
 
-![screen](../img/esempi/hub_lines/hub_lines_01.png)
+[![screen](../img/esempi/hub_lines/hub_lines_01.png)](../img/esempi/hub_lines/hub_lines_01.png)
 
 successivamente importata in QGIS come testo delimitato e geometria di tipo WKT
 
-![screen](../img/esempi/hub_lines/hub_lines_03.png)
+[![screen](../img/esempi/hub_lines/hub_lines_03.png)](../img/esempi/hub_lines/hub_lines_03.png)
 
 ## Prova tu
 

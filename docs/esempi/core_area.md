@@ -3,7 +3,7 @@
 La core area è l'area interna di un poligono al netto di una superfcie determinata da un buffer interno. E' un indice importante utilizzato in ecologia.
 In questo esempio si vuole calcolare la core area (in ettari) di un poligono di bosco, considerando una distanza dal margine di 20 metri.
 
-![](../img/esempi/core_area/img1.png)
+[![](../img/esempi/core_area/img1.png)](../img/esempi/core_area/img1.png)
 
 Caricare il layer bosco, selezionarlo e aprire il Calcolatore dei Campi. Aggiungere un nuovo campo denominato "core_area":
 1. Tipo campo in uscita: Numero decimale
@@ -16,7 +16,7 @@ Nella finestra delle espressioni digitare:
 area(buffer($geometry, -20))/10000
 ```
 
-![](../img/esempi/core_area/img2.png)
+[![](../img/esempi/core_area/img2.png)](../img/esempi/core_area/img2.png)
 
 Il risultato sarà **17.08 ha**
 

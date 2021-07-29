@@ -4,11 +4,11 @@ Appena attiviamo le etichette queste sono sempre al top e sempre visibili, vedia
 
 Carico due layer poligonali: circoscrizioni e quartieri di Palermo
 
-![](../img/esempi/nascondi_etichette/nascondi_01.png)
+[![](../img/esempi/nascondi_etichette/nascondi_01.png)](../img/esempi/nascondi_etichette/nascondi_01.png)
 
 Etichetto il layer quartieri:
 
-![](../img/esempi/nascondi_etichette/nascondi_02.png)
+[![](../img/esempi/nascondi_etichette/nascondi_02.png)](../img/esempi/nascondi_etichette/nascondi_02.png)
 
 Le etichette sono visibili e in certi casi sono anche fastidiose;
 
@@ -18,11 +18,11 @@ applico un filtro al layer circoscrizioni, in modo tale da visualizzare solo alc
 
 risultato:
 
-![](../img/esempi/nascondi_etichette/nascondi_03.png)
+[![](../img/esempi/nascondi_etichette/nascondi_03.png)](../img/esempi/nascondi_etichette/nascondi_03.png)
 
 Ora nascenderò le etichette, del layer quartieri, che sono sotto le circorscrizioni:
 
-![](../img/esempi/nascondi_etichette/nascondi_04.png)
+[![](../img/esempi/nascondi_etichette/nascondi_04.png)](../img/esempi/nascondi_etichette/nascondi_04.png)
 
 espressione usata:
 

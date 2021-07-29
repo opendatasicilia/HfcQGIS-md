@@ -4,7 +4,7 @@ Una richiesta che spesso si ritrova nei canali social della Comunitá **QGIS** �
 Una soluzione a questo problema é offerta dal **Calcolatore di campi**, dimostrando ancora una volta la potenza di questo strumento. <br>
 Esistono in rete diversi siti che offrono la possibilitá di formattare automaticamente un testo e di espostarlo con un semplice copia-incolla. Qui verranno utilizzati **Boldtext** (LINK 1) per il grassetto e **Lingojam** (LINK 2) per il corsivo e per alcuni altri esempi di stili per per creare stringhe alfabetiche formattate da utilizzare nella nostra espressione. 
 
-![](../img/esempi/etichette_formattate_diversi_stili/img_01.jpg)
+[![](../img/esempi/etichette_formattate_diversi_stili/img_01.jpg)](../img/esempi/etichette_formattate_diversi_stili/img_01.jpg)
 
 L’espressione da utilizzare nell’etichetta in corrispondenza della casella Valore é la seguente:
 
@@ -59,7 +59,7 @@ Per rendere gli stili disponibili a tutti i layer del progetto é possibile util
 
 All’interno delle proprietá del progetto, nella scheda Variabili, creare una nuova variabile per ciascuno degli stili, contenente l’intera serie di caratteri separati dalla virgola. 
 
-![](../img/esempi/etichette_formattate_diversi_stili/img_02.jpg)
+[![](../img/esempi/etichette_formattate_diversi_stili/img_02.jpg)](../img/esempi/etichette_formattate_diversi_stili/img_02.jpg)
 
 **Step 2** 
 
@@ -82,7 +82,7 @@ replace('corsivo', @caratteri_normali,  @corsivo )
  )))
 ```
 
-![](../img/esempi/etichette_formattate_diversi_stili/img_03.jpg)
+[![](../img/esempi/etichette_formattate_diversi_stili/img_03.jpg)](../img/esempi/etichette_formattate_diversi_stili/img_03.jpg)
 
 L’idea di questo esempio e stata suggerita da una risposta su **GIS.Stackexchange** (LINK 3) data dall’utente [bugmenot123](https://gis.stackexchange.com/users/51035/bugmenot123) che ringrazio per la geniale soluzione proposta.
 

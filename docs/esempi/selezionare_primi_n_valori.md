@@ -2,7 +2,7 @@
 
 Supponiamo di dover selezionare i primi 10 poligoni (per esempio le prime 10 province più estese d'Italia) usando la `selezione per espressione` di QGIS:
 
-![](../img/esempi/selezionare_primi_n_valori/selnvalori0.png)
+[![](../img/esempi/selezionare_primi_n_valori/selnvalori0.png)](../img/esempi/selezionare_primi_n_valori/selnvalori0.png)
 
 - Espressione da usare
 
@@ -19,7 +19,7 @@ Nel linguaggio umano significa:
 
 Prendi i primi 10 (da 0 a 9) elementi (valore area) contenuti in un array ordinato in senso decrescente.
 
-![](../img/esempi/selezionare_primi_n_valori/selnvalori1.png)
+[![](../img/esempi/selezionare_primi_n_valori/selnvalori1.png)](../img/esempi/selezionare_primi_n_valori/selnvalori1.png)
 
 
 ## Etichettatura
@@ -40,7 +40,7 @@ Etichettiamo tramite regola e usiamo come filtro `is_selected()`, come espressio
 
 **NB:** +1 perché l'indice inizia da 0
 
-![](../img/esempi/selezionare_primi_n_valori/selnvalori2.png)
+[![](../img/esempi/selezionare_primi_n_valori/selnvalori2.png)](../img/esempi/selezionare_primi_n_valori/selnvalori2.png)
 
 ---
 

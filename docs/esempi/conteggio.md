@@ -4,7 +4,7 @@ Supponiamo di voler contare il numero di valori all'interno di un campo cioè ot
 
 Per risolvere il problema utilizzeremo il gruppo di funzioni **Aggrega** e in particolare la funzione _Count_
 
-![](../img/esempi/conteggio/conteggio1.png)
+[![](../img/esempi/conteggio/conteggio1.png)](../img/esempi/conteggio/conteggio1.png)
 
 1. creare un campo numerico **conteggio**;
 2. popolarlo con l'espressione: `count(expression:="nome",group_by:="nome")`

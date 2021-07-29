@@ -2,7 +2,7 @@
 
 Ogni volta che estraiamo i vertici in una geometria (lineare o poligonale) otteniamo quasi sempre dei vertici duplicati, in questo esempio vedremo come selezionarli usando le espressioni.
 
-![](../img/esempi/select_duplicate_vertices/img_01.png)
+[![](../img/esempi/select_duplicate_vertices/img_01.png)](../img/esempi/select_duplicate_vertices/img_01.png)
 
 Per selezionare i vertici duplicati vedremo due soluzioni diverse:
 
@@ -31,7 +31,7 @@ Il concetto è simile a quello precedente, ma usando gli array: quindi quando un
 
 per entrambe stesso risultato:
 
-![](../img/esempi/select_duplicate_vertices/img_02.png)
+[![](../img/esempi/select_duplicate_vertices/img_02.png)](../img/esempi/select_duplicate_vertices/img_02.png)
 
 ## Selezionare solo uno dei due punti doppi
 
@@ -73,7 +73,7 @@ if($id =
 , $id, '')
 ```
 
-![](../img/esempi/select_duplicate_vertices/img_03.png)
+[![](../img/esempi/select_duplicate_vertices/img_03.png)](../img/esempi/select_duplicate_vertices/img_03.png)
 
 - nel caso di molti punti sovrapposti si potrebbe utilizzare la notazione degli array, cioè le parentesi quadre:
 

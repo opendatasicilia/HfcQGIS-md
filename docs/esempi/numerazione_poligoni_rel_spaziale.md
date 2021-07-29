@@ -2,7 +2,7 @@
 
 Etichettare le regioni italiane ISTAT in funzione della superficie, per esempio: la regione più estesa deve avere come etichetta 1 e poi via via aumentare al decrescere dell' area.
 
-![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_01.png)
+[![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_01.png)](../img/esempi/numerazione_poligoni_rel_spaziale/numer_01.png)
 
 espressione da usare:
 
@@ -24,7 +24,7 @@ Altro esempio:
 
 Etichettare in funzione della longitudine, cioè mettere la label 1 nella regione più a Ovest e cosi via per le altre:
 
-![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_02.png)
+[![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_02.png)](../img/esempi/numerazione_poligoni_rel_spaziale/numer_02.png)
 
 espressione da usare:
 
@@ -38,7 +38,7 @@ Altro esempio:
 
 Etichettare, per ogni regione, le province in ordine alfabetico:
 
-![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_03.png)
+[![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_03.png)](../img/esempi/numerazione_poligoni_rel_spaziale/numer_03.png)
 
 espressione da usare:
 
@@ -53,7 +53,7 @@ Altro esempio:
 
 Creata una griglia regolare formata da circa 4000 poligoni. Nominare tutti i poligoni partendo da destra verso sinistra e dall'alto verso il basso con lettere e numeri in sequenza. Quindi la prima maglia della griglia sarà A1, A2, A3 ecc, la seconda B1 B2 B3 e così via. 
 
-![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_04.png)
+[![](../img/esempi/numerazione_poligoni_rel_spaziale/numer_04.png)](../img/esempi/numerazione_poligoni_rel_spaziale/numer_04.png)
 
 espressione da usare:
 

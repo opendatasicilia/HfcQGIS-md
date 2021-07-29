@@ -4,11 +4,11 @@ Dati due layer (es_uno puntuale e l'altro lineare), calcolare la lunghezza del s
 
 Carico i due layer: `alberi` e `fiumi`
 
-![](../img/esempi/linea_min_distanza2/img_01.png)
+[![](../img/esempi/linea_min_distanza2/img_01.png)](../img/esempi/linea_min_distanza2/img_01.png)
 
 Traccio la linea di minima distanza solo per visualizzarla a schermo tramite il generatore di geometrie, usando l'espressione:
 
-![](../img/esempi/linea_min_distanza2/img_02.png)
+[![](../img/esempi/linea_min_distanza2/img_02.png)](../img/esempi/linea_min_distanza2/img_02.png)
 
 ```
 shortest_line(

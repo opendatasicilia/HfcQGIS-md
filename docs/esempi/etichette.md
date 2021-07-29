@@ -25,7 +25,7 @@ espressione da scrivere nel calcolatore di campi
 || '\n'  || 
 'm= ' || m($geometry)
 ```
-![](../img/esempi/etichette/etichette1.png)
+[![](../img/esempi/etichette/etichette1.png)](../img/esempi/etichette/etichette1.png)
 
 * caso (MULTI)LINESTRING(ZM):
 
@@ -35,7 +35,7 @@ to_int($length)
 ||'/'|| 
 z(start_point($geometry))
 ```
-![](../img/esempi/etichette/etichette2.png)
+[![](../img/esempi/etichette/etichette2.png)](../img/esempi/etichette/etichette2.png)
 
 * caso (MULTI)POLYGON(ZM):
 

@@ -13,11 +13,11 @@ Un modo rapido per evitare la creazione di un nuovo layer è quello di utilizzar
 aggregate(layer:='punti', aggregate:='count', expression:="id", filter:=intersects( $geometry, geometry(@parent)))
 ```
 
-![](../img/esempi/conta_punti_in_poligono/conta_01.png)
+[![](../img/esempi/conta_punti_in_poligono/conta_01.png)](../img/esempi/conta_punti_in_poligono/conta_01.png)
 
 risultato:
 
-![](../img/esempi/conta_punti_in_poligono/conta_02.png)
+[![](../img/esempi/conta_punti_in_poligono/conta_02.png)](../img/esempi/conta_punti_in_poligono/conta_02.png)
 
  Geopackage è [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
  
