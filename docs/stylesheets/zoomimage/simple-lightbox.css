@@ -15,7 +15,7 @@ body.hidden-scroll {
   bottom: 0;
   background: #344c25;
    background-image:url(../../img/hfc_logo.svg)!important; background-repeat: no-repeat!important;  background-position:99% 10px!important; background-size: 10%!important;  background-attachment: fixed !important; 
-  opacity: 0.75;
+  opacity: 0.85;
   display: none;
   z-index: 1035;
   }
@@ -26,7 +26,7 @@ body.hidden-scroll {
   height: 100%;
   left: 0;
   top: 0;
-  position: fixed; position: fixed;  cursor: pointer; cursor: -webkit-zoom-out; cursor: zoom-out; }
+  position: fixed; cursor: pointer; cursor: -webkit-zoom-out; cursor: zoom-out; }
   .sl-wrapper * {
     box-sizing: border-box; }
   .sl-wrapper button {
