@@ -1,5 +1,9 @@
 # Parlano di noi
 
+* **23/06/2021** Facebook [GeoBreack 28](https://www.facebook.com/Gteronline/posts/4215847015149710) by [GTER](https://www.facebook.com/Gteronline)
+
+![screen](./img/parlano_di_noi/gter2021.png)
+
 * **16/12/2020** YouTube [Presentazione #HfcQGIS in Francia](https://youtu.be/xKoqCZF9NhY) dal minuto 5:07 (Grazie Pier Serafini)
 
 ![screen](./img/parlano_di_noi/parlano_14.png)
