@@ -5,7 +5,7 @@ social_image: img/card_social/hfc_gr_custom.png
 # Gruppo Custom
 
 !!! Abstract
-    **Questo gruppo contiene funzioni Python create dall'utente. <br> Le funzioni vanno salvate in file *.py nella cartella `espression` presente nel profilo utente QGIS `(C:\Users\nomeUtente\AppData\Roaming\QGIS\QGIS3\profiles\default\python\expressions)`**
+    **Questo gruppo contiene funzioni Python create dall'utente. <br> Le funzioni vanno salvate in file *.py nella cartella `espression` presente nel profilo utente QGIS `(C:\Users\nomeUtente\AppData\Roaming\QGIS\QGIS3\profiles\default\python\expressions)`<br>Un ringraziamento particolare a [Giulio Fattori](https://github.com/Korto19), autore di queste funzioni personalizzate**
 
 ---
 
