@@ -14,7 +14,7 @@ body.hidden-scroll {
   top: 0;
   bottom: 0;
   background: #344c25;
-   background-image:url(../../img/hfc_logo.svg)!important; background-repeat: no-repeat!important;  background-position:99% 10px!important; background-size: 10%!important;  background-attachment: fixed !important; 
+   background-image:url(../../img/logo_hfc_white.svg)!important; background-repeat: no-repeat!important;  background-position:99% 10px!important; background-size: 10%!important;  background-attachment: fixed !important; 
   opacity: 0.85;
   display: none;
   z-index: 1035;
