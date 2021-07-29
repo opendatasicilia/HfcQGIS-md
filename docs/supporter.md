@@ -4,7 +4,7 @@ Questa pagina raccoglie i nominativi delle persone che hanno contribuito alla gu
 
 ## Contributi finanziari
 
-tramite <a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="70" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/PayPal.png" class="immagonobox" Title="Dona con PayPal" alt="Dona con PayPal" /></a>
+<a href="https://www.paypal.me/pigrecoinfinito" target="_blank"><img width="70" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/PayPal.png" class="immagonobox" Title="Dona con PayPal" alt="Dona con PayPal" /></a>
 
 nro| contributo| luogo| messaggio
 --:|-----------|------|:--------
@@ -15,7 +15,7 @@ nro| contributo| luogo| messaggio
 5 | Giacomo Amerio|Italia|--
 6 | Luca Bellami | Messico|un contributo davvero piccolo per l'enorme lavoro che fai per la comunitá! un abbraccio Luca
 7 | Roberto Montagnetti | Inghilterra | Un piccolo modesto supporto alle attività di Pigrecoinfinito
-8 | Giovanni Gullo | "Complimenti Totò. Un saluto, Giovanni Gullo"
+8 | Giovanni Gullo | Italia | "Complimenti Totò. Un saluto, Giovanni Gullo"
 
 ## Contributi in conoscenza
 
