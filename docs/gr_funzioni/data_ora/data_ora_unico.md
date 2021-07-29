@@ -38,7 +38,7 @@ age('2012-05-12','2012-05-02') → intervallo (usa day per estrarre il numero di
 day(age('2012-05-12','2012-05-02')) → 10
 ```
 
-![](../../img/data_e_ora/age1.png)
+[![](../../img/data_e_ora/age1.png)](../../img/data_e_ora/age1.png)
 
 ---
 
@@ -60,7 +60,7 @@ Esempi:
 datetime_from_epoch(1483225200000) → 2017-01-01T00:00:00
 ```
 
-![](../../img/data_e_ora/datetime_from_epoch1.png)
+[![](../../img/data_e_ora/datetime_from_epoch1.png)](../../img/data_e_ora/datetime_from_epoch1.png)
 
 Feature introdotta a partire da **QGIS 3.12**
 
@@ -102,7 +102,7 @@ day(to_interval('3 weeks 2 days')) → 23
 day(age('2012-01-01','2010-01-01')) → 730
 ```
 
-![](../../img/data_e_ora/day1.png)
+[![](../../img/data_e_ora/day1.png)](../../img/data_e_ora/day1.png)
 
 ---
 
@@ -124,7 +124,7 @@ Esempi:
 day_of_week(todate('2018-05-09')) → 3 (Mercoledì)
 ```
 
-![](../../img/data_e_ora/day_of_week1.png)
+[![](../../img/data_e_ora/day_of_week1.png)](../../img/data_e_ora/day_of_week1.png)
 
 Osservazioni:
 
@@ -156,7 +156,7 @@ Esempi:
 epoch(to_date('2017-01-01')) → 1483203600000
 ```
 
-![](../../img/data_e_ora/epoch1.png)
+[![](../../img/data_e_ora/epoch1.png)](../../img/data_e_ora/epoch1.png)
 
 ---
 
@@ -216,10 +216,10 @@ format_date('2012-05-15 13:54:20','dd.MM.yy') → '15.05.12'
 format_date('13:54:20','hh:mm AP') → '01:54 PM'
 ```
 
-![](../../img/data_e_ora/format_date1.png)
+[![](../../img/data_e_ora/format_date1.png)](../../img/data_e_ora/format_date1.png)
 
 
-![](../../img/data_e_ora/format_data_2.png)
+[![](../../img/data_e_ora/format_data_2.png)](../../img/data_e_ora/format_data_2.png)
 
 ---
 
@@ -244,7 +244,7 @@ Esempi:
 ```
 hour(to_datetime('2018-05-09T11:58:57')) → 11
 ```
-![](../../img/data_e_ora/hour1.png)
+[![](../../img/data_e_ora/hour1.png)](../../img/data_e_ora/hour1.png)
 
 ### Variabile intervallo
 
@@ -266,7 +266,7 @@ hour(age('2012-07-22T13:00:00','2012-07-22T10:00:00')) → 3
 hour(age('2012-01-01','2010-01-01')) → 17520
 ```
 
-![](../../img/data_e_ora/hour2.png)
+[![](../../img/data_e_ora/hour2.png)](../../img/data_e_ora/hour2.png)
 
 ---
 
@@ -289,7 +289,7 @@ Esempi:
 
 make_date(2020,5,4) → date value 2020-05-04`
 
-![](../../img/data_e_ora/make_date1.png)
+[![](../../img/data_e_ora/make_date1.png)](../../img/data_e_ora/make_date1.png)
 
 ---
 
@@ -316,7 +316,7 @@ Esempi:
 make_datetime(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500
 ```
 
-![](../../img/data_e_ora/make_datetime1.png)
+[![](../../img/data_e_ora/make_datetime1.png)](../../img/data_e_ora/make_datetime1.png)
 
 Osservazioni:
 
@@ -349,7 +349,7 @@ Esempi:
 make_interval(2020,5,4,13,45,30.5) → datetime value 2020-05-04 13:45:30.500
 ```
 
-![](../../img/data_e_ora/make_interval1.png)
+[![](../../img/data_e_ora/make_interval1.png)](../../img/data_e_ora/make_interval1.png)
 
 ---
 
@@ -374,7 +374,7 @@ Esempi:
 make_time(13,45,30.5) → time value 13:45:30.500
 ```
 
-![](../../img/data_e_ora/make_time1.png)
+[![](../../img/data_e_ora/make_time1.png)](../../img/data_e_ora/make_time1.png)
 
 ---
 
@@ -399,7 +399,7 @@ Esempi:
 ```
 minute('2012-07-22T13:24:57') → 24
 ```
-![](../../img/data_e_ora/minute1.png)
+[![](../../img/data_e_ora/minute1.png)](../../img/data_e_ora/minute1.png)
 
 ### Variabile intervallo
 
@@ -421,7 +421,7 @@ minute(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 20
 minute(age('2012-01-01','2010-01-01')) → 1051200
 ```
 
-![](../../img/data_e_ora/minute2.png)
+[![](../../img/data_e_ora/minute2.png)](../../img/data_e_ora/minute2.png)
 
 ---
 
@@ -447,7 +447,7 @@ Esempi:
 month('2012-05-12') → 05
 ```
 
-![](../../img/data_e_ora/month1.png)
+[![](../../img/data_e_ora/month1.png)](../../img/data_e_ora/month1.png)
 
 ### Variabile intervallo
 
@@ -468,7 +468,7 @@ month(to_interval('3 months')) → 3
 month(age('2012-01-01','2010-01-01')) → 24.3333
 ```
 
-![](../../img/data_e_ora/month1.png)
+[![](../../img/data_e_ora/month1.png)](../../img/data_e_ora/month1.png)
 
 ---
 
@@ -486,7 +486,7 @@ Esempi:
 now() → 2018-05-09 12:18:38`
 ```
 
-![](../../img/data_e_ora/now1.png)
+[![](../../img/data_e_ora/now1.png)](../../img/data_e_ora/now1.png)
 
 ---
 
@@ -512,7 +512,7 @@ Esempi:
 second('2012-07-22T13:24:57') → 57
 ```
 
-![](../../img/data_e_ora/second1.png)
+[![](../../img/data_e_ora/second1.png)](../../img/data_e_ora/second1.png)
 
 ### Variabile intervallo
 
@@ -533,7 +533,7 @@ second(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 1200
 second(age('2012-01-01','2010-01-01')) → 63072000
 ```
 
-![](../../img/data_e_ora/second2.png)
+[![](../../img/data_e_ora/second2.png)](../../img/data_e_ora/second2.png)
 
 ---
 
@@ -561,7 +561,7 @@ to_date('June 29, 2019','MMMM d, yyyy') → 2019-06-29, se la locale corrente ut
 to_date('29 juin, 2019','d MMMM, yyyy','fr') → 2019-06-29
 ```
 
-![](../../img/data_e_ora/to_date1.png)
+[![](../../img/data_e_ora/to_date1.png)](../../img/data_e_ora/to_date1.png)
 
 ---
 
@@ -589,7 +589,7 @@ to_datetime('June 29, 2019 @ 12:34','MMMM d, yyyy @ HH:mm') → 2019-06-29T12:34
 to_datetime('29 juin, 2019 @ 12:34','d MMMM, yyyy @ HH:mm','fr') → 2019-06-29T12:3
 ```
 
-![](../../img/data_e_ora/to_datetime1.png)
+[![](../../img/data_e_ora/to_datetime1.png)](../../img/data_e_ora/to_datetime1.png)
 
 ---
 
@@ -613,7 +613,7 @@ to_interval( '0.5 hours' ) → intervallo: 30 minuti
 to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 ```
 
-![](../../img/data_e_ora/to_interval1.png)
+[![](../../img/data_e_ora/to_interval1.png)](../../img/data_e_ora/to_interval1.png)
 
 ---
 
@@ -641,7 +641,7 @@ to_time('12:34','HH:mm') → 12:34:00
 to_time('12:34','HH:mm','fr') → 12:34:00
 ```
 
-![](../../img/data_e_ora/to_time1.png)
+[![](../../img/data_e_ora/to_time1.png)](../../img/data_e_ora/to_time1.png)
 
 ---
 
@@ -667,7 +667,7 @@ Esempi:
 week('2018-05-09') → 19
 ```
 
-![](../../img/data_e_ora/week1.png)
+[![](../../img/data_e_ora/week1.png)](../../img/data_e_ora/week1.png)
 
 ### Variabile intervallo
 
@@ -688,7 +688,7 @@ week(tointerval('3 weeks')) → 3
 week(age('2012-01-01','2010-01-01')) → 104.285
 ```
 
-![](../../img/data_e_ora/week2.png)
+[![](../../img/data_e_ora/week2.png)](../../img/data_e_ora/week2.png)
 
 ---
 
@@ -714,7 +714,7 @@ Esempi:
 week('2018-05-09') → 19
 ```
 
-![](../../img/data_e_ora/year1.png)
+[![](../../img/data_e_ora/year1.png)](../../img/data_e_ora/year1.png)
 
 ### Variabile intervallo
 
@@ -735,6 +735,6 @@ year(to_interval('3 years')) → 3
 year(age('2012-01-01','2010-01-01')) → 1.9986
 ```
 
-![](../../img/data_e_ora/year2.png)
+[![](../../img/data_e_ora/year2.png)](../../img/data_e_ora/year2.png)
 
 ---

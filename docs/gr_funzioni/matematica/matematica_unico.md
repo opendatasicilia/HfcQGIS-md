@@ -27,7 +27,7 @@ Esempi:
 abs(-2) → 2
 ```
 
-![](../../img/matematica/abs/abs1.png)
+[![](../../img/matematica/abs/abs1.png)](../../img/matematica/abs/abs1.png)
 
 ---
 
@@ -49,7 +49,7 @@ Esempi:
 acos(0.5) → 1.0471975511966
 ```
 
-![](../../img/matematica/acos/acos1.png)
+[![](../../img/matematica/acos/acos1.png)](../../img/matematica/acos/acos1.png)
 
 ---
 
@@ -71,7 +71,7 @@ Esempi:
 asin(1.0) → 1.5707963267949
 ```
 
-![](../../img/matematica/asin/asin1.png)
+[![](../../img/matematica/asin/asin1.png)](../../img/matematica/asin/asin1.png)
 
 ---
 
@@ -93,7 +93,7 @@ Esempi:
 atan(0.5) → 0.463647609000806
 ```
 
-![](../../img/matematica/atan/atan1.png)
+[![](../../img/matematica/atan/atan1.png)](../../img/matematica/atan/atan1.png)
 
 ---
 
@@ -116,9 +116,9 @@ Esempi:
 atan2(1.0, 1.732) → 0.523611477769969
 ```
 
-![](../../img/matematica/atan2/atan21.png)
+[![](../../img/matematica/atan2/atan21.png)](../../img/matematica/atan2/atan21.png)
 
-![](../../img/matematica/atan2/atan22.png)
+[![](../../img/matematica/atan2/atan22.png)](../../img/matematica/atan2/atan22.png)
 
 [Wikipedia](https://it.wikipedia.org/wiki/Arcotangente2)
 
@@ -144,7 +144,7 @@ degrees( azimuth( make_point(25, 45), make_point(75, 100) ) ) → 42.273689
 degrees( azimuth( make_point(75, 100), make_point(25,45) ) ) → 222.273689
 ```
 
-![](../../img/matematica/azimuth/azimuth1.png)
+[![](../../img/matematica/azimuth/azimuth1.png)](../../img/matematica/azimuth/azimuth1.png)
 
 vedasi nel gruppo funzioni Geometria [Azimuth](../../gr_funzioni/geometria/azimuth.html)
 
@@ -169,7 +169,7 @@ ceil(4.9) → 5
 ceil(-4.9) → -4
 ```
 
-![](../../img/matematica/ceil/ceil1.png)
+[![](../../img/matematica/ceil/ceil1.png)](../../img/matematica/ceil/ceil1.png)
 
 ---
 
@@ -195,7 +195,7 @@ clamp(1,0,10) → 1 (input è più piccolo del valore minimo di 1, così la funz
 clamp(1,11,10) → 10 (input è più grande del valore massimo di 10, così la funzione restituisce 10)
 ```
 
-![](../../img/matematica/clamp/clamp1.png)
+[![](../../img/matematica/clamp/clamp1.png)](../../img/matematica/clamp/clamp1.png)
 
 ---
 
@@ -217,7 +217,7 @@ Esempi:
 cos( 1.5707963267948966 )  → 0.0
 ```
 
-![](../../img/matematica/cos/cos1.png)
+[![](../../img/matematica/cos/cos1.png)](../../img/matematica/cos/cos1.png)
 
 ---
 
@@ -241,7 +241,7 @@ degrees(1) → 57.2958
 degrees(pi()) → 180
 ```
 
-![](../../img/matematica/degrees/degrees1.png)
+[![](../../img/matematica/degrees/degrees1.png)](../../img/matematica/degrees/degrees1.png)
 
 ---
 
@@ -263,7 +263,7 @@ Esempi:
 exp(1.0) → 2.71828182845905
 ```
 
-![](../../img/matematica/exp/exp1.png)
+[![](../../img/matematica/exp/exp1.png)](../../img/matematica/exp/exp1.png)
 
 ---
 
@@ -288,7 +288,7 @@ floor(-4.9) → -5
 
 Esempi:
 
-![](../../img/matematica/floor/floor1.png)
+[![](../../img/matematica/floor/floor1.png)](../../img/matematica/floor/floor1.png)
 
 Vedi esempio [conversione](../../esempi/conversione.html)
 
@@ -316,7 +316,7 @@ inclination( make_point( 5, 10, 0 ), make_point( 50, 100, 0 ) ) → 90.0
 inclination( make_point( 5, 10, 0 ), make_point( 5, 10, -5 ) ) → 180.0
 ```
 
-![](../../img/matematica/Inclination/Inclination1.png)
+[![](../../img/matematica/Inclination/Inclination1.png)](../../img/matematica/Inclination/Inclination1.png)
 
 vedasi nel gruppo funzioni Geometria [Inclination](../geometria/inclination.html)
 
@@ -339,7 +339,7 @@ ln(1) → 0
 ln(2.7182818284590452354) → 1
 ```
 
-![](../../img/matematica/ln/ln1.png)
+[![](../../img/matematica/ln/ln1.png)](../../img/matematica/ln/ln1.png)
 
 ---
 
@@ -364,7 +364,7 @@ log(0.5, 32) → -5
 log(2.7182818284590452354, 1) = ln(1) → 1
 ```
 
-![](../../img/matematica/log/log1.png)
+[![](../../img/matematica/log/log1.png)](../../img/matematica/log/log1.png)
 
 ---
 
@@ -387,7 +387,7 @@ log10(1) → 0
 log10(100) → 2
 ```
 
-![](../../img/matematica/log10/log101.png)
+[![](../../img/matematica/log10/log101.png)](../../img/matematica/log10/log101.png)
 
 ---
 
@@ -410,7 +410,7 @@ max(2,10.2,5.5) → 10.2
 max(20.5,NULL,6.2) → 20.5
 ```
 
-![](../../img/matematica/max/max1.png)
+[![](../../img/matematica/max/max1.png)](../../img/matematica/max/max1.png)
 
 ---
 
@@ -433,7 +433,7 @@ min(20.5,10,6.2) → 6.2
 min(2,-10.3,NULL) → -10.3
 ```
 
-![](../../img/matematica/min/min1.png)
+[![](../../img/matematica/min/min1.png)](../../img/matematica/min/min1.png)
 
 ---
 
@@ -451,7 +451,7 @@ Esempi:
 pi() → 3.14159265358979
 ```
 
-![](../../img/matematica/pi/pi1.png)
+[![](../../img/matematica/pi/pi1.png)](../../img/matematica/pi/pi1.png)
 
 --
 
@@ -468,7 +468,7 @@ L'unione di tre simboli matematici che hanno rivoluzionato il Mondo:
 
 Con un po' di fantasia dovreste leggere il mio nome Totò 😎
 
-![](../../img/logo_pi.png)
+[![](../../img/logo_pi.png)](../../img/logo_pi.png)
 
 ---
 
@@ -491,7 +491,7 @@ radians(180) → 3.14159
 radians(57.2958) → 1
 ```
 
-![](../../img/matematica/radians/radians1.png)
+[![](../../img/matematica/radians/radians1.png)](../../img/matematica/radians/radians1.png)
 
 ---
 
@@ -518,13 +518,13 @@ rand(1, 10) → 8
 rand( 10, 100,1) → 68
 ```
 
-![](../../img/matematica/rand/rand1.png)
+[![](../../img/matematica/rand/rand1.png)](../../img/matematica/rand/rand1.png)
 
 Osservazioni:
 
 Novità introdotta nella **QGIS 3.12**
 
-![](../../img/matematica/rand/rand2.png)
+[![](../../img/matematica/rand/rand2.png)](../../img/matematica/rand/rand2.png)
 
 ---
 
@@ -551,13 +551,13 @@ randf(1, 10,3) → 6.028893906608612
 
 Esempi:
 
-![](../../img/matematica/randf/randf1.png)
+[![](../../img/matematica/randf/randf1.png)](../../img/matematica/randf/randf1.png)
 
 Osservazioni
 
 Novità introdotta nella **QGIS 3.12**
 
-![](../../img/matematica/randf/randf2.png)
+[![](../../img/matematica/randf/randf2.png)](../../img/matematica/randf/randf2.png)
 
 ---
 
@@ -584,7 +584,7 @@ round(1234.567,-2) → 1200
 
 Esempi:
 
-![](../../img/matematica/round/round1.png)
+[![](../../img/matematica/round/round1.png)](../../img/matematica/round/round1.png)
 
 ---
 
@@ -612,7 +612,7 @@ scale_exp(5,0,10,0,100,2) → 25 (agevolazione graduale in entrata, usando un es
 scale_exp(3,0,10,0,100,0.5) → 54.772 (agevolazione graduale in uscita, usando un esponente di 0.5)
 ```
 
-![](../../img/matematica/scale_exp/scale_exp1.png)
+[![](../../img/matematica/scale_exp/scale_exp1.png)](../../img/matematica/scale_exp/scale_exp1.png)
 
 ---
 
@@ -640,7 +640,7 @@ scale_linear(0.2,0,1,0,360) → 72 (per scalare un valore tra 0 e 1 in un angolo
 scale_linear(1500,1000,10000,9,20) → 10.22 (per scalare una popolazione che varia tra 1000 e 10000 in una dimensione del carattere tra 9 e 20)
 ```
 
-![](../../img/matematica/scale_linear/scale_linear1.png)
+[![](../../img/matematica/scale_linear/scale_linear1.png)](../../img/matematica/scale_linear/scale_linear1.png)
 
 ---
 
@@ -663,7 +663,7 @@ sin(1.571) → 0.999999682931835
 sin(pi()/2) → 1
 ```
 
-![](../../img/matematica/sin/sin1.png)
+[![](../../img/matematica/sin/sin1.png)](../../img/matematica/sin/sin1.png)
 
 ---
 
@@ -685,7 +685,7 @@ Esempi:
 sqrt(9) → 3
 ```
 
-![](../../img/matematica/sqrt/sqrt1.png)
+[![](../../img/matematica/sqrt/sqrt1.png)](../../img/matematica/sqrt/sqrt1.png)
 
 ---
 
@@ -708,4 +708,4 @@ tan(1.0) → 1.5574077246549
 tan(pi()/2) → infinito
 ```
 
-![](../../img/matematica/tan/tan1.png)
+[![](../../img/matematica/tan/tan1.png)](../../img/matematica/tan/tan1.png)

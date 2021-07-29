@@ -1,6 +1,6 @@
 # Interfaccia calcolatore di campi
 
-![interfaccia](../img/interfaccia_v2.png)
+[![interfaccia](../img/interfaccia_v2.png)](../img/interfaccia_v2.png)
 
 1. se attivato aggiorna solo le geometrie selezionate (indica anche il numero delle feature selezionate);
 2. se attivato crea un nuovo campo;
@@ -39,7 +39,7 @@
 
 ## Commenti per documentare espressione
 
-![screen](../img/finestra_field_calc/commenti.png)
+[![screen](../img/finestra_field_calc/commenti.png)](../img/finestra_field_calc/commenti.png)
 
 È possibile aggiungere commenti alle espressioni nell'area dell'editor espressioni:
 1. per riga intera `/*commento*/`
@@ -49,13 +49,13 @@
 
 Nel caso risulti nascosta la sezione Gruppi funzioni (vale fino alla QGIS 3.4):
 
-![interfaccia](../img/finestra_field_calc/hfcqgis_gruppi.gif)
+[![interfaccia](../img/finestra_field_calc/hfcqgis_gruppi.gif)](../img/finestra_field_calc/hfcqgis_gruppi.gif)
 
 Nel caso risulti nascosta la sezione help in linea:
 
-![interfaccia](../img/finestra_field_calc/hfcqgis_Help.gif)
+[![interfaccia](../img/finestra_field_calc/hfcqgis_Help.gif)](../img/finestra_field_calc/hfcqgis_Help.gif)
 
 Per aumentare dimensione caratteri:
 
-![interfaccia](../img/interfaccia/fieldCalc.gif)
+[![interfaccia](../img/interfaccia/fieldCalc.gif)](../img/interfaccia/fieldCalc.gif)
 

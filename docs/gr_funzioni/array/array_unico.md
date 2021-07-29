@@ -27,7 +27,7 @@ Esempi:
 array(2,10) → array: 2, 10
 ```
 
-![](../../img/array/array/array1.png)
+[![](../../img/array/array/array1.png)](../../img/array/array/array1.png)
 
 ---
 
@@ -51,7 +51,7 @@ array_all(array(1,2,3),array(2,3)) → vero
 array_all(array(1,2,3),array(1,2,4)) → falso
 ```
 
-![](../../img/array/array_all/array_all1.png)
+[![](../../img/array/array_all/array_all1.png)](../../img/array/array_all/array_all1.png)
 
 ---
 
@@ -74,7 +74,7 @@ Esempi:
 array_append(array(1,2,3),4) → array: 1,2,3,4
 ```
 
-![](../../img/array/array_append/array_append1.png)
+[![](../../img/array/array_append/array_append1.png)](../../img/array/array_append/array_append1.png)
 
 ---
 
@@ -96,7 +96,7 @@ Esempi:
 array_cat(array(1,2),array(2,3)) → array: 1,2,2,3
 ```
 
-![](../../img/array/array_cat/array_cat1.png)
+[![](../../img/array/array_cat/array_cat1.png)](../../img/array/array_cat/array_cat1.png)
 
 ---
 
@@ -119,7 +119,7 @@ Esempi:
 array_contains(array(1,2,3),2) → true
 ```
 
-![](../../img/array/array_contains/array_contains1.png)
+[![](../../img/array/array_contains/array_contains1.png)](../../img/array/array_contains/array_contains1.png)
 
 ---
 
@@ -142,7 +142,7 @@ Esempi:
 array_count(array('a', 'b', 'c', 'b'), 'b') → 2
 ```
 
-![](../../img/array/array_count/img_02.png)
+[![](../../img/array/array_count/img_02.png)](../../img/array/array_count/img_02.png)
 
 ---
 
@@ -164,7 +164,7 @@ Esempi:
 array_distinct(array(1,2,3,2,1)) → array: 1,2,3
 ```
 
-![](../../img/array/array_distinct/array_distinct1.png)
+[![](../../img/array/array_distinct/array_distinct1.png)](../../img/array/array_distinct/array_distinct1.png)
 
 ---
 
@@ -189,7 +189,7 @@ Esempi:
 array_filter(array(1,2,3),@element < 3) → [ 1, 2 ]
 ```
 
-![](../../img/array/array_filter/array_filter1.png)
+[![](../../img/array/array_filter/array_filter1.png)](../../img/array/array_filter/array_filter1.png)
 
 ---
 
@@ -212,7 +212,7 @@ Esempi:
 array_find(array(1,2,3),2) → 1
 ```
 
-![](../../img/array/array_find/array_find1.png)
+[![](../../img/array/array_find/array_find1.png)](../../img/array/array_find/array_find1.png)
 
 ---
 
@@ -234,7 +234,7 @@ Esempi:
 array_first(array('a','b','c')) → 'a'
 ```
 
-![](../../img/array/array_first/array_first1.png)
+[![](../../img/array/array_first/array_first1.png)](../../img/array/array_first/array_first1.png)
 
 ---
 
@@ -258,7 +258,7 @@ array_foreach(array('a','b','c'),upper(@element)) → [ 'A', 'B', 'C' ]
 array_foreach(array(1,2,3),@element + 10) → [ 11, 12, 13 ]
 ```
 
-![](../../img/array/array_foreach/array_foreach1.png)
+[![](../../img/array/array_foreach/array_foreach1.png)](../../img/array/array_foreach/array_foreach1.png)
 
 Osservazioni
 
@@ -287,7 +287,7 @@ Esempi:
 array_get(array('a','b','c'),-1) → 'c'
 ```
 
-![](../../img/array/array_get/array_get1.png)
+[![](../../img/array/array_get/array_get1.png)](../../img/array/array_get/array_get1.png)
 
 ---
 
@@ -311,7 +311,7 @@ Esempi:
 array_insert(array(1,2,3),1,100) → [ 1, 100, 2, 3 ]
 ```
 
-![](../../img/array/array_insert/array_insert1.png)
+[![](../../img/array/array_insert/array_insert1.png)](../../img/array/array_insert/array_insert1.png)
 
 ---
 
@@ -334,7 +334,7 @@ Esempi:
 array_intersect(array(1,2,3,4),array(4,0,2,5)) → true
 ```
 
-![](../../img/array/array_intersect/array_intersect1.png)
+[![](../../img/array/array_intersect/array_intersect1.png)](../../img/array/array_intersect/array_intersect1.png)
 
 ---
 
@@ -356,7 +356,7 @@ Esempi:
 array_last(array('a','b','c')) → 'c'
 ```
 
-![](../../img/array/array_last/array_last1.png)
+[![](../../img/array/array_last/array_last1.png)](../../img/array/array_last/array_last1.png)
 
 ---
 
@@ -378,7 +378,7 @@ Esempi:
 array_length(array(1,2,3)) → 3
 ```
 
-![](../../img/array/array_length/array_length1.png)
+[![](../../img/array/array_length/array_length1.png)](../../img/array/array_length/array_length1.png)
 
 ---
 
@@ -412,7 +412,7 @@ array_majority(array(0,1,42,42,43,42), 'real_majority') → NULL
 array_majority(array(0,1,42,42,43,42,42), 'real_majority') → 42
 ```
 
-![](../../img/array/array_majority/array_majority1.png)
+[![](../../img/array/array_majority/array_majority1.png)](../../img/array/array_majority/array_majority1.png)
 
 ---
 
@@ -434,7 +434,7 @@ Esempi:
 array_max(array(0,42,4,2)) → 42
 ```
 
-![](../../img/array/array_max/array_max1.png)
+[![](../../img/array/array_max/array_max1.png)](../../img/array/array_max/array_max1.png)
 
 ---
 
@@ -457,7 +457,7 @@ array_mean(array(0,1,7,66.6,135.4)) → 42.000000
 array_mean(array(0,84,'a','b','c')) → 42
 ```
 
-![](../../img/array/array_mean/array_mean.png)
+[![](../../img/array/array_mean/array_mean.png)](../../img/array/array_mean/array_mean.png)
 
 ---
 
@@ -480,7 +480,7 @@ array_median(array(0,1,42,42,43)) → 42
 array_median(array(0,1,2,42,'a','b')) → 1.5`
 ```
 
-![](../../img/array/array_median/array_median.png)
+[![](../../img/array/array_median/array_median.png)](../../img/array/array_median/array_median.png)
 
 ---
 
@@ -502,7 +502,7 @@ Esempi:
 array_min(array(43,42,54)) → 42
 ```
 
-![](../../img/array/array_min/array_min1.png)
+[![](../../img/array/array_min/array_min1.png)](../../img/array/array_min/array_min1.png)
 
 ---
 
@@ -536,7 +536,7 @@ array_minority(array(0,1,42,42,43,42), 'real_minority') → [ 42, 43, 0, 1 ]
 array_minority(array(0,1,42,42,43,42,42), 'real_minority') → [ 43, 0, 1 ]
 ```
 
-![](../../img/array/array_minority/array_minority1.png)
+[![](../../img/array/array_minority/array_minority1.png)](../../img/array/array_minority/array_minority1.png)
 
 ---
 
@@ -559,7 +559,7 @@ Esempi:
 array_prepend(array(1,2,3),0) → [ 0, 1, 2, 3 ]
 ```
 
-![](../../img/array/array_prepend/array_prepend1.png)
+[![](../../img/array/array_prepend/array_prepend1.png)](../../img/array/array_prepend/array_prepend1.png)
 
 ---
 
@@ -583,7 +583,7 @@ array_prioritize(array(1, 8, 2, 5), array(5, 4, 2, 1, 3, 8)) → [ 5, 2, 1, 8 ]
 array_prioritize(array(5, 4, 2, 1, 3, 8), array(1, 8, 6, 5)) → [ 1, 8, 5, 4, 2, 3 ]
 ```
 
-![](../../img/array/array_prioritize/array_prioritize1.png)
+[![](../../img/array/array_prioritize/array_prioritize1.png)](../../img/array/array_prioritize/array_prioritize1.png)
 
 ---
 
@@ -606,7 +606,7 @@ Esempi:
 array_remove_all(array('a','b','c','b'),'b') → [ 'a', 'c' ]
 ```
 
-![](../../img/array/array_remove_all/array_remove_all1.png)
+[![](../../img/array/array_remove_all/array_remove_all1.png)](../../img/array/array_remove_all/array_remove_all1.png)
 
 ---
 
@@ -629,7 +629,7 @@ Esempi:
 array_remove_at(array(1,2,3),1) → [ 1, 3 ]
 ```
 
-![](../../img/array/array_remove_at/array_remove_at1.png)
+[![](../../img/array/array_remove_at/array_remove_at1.png)](../../img/array/array_remove_at/array_remove_at1.png)
 
 ---
 
@@ -659,7 +659,7 @@ array_replace(array(3,2,1),array(1,2,3),array(7,8,9)) → [ 9, 8, 7 ]
 array_replace(array('Q','G','I','S'),array('Q','S'),'-') → [ '-', 'G', 'I', '-' ]
 ```
 
-![](../../img/array/array_replace/img_01.png)
+[![](../../img/array/array_replace/img_01.png)](../../img/array/array_replace/img_01.png)
 
 ### Variabile mappa
 
@@ -680,7 +680,7 @@ Esempi:
 array_replace(array('APP', 'SHOULD', 'ROCK'),map('APP','QGIS','SHOULD','DOES')) → [ 'QGIS', 'DOES', 'ROCK' ]
 ```
 
-![](../../img/array/array_replace/img_02.png)
+[![](../../img/array/array_replace/img_02.png)](../../img/array/array_replace/img_02.png)
 
 ---
 
@@ -702,7 +702,7 @@ Esempi:
 array_reverse(array(2,4,0,10)) → [ 10, 0, 4, 2 ]
 ```
 
-![](../../img/array/array_reverse/array_reverse1.png)
+[![](../../img/array/array_reverse/array_reverse1.png)](../../img/array/array_reverse/array_reverse1.png)
 
 ---
 
@@ -733,7 +733,7 @@ array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),1,2) → [ 'Valmiera
 array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),-2,-1) → [ 'Chugiak', 'Brighton' ]
 ```
 
-![](../../img/array/array_slice/array_slice1.png)
+[![](../../img/array/array_slice/array_slice1.png)](../../img/array/array_slice/array_slice1.png)
 
 ---
 
@@ -756,7 +756,7 @@ Esempi:
 array_sort(array(3,2,1)) → [ 1, 2, 3 ]
 ```
 
-![](../../img/array/array_sort/array_sort1.png)
+[![](../../img/array/array_sort/array_sort1.png)](../../img/array/array_sort/array_sort1.png)
 
 ---
 
@@ -778,7 +778,7 @@ Esempi:
 array_sum(array(0,1,39.4,1.6,'a')) → 42.0
 ```
 
-![](../../img/array/array_sum/array_sum1.png)
+[![](../../img/array/array_sum/array_sum1.png)](../../img/array/array_sum/array_sum1.png)
 
 ---
 
@@ -806,7 +806,7 @@ array_to_string(array(1,2,3),'-') → '1-2-3'
 array_to_string(array('1','','3'),',','0') → '1,0,3'
 ```
 
-![](../../img/array/array_to_string/array_to_string1.png)
+[![](../../img/array/array_to_string/array_to_string1.png)](../../img/array/array_to_string/array_to_string1.png)
 
 ---
 
@@ -833,7 +833,7 @@ generate_series(1,5) → [ 1, 2, 3, 4, 5 ]
 generate_series(5,1,-1) → [ 5, 4, 3, 2, 1 ]
 ```
 
-![](../../img/array/generate_series/generate_series1.png)
+[![](../../img/array/generate_series/generate_series1.png)](../../img/array/generate_series/generate_series1.png)
 
 ---
 
@@ -860,7 +860,7 @@ regexp_matches('QGIS=>rocks','(.*)=>(.*)') → [ 'QGIS', 'rocks' ]
 regexp_matches('key=>','(.*)=>(.*)','empty value') → [ 'key', 'empty value' ]
 ```
 
-![](../../img/array/regexp_matches/regexp_matches1.png)
+[![](../../img/array/regexp_matches/regexp_matches1.png)](../../img/array/regexp_matches/regexp_matches1.png)
 
 ---
 
@@ -887,6 +887,6 @@ string_to_array('1,2,3',',') → [ '1', '2', '3' ]
 string_to_array('1,,3',',','0') → [ '1', '0', '3' ]
 ```
 
-![](../../img/array/string_to_array/string_to_array1.png)
+[![](../../img/array/string_to_array/string_to_array1.png)](../../img/array/string_to_array/string_to_array1.png)
 
 ---

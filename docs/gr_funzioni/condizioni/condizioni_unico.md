@@ -47,9 +47,9 @@ ELSE 'NON SONO ISOLE'
 END
 ```
 
-![](../../img/condizioni/case0.png)
+[![](../../img/condizioni/case0.png)](../../img/condizioni/case0.png)
 
-![](../../img/condizioni/case1.png)
+[![](../../img/condizioni/case1.png)](../../img/condizioni/case1.png)
 
 ```
 CASE 
@@ -59,9 +59,9 @@ ELSE 'CORTA'
 END
 ```
 
-![](../../img/condizioni/case3.png)
+[![](../../img/condizioni/case3.png)](../../img/condizioni/case3.png)
 
-![](../../img/condizioni/case2.png)
+[![](../../img/condizioni/case2.png)](../../img/condizioni/case2.png)
 
 Altri Esempi:
 
@@ -82,7 +82,7 @@ In questo Esempio viene popolato un campo (dove è usata l'espressione) in funzi
 
 posizionamento etichetta 
 
-![](../../img/condizioni/case_label1.png)
+[![](../../img/condizioni/case_label1.png)](../../img/condizioni/case_label1.png)
 
 <p align="center">
   <img width="460" src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/condizioni/case_rot.png">
@@ -112,7 +112,7 @@ coalesce(7, NULL, 3*2) → 7
 coalesce("fieldA", "fallbackField", 'ERRORE') → valore di "fieldA" se non è NULL, altrimenti il valore di "fallbackField" o la stringa 'ERRORE' se sono entrambi NULL
 ```
 
-![](../../img/condizioni/coalesce0.png)
+[![](../../img/condizioni/coalesce0.png)](../../img/condizioni/coalesce0.png)
 
 Osservazioni:
 
@@ -120,11 +120,11 @@ Questa funzione è utile all'interno di una espressione che prevede l'uso di pi�
 
 Esempio senza l'uso della funzione *coalesce*:
 
-![](../../img/condizioni/coalesce1.png)
+[![](../../img/condizioni/coalesce1.png)](../../img/condizioni/coalesce1.png)
 
 Esempio con l'uso della funzione *coalesce*:
 
-![](../../img/condizioni/coalesce2.png)
+[![](../../img/condizioni/coalesce2.png)](../../img/condizioni/coalesce2.png)
 
 ---
 
@@ -154,13 +154,13 @@ if( 0, 'One', 'Zero' ) → 'Zero'
 if( 10, 'One', 'Zero' ) → 'One'
 ```
 
-![](../../img/condizioni/if0.png)
+[![](../../img/condizioni/if0.png)](../../img/condizioni/if0.png)
 
 Osservazioni:
 
 --
 
-![](../../img/condizioni/if1.png)
+[![](../../img/condizioni/if1.png)](../../img/condizioni/if1.png)
 
 ---
 
@@ -185,7 +185,7 @@ nullif('text', '(none)') → 'text'
 nullif("name", '') → NULL, se "name" è una stringa vuota (o già NULL), "name" in qualsiasi altro caso.
 ```
 
-![](../../img/condizioni/nullif0.jpg)
+[![](../../img/condizioni/nullif0.jpg)](../../img/condizioni/nullif0.jpg)
 
 ---
 
@@ -218,7 +218,7 @@ In questo Esempio la prima lettere di *Fiandaca* si trova alla posizione 10
 regexp_match('Salvatore Fiandaca','\\sFiandaca') → 10
 ```
 
-![](../../img/condizioni/regexp_match1.png)
+[![](../../img/condizioni/regexp_match1.png)](../../img/condizioni/regexp_match1.png)
 
 ---
 
@@ -245,4 +245,4 @@ try( to_int( 'a' ), 0 ) → 0
 try( to_date( 'invalid_date' ) ) → NULL
 ```
 
-![](../../img/condizioni/try1.png)
+[![](../../img/condizioni/try1.png)](../../img/condizioni/try1.png)

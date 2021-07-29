@@ -27,7 +27,7 @@ Esempi:
 ascii('Q') → 81
 ```
 
-![](../../img/stringhe_di_testo/ascii/ascii1.png)
+[![](../../img/stringhe_di_testo/ascii/ascii1.png)](../../img/stringhe_di_testo/ascii/ascii1.png)
 
 ---
 
@@ -49,7 +49,7 @@ Esempi:
 char(81) → 'Q'
 ```
 
-![](../../img/stringhe_di_testo/char/char1.png)
+[![](../../img/stringhe_di_testo/char/char1.png)](../../img/stringhe_di_testo/char/char1.png)
 
 ---
 
@@ -74,7 +74,7 @@ concat('Anno ', 2018) → 'Anno 2018'
 concat('QGIS 3.0', NULL) → 'QGIS 3.0'
 ```
 
-![](../../img/stringhe_di_testo/concat/concat1.png)
+[![](../../img/stringhe_di_testo/concat/concat1.png)](../../img/stringhe_di_testo/concat/concat1.png)
 
 ---
 
@@ -98,7 +98,7 @@ format('This %1 a %2','is', 'test') → 'Questo è un test'
 format('This is %2','a bit unexpected but 2 is lowest number in string','normal') → 'This is a bit unexpected but 2 is lowest number in string'
 ```
 
-![](../../img/stringhe_di_testo/format/format1.png)
+[![](../../img/stringhe_di_testo/format/format1.png)](../../img/stringhe_di_testo/format/format1.png)
 
 ---
 
@@ -160,7 +160,7 @@ format_date('2012-05-15 13:54:20','dd.MM.yy') → '15.05.12'
 format_date('13:54:20','hh:mm AP') → '01:54 PM'
 ```
 
-![](../../img/stringhe_di_testo/format_date/format_date1.png)
+[![](../../img/stringhe_di_testo/format_date/format_date1.png)](../../img/stringhe_di_testo/format_date/format_date1.png)
 
 ---
 
@@ -187,7 +187,7 @@ format_number(10000000.332,2) → '10,000,000.33' se ad es. la locale corrente �
 format_number(10000000.332,2,'fr') → '10 000 000,33'
 ```
 
-![](../../img/stringhe_di_testo/format_number/format_number1.png)
+[![](../../img/stringhe_di_testo/format_number/format_number1.png)](../../img/stringhe_di_testo/format_number/format_number1.png)
 
 ---
 
@@ -210,7 +210,7 @@ Esempi:
 left('Hello World',5) → 'Hello'
 ```
 
-![](../../img/stringhe_di_testo/left/left1.png)
+[![](../../img/stringhe_di_testo/left/left1.png)](../../img/stringhe_di_testo/left/left1.png)
 
 ---
 
@@ -236,7 +236,7 @@ Esempi:
 length('hello') → 5
 ```
 
-![](../../img/stringhe_di_testo/length/length1.png)
+[![](../../img/stringhe_di_testo/length/length1.png)](../../img/stringhe_di_testo/length/length1.png)
 
 ### Variabile geometria
 
@@ -256,7 +256,7 @@ Esempi:
 length(geom_from_wkt('LINESTRING(0 0, 4 0)')) → 4
 ```
 
-![](../../img/stringhe_di_testo/length/length2.png)
+[![](../../img/stringhe_di_testo/length/length2.png)](../../img/stringhe_di_testo/length/length2.png)
 
 ---
 
@@ -278,7 +278,7 @@ Esempi:
 lower('HELLO World') → 'hello world'
 ```
 
-![](../../img/stringhe_di_testo/lower/lower1.png)
+[![](../../img/stringhe_di_testo/lower/lower1.png)](../../img/stringhe_di_testo/lower/lower1.png)
 
 ---
 
@@ -303,7 +303,7 @@ lpad('Hello', 10, 'x') → 'xxxxxHello'
 lpad('Hello', 3, 'x') → 'Hel'
 ```
 
-![](../../img/stringhe_di_testo/lpad/lpad1.png)
+[![](../../img/stringhe_di_testo/lpad/lpad1.png)](../../img/stringhe_di_testo/lpad/lpad1.png)
 
 ### Altri esempi utili
 
@@ -323,7 +323,7 @@ espressione utilizzata:
 'segnale' || lpad( @row_number ,2, '00' )|| '.png' → 'segnale01.png'
 ```
 
-![](../../img/stringhe_di_testo/lpad/lpad2.png)
+[![](../../img/stringhe_di_testo/lpad/lpad2.png)](../../img/stringhe_di_testo/lpad/lpad2.png)
 
 --
 
@@ -344,7 +344,7 @@ lpad( "NUM_CIV",5,0) ||
 coalesce("BARRATO",'')
 ```
 
-![](../../img/stringhe_di_testo/lpad/lpad3.png)
+[![](../../img/stringhe_di_testo/lpad/lpad3.png)](../../img/stringhe_di_testo/lpad/lpad3.png)
 
 ---
 
@@ -368,7 +368,7 @@ regexp_match('QGIS ROCKS','\\sROCKS') → 5
 regexp_match('Budač','udač\\b') → 2
 ```
 
-![](../../img/stringhe_di_testo/regexp_match/regexp_match1.png)
+[![](../../img/stringhe_di_testo/regexp_match/regexp_match1.png)](../../img/stringhe_di_testo/regexp_match/regexp_match1.png)
 
 Osservazioni:
 
@@ -392,7 +392,7 @@ Osservazioni:
 regexp_match('QGIS ROCKS ciao come stai','$') = length ('QGIS ROCKS ciao come stai')+1
 ```
 
-![](../../img/stringhe_di_testo/regexp_match/regexp_match2.png)
+[![](../../img/stringhe_di_testo/regexp_match/regexp_match2.png)](../../img/stringhe_di_testo/regexp_match/regexp_match2.png)
 
 --
 
@@ -406,7 +406,7 @@ regexp_matches( "catasto" ,'^(.+)\\.(.+)\\.(.+)\\.(.+)_(.+)\\.(.+)$')[x]
 con x che varia da 0 a 5
 ```
 
-![](https://user-images.githubusercontent.com/7631137/123671871-072f1f00-d83f-11eb-8110-59d82995e69a.png)
+[![](https://user-images.githubusercontent.com/7631137/123671871-072f1f00-d83f-11eb-8110-59d82995e69a.png)](https://user-images.githubusercontent.com/7631137/123671871-072f1f00-d83f-11eb-8110-59d82995e69a.png)
 
 ---
 
@@ -432,7 +432,7 @@ regexp_replace('ABC123','\\d+','') → 'ABC'
 regexp_replace('my name is John','(.*) is (.*)','\\2 is \\1') → 'Il mio nome è Giovanni'
 ```
 
-![](../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png)
+[![](../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png)](../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png)
 
 Esempi:o 2
 
@@ -535,7 +535,7 @@ Esempi:
 regexp_substr('abc123','(\\d+)') → '123'
 ```
 
-![](../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png)
+[![](../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png)](../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png)
 
 ---
 
@@ -565,7 +565,7 @@ replace('QGIS ABC',array('A','B','C'),array('X','Y','Z')) → 'QGIS XYZ'
 replace('QGIS',array('Q','S'),'') → 'GI'
 ```
 
-![](../../img/stringhe_di_testo/replace/replace1.png)
+[![](../../img/stringhe_di_testo/replace/replace1.png)](../../img/stringhe_di_testo/replace/replace1.png)
 
 ### Variabile mappa
 
@@ -587,7 +587,7 @@ replace('APP SHOULD ROCK',map('APP','QGIS','SHOULD','DOES')) → 'QGIS DOES ROCK
 replace('forty two',map('for','4','two','2','forty two','42')) → '42'
 ```
 
-![](../../img/stringhe_di_testo/replace/replace2.png)
+[![](../../img/stringhe_di_testo/replace/replace2.png)](../../img/stringhe_di_testo/replace/replace2.png)
 
 ---
 
@@ -610,7 +610,7 @@ Esempi:
 right('Hello World',5) → 'World'
 ```
 
-![](../../img/stringhe_di_testo/right/right1.png)
+[![](../../img/stringhe_di_testo/right/right1.png)](../../img/stringhe_di_testo/right/right1.png)
 
 ---
 
@@ -635,7 +635,7 @@ rpad('Hello', 10, 'x') → 'Helloxxxxx'
 rpad('Hello', 3, 'x') → 'Hel'
 ```
 
-![](../../img/stringhe_di_testo/rpad/rpad1.png)
+[![](../../img/stringhe_di_testo/rpad/rpad1.png)](../../img/stringhe_di_testo/rpad/rpad1.png)
 
 ---
 
@@ -659,7 +659,7 @@ strpos('HELLO WORLD','WORLD') → 7
 strpos('HELLO WORLD','GOODBYE') → 0
 ```
 
-![](../../img/stringhe_di_testo/strpos/strpos1.png)
+[![](../../img/stringhe_di_testo/strpos/strpos1.png)](../../img/stringhe_di_testo/strpos/strpos1.png)
 
 ---
 
@@ -690,7 +690,7 @@ substr('HELLO WORLD',-5,2) → 'WO'
 substr('HELLO WORLD',-5,-1) → 'WORL'
 ```
 
-![](../../img/stringhe_di_testo/substr/substr1.png)
+[![](../../img/stringhe_di_testo/substr/substr1.png)](../../img/stringhe_di_testo/substr/substr1.png)
 
 ---
 
@@ -712,7 +712,7 @@ Esempi:
 title('hello WOrld') → 'Hello World'
 ```
 
-![](../../img/stringhe_di_testo/title/title1.png)
+[![](../../img/stringhe_di_testo/title/title1.png)](../../img/stringhe_di_testo/title/title1.png)
 
 ---
 
@@ -734,7 +734,7 @@ Esempi:
 to_string(123.23) → '123.23'
 ```
 
-![](../../img/stringhe_di_testo/to_string/to_string1.png)
+[![](../../img/stringhe_di_testo/to_string/to_string1.png)](../../img/stringhe_di_testo/to_string/to_string1.png)
 
 ---
 
@@ -756,7 +756,7 @@ Esempi:
 trim(' hello world   ') → 'hello world'
 ```
 
-![](../../img/stringhe_di_testo/trim/trim1.png)
+[![](../../img/stringhe_di_testo/trim/trim1.png)](../../img/stringhe_di_testo/trim/trim1.png)
 
 ---
 
@@ -778,7 +778,7 @@ Esempi:
 upper('hello WOrld') → 'HELLO WORLD'
 ```
 
-![](../../img/stringhe_di_testo/upper/upper1.png)
+[![](../../img/stringhe_di_testo/upper/upper1.png)](../../img/stringhe_di_testo/upper/upper1.png)
 
 ---
 
@@ -805,6 +805,6 @@ wordwrap('UNIVERSITY OF QGIS',-3) → 'UNIVERSITY OF
 QGIS'
 ```
 
-![](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)
+[![](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)
 
 ---

@@ -32,7 +32,7 @@ decode_uri(@layer) → {'layerId': NULL, 'layerName': 'layer', 'path': '/home/qg
 decode_uri(@layer, 'path') → 'C:\my_data\qgis\shape.shp'
 ```
 
-![](../../img/layer_della_mappa/decode_uri1.png)
+[![](../../img/layer_della_mappa/decode_uri1.png)](../../img/layer_della_mappa/decode_uri1.png)
 
 ---
 
@@ -77,4 +77,4 @@ layer_property('airports','feature_count') → 120
 layer_property('landsat','crs') → 'EPSG:4326'
 ```
 
-![](../../img/layer_della_mappa/layer_property1.png)
+[![](../../img/layer_della_mappa/layer_property1.png)](../../img/layer_della_mappa/layer_property1.png)

@@ -31,11 +31,11 @@ env( 'COMPUTERNAME') → LENOVO_PC (è il mio notebook)
 env('home') → 'C:\Users\Salvatore'
 ```
 
-![](../../img/generale/env1.png)
+[![](../../img/generale/env1.png)](../../img/generale/env1.png)
 
 alcune varibili li trovate qui: Impostazioni | Opzioni | Sistema
 
-![](../../img/generale/env_variabili.png)
+[![](../../img/generale/env_variabili.png)](../../img/generale/env_variabili.png)
 
 ---
 
@@ -59,7 +59,7 @@ eval(@expression_var) → [qualsiasi risultato che dalla valutazione di @express
 eval( '@row_number  +10') → 11
 ```
 
-![](../../img/generale/eval1.png)
+[![](../../img/generale/eval1.png)](../../img/generale/eval1.png)
 
 ---
 
@@ -81,7 +81,7 @@ Esempi:
 eval_template('QGIS [% upper(\'rocks\') %]') → QGIS ROCKS
 ```
 
-![](../../img/generale/eval_template1.png)
+[![](../../img/generale/eval_template1.png)](../../img/generale/eval_template1.png)
 
 ---
 
@@ -104,7 +104,7 @@ mime_type('<html><body></body></html>') → text/html
 mime_type(from_base64('R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIAOw==')) → image/gif
 ```
 
-![](../../img/generale/mime_type1.png)
+[![](../../img/generale/mime_type1.png)](../../img/generale/mime_type1.png)
 
 ---
 
@@ -131,7 +131,7 @@ Osservazioni
 
 Come argomento va usato il nome della variabile senza la chioccila altrimenti non funziona.
 
-![](../../img/generale/var1.png)
+[![](../../img/generale/var1.png)](../../img/generale/var1.png)
 
 ---
 
@@ -156,6 +156,6 @@ with_variable('my_sum', 1 + 2 + 3, @my_sum * 2 + @my_sum * 5) → 42
 with_variable('duepigreco',2*3.1415, @duepigreco * 2 +@duepigreco*5 ) → 43.981
 ```
 
-![](../../img/generale/with_variable1.png)
+[![](../../img/generale/with_variable1.png)](../../img/generale/with_variable1.png)
 
 ---

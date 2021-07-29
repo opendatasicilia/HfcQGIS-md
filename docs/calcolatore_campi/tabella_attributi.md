@@ -8,7 +8,7 @@ Negli shapefile la tabella degli attributi rappresenta il file `.dbf` che è uno
 
 Una tabella è caratterizzata da righe (rosso) e colonne (verde), le righe rappresentano i record (nello specifico una feature), le colonne (o campi) rappresentano gli attributi:
 
-![tab_attr](../img/tabella_attributi/tab_attr1.png)
+[![tab_attr](../img/tabella_attributi/tab_attr1.png)](../img/tabella_attributi/tab_attr1.png)
 
 **Osservazione**: la geometria è anch'essa un attributo (speciale) ma non viene visualizzato nella tabella degli attributi per scelta degli sviluppatori. Per richimare tale attributo basta utilizzare `$geometry`.
 
@@ -16,7 +16,7 @@ Una tabella è caratterizzata da righe (rosso) e colonne (verde), le righe rappr
 
 La tabella attributi di QGIS è caratterizzata da vari elementi:
 
-![tab_attr](../img/tabella_attributi/tab_attr2.png)
+[![tab_attr](../img/tabella_attributi/tab_attr2.png)](../img/tabella_attributi/tab_attr2.png)
 
 1. nell'intestazione della tabella è presente una stringa che da informazioni su:
     1. nome della tabella;
@@ -25,7 +25,7 @@ La tabella attributi di QGIS è caratterizzata da vari elementi:
     4. numero dei record _selezionati_.
    
 
-![tab_attr](../img/tabella_attributi/tab_attr3.png)
+[![tab_attr](../img/tabella_attributi/tab_attr3.png)](../img/tabella_attributi/tab_attr3.png)
 
 2. barra degli strumenti;
     * ![ico](../img/tabella_attributi/icon/mActionToggleEditing.png) matita per attivare modifica;
@@ -55,7 +55,7 @@ La tabella attributi di QGIS è caratterizzata da vari elementi:
     * ![tab_attr](../img/tabella_attributi/icon/mDockify.png) da finestra a dock e viceversa (**>= QGIS 3.4**)
     * ![ico](../img/tabella_attributi/icon/mAction.png) azioni.
 
-![tab_attr](../img/tabella_attributi/tab_attr4.png)
+[![tab_attr](../img/tabella_attributi/tab_attr4.png)](../img/tabella_attributi/tab_attr4.png)
 
 3. menu filtro:
     1. ![](../img/tabella_attributi/icon/mActionOpenTable.png) Mostra tutti gli Elementi;
@@ -66,13 +66,13 @@ La tabella attributi di QGIS è caratterizzata da vari elementi:
     6. ![](../img/icon/mActionFilterMap.png) Filtro Avanzato (tramite espressione);
     7. ![](../img/icon/mActionHandleStoreFilterExpressionChecked.png) Espressioni Filtro Salvate.
 
-![tab_attr](../img/tabella_attributi/tab_attr5.png)
+[![tab_attr](../img/tabella_attributi/tab_attr5.png)](../img/tabella_attributi/tab_attr5.png)
 
 4. modalità di visualizzazione della tabella:
     * ![ico](../img/tabella_attributi/icon/mActionOpenTable.png)  vista tabella;
     * ![ico](../img/tabella_attributi/icon/mActionFormView.png) vista modulo:
 
-![tab_attr](../img/tabella_attributi/tab_attr6.png)
+[![tab_attr](../img/tabella_attributi/tab_attr6.png)](../img/tabella_attributi/tab_attr6.png)
 
 nella **Vista Modulo** è presente un ulterione menu:
 
@@ -85,7 +85,7 @@ nella **Vista Modulo** è presente un ulterione menu:
 
 Questa barra è visibile solo se è attiva la modalità modifica ![ico](../img/tabella_attributi/icon/mActionToggleEditing.png) e consente di applicare rapidamente calcoli a tutte o parte delle feature del livello. Questa barra utilizza le stesse espressioni del calcolatore di campi ![ico](../img/tabella_attributi/icon/mActionCalculateField.png)
 
-![field_calc](../img/field_calc_rapida1.png)
+[![field_calc](../img/field_calc_rapida1.png)](../img/field_calc_rapida1.png)
 
 Esempio di uso della barra (vedi screenshot sotto):
 
@@ -97,13 +97,13 @@ Esempio di uso della barra (vedi screenshot sotto):
 
 nel nostro caso (vedi screenshot sotto), se cliccassi su 4 (aggiorna tutto) aggiornerei tutti i valori del campo "COD_REG" con il valore 19; se cliccassi su 5 (Aggiorna selezione) aggiornerei solo le quattro righe selezionate.
 
-![tab_attr](../img/tabella_attributi/tab_attr11.png)
+[![tab_attr](../img/tabella_attributi/tab_attr11.png)](../img/tabella_attributi/tab_attr11.png)
 
 ## Corpo della tabella
 
 È possibile interagire con il corpo della tabella usando il tasto destro del mouse: sulla intestazione dei campi oppure sulle celle:
 
-![tab_attr](../img/tabella_attributi/tab_attr8.png)
+[![tab_attr](../img/tabella_attributi/tab_attr8.png)](../img/tabella_attributi/tab_attr8.png)
 
 nel caso dell'_intestazione colonna_ compare un tendina con la possibilità di: 
 1. nascondere la colonna; 
@@ -114,9 +114,9 @@ nel caso dell'_intestazione colonna_ compare un tendina con la possibilità di:
 6. Organizza le colonne; 
 7. Ordina.
 
-![tab_attr](../img/tabella_attributi/tab_attr9.png)
+[![tab_attr](../img/tabella_attributi/tab_attr9.png)](../img/tabella_attributi/tab_attr9.png)
 
-![tab_attr](../img/tabella_attributi/tab_attr10.png)
+[![tab_attr](../img/tabella_attributi/tab_attr10.png)](../img/tabella_attributi/tab_attr10.png)
 
 
 nel caso delle _celle_ (vedi screen sotto) compare un tendina con la possibilità di: 
@@ -129,10 +129,10 @@ nel caso delle _celle_ (vedi screen sotto) compare un tendina con la possibilit�
 
 PS: Find/Replace è un plugin!
 
-![tab_attr](../img/tabella_attributi/tab_attr7.png)
+[![tab_attr](../img/tabella_attributi/tab_attr7.png)](../img/tabella_attributi/tab_attr7.png)
 
 ## dockify tabella
 
 nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti della tabella degli attributi per passare dalla modalità docked alla modalità finestra
 
-![tab_attr](../img/tabella_attributi/dockify.gif)
+[![tab_attr](../img/tabella_attributi/dockify.gif)](../img/tabella_attributi/dockify.gif)

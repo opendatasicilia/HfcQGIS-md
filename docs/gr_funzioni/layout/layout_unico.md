@@ -27,7 +27,7 @@ Esempi:
 map_get( item_variables('Map 0'), 'map_scale') → scala dell'oggetto 'Map 0' nel layout di stampa corrente
 ```
 
-![](../../img/layout/item_variables.png)
+[![](../../img/layout/item_variables.png)](../../img/layout/item_variables.png)
 
 ---
 
@@ -55,4 +55,4 @@ array_to_string( map_credits( 'Main Map' ) ) → lista separata da virgola di cr
 array_to_string( map_credits( 'Main Map', include_layer_names := true, layer_name_separator := ': ' ) ) → lista separata da virgola di nomi di layer e relativi crediti per i layer mostrati nell'oggetto di layout 'Mappa principale', ad es 'Linee ferroviarie: CC-BY-NC, mappa di base: CC-BY-SA'
 ```
 
-![](../../img/layout/map_credits1.png)
+[![](../../img/layout/map_credits1.png)](../../img/layout/map_credits1.png)

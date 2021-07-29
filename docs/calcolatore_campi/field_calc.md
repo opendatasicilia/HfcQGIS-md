@@ -38,7 +38,7 @@ Attraverso il calcolatore di campi è possibile aggiornare tutti gli attributi d
 
 La barra di calcolo del campo rapido nella parte superiore della tabella degli attributi è visibile solo se il livello è modificabile:
 
-![field_calc](../img/field_calc_rapida1.png)
+[![field_calc](../img/field_calc_rapida1.png)](../img/field_calc_rapida1.png)
 
 
 

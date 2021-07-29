@@ -6,16 +6,16 @@ Marco Braida, Stefano Campus, Roberta Castelli, Francesco D'Amore, Eleonora D'El
 
 ## QGIS 3.16.9 LTR Hannover
 
-![](./img/traduzione_316_ltr.png)
+[![](./img/traduzione_316_ltr.png)](./img/traduzione_316_ltr.png)
 
 ## QGIS 3.20.1 Odense
 
-![](./img/traduzione_320.png)
+[![](./img/traduzione_320.png)](./img/traduzione_320.png)
 
 ## QGIS dev 
 
 [d0a3ceab91](https://github.com/qgis/QGIS/commit/d0a3ceab91)
 
-![](./img/traduzione_dev.png)
+[![](./img/traduzione_dev.png)](./img/traduzione_dev.png)
 
 \* [PR](https://github.com/qgis/QGIS/pull/44302/commits/e28a18a85c417b52f4768972ec4484ae11e56abe)

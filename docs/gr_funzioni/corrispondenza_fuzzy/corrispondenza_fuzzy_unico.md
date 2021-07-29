@@ -30,7 +30,7 @@ hamming_distance('abc','ABc') → 2
 hamming_distance(upper('abc'),upper('ABC')) → 0
 ```
 
-![](../../img/corrispondenza_fuzzy/hamming_distance1.png)
+[![](../../img/corrispondenza_fuzzy/hamming_distance1.png)](../../img/corrispondenza_fuzzy/hamming_distance1.png)
 
 ---
 
@@ -56,7 +56,7 @@ levenshtein('Kitten','kitten') → 1
 levenshtein(upper('Kitten'),upper('kitten')) → 0
 ```
 
-![](../../img/corrispondenza_fuzzy/levenshtein1.png)
+[![](../../img/corrispondenza_fuzzy/levenshtein1.png)](../../img/corrispondenza_fuzzy/levenshtein1.png)
 
 ---
 
@@ -82,7 +82,7 @@ longest_common_substring('abcDeF','abcdef') → 'abc'
 longest_common_substring(upper('abcDeF'),upper('abcdex')) → 'ABCDE'
 ```
 
-![](../../img/corrispondenza_fuzzy/longest_common_substring1.png)
+[![](../../img/corrispondenza_fuzzy/longest_common_substring1.png)](../../img/corrispondenza_fuzzy/longest_common_substring1.png)
 
 ---
 
@@ -106,8 +106,8 @@ soundex('rupert') → 'R163'
 soundex('rubin') → 'R150'
 ```
 
-![](../../img/corrispondenza_fuzzy/soundex1.png)
+[![](../../img/corrispondenza_fuzzy/soundex1.png)](../../img/corrispondenza_fuzzy/soundex1.png)
 
 secondo questo algoritmo *Sicilia bedda* e *Sicilia bella* hanno stesso suono :+1:
 
-![](../../img/corrispondenza_fuzzy/soundex2.png)
+[![](../../img/corrispondenza_fuzzy/soundex2.png)](../../img/corrispondenza_fuzzy/soundex2.png)

@@ -6,6 +6,6 @@ Il marchio QGIS è stato realizzato da [Anita Graser](https://twitter.com/underd
 I colori utilizzati in questo RTD sono fedeli alla [Visual Style](https://www.qgis.org/en/site/getinvolved/styleguide.html#primary-colors) Guide di QGIS
 
 <p align="center">
-  <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_2018.png" alt="pigrecoinfinito
+  <a href="" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_2018.png" alt="pigrecoinfinito
 "  width="800" class="immagonobox" title="“Logo realizzato da Totò Fiandaca"></a>
 </p>

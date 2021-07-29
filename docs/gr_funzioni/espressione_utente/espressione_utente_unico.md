@@ -7,9 +7,9 @@ social_image: img/card_social/hfc_espressioneUtente.png
 !!! Abstract
     **Questo gruppo contiene espressioni personalizzate memorizzate nel profilo utente.**
 
-![](../../img/espressione_utente/espressione_utente1.png)
+[![](../../img/espressione_utente/espressione_utente1.png)](../../img/espressione_utente/espressione_utente1.png)
 
-![](../../img/espressione_utente/espressione_utente2.png)
+[![](../../img/espressione_utente/espressione_utente2.png)](../../img/espressione_utente/espressione_utente2.png)
 
 ---
 
@@ -19,6 +19,6 @@ social_image: img/card_social/hfc_espressioneUtente.png
 
 Per installarle nel proprio profilo cliccare su (1) e selezionare il file `espressioni_pigreco.json`
 
-![](../../img/espressione_utente/espressione_utente3.png)
+[![](../../img/espressione_utente/espressione_utente3.png)](../../img/espressione_utente/espressione_utente3.png)
 
-![](../../img/espressione_utente/espressione_utente4.png)
+[![](../../img/espressione_utente/espressione_utente4.png)](../../img/espressione_utente/espressione_utente4.png)

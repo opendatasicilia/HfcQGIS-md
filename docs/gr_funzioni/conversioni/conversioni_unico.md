@@ -27,7 +27,7 @@ Esempi:
 from_base64('UUdJUw==') → 'QGIS'
 ```
 
-![](../../img/conversioni/from_base64.png)
+[![](../../img/conversioni/from_base64.png)](../../img/conversioni/from_base64.png)
 
 ---
 
@@ -64,7 +64,7 @@ hash('QGIS', 'keccak_384') → 'c57a3aed9d856fa04e5eeee9b62b6e027cca81ba574116d3
 hash('QGIS', 'keccak_512') → '6f0f751776b505e317de222508fa5d3ed7099d8f07c74fed54ccee6e7cdc…'
 ```
 
-![](../../img/conversioni/hash1.png)
+[![](../../img/conversioni/hash1.png)](../../img/conversioni/hash1.png)
 
 ---
 
@@ -86,7 +86,7 @@ Esempi:
 md5('QGIS') → '57470aaa9e22adaefac7f5f342f1c6da'
 ```
 
-![](../../img/conversioni/md51.png)
+[![](../../img/conversioni/md51.png)](../../img/conversioni/md51.png)
 
 ---
 
@@ -108,7 +108,7 @@ Esempi:
 sha256('QGIS') → 'eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309'
 ```
 
-![](../../img/conversioni/sha2561.png)
+[![](../../img/conversioni/sha2561.png)](../../img/conversioni/sha2561.png)
 
 ---
 
@@ -130,7 +130,7 @@ Esempi:
 to_base64('QGIS') → 'UUdJUw=='
 ```
 
-![](../../img/conversioni/to_base64.png)
+[![](../../img/conversioni/to_base64.png)](../../img/conversioni/to_base64.png)
 
 
 ---
@@ -153,7 +153,7 @@ Esempi:
 to_date('2012-05-04') → 2012-05-04
 ```
 
-![](../../img/conversioni/to_date1.png)
+[![](../../img/conversioni/to_date1.png)](../../img/conversioni/to_date1.png)
 
 ---
 
@@ -175,7 +175,7 @@ Esempi:
 to_datetime( '2018-05-06 12:02:00') → 2018-05-06T12:02:00
 ```
 
-![](../../img/conversioni/to_datetime1.png)
+[![](../../img/conversioni/to_datetime1.png)](../../img/conversioni/to_datetime1.png)
 
 ---
 
@@ -197,7 +197,7 @@ Esempi:
 to_decimal('6°9′16.445″')) → 6.154568055555556
 ```
 
-![](../../img/conversioni/to_decimal.png)
+[![](../../img/conversioni/to_decimal.png)](../../img/conversioni/to_decimal.png)
 
 ---
 
@@ -225,7 +225,7 @@ to_dm(6.3545681, 'x', 3) → 6°21.274′
 to_dm(6.3545681, 'y', 4, 'suffix') → 6°21.2741′N
 ```
 
-![](../../img/conversioni/to_dm1.png)
+[![](../../img/conversioni/to_dm1.png)](../../img/conversioni/to_dm1.png)
 
 ---
 
@@ -253,7 +253,7 @@ to_dms(6.3545681, 'x', 3) → 6°21′16.445″
 to_dms(6.3545681, 'y', 4, 'suffix') → 6°21′16.4452″N
 ```
 
-![](../../img/conversioni/to_dms1.png)
+[![](../../img/conversioni/to_dms1.png)](../../img/conversioni/to_dms1.png)
 
 ---
 
@@ -279,7 +279,7 @@ Nota bene:
 
 un testo va scritto sempre tra apici semplici es: '123'
 
-![](../../img/conversioni/to_int1.png)
+[![](../../img/conversioni/to_int1.png)](../../img/conversioni/to_int1.png)
 
 ---
 
@@ -301,7 +301,7 @@ Esempi:
 to_datetime('2018-05-04 12:23:00') - to_interval('1 day 2 hours') → 2018-05-03T10:23:00
 ```
 
-![](../../img/conversioni/to_interval1.png)
+[![](../../img/conversioni/to_interval1.png)](../../img/conversioni/to_interval1.png)
 
 ---
 
@@ -327,7 +327,7 @@ Nota bene:
 
 Il punto (`.`) è il separatore decimale.
 
-![](../../img/conversioni/to_real1.png)
+[![](../../img/conversioni/to_real1.png)](../../img/conversioni/to_real1.png)
 
 ---
 
@@ -354,7 +354,7 @@ Nota bene:
 
 Il punto (`.`) è il separatore decimale; una stringa è sempre tra apici semplici es: '123'.
 
-![](../../img/conversioni/to_string1.png)
+[![](../../img/conversioni/to_string1.png)](../../img/conversioni/to_string1.png)
 
 ---
 
@@ -376,6 +376,6 @@ Esempi:
 to_time('12:30:01') → 12:30:0
 ```
 
-![](../../img/conversioni/to_time1.png)
+[![](../../img/conversioni/to_time1.png)](../../img/conversioni/to_time1.png)
 
 ---

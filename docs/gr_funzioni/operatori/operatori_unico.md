@@ -37,7 +37,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/AND1.png)
+[![](../../img/operatori/AND1.png)](../../img/operatori/AND1.png)
 
 ---
 
@@ -69,7 +69,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/diverso1.png)
+[![](../../img/operatori/diverso1.png)](../../img/operatori/diverso1.png)
 
 ---
 
@@ -94,7 +94,7 @@ Esempi:
 NULL / 5 → NULL
 ```
 
-![](../../img/operatori/divisione1.png)
+[![](../../img/operatori/divisione1.png)](../../img/operatori/divisione1.png)
 
 ---
 
@@ -126,7 +126,7 @@ Osservazioni:
 
 Puoi concatenare stringhe usando `||` o `+`. Quest'ultimo significa anche somma nelle espressioni. Quindi se hai un intero (campo o valore numerico) questo può essere soggetto a errori. In questo caso, dovresti usare `||`. Se si concatenano due valori stringa, è possibile utilizzare entrambi.
 
-![](../../img/operatori/doppio_pipe1.png)
+[![](../../img/operatori/doppio_pipe1.png)](../../img/operatori/doppio_pipe1.png)
 
 ---
 
@@ -167,7 +167,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/ILIKE1.png)
+[![](../../img/operatori/ILIKE1.png)](../../img/operatori/ILIKE1.png)
 
 ---
 
@@ -199,7 +199,7 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 0 significa **falso**
 
-![](../../img/operatori/IN1.png)
+[![](../../img/operatori/IN1.png)](../../img/operatori/IN1.png)
 
 ---
 
@@ -235,7 +235,7 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 0 significa **falso**
 
-![](../../img/operatori/IS1.png)
+[![](../../img/operatori/IS1.png)](../../img/operatori/IS1.png)
 
 ## IS NOT
 
@@ -260,7 +260,7 @@ Esempi:
 4 IS NOT 2+2 → 0
 ```
 
-![](../../img/operatori/is_not1.png)
+[![](../../img/operatori/is_not1.png)](../../img/operatori/is_not1.png)
 
 ---
 
@@ -300,7 +300,7 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 0 significa **falso**
 
-![](../../img/operatori/LIKE1.png)
+[![](../../img/operatori/LIKE1.png)](../../img/operatori/LIKE1.png)
 
 ---
 
@@ -331,7 +331,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/maggiore1.png)
+[![](../../img/operatori/maggiore1.png)](../../img/operatori/maggiore1.png)
 
 ---
 
@@ -362,7 +362,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/maggioreuguale1.png)
+[![](../../img/operatori/maggioreuguale1.png)](../../img/operatori/maggioreuguale1.png)
 
 ---
 
@@ -387,7 +387,7 @@ Esempi:
 to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 ```
 
-![](../../img/operatori/meno1.png)
+[![](../../img/operatori/meno1.png)](../../img/operatori/meno1.png)
 
 ---
 
@@ -418,7 +418,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/minore1.png)
+[![](../../img/operatori/minore1.png)](../../img/operatori/minore1.png)
 
 ---
 
@@ -449,7 +449,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/minoreuguale1.png)
+[![](../../img/operatori/minoreuguale1.png)](../../img/operatori/minoreuguale1.png)
 
 ---
 
@@ -478,7 +478,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/NOT1.png)
+[![](../../img/operatori/NOT1.png)](../../img/operatori/NOT1.png)
 
 ---
 
@@ -509,7 +509,7 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/OR1.png)
+[![](../../img/operatori/OR1.png)](../../img/operatori/OR1.png)
 
 ---
 
@@ -535,7 +535,7 @@ map('a',1,'b',2)['a'] → 1
 map('a',1,'b',2)['b'] → 2
 ```
 
-![](../../img/operatori/indice_operatore1.png)
+[![](../../img/operatori/indice_operatore1.png)](../../img/operatori/indice_operatore1.png)
 
 ---
 
@@ -562,7 +562,7 @@ NULL ^ 5 → NULL
 
 --
 
-![](../../img/operatori/potenza1.png)
+[![](../../img/operatori/potenza1.png)](../../img/operatori/potenza1.png)
 
 ---
 
@@ -587,7 +587,7 @@ Esempi:
 NULL 5 → NULL
 ```
 
-![](../../img/operatori/prodotto1.png)
+[![](../../img/operatori/prodotto1.png)](../../img/operatori/prodotto1.png)
 
 ---
 
@@ -623,7 +623,7 @@ Esempi:
 NULL % 5 → NULL
 ```
 
-![](../../img/operatori/resto1.png)
+[![](../../img/operatori/resto1.png)](../../img/operatori/resto1.png)
 
 Altri esempi:
 
@@ -637,11 +637,11 @@ ecco il risultato:
 
 PRIMA:
 
-![](../../img/operatori/resto2.png)
+[![](../../img/operatori/resto2.png)](../../img/operatori/resto2.png)
 
 DOPO:
 
-![](../../img/operatori/resto3.png)
+[![](../../img/operatori/resto3.png)](../../img/operatori/resto3.png)
 
 ---
 
@@ -671,7 +671,7 @@ Osservazioni:
 
 Puoi concatenare stringhe usando `||` o `+`. Quest'ultimo significa anche somma nelle espressioni. Quindi se hai un intero (campo o valore numerico) questo può essere soggetto a errori. In questo caso, dovresti usare `||`. Se si concatenano due valori stringa, è possibile utilizzare entrambi.
 
-![](../../img/operatori/somma1.png)
+[![](../../img/operatori/somma1.png)](../../img/operatori/somma1.png)
 
 ---
 
@@ -696,7 +696,7 @@ Esempi:
 'hello' ~ 'llo$' → 1
 ```
 
-![](../../img/operatori/tilde1.png)
+[![](../../img/operatori/tilde1.png)](../../img/operatori/tilde1.png)
 
 ---
 
@@ -728,4 +728,4 @@ Osservazioni:
 
 0 significa **falso**
 
-![](../../img/operatori/uguale1.png)
+[![](../../img/operatori/uguale1.png)](../../img/operatori/uguale1.png)

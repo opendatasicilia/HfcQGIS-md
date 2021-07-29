@@ -28,7 +28,7 @@ from_json('{"qgis":"rocks"}') → { "qgis" : "rocks" }
 from_json('[1,2,3]') → [1,2,3]
 ```
 
-![](../../img/maps/from_json/from_json_01.png)
+[![](../../img/maps/from_json/from_json_01.png)](../../img/maps/from_json/from_json_01.png)
 
 ---
 
@@ -50,7 +50,7 @@ Esempi:
 hstore_to_map('qgis=>rocks') → { "qgis" : "rocks" }
 ```
 
-![](../../img/maps/hstore_to_map/hstore_to_map1.png)
+[![](../../img/maps/hstore_to_map/hstore_to_map1.png)](../../img/maps/hstore_to_map/hstore_to_map1.png)
 
 ---
 
@@ -72,7 +72,7 @@ Esempi:
 json_to_map('{"qgis":"rocks"}') → { "qgis" : "rocks" }`
 ```
 
-![](../../img/maps/json_to_map/json_to_map1.png)
+[![](../../img/maps/json_to_map/json_to_map1.png)](../../img/maps/json_to_map/json_to_map1.png)
 
 nota bene:
 
@@ -101,7 +101,7 @@ Esempi:
 map('1','one','2', 'two') → map: 1: 'one', 2: 'two'
 ```
 
-![](../../img/maps/map/map1.png)
+[![](../../img/maps/map/map1.png)](../../img/maps/map/map1.png)
 --
 
 Altri esempi:
@@ -113,7 +113,7 @@ Definisco una _map_ con:
 * chiave **Perimetro_km**  -- Perimetro in km
 * valore **$perimeter/1000**
 
-![](../../img/maps/map/map2.png)
+[![](../../img/maps/map/map2.png)](../../img/maps/map/map2.png)
 
 ---
 
@@ -135,11 +135,11 @@ Esempi:
 map_akeys(map('1','one','2','two')) → array: '1', '2'
 ```
 
-![](../../img/maps/map_akeys/map_akeys1.png)
+[![](../../img/maps/map_akeys/map_akeys1.png)](../../img/maps/map_akeys/map_akeys1.png)
 
 Altri esempi:
 
-![](../../img/maps/map_akeys/map_akeys2.png)
+[![](../../img/maps/map_akeys/map_akeys2.png)](../../img/maps/map_akeys/map_akeys2.png)
 
 ```
  map_akeys( 
@@ -150,7 +150,7 @@ Altri esempi:
 
 `akeys` utilizzabile in ambito compositore stampe per conoscere tutte le variabili disponibili per ogni `Mappa` inserita:
 
-![](../../img/maps/map_akeys/map_akeys3.png)
+[![](../../img/maps/map_akeys/map_akeys3.png)](../../img/maps/map_akeys/map_akeys3.png)
 
 ```
 wordwrap( array_to_string(  map_akeys(  item_variables( 'Mappa 1') ) ),1,',')
@@ -247,11 +247,11 @@ Esempi:
 map_avals(map('1','one','2','two')) → array: 'one', 'two'
 ```
 
-![](../../img/maps/map_avals/map_avals1.png)
+[![](../../img/maps/map_avals/map_avals1.png)](../../img/maps/map_avals/map_avals1.png)
 
 --
 
-![](../../img/maps/map_avals/map_avals2.png)
+[![](../../img/maps/map_avals/map_avals2.png)](../../img/maps/map_avals/map_avals2.png)
 
 ---
 
@@ -273,11 +273,11 @@ Esempi:
 map_concat(map('1','one', '2','overridden'),map('2','two', '3','three')) → map: 1: 'one, 2: 'two', 3: 'three'
 ```
 
-![](../../img/maps/map_concat/map_concat1.png)
+[![](../../img/maps/map_concat/map_concat1.png)](../../img/maps/map_concat/map_concat1.png)
 
 --
 
-![](../../img/maps/map_concat/map_concat2.png)
+[![](../../img/maps/map_concat/map_concat2.png)](../../img/maps/map_concat/map_concat2.png)
 
 ---
 
@@ -300,7 +300,7 @@ Esempi:
 map_delete(map('1','one','2','two'),'2') → map: 1: 'one'
 ```
 
-![](../../img/maps/map_delete/map_delete1.png)
+[![](../../img/maps/map_delete/map_delete1.png)](../../img/maps/map_delete/map_delete1.png)
 
 ---
 
@@ -323,7 +323,7 @@ Esempi:
 map_exist(map('1','one','2','two'),'3') → falso
 ```
 
-![](../../img/maps/map_exist/map_exist1.png)
+[![](../../img/maps/map_exist/map_exist1.png)](../../img/maps/map_exist/map_exist1.png)
 
 ---
 
@@ -345,11 +345,11 @@ Esempi:
 map_get(map('1','one','2','two'),'2') → 'two'
 ```
 
-![](../../img/maps/map_get/map_get1.png)
+[![](../../img/maps/map_get/map_get1.png)](../../img/maps/map_get/map_get1.png)
 
 Altri esempi:
 
-![](../../img/maps/map_get/map_get2.png)
+[![](../../img/maps/map_get/map_get2.png)](../../img/maps/map_get/map_get2.png)
 
 ```
 map_get(
@@ -359,7 +359,7 @@ map(Proprietario','Pippo','CF','FNDCCCDDDEEEFFF'),'CF') → 'FNDCCCDDDEEEFFF'
 
 ### Compositore di stampe
 
-![](../../img/maps/map_get/map_get3.png)
+[![](../../img/maps/map_get/map_get3.png)](../../img/maps/map_get/map_get3.png)
 
 Nuova funzione `item_variables` presente, nel gruppo Layout, solo se utilizzate all'interno di un contesto di composizione.
 
@@ -372,7 +372,7 @@ Inserisci la scala della mappa (`Mappa 1`) in un'etichetta:
 map_get( item_variables('Mappa 1'),'map_scale')
 ```
 
-![](../../img/maps/map_get/map_get4.png)
+[![](../../img/maps/map_get/map_get4.png)](../../img/maps/map_get/map_get4.png)
 
 Inserisci la coordinata x del centro della mappa (`Mappa 1`) in un'etichetta:
 
@@ -380,7 +380,7 @@ Inserisci la coordinata x del centro della mappa (`Mappa 1`) in un'etichetta:
 x(map_get( item_variables('Mappa 1'),'map_extent_center'))
 ```
 
-![](../../img/maps/map_get/map_get5.png)
+[![](../../img/maps/map_get/map_get5.png)](../../img/maps/map_get/map_get5.png)
 
 [Changelog QGIS 3.0](https://plugins.qgis.org/plugins/mysqlimport/)
 
@@ -406,7 +406,7 @@ Esempi:
 map_insert(map('1','one'),'3','three') → map: 1: 'one', 3: 'three'
 ```
 
-![](../../img/maps/map_insert/map_insert1.png)
+[![](../../img/maps/map_insert/map_insert1.png)](../../img/maps/map_insert/map_insert1.png)
 
 ---
 
@@ -428,7 +428,7 @@ Esempi:
 map_to_hstore(map('qgis','rocks')) → "qgis"=>"rocks"}
 ```
 
-![](../../img/maps/map_to_hstore/map_to_hstore1.png)
+[![](../../img/maps/map_to_hstore/map_to_hstore1.png)](../../img/maps/map_to_hstore/map_to_hstore1.png)
 
 ---
 
@@ -449,7 +449,7 @@ Esempi:
 map_to_json(map('qgis','rocks')) → {"qgis":"rocks"}
 ```
 
-![](../../img/maps/map_to_json/map_to_json1.png)
+[![](../../img/maps/map_to_json/map_to_json1.png)](../../img/maps/map_to_json/map_to_json1.png)
 
 nota bene:
 
@@ -478,5 +478,5 @@ to_json(map('qgis','rocks')) → {"qgis":"rocks"}
 to_json(array(1,2,3)) → [1,2,3]
 ```
 
-![](../../img/maps/to_json/to_json_01.png)
+[![](../../img/maps/to_json/to_json_01.png)](../../img/maps/to_json/to_json_01.png)
 

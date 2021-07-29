@@ -23,7 +23,7 @@ Esempi:
 attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 ```
 
-![](../../img/record_e_attributi/$currentfeature1.png)
+[![](../../img/record_e_attributi/$currentfeature1.png)](../../img/record_e_attributi/$currentfeature1.png)
 
 ---
 
@@ -45,7 +45,7 @@ Osservazioni:
 
 Questa funzione inizia sempre da 0 con vettore shapefile da 1 con i database
 
-![](../../img/record_e_attributi/$id1.png)
+[![](../../img/record_e_attributi/$id1.png)](../../img/record_e_attributi/$id1.png)
 
 ---
 
@@ -90,7 +90,7 @@ Esempi:
 attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 ```
 
-![](../../img/record_e_attributi/attribute1.png)
+[![](../../img/record_e_attributi/attribute1.png)](../../img/record_e_attributi/attribute1.png)
 
 ---
 
@@ -114,7 +114,7 @@ attributes()['name'] → valore memorizzato nell'attributo 'name' per l'elemento
 
 per trasformare una feature (una riga di una tabella) in un array:
 
-![](../../img/record_e_attributi/attributes2.png)
+[![](../../img/record_e_attributi/attributes2.png)](../../img/record_e_attributi/attributes2.png)
 
 ### Variante 2
 
@@ -134,7 +134,7 @@ Esempi:
 attributes( @atlas_feature )['name'] → valore memorizzato nell'attributo 'name' per l'elemento corrente dell'atlante
 ```
 
-![](../../img/record_e_attributi/attributes1.png)
+[![](../../img/record_e_attributi/attributes1.png)](../../img/record_e_attributi/attributes1.png)
 
 ---
 
@@ -196,7 +196,7 @@ Esempi:
 display_expression( 'streets', get_feature_by_id('streets', 1)) → L'espressione visualizzata dell'elemento con ID 1 sul layer 'streets'.
 display_expression('a_layer_id', $currentfeature, 'False') → L'espressione visualizzata del dato elemento non è stata valutata.
 ```
-![](../../img/record_e_attributi/display_expression1.png)
+[![](../../img/record_e_attributi/display_expression1.png)](../../img/record_e_attributi/display_expression1.png)
 
 ---
 
@@ -221,7 +221,7 @@ get_feature('streets','name','main st') → prima geometria trovata nel vettore 
 get_feature( 'streets', 'fid', attribute( $currentfeature, 'name') ) → Restituisce la prima feature nel layer "streets" il cui campo "fid" ha lo stesso valore del campo "nome" della feature corrente` (una sorta di JOIN)
 ```
 
-![](../../img/record_e_attributi/get_feature1.png)
+[![](../../img/record_e_attributi/get_feature1.png)](../../img/record_e_attributi/get_feature1.png)
 
 ---
 
@@ -245,7 +245,7 @@ get_feature_by_id('streets', 1) → l'elemento con id 1 nel vettore "streets"
 ```
 
 
-![](../../img/record_e_attributi/get_feature_by_id1.png)
+[![](../../img/record_e_attributi/get_feature_by_id1.png)](../../img/record_e_attributi/get_feature_by_id1.png)
 
 ---
 
@@ -307,17 +307,17 @@ is_selected( 'streets', get_feature('streets', 'name', "street_name")) → Vero 
 is_selected( 'streets', get_feature_by_id('streets', 1)) → Vero se l'elemento con l'ID 1 nel layer "streets" è selezionato.
 ```
 
-![](../../img/record_e_attributi/is_selected0.png)
+[![](../../img/record_e_attributi/is_selected0.png)](../../img/record_e_attributi/is_selected0.png)
 
 Esempio etichettatura tramite regola:
 
-![](../../img/record_e_attributi/is_selected1.gif)
+[![](../../img/record_e_attributi/is_selected1.gif)](../../img/record_e_attributi/is_selected1.gif)
 
 Esempio tematizzazione tramite regola:
 
-![](../../img/record_e_attributi/is_selected3.png)
+[![](../../img/record_e_attributi/is_selected3.png)](../../img/record_e_attributi/is_selected3.png)
 
-![](../../img/record_e_attributi/is_selected2.gif)
+[![](../../img/record_e_attributi/is_selected2.gif)](../../img/record_e_attributi/is_selected2.gif)
 
 ---
 
@@ -380,7 +380,7 @@ maptip('streets', get_feature_by_id('streets', 1)) → Il suggerimento mappa del
 maptip('a_layer_id', $currentfeature, 'False') → Il suggerimento mappa del dato elemento non valutato.
 ```
 
-![](../../img/record_e_attributi/maptip1.png)
+[![](../../img/record_e_attributi/maptip1.png)](../../img/record_e_attributi/maptip1.png)
 
 ---
 
@@ -403,7 +403,7 @@ num_selected() → Il numero di geometrie selezionate nel vettore corrente.
 num_selected('streets') → Il numero di geometrie selezionate nel vettore streets
 ```
 
-![](../../img/record_e_attributi/num_selected1.png)
+[![](../../img/record_e_attributi/num_selected1.png)](../../img/record_e_attributi/num_selected1.png)
 
 ---
 
@@ -427,7 +427,7 @@ represent_value("field_with_value_map") → Descrizione per il valore
 represent_value('static value', 'field_name') → Descrizione per il valore statico
 ```
 
-![](../../img/record_e_attributi/represent_value1.png)
+[![](../../img/record_e_attributi/represent_value1.png)](../../img/record_e_attributi/represent_value1.png)
 
 ---
 
@@ -474,7 +474,7 @@ sqlite_fetch_and_increment(@layer, 'sequence_table', 'last_unique_id', 'sequence
 sqlite_fetch_and_increment(layer_property(@layer, 'path'), 'sequence_table', 'last_unique_id', 'sequence_id', 'global', map('last_change', 'date(''now'')', 'user', '''' || @user_account_name || '''')) → 0
 ```
 
-![](../../img/record_e_attributi/sqlite_fetch_and_increment1.png)
+[![](../../img/record_e_attributi/sqlite_fetch_and_increment1.png)](../../img/record_e_attributi/sqlite_fetch_and_increment1.png)
 
 ---
 
@@ -501,6 +501,6 @@ uuid('WithoutBraces') → '0bd2f60f-f157-4a6d-96af-d4ba4cb366a1'
 uuid('Id128') → '0bd2f60ff1574a6d96afd4ba4cb366a1'
 ```
 
-![](../../img/record_e_attributi/uuid()1.png)
+[![](../../img/record_e_attributi/uuid()1.png)]()1.png)
 
 ---

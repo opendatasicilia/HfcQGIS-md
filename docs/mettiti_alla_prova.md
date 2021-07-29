@@ -18,19 +18,19 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 1.Usando il layer _**Reg01012020_g_WGS84**_, tracciare il _Bounding Box_ (poligono) delle regioni, usando il Generatore di geometrie:
 
-![](./img/mettiti_alla_prova/img_01.png)
+[![](./img/mettiti_alla_prova/img_01.png)](./img/mettiti_alla_prova/img_01.png)
 
 2.segue esempio 1), visualizzare etichetta solo nel Bounding Box della Puglia, nell'angolo in alto a destra:
 
-![](./img/mettiti_alla_prova/img_02.png)
+[![](./img/mettiti_alla_prova/img_02.png)](./img/mettiti_alla_prova/img_02.png)
 
 3.Usando i layer _**Reg01012021_g_WGS84**_ e _**RipGeo01012021_WGS84**_ creare un vettore lineare usando il geo-algoritmo _Geometria tramite espressione_ che colleghi i centroidi delle ripartizioni geografiche con i centroidi delle relative regioni, vedi sotto:
 
-![](./img/mettiti_alla_prova/img_03.png)
+[![](./img/mettiti_alla_prova/img_03.png)](./img/mettiti_alla_prova/img_03.png)
 
 4.Usando il layer _**ProvCM01012021_WGS84**_, calcolare la lunghezza della linea che collega tutti i point_on_surface delle province ordinate per regione; poi etichettare lo stesso strato in modo da visualizzare in basso a sinistra la lunghezza totale formattata, vedi sotto:
 
-![](./img/mettiti_alla_prova/img_04.png)
+[![](./img/mettiti_alla_prova/img_04.png)](./img/mettiti_alla_prova/img_04.png)
 
 5.Come selezionare la provincia italiana che ha il maggior numero di province confinanti?;
 
@@ -48,7 +48,7 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 12.Usando i layer **_Reg01012021_g_WGS84_** e _**ProvCM01012021_WGS84**_ (filtro per cod_reg=9) creare l'effetto visualizzabile nello screenshot di sotto (spostando il mouse, è visibile il layer sottostante e la relativa etichetta):
 
-![](./img/mettiti_alla_prova/img_05.png)
+[![](./img/mettiti_alla_prova/img_05.png)](./img/mettiti_alla_prova/img_05.png)
 
 13.I Raster possono essere utilizzati nel Field Calc? motivare la risposta.
 
@@ -66,11 +66,11 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 20.Nella _Selezione per Espressione_, quale tipo di output (numero, testo, booleano) deve dare l'espressione utilizzata nella finestra di dialogo sottostante (stesso concetto vale per i filtri) ?
 
-![](./img/mettiti_alla_prova/img_06.png)
+[![](./img/mettiti_alla_prova/img_06.png)](./img/mettiti_alla_prova/img_06.png)
 
 21.Usando i layer _**Reg01012021_g_WGS84**_ e _**RipGeo01012021_WGS84**_ etichettare il layer _**RipGeo01012021_WGS84**_ con il numero delle regioni corrispondenti, come sotto (utilizzare solo espressioni):
 
-![](./img/mettiti_alla_prova/img_07.png)
+[![](./img/mettiti_alla_prova/img_07.png)](./img/mettiti_alla_prova/img_07.png)
 
 22.Dove posso utilizzare la variabile `@parent` ? (ovunque o solo in?)
 
@@ -90,11 +90,11 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 30.A partire dalla colonna "cod_rip", come ottenere la colonna "INVERTI" ? che espressione useresti ? vedi sotto:
 
-![](./img/mettiti_alla_prova/img_08.png)
+[![](./img/mettiti_alla_prova/img_08.png)](./img/mettiti_alla_prova/img_08.png)
 
 31.Usando il layer _**ProvCM01012021_WGS84**_ selezionare le province che hanno il nome ("den_uts") con meno di 5 lettere:
 
-![](./img/mettiti_alla_prova/img_09.png)
+[![](./img/mettiti_alla_prova/img_09.png)](./img/mettiti_alla_prova/img_09.png)
 
 32.Supponiamo di avere, in una tabella degli attributi, due colonne: la prima (`field_1`) è una descrizione caratterizzata da un lungo testo; un secondo campo (`field_2`) in cui c'è una parola; come verificare che la parola sia presente nel attributo descrizione ?
 
@@ -102,7 +102,7 @@ Esercizi e quesiti da svolgere con [QGIS 3.16 Hannover](https://qgis.org/it/site
 
 34.Usando i layer _**RipGeo01012021_WGS84**_ e in particolare la sua tabella degli attributi, aggiungere un campo (`cum`) e popolarlo con la _somma cumulativa_ del campo "cod_rip", in modo da ottenere:
 
-![](./img/mettiti_alla_prova/img_10.png)
+[![](./img/mettiti_alla_prova/img_10.png)](./img/mettiti_alla_prova/img_10.png)
 
 35.Alla variabile `@parent` è assegnata una feature o un valore ? motivare la risposta.
 

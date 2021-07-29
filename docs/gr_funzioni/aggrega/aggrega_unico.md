@@ -50,8 +50,6 @@ Argomenti:
 * *<span style="color:red;">concatenator</span>* stringa opzionale da usare per unire i valori per il raggruppamento 'concatenate'
 * _<span style="color:red;">order_by</span>_ espressione filtro opzionale per ordinare gli elementi usati per calcolare il valore aggregato. I campi e la geometria provengono dagli elementi del vettore unito. Da predefinito, gli elementi verranno restituiti in un ordine non specificato.
 
-
-
 Esempi:
 
 ```
@@ -64,13 +62,13 @@ aggregate(layer:='stazioni_rotaie',aggregate:='sum',expression:="viaggiatori",fi
 aggregate(layer:='rail_stations', aggregate:='collect', expression:=centroid($geometry), filter:="region_name" = attribute(@parent,'name') ) → aggrega le geometrie dei centroidi delle stazioni ferroviarie della stessa regione dell'elemento corrente
 ```
 
-![](../../img/aggregate/aggregate/aggregate1.png)
+[![](../../img/aggregate/aggregate/aggregate1.png)](../../img/aggregate/aggregate/aggregate1.png)
 
 Osservazioni
 
 i nomi dei layer vanno scritti tra apici semplici (`'nome_layer'`) mentre i nomi dei campi con doppi apici (`"nome_campo"`)
 
-![](../../img/aggregate/aggregate/aggregate2.png)
+[![](../../img/aggregate/aggregate/aggregate2.png)](../../img/aggregate/aggregate/aggregate2.png)
 
 Altri esempi:
 
@@ -101,7 +99,7 @@ Esempi:
 array_agg( "DEN_PCM" ,group_by:= "COD_REG" ) → lista di valori del "DEN_PCM", ragguppata per il campo "COD_REG"
 ```
 
-![](../../img/aggregate/array_agg/array_agg1.png)
+[![](../../img/aggregate/array_agg/array_agg1.png)](../../img/aggregate/array_agg/array_agg1.png)
 
 Nota bene
 
@@ -142,13 +140,13 @@ collect( $geometry ) → geometria a parti multiple delle geometrie aggregate
 collect( centroid($geometry), group_by:="region", filter:= "use" = 'civilian' ) → centroidi aggregati degli elementi civili basati sul relativo valore regionale
 ```
 
-![](../../img/aggregate/collect/collect1.png)
+[![](../../img/aggregate/collect/collect1.png)](../../img/aggregate/collect/collect1.png)
 
 --
 
-![](../../img/aggregate/collect/collect2.png)
+[![](../../img/aggregate/collect/collect2.png)](../../img/aggregate/collect/collect2.png)
 
-![](../../img/aggregate/collect/collect3.png)
+[![](../../img/aggregate/collect/collect3.png)](../../img/aggregate/collect/collect3.png)
 
 ---
 
@@ -176,7 +174,7 @@ Esempi:
 concatenate("town_name",group_by:="state",concatenator:=',') → lista separata da virgola di town_names, raggruppata per campo state
 ```
 
-![](../../img/aggregate/concatenate/concatenate1.png)
+[![](../../img/aggregate/concatenate/concatenate1.png)](../../img/aggregate/concatenate/concatenate1.png)
 
 ---
 
@@ -204,7 +202,7 @@ Esempi:
 concatenate_unique("town_name",group_by:="state",concatenator:=',') → lista separata da virgola di town_names univoci, raggruppata per campo state
 ```
 
-![](../../img/aggregate/concatenate_unique/concatenate_unique1.png)
+[![](../../img/aggregate/concatenate_unique/concatenate_unique1.png)](../../img/aggregate/concatenate_unique/concatenate_unique1.png)
 
 ---
 
@@ -230,7 +228,7 @@ Esempi:
 count("stations",group_by:="state") → conta le stazioni, raggruppate per il campo state
 ```
 
-![](../../img/aggregate/count/count1.png)
+[![](../../img/aggregate/count/count1.png)](../../img/aggregate/count/count1.png)
 
 Nota bene:
 
@@ -268,7 +266,7 @@ Esempi:
 count_distinct("stations",group_by:="state") → conta i valori differenti delle stazioni, raggruppate per il campo state
 ```
 
-![](../../img/aggregate/count_distinct/count_distinct1.png)
+[![](../../img/aggregate/count_distinct/count_distinct1.png)](../../img/aggregate/count_distinct/count_distinct1.png)
 
 Nota bene:
 
@@ -284,7 +282,7 @@ La sintassi prevede due possibilità:
 
 --
 
-![](../../img/aggregate/count_distinct/count_distinct2.png)
+[![](../../img/aggregate/count_distinct/count_distinct2.png)](../../img/aggregate/count_distinct/count_distinct2.png)
 
 ---
 
@@ -310,7 +308,7 @@ Esempi:
 count_missing("stations",group_by:="state") → conta i valori mancanti (NULL) delle stazioni, raggruppati per il campo state
 ```
 
-![](../../img/aggregate/count_missing/count_missing1.png)
+[![](../../img/aggregate/count_missing/count_missing1.png)](../../img/aggregate/count_missing/count_missing1.png)
 
 Nota bene:
 
@@ -348,7 +346,7 @@ Esempi:
 iqr("population",group_by:="state") → scarto interquartile del valore popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/iqr/irq1.png)
+[![](../../img/aggregate/iqr/irq1.png)](../../img/aggregate/iqr/irq1.png)
 
 Nota bene:
 
@@ -386,7 +384,7 @@ Esempi:
 majority("class",group_by:="state") → valore di classe più comunemente presente, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/majority/majority1.png)
+[![](../../img/aggregate/majority/majority1.png)](../../img/aggregate/majority/majority1.png)
 
 Nota bene:
 
@@ -424,7 +422,7 @@ Esempi:
 max_length("town_name",group_by:="state") → lunghezza massima di town_name, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/max_length/max_length1.png)
+[![](../../img/aggregate/max_length/max_length1.png)](../../img/aggregate/max_length/max_length1.png)
 
 Nota bene:
 
@@ -462,7 +460,7 @@ Esempi:
 maximum("population",group_by:="state") → valore massimo di population, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/maximum/maximum1.png)
+[![](../../img/aggregate/maximum/maximum1.png)](../../img/aggregate/maximum/maximum1.png)
 
 Nota bene:
 
@@ -500,7 +498,7 @@ Esempi:
 mean("population",group_by:="state") → valore medio di population, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/mean/mean1.png)
+[![](../../img/aggregate/mean/mean1.png)](../../img/aggregate/mean/mean1.png)
 
 Nota bene:
 
@@ -538,7 +536,7 @@ Esempi:
 median("population",group_by:="state") → mediana della popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/median/median1.png)
+[![](../../img/aggregate/median/median1.png)](../../img/aggregate/median/median1.png)
 
 Nota bene:
 
@@ -576,7 +574,7 @@ Esempi:
 min_length("town_name",group_by:="state") → lunghezza minima di town_name, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/min_length/min_length1.png)
+[![](../../img/aggregate/min_length/min_length1.png)](../../img/aggregate/min_length/min_length1.png)
 
 Nota bene:
 
@@ -614,7 +612,7 @@ Esempi:
 minimum("population",group_by:="state") → valore minimo di population, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/minimum/minimum1.png)
+[![](../../img/aggregate/minimum/minimum1.png)](../../img/aggregate/minimum/minimum1.png)
 
 Nota bene:
 
@@ -634,7 +632,7 @@ Selezionare le Province con minor area per ogni Regione
 
 `$area = minimum(expression:=$area,group_by:="COD_REG")`
 
-![](../../img/aggregate/minimum/minimum2.png)
+[![](../../img/aggregate/minimum/minimum2.png)](../../img/aggregate/minimum/minimum2.png)
 
 ---
 
@@ -660,7 +658,7 @@ Esempi:
 minority("class",group_by:="state") → valore di classe meno presente, ragguppato per il campo state
 ```
 
-![](../../img/aggregate/minority/minority1.png)
+[![](../../img/aggregate/minority/minority1.png)](../../img/aggregate/minority/minority1.png)
 
 Nota bene:
 
@@ -698,7 +696,7 @@ Esempi:
 q1("population",group_by:="state") → primo quartile del valore popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/q1/q11.png)
+[![](../../img/aggregate/q1/q11.png)](../../img/aggregate/q1/q11.png)
 
 Nota bene:
 
@@ -736,7 +734,7 @@ Esempi:
 q3("population",group_by:="state") → terzo quartile del valore popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/q3/q31.png)
+[![](../../img/aggregate/q3/q31.png)](../../img/aggregate/q3/q31.png)
 
 Nota bene:
 
@@ -774,7 +772,7 @@ Esempi:
 range("population",group_by:="state") → intervallo di valori di popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/range/range1.png)
+[![](../../img/aggregate/range/range1.png)](../../img/aggregate/range/range1.png)
 
 Nota bene:
 
@@ -836,7 +834,7 @@ relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → 
 relation_aggregate('my_relation','array_agg', "id") → array del campo id derivato da tutti gli elementi figlio corrispondenti usando la relazione 'my_relation'
 ```
 
-![](../../img/aggregate/relation_aggregate/relation_aggregate1.png)
+[![](../../img/aggregate/relation_aggregate/relation_aggregate1.png)](../../img/aggregate/relation_aggregate/relation_aggregate1.png)
 
 Nota bene:
 
@@ -852,7 +850,7 @@ La sintassi prevede due possibilità:
 
 --
 
-![](../../img/aggregate/relation_aggregate/relation_aggregate2.png)
+[![](../../img/aggregate/relation_aggregate/relation_aggregate2.png)](../../img/aggregate/relation_aggregate/relation_aggregate2.png)
 
 ---
 
@@ -879,7 +877,7 @@ Esempi:
 stdev("population",group_by:="state") → deviazione standard di un valore popolazione, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/stdev/stdev1.png)
+[![](../../img/aggregate/stdev/stdev1.png)](../../img/aggregate/stdev/stdev1.png)
 
 Nota bene:
 
@@ -917,7 +915,7 @@ Esempi:
 sum("population",group_by:="state") → valore somma di population, raggruppato per il campo state
 ```
 
-![](../../img/aggregate/sum/sum1.png)
+[![](../../img/aggregate/sum/sum1.png)](../../img/aggregate/sum/sum1.png)
 
 Nota bene:
 

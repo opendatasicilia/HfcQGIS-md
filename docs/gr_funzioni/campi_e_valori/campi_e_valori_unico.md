@@ -9,4 +9,4 @@ social_image: img/card_social/hfc_gr_campiValore.png
     **note**<br>
     Il caricamento del valore del campo da layer WFS non é supportato, prima che il layer venga inserito, ad esempio quando si costruiscono interrogazioni.
 
-![](../../img/campi_e_valori/campievalori1.png)
+[![](../../img/campi_e_valori/campievalori1.png)](../../img/campi_e_valori/campievalori1.png)
