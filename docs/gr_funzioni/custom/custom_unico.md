@@ -473,3 +473,163 @@ Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Kort
 
 ---
 
+## randomize
+
+Calcola un valore random intero univoco compreso tra start e stop.
+
+ATTENZIONE A NON IMPOSTARE L'INTERVALLO MINORE DEL NUMERO DI FEATURE
+
+Sintassi:
+
+- randomize(_<span style="color:red;">start</span>_, _<span style="color:red;">stop</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">start</span>_ un numero intero
+- </span>_stop</span>_ un numero intero
+
+Esempi:
+
+```
+randomize( 0, 1000 ) -> 13 
+```
+
+[![](../../img/custom/randomize.png)](../../img/custom/randomize.png)
+
+Osservazione:
+
+La funzione è particolarmente utile se si volessero generare, tra _<span style="color:red;">start</span>_ e _<span style="color:red;">stop</span>_, enne valori casuali univoci (senza ripetizioni)
+
+```py
+from qgis.core import *
+from qgis.gui import *
+import random
+
+random_list = []
+
+@qgsfunction(args='auto', group='Custom')
+
+def randomize(start, stop, feature, parent):
+    """
+    Calcola un valore random intero univoco
+    compreso tra start e stop
+    <ul>ATTENZIONE A NON IMPOSTARE L'INTERVALLO MINORE DEL NUMERO DI FEATURE
+    </ul>
+    <h2>Example usage:</h2>
+    <ul>
+      <li>randomize( 0, 1000 ) -> 13</li>
+    </ul>
+    """
+    a = random.randint(start, stop)
+
+    while a in random_list:
+        a = random.randint(start, stop)
+
+    random_list.append(a)
+
+    return a
+```
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+## get_catg_color
+
+Restituisce il colore RGBA (stringa [r,g,b,a] come intero 0-255) dell'elemento categorizzato: il campo in input è quello utilizzato per la categorizzazione. Per i campi della categorizzazione numerici formattatarli opportunamente e utilizzare la stessa espressione per catturarne il colore.
+
+Sintassi:
+
+- get_catg_color(_<span style="color:red;">nomeCampoCategoria</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">nomeCampoCategoria</span>_ nome del campo con cui si è effettuata la categorizzazione
+
+Esempi:
+
+```
+get_catg_color("nomeCampoCategoria") → '228,52,199,255'
+get_catg_color(to_string(format_number("nomeCampoCategoria",2))) → '228,52,199,255'
+```
+
+[![](../../img/custom/get_catg_color1.png)](../../img/custom/get_catg_color1.png)
+
+```py
+from qgis.core import *
+from qgis.gui import *
+from qgis.utils import iface
+
+@qgsfunction(args='auto', group='Custom')
+def get_catg_color(value, feature, parent):
+    """
+    Restituisce il colore RGBA (stringa [r,g,b,a] come intero 0-255) dell'elemento categorizzato:
+    il campo in input è quello utilizzato per la categorizzazione
+    Per i campi della categorizzazione numerici formattatarli opportunamente e 
+    utilizzare la stessa espressione per catturarne il colore
+    
+    <h2>Example usage:</h2>
+    <ul>
+      <li>get_color("nomeCampoCategoria") -> '228,52,199,255'</li>
+      <li>get_color(to_string(format_number("nomeCampoCategoria",2))) -> '228,52,199,255'</li>
+    </ul>
+    """
+    
+    layer = iface.activeLayer()
+    renderer = layer.renderer()
+
+    if layer.renderer().type() == "categorizedSymbol":
+        campo = renderer.legendClassificationAttribute()
+
+        for cat in renderer.categories():
+            if str(value) == cat.value():
+                colorato = cat.symbol().symbolLayer(0).properties()['color']
+                break
+            
+    return colorato
+```
+
+Osservazioni:
+
+La funzione è utile nel Plugin DataPlotly per associare i colori ai grafici.
+
+[![](../../img/custom/get_catg_color2.png)](../../img/custom/get_catg_color2.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+## svg_pie
+
+Genera un grafico a torta inseribile in una cornice HTML nel compositore di stampe.
+
+Sintassi:
+
+- svg_pie( _<span style="color:red;">array(values)</span>_, _<span style="color:red;">donut</span>_, _<span style="color:red;">array(colors)</span>_, _<span style="color:red;">array(descriptions)</span>_, _<span style="color:red;">legenda</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">array(val)</span>_ - array percentuali 
+- _<span style="color:red;">donut</span>_ - raggio del vuoto al centro [0-1]
+- _<span style="color:red;">array(colors)</span>_ - array colori
+- _<span style="color:red;">array(descriptions)</span>_ - array descrizioni
+- _<span style="color:red;">legenda</span>_ - legenda [-1] - percentuali interne[0] - legenda [1]
+
+Esempi:
+
+```
+svg_Pie(array(.5,.1,.3),.8,array('red','cyan','gray'),array('uno','due','tre'),0)
+```
+
+La somma delle percentuali deve essere pari a 1 o inferiore Se la somma delle percentuali e' inferiore al 100% ci sara' un settore vuoto. Elenco dei colori desiderati, se vuoto o in numero insufficiente saranno utilizzati quelli di default.
+Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il carattere spazio.
+
+Colori di default in ordine di utilizzo Red, Aquamarine, Orange, Cyan, Yellow, Green, Grey, Beige, Gold, DarkKhaki, Royalblue, Fucsia è comunque possibile utilizzare qualsiasi colore CSS inserendone il nome.
+
+[![](../../img/custom/svg_pie1.png)](../../img/custom/svg_pie1.png)
+
+[![](../../img/custom/svg_pie2.png)](../../img/custom/svg_pie2.png)
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+---
