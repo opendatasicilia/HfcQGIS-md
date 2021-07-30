@@ -25,4 +25,4 @@ Release        | Data | changelog | nuove funzioni
 
 ## Grafico
 
-![](../img/grafico_espressioni1.png)
+[![](../img/grafico_espressioni1.png)](../img/grafico_espressioni1.png)

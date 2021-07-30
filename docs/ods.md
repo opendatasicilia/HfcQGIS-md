@@ -30,9 +30,9 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../img/andreaBorruso.png" alt="">
+            <img class="mx-auto rounded-circle" src="../img/faccioni/andreaBorruso.png" alt="">
             <h4>Andrea Borruso</h4>
-            <p class="text-muted">Supervisor</p>
+            <p class="text-muted">Nella sua abitazione i rubinetti non perdono mai!</p>
 				<div>
                 <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">
                  <span class="fa-stack fa-lg">
@@ -44,7 +44,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../img/salvatoreFiandaca.png" alt="">
+            <img class="mx-auto rounded-circle" src="../img/faccioni/salvatoreFiandaca.png" alt="">
             <h4>Salvatore Fiandaca</h4>
         <p class="text-muted">Autore HfcQGIS</p> 
 			<div>
@@ -58,7 +58,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../img/gianniVitrano.png" alt="">
+            <img class="mx-auto rounded-circle" src="../img/faccioni/gianniVitrano.png" alt="">
             <h4>Giovan Battista Vitrano</h4>
             <p class="text-muted">Webmaster</p> 
 			 <div><a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">
