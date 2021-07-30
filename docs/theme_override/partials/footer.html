@@ -86,16 +86,13 @@
 
       <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
-	  <a href="https://twitter.com/opendatasicilia" title="@opendatasisilia " target="_blank">@opendatasisilia </a>2021 <!-- -->|
-        {% if config.copyright %}
-          <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
-          </div>
+	  <a href="https://twitter.com/opendatasicilia" title="@opendatasisilia " target="_blank">@opendatasisilia </a>2021 | {% if config.copyright %} {{ config.copyright }}<br>
+	   Realizzato con <a href="https://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs" target="_blank"> Material for MkDocs </a> e altre <a href="https://opendatasicilia.github.io/HfcQGIS-md/risorse/" title="Principali risorse usate per realizzare il sito"> risorse </a>
+      <!--  <div class="md-footer-copyright__highlight"> 
+		</div> -->
         {% endif %}
-     Realizzato con <a href="https://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs" target="_blank"> Material for MkDocs </a> e altre <a href="https://opendatasicilia.github.io/HfcQGIS-md/risorse/" title="Principali risorse usate per realizzare il sito"> risorse </a>
         {{ extracopyright }}
       </div>
-
       <!-- Social links -->
       {% include "partials/social.html" %}
     </div>
