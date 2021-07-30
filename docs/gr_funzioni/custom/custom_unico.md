@@ -469,7 +469,7 @@ def random_points_in_polygon(number_of_points, feature, parent):
 
 [![](../../img/custom/random_points_in_polygon1.png)](../../img/custom/random_points_in_polygon1.png)
 
-Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+Lo script Python è stato realizzato da  
 
 ---
 
