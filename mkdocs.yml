@@ -62,7 +62,7 @@ theme:
     primary: deep orange
     accent: green
   font:
-    text: Lato
+    text: Open Sans
     code: Cutive Mono
   favicon: img/favicon.ico
   icon:
