@@ -22,10 +22,10 @@ Il risultato sarà **17.08 ha**
 
 Vediamo l'espressione utilizzata:
 
-1. `buffer($geometry,-20)`: Crea un [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer) del poligono utilizzando la funzione [$geometry](../gr_funzioni/geometria/$geometry.html), con una profondità negativa di 20 metri (buffer interno)
+1. `buffer($geometry,-20)`: Crea un [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer) del poligono utilizzando la funzione [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry), con una profondità negativa di 20 metri (buffer interno)
 2. `area`: Calcola l'[area](../gr_funzioni/geometria/geometria_unico.md#area_1) della geometria appena definita, in ettari (/10000)
 
-Il GeoPackage, con il vettore bosco, è disponibile [qui](https://github.com/gbvitrano/HfcQGIS/blob/master/esempi/core_area.zip?raw=true)
+Il GeoPackage, con il vettore bosco, è disponibile [qui](../prova_tu/core_area.zip)
 
 ---
 

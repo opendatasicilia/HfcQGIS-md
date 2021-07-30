@@ -8,4 +8,4 @@ l'aggiornamento non significa che da punto diventa linea o poligono, ma è possi
 
 **NB:** se una geometria è 2D non possiamo aggiornarla a 3D.
 
-Geopackage è [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+Geopackage è [qui](../prova_tu/dati_esempi.zip)

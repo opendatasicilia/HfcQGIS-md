@@ -47,7 +47,7 @@ espressione da scrivere nel calcolatore di campi
  ```
  ![](../img/esempi/etichette/etichette3.png)
 
- Geopackage è [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+ Geopackage è [qui](../prova_tu/dati_esempi.zip)
 
 ---
 

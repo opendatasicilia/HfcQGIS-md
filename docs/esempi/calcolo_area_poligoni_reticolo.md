@@ -25,7 +25,7 @@ La funzione di aggregazione calcola l’area della porzione di dusaf che interse
 
 Funzione 
 
-il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+il geopackage è scaricabile [qui](../prova_tu/dati_esempi.zip)
 
 ---
 

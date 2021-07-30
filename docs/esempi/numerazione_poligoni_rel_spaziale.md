@@ -90,7 +90,7 @@ ovvero tre volte la variabile `@element`.
 
 ## Prova tu
 
-[Geopackage](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.gpkg)
+[Geopackage](../prova_tu/dati_esempi.gpkg)
 ---
 
 Funzioni e variabili utilizzate:

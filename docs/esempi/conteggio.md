@@ -12,7 +12,7 @@ Per risolvere il problema utilizzeremo il gruppo di funzioni **Aggrega** e in pa
 
 **Osservazione**: la tabella attributi non puo' essere modificata, quindi se un valore è presente 10 volte avremmo - in corrispondenza ad ognuno - il valore 10 ripetuto 10 volte.
 
-il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+il geopackage è scaricabile [qui](../prova_tu/dati_esempi.zip)
 
 ---
 

@@ -33,7 +33,7 @@ risultato:
 
 NB: la piccola differenza tra le lunghezze è imputabile alla trasformazione di EPSG!!! La prima tabella è relativa al vettore poligonale la seconda, lunghezze delle linea, deriva dal geo-algoritmo in processing.
 
-il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip
+il geopackage è scaricabile [qui](../prova_tu/dati_esempi.zip
 Funzioni e variabili utilizzate:
 
 * [@parent](../gr_funzioni/variabili/parent.md)

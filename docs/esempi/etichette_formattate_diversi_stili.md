@@ -98,7 +98,7 @@ Realizzato da **Valerio Pinna** (grazie mille!)
 
 ### Prova tu
 
-Geopackage è [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/etichette_con_stile.gpkg)
+Geopackage è [qui](../prova_tu/etichette_con_stile.gpkg)
 
 ---
 

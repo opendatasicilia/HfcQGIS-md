@@ -29,4 +29,4 @@ Un campo virtuale è un campo che si aggiorna dimanicamente e non modifica la ta
 
 [video youtube](https://www.youtube.com/watch?v=IymSgXmbAFM&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu&inde)
 
-il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+il geopackage è scaricabile [qui](../prova_tu/dati_esempi.zip)

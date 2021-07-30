@@ -24,4 +24,4 @@ ecco evidenziate le due colonne con le coordinate:
 
 [![](../img/esempi/add_coord_xy/add_coord4.png)](../img/esempi/add_coord_xy/add_coord4.png)
 
-il geopackage è scaricabile [qui](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/esempi/dati_esempi.zip)
+il geopackage è scaricabile [qui](../prova_tu/dati_esempi.zip)
