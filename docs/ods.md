@@ -17,6 +17,65 @@ guardando il video che Totò ha fatto sul suo mega lavoro HfcQGIS mi è sembrato
 
 Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma nel 99% dei casi si perdono, senza che ci sia alcuna evoluzione.<br>OpenDataSicilia è un'"**infrastrattura di persone**" dove una bella intenzione - come quella di sopra di Giovan Battista Vitrano - si può trasformare in un passaparola e poi in un progetto; specie quando alle spalle c'è una "[mega lavoro](https://github.com/pigreco/HfcQGIS)" da valorizzare come quello di Salvatore Fiandaca.
 
+<body>
+ <link href="https://opendatasicilia.github.io/HfcQGIS-md/stylesheets/team.css" rel="stylesheet">
+  <!-- Team -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+      <!--    <h2 class="section-heading text-uppercase">CHI SIAMO</h2> -->
+          <h3 class="section-subheading text-muted">I criceti che hanno fatto girare la ruota.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../img/andreaBorruso.png" alt="">
+            <h4>Andrea Borruso</h4>
+            <p class="text-muted">Supervisor</p>
+				<div>
+                <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">
+                 <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span> </a>
+				</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../img/salvatoreFiandaca.png" alt="">
+            <h4>Salvatore Fiandaca</h4>
+        <p class="text-muted">Autore HfcQGIS</p> 
+			<div>
+                <a href="https://twitter.com/totofiandaca" title="Salvatore Fiandaca" target="_blank">
+                 <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span> </a>
+				</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../img/gianniVitrano.png" alt="">
+            <h4>Giovan Battista Vitrano</h4>
+            <p class="text-muted">Webmaster</p> 
+			 <div><a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">
+                 <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span></a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+        </div>
+      </div>
+    </div>
+</body>
 ## Anagrafica
 
 OpenDataSicilia fa _scruscio_ ("rumore" in siciliano) qui:
