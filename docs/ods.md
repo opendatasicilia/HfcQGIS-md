@@ -32,7 +32,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="../img/faccioni/andreaBorruso.png" alt="">
             <h4>Andrea Borruso</h4>
-            <p class="text-muted">Nella sua abitazione i rubinetti non perdono mai!</p>
+            <p class="text-muted">Coordinatore</p>
 				<div>
                 <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">
                  <span class="fa-stack fa-lg">
