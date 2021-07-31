@@ -647,7 +647,7 @@ nav:
       #  - da documentare: gr_funzioni/da_documentare.md
         
     - Esempi svolti: 
-        - Uso delle funzioni: esempi/lista_esempi.md
+        # - Uso delle funzioni: esempi/lista_esempi.md
         - Esempi svolti: 
            - Lista esempi: esempi/lista_esempi.md
            - Campo area: esempi/add_col_area.md
