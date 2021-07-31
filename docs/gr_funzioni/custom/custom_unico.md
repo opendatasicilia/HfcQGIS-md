@@ -16,10 +16,18 @@ Per convenzione il fattoriale di 0 = 1 la notazione matematica per fattoriale è
 La funzione è compresa nel modulo math
 **NB:** valore massimo memorizzabile in un campo numerico è 20! (2432902008176640000)
 
+Sintassi:
+
+- fact(_<span style="color:red;">numero</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">numero</span>_ un numero intero
+
 Esempio:
 
 ```
-fact(10)→ 3628800`
+fact(10)→ 3628800
 ```
 
 [![](../../img/custom/fact1.png)](../../img/custom/fact1.png)
@@ -59,6 +67,14 @@ Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Kort
 
 Calcola la somma dei due parametri valore1 e valore2. 
 
+Sintassi:
+
+- my_sum(_<span style="color:red;">numero1</span>_, _<span style="color:red;">numero2</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">numero1_</span>_ un valore numerico o un campo
+- _<span style="color:red;">numero2</span>_ un valore numerico o un campo
 Esempio:
 
 ```
@@ -93,6 +109,14 @@ def my_sum(value1, value2, feature, parent):
 
 Questa funzione ritorna il valore del perimetro della geometria in km 
 
+Sintassi:
+
+- perimetro_km()
+
+Argomenti:
+
+- senza argomenti
+
 Esempio:
 
 ```
@@ -125,6 +149,13 @@ def perimetro_km( feature, parent):
 
 Questa funzione ritorna il valore rovesciato di un testo
 
+Sintassi:
+
+- reverse_string(_<span style="color:red;">stringa</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">stringa</span>_ una stringa di testo
 Esempio:
 
 ``` 
