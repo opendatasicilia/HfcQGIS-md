@@ -46,4 +46,5 @@ regexp_replace('Via Mario Miglioranza detto Pinto','^((\\S+\\s*?){3})(\\s+)(.*?)
 
 Funzioni e variabili utilizzate:
 
-* [regexp_replace](../gr_funzioni/stringhe_di_testo_unico#regexp_replace)
+* [CASE](../gr_funzioni/condizioni/condizioni_unico.md#case)
+* [regexp_replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico#regexp_replace)
