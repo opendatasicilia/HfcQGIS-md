@@ -37,7 +37,7 @@ Restituisce un elenco di stringhe di credito (diritti di utilizzo) per i layer v
 
 Sintassi:
 
-- map_credits_<span style="color:red;">_id</span>_[,_<span style="color:red;">include_layer_names=false</span>_][,_<span style="color:red;">layer_name_separator=': '</span>_])
+- map_credits(_<span style="color:red;">id</span>_\[,_<span style="color:red;">include_layer_names=false</span>_][,_<span style="color:red;">layer_name_separator=': '</span>_])
 
 [ ] indica componenti opzionali
 
