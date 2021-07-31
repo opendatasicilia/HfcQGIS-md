@@ -65,6 +65,7 @@ nro|Esempio|Descrizione|Autore | Livello
 48|[finestra temporale](finestra_temporale.md)|Fissata una data, calcolare la somma di un attributo relativo ai 6 giorni precedenti|Salvatore Fiandaca | 4
 49|[rotazione simbolo parallelo ad una linea](rotazione_simbolo_parallelo_linea.md)|Lunghezze dei segmenti di un poligono|Salvatore Fiandaca | 3
 50|[livello acqua](livello_acqua.md)|Effetto riempimento recipiente d'acqua|Salvatore Fiandaca | 4
+51|[layer vicino](livello_acqua.md)|Come determinare il layer più vicino ad un altro|Salvatore Fiandaca | 4
 
 ## Partecipa
 
