@@ -51,6 +51,8 @@ attribute( get_feature_by_id(@layer, $id -1),
 
 Il [quesito](http://osgeo-org.1560.x6.nabble.com/Fill-down-with-QGIS-expressions-td5483747.html) è stato posto in lista [QGIS-user](http://osgeo-org.1560.x6.nabble.com/QGIS-User-f4125267.html) internazionale e la soluzione è di **Andrea Giudiceandrea** (grazie mille)
 
+Nella sezione **Funzioni**, **Gruppo Custom** è presente la funzione personalizzata [fill-down](../gr_funzioni/custom/custom_unico.md#fill-down) creata da Giulio Fattori.
+
 ---
 
 Funzioni e variabili utilizzate:
@@ -58,5 +60,5 @@ Funzioni e variabili utilizzate:
 * [@layer](../gr_funzioni/variabili/layer.md)
 * [if](../gr_funzioni/condizioni/condizioni_unico.md#if)
 * [attribute](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#attribute)
-* [\$id](../gr_funzioni/array/array_unico.md#id)
+* [$id](../gr_funzioni/array/array_unico.md#id)
 * [get_feature_by_id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#get_feature_by_id)
