@@ -6,6 +6,10 @@ Questo sito è stato realizzato da:
 
 _Giovan Battista Vitrano_ è famoso con il nikname **`gbvitrano`**.
 
+Dipendente del Comune di Palermo impegnato nell'Area tecnica della riqualificazione urbana e delle infrastrutture, specializzato in cose&robe e free&mancia.
+<br>
+Civic hacker nel tempo libero e attivista di cose&robe... Se siamo in tanti a fare cose sul territorio sono sicuro che ci viene bene… c’è chi fa più robe, c’è chi fa più cose, ma se queste cose e queste robe li mettiamo al servizio del Paese, avremo tanti territori pieni di cose e di robe che funzionano e la gente ne ha bisogno, ma attenzione a con confondere le cose con le robe, altrimenti si impazzisce! *[Crozza…docet](https://youtu.be/ZF20yFbJRXU?t=1m01s)*
+
 ---
 
 ## Contatti
