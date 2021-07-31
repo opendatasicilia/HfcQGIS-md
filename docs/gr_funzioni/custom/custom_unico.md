@@ -517,7 +517,7 @@ Sintassi:
 Argomenti:
 
 - _<span style="color:red;">start</span>_ un numero intero
-- </span>_stop</span>_ un numero intero
+- _<span style="color:red;">stop</span>_ un numero intero
 
 Esempi:
 
