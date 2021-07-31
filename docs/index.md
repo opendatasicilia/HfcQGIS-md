@@ -70,7 +70,7 @@ hide:
                             <h4 class="service_title"><a href="corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent">Corso di formazione</a></h4>
                           <p>Il corso è rivolto agli utenti che conoscono l'uso generale di QGIS e desiderano approfondire l'uso della tabella attributi e del calcolatore di campi.<br>
                               Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due giorni da otto ore)<br>
-                            <a href="corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_parent">Programma...</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            <a href="corso_formazione/corso_di_formazione/" title="Corso di formazione | Programma" target="_parent">Programma...</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;</p>
                         </div>
                     </div> 
 	<!-- single service -->
@@ -83,7 +83,7 @@ hide:
                       <div class="service_content">
                         <h4 class="service_title"><a href="contributing/" title="Supporter" target="_parent">Supporter </a></h4>
                           <p>Per realizzare questa guida ho impiegato del tempo e messo a disposizione tutta la mia conoscenza sullo strumento.<br>	  
-						  Puoi contribuire a&nbsp;<strong>HfcQGIS</strong> con una <a href="contributing/#donazione" target="_parent">donazione</a>, divulgando questo manuale, segnalando bug, suggerendo miglioramenti, suggerendo esempi/esercizi, Pull Requests o documentare una funzione con donazione.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;</p>
+						  Puoi contribuire a&nbsp;<strong>HfcQGIS</strong> con una <a href="contributing/#donazione" target="_parent">donazione</a>, divulgando questo manuale, segnalando bug, suggerendo miglioramenti, suggerendo esempi/esercizi, Pull Requests o documentare una funzione con donazione.<br>&nbsp;&nbsp;</p>
                       </div>
                     </div> 
        <!-- single service -->

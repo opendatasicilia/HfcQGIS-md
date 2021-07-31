@@ -18,7 +18,7 @@ guardando il video che Totò ha fatto sul suo mega lavoro HfcQGIS mi è sembrato
 Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma nel 99% dei casi si perdono, senza che ci sia alcuna evoluzione.<br>OpenDataSicilia è un'"**infrastrattura di persone**" dove una bella intenzione - come quella di sopra di Giovan Battista Vitrano - si può trasformare in un passaparola e poi in un progetto; specie quando alle spalle c'è una "[mega lavoro](https://github.com/pigreco/HfcQGIS)" da valorizzare come quello di Salvatore Fiandaca.
 
 <body>
- <link href="https://opendatasicilia.github.io/HfcQGIS-md/stylesheets/team.css" rel="stylesheet">
+ <link href="../stylesheets/team.css" rel="stylesheet">
   <!-- Team -->
     <div class="container">
       <div class="row">
