@@ -46,7 +46,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="../img/faccioni/salvatoreFiandaca.png" alt="">
             <h4>Salvatore Fiandaca</a></h4>
-        <p class="text-muted"><a href="autore/" title="Salvatore Fiandaca | Autore HfcQGIS" target="_self">Autore HfcQGIS</a></p> 
+        <p class="text-muted"><a href="../autore/" title="Salvatore Fiandaca | Autore HfcQGIS" target="_self">Autore HfcQGIS</a></p> 
 			<div>
                 <a href="https://twitter.com/totofiandaca" title="Salvatore Fiandaca" target="_blank">
                  <span class="fa-stack fa-lg">
@@ -60,7 +60,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="../img/faccioni/gianniVitrano.png" alt="">
             <h4>Giovan Battista Vitrano</h4>
-            <p class="text-muted"><a href="webmaster/gbvitrano/" title="Giovan Battista Vitrano | Webmaster" target="_self">Webmaster</a></p> 
+            <p class="text-muted"><a href="../webmaster/gbvitrano/" title="Giovan Battista Vitrano | Webmaster" target="_self">Webmaster</a></p> 
 			 <div><a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">
                  <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
