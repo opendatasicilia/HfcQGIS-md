@@ -13,9 +13,9 @@ Permette di salvare le espressioni utente personalizzate nel profilo utente. Int
 - **Pull request**: <https://issues.qgis.org/issues/20658>
 - **QEP**: <https://github.com/qgis/QGIS-Enhancement-Proposals/issues/135>
 - **raccolta fondi**: <https://pigrecoinfinito.com/2019/12/14/field-calc-di-qgis-save-expressions-crowdfunding/>
-- **Blog post**: https://pigrecoinfinito.com/2019/12/31/qgis-espressioni-utente/
+- **Blog post**: <https://pigrecoinfinito.com/2019/12/31/qgis-espressioni-utente/>
 
-## Da realiizare
+## Da realizzare
 
 Permetterebbe di visualizzare gli attributi di un layer diverso da quello corrente. È molto utile quando di creano espressioni che richiamano altri layer, per esempio usando `get_feature`, `get_feature_by_id`, `aggregate` e le funzioni di `overlay_*`.
 
