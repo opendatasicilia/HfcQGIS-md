@@ -9,7 +9,7 @@
 
 ## Static site generator
 - [MkDocs](https://www.mkdocs.org/)
-- [Material fopr MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 ## Plugin
 - [mkdocs-macros](https://mkdocs-macros-plugin.readthedocs.io/en/latest/)

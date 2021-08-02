@@ -722,6 +722,7 @@ nav:
         - Traduzione: traduzione.md
         - Release: release.md
         - Changelog: changelog.md
+        - Pull Request: pull-request.md
         - Risorse: risorse.md
         - Disclaimer: disclaimer.md
       #  - Informativa privacy estesa: privacy.md

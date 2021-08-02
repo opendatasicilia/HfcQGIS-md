@@ -80,3 +80,5 @@ Exif.Thumbnail.YResolution
 ```
 
 - expression : https://github.com/qgis/QGIS/pull/44401
+
+- tabella attributi : https://github.com/qgis/QGIS/pull/44471
