@@ -1,5 +1,6 @@
 # Pull Request
 
+
 In questa pagina l'elenco delle richieste di funzionalità legate al field calculator di QGIS, inoltrate da Salvatore Fiandaca nel repository ufficiale di [QGIS](https://github.com/qgis/QGIS).
 
 ## Realizzate
@@ -26,4 +27,4 @@ Permetterebbe di visualizzare gli attributi di un layer diverso da quello corren
 ![](https://user-images.githubusercontent.com/7631137/86370780-6d12b600-bc80-11ea-8a48-e1177eb6b056.png)
 - seconda ipotesi:
 
-![](https://user-images.githubusercontent.com/7631137/127764631-c2dd7821-69ca-4ce8-bee9-efefbae95f36.png)
+[![](https://user-images.githubusercontent.com/7631137/127764631-c2dd7821-69ca-4ce8-bee9-efefbae95f36.png)](https://user-images.githubusercontent.com/7631137/127764631-c2dd7821-69ca-4ce8-bee9-efefbae95f36.png)
