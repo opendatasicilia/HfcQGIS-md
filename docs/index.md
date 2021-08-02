@@ -38,7 +38,7 @@ hide:
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
                         <div class="service_icon">
-                            <i class="lni lni-calculator"></i>
+                           <a href="calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent"> <i class="lni lni-calculator"></i></a>
                         </div>
                         <div class="service_content">
                             <h4 class="service_title"><a href="calcolatore_campi/field_calc/" title="Il calcolatore di campi" target="_parent">Field Calculator</a></h4>
@@ -51,7 +51,7 @@ hide:
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
                         <div class="service_icon">
-                            <i class="lni lni-ruler-pencil"></i>
+                          <a href="gr_funzioni/gruppo_funzioni/" title="Elenco funzioni QGIS" target="_parent"> <i class="lni lni-ruler-pencil"></i></a>
                         </div>
                         <div class="service_content">
                             <h4 class="service_title"><a href="gr_funzioni/gruppo_funzioni/" title="Elenco funzioni QGIS" target="_parent">Funzioni</a></h4>
@@ -64,7 +64,7 @@ hide:
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
                         <div class="service_icon">
-                            <i class="lni lni-euro"></i>
+                           <a href="corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent"> <i class="lni lni-euro"></i></a>
                         </div>
                         <div class="service_content">
                             <h4 class="service_title"><a href="corso_formazione/corso_di_formazione/" title="Corso di formazione (Novità)" target="_parent">Corso di formazione</a></h4>
@@ -78,7 +78,7 @@ hide:
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
                         <div class="service_icon">
-                           <i class="lni lni-users"></i>
+                          <a href="contributing/" title="Supporter" target="_parent"><i class="lni lni-users"></i></a>
                         </div>
                       <div class="service_content">
                         <h4 class="service_title"><a href="contributing/" title="Supporter" target="_parent">Supporter </a></h4>
