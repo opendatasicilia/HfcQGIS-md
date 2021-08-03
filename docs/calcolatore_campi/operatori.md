@@ -7,7 +7,7 @@ L'interfaccia del calcolatore rende immediatamente disponibili alcuni operatori:
 
 ![operatori](../img/operatori_calc1.png)
 
- ## uguale
+## uguale
 
     - uguaglianza tra numeri 10 = 10;
     - uguaglianza tra lettere 'A' = 'A' ;
