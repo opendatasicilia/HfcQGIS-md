@@ -2,6 +2,10 @@
 
 Il pulsante ![calc](https://docs.qgis.org/testing/en/_images/mActionCalculateField.png) nella tabella degli attributi consente di eseguire calcoli sulla base di valori di attributo esistenti o funzioni definite, ad esempio, per calcolare la lunghezza o l'area delle caratteristiche geometriche. I risultati possono essere scritti in un nuovo campo di attributo, un campo virtuale, oppure possono essere utilizzati per aggiornare i valori in un campo esistente.
 
+## Perché usarlo
+
+Il **Field Calc** di **QGIS** ha oltre 300 funzioni e di queste oltre 120 sono funzioni geometriche. Tutta questa potenza di fuoco permette di risolvere molti problemi GIS come la vicinanza, sovrapposizione, aggregazioni, selezioni ecc... inoltre permette di **scrivere/aggiornare** i risultati di espressioni direttamente nella tabella degli attributi senza creare altri layer.
+
 ## Dove usarlo
 
 Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la modifica. Il Calcolatore in realtà è solo una interfaccia che ci permette di accedere alle funzioni e di creare semplici o complesse espressioni. Le espressioni di QGIS vengono utilizzate in molti contesti, per esempio:
