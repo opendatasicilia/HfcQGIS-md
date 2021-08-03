@@ -1,5 +1,8 @@
 # Operatori interfaccia
 
+!!! Abstract "Intro"
+    **In questa sezione documenteremo gli operatori presenti nell'interfaccia del Field Cal.**
+
 L'interfaccia del calcolatore rende immediatamente disponibili alcuni operatori:
 
 ![operatori](../img/operatori_calc1.png)

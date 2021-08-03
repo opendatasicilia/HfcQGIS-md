@@ -1,5 +1,8 @@
 # Interfaccia calcolatore di campi
 
+!!! Abstract "Intro"
+    **In questa sezioni descriveremo tutte le parti dell'interfaccia del Field Calc.**
+
 [![interfaccia](../img/interfaccia_v2.png)](../img/interfaccia_v2.png)
 
 1. se attivato aggiorna solo le geometrie selezionate (indica anche il numero delle feature selezionate);
@@ -37,7 +40,7 @@
 18. tasto OK per applicare l'espressione;
 19. Help sulla funzione selezionata.
 
-## Commenti per documentare espressione
+## Commenti espressione
 
 [![screen](../img/finestra_field_calc/commenti.png)](../img/finestra_field_calc/commenti.png)
 
@@ -45,7 +48,7 @@
 1. per riga intera `/*commento*/`
 2. per commentare una riga `--commento`
 
-## Interfaccia calcolatore di campi e finestre nascoste
+## Interfaccia e finestre nascoste
 
 Nel caso risulti nascosta la sezione Gruppi funzioni (vale fino alla QGIS 3.4):
 
