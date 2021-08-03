@@ -1,6 +1,7 @@
 # Concetti fondamentali sul calcolatore di campi di QGIS
 
-In questa sezioni sono raccolti i concetti fondamentali sul Field Calc espressi tramite un elenco puntato:
+!!! Abstract "Intro"
+    **In questa sezioni sono raccolti i concetti fondamentali sul Field Calc espressi tramite un elenco puntato. La conoscenza di questi concetti permette di velocizzare il lavoro e capire il comportamento del Field Calc.**
 
 1. il calcolatore di campi è attivabile solo per layer **vettoriale** e tabelle **editabili**;
 2. la creazione di un **nuovo campo** è relativo al layer selezionato nella TOC (Pannello Layer);
