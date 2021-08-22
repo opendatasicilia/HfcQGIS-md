@@ -4,4 +4,4 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
-10/08/2021 | lancio #HfcQGIS v2
+01/09/2021 | lancio #HfcQGIS v2

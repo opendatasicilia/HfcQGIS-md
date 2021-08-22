@@ -3,7 +3,7 @@
 
 ---
 
-Attualmente ci sono **52** esempi svolti! (in evoluzione)
+Attualmente ci sono **53** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -66,8 +66,8 @@ nro|Esempio|Descrizione|Autore | Livello
 49|[rotazione simbolo parallelo ad una linea](rotazione_simbolo_parallelo_linea.md)|Lunghezze dei segmenti di un poligono|Salvatore Fiandaca | 3
 50|[livello acqua](livello_acqua.md)|Effetto riempimento recipiente d'acqua|Salvatore Fiandaca | 4
 51|[layer vicino](layer_vicino.md)|Come determinare il layer più vicino ad un altro|Salvatore Fiandaca | 4
-52|[Eliminare testo tra parentesi](eliminare_testo_tra_parentesi.md)|Eliminare il testo tra parentesi tonde |Salvatore Fiandaca | 3
-53|[Segmento minimo facciata-strada](segmento_minimo_facciata_strada.md)|Determinare il segmento minimo tra centroide facciata edifici e strada più vicina |Salvatore Fiandaca | 4
+52|[eliminare testo tra parentesi](eliminare_testo_tra_parentesi.md)|Eliminare il testo tra parentesi tonde |Salvatore Fiandaca | 3
+53|[segmento minimo facciata-strada](segmento_minimo_facciata_strada.md)|Determinare il segmento minimo tra centroide facciata edifici e strada più vicina |Salvatore Fiandaca | 4
 
 ## Partecipa
 
