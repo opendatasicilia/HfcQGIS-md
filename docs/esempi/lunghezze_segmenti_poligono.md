@@ -45,6 +45,8 @@ questa espressione ci permette di fare una serie di interrogazioni come:
    3. coordinate di un vertice del lato n;
    4. ecc...
 
+IL tema (la quotatura) è scaricabile da qui: <https://plugins.qgis.org/styles/5/>
+
 ---
 
 Funzioni e variabili utilizzate:
