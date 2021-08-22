@@ -66,6 +66,7 @@ nro|Esempio|Descrizione|Autore | Livello
 49|[rotazione simbolo parallelo ad una linea](rotazione_simbolo_parallelo_linea.md)|Lunghezze dei segmenti di un poligono|Salvatore Fiandaca | 3
 50|[livello acqua](livello_acqua.md)|Effetto riempimento recipiente d'acqua|Salvatore Fiandaca | 4
 51|[layer vicino](layer_vicino.md)|Come determinare il layer più vicino ad un altro|Salvatore Fiandaca | 4
+52|[Eliminare testo tra parentesi](eliminare_testo_tra_parentesi.md)|Eliminare il testo tra parentesi tonde |Salvatore Fiandaca | 3
 
 ## Partecipa
 
