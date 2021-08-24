@@ -4,7 +4,7 @@
 
 ![](../img/esempi/sfida_tw/sfida.png)
 
-## La mia soluzione
+## La mia prima soluzione
 
 ```
 with_variable('andy',
@@ -29,6 +29,48 @@ oppure direttamente nell'algoritmo _Geometria tramite espressione_ per ottenere 
 
 ![](../img/esempi/sfida_tw/sfida2.png)
 
+altra soluzione con stesso risultato:
+
+```
+with_variable('toto',
+    collect_geometries( 
+    array_foreach(
+    generate_series(1,num_geometries(segments_to_lines($geometry))),
+    centroid(geometry_n(segments_to_lines($geometry),@element)))),
+/*shortest line*/
+    shortest_line(@toto,overlay_nearest('roads',$geometry)[0]))
+```
+
+ma entrambe le soluzioni hanno un problema, la funzione `overlay_nearest` restituisce la strada più vicina all'edificio e non al centroide della facciata, ecco un esempio estratto dal dataset:
+
+![](../img/esempi/sfida_tw/sfida3.png)
+
+la freccia rossa indica il segmanto più corto tracciato erroneamente in quanto la strada più vicina risulterebbe quella indicata con (1).
+
+La soluzione corretta deve per forza passare per due step:
+1. estrarre i centroidi delle facciate:
+2. tracciare il segmento più corto.
+
+I centroidi delle facciate degli edifici li estraggo con:
+
+```
+collect_geometries (
+    array_foreach (
+    generate_series (1, num_geometries (segments_to_lines ($ geometry)))),
+    centroid (geometry_n (segments_to_lines ($ geometry), @ element))))
+```
+
+il segmento più corto lo traccio con:
+
+```
+shortest_line( $geometry,
+overlay_nearest('roads',$geometry)[0])
+```
+
+ecco il risultato:
+
+![](../img/esempi/sfida_tw/sfida4.png)
+
 ---
 
 Funzioni e variabili utilizzate:
@@ -38,6 +80,7 @@ Funzioni e variabili utilizzate:
 * [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach)
 * [array_find](../gr_funzioni/array/array_unico.md#array_find)
 * [num_geometries](../gr_funzioni/geometria/geometria_unico.md#num_geometries)
+* [collect_geometries](../gr_funzioni/geometria/geometria_unico.md#collect_geometries)
 * [geometry_n](../gr_funzioni/geometria/geometria_unico.md#geometry_n)
 * [segments_to_lines](../gr_funzioni/geometria/geometria_unico.md#segments_to_lines)
 * [overlay_nearest](../gr_funzioni/geometria/geometria_unico.md#overlay_nearest)
