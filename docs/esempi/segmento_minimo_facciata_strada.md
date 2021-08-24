@@ -4,7 +4,7 @@
 
 ![](../img/esempi/sfida_tw/sfida.png)
 
-## La mia prima soluzione
+## Prima soluzione
 
 ```
 with_variable('andy',
@@ -47,8 +47,11 @@ ma entrambe le soluzioni hanno un problema, la funzione `overlay_nearest` restit
 
 la freccia rossa indica il segmanto più corto tracciato erroneamente in quanto la strada più vicina risulterebbe quella indicata con (1).
 
+## Seconda soluzione
+
 La soluzione corretta deve per forza passare per due step:
-1. estrarre i centroidi delle facciate:
+
+1. estrarre i centroidi delle facciate;
 2. tracciare il segmento più corto.
 
 I centroidi delle facciate degli edifici li estraggo con:
