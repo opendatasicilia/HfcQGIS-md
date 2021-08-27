@@ -80,5 +80,11 @@ Exif.Thumbnail.YResolution
 ```
 
 - expression : https://github.com/qgis/QGIS/pull/44401
+- straight_distance_2d : https://github.com/qgis/QGIS/pull/44767
+- mesh : https://github.com/qgis/QGIS/pull/44786
+- mesh : https://github.com/qgis/QGIS/pull/44835
+- $z : https://github.com/qgis/QGIS/pull/44776
+- affine_transform : https://github.com/qgis/QGIS/pull/44771
 
 - tabella attributi : https://github.com/qgis/QGIS/pull/44471
+- widget : https://github.com/qgis/QGIS/pull/44710

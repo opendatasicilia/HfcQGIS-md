@@ -1,6 +1,6 @@
 # Segmento minimo tra facciata e strada
 
-[New SpatialAnalysis Challenge](https://twitter.com/spatialthoughts/status/1427691959171248130): Riesci a definire un flusso di lavoro per collegare il bordo di ogni edificio rivolto verso la strada al punto più vicino sul segmento di strada? L'idea alla base della sfida è trovare il bordo del poligono il cui punto centrale è più vicino a una strada e quindi collegarlo con il punto più vicino sulla strada. [tweet](https://twitter.com/spatialthoughts/status/1427691959171248130)
+[New SpatialAnalysis Challenge](https://twitter.com/spatialthoughts/status/1427691959171248130): Riesci a definire un flusso di lavoro per collegare il bordo di ogni edificio rivolto verso la strada al punto più vicino sul segmento di strada? L'idea alla base della sfida è trovare il bordo del poligono il cui punto centrale è più vicino a una strada e quindi collegarlo con il punto più vicino sulla strada. [tweet1](https://twitter.com/spatialthoughts/status/1427691959171248130),[tweet2](https://twitter.com/spatialthoughts/status/1430240316125179904)
 
 ![](../img/esempi/sfida_tw/sfida.png)
 
