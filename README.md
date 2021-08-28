@@ -12,7 +12,7 @@
 
 ## Licenze
 
-Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/)
+Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: [Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/) - per maggiori info, fare riferimento alla [Licenza](./docs/LICENSE_my.md) presente nella sezione **About**.
 
 ## Donate
 
