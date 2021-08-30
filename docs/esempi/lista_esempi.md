@@ -74,3 +74,6 @@ nro|Esempio|Descrizione|Autore | Livello
 Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis-md.readthedocs.io/it/latest/contributing/#suggerire-esempiesercizi):
 
 per maggiori info [scrivi all'autore](https://hfcqgis-md.readthedocs.io/it/latest/autore/#contatti)
+
+## Licenza
+In questa sezione [Esempi svolti](docs/esempi/lista_esempi.md) e tutti gli esercizi svolti, la licenza è [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)

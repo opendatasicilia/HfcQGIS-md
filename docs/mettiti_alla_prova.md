@@ -194,3 +194,6 @@ nro| range (risposte esatte) | significato
 ---
 
 Contatto : ✉ `pigrecoinfinito@gmail.com`
+
+## Licenza
+In questa sezione [Provaci tu](docs/mettiti_alla_prova.md) e tutti gli esercizi svolti, la licenza è [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
