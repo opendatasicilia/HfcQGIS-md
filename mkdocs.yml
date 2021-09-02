@@ -244,7 +244,9 @@ nav:
     - Sostieni: 
         - Contribuire: contributing.md
         - Da documentare: gr_funzioni/da_documentare.md
-
+    
+    - Sitografia: sitografia_field_calc.md
+    
     - About:
         - OpenDataSicilia: ods.md
         - Autore HfcQGIS: autore.md
