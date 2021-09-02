@@ -12,3 +12,4 @@ nro | descrizione                                    | link
 6   | QGISe la selezione con aggregazione            | <https://medium.com/@salvatorefiandaca/qgis-e-la-selezione-con-aggregazione-dcb1c709d676>
 7   | QGIS e le funzioni di aggregazione             | <https://medium.com/@salvatorefiandaca/qgis-3-0-funzioni-di-aggregazione-9c8c389985c5>
 8   | Tweet SpatialAnalysis Challenge                | <https://twitter.com/totofiandaca/status/1430108211068219416>
+9   | QGIS: generare un atlante basato su campi      | <https://medium.com/tantotanto/qgis-generare-un-atlante-basato-su-campi-4eeff34b3900>
