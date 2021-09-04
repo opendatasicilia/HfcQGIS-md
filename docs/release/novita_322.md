@@ -10,7 +10,7 @@ In costruzione!!!
 
 - `get_feature e array` : https://github.com/qgis/QGIS/pull/43352
 
-- expression : https://github.com/qgis/QGIS/pull/44081
+- `exif() and exif_geotag()` : https://github.com/qgis/QGIS/pull/44081
 
 ```
 Exif.GPSInfo.GPSAltitude
@@ -79,12 +79,12 @@ Exif.Thumbnail.XResolution
 Exif.Thumbnail.YResolution
 ```
 
-- expression : https://github.com/qgis/QGIS/pull/44401
-- straight_distance_2d : https://github.com/qgis/QGIS/pull/44767
-- mesh : https://github.com/qgis/QGIS/pull/44786
+- `sinuosity` : https://github.com/qgis/QGIS/pull/44401
+- `straight_distance_2d` : https://github.com/qgis/QGIS/pull/44767
+- `$vertex_as_point and $vertex_z functions` : https://github.com/qgis/QGIS/pull/44786
 - mesh : https://github.com/qgis/QGIS/pull/44835
-- $z : https://github.com/qgis/QGIS/pull/44776
-- affine_transform : https://github.com/qgis/QGIS/pull/44771
+- `$z` : https://github.com/qgis/QGIS/pull/44776
+- `affine_transform` : https://github.com/qgis/QGIS/pull/44771
 
 - tabella attributi : https://github.com/qgis/QGIS/pull/44471
 - widget : https://github.com/qgis/QGIS/pull/44710

@@ -20,3 +20,7 @@ nro | descrizione                                    | link
 14  | Espressioni per pulizia dati                   | <https://pigrecoinfinito.com/2019/02/18/qgis-le-espressioni-regolari-per-la-pulizia-dei-dati/>
 15  | Espressioni per interpolare dati               | <https://pigrecoinfinito.com/2021/06/15/interpolare-i-valori-m-dei-vertici-di-una-linea/>
 16  | Espressioni nel compositore di stampe          | <https://pigrecoinfinito.com/2021/03/03/qgis-intestazione-e-pie-di-pagina-negli-atlas/>
+17  | Espressioni e Array                            | <https://pigrecoinfinito.com/2020/05/20/elenco-ordinato-di-comuni-attraversati-da-un-itinerario-domodossola-aosta/>
+18  | Espressioni e Varaibili                        | <https://pigrecoinfinito.com/2020/04/14/qgis-grafici-geoplot-usando-solo-il-geometry-generator/>
+19  | Espressioni e Array su Tabella Attributi       | <https://pigrecoinfinito.com/2020/01/23/qgis-tabella-attributi-ordinare-usando-gli-array/>
+20  | Espressioni e condizioni                       | <https://pigrecoinfinito.com/2020/03/02/qgis-etichettatura-bustrofedica/>
