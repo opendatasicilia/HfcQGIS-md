@@ -1,7 +1,6 @@
 ## Project information
 site_name: Help field calculator
-site_url: https://hfcqgis-md.readthedocs.io/it/latest
-site_description: Help funzioni calcolatore di campi di QGIS
+site_url: https://hfcqgis.opendatasicilia.it/site_description: Help funzioni calcolatore di campi di QGIS
 site_author: RTD by OpenDataSicilia.it
 
 ## Repository
@@ -10,14 +9,14 @@ repo_url: https://github.com/opendatasicilia/HfcQGIS-md
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: <a href="https://opendatasicilia.github.io/HfcQGIS-md/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://opendatasicilia.github.io/HfcQGIS-md/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a>
+copyright: <a href="https://hfcqgis.opendatasicilia.it/HfcQGIS-md/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://hfcqgis.opendatasicilia.it/HfcQGIS-md/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a>
 
 ## Social Media
 extra:
   manifest: "manifest.webmanifest"
   social:
     - icon: fontawesome/solid/home
-      link: https://hfcqgis-md.readthedocs.io/
+      link: https://hfcqgis.opendatasicilia.it/
       name: Home Page
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/opendatasicilia
@@ -38,7 +37,7 @@ extra:
       link: https://www.paypal.com/paypalme/pigrecoinfinito
       name: Donazione a HfcQGIS con PayPal
     - icon: fontawesome/solid/rss
-      link: https://hfcqgis-md.readthedocs.io/it/latest/feed_rss_created.xml
+      link: https://hfcqgis.opendatasicilia.it/feed_rss_created.xml
       name: Feed RSS
 
   analytics:
