@@ -27,7 +27,7 @@ extra:
       name: gruppo facebook OpenDataSicilia
     - icon: fontawesome/brands/github
       link: https://github.com/opendatasicilia/HfcQGIS-md
-      name: Repoisitory GitHub
+      name: Repository GitHub
     - icon: fontawesome/brands/telegram
       link: http://twitter.com/opendatasicilia
       name: gruppo Telegram OpenDataSicilia
@@ -44,7 +44,7 @@ extra:
   analytics:
     provider: google
     property: UA-122084242-1
-    
+
 ## Configuration
 theme:
   name: material
@@ -67,7 +67,7 @@ theme:
   favicon: img/favicon.ico
   icon:
   logo: img/logo_hfc_white.svg
-  
+
 plugins:
 - search
 - mkdocstrings
@@ -77,7 +77,7 @@ plugins:
     abstract_chars_count: 160
     date_from_meta:
         as_creation: "date"
-        as_update: false 
+        as_update: false
         datetime_format: "%d-%m-%Y"
       # datetime_format: "%Y-%m-%d"
     image: https://materialmkdocs-gb.readthedocs.io/it/latest/img/hfc_rss.png
@@ -88,12 +88,12 @@ plugins:
     #  url_parameters:
     #      utm_source: "documentation"
     #      utm_medium: "RSS"
-    #      utm_campaign: "feed-syndication"  
- 
+    #      utm_campaign: "feed-syndication"
+
 markdown_extensions:
 - toc:
         permalink: ↵
-- meta        
+- meta
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
@@ -117,26 +117,26 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
- 
+
 extra_css:
    - stylesheets/gbextra.css
-   
+
 ## Page tree
 nav:
     - Home: index.md
-    
+
     - Field Calculator:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
        - Concetti Field Calc: calcolatore_campi/concetti.md
        - Interfaccia Field Calc: calcolatore_campi/interfaccia.md
        - Operatori interfaccia: calcolatore_campi/operatori.md
        - Concetti tabella attributi: calcolatore_campi/tabella_attributi.md
-       
-    - Novità: 
-       - Intro Novità: 
+
+    - Novità:
+       - Intro Novità:
            - Quadro sinottico: release/intro_novita.md
            - QGIS 3.22 | 22/10/2021: release/novita_322.md
-           - QGIS 3.20 | 21/06/2021: release/novita_320.md   
+           - QGIS 3.20 | 21/06/2021: release/novita_320.md
            - QGIS 3.18 | 22/02/2021: release/novita_318.md
            - QGIS 3.16 | 23/10/2020: release/novita_316.md
            - QGIS 3.14 | 19/06/2020: release/novita_314.md
@@ -147,20 +147,20 @@ nav:
            - QGIS 3.4  | 26/10/2018: release/novita_34.md
            - QGIS 3.2  | 22/06/2018: release/novita_32.md
            - QGIS 3.0  | 23/02/2018: release/novita_30.md
-       
+
     - Funzioni:
        - Elenco gruppi: gr_funzioni/gruppo_funzioni.md
        - Aggrega: gr_funzioni/aggrega/aggrega_unico.md
        - Array: gr_funzioni/array/array_unico.md
        - Campi e valori: gr_funzioni/campi_e_valori/campi_e_valori_unico.md
-       - Colore: gr_funzioni/colore/colore_unico.md               
+       - Colore: gr_funzioni/colore/colore_unico.md
        - Condizioni: gr_funzioni/condizioni/condizioni_unico.md
        - Conversioni: gr_funzioni/conversioni/conversioni_unico.md
        - Corrispondenza fuzzy: gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy_unico.md
        - Custom: gr_funzioni/custom/custom_unico.md
        - Data ora: gr_funzioni/data_ora/data_ora_unico.md
-       - Espressioni utente: gr_funzioni/espressione_utente/espressione_utente_unico.md             
-       - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi_unico.md          
+       - Espressioni utente: gr_funzioni/espressione_utente/espressione_utente_unico.md
+       - File e percorsi: gr_funzioni/file_e_percorsi/file_e_percorsi_unico.md
        - Generale: gr_funzioni/generale/generale_unico.md
        - Geometria: gr_funzioni/geometria/geometria_unico.md
        - Layer Mappa: gr_funzioni/layer_mappa/layer_mappa_unico.md
@@ -174,10 +174,10 @@ nav:
        - Relazioni:  gr_funzioni/relazioni/relazioni.md
        - Stringhe di testo: gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md
        - Variabili: gr_funzioni/variabili/variabili.md
-        
-    - Esempi svolti: 
+
+    - Esempi svolti:
         # - Uso delle funzioni: esempi/lista_esempi.md
-        - Esempi svolti: 
+        - Esempi svolti:
            - Lista esempi: esempi/lista_esempi.md
            - Campo area: esempi/add_col_area.md
            - Campi coordinate: esempi/add_coord_xy.md
@@ -232,25 +232,25 @@ nav:
            - Layer più vicino: esempi/layer_vicino.md
            - Eliminare testo tra parentesi: esempi/eliminare_testo_tra_parentesi.md
            - Segmento minimo facciata strada: esempi/segmento_minimo_facciata_strada.md
-        - Provaci tu: mettiti_alla_prova.md   
-        
+        - Provaci tu: mettiti_alla_prova.md
+
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
-    
+
     - Lavora con Noi:
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
         # - Contribuire a HfcQGIS: contributing.md
-    
-    - Sostieni: 
+
+    - Sostieni:
         - Contribuire: contributing.md
         - Da documentare: gr_funzioni/da_documentare.md
-    
+
     - Sitografia: sitografia_field_calc.md
-    
+
     - About:
         - OpenDataSicilia: ods.md
         - Autore HfcQGIS: autore.md
-        - Webmaster: webmaster/gbvitrano.md 
+        - Webmaster: webmaster/gbvitrano.md
         - Traduzione: traduzione.md
         - Release: release.md
         - Changelog: changelog.md
@@ -259,5 +259,5 @@ nav:
         - Disclaimer: disclaimer.md
         - Licenza: LICENSE_my.md
       #  - Informativa privacy estesa: privacy.md
-    # - Webmaster: webmaster/gbvitrano.md 
-  # - Tags: tags.md    
+    # - Webmaster: webmaster/gbvitrano.md
+  # - Tags: tags.md
