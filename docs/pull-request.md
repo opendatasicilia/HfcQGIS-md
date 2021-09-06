@@ -5,7 +5,7 @@ In questa pagina l'elenco delle richieste di funzionalità legate al field calcu
 
 ## Realizzate
 
-Permette di salvare le espressioni utente personalizzate nel profilo utente. Introdotta a partire da [QGIS 3.12 Bucaresti](https://hfcqgis-md.readthedocs.io/it/latest/release/novita_312/)
+Permette di salvare le espressioni utente personalizzate nel profilo utente. Introdotta a partire da [QGIS 3.12 Bucaresti](https://hfcqgis.opendatasicilia.it/release/novita_312/)
 
 <https://github.com/qgis/QGIS/pull/33437>
 

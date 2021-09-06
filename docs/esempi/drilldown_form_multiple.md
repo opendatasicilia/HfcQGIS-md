@@ -1,6 +1,6 @@
 # Creare moduli con filtro dinamico (anche multi-selezione)
 
-Una delle novità introdotte nella QGIS 3.2 è la [Form drill-down (a cascata) WIDGET Value Relation (Relazione valore)](https://hfcqgis-md.readthedocs.io/it/latest/release/novita_32/#form-drill-down-a-cascata-widget-value-relation-relazione-valore) che permette di creare delle Form con filtro dinamico, in questo esercizio vedremo come realizzare una Form semplice e una multiselezione.
+Una delle novità introdotte nella QGIS 3.2 è la [Form drill-down (a cascata) WIDGET Value Relation (Relazione valore)](https://hfcqgis.opendatasicilia.it/release/novita_32/#form-drill-down-a-cascata-widget-value-relation-relazione-valore) che permette di creare delle Form con filtro dinamico, in questo esercizio vedremo come realizzare una Form semplice e una multiselezione.
 
 [![](../img/esempi/drilldown_form/img_00.png)](../img/esempi/drilldown_form/img_00.png)
 

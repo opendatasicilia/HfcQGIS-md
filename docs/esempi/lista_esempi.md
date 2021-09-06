@@ -71,9 +71,9 @@ nro|Esempio|Descrizione|Autore | Livello
 
 ## Partecipa
 
-Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis-md.readthedocs.io/it/latest/contributing/#suggerire-esempiesercizi):
+Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis.opendatasicilia.it/contributing/#suggerire-esempiesercizi):
 
-per maggiori info [scrivi all'autore](https://hfcqgis-md.readthedocs.io/it/latest/autore/#contatti)
+per maggiori info [scrivi all'autore](https://hfcqgis.opendatasicilia.it/autore/#contatti)
 
 ## Licenza
 In questa sezione [Esempi svolti](docs/esempi/lista_esempi.md) e tutti gli esercizi svolti, la licenza è [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
