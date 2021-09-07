@@ -68,6 +68,7 @@ nro|Esempio|Descrizione|Autore | Livello
 51|[layer vicino](layer_vicino.md)|Come determinare il layer più vicino ad un altro|Salvatore Fiandaca | 4
 52|[eliminare testo tra parentesi](eliminare_testo_tra_parentesi.md)|Eliminare il testo tra parentesi tonde |Salvatore Fiandaca | 3
 53|[segmento minimo facciata-strada](segmento_minimo_facciata_strada.md)|Determinare il segmento minimo tra centroide facciata edifici e strada più vicina |Salvatore Fiandaca | 4
+54|[selezionare punti più vicini](selezionare_punti_vicini_punto.md)|Selezionare 'n' punti più vicini a partire da un punto selezionato |Salvatore Fiandaca | 4
 
 ## Partecipa
 

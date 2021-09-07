@@ -232,6 +232,7 @@ nav:
            - Layer più vicino: esempi/layer_vicino.md
            - Eliminare testo tra parentesi: esempi/eliminare_testo_tra_parentesi.md
            - Segmento minimo facciata strada: esempi/segmento_minimo_facciata_strada.md
+           - Selezionare punti più vicini ad un punto selezionato: selezionare_punti_vicini_punto.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
