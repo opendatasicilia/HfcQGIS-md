@@ -3,7 +3,7 @@
 
 ---
 
-Attualmente ci sono **53** esempi svolti! (in evoluzione)
+Attualmente ci sono **54** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
