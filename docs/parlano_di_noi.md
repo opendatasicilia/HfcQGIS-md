@@ -1,5 +1,9 @@
 # Parlano di noi
 
+* **06/06/2021** Facebook [GTer](https://www.facebook.com/Gteronline/posts/4435244053210004) by [GTER](https://www.facebook.com/Gteronline)
+
+![screen](./img/parlano_di_noi/gter2021_2.png)
+
 * **23/06/2021** Facebook [GeoBreack 28](https://www.facebook.com/Gteronline/posts/4215847015149710) by [GTER](https://www.facebook.com/Gteronline)
 
 ![screen](./img/parlano_di_noi/gter2021.png)
