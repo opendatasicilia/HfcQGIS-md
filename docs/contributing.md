@@ -13,13 +13,13 @@ Per realizzare questa guida ho impiegato del tempo e messo a disposizione tutta 
 Per favore usa i tasti di condivisione social inserendo alcuni hastag: #hfcqgis #qgis @opendatasicilia (se hai attivo un _ad blocker_, i tasti di condivisione non verranno visualizzati).
 
 ### Segnalando
-Se trovi qualche malfunzionamento segnalalo, così da migliorare la guida.
+Se trovi qualche malfunzionamento segnalalo, così da migliorare la guida, usa le [issue](https://github.com/opendatasicilia/HfcQGIS-md/issues) del repository.
 
 ### Suggerendo
-Se hai suggerimenti o migliorie segnalali.
+Se hai suggerimenti o migliorie segnalali usando le [Discussions](https://github.com/opendatasicilia/HfcQGIS-md/discussions).
 
 ### Esercizi
-Se vuoi che la [sezione esempi](./esempi/lista_esempi.md) cresca, suggerisci degli esempi/esercizi che vorresti vedere.
+Se vuoi che la [sezione esempi](./esempi/lista_esempi.md) cresca, suggerisci degli esempi/esercizi che vorresti vedere magari aprendo una discussione [qui](https://github.com/opendatasicilia/HfcQGIS-md/discussions).
 
 ### Pull Requests
 Includere screenshot e GIF animate nella richiesta di pull, quando possibile.
