@@ -2173,10 +2173,6 @@ geom_to_wkt(make_rectangle_3points(make_point(0, 0), make_point(0,5),make_point(
 
 --
 
-[![](../../img/geometria/make_rectangle_3points/make_rectangle_3points2.png)](../../img/geometria/make_rectangle_3points/make_rectangle_3points2.png)
-
----
-
 ## make_regular_polygon
 
 Crea un poligono regolare.
