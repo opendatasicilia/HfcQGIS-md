@@ -73,7 +73,6 @@ theme:
 
 plugins:
 - search:
-    prebuild_index: true
 - mkdocstrings
 - autolinks
 - macros 
