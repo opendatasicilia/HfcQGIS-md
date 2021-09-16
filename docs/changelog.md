@@ -8,4 +8,4 @@ data       | descrizione
 07/09/2021 | aggiunto [54esimo](esempi/selezionare_punti_vicini_punto.md) esempio
 07/09/2021 | attivate le [Discussions](https://github.com/opendatasicilia/HfcQGIS-md/discussions) nel repository
 07/09/2021 | aggiornata la sezione Parlano di Noi - Post di GTer
-16/09/2021 | aggiunto le novità rilevanti della QGIS 3.22 Białowieża
+16/09/2021 | aggiunto le novità rilevanti della [QGIS 3.22 Białowieża](release/novita_322.md)
