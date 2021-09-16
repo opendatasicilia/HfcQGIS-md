@@ -112,8 +112,8 @@ Exif.Thumbnail.YResolution
 
 saranno aggiunte in futuro maggiori info
 
-- `selezione tramite espressione` : https://github.com/qgis/QGIS/pull/44835
+- `selezione tramite espressione` : <https://github.com/qgis/QGIS/pull/44835>
 
 ![](https://user-images.githubusercontent.com/7416892/130723918-0f07d9da-2e54-40b7-8da3-301c88c69846.gif)
 
-- `$vertex_as_point and $vertex_z functions` : https://github.com/qgis/QGIS/pull/44786
+- `$vertex_as_point and $vertex_z functions` : <https://github.com/qgis/QGIS/pull/44786>
