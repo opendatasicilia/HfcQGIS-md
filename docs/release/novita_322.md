@@ -1,6 +1,6 @@
-# Novità rilevanti introdotte nella 3.22 Bialowieza IN LAVORAZIONE!!!
+# Novità rilevanti introdotte nella 3.22 Białowieża
 
-![](../img/splashscreen/splashDEV.png)
+![](../img/splashscreen/splash_3_22.png)
 
 <https://www.qgis.org/it/site/forusers/visualchangelog322/index.html>
 
