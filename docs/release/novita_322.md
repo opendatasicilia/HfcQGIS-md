@@ -1,4 +1,4 @@
-# Novità rilevanti introdotte nella 3.22 Białowieża
+# Novità rilevanti introdotte in QGIS 3.22 Białowieża
 
 ![](../img/splashscreen/splash_3_22.png)
 
@@ -79,6 +79,7 @@ Exif.Thumbnail.ResolutionUnit
 Exif.Thumbnail.XResolution
 Exif.Thumbnail.YResolution
 ```
+- `exif_geotag()`
 
 ![](../img/novita_322/img_02.png)
 
