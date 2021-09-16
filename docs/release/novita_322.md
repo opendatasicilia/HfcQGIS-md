@@ -1,16 +1,17 @@
-# Novità rilevanti introdotte nella 3.22 Bialowieza IN LAVORAZIONE!!!
+# Novità rilevanti introdotte in QGIS 3.22 Białowieża
 
-![](../img/splashscreen/splashDEV.png)
+[![](../img/splashscreen/splash_3_22.png)](../img/splashscreen/splash_3_22.png)
 
 <https://www.qgis.org/it/site/forusers/visualchangelog322/index.html>
 
 
-In costruzione!!!
+## Espressioni
 
+- `exif() e exif_geotag()` : <https://github.com/qgis/QGIS/pull/44081>
 
-- `get_feature e array` : https://github.com/qgis/QGIS/pull/43352
+[![](../img/novita_322/img_01.png)](../img/novita_322/img_01.png)
 
-- `exif() and exif_geotag()` : https://github.com/qgis/QGIS/pull/44081
+sotto elenco completo dei tag disponibili:
 
 ```
 Exif.GPSInfo.GPSAltitude
@@ -78,13 +79,42 @@ Exif.Thumbnail.ResolutionUnit
 Exif.Thumbnail.XResolution
 Exif.Thumbnail.YResolution
 ```
+- `exif_geotag()`
 
-- `sinuosity` : https://github.com/qgis/QGIS/pull/44401
-- `straight_distance_2d` : https://github.com/qgis/QGIS/pull/44767
-- `$vertex_as_point and $vertex_z functions` : https://github.com/qgis/QGIS/pull/44786
-- mesh : https://github.com/qgis/QGIS/pull/44835
-- `$z` : https://github.com/qgis/QGIS/pull/44776
-- `affine_transform` : https://github.com/qgis/QGIS/pull/44771
+[![](../img/novita_322/img_02.png)](../img/novita_322/img_02.png)
 
-- tabella attributi : https://github.com/qgis/QGIS/pull/44471
-- widget : https://github.com/qgis/QGIS/pull/44710
+- `sinuosity` : <https://github.com/qgis/QGIS/pull/44401>
+
+[![](../img/novita_322/img_03.png)](../img/novita_322/img_03.png)
+
+- `straight_distance_2d` : <https://github.com/qgis/QGIS/pull/44767>
+
+[![](../img/novita_322/img_04.png)](../img/novita_322/img_04.png)
+
+- `$z` : <https://github.com/qgis/QGIS/pull/44776>
+
+[![](../img/novita_322/img_05.png)](../img/novita_322/img_05.png)
+
+- `affine_transform` : <https://github.com/qgis/QGIS/pull/44771>
+
+[![](../img/novita_322/img_06.png)](../img/novita_322/img_06.png)
+
+## Tabella attributi
+
+- tabella attributi : <https://github.com/qgis/QGIS/pull/44471>
+
+[![](https://user-images.githubusercontent.com/1298852/127653338-00407c86-b00a-4159-a702-eb25d2907c0d.png)](https://user-images.githubusercontent.com/1298852/127653338-00407c86-b00a-4159-a702-eb25d2907c0d.png)
+## Widget
+
+- widget : <https://github.com/qgis/QGIS/pull/44710>
+
+[![](https://user-images.githubusercontent.com/142164/129595519-e2920348-d720-460e-8159-55e488de69fc.gif)](https://user-images.githubusercontent.com/142164/129595519-e2920348-d720-460e-8159-55e488de69fc.gif)
+## Mesh
+
+saranno aggiunte in futuro maggiori info
+
+- `selezione tramite espressione` : <https://github.com/qgis/QGIS/pull/44835>
+
+[![](https://user-images.githubusercontent.com/7416892/130723918-0f07d9da-2e54-40b7-8da3-301c88c69846.gif)](https://user-images.githubusercontent.com/7416892/130723918-0f07d9da-2e54-40b7-8da3-301c88c69846.gif)
+
+- `$vertex_as_point and $vertex_z functions` : <https://github.com/qgis/QGIS/pull/44786>
