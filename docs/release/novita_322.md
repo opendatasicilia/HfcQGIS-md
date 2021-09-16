@@ -7,7 +7,7 @@
 
 ## Espressioni
 
-- `exif() and exif_geotag()` : https://github.com/qgis/QGIS/pull/44081
+- `exif() e exif_geotag()` : <https://github.com/qgis/QGIS/pull/44081>
 
 ![](../img/novita_322/img_01.png)
 
@@ -82,30 +82,30 @@ Exif.Thumbnail.YResolution
 
 ![](../img/novita_322/img_02.png)
 
-- `sinuosity` : https://github.com/qgis/QGIS/pull/44401
+- `sinuosity` : <https://github.com/qgis/QGIS/pull/44401>
 
 ![](../img/novita_322/img_03.png)
 
-- `straight_distance_2d` : https://github.com/qgis/QGIS/pull/44767
+- `straight_distance_2d` : <https://github.com/qgis/QGIS/pull/44767>
 
 ![](../img/novita_322/img_04.png)
 
-- `$z` : https://github.com/qgis/QGIS/pull/44776
+- `$z` : <https://github.com/qgis/QGIS/pull/44776>
 
 ![](../img/novita_322/img_05.png)
 
-- `affine_transform` : https://github.com/qgis/QGIS/pull/44771
+- `affine_transform` : <https://github.com/qgis/QGIS/pull/44771>
 
 ![](../img/novita_322/img_06.png)
 
 ## Tabella attributi
 
-- tabella attributi : https://github.com/qgis/QGIS/pull/44471
+- tabella attributi : <https://github.com/qgis/QGIS/pull/44471>
 
 ![](https://user-images.githubusercontent.com/1298852/127653338-00407c86-b00a-4159-a702-eb25d2907c0d.png)
 ## Widget
 
-- widget : https://github.com/qgis/QGIS/pull/44710
+- widget : <https://github.com/qgis/QGIS/pull/44710>
 
 ![](https://user-images.githubusercontent.com/142164/129595519-e2920348-d720-460e-8159-55e488de69fc.gif)
 ## Mesh
