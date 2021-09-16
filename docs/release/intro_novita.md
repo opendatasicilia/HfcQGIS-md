@@ -9,6 +9,7 @@
 
 Release        | Data | changelog | nuove funzioni
 ---------------|------|-----------|---------------
+[QGIS 3.22 Białowieża](novita_322.md)  |22/10/2021 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog322/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_22.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.22"></a> | exif, exif_geotag, sinuosity, $z, affine_transform, straight_distance_2d, vertex_as_point, vertex_z
 [QGIS 3.20 Odense](novita_320.md)  |21/06/2021 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog320/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_20.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.20"></a> | length3D, array_count, array_priorize, array_replace, mime_type
 [QGIS 3.18 Zürich](novita_318.md)  |22/02/2021 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog318/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_18.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.18"></a> | UUID, array_get, array_min, arra_max, array_majority, array_sum, array_mean, array_median, map_credits, @layer_crs
 [QGIS 3.16 Hannover](novita_316.md)  |23/10/2020 | <a href="https://www.qgis.org/it/site/forusers/visualchangelog316/index.html" target="_blank"><img src="../../img/splashscreen/splash_3_16.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.16"></a> | main_angle, to_decimal, overlay_*

@@ -14,9 +14,9 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Custom**](./custom/custom_unico.md)| (11/11)| Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.|funzioni personalizzate
 [**Data ora**](./data_ora/data_ora_unico.md) |(21/21)|Questo gruppo contiene funzioni per gestire dati con date e ore.|aggiornate a<br> **QGIS 3.14**
 [**Espressioni utente**](./espressione_utente/espressione_utente_unico.md)| (?)|Questo gruppo contiene espressioni memorizzate nel profilo utente.|aggiornate a<br> **QGIS 3.12**
-[**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (8/8)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi
+[**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (9/9)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi | aggiornate a<br> **QGIS 3.22**
 [**Generale**](./generale/generale_unico.md)| (7/7)|Questo gruppo contiene funzioni generali assortite.| assortimento di funzioni generiche
-[**Geometria**](./geometria/geometria_unico.md) |(124/124)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.20**
+[**Geometria**](./geometria/geometria_unico.md) |(131/129)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.22**
 [**Layer mappa**](./layer_della_mappa/layer_unico.md)| (2/2)|Contiene una lista dei layer della mappa che sono disponibili nel progetto corrente.| aggiornate a<br> **QGIS 3.6**
 [**Layout**](./maps/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
 [**Maps**](./layer_della_mappa/layer_unico.md)| (2/2) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.6**

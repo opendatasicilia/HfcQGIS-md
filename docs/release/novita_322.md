@@ -5,12 +5,13 @@
 <https://www.qgis.org/it/site/forusers/visualchangelog322/index.html>
 
 
-In costruzione!!!
-
-
-- `get_feature e array` : https://github.com/qgis/QGIS/pull/43352
+## Espressioni
 
 - `exif() and exif_geotag()` : https://github.com/qgis/QGIS/pull/44081
+
+![](../img/novita_322/img_01.png)
+
+sotto elenco completo dei tag disponibili:
 
 ```
 Exif.GPSInfo.GPSAltitude
@@ -79,12 +80,40 @@ Exif.Thumbnail.XResolution
 Exif.Thumbnail.YResolution
 ```
 
+![](../img/novita_322/img_02.png)
+
 - `sinuosity` : https://github.com/qgis/QGIS/pull/44401
+
+![](../img/novita_322/img_03.png)
+
 - `straight_distance_2d` : https://github.com/qgis/QGIS/pull/44767
-- `$vertex_as_point and $vertex_z functions` : https://github.com/qgis/QGIS/pull/44786
-- mesh : https://github.com/qgis/QGIS/pull/44835
+
+![](../img/novita_322/img_04.png)
+
 - `$z` : https://github.com/qgis/QGIS/pull/44776
+
+![](../img/novita_322/img_05.png)
+
 - `affine_transform` : https://github.com/qgis/QGIS/pull/44771
 
+![](../img/novita_322/img_06.png)
+
+## Tabella attributi
+
 - tabella attributi : https://github.com/qgis/QGIS/pull/44471
+
+![](https://user-images.githubusercontent.com/1298852/127653338-00407c86-b00a-4159-a702-eb25d2907c0d.png)
+## Widget
+
 - widget : https://github.com/qgis/QGIS/pull/44710
+
+![](https://user-images.githubusercontent.com/142164/129595519-e2920348-d720-460e-8159-55e488de69fc.gif)
+## Mesh
+
+saranno aggiunte in futuro maggiori info
+
+- `selezione tramite espressione` : https://github.com/qgis/QGIS/pull/44835
+
+![](https://user-images.githubusercontent.com/7416892/130723918-0f07d9da-2e54-40b7-8da3-301c88c69846.gif)
+
+- `$vertex_as_point and $vertex_z functions` : https://github.com/qgis/QGIS/pull/44786

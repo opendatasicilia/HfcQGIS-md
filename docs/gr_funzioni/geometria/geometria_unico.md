@@ -9,6 +9,41 @@ social_image: img/card_social/hfc_gr_geom.png
 
 ---
 
+## affine_transform
+
+Restituisce la geometria dopo una trasformazione affine. I calcoli sono nel sistema di riferimento spaziale di questa geometria. Le operazioni vengono eseguite in un ordine di scala, rotazione, traslazione. Se c'è un offset Z o M ma la coordinata non è presente nella geometria, verrà aggiunta.
+
+Sintassi
+
+- affine_transform(_<span style="color:red;">geometry</span>_,_<span style="color:red;">deltaX</span>_,_<span style="color:red;">deltaY</span>_,_<span style="color:red;">rotationZ</span>_,_<span style="color:red;">scaleX</span>_,_<span style="color:red;">scaleY</span>_[,_<span style="color:red;">deltaZ=0</span>_][,_<span style="color:red;">deltaM=0</span>_][,_<span style="color:red;">scaleZ=1</span>_][,_<span style="color:red;">scaleM=1</span>_])
+
+[ ] indica componenti opzionali
+
+Argomenti
+
+- _<span style="color:red;">geometry</span>_ una geometria
+- _<span style="color:red;">deltaX</span>_ x-axis traslazione
+- _<span style="color:red;">deltaY</span>_ y-axis traslazione
+- _<span style="color:red;">rotationZ</span>_ rotation around z-axis in degrees counter-clockwise
+- _<span style="color:red;">scaleX_</span>_ x-axis fattore di scala
+- _<span style="color:red;">scaleY</span>_ y-axis fattore di scala
+- _<span style="color:red;">deltaZ</span>_ z-axis traslazione
+- _<span style="color:red;">deltaM</span>_ m-axis traslazione
+- _<span style="color:red;">scaleZ</span>_ z-axis fattore di scala
+- _<span style="color:red;">scaleM</span>_ m-axis fattore di scala
+
+Esempi
+
+```
+geom_to_wkt(affine_transform(geom_from_wkt('LINESTRING(1 1, 2 2)'), 2, 2, 0, 1, 1)) → 'LineString (3 3, 4 4)'
+geom_to_wkt(affine_transform(geom_from_wkt('POLYGON((0 0, 0 3, 2 2, 0 0))'), 0, 0, -90, 1, 2)) → 'Polygon ((0 0, 6 0, 4 -2, 0 0))'
+geom_to_wkt(affine_transform(geom_from_wkt('POINT(3 1)'), 0, 0, 0, 1, 1, 5, 0)) → 'PointZ (3 1 5)'
+```
+
+[![](../../img/geometria/affine_transform/affine_transform1.png)](../../img/geometria/affine_transform/affine_transform1.png)
+
+---
+
 ## $area
 
 Restituisce l'area della geometria corrente. L'area calcolata da questa funzione rispetta sia le impostazioni dell'ellissoide del progetto corrente sia delle unità di misura. Per esempio, se è stato impostato un ellissoide per il progetto allora l'area calcolata sarà ellisoidica altrimenti se non è stato impostato alcun ellissoide l'area calcolata sarà planimetrica.
@@ -985,6 +1020,28 @@ End_point di geometria poligonale:
 End_point di geometria lineare:
 
 [![](../../img/geometria/end_point/end_point3.png)](../../img/geometria/end_point/end_point3.png)
+
+---
+
+## exif_geotag
+
+Crea una geometria puntuale dai geotag dell'exif di un file di immagine.
+
+Sintassi
+
+- exif_geotag(_<span style="color:red;">path</span>_)
+
+Descrizione
+
+- _<span style="color:red;">path</span>_ Un percorso di file immagine.
+
+Esempi
+
+```
+geom_to_wkt(exif_geotag('/my/photo.jpg')) → 'Point (2 4)'
+```
+
+[![](../../img/geometria/exif_geotag/exif_geotag1.png)](../../img/geometria/exif_geotag/exif_geotag1.png)
 
 ---
 
@@ -3237,6 +3294,28 @@ single_sided_buffer($geometry, 10.5, join:=3) → linea bufferizzata a sinistra 
 
 ---
 
+## sinuosity
+
+Restituisce la sinuosità di una curva che è il rapporto tra la lunghezza della curva e la distanza diretta (2D) tra i suoi punti iniziali e finali.
+
+Sintassi
+
+- sinuosity(_<span style="color:red;">geometry</span>_)
+
+Argomenti
+
+- _<span style="color:red;">geometry</span>_ Curva in ingresso (circularstring, linestring)
+
+Esempi
+
+```
+round(sinuosity(geom_from_wkt('LINESTRING(2 0, 2 2, 3 2, 3 3)')), 3) → 1.265
+sinuosity(geom_from_wkt('LINESTRING( 3 1, 5 1)')) → 1.0
+```
+[![](../../img/geometria/sinuosity/sinuosity1.png)](../../img/geometria/sinuosity/sinuosity1.png)
+
+---
+
 ## smooth
 
 Smussa una geometria con l'aggiunta di ulteriori nodi che arrotondano gli angoli nella geometria.
@@ -3293,6 +3372,28 @@ Start_point di geometria lineare:
 
 ---
 
+## straight_distance_2d
+
+Restituisce la distanza diretta/euclidea tra il primo e l'ultimo vertice di una geometria. La geometria deve essere una curva (circularstring, linestring).
+
+Sintassi
+
+- straight_distance_2d(_<span style="color:red;">geometry</span>_)
+
+Argomenti
+
+- _<span style="color:red;">geometry</span>_ una geometria (circularstring, linestring)
+
+Esempi
+
+```
+straight_distance_2d(geom_from_wkt('LINESTRING(1 0, 1 1)')) → 1
+round(straight_distance_2d(geom_from_wkt('LINESTRING(1 4, 3 5, 5 0)')), 3) → 5.657
+```
+
+[![](../../img/geometria/straight_distance_2d/straight_distance_2d1.png)](../../img/geometria/straight_distance_2d/straight_distance_2d1.png)
+
+---
 ## sym_difference
 
 Restituisce una geometria che rappresenta la porzione di due geometrie che non si interseca.
@@ -3797,6 +3898,24 @@ z( geom_from_wkt( 'POINTZ(2 5 7)' ) ) → 7
 ```
 
 [![](../../img/geometria/z/z1.png)](../../img/geometria/z/z1.png)
+
+---
+
+## $z
+
+Restituisce il valore z del punto corrente se è 3D. Se la feature è una feature multipunto, verrà restituito il valore z del primo punto.
+
+Sintassi
+
+- $z
+
+Esempi
+
+```
+$z → 123
+```
+
+[![](../../img/geometria/_z/z1.png)](../../img/geometria/_z/z1.png)
 
 ---
 
