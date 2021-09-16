@@ -27,10 +27,17 @@ hide:
                 <div class="text-center">
                 <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
   <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
+  <hr>
+ <!--  inizio testo FOSS4G-IT 2021 -->
+<a href="https://foss4g-it2021.gfoss.it/programma.html" target="_blank"><img class="center" src="img/FOSS4G-IT-2021.png" alt="FOSS4G-IT 2021 | Programma" title="FOSS4G-IT 2021 | Programma"/></a>
+<h5 class="service_title">
+ <a href="https://foss4g-it2021.gfoss.it/programma.html" title="FOSS4G-IT 2021 | Programma" target="_blank">Programma</a><br>
+  <a href="https://cryptpad.fr/form/?fbclid=IwAR3R8MjVK3y-QfpiHh-tcsWfQPT3uSZHQvN05VhHlIGhEgQHvcHYlHcJ4b8#/2/form/view/RCWdh79yLIN-u6-8x9PPHhO+SbYTWu5gCGN-XXaWBvY/" title="FOSS4G-IT 2021 | Iscrizione" target="_blank">Iscrizione</a></h5>
+  <!--  fine testo FOSS4G-IT 2021 -->
 		   <section id="services pt-115 pb-120">
         <div class="container ">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="section_title text-center pb-30">
                 </div>
             </div>
