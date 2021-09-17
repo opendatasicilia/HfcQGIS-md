@@ -94,6 +94,9 @@ with_variable('sel',
 Idea presa da qui:
 link: <https://gis.stackexchange.com/questions/411369/returning-column-name-of-the-max-value>
 
+## provaci tu, qui il geopackage
+
+[scarica](../prova_tu/comuni_rs.gpkg)
 ---
 
 Funzioni e variabili utilizzate:
