@@ -1463,3 +1463,10 @@ p {
     --bs-gutter-y: 3rem;
   }
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
