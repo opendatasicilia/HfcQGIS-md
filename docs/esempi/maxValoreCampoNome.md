@@ -60,7 +60,7 @@ map_akeys( -- estraggo la chiave, ovvero anno
 hstore_to_map(
 with_variable('deleteField',
         map_delete(map_delete(map_delete(
-        attributes(),'PRO_COM'),'COMUNE','max_valore'),
+        attributes(),'PRO_COM'),'COMUNE'),'max_valore'),
 with_variable('sel',
         map_avals( @deleteField),
         map_akeys( @deleteField)[array_find(@sel,array_max(@sel))]
@@ -78,7 +78,7 @@ map_avals( -- estraggo il valore
 hstore_to_map(
 with_variable('deleteField',
         map_delete(map_delete(map_delete(
-        attributes(),'PRO_COM'),'COMUNE','maxCampo2'),
+        attributes(),'PRO_COM'),'COMUNE'),'maxCampo2'),
 with_variable('sel',
         map_avals( @deleteField),
         map_akeys( @deleteField)[array_find(@sel,array_max(@sel))]
