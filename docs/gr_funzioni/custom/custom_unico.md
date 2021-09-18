@@ -884,3 +884,6 @@ def MinMaxValueFieldName(attrmap, esclusion, minmax, vresult, feature, parent):
     return result
 ```
 
+Lo script è stato riscritto da [Giulio Fattori](https://github.com/Korto19), la fonte è [qui](https://gis.stackexchange.com/questions/411369/returning-column-name-of-the-max-value/411399#411399), grazie [Taras](https://gis.stackexchange.com/users/99589/taras)
+
+---
