@@ -102,7 +102,7 @@ link: <https://gis.stackexchange.com/questions/411369/returning-column-name-of-t
 
 La funzione personalizzata scritta in Python fa la stessa cosa:
 
-[MinMaxValueFieldName](../gr_funzioni/custom/custom_unico.md#MinMaxValueFieldName)
+[MinMaxValueFieldName](../gr_funzioni/custom/custom_unico.md#minmaxvaluefieldname)
 
 ---
 
