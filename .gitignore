@@ -3,3 +3,6 @@ non_toccare
 
 # file
 mkdocs_copy.yml
+*.gpkg-shm
+*.gpkg-wal
+*.qgs~ 
