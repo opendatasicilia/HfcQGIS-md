@@ -98,11 +98,12 @@ link: <https://gis.stackexchange.com/questions/411369/returning-column-name-of-t
 
 [scarica](../prova_tu/comuni_rs.gpkg)
 
-## Funzione Custom
+## funzione Custom
 
 La funzione personalizzata scritta in Python fa la stessa cosa:
 
-- [MaxMinValueFieldName](../gr_funzioni/custom/custom_unico.md#MaxMinValueFieldName)
+[MaxMinValueFieldName](../gr_funzioni/custom/custom_unico.md#MaxMinValueFieldName)
+
 ---
 
 Funzioni e variabili utilizzate:
