@@ -19,7 +19,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Geometria**](./geometria/geometria_unico.md) |(131/129)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.22**
 [**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (2/2)|Contiene una lista dei layer della mappa che sono disponibili nel progetto corrente.| aggiornate a<br> **QGIS 3.6**
 [**Layout**](./layout/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
-[**Maps**](./maps/maps_unico.md)| (2/2) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.6**
+[**Maps**](./maps/maps_unico.md)| (12/12) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.6**
 [**Matematica**](./matematica/matematica_unico.md)| (28/28)|Questo gruppo contiene funzioni matematiche es. radice quadrata, seno e coseno|aggiornate a<br> **QGIS 3.12**
 [**Operatori**](./operatori/operatori_unico.md)| (23/23)|Questo gruppo contiene operatori es. + - *|aggiornate a<br> **QGIS 3.20**
 [**Raster**](./rasters/rasters_unico.md)|(2/2)|Contiene funzioni che calcolano statistiche e valori raster.|>= **QGIS 3.4** 
