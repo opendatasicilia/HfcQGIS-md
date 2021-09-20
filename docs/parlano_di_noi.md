@@ -1,5 +1,9 @@
 # Parlano di noi
 
+* **20/09/2021** FOSS4G-IT 2021 [GFOSS.it](https://foss4g-it2021.gfoss.it/programma.html) by [FOSS4G-IT 2021](https://foss4g-it2021.gfoss.it/index.html)
+
+![screen](./img/parlano_di_noi/foss4git21.png)
+
 * **06/06/2021** Facebook [GTer](https://www.facebook.com/Gteronline/posts/4435244053210004) by [GTER](https://www.facebook.com/Gteronline)
 
 ![screen](./img/parlano_di_noi/gter2021_2.png)
