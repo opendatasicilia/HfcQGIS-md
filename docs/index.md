@@ -32,7 +32,6 @@ hide:
 <a href="https://foss4g-it2021.gfoss.it/programma.html" target="_blank"><img class="center" src="img/FOSS4G-IT-2021.png" alt="FOSS4G-IT 2021 | Programma" title="FOSS4G-IT 2021 | Programma"/></a>
 <h5 class="service_title">
  <a href="https://foss4g-it2021.gfoss.it/programma.html" title="FOSS4G-IT 2021 | Programma" target="_blank">Programma</a><br>
-  <a href="https://cryptpad.fr/form/?fbclid=IwAR3R8MjVK3y-QfpiHh-tcsWfQPT3uSZHQvN05VhHlIGhEgQHvcHYlHcJ4b8#/2/form/view/RCWdh79yLIN-u6-8x9PPHhO+SbYTWu5gCGN-XXaWBvY/" title="FOSS4G-IT 2021 | Iscrizione" target="_blank">Iscrizione</a></h5>
   <!--  fine testo FOSS4G-IT 2021 -->
 		   <section id="services pt-115 pb-120">
         <div class="container ">
