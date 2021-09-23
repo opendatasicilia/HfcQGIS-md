@@ -62,4 +62,4 @@ Funzioni e variabili utilizzate:
 * [now](../gr_funzioni/data_ora/data_ora_unico.md#now)
 * [area](../gr_funzioni/geometria/geometria_unico.md#area_1)
 * [format_number](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#format_number)
-* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
+* [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
