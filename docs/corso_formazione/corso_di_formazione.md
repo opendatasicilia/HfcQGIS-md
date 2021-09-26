@@ -34,13 +34,15 @@ Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmen
    6. come creare delle espressioni complesse;
    7. come richiamare altri layer;
    8. come aggiungere attributi geometrici alla tabella;
-   9. le funzioni di aggregazione e gli array;
-   10. le variabili;
-   11. aggiornare un campo esistente;
-   12. campi virtuali, utilità;
-   13. filtro;
-   14. cenni sull'editor delle funzioni python;
-   15. esercitazione.
+   9. le funzioni di aggregazione;
+   10. gli Array;
+   11. le Maps;
+   12. le variabili;
+   13. aggiornare un campo esistente;
+   14. campi virtuali, utilità;
+   15. filtro;
+   16. cenni sull'editor delle funzioni python;
+   17. esercitazione.
 3.  Novità introdotte in QGIS 3.x
 4.  [Esercitazioni](../esempi/lista_esempi.md).
 
