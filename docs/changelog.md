@@ -13,3 +13,4 @@ data       | descrizione
 18/09/2021 | aggiunta nuova funzione Custom, _MinMaxValueFieldName_ [qui](gr_funzioni/custom/custom_unico.md#minmaxvaluefieldname)
 26/09/2021 | aggiunta `funzioni utilizzate` nella lista esempi svolti
 26/09/2021 | aggiornato programma corso di formazione, aggiunte le Maps
+26/09/2021 | aggiunto [56esimo](esempi/ricerca_caratteri_speciali.md) esempio
