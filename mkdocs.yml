@@ -238,6 +238,7 @@ nav:
            - Segmento minimo facciata strada: esempi/segmento_minimo_facciata_strada.md
            - Selezionare punti più vicini ad un punto selezionato: esempi/selezionare_punti_vicini_punto.md
            - Nome del campo con massimo valore: esempi/maxValoreCampoNome.md
+           - Ricercare caratteri speciali: esempi/ricerca_caratteri_speciali.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corso di Formazione: corso_formazione/corso_di_formazione.md
