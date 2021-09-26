@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **55** esempi svolti! (in evoluzione)
+Attualmente ci sono **56** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -74,6 +74,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 53|[segmento minimo facciata-strada](segmento_minimo_facciata_strada.md)|Determinare il segmento minimo tra centroide facciata edifici e strada più vicina |Salvatore Fiandaca | 4 | @with_variable, generate_series, array_foreach, array_find, num_geometries, collect_geometries, geometry_n, segments_to_lines, overlay_nearest, distance, centroid, shortest_line, $geometry
 54|[selezionare punti più vicini](selezionare_punti_vicini_punto.md)|Selezionare 'n' punti più vicini a partire da un punto selezionato |Salvatore Fiandaca | 4 | @with_variable, array_find, array_agg, array_foreach, aggregate, geom_to_wkt, make_circle, distance, overlay_nearest, intersects, is_selected, $geometry
 55|[Nome del campo con massimo valore](maxValoreCampoNome.md)|Determina il nome del campo che contiene il valore massimo su un record |Salvatore Fiandaca | 4 | @with_variable, hstore_to_map, array_max, array_find, attributes, map_delete, map_avals, map_akeys
+56|[Ricerca caratteri speciali](ricerca_caratteri_speciali.md)|Ricerca e selezione di record con campi che contengono caratteri speciali |Salvatore Fiandaca | 3 | regexp_substr, <>
 
 ## Partecipa
 
