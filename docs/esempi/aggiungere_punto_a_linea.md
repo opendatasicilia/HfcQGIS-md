@@ -16,6 +16,8 @@ l'espressione da usare è:
  start_point($geometry), 
  end_point(geometry(get_feature_by_id('linea_a',1))),
  end_point($geometry))
- ```
+```
 
  ![](../img/esempi/add_punto_a_linea/img_02.png)
+
+ 

@@ -11,3 +11,4 @@ data       | descrizione
 16/09/2021 | aggiunto le novità rilevanti della [QGIS 3.22 Białowieża](release/novita_322.md)
 17/09/2021 | aggiunto [55esimo](esempi/maxValoreCampoNome.md) esempio
 18/09/2021 | aggiunta nuova funzione Custom, _MinMaxValueFieldName_ [qui](gr_funzioni/custom/custom_unico.md#minmaxvaluefieldname)
+26/09/2021 | aggiunta `funzioni utilizzate` nella lista esempi svolti
