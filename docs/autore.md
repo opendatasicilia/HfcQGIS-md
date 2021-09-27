@@ -81,8 +81,17 @@ Padova luglio 2019
 
 **Foto da sinistra:** Rocco Pispico, Enrico Ferreguti, Federico Gianoli, Matteo Ghetta, Stefano Campus, Totò (io) e Paolo Cavallini.
 
+## FOSS4G-IT 2021
+
+[On-line 20/09/2021](https://foss4g-it2021.gfoss.it/programma.html)
+
+![](https://raw.githubusercontent.com/pigreco/Workshop_FOSS4G-IT-2021/main/imgs/scree_03.png)
+
+---
+
 ## Workshop e Seminari
 
+- [FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/Workshop_FOSS4G-IT-2021)
 - [Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/geobreack_28_by_Gter)
 - [Dagli Open Data all'Open Source: lavorare in QGIS con le mappe catastali](https://github.com/pigreco/workshop-estate-gis-2021)
 - [COVID: Analisi geografica con strumenti GIS Open Source](https://github.com/pigreco/workshop-estate-gis-2020)
