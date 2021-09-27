@@ -14,3 +14,4 @@ data       | descrizione
 26/09/2021 | aggiunta `funzioni utilizzate` nella lista esempi svolti
 26/09/2021 | aggiornato programma corso di formazione, aggiunte le Maps
 26/09/2021 | aggiunto [56esimo](esempi/ricerca_caratteri_speciali.md) esempio
+27/09/2021 | aggiunto screenshot di esempio alla funzione [affine_transform](gr_funzioni/geometria/geometria_unico.md#affine_transform)

@@ -42,6 +42,22 @@ geom_to_wkt(affine_transform(geom_from_wkt('POINT(3 1)'), 0, 0, 0, 1, 1, 5, 0)) 
 
 [![](../../img/geometria/affine_transform/affine_transform1.png)](../../img/geometria/affine_transform/affine_transform1.png)
 
+Osservazione
+
+La funzione trasforma le geometrie a partire dall'origine delle coordinate del sistema di riferimento del layer, sotto un esempio:
+
+```
+ affine_transform( 
+ 		geometry:= $geometry,
+ 		deltaX:=0,
+ 		deltaY:=0,
+ 		rotationZ:=45,
+ 		scaleX:=1,
+ 		scaleY:=1)
+ ```
+
+[![](../../img/geometria/affine_transform/affine_transform2.png)](../../img/geometria/affine_transform/affine_transform2.png)
+
 ---
 
 ## $area
