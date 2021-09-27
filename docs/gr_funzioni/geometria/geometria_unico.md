@@ -54,7 +54,7 @@ La funzione trasforma le geometrie a partire dall'origine delle coordinate del s
  		rotationZ:=45,
  		scaleX:=1,
  		scaleY:=1)
- ```
+```
 
 [![](../../img/geometria/affine_transform/affine_transform2.png)](../../img/geometria/affine_transform/affine_transform2.png)
 
