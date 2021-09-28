@@ -28,11 +28,11 @@ hide:
                 <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
   <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
   <hr>
- <!--  inizio testo FOSS4G-IT 2021 -->
-<a href="https://foss4g-it2021.gfoss.it/programma.html" target="_blank"><img class="center" src="img/FOSS4G-IT-2021.png" alt="FOSS4G-IT 2021 | Programma" title="FOSS4G-IT 2021 | Programma"/></a>
+ <!--  inizio testo Gter -->
+<a href="https://github.com/pigreco/geobreack_02_by_Gter" target="_blank"><img class="center" src="img/geobreak_02_gter.jpg" alt="GeoBreak 02 Gter | Programma" title="GeoBreak 02 Gter | Programma"/></a>
 <h5 class="service_title">
- <a href="https://foss4g-it2021.gfoss.it/programma.html" title="FOSS4G-IT 2021 | Programma" target="_blank">Programma</a><br>
-  <!--  fine testo FOSS4G-IT 2021 -->
+ <a href="https://github.com/pigreco/geobreack_02_by_Gter" title="GeoBreak 02 Gter | Programma" target="_blank">Programma</a><br>
+  <!--  fine testo Gter -->
 		   <section id="services pt-115 pb-120">
         <div class="container ">
             <div class="row justify-content-center">
