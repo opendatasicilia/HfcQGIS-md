@@ -11,8 +11,8 @@ Importo la tabella in QGIS come testo delimitato, creo una colonna testo `output
 ```
 array_to_string(
     array_majority( array_cat(
-      string_to_array(replace("fogli1",'|',',')),
-      string_to_array(replace("fogli2",'|',','))
+      string_to_array(replace("fogli1",'-',',')),
+      string_to_array(replace("fogli2",'-',','))
 )))
 ```
 
