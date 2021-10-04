@@ -1,11 +1,20 @@
 <!-- Elements added to main will be displayed on all pages -->
 {% extends "base.html" %}
-
+  <!-- popup  -->
 
 {% block libs %}
 {{ super() }}
 <!-- script top	-->
 {% include "partials/script_top.html" %}
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+<style>.md-announce a,.md-announce a:focus,.md-announce a:hover{color:currentColor}.md-announce strong{white-space:nowrap}.md-announce .twitter{margin-left:.2em;color:#00acee}</style>
+   <a href="contributing/" class="nomobile" title="Contribuire a HfcQGIS" target="_parent"><strong>Se #HfcQGIS ti è utile, valuta la possibilità di contribuire leggendo la sezione Sostieni</strong></a> <a href="https://www.paypal.com/paypalme/pigrecoinfinito" class="nomobile" target="_blank" title=" Donazione a HfcQGIS con PayPal" >&nbsp;&nbsp;<i class="fa fa-paypal" aria-hidden="true"></i></a> 
+<a href="contributing/" class="mobile" title="Contribuire a HfcQGIS" target="_parent"><strong>Se #HfcQGIS ti è utile, valuta la possibilità di<br>contribuire leggendo la sezione Sostieni</strong></a> <a href="https://www.paypal.com/paypalme/pigrecoinfinito" class="mobile" target="_blank" title=" Donazione a HfcQGIS con PayPal" > &nbsp;&nbsp;<i class="fa fa-paypal" aria-hidden="true"></i></a>
+
+
 {% endblock %}
 
 <!-- blocco meta tag e social -->
@@ -18,6 +27,7 @@
 
 {% block content %}
 <!-- pulsante stampa 	-->
+
 {{ super() }}
  <!-- zoomn image  -->
  {% include "partials/zoom_image_simple-lightbox.html" %}

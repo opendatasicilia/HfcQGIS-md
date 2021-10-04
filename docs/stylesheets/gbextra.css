@@ -2,6 +2,14 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");*/
 @import url("https://fontlibrary.org/face/trueno");
 
+.md-announce {
+    background-color: rgb(52 76 37 / 100%)!important; 
+    overflow: auto;
+}
+/*md-announce desktop e mobile*/
+ @media screen and (max-width: 640px) { .nomobile {display: none!important;}}
+ @media screen and (min-width: 641px) { .mobile {display: none!important;}}
+
 /* forza il back to top a tornare in basso */
 .md-top {
     background: var(--md-primary-fg-color); 

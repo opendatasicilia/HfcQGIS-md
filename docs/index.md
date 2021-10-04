@@ -10,11 +10,12 @@ hide:
 .md-typeset h1, .md-typeset h2 {   display: none!important; }
 .md-typeset h5 {text-transform: none!important; color: #212529!important;}
 .md-typeset h3 { font-weight: bold!important; color: #212529!important;}
-</style
+</style>
  <body> 
 <header>
   <!-- css home  -->
 <link rel="stylesheet" href="stylesheets/hfc_home.css"> 
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" type="text/css"/> 
 <!-- Masthead-->
         <header class="masthead">
@@ -38,8 +39,8 @@ hide:
   <!--  fine testo Gter -->
   
   <!--  fine blocco pubblicità -->
-
-		   <section id="services pt-115 pb-120"> 
+  
+   <section id="services pt-115 pb-120"> 
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -116,4 +117,5 @@ hide:
 La versione in formato <a href="https://docs.readthedocs.io/en/latest/index.html" title="Read The Docs" target="_blank">Read The Docs</a> del lavoro di Salvatore FIANDACA, è stata realizzata dalla comunità <a href="https://hfcqgis-md.readthedocs.io/it/latest/ods/" title="OpenDataSicilia"><strong>OpenDataSicilia</strong></a>, in particolare da:<br> <a href="https://twitter.com/aborruso" title="Andrea Borruso" target="_blank">Andrea Borruso</a>, <a href="https://twitter.com/totofiandaca" title="Totò Fiandaca" target="_blank">Totò Fiandaca</a> e <a href="https://twitter.com/gbvitrano" title="Giovan Battista Vitrano" target="_blank">Giovan Battista Vitrano</a> utilizzando il tema <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a></p>
                           </div> 
                   </div>
+
 </body>
