@@ -2,7 +2,7 @@
 
 [![](../img/splashscreen/splash_3_22.png)](../img/splashscreen/splash_3_22.png)
 
-<https://www.qgis.org/it/site/forusers/visualchangelog322/index.html>
+<https://changelog.qgis.org/en/qgis/version/3.22/>
 
 
 ## Espressioni
