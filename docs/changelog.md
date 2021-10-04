@@ -17,3 +17,4 @@ data       | descrizione
 27/09/2021 | aggiunto screenshot di esempio alla funzione [affine_transform](gr_funzioni/geometria/geometria_unico.md#affine_transform)
 27/09/2021 | aggiornata sezione autore con workshop al FOSS4G-IT 2021
 01/10/2021 | aggiunto [57esimo](esempi/confrontare_campi_tabella.md) esempio
+04/010/2021| aggiunta colonna Versione nella sezione contributors
