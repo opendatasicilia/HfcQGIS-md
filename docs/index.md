@@ -33,7 +33,7 @@ hide:
   <!--  inizio blocco pubblicità -->
   
  <!--  inizio testo Gter -->
-<a href="https://github.com/pigreco/geobreack_02_by_Gter" target="_blank"><img class="center" src="img/geobreak_02_gter.jpg" alt="GeoBreak 02 Gter | Programma" title="GeoBreak 02 Gter | Programma"/></a>
+<!-- <a href="https://github.com/pigreco/geobreack_02_by_Gter" target="_blank"><img class="center" src="img/geobreak_02_gter.jpg" alt="GeoBreak 02 Gter | Programma" title="GeoBreak 02 Gter | Programma"/></a>
 <h5 class="service_title">
  <a href="https://mailchi.mp/a50b90870c50/in-arrivo-primo-geobreak-ottobre?fbclid=IwAR1ZFUGegfy9XKiW0ien4DFi25dvEbqh3FWgUPudG7_1aMhukBWN4PRUES8" title="GeoBreak 02 Gter | Programma" target="_blank">Programma</a><br>
   <!--  fine testo Gter -->
