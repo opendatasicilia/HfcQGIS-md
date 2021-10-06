@@ -1,5 +1,9 @@
 # Parlano di noi
 
+* **06/10/2021** Facebook [GeoBreack 32](https://github.com/pigreco/geobreack_32_by_Gter) by [GTER](https://www.facebook.com/Gteronline/posts/4526778134056595)
+
+![screen](./img/parlano_di_noi/gter_geobreak_32.png)
+
 * **20/09/2021** FOSS4G-IT 2021 [GFOSS.it](https://foss4g-it2021.gfoss.it/programma.html) by [FOSS4G-IT 2021](https://foss4g-it2021.gfoss.it/index.html)
 
 ![screen](./img/parlano_di_noi/foss4git21.png)
