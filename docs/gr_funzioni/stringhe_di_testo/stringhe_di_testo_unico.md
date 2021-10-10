@@ -47,6 +47,8 @@ Esempi:
 
 ```
 char(81) → 'Q'
+char(178) → '²'
+char(179) → '³'
 ```
 
 [![](../../img/stringhe_di_testo/char/char1.png)](../../img/stringhe_di_testo/char/char1.png)
