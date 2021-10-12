@@ -24,3 +24,4 @@ nro | descrizione                                    | link
 18  | Espressioni e Varaibili                        | <https://pigrecoinfinito.com/2020/04/14/qgis-grafici-geoplot-usando-solo-il-geometry-generator/>
 19  | Espressioni e Array su Tabella Attributi       | <https://pigrecoinfinito.com/2020/01/23/qgis-tabella-attributi-ordinare-usando-gli-array/>
 20  | Espressioni e condizioni                       | <https://pigrecoinfinito.com/2020/03/02/qgis-etichettatura-bustrofedica/>
+21  | QGIS e il formato HStore                       | <https://pigrecoinfinito.com/2021/10/12/qgis-e-il-formato-hstore/>
