@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **57** esempi svolti! (in evoluzione)
+Attualmente ci sono **58** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -76,6 +76,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 55|[Nome del campo con massimo valore](maxValoreCampoNome.md)|Determina il nome del campo che contiene il valore massimo su un record |Salvatore Fiandaca | 4 | @with_variable, hstore_to_map, array_max, array_find, attributes, map_delete, map_avals, map_akeys
 56|[Ricerca caratteri speciali](ricerca_caratteri_speciali.md)|Ricerca e selezione di record con campi che contengono caratteri speciali |Salvatore Fiandaca | 3 | regexp_substr, <>
 57|[confrontare campi tabella](confrontare_campi_tabella.md)|Ricercare valori uguali in due campi diversi |Salvatore Fiandaca | 3 | array_to_string, array_majority, array_cat, string_to_array
+58|[estrarre campo da un hstore](estrarre_campo_hstore.md)|Aggiungere un campo a partire da un altro campo in formato hstore (tipico di OSM) |Salvatore Fiandaca | 3 | hstore_to_map, map_get, to_int
 
 ## Partecipa
 

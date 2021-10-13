@@ -19,3 +19,4 @@ data       | descrizione
 01/10/2021 | aggiunto [57esimo](esempi/confrontare_campi_tabella.md) esempio
 04/010/2021| aggiunta colonna Versione nella sezione contributors
 12/010/2021| aggiornata pagina sitografia
+13/10/2021 | aggiunto [58esimo](esempi/estrarre_campo_hstore.md) esempio
