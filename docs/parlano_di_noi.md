@@ -1,5 +1,9 @@
 # Parlano di noi
 
+* **12/10/2021** [Zenodo](https://zenodo.org/record/5565494) by [FOSS4G-IT 2021](https://foss4g-it2021.gfoss.it/programma.html)
+
+![](./img/parlano_di_noi/ZENODO_01.png)
+
 * **06/10/2021** Facebook [GeoBreack 32](https://github.com/pigreco/geobreack_32_by_Gter) by [GTER](https://www.facebook.com/Gteronline/posts/4526778134056595)
 
 ![screen](./img/parlano_di_noi/gter_geobreak_32.png)
