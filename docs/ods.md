@@ -44,7 +44,7 @@ Capita spesso, con tutte le buone intenzioni, di scrivere frasi come questa, ma 
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../img/faccioni/salvatoreFiandaca.png" alt="">
+            <img class="mx-auto rounded-circle" src="../img/faccioni/salvatoreFiandaca_02.png" alt="">
             <h4>Salvatore Fiandaca</a></h4>
         <p class="text-muted"><a href="../autore/" title="Salvatore Fiandaca | Autore e curatore di HfcQGIS" target="_self">Autore e curatore di HfcQGIS</a></p> 
 			<div>
