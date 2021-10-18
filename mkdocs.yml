@@ -242,7 +242,9 @@ nav:
            - Confrontare campi tabella attributi: esempi/confrontare_campi_tabella.md
         - Provaci tu: mettiti_alla_prova.md
 
-    - Corso di Formazione: corso_formazione/corso_di_formazione.md
+    - Corso di Formazione: 
+        - corso_formazione/corso_di_formazione.md
+        - corso_formazione/corso_di_formazione_avanzato.md
 
     - Lavora con Noi:
         - Supporter: supporter.md

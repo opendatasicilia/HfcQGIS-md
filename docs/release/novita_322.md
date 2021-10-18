@@ -99,6 +99,8 @@ Exif.Thumbnail.YResolution
 
 [![](../img/novita_322/img_06.png)](../img/novita_322/img_06.png)
 
+<https://github.com/qgis/QGIS/pull/45484>
+
 ## Tabella attributi
 
 - tabella attributi : <https://github.com/qgis/QGIS/pull/44471>

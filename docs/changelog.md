@@ -21,3 +21,4 @@ data       | descrizione
 12/010/2021| aggiornata pagina sitografia
 13/10/2021 | aggiunto [58esimo](esempi/estrarre_campo_hstore.md) esempio
 14/010/2021| aggiornata pagina Parlano di Noi
+18/010/2021| aggiunto corso di formazione avanzato
