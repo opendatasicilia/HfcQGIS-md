@@ -4,7 +4,9 @@
 
 Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://qgis.org/it/site/) e desiderano approfondire l'uso della **tabella attributi** e del **calcolatore di campi**.
 
-## Durata del corso
+## Corso
+
+### In presenza
 
 Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmente fulltime (due giorni da otto ore)
 
@@ -46,7 +48,7 @@ Il corso è strutturato per durare almeno 16 ore **IN PRESENZA** - preferibilmen
 3.  Novità introdotte in QGIS 3.x
 4.  [Esercitazioni](../esempi/lista_esempi.md).
 
-## Video-Corso 
+### Video-Corso 
 
 Sul Field Calc QGIS 3.x - 30 video lezioni (23 ore)
 

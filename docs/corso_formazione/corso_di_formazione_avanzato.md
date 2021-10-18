@@ -4,9 +4,11 @@
 
 Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://qgis.org/it/site/) e/o hanno già seguito il _**Corso FULL sul Field Calc**_ e desiderano approfondire l'uso del **calcolatore di campi** e in particolare di alcuni _**gruppi funzione**_ come meglio evidenziato nel programma.
 
-## Durata del corso
+## Corso
 
-Il corso è strutturato per durare almeno XX ore **IN PRESENZA** - preferibilmente fulltime (YY giorni da otto ore)
+### in presenza
+
+Il corso è strutturato per durare almeno XX - preferibilmente fulltime (YY giorni da otto ore)
 
 ## Programma Corso avanzato
 
@@ -18,7 +20,7 @@ Il corso è strutturato per durare almeno XX ore **IN PRESENZA** - preferibilmen
 6. gruppo **espressioni utente**;
 7. esercitazioni.
 
-## Video-Corso 
+### Video-Corso 
 
 Il corso è REGISTRATO e prevede ...
 
