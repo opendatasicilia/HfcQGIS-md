@@ -2,7 +2,7 @@
 
 ## A chi è rivolto
 
-Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://qgis.org/it/site/) e/o hanno già seguito il _**Corso FULL sul Filed Calc**_ e desiderano approfondire l'uso del **calcolatore di campi** e in particolare di alcuni _**gruppi funzione**_ come meglio evidenziato nel programma.
+Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://qgis.org/it/site/) e/o hanno già seguito il _**Corso FULL sul Field Calc**_ e desiderano approfondire l'uso del **calcolatore di campi** e in particolare di alcuni _**gruppi funzione**_ come meglio evidenziato nel programma.
 
 ## Durata del corso
 
@@ -15,7 +15,7 @@ Il corso è strutturato per durare almeno XX ore **IN PRESENZA** - preferibilmen
 3. gruppo **array**;
 4. gruppo **maps**;
 5. gruppo **variabili**;
-6. gruppo **espressioni utent**e;
+6. gruppo **espressioni utente**;
 7. esercitazioni.
 
 ## Video-Corso 
