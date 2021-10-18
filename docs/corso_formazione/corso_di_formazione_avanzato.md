@@ -10,7 +10,7 @@ Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://q
 
 Il corso è strutturato per durare almeno XX - preferibilmente fulltime (YY giorni da otto ore)
 
-## Programma Corso avanzato
+**Programma Corso avanzato**
 
 1. gruppo **geometria**;
 2. gruppo **aggrega**;
