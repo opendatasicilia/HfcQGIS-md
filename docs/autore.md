@@ -2,7 +2,7 @@
 
 Salvatore **FIANDACA** (_aka `pigreco`, per gli amici `Totò`_)
 
-Usa spesso, nei vari social, il nickname pigreco ma è nel titolo del suo blog - [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/) - che si cela il suo nome in siciliano. Per capire quale sia occorre osservare con attenzione il logo che lo rappresenta:
+Usa spesso, nei vari social, il nickname pigreco ma è nel titolo del suo blog - [Pigrecoinfinito](https://pigrecoinfinito.com/) - che si cela il suo nome in siciliano. Per capire quale sia occorre osservare con attenzione il logo che lo rappresenta:
 
 
 <p align="center">
