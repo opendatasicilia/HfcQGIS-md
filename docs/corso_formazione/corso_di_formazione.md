@@ -81,11 +81,11 @@ Per maggiori Info contattatemi.
 
 - `blog`: <https://pigrecoinfinito.com/>
 - `canale youtube`: <http://www.youtube.com/c/TotòFiandaca>
-- `HfcQGIS`: <http://hfcqgis.opendatasicilia.it/it/latest/index.html>
+- `HfcQGIS`: <https://hfcqgis.opendatasicilia.it/>
 - `Tansignari`: <http://tansignari.opendatasicilia.it/it/latest/#>
-- `data.world`: [https://data.world/pigrecoinfinito](https://data.world/pigrecoinfinito)
-- `github`: [https://github.com/pigreco](https://github.com/pigreco)
-- `gitlab`: [https://gitlab.com/pigr3co](https://gitlab.com/pigr3co)
+- `data.world`: <https://data.world/pigrecoinfinito>
+- `github`: <https://github.com/pigreco>
+- `gitlab`: <https://gitlab.com/pigr3co>
 - `Canale Telegram` : <https://t.me/pigrecoinfinito>
 
 
