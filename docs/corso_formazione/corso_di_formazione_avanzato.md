@@ -18,7 +18,8 @@ Il corso è strutturato per durare almeno XX - preferibilmente fulltime (YY gior
 4. gruppo **maps**;
 5. gruppo **variabili**;
 6. gruppo **espressioni utente**;
-7. esercitazioni.
+7. richiamare altri layer;
+8. esercitazioni.
 
 ### Video-Corso 
 
