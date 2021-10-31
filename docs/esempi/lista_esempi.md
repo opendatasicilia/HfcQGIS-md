@@ -77,6 +77,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 56|[Ricerca caratteri speciali](ricerca_caratteri_speciali.md)|Ricerca e selezione di record con campi che contengono caratteri speciali |Salvatore Fiandaca | 3 | regexp_substr, <>
 57|[confrontare campi tabella](confrontare_campi_tabella.md)|Ricercare valori uguali in due campi diversi |Salvatore Fiandaca | 3 | array_to_string, array_majority, array_cat, string_to_array
 58|[estrarre campo da un hstore](estrarre_campo_hstore.md)|Aggiungere un campo a partire da un altro campo in formato hstore (tipico di OSM) |Salvatore Fiandaca | 3 | hstore_to_map, map_get, to_int
+59|[geometrie vicine ma con condizione](geometria_vicina_filtro_condizionato.md)|tracciare un segmento tra punti vicini che soddisfano la condizione `id1` <> `id2` |Salvatore Fiandaca | 4 | overlay_nearest, array_filter, attribute, make_line, collect_geometries, $geometry, geometry
 
 ## Partecipa
 

@@ -240,6 +240,7 @@ nav:
            - Nome del campo con massimo valore: esempi/maxValoreCampoNome.md
            - Ricercare caratteri speciali: esempi/ricerca_caratteri_speciali.md
            - Confrontare campi tabella attributi: esempi/confrontare_campi_tabella.md
+           - Geometrie vicine con condizione: esempi/geometria_vicina_filtro_condizionato.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 
