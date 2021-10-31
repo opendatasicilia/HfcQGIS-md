@@ -5,9 +5,9 @@ A partire dal `layer1`, ottenere per ogni punto del `layer1` tutti i punti del `
 
 Esempio:
 
-![](https://i.stack.imgur.com/NsXXB.png)
+[![](https://i.stack.imgur.com/NsXXB.png)](https://i.stack.imgur.com/NsXXB.png)
 
-Come si evince dallo screenshot, i punti in rosso devono collegarsi con i punti blu che hanno `id` differente. Il punto 6 è rimasto isolato perché non cisono punti vicini e con id diverso da 6.
+Come si evince dallo screenshot, i punti in rosso devono collegarsi con i punti blu che hanno `id` differente. Il punto 6 è rimasto isolato perché non ci sono punti vicini e con id diverso da 6.
 
 Espressione utilizzata:
 

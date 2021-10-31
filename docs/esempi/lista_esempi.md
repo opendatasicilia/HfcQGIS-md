@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **58** esempi svolti! (in evoluzione)
+Attualmente ci sono **59** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
