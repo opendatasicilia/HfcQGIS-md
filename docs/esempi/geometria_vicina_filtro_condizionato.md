@@ -9,7 +9,7 @@ Esempio:
 
 Come si evince dallo screenshot, i punti in rosso devono collegarsi con i punti blu che hanno `id` differente. Il punto 6 è rimasto isolato perché non ci sono punti vicini e con id diverso da 6.
 
-Espressione utilizzata:
+Espressione utilizzata (**>=QGIS 3.16**):
 
 ```
 collect_geometries(
@@ -21,6 +21,18 @@ collect_geometries(
 								overlay_nearest('layer2',$currentfeature,limit:=-1), 
 								attribute( @element, 'id2' ) != "id1" )[0], 'id2' ))))
 					)
+```
+
+Altra espressione più performante su grandi dataset (**>=QGIS 3.22.1**)
+
+```
+make_line (
+    eval( 'overlay_nearest( 
+		\'layer2\', 
+		$geometry, 
+		filter:=id2<>'||"id1"||')')[0],
+    $geometry
+)
 ```
 
 idea presa da qui:
