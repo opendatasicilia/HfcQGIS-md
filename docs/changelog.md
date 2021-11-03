@@ -20,5 +20,7 @@ data       | descrizione
 04/010/2021| aggiunta colonna Versione nella sezione contributors
 12/010/2021| aggiornata pagina sitografia
 13/10/2021 | aggiunto [58esimo](esempi/estrarre_campo_hstore.md) esempio
-14/010/2021| aggiornata pagina Parlano di Noi
-18/010/2021| aggiunto corso di formazione avanzato
+14/10/2021 | aggiornata pagina Parlano di Noi
+18/10/2021 | aggiunto corso di formazione avanzato
+02/11/2021 | aggiunto [59esimo](esempi/geometria_vicina_filtro_condizionato.md) esempio
+03/11/2021 | aggiornato pagina sitografia
