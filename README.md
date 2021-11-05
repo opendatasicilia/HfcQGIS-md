@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_2018.png" alt="pigrecoinfinito
+  <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_2018_md.png" alt="pigrecoinfinito
 "  width="800" class="immagonobox" title="“Sito realizzato dalla comunità OpenDataSicilia"></a>
 </p>
 
