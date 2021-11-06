@@ -2,23 +2,35 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="690"
    height="176"
    viewBox="0 0 182.5625 46.566666"
    version="1.1"
    id="svg8"
-   sodipodi:docname="logo_RTD.svg"
-   inkscape:version="0.92.1 r15371">
+   sodipodi:docname="logo_hfc_base.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="H:\GitHub - Clone\OpenDataSicilia\HfcQGIS-md\docs\img\logo_hfc_home21.png"
+   inkscape:export-xdpi="272.72726"
+   inkscape:export-ydpi="272.72726"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       id="linearGradient3633"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop3631" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6728111"
-     inkscape:cx="365"
-     inkscape:cy="62"
+     inkscape:zoom="1.2126218"
+     inkscape:cx="383.46664"
+     inkscape:cy="245.33619"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,10 +52,11 @@
      inkscape:guide-bbox="true"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1009"
      inkscape:window-x="1272"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0">
     <sodipodi:guide
        position="72.519053,13.010062"
        orientation="1,0"
@@ -63,7 +76,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -75,7 +87,7 @@
      style="opacity:0.99">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.91463852px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#7da629;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9146px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#7da629;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="21.336679"
        y="230.76123"
        id="text50"><tspan
@@ -83,25 +95,25 @@
          id="tspan48"
          x="21.336679"
          y="230.76123"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;fill-opacity:1;stroke-width:0.26458332px">H<tspan
-   style="fill:#000000;stroke:#000000;stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;fill-opacity:1;stroke-width:0.264583px">H<tspan
+   style="fill:#000000;stroke:#000000;stroke-width:0.264583px"
    id="tspan952">f</tspan>c<tspan
-   style="fill:none;stroke-width:0.26458332px"
+   style="fill:none;stroke-width:0.264583px"
    id="tspan40" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.18098032px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
-       x="114.50729"
+       style="font-style:normal;font-weight:normal;font-size:1.18098px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222"
+       x="128.26559"
        y="237.9845"
        id="text3022"><tspan
          sodipodi:role="line"
          id="tspan3024"
-         x="114.50729"
+         x="128.26559"
          y="237.9845"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.93939781px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.28222224">RTD by @opendatasicilia</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.9394px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.282222">by @opendatasicilia</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02272987px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25481755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02273px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.254818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="24.388174"
        y="237.89233"
        id="text960"><tspan
@@ -109,7 +121,19 @@
          id="tspan958"
          x="24.388174"
          y="237.89233"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';stroke-width:0.25481755px">Help field calculator</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';stroke-width:0.254818px">Help field calculator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02273px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.254818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-230.02365"
+       y="29.703169"
+       id="text960-4"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan958-8"
+         x="-230.02365"
+         y="29.703169"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#ffffff;stroke-width:0.254818px">Dal 2018</tspan></text>
     <image
        y="182.4417"
        x="72.859901"
@@ -118,6 +142,6 @@
        preserveAspectRatio="none"
        height="69.79715"
        width="145.59554"
-       style="stroke-width:4.05609941" />
+       style="stroke-width:4.0561" />
   </g>
 </svg>
