@@ -62,4 +62,4 @@ Funzioni e variabili utilizzate:
 * [line_interpolate_point](../gr_funzioni/geometria/geometria_unico.md#line_interpolate_point)
 * [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
 * [length](../gr_funzioni/geometria/geometria_unico.md#length)
-* [\$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
+* [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)

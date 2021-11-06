@@ -13,3 +13,4 @@ In costruzione!!!
 - `patch overlay_nearest` : https://github.com/qgis/QGIS/pull/45744
 - `apply_dash_pattern` : https://github.com/qgis/QGIS/pull/45734
 - `force_polygon_cw/ccw` : https://github.com/qgis/QGIS/pull/45718
+- `densify_by_count` e `densify_by_distance` : https://github.com/qgis/QGIS/pull/45894

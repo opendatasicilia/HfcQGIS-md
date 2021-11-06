@@ -7,7 +7,7 @@ Alcune volte nasce l'esigenza di stampare la tabella attributi di un atlante in 
 Espressione da usare:
 
 ```python
-replace()
+replace(
    replace(
       replace (
          map_to_hstore( attributes())
