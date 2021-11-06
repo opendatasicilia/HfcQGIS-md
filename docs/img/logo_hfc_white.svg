@@ -39,7 +39,7 @@
      inkscape:guide-bbox="true"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1009"
      inkscape:window-x="1272"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -54,6 +54,10 @@
        orientation="1,0"
        id="guide5812"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="167.53764,-1.955655"
+       orientation="1,0"
+       id="guide3521" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -93,14 +97,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.18098px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.282222"
-       x="105.18272"
+       x="119.47023"
        y="235.47089"
        id="text3022"><tspan
          sodipodi:role="line"
          id="tspan3024"
-         x="105.18272"
+         x="119.47023"
          y="235.47089"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.9394px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ffffff;stroke-width:0.282222">RTD by @opendatasicilia</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.9394px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ffffff;stroke-width:0.282222">by @opendatasicilia</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15432px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.260386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
