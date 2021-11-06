@@ -79,7 +79,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 58|[estrarre campo da un hstore](estrarre_campo_hstore.md)|Aggiungere un campo a partire da un altro campo in formato hstore (tipico di OSM) |Salvatore Fiandaca | 3 | hstore_to_map, map_get, to_int
 59|[geometrie vicine ma con condizione](geometria_vicina_filtro_condizionato.md)|tracciare un segmento tra punti vicini che soddisfano la condizione `id1` <> `id2` |Salvatore Fiandaca | 4 | overlay_nearest, array_filter, attribute, make_line, collect_geometries, $geometry, geometry
 60|[atlante con righe tabella in verticale](atlas_righe_verticale.md)|riga tabella attributi in verticale nel layout di stampa di un atlante |Salvatore Fiandaca | 3 | replace, map_to_hstore, attributes
-61|[decimali coordinate come apici](geometria_vicina_filtro.md)|decimali coordinate messe come apici |Salvatore Fiandaca | 3 | with_variable, regexp_replace, left, array, $x, $y, replace
+61|[decimali coordinate come apici](decimali_come_apice.md)|decimali coordinate messe come apici |Salvatore Fiandaca | 3 | with_variable, regexp_replace, left, array, $x, $y, replace
 
 ## Partecipa
 
