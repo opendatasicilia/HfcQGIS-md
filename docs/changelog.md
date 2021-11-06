@@ -24,3 +24,4 @@ data       | descrizione
 18/10/2021 | aggiunto corso di formazione avanzato
 02/11/2021 | aggiunto [59esimo](esempi/geometria_vicina_filtro_condizionato.md) esempio
 03/11/2021 | aggiornato pagina sitografia
+05/11/2021 | aggiunto [60esimo](esempi/atlas_righe_verticale.md) esempio
