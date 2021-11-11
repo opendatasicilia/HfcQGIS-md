@@ -243,6 +243,7 @@ nav:
            - Geometrie vicine con condizione: esempi/geometria_vicina_filtro_condizionato.md
            - Atlante con righe tabella in verticale: esempi/atlas_righe_verticale.md
            - Decimali delle coordinate come apici: esempi/decimali_come_apice.md
+           - Media e stdev tra campi: esempi/media_stdev_tra_campi.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

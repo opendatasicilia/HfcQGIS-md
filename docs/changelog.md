@@ -26,3 +26,4 @@ data       | descrizione
 03/11/2021 | aggiornato pagina sitografia
 05/11/2021 | aggiunto [60esimo](esempi/atlas_righe_verticale.md) esempio
 06/11/2021 | aggiunto [61esimo](esempi/decimali_come_apice.md) esempio
+11/11/2021 | aggiunto [62esimo](esempi/media_stdev_tra_campi.md) esempio
