@@ -6,7 +6,7 @@ La funzione che permette di creare una mappa per ogni record è `attributes()` e
 
 Abbiamo uno shapefile dei comuni siciliani e la tabella degli attributi presenta, per ogni anno (dal 2012 al 2020), il valore della popolazione residente, sotto la tabella:
 
-![](../img/esempi/media_stdev_tra_campi/img_01.png)
+[![](../img/esempi/media_stdev_tra_campi/img_01.png)](../img/esempi/media_stdev_tra_campi/img_01.png)
 
 determinare, per ogni comune, la _media_ e la _stdev_ (deviazione standard campionaria)
 
@@ -25,7 +25,7 @@ array_mean(map_avals((@deleteField))
 ))
 ```
 
-![](../img/esempi/media_stdev_tra_campi/img_02.png)
+[![](../img/esempi/media_stdev_tra_campi/img_02.png)](../img/esempi/media_stdev_tra_campi/img_02.png)
 
 - deviazione standard: (occorre evitare anche il campo `media`)
 
@@ -46,7 +46,7 @@ with_variable('riga',map_avals(@deleteField),
 )
 ```
 
-![](../img/esempi/media_stdev_tra_campi/img_03.png)
+[![](../img/esempi/media_stdev_tra_campi/img_03.png)](../img/esempi/media_stdev_tra_campi/img_03.png)
 
 ## provaci tu, qui il geopackage
 
