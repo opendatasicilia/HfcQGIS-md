@@ -1,4 +1,4 @@
-# Come aggiungere colonna con area [mq]
+# Come aggiungere colonna con area [m²]
 
 Facciamo un esempio, geopackage con vettore poligonale:
 
