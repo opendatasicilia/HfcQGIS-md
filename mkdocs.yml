@@ -73,9 +73,9 @@ theme:
 
 plugins:
 - search
-- mkdocstrings
-- autolinks
-- macros 
+# - mkdocstrings
+# - autolinks
+# - macros 
 
 - rss:
     abstract_chars_count: 160
