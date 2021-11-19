@@ -1664,7 +1664,7 @@ is_empty(geom_from_wkt('POINT EMPTY')) → vero
 
 ## is_empty_or_null
 
-Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty_or_null_or_null`.
+Restituisce vero se una geometria è vuota (senza coordinate), falso se la geometria non è vuota e NULL se non c'è geometria. Vedi anche `is_empty`.
 
 Sintassi:
 
