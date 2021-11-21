@@ -809,4 +809,15 @@ QGIS'
 
 [![](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)](../../img/stringhe_di_testo/wordwrap/wordwrap1.png)
 
+
+Per legende con testo lungo, tipico delle legende per carte geologiche:
+
+```
+wordwrap(@symbol_label ,50)
+```
+
+[![](../../img/stringhe_di_testo/wordwrap/wordwrap2.png)](../../img/stringhe_di_testo/wordwrap/wordwrap2.png)
+
+[![](../../img/stringhe_di_testo/wordwrap/wordwrap3.png)](../../img/stringhe_di_testo/wordwrap/wordwrap3.png)
+
 ---
