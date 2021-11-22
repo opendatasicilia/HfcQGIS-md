@@ -60,6 +60,8 @@ questa soluzione fa uso di un dizionario (mappe valori) che contiene l'elenco e 
 
 Geopackage è [qui](../prova_tu/taxon.gpkg)
 
+idea presa da [qui](https://gis.stackexchange.com/questions/341246/use-field-calculator-qgis-if-value-in-one-column-then-value-in-new-column)
+
 ---
 
 Funzioni e variabili utilizzate:
