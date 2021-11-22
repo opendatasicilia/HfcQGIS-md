@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **62** esempi svolti! (in evoluzione)
+Attualmente ci sono **63** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -81,6 +81,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 60|[atlante con righe tabella in verticale](atlas_righe_verticale.md)|riga tabella attributi in verticale nel layout di stampa di un atlante |Salvatore Fiandaca | 3 | replace, map_to_hstore, attributes
 61|[decimali coordinate come apici](decimali_come_apice.md)|decimali coordinate messe come apici |Salvatore Fiandaca | 3 | with_variable, regexp_replace, left, array, $x, $y, replace
 62|[media e stdev tra campi](media_stdev_tra_campi.md)|calcola la media e la deviazione standard campionaria lungo lo stesso record |Salvatore Fiandaca | 3 |@with_variable, array_foreach, array_mean, attributes, map_delete, map_avals, map_akeys
+63|[classificazione specie](classificazione_specie.md)|classificare delle specie, fare delle somme in funzione delle specie |Salvatore Fiandaca | 3 | array_sum, array_foreach, get_feature, attribute, map_get, map, string_to_array, to_real
 
 ## Partecipa
 
