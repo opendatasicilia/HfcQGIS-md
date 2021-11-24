@@ -47,7 +47,8 @@ osservazioni:
 
 ## Provaci tu
 
-il geopackage è [qui](../prova_tu/se.gpkg)
+il GeoPackage è [qui](../prova_tu/se.gpkg)
+
 ---
 
 Funzioni e variabili utilizzate:
