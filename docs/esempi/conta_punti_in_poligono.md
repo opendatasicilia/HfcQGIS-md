@@ -19,6 +19,8 @@ risultato:
 
 [![](../img/esempi/conta_punti_in_poligono/conta_02.png)](../img/esempi/conta_punti_in_poligono/conta_02.png)
 
+NB: i due layer devono avere stesso SR, altrimenti restituirà sempre zero.
+
  Geopackage è [qui](../prova_tu/dati_esempi.zip)
  
  [QUI VIDEO](https://youtu.be/vlmnmI6sjAg)
