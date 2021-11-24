@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **63** esempi svolti! (in evoluzione)
+Attualmente ci sono **64** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -82,7 +82,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 61|[decimali coordinate come apici](decimali_come_apice.md)|decimali coordinate messe come apici |Salvatore Fiandaca | 3 | with_variable, regexp_replace, left, array, $x, $y, replace
 62|[media e stdev tra campi](media_stdev_tra_campi.md)|calcola la media e la deviazione standard campionaria lungo lo stesso record |Salvatore Fiandaca | 3 |@with_variable, array_foreach, array_mean, attributes, map_delete, map_avals, map_akeys
 63|[classificazione specie](classificazione_specie.md)|classificare delle specie, fare delle somme in funzione delle specie |Salvatore Fiandaca | 3 | array_sum, array_foreach, get_feature, attribute, map_get, map, string_to_array, to_real
-
+64|[prelevare attributi da layer più vicini](attributi_da_layer_vicini.md)|Prelevare attributi da diversi layer con criterio di vicinanza|Salvatore Fiandaca | 4 | @with_variable, array_get, array_foreach, array_find, array_min, overlay_nearest, distance, array, shortest_line, $geometry, start_point, end_point
 ## Partecipa
 
 Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis.opendatasicilia.it/contributing/#suggerire-esempiesercizi):

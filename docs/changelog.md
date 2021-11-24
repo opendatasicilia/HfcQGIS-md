@@ -28,3 +28,4 @@ data       | descrizione
 06/11/2021 | aggiunto [61esimo](esempi/decimali_come_apice.md) esempio
 11/11/2021 | aggiunto [62esimo](esempi/media_stdev_tra_campi.md) esempio
 22/11/2021 | aggiunto [63esimo](esempi/classificazione_specie.md) esempio
+24/11/2021 | aggiunto [63esimo](esempi/attributi_da_layer_vicini.md) esempio
