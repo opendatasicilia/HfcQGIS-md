@@ -3682,7 +3682,7 @@ wedge_buffer(center:=geom_from_wkt('POINT(1 2)'),azimuth:=90,width:=180,outer_ra
 
 ## within
 
-Controlla qualora una geometria sia interna ad un'altra. Restituisce  1 (vero) se la _geometria a_ è completamente contenuta nella_ geometria b_.
+Controlla qualora una geometria sia interna ad un'altra. Restituisce  1 (vero) se la _geometria1_ è completamente contenuta nella_ geometria2_.
 
 Sintassi:
 

@@ -8,7 +8,7 @@ esempio sotto:
 
 ![](../img/esempi/attributi_da_layer_vicini/img_01.png)
 
-Espressioni utilizzate:
+Espressioni utilizzate per QGIS >= 3.18:
 
 campo `start_pt`:
 
