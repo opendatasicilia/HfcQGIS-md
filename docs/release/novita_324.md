@@ -15,4 +15,5 @@ In costruzione!!!
 - `force_polygon_cw/ccw` : https://github.com/qgis/QGIS/pull/45718
 - `densify_by_count` e `densify_by_distance` : https://github.com/qgis/QGIS/pull/45894
 - `roundness` : https://github.com/qgis/QGIS/pull/45154
+- `overlay_intersects` : https://github.com/qgis/QGIS/pull/46185 miglioramenti
 
