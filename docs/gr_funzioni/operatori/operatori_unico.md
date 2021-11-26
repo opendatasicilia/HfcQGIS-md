@@ -288,8 +288,8 @@ Esempi:
 'ABCD' LIKE '_B_' → 0
 'ABCD' LIKE '_B%' → 1
 'ABCD' LIKE '%B%' → 1
-'1%' LIKE '1\%' → 1
-'1_' LIKE '1\%' → 0
+'1%' LIKE '1\\%' → 1
+'1_' LIKE '1\\%' → 0
 ```
 
 Osservazioni:
