@@ -1260,7 +1260,7 @@ Restituisce una geometria creata da una rappresentazione Well-Known Text (WKT).
 
 Sintassi:
 
-- geom_from_wkt_<span style="color:red;">text</span>_)
+- geom_from_wkt(_<span style="color:red;">text</span>_)
 
 Argomenti:
 
