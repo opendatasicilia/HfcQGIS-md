@@ -33,6 +33,15 @@ with_variable('sel',
              )
 ```
 
+oppure questa:
+
+```
+with_variable ('sel',
+        array_filter(
+                map_avals (attributes ()), @element not in ("PRO_COM","COMUNE")),
+                map_akeys (attributes ())[array_find (@sel, array_max (@sel))])
+```
+
 ![](../img/esempi/maxValoreCampoNome/img_02.png)
 
 Se volessimo aggiungere anche il campo con il valore massimo, basterebbe creare una mappa con chiave il campo (che contiene il valore massimo) e come valore, il valore massimo; per far questa **mappa** occorre utilizzare la seguente espressione:
@@ -111,6 +120,7 @@ Funzioni e variabili utilizzate:
 * [@with_variable](../gr_funzioni/variabili/with_variable.md)
 * [hstore_to_map](../gr_funzioni/maps/maps_unico.md#array_get)
 * [array_max](../gr_funzioni/array/array_unico.md#array_max)
+* [array_filter](../gr_funzioni/array/array_unico.md#array_filter)
 * [array_find](../gr_funzioni/array/array_unico.md#array_find)
 * [attributes](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#attributes)
 * [map_delete](../gr_funzioni/maps/maps_unico.md#map_delete)
