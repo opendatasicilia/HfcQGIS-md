@@ -29,3 +29,4 @@ data       | descrizione
 11/11/2021 | aggiunto [62esimo](esempi/media_stdev_tra_campi.md) esempio
 22/11/2021 | aggiunto [63esimo](esempi/classificazione_specie.md) esempio
 24/11/2021 | aggiunto [64esimo](esempi/attributi_da_layer_vicini.md) esempio
+29/11/2021 | aggiunto [65esimo](esempi/aggregare_valori_tabella.md) esempio

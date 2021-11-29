@@ -246,6 +246,7 @@ nav:
            - Media e stdev tra campi: esempi/media_stdev_tra_campi.md
            - Classificazione specie: esempi/classificazione_specie.md
            - Prelevare attributi da layer più vicini: esempi/classificazione_specie.md
+           - Aggrega valori di una tabella: esempi/aggregare_valori_tabella.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 
