@@ -10,7 +10,12 @@ Un modo rapido per evitare la creazione di un nuovo layer è quello di utilizzar
 2. popolarlo utilizzando la seguente espressione: 
 
 ```   
-aggregate(layer:='punti', aggregate:='count', expression:="id", filter:=intersects( $geometry, geometry(@parent)))
+aggregate(
+ layer:='punti', 
+ aggregate:='count', 
+ expression:=$id, 
+ filter:=intersects( $geometry, geometry(@parent))
+ )
 ```
 
 [![](../img/esempi/conta_punti_in_poligono/conta_01.png)](../img/esempi/conta_punti_in_poligono/conta_01.png)
