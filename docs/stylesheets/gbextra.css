@@ -351,3 +351,11 @@ max-height:100px;
 .md-footer {    background-color: #efefef;  color: #000000de;
     /* color: var(--md-footer-fg-color); */}
 .md-footer-meta {    background-color: var(--md-footer-bg-color);}
+
+/*footer*/
+	.md-footer-copyright {
+    color: var(--md-footer-fg-color--lighter)!important;
+    font-size: .64rem!important;
+    margin: auto .6rem;
+    padding: .4rem 0;
+  /*  width: 100%;*/

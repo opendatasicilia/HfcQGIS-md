@@ -58,6 +58,7 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.tabs
+ #  - header.autohide
     - search.suggest
   # - search.highlight
     - search.share
