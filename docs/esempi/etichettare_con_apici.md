@@ -21,6 +21,9 @@ diverso     | `char(8800)` | `≠`
 
 ![](https://pigrecoinfinito.files.wordpress.com/2021/10/image-1.png)
 
+## osservazione:
+
+per trovare il codice di un carattere basta utilizzare la funzione `ascii('⭐') → 11088`
 
 blog post : <https://pigrecoinfinito.com/2021/10/11/qgis-e-le-unita-di-misura-nel-si/>
 
