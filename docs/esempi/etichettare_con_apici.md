@@ -14,7 +14,7 @@ diametro    | `char(8709)` | `∅`
 euro        | `char(8364)` | `€`
 alfa        | `char(945)`  | `α`
 beta        | `char(946)`  | `β`
-epslon      | `char(949)`  | `ε`
+epsilon     | `char(949)`  | `ε`
 teta        | `char(952)`  | `θ`
 diverso     | `char(8800)` | `≠`
 
