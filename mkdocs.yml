@@ -56,7 +56,7 @@ theme:
   language: it
   features:
     - navigation.top
-    - navigation.instant
+#   - navigation.instant
     - navigation.tabs
  #  - header.autohide
     - search.suggest
