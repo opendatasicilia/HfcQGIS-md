@@ -21,6 +21,7 @@
 16. è possibile editare/salvare/importare/esportare e condividere espressioni utente; >= QGIS 3.12;
 17. è possibile cambiare l'attributo visualizzabile in `Elemento` dalle proprietà _Suggerimenti_ del layer;
 18. è possibile aumentare la dimenzione del testo all'interno dell'editor tramite la rotellina del mouse (`Ctrl+rotellina`)
+19. è possibile personalizzare i colori e i font utilizzati nell'area di scrittura espressioni da Impostazioni|Opzioni|IDE
 
 
 Video 1 |   Video 2   | Video 3
