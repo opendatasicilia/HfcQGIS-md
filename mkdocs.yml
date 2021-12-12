@@ -249,6 +249,7 @@ nav:
            - Prelevare attributi da layer più vicini: esempi/classificazione_specie.md
            - Aggrega valori di una tabella: esempi/aggregare_valori_tabella.md
            - Etichettare con apici: esempi/etichettare_con_apici.md
+           - ID univoco per gruppi consecutivi: esempi/ID_univoco_gruppi_consecutivi.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

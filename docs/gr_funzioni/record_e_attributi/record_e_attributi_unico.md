@@ -202,7 +202,11 @@ display_expression('a_layer_id', $currentfeature, 'False') → L'espressione vis
 
 ## get_feature
 
-Restituisce la prima geometria di un vettore che corrisponde a un determinato valore di attributo.
+Restituisce il primo elemento di un layer che corrisponde ad un dato valore di attributo.
+
+### Variante a valore singolo
+
+Insieme all'ID livello, vengono specificati una singola colonna e un valore.
 
 Sintassi:
 
@@ -210,7 +214,7 @@ Sintassi:
 
 Argomenti:
 
-* *<span style="color:red;">layer</span>* nome vettore o ID
+* *<span style="color:red;">layer</span>* nome layer o ID
 * *<span style="color:red;">attribute</span>* nome attributo
 * *<span style="color:red;">value</span>* valore attributo da far corrispondere
 
@@ -222,6 +226,27 @@ get_feature( 'streets', 'fid', attribute( $currentfeature, 'name') ) → Restitu
 ```
 
 [![](../../img/record_e_attributi/get_feature1.png)](../../img/record_e_attributi/get_feature1.png)
+
+### Variante map
+
+**QGIS** >= 3.24
+
+Insieme all'ID livello, una mappa contenente le colonne (chiave) e il rispettivo valore da utilizzare.
+
+Sintassi:
+
+* get_feature(*<span style="color:red;">layer</span>, <span style="color:red;">map</span>*)
+
+Argomenti:
+
+* *<span style="color:red;">layer</span>* nome layer o ID
+* *<span style="color:red;">map</span>* Mappa contenente la colonna e le coppie di valori da utilizzare
+
+Esempi:
+
+```
+get_feature('streets',map('name','main st','lane_num','4')) → primo elemento trovato in 'streets' con il valore 'main st' nel campo 'name' e il valore '4' nel campo 'lane_num'
+```
 
 ---
 

@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **66** esempi svolti! (in evoluzione)
+Attualmente ci sono **67** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -85,6 +85,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 64|[prelevare attributi da layer più vicini](attributi_da_layer_vicini.md)|Prelevare attributi da diversi layer con criterio di vicinanza|Salvatore Fiandaca | 4 | @with_variable, array_get, array_foreach, array_find, array_min, overlay_nearest, distance, array, shortest_line, $geometry, start_point, end_point
 65|[aggrega valori di una tabella](aggregare_valori_tabella.md)|Aggregare i valori di una tabella e creare un nuovo layer|Salvatore Fiandaca | 3 | array_agg, array_to_string
 66|[etichettare usando gli apici](etichettare_con_apici.md)|Etichettare usando gli apici, `km²` o `m³`|Salvatore Fiandaca | 1 | char
+67|[ID univoco per gruppi consecutivi](ID_univoco_gruppi_consecutivi.md)|ID univoco per gruppi consecutivi|Salvatore Fiandaca | 4 | with_variable, array_find, array_distinct, array_agg, aggregate
 
 ## Partecipa
 
