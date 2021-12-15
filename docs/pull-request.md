@@ -1,9 +1,8 @@
 # Pull Request
 
-
 In questa pagina l'elenco delle richieste di funzionalità legate al field calculator di QGIS, inoltrate da Salvatore Fiandaca nel repository ufficiale di [QGIS](https://github.com/qgis/QGIS).
 
-## Realizzate
+## Realizzata
 
 Permette di salvare le espressioni utente personalizzate nel profilo utente. Introdotta a partire da [QGIS 3.12 Bucaresti](https://hfcqgis.opendatasicilia.it/release/novita_312/)
 
@@ -16,15 +15,14 @@ Permette di salvare le espressioni utente personalizzate nel profilo utente. Int
 - **raccolta fondi**: <https://pigrecoinfinito.com/2019/12/14/field-calc-di-qgis-save-expressions-crowdfunding/>
 - **Blog post**: <https://pigrecoinfinito.com/2019/12/31/qgis-espressioni-utente/>
 
-## Da realizzare
+## Realizzata
 
-Permetterebbe di visualizzare gli attributi di un layer diverso da quello corrente. È molto utile quando di creano espressioni che richiamano altri layer, per esempio usando `get_feature`, `get_feature_by_id`, `aggregate` e le funzioni di `overlay_*`.
+Permette di visualizzare gli attributi di un layer diverso da quello corrente. È molto utile quando di creano espressioni che richiamano altri layer, per esempio usando `get_feature`, `get_feature_by_id`, `aggregate` e le funzioni di `overlay_*`.
 
 <https://github.com/qgis/QGIS/issues/37544>
 
-- prima ipotesi:
-
 ![](https://user-images.githubusercontent.com/7631137/86370780-6d12b600-bc80-11ea-8a48-e1177eb6b056.png)
-- seconda ipotesi:
 
-[![](https://user-images.githubusercontent.com/7631137/127764631-c2dd7821-69ca-4ce8-bee9-efefbae95f36.png)](https://user-images.githubusercontent.com/7631137/127764631-c2dd7821-69ca-4ce8-bee9-efefbae95f36.png)
+- **Feature request**: <https://github.com/qgis/QGIS/issues/37544>
+- **Pull request**: <https://github.com/qgis/QGIS/pull/46505>
+- Finanziata da ARPA Piemonte

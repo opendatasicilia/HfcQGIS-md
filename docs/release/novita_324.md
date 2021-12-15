@@ -18,6 +18,7 @@ In costruzione!!!
 - `overlay_intersects` : <https://github.com/qgis/QGIS/pull/46185> miglioramenti
 - `map_prefix_keys` : <https://github.com/qgis/QGIS/pull/46087>
 - `url_encode` : <https://github.com/qgis/QGIS/pull/46384>
+- `esponi i nomi dei campi da layer richiamati` : https://github.com/qgis/QGIS/pull/46505
 
 Nuovo bottone `apri tabella attributi`: https://github.com/qgis/QGIS/pull/46328
 
