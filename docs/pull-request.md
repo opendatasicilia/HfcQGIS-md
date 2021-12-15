@@ -4,6 +4,8 @@ In questa pagina l'elenco delle richieste di funzionalità legate al field calcu
 
 ## Realizzata
 
+`>=QGIS 3.12`
+
 Permette di salvare le espressioni utente personalizzate nel profilo utente. Introdotta a partire da [QGIS 3.12 Bucaresti](https://hfcqgis.opendatasicilia.it/release/novita_312/)
 
 <https://github.com/qgis/QGIS/pull/33437>
@@ -16,6 +18,8 @@ Permette di salvare le espressioni utente personalizzate nel profilo utente. Int
 - **Blog post**: <https://pigrecoinfinito.com/2019/12/31/qgis-espressioni-utente/>
 
 ## Realizzata
+
+`>=QGIS 3.24`
 
 Permette di visualizzare gli attributi di un layer diverso da quello corrente. È molto utile quando di creano espressioni che richiamano altri layer, per esempio usando `get_feature`, `get_feature_by_id`, `aggregate` e le funzioni di `overlay_*`.
 
