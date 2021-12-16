@@ -27,6 +27,9 @@ Permette di visualizzare gli attributi di un layer diverso da quello corrente. Ã
 
 ![](https://user-images.githubusercontent.com/7631137/86370780-6d12b600-bc80-11ea-8a48-e1177eb6b056.png)
 
+![](https://pigrecoinfinito.files.wordpress.com/2021/12/image-7.png)
+
 - **Feature request**: <https://github.com/qgis/QGIS/issues/37544>
 - **Pull request**: <https://github.com/qgis/QGIS/pull/46505>
-- Finanziata da ARPA Piemonte
+- **Blog post**: <https://pigrecoinfinito.com/2021/12/16/campi-e-valori-anche-per-il-gruppo-layer-mappa-del-field-calc-di-qgis/>
+- Finanziata da [ARPA Piemonte](http://www.arpa.piemonte.it/)
