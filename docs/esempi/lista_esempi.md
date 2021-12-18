@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **67** esempi svolti! (in evoluzione)
+Attualmente ci sono **68** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -86,7 +86,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 65|[aggrega valori di una tabella](aggregare_valori_tabella.md)|Aggregare i valori di una tabella e creare un nuovo layer|Salvatore Fiandaca | 3 | array_agg, array_to_string
 66|[etichettare usando gli apici](etichettare_con_apici.md)|Etichettare usando gli apici, `km²` o `m³`|Salvatore Fiandaca | 1 | char
 67|[ID univoco per gruppi consecutivi](ID_univoco_gruppi_consecutivi.md)|ID univoco per gruppi consecutivi|Salvatore Fiandaca | 4 | with_variable, array_find, array_distinct, array_agg, aggregate
-
+68|[Eliminare righe duplicate con condizione](eliminare_duplicati_condizione.md)|Eliminare righe duplicate con condizioni su più attributi|Salvatore Fiandaca | 3 | minimum, array_agg, array_find, with_variable
 ## Partecipa
 
 Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis.opendatasicilia.it/contributing/#suggerire-esempiesercizi):

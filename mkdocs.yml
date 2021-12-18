@@ -250,6 +250,7 @@ nav:
            - Aggrega valori di una tabella: esempi/aggregare_valori_tabella.md
            - Etichettare con apici: esempi/etichettare_con_apici.md
            - ID univoco per gruppi consecutivi: esempi/ID_univoco_gruppi_consecutivi.md
+           - Elimina duplicati con condizione: esempi/eliminare_duplicati_condizione.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

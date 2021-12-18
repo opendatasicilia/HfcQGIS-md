@@ -240,7 +240,7 @@ Sintassi:
 Argomenti:
 
 * *<span style="color:red;">layer</span>* nome layer o ID
-* *<span style="color:red;">map</span>* Mappa contenente la colonna e le coppie di valori da utilizzare
+* *<span style="color:red;">map</span>* Mappa contenente le coppie di colonne e valori da usare.
 
 Esempi:
 

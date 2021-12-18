@@ -33,3 +33,4 @@ data       | descrizione
 02/12/2021 | aggiunto [66esimo](esempi/etichettare_con_apici.md) esempio
 12/12/2021 | aggiunto [67esimo](esempi/ID_univoco_gruppi_consecutivi.md) esempio
 15/12/2021 | aggiornata sezione [Pull Request](pull-request.md)
+18/12/2021 | aggiunto [68esimo](esempi/eliminare_duplicati_condizione.md) esempio
