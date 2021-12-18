@@ -87,6 +87,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 66|[etichettare usando gli apici](etichettare_con_apici.md)|Etichettare usando gli apici, `km²` o `m³`|Salvatore Fiandaca | 1 | char
 67|[ID univoco per gruppi consecutivi](ID_univoco_gruppi_consecutivi.md)|ID univoco per gruppi consecutivi|Salvatore Fiandaca | 4 | with_variable, array_find, array_distinct, array_agg, aggregate
 68|[Eliminare righe duplicate con condizione](eliminare_duplicati_condizione.md)|Eliminare righe duplicate con condizioni su più attributi|Salvatore Fiandaca | 3 | minimum, array_agg, array_find, with_variable
+
 ## Partecipa
 
 Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis.opendatasicilia.it/contributing/#suggerire-esempiesercizi):
