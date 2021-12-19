@@ -5,7 +5,7 @@ social_image: img/card_social/hfc_gr_layerMappa.png
 # Gruppo Layer Mappa
 
 !!! Abstract
-    **Contiene una lista dei layer della mappa che sono disponibili nel progetto corrente. A partire dalla versione QGIS 3.24, sarà possibile visualizzare i campi e valori dei layer in lista**
+    **Contiene una lista dei layer della mappa che sono disponibili nel progetto corrente. A partire dalla versione QGIS 3.24[^1], sarà possibile visualizzare i campi e valori dei layer in lista**
 
 ---
 
@@ -78,3 +78,5 @@ layer_property('landsat','crs') → 'EPSG:4326'
 ```
 
 [![](../../img/layer_della_mappa/layer_property1.png)](../../img/layer_della_mappa/layer_property1.png)
+
+[^1]: https://github.com/qgis/QGIS/pull/46505
