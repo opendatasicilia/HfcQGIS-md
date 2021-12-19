@@ -3,7 +3,7 @@
 !!! Abstract "Intro"
     **In questa sezioni sono raccolti i concetti fondamentali sul Field Calc espressi tramite un elenco puntato. La conoscenza di questi concetti permette di velocizzare il lavoro e capire il comportamento del Field Calc.**
 
-1. il calcolatore di campi è attivabile solo per layer **vettoriale** e tabelle **editabili**;
+1. il calcolatore di campi è attivabile solo per layer **vettoriale**[^1] e tabelle **editabili**[^2];
 2. la creazione di un **nuovo campo** è relativo al layer selezionato nella TOC (Pannello Layer);
 3. il calcolatore popola **un campo per volta** (la modifica multipla è un caso particolare);
 4. l'output del calcolatore popola, in generale, tutte le celle (della colonna) della tabella attributi o solo quelle selezionate (caso particolare);
@@ -27,3 +27,6 @@
 Video 1 |   Video 2   | Video 3
 --------|-------------|--------
 [![field_calc01](https://img.youtube.com/vi/454-t4_NcSs/0.jpg)](https://www.youtube.com/watch?v=454-t4_NcSs&index=7&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu "fiel_calc01") | [![field_calc02](https://img.youtube.com/vi/i0mLFq4MSOY/0.jpg)](https://www.youtube.com/watch?v=i0mLFq4MSOY&index=6&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu "fiel_calc02") | [![field_calc03](https://img.youtube.com/vi/IymSgXmbAFM/0.jpg)](https://www.youtube.com/watch?v=IymSgXmbAFM&list=PLqDFjeQq7NBjz5PWb66PNUqMgN1fce4cu&index "fiel_calc03")
+
+[^1]: è un layer ... 
+[^2]: è un layer ...
