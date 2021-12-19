@@ -79,4 +79,4 @@ layer_property('landsat','crs') → 'EPSG:4326'
 
 [![](../../img/layer_della_mappa/layer_property1.png)](../../img/layer_della_mappa/layer_property1.png)
 
-[^1]: https://github.com/qgis/QGIS/pull/46505
+[^1]: <https://github.com/qgis/QGIS/pull/46505>
