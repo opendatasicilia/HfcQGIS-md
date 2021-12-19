@@ -96,6 +96,7 @@ plugins:
     #      utm_campaign: "feed-syndication"
 
 markdown_extensions:
+- footnotes
 - toc:
     permalink: ↵
 - meta
