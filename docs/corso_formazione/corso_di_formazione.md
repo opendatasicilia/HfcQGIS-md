@@ -82,7 +82,7 @@ Per maggiori Info contattatemi.
 - `blog`: <https://pigrecoinfinito.com/>
 - `canale youtube`: <http://www.youtube.com/c/TotòFiandaca>
 - `HfcQGIS`: <https://hfcqgis.opendatasicilia.it/>
-- `Tansignari`: <http://tansignari.opendatasicilia.it/it/latest/#>
+- `Tansignari`: <https://tansignari.opendatasicilia.it/>
 - `data.world`: <https://data.world/pigrecoinfinito>
 - `github`: <https://github.com/pigreco>
 - `gitlab`: <https://gitlab.com/pigr3co>
