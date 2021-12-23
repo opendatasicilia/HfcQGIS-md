@@ -12,9 +12,9 @@
 7. il risultato delle funzioni di aggregazione verrà ripetuto in tutte le righe (questo è uno dei motivi della lentezza di alcuni processi);
 8. è possibile **aggiornare** la *geometry* >= QGIS 2.14;
 9. `$area`, `$perimeter` ecc.. il `$` davanti ad una funzione significa che riguarda la geometry corrente;
-10. i nomi dei layer vanno scritti tra apici semplici ('nome_layer') mentre i nomi dei campi con doppi apici ("nome_campo") ma funziona anche senza apici;
+10. i nomi dei layer vanno scritti tra apici semplici ('nome_layer') mentre i nomi dei campi con doppi apici ("nome_campo") ma funziona anche senza apici, ma per evitare problemi è consigliato i doppi apici;
 11. i valori numerici vanno scritti senza apici es: 10, mentre i valori alfanumerici vanno scritti tra apici semplici es: 'Sicilia';
-12. l'anteprima del calcolatore (pto 17 - vedi screenshot) è utile ma non sempre corretta o completa; provate la funzione _to_datetime_;
+12. l'anteprima del calcolatore (pto 17 - vedi screenshot) è utile ma non sempre corretta o completa; provate la funzione _to_datetime_ o usare funzioni che restituiscono un output lungo;
 13. con il doppio clic è possibile aggiungere funzioni o valori nelle espressioni nell'area di editing;
 14. è possibile aggiungere funzioni personalizzate tramite codice Python nel gruppo _Custom_;
 15. è possibile aggiungere altri gruppi di funzioni tramite plugin es:refFunction → gruppo Reference;
