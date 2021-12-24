@@ -252,6 +252,7 @@ nav:
            - Etichettare con apici: esempi/etichettare_con_apici.md
            - ID univoco per gruppi consecutivi: esempi/ID_univoco_gruppi_consecutivi.md
            - Elimina duplicati con condizione: esempi/eliminare_duplicati_condizione.md
+           - Selezione ultimo record per data: esempi/selezione_ultimo_record_per_data.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

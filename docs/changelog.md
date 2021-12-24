@@ -34,3 +34,4 @@ data       | descrizione
 12/12/2021 | aggiunto [67esimo](esempi/ID_univoco_gruppi_consecutivi.md) esempio
 15/12/2021 | aggiornata sezione [Pull Request](pull-request.md)
 18/12/2021 | aggiunto [68esimo](esempi/eliminare_duplicati_condizione.md) esempio
+24/12/2021 | aggiunto [69esimo](esempi/selezione_ultimo_record_per_data.md) esempio
