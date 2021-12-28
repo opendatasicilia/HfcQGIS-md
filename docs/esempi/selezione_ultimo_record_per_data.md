@@ -66,7 +66,7 @@ Dal menù **Impostazioni | Opzioni** è possibile modificare la visualizzazione 
 
 [![screen](../img/esempi/selezione_ultimo_record_per_data/img_02.png)](../img/esempi/selezione_ultimo_record_per_data/img_02.png)
 
-### prova tu
+## prova tu
 
 [Geopackage](../prova_tu/layers.gpkg)
 

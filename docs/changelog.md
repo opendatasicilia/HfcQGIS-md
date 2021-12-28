@@ -35,3 +35,4 @@ data       | descrizione
 15/12/2021 | aggiornata sezione [Pull Request](pull-request.md)
 18/12/2021 | aggiunto [68esimo](esempi/eliminare_duplicati_condizione.md) esempio
 24/12/2021 | aggiunto [69esimo](esempi/selezione_ultimo_record_per_data.md) esempio
+28/12/2021 | aggiunto [70esimo](esempi/trova_nella_tabella_attributi.md) esempio
