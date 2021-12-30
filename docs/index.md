@@ -32,6 +32,8 @@ hide:
   
   <a href="https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/" title="70 Esempi Svolti! | Programma" target="_blank">70 Esempi Svolti!</a>
 
+ <hr>
+ 
   <!--  inizio blocco pubblicità -->
   
  <!--  inizio testo Gter -->
