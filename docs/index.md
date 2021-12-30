@@ -30,6 +30,8 @@ hide:
   <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
   <hr>
   
+  <a href="https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/" title="70 Esempi Svolti! | Programma" target="_blank">70 Esempi Svolti!</a>
+
   <!--  inizio blocco pubblicità -->
   
  <!--  inizio testo Gter -->
