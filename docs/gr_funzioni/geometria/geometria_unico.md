@@ -82,7 +82,8 @@ Se il _<span style="color:red;">SR del progetto</span>_ in cui si sta calcolando
 
 Osservazione:
 
-in generale $area <> area($geometry)
+1. in generale $area <> area($geometry)
+2. da >= **QGIS 3.20** le misure legate all'uso degli ellissoidi, per esempio `$area` e `$length`, utilizzano lo stesso metodo di PostGIS ([le routine GeographicLib](https://github.com/qgis/QGIS/pull/41726)) quindi le misure risulteranno più 'precise' rispetto alle versioni precedenti di QGIS. (vedi: [discussione](https://lists.osgeo.org/pipermail/qgis-user/2021-January/047638.html), [feature request](https://github.com/qgis/QGIS/issues/40888), [pull request](https://github.com/qgis/QGIS/pull/41726)).
 
 ---
 
@@ -130,7 +131,7 @@ $length → 42.4711
 
 Osservazione:
 
-Come evidenziano nella definizione della funzione, [$length](#length) calcola la lunghezza rispettando le impostazioni di progetto:
+1. Come evidenziano nella definizione della funzione, [$length](#length) calcola la lunghezza rispettando le impostazioni di progetto:
 
 [![](../../img/geometria/_length/_length2.png)](../../img/geometria/_length/_length2.png)
 
@@ -142,7 +143,9 @@ Occorre cambiare entrambe le impostazioni, sia quelle dell'ellissoide → 'None/
 
 Queste modofiche non valgono per l'etichettatura, la lunghezza sarà quella relativa alla geometria e quindi al suo SR.
 
-Osservazioni:
+2. da >= **QGIS 3.20** le misure legate all'uso degli ellissoidi, per esempio `$area` e `$length`, utilizzano lo stesso metodo di PostGIS ([le routine GeographicLib](https://github.com/qgis/QGIS/pull/41726)) quindi le misure risulteranno più 'precise' rispetto alle versioni precedenti di QGIS. (vedi: [discussione](https://lists.osgeo.org/pipermail/qgis-user/2021-January/047638.html), [feature request](https://github.com/qgis/QGIS/issues/40888), [pull request](https://github.com/qgis/QGIS/pull/41726)).
+
+Nota:
 
 il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
 
@@ -164,11 +167,12 @@ $perimeter → 2545897.26
 
 [![](../../img/geometria/_perimeter/_perimeter1.png)](../../img/geometria/_perimeter/_perimeter1.png)
 
-Nota bene:
+Osservazione:
 
-Si utilizza SOLO per i poligoni, nel caso di feature lineari [$length ](#length)
+1. Si utilizza SOLO per i poligoni, nel caso di feature lineari [$length ](#length)
+2. da >= **QGIS 3.20** le misure legate all'uso degli ellissoidi, per esempio `$area` e `$length`, utilizzano lo stesso metodo di PostGIS ([le routine GeographicLib](https://github.com/qgis/QGIS/pull/41726)) quindi le misure risulteranno più 'precise' rispetto alle versioni precedenti di QGIS. (vedi: [discussione](https://lists.osgeo.org/pipermail/qgis-user/2021-January/047638.html), [feature request](https://github.com/qgis/QGIS/issues/40888), [pull request](https://github.com/qgis/QGIS/pull/41726)).
 
-Osservazioni:
+Nota:
 
 il `$` indica che è relativo all'elemento corrente e non ha bisogno di argomenti.
 
