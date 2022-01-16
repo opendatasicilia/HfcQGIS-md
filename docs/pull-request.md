@@ -33,3 +33,9 @@ Permette di visualizzare gli attributi di un layer diverso da quello corrente. Ã
 - **Pull request**: <https://github.com/qgis/QGIS/pull/46505>
 - **Blog post**: <https://pigrecoinfinito.com/2021/12/16/campi-e-valori-anche-per-il-gruppo-layer-mappa-del-field-calc-di-qgis/>
 - Finanziata da [ARPA Piemonte](http://www.arpa.piemonte.it/)
+
+## Da realizzata
+
+Implementa il [Natural sorting](https://en.wikipedia.org/wiki/Natural_sort_order) come parametro opzionale della funzione `array_sort`
+
+<https://github.com/qgis/QGIS/issues/46850>
