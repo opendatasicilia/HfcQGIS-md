@@ -37,3 +37,5 @@ data       | descrizione
 24/12/2021 | aggiunto [69esimo](esempi/selezione_ultimo_record_per_data.md) esempio
 28/12/2021 | aggiunto [70esimo](esempi/trova_nella_tabella_attributi.md) esempio
 16/01/2022 | [Pull request](pull-request.md) per il Natural sorting in array_sort
+18/01/2022 | aggiunto [71esimo](esempi/array_natural_sorting.md) esempio
+18/01/2022 | aggiunti due nuove funzioni personalizzate sul Natural sorting [71esimo](gr_funzioni/custom/custom_unico.md) esempio

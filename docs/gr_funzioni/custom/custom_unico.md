@@ -887,3 +887,77 @@ def MinMaxValueFieldName(attrmap, esclusion, minmax, vresult, feature, parent):
 Lo script è stato riscritto da [Giulio Fattori](https://github.com/Korto19), la fonte è [qui](https://gis.stackexchange.com/questions/411369/returning-column-name-of-the-max-value/411399#411399), grazie [Taras](https://gis.stackexchange.com/users/99589/taras)
 
 ---
+
+## Ordina array alfanumerico in modo numerico
+
+```py
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ WMS Catasto Agenzia delle Entrate CC BY 4.0
+                              -------------------
+        copyright            : (C) 2021 by Giulio Fattori
+        email                : giulio.fattori@tin.it
+ ***************************************************************************/
+"""
+
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom', referenced_columns=[])
+def array_sort_special(value1, feature, parent):
+    """
+    Ordina un array alfanumerico numericamente
+    <h2>Esempio:</h2>
+    <ul>
+      <li>array_sort_special('5/A-5-4-8-3-6-9-7-1-10-7/B-2-7/A') -> ['1','2','3','4','5','5/A','6','7','7/A','7/B','8','9','10']</li>
+    </ul>
+    """
+
+    data = value1.split('-')
+    r = sorted(data, key=lambda item: (int(item.partition('/')[0])
+    if item[0].isdigit() else float('inf'), item))
+    #return (','.join(r))
+    return r
+```
+
+Lo script è stato riscritto da [Giulio Fattori](https://github.com/Korto19)
+
+---
+
+## Natural sorting
+
+```py
+from qgis.core import *
+from qgis.gui import *
+import re
+
+def natural_sort_key(s):
+    ns = re.compile('([0-9]+)')
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(ns, s)]  
+
+@qgsfunction(args='auto', group='Custom', usesgeometry=False)
+def sort_my_list(field, feature, parent):
+    """
+    Ordina un array secondo la Natural sorting
+    <h2>Esempio:</h2>
+    <ul>
+      <li>sort_my_list('field') -> 'elementi ordinati'</li>
+    </ul>
+    
+    Nota: il nome del parametro del campo (field) per sort_my_addresses 
+    deve essere compreso tra virgolette singole ('), non virgolette doppie (").
+    Ad esempio 'field', non "field"
+    <ul>
+    by Kadir Şahbaz
+    </ul>
+    Commentare decomentare le ulti due righe per avere una array o una stringa
+    """
+    
+    _list = feature[field].split("-")
+    _list.sort(key=natural_sort_key)
+    return _list
+    #return ','.join(_list)
+```
+
+Lo script è stato riscritto da [Kadir Şahbaz](https://gis.stackexchange.com/a/421168/73605)
