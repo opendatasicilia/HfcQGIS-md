@@ -51,12 +51,12 @@ Il **natural sorting** è un problema noto (c'è molta letteratura) e la soluzio
 
 Funzioni e variabili utilizzate:
 
-* [with_variable](../gr_funzioni/generale/generale_unico/#with_variable)
-* [array_sort](../gr_funzioni/array/array_unico/#array_sort)
-* [array_foreach](../gr_funzioni/array/array_unico/#array_foreach)
-* [array_to_string](../gr_funzioni/array/array_unico/#array_to_string)
-* [string_to_array](../gr_funzioni/array/array_unico/#string_to_array)
-* [generate_series](../gr_funzioni/array/array_unico/#generate_series)
+* [with_variable](../gr_funzioni/generale/generale_unico.md/#with_variable)
+* [array_sort](../gr_funzioni/array/array_unico.md/#array_sort)
+* [array_foreach](../gr_funzioni/array/array_unico.md/#array_foreach)
+* [array_to_string](../gr_funzioni/array/array_unico.md/#array_to_string)
+* [string_to_array](../gr_funzioni/array/array_unico.md/#string_to_array)
+* [generate_series](../gr_funzioni/array/array_unico.md/#generate_series)
 * [regexp_substr](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#regexp_substr)
 * [regexp_replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#regexp_replace)
-* [lpad](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/#lpad)
+* [lpad](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md/#lpad)
