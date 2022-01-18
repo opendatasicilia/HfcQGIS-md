@@ -92,7 +92,7 @@ Padova luglio 2019
 ## Workshop e Seminari
 
 - [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (secondo incontro)](https://github.com/pigreco/geobreack_32_by_Gter)
-- [FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/Workshop_FOSS4G-IT-2021)
+- [FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/Workshop_FOSS4G-IT-2021) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
 - [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (primo incontro)](https://github.com/pigreco/geobreack_28_by_Gter)
 - [GIScience - Dagli Open Data all'Open Source: lavorare in QGIS con le mappe catastali](https://github.com/pigreco/workshop-estate-gis-2021)
 - [GIScience - COVID: Analisi geografica con strumenti GIS Open Source](https://github.com/pigreco/workshop-estate-gis-2020)
