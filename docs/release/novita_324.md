@@ -7,7 +7,7 @@
 ## Espressioni
 
 ### Gruppo Geometria
-funzione                    | link PR                                   | descrione
+funzione                    | link PR                                   | descrizione
 ----------------------------|-------------------------------------------|---------------------
 `scale`                     | <https://github.com/qgis/QGIS/pull/45505> | nuova funzione 
 `triangular/square/curved`  | <https://github.com/qgis/QGIS/pull/45583> | nuove funzione (6) 
@@ -22,18 +22,18 @@ funzione                    | link PR                                   | descri
 `geometry_type`             | <https://github.com/qgis/QGIS/pull/46716> | nuova funzione 
 
 ### Gruppo Record e Attributi
-funzione               | link PR                                   | descrione
+funzione               | link PR                                   | descrizione
 -----------------------|-------------------------------------------|---------------
 `get_feature`          | <https://github.com/qgis/QGIS/pull/43352> | miglioramenti
 `represent_attributes` | <https://github.com/qgis/QGIS/pull/46502> | nuova funzione
 
 ### Gruppo Array
-funzione          | link PR                                       | descrione
+funzione          | link PR                                       | descrizione
 ------------------|-----------------------------------------------|--------------
 `array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (ancora aperto!)
 
 ### Gruppo Maps
-funzione          | link PR                                   | descrione
+funzione          | link PR                                   | descrizione
 ------------------|-------------------------------------------|---------------
 `map_prefix_keys` | <https://github.com/qgis/QGIS/pull/46087> | nuova funzione
 `url_encode`      | <https://github.com/qgis/QGIS/pull/46384> | nuova funzione
