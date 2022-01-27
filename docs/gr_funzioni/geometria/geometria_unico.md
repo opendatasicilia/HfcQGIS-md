@@ -305,6 +305,34 @@ Il primo ed ultimo vertice di una lineastring aperta la funzione restituisce il 
 
 ---
 
+## apply_dash_pattern
+
+Applica un modello di trattino ad una geometria, restituendo una geometria MultiLineString che è la geometria di input rappresentata lungo ogni linea/anello con il modello specificato.
+
+Sintassi:
+
+- apply_dash_pattern( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">pattern</span>_, _[,<span style="color:red;">start_rule=no_rule</span>]_, _[,<span style="color:red;">end_rule=no_rule</span>]_, _[,<span style="color:red;">adjustment=both</span>]_, _[,<span style="color:red;">pattern_offset=0</span>]_)
+
+Argomenti:
+
+*  _<span style="color:red;">geometry</span>_ una geometria (accetta (multi)linee o (multi)poligoni).
+*  _<span style="color:red;">pattern</span>_ modello di trattino, come un array di numeri che rappresentano la lunghezza dei trattini e degli spazi. Deve contenere un numero pari di elementi.
+*  _<span style="color:red;">start_rule</span>_ regola opzionale per vincolare l'inizio del modello. I valori validi sono 'no_rule', 'full_dash', 'half_dash', 'full_gap', 'half_gap'.
+*  _<span style="color:red;">end_rule</span>_ regola facoltativa per vincolare la fine del pattern. I valori validi sono 'no_rule', 'full_dash', 'half_dash', 'full_gap', 'half_gap'.
+*  _<span style="color:red;">adjustment</span>_ regola opzionale atta a specificare quale parte dei modelli sono adattate alle regole del modello desiderato. I valori validi sono 'both', 'dash', 'gap'. 
+*  _<span style="color:red;">pattern_offset</span>_ Distanza opzionale che indica una distanza specifica lungo il modello da cui iniziare.
+
+Esempi:
+
+```
+geom_to_wkt(apply_dash_pattern(geom_from_wkt('LINESTRING(1 1, 10 1)'), array(3, 1))) → MultiLineString ((1 1, 4 1),(5 1, 8 1),(9 1, 10 1, 10 1))
+geom_to_wkt(apply_dash_pattern(geom_from_wkt('LINESTRING(1 1, 10 1)'), array(3, 1), start_rule:='half_dash')) → MultiLineString ((1 1, 2.5 1),(3.5 1, 6.5 1),(7.5 1, 10 1, 10 1))
+```
+
+[![](../../img/geometria/apply_dash_pattern/apply_dash_pattern_01.png)](../../img/geometria/apply_dash_pattern/apply_dash_pattern_01.png)
+
+---
+
 ## area
 
 Restituisce l'area di un oggetto a geometria poligonale. I calcoli sono sempre planimetrici nel Sistema di Riferimento Spaziale (SR) di detta geometria, e l'unità di misura dell'area restituita è conforme all'unità di misura del SR. Ciò differisce dal calcolo eseguito dalla funzione $area, la quale esegue calcoli ellisoidici basati sull'ellissoide del progetto e sulle impostazioni delle unità di misura dell'area.
@@ -837,6 +865,52 @@ PS:** potrei anche negare (`NOT`) l'espressione per selezionare il complementare
 
 ---
 
+## densify_by_count
+
+Prende una geometria di un livello poligonale o lineare e ne genera una nuova in cui le geometrie hanno un numero di vertici maggiore di quella originale.
+
+Sintassi:
+
+- densify_by_count(_<span style="color:red;">geometry</span>_, _<span style="color:red;">vertices</span>)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria (accetta (multi)linee o (multi)poligoni).
+* _<span style="color:red;">vertices</span>_ numero di vertici da aggiungere (per segmento)
+
+Esempi:
+
+```
+geom_to_wkt(densify_by_count(geom_from_wkt('LINESTRING(1 1, 10 1)'), 3)) → LineString (1 1, 3.25 1, 5.5 1, 7.75 1, 10 1)
+```
+
+[![](../../img/geometria/densify_by_count/densify_by_count_01.png)](../../img/geometria/densify_by_count/densify_by_count_01.png)
+
+---
+
+## densify_by_distance
+
+Prende una geometria di un livello poligono o lineare e ne genera una nuova in cui le geometrie sono densificate aggiungendo ulteriori vertici sui bordi che hanno una distanza massima dell'intervallo di distanza specificato.
+
+Sintassi:
+
+- densify_by_distance(_<span style="color:red;">geometry</span>_, _<span style="color:red;">distance</span>)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria (accetta (multi)linee o (multi)poligoni).
+* _<span style="color:red;">distance</span>_ distanza massima dell'intervallo tra i vertici nella geometria in uscita
+
+Esempi:
+
+```
+geom_to_wkt(densify_by_distance(geom_from_wkt('LINESTRING(1 1, 10 1)'), 4)) → LineString (1 1, 4 1, 7 1, 10 1)
+```
+
+[![](../../img/geometria/densify_by_distance/densify_by_distance_01.png)](../../img/geometria/densify_by_distance/densify_by_distance_01.png)
+
+---
+
 ## difference
 
 Restituisce una geometria che rappresenta la porzione della _geometry_a_ che non interseca la _geometry_b_.
@@ -1186,6 +1260,50 @@ il flip è da usare con cautela perché cambia radicalemnte la posizione del vet
 
 ---
 
+## force_polygon_ccw
+
+Forza una geometria a rispettare la convenzione per cui gli anelli esterni sono in senso antiorario, quelli interni in senso orario.
+
+Sintassi:
+
+- force_polygon_ccw(_<span style="color:red;">geometry</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria. Qualunque geometria non poligonale è restituita non modificata
+
+Esempi:
+
+```
+geom_to_wkt(force_polygon_ccw(geometry:=geom_from_wkt('Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1)))'))) → 'Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1))'
+```
+
+[![](../../img/geometria/force_polygon_ccw/force_polygon_ccw_01.png)](../../img/geometria/force_polygon_ccw/force_polygon_ccw_01.png)
+
+---
+
+## force_polygon_cw
+
+Forza una geometria a rispettare la convenzione per cui gli anelli esterni sono in senso orario, quelli interni in senso antiorario.
+
+Sintassi:
+
+- force_polygon_cw(_<span style="color:red;">geometry</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria. Qualunque geometria non poligonale è restituita non modificata
+
+Esempi:
+
+```
+geom_to_wkt(force_polygon_cw(geometry:=geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))'))) → 'Polygon ((-1 -1, 0 2, 4 2, 4 0, -1 -1))'
+```
+
+[![](../../img/geometria/force_polygon_cw/force_polygon_cw_01.png)](../../img/geometria/force_polygon_cw/force_polygon_cw_01.png)
+
+---
+
 ## force_rhr
 
 Forza una geometria a rispettare la regola della mano destra, in cui l'area delimitata da un poligono si trova a destra del limite. In particolare, l'anello esterno è orientato in senso orario e l'interno in senso antiorario.
@@ -1358,7 +1476,7 @@ Usando il **Select by Expression**: selezionare le feature di un layer (quartier
 
 ## geometry_n
 
-Restituisce una geometria specifica da una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.
+Restituisce una geometria specifica da una collezione di geometrie, o NULL se la geometria in ingresso non è una collezione. Restituisce anche una parte da una geometria a più parti.
 
 Sintassi:
 
@@ -1376,6 +1494,31 @@ geom_to_wkt(geometry_n(geom_from_wkt('GEOMETRYCOLLECTION(POINT(0 1), POINT(0 0),
 ```
 
 [![](../../img/geometria/geometry_n/geometry_n1.png)](../../img/geometria/geometry_n/geometry_n1.png)
+
+---
+
+## geometry_type
+
+Restituisce un valore stringa che descrive il tipo di una geometria (Punto, Linea o Poligono)
+
+Sintassi:
+
+- geometry_type(_<span style="color:red;">geometry</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria
+
+Esempi:
+
+```
+geometry_type( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') ) → 'Line'
+geometry_type( geom_from_wkt( 'MULTILINESTRING((2 5, 3 6, 4 8), (1 1, 0 0))') ) → 'Line'
+geometry_type( geom_from_wkt( 'POINT(2 5)') ) → 'Point'
+geometry_type( geom_from_wkt( 'POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1))') ) → 'Polygon'
+```
+
+[![](../../img/geometria/geometry_type/img_01.png)](../../img/geometria/geometry_type/img_01.png)
 
 ---
 
@@ -2774,9 +2917,13 @@ overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) 
 
 Restituisce se l'elemento corrente interseca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target intersecati dall'elemento corrente. Ulteriori informazioni sul predicato GEOS "Intersects" sottostante, come descritto nella funzione PostGIS [ST_INTERSECTS](https://postgis.net/docs/ST_Intersects.html).
 
-Sintassi:
+Sintassi <= **QGIS 3.22.x**
 
 - overlay_intersects(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_])
+
+Sintassi >= **QGIS 3.24.x**
+
+- overlay_intersects(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit</span>_][,_<span style="color:red;">cache=false</span>_][,_<span style="color:red;">min_overlap</span>_][,_<span style="color:red;">min_inscribed_circle_radius</span>_][,_<span style="color:red;">return_details</span>_][,_<span style="color:red;">sort_by_intersection_size</span>_])
 
 [ ] indica componenti opzionali
 
@@ -2787,19 +2934,27 @@ Argomenti:
 * _<span style="color:red;">filter</span>_ un'espressione opzionale per filtrare gli elementi corrispondenti (se non impostata, verranno restituiti tutti gli elementi);
 * _<span style="color:red;">limit</span>_ un numero intero opzionale per limitare il numero di elementi corrispondenti (se non impostato, verranno restituiti tutti gli elementi);
 * _<span style="color:red;">cache</span>_ imposta su "vero" per creare un indice spaziale locale (il più delle volte, questo è indesiderato, a meno che tu non stia lavorando con un fornitore di dati particolarmente lento);
+* _<span style="color:red;">min_overlap</span>_ definisce un filtro opzionale di esclusione: per i poligoni un'area minima in unità quadrate dell'elemento corrente per l'intersezione (se l'intersezione risulta in più poligoni l'intersezione sarà restituita se almeno uno dei poligoni ha un'area maggiore o uguale al valore), per le linee una lunghezza minima in unità dell'elemento corrente (se l'intersezione risulta in più linee l'intersezione sarà restituita se almeno una delle linee ha una lunghezza maggiore o uguale al valore).
+* _<span style="color:red;">min_inscribed_circle_radius</span>_ definisce un filtro opzionale di esclusione (solo per i poligoni): raggio minimo in unità dell'elemento corrente per il cerchio massimo inscritto dell'intersezione (se l'intersezione risulta in più poligoni l'intersezione sarà restituita se almeno uno dei poligoni ha un raggio per il cerchio massimo inscritto maggiore o uguale al valore).
+Leggi di più sul predicato GEOS sottostante, come descritto nella funzione PostGIS [ST_MaximumInscribedCircle](https://postgis.net/docs/ST_MaximumInscribedCircle.html). Questo argomento richiede GEOS >= 3.9.
+* _<span style="color:red;">return_details</span>_ Imposta questo a true per restituire una lista di mappe contenenti (nomi chiave tra virgolette) l'elemento 'id', l'espressione 'result' e il valore 'overlap'. Il 'raggio' del cerchio massimo inscritto viene anche restituito quando il layer di destinazione è un poligono. Valido solo se usato con il parametro espressione.
+* _<span style="color:red;">sort_by_intersection_size</span>_ valido solo se usato con un'espressione, impostalo a 'des' per restituire i risultati ordinati dal valore di sovrapposizione in ordine decrescente o impostalo a 'asc' per un ordine crescente.
 
 [ ] indica componenti opzionali
 
 Esempi:
 
 ```
-overlay_intersects('regions') → true se l'elemento corrente interseca spazialmente una regione
+overlay_intersects('regions') → vero se l'elemento corrente interseca spazialmente una regione
 overlay_intersects('regions', filter:= population > 10000) → vero se l'elemento corrente interseca spazialmente una regione con una popolazione maggiore di 10000
 overlay_intersects('regions', name) → un array di nomi, per le regioni intersecate dall'elemento corrente
 array_to_string(overlay_intersects('regions', name)) → una stringa come una lista di nomi separata da virgola, per le regioni intersecate dall'elemento corrente
-overlay_intersects('regions', name)[0] → una stringa con il nome della regione intersecata dall'elemento corrente
 array_sort(overlay_intersects(layer:='regions', expression:="name", filter:= population > 10000)) → un array ordinato di nomi, per le regioni intersecate dall'elemento corrente e con una popolazione maggiore di 10000
 overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni intersecate dall'elemento corrente
+overlay_intersects(layer:='regions', min_overlap:=0.54) → true se l'elemento corrente interseca spazialmente una regione e l'area di intersezione (di almeno una delle parti in caso di multipoligoni) è maggiore o uguale a 0.54
+overlay_intersects(layer:='regions', min_inscribed_circle_radius:=0.54) → true se l'elemento corrente interseca spazialmente una regione e il raggio massimo del cerchio inscritto nell'area di intersezione (di almeno una delle parti in caso di parti multiple) è maggiore o uguale a 0.54
+overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), return_details:=true) → un array di mappe contenente 'id', 'result', 'overlap' e 'radius'
+overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), sort_by_intersection_size:='des') → un array di geometrie (in WKT) ordinate per il valore di sovrapposizione in ordine decrescente
 ```
 
 [![](../../img/geometria/overlay_/overlay_intersects1.png)](../../img/geometria/overlay_/overlay_intersects1.png)
@@ -2815,7 +2970,9 @@ Restituisce se l'elemento corrente ha elementi da un layer target entro una data
 
 Sintassi:
 
-- overlay_contains(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit=1</span>_][,_<span style="color:red;">max_distance</span>_][,_<span style="color:red;">cache</span>_])
+- overlay_nearest(_<span style="color:red;">layer</span>_[,_<span style="color:red;">expression</span>_][,_<span style="color:red;">filter</span>_][,_<span style="color:red;">limit=1</span>_][,_<span style="color:red;">max_distance</span>_][,_<span style="color:red;">cache</span>_])
+
+NB: per **QGIS >= 3.22.x**, il parametro `filter` è dimanico, vedi [qui](https://github.com/qgis/QGIS/pull/45744).
 
 [ ] indica componenti opzionali
 
@@ -3178,6 +3335,57 @@ rotate($geometry, 45) → la geometria ruotava di 45 gradi in senso orario attor
 
 ---
 
+## roundness
+
+Calcola quanto una forma di poligono è quasi un cerchio. La funzione restituisce 1 quando la forma del poligono è un cerchio perfetto e 0 quando è completamente piatta.
+
+La definizione usata: `Roundness = (4 * pi * Area) / Perimeter^2`
+
+Sintassi:
+
+- roundness( _<span style="color:red;">geometry</span>_)
+
+Argomenti:
+
+*  _<span style="color:red;">geometry</span>_ un poligono
+
+Esempi:
+
+```
+round(roundness(geom_from_wkt('POLYGON(( 0 0, 0 1, 1 1, 1 0, 0 0))')), 3) → 0.785
+round(roundness(geom_from_wkt('POLYGON(( 0 0, 0 0.1, 1 0.1, 1 0, 0 0))')), 3) → 0.260
+```
+
+[![](../../img/geometria/roundness/img_01.png)](../../img/geometria/roundness/img_01.png)
+
+---
+
+## scale
+
+Restituisce una versione scalata di una geometria. I calcoli sono nel sistema di riferimento spaziale di questa geometria.
+
+Sintassi:
+
+- scale( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">x_scale</span>_,  _<span style="color:red;">y_scale</span>_,  _[,<span style="color:red;">center</span>]_)
+
+Argomenti:
+
+*  _<span style="color:red;">geometry</span>_ una geometria 
+*  _<span style="color:red;">x_scale</span>_ Fattore di scala asse-x 
+*  _<span style="color:red;">y_scale</span>_ Fattore di scala asse-y 
+*  _<span style="color:red;">center</span>_ punto centrale della scalatura. Se non specificato, viene utilizzato il centro del rettangolo di delimitazione della geometria.
+
+Esempi:
+
+```
+scale($geometry, 2, 0.5, make_point(4, 5)) → geometria scalata di due volte in orizzontale e dimezzata in verticale, intorno al punto (4, 5)
+scale($geometry, 2, 0.5) → geometria scalata di due volte in orizzontale e dimezzata in verticale, intorno al centro del suo riquadro di delimitazione
+```
+
+[![](../../img/geometria/scale/img_01.png)](../../img/geometria/scale/img_01.png)
+
+---
+
 ## segments_to_lines
 
 Restituisce una geometria multi linea consistente in una linea per ogni segmento nella geometria in ingresso.
@@ -3359,6 +3567,59 @@ geom_to_wkt(smooth(geometry:=geom_from_wkt('LineString(0 0, 5 0, 5 5)'),iteratio
 ```
 
 [![](../../img/geometria/smooth/smooth1.png)](../../img/geometria/smooth/smooth1.png)
+
+---
+
+## square_wave
+
+Costruisce onde quadrate/rettangolari lungo il confine di una geometria.
+
+Sintassi:
+
+- square_wave( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">wavelength</span>_,  _<span style="color:red;">amplitude</span>_,  _[,<span style="color:red;">strict</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">wavelength</span>_ lunghezza d'onda di un'onda di forma quadra 
+* _<span style="color:red;">amplitude</span>_ ampiezza di un'onda di forma triangolare 
+* _<span style="color:red;">strict</span>_ Per valore predefinito l'argomento lunghezza d'onda è trattato come una "lunghezza d'onda massima", dove la lunghezza d'onda effettiva sarà regolata dinamicamente in modo che un numero esatto di onde quadrate sia creato lungo i confini della geometria. Se l'argomento strict è impostato a true allora la lunghezza d'onda sarà usata esattamente e una forma incompleta potrebbe essere usata per la forma d'onda finale.
+
+Esempi:
+
+```
+square_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde quadrate con lunghezza d'onda 3 e ampiezza 1 lungo la linea
+```
+
+[![](../../img/geometria/wave/square_wave_01.png)](../../img/geometria/wave/square_wave_01.png)
+
+---
+
+## square_wave_randomized
+
+Costruisce onde quadrate/rettangolari casuali lungo il confine di una geometria.
+
+Sintassi:
+
+- square_wave_randomized( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">min_wavelength</span>_,  _<span style="color:red;">max_wavelength</span>_,  _<span style="color:red;">min_amplitude</span>_,  _<span style="color:red;">max_amplitude</span>_  _[,<span style="color:red;">seed=0</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">min_wavelength</span>_  lunghezza d'onda minima delle onde
+* _<span style="color:red;">max_wavelength</span>_ lunghezza d'onda massima delle onde 
+* _<span style="color:red;">min_amplitude</span>_ ampiezza minima delle onde 
+* _<span style="color:red;">max_amplitude</span>_ ampiezza massima delle onde
+* _<span style="color:red;">seed</span>_ specifica un seme casuale per la generazione delle onde. Se il seme è 0, allora verrà generato un insieme completamente casuale di onde.
+
+
+Esempi:
+
+```
+square_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2) → Onde quadrate di dimensioni casuali con lunghezze d'onda tra 2 e 3 e ampiezze tra 0,1 e 0,2 lungo la linea
+```
+
+[![](../../img/geometria/wave/square_wave_randomized_01.png)](../../img/geometria/wave/square_wave_randomized_01.png)
 
 ---
 
@@ -3604,6 +3865,59 @@ translate($geometry, 5, 10) → una geometria dello stesso tipo come l'originale
 
 ---
 
+## triangular_wave
+
+Costruisce onde triangolari lungo il confine di una geometria.
+
+Sintassi:
+
+- triangular_wave( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">wavelength</span>_,  _<span style="color:red;">amplitude</span>_,  _[,<span style="color:red;">strict</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">wavelength</span>_ lunghezza d'onda di un'onda di forma triangolare 
+* _<span style="color:red;">amplitude</span>_ ampiezza di un'onda di forma triangolare 
+* _<span style="color:red;">strict</span>_ Costruisce onde triangolari lungo i confini di una geometria. Per default l'argomento lunghezza d'onda è trattato come una "lunghezza d'onda massima", dove la lunghezza d'onda effettiva sarà regolata dinamicamente in modo da creare un numero esatto di onde triangolari lungo i confini della geometria. Se l'argomento strict è impostato a true, allora la lunghezza d'onda sarà usata esattamente e una forma incompleta potrebbe essere usato per la forma d'onda finale.
+
+Esempi:
+
+```
+triangular_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde triangolari con lunghezza d'onda 3 e ampiezza 1 lungo la linea
+```
+
+[![](../../img/geometria/wave/triangular_wave_01.png)](../../img/geometria/wave/triangular_wave_01.png)
+
+---
+
+## triangular_wave_randomized
+
+Costruisce onde triangolari casuali lungo il confine di una geometria.
+
+Sintassi:
+
+- triangular_wave_randomized( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">min_wavelength</span>_,  _<span style="color:red;">max_wavelength</span>_,  _<span style="color:red;">min_amplitude</span>_,  _<span style="color:red;">max_amplitude</span>_  _[,<span style="color:red;">seed=0</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">min_wavelength</span>_  lunghezza d'onda minima delle onde
+* _<span style="color:red;">max_wavelength</span>_ lunghezza d'onda massima delle onde 
+* _<span style="color:red;">min_amplitude</span>_ ampiezza minima delle onde 
+* _<span style="color:red;">max_amplitude</span>_ ampiezza massima delle onde
+* _<span style="color:red;">seed</span>_ specifica un seme casuale per la generazione delle onde. Se il seme è 0, allora verrà generato un insieme completamente casuale di onde.
+
+
+Esempi:
+
+```
+triangular_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2) → Onde triangolari di dimensioni casuali con lunghezze d'onda tra 2 e 3 e ampiezze tra 0,1 e 0,2 lungo la linea
+```
+
+[![](../../img/geometria/wave/triangular_wave_randomized_01.png)](../../img/geometria/wave/triangular_wave_randomized_01.png)
+
+---
+
 ## union
 
 Restituisce una geometria che rappresenta l'insieme dei punti dell'unione delle geometrie.
@@ -3649,6 +3963,59 @@ geom_to_wkt( union( geom_from_wkt( 'POINT(4 4)' ), geom_from_wkt( 'POINT(5 5)' )
 --
 
 [![](../../img/geometria/union/union2.png)](../../img/geometria/union/union2.png)
+
+---
+
+## wave
+
+Costruisce onde arrotondate (sinusoidali) lungo il confine di una geometria.
+
+Sintassi:
+
+- wave( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">wavelength</span>_,  _<span style="color:red;">amplitude</span>_,  _[,<span style="color:red;">strict</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">wavelength</span>_ lunghezza d'onda di un'onda di forma sinusoidale 
+* _<span style="color:red;">amplitude</span>_ ampiezza di un'onda di forma sinusoidale 
+* _<span style="color:red;">strict</span>_ Per valore predefinito l'argomento lunghezza d'onda è trattato come una "lunghezza d'onda massima", dove la lunghezza d'onda effettiva sarà regolata dinamicamente in modo che un numero esatto di onde quadrate sia creato lungo i confini della geometria. Se l'argomento strict è impostato a true allora la lunghezza d'onda sarà usata esattamente e una forma incompleta potrebbe essere usata per la forma d'onda finale.
+
+Esempi:
+
+```
+wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde sinusoidali con lunghezza d'onda 3 e ampiezza 1 lungo la linea
+```
+
+[![](../../img/geometria/wave/wave_01.png)](../../img/geometria/wave/wave_01.png)
+
+---
+
+## wave_randomized
+
+Costruisce onde curve casuali (sinusoidali) lungo il confine di una geometria.
+
+Sintassi:
+
+- wave_randomized( _<span style="color:red;">geometry</span>_,  _<span style="color:red;">min_wavelength</span>_,  _<span style="color:red;">max_wavelength</span>_,  _<span style="color:red;">min_amplitude</span>_,  _<span style="color:red;">max_amplitude</span>_  _[,<span style="color:red;">seed=0</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria 
+* _<span style="color:red;">min_wavelength</span>_  lunghezza d'onda minima delle onde
+* _<span style="color:red;">max_wavelength</span>_ lunghezza d'onda massima delle onde 
+* _<span style="color:red;">min_amplitude</span>_ ampiezza minima delle onde 
+* _<span style="color:red;">max_amplitude</span>_ ampiezza massima delle onde
+* _<span style="color:red;">seed</span>_ specifica un seme casuale per la generazione delle onde. Se il seme è 0, allora verrà generato un insieme completamente casuale di onde.
+
+
+Esempi:
+
+```
+wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2) → Onde curve di dimensioni casuali con lunghezze d'onda tra 2 e 3 e ampiezze tra 0,1 e 0,2 lungo la stringa
+```
+
+[![](../../img/geometria/wave/wave_randomized_01.png)](../../img/geometria/wave/wave_randomized_01.png)
 
 ---
 
