@@ -28,9 +28,9 @@ funzione               | link PR                                   | descrione
 `represent_attributes` | <https://github.com/qgis/QGIS/pull/46502> | nuova funzione
 
 ### Gruppo Array
-funzione          | link PR                                   | descrione
-------------------|-------------------------------------------|--------------
-`array_remove_at` | <https://github.com/qgis/QGIS/pull/46942> | miglioramenti
+funzione          | link PR                                       | descrione
+------------------|-----------------------------------------------|--------------
+`array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (ancora aperto!)
 
 ### Gruppo Maps
 funzione          | link PR                                   | descrione

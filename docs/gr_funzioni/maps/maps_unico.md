@@ -410,6 +410,29 @@ map_insert(map('1','one'),'3','three') → map: 1: 'one', 3: 'three'
 
 ---
 
+## map_prefix_keys
+
+Restituisce una mappa con tutte le chiavi precedute da una data stringa.
+
+Sintassi:
+
+- map_prefix_keys(_<span style="color:red;">map</span>_, _<span style="color:red;">prefix</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">map</span>_ una mappa
+* _<span style="color:red;">prefix</span>_ una stringa
+
+Esempi:
+
+```
+map_prefix_keys(map('1','one','2','two'), 'prefix-') → { 'prefix-1': 'one', 'prefix-2': 'two' }
+```
+
+[![](../../img/maps/map_prefix_keys/map_prefix_keys_01.png)](../../img/maps/map_prefix_keys/map_prefix_keys_01.png)
+
+---
+
 ## map_to_hstore
 
 Unisci gli elementi della mappa in una stringa formattata in hstore.
@@ -480,3 +503,27 @@ to_json(array(1,2,3)) → [1,2,3]
 
 [![](../../img/maps/to_json/to_json_01.png)](../../img/maps/to_json/to_json_01.png)
 
+---
+
+## url_encode
+
+Restituisce una stringa codificata come URL da una mappa. Trasforma tutti i caratteri nella loro forma correttamente codificata producendo una stringa di query completamente conforme.
+Nota che il segno più '+' non viene convertito.
+
+Sintassi:
+
+- url_encode(_<span style="color:red;">map</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">map</span>_ una mappa
+
+Esempi:
+
+```
+url_encode(map('a&+b', 'a and plus b', 'a=b', 'a equals b')) → 'a%26+b=a%20and%20plus%20b&a%3Db=a%20equals%20b'
+```
+
+[![](../../img/maps/url_encode/url_encode_01.png)](../../img/maps/url_encode/url_encode_01.png)
+
+---

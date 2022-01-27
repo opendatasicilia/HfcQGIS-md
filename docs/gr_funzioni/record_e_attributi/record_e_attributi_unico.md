@@ -248,6 +248,8 @@ Esempi:
 get_feature('streets',map('name','main st','lane_num','4')) → primo elemento trovato in 'streets' con il valore 'main st' nel campo 'name' e il valore '4' nel campo 'lane_num'
 ```
 
+[![](../../img/record_e_attributi/get_feature_02.png)](../../img/record_e_attributi/get_feature_02.png)
+
 ---
 
 ## get_feature_by_id
@@ -429,6 +431,69 @@ num_selected('streets') → Il numero di geometrie selezionate nel vettore stree
 ```
 
 [![](../../img/record_e_attributi/num_selected1.png)](../../img/record_e_attributi/num_selected1.png)
+
+---
+
+## represent_attributes
+
+Restituisce una mappa con i nomi degli attributi come chiavi ed i valori di rappresentazione configurati come valori. Il valore di rappresentazione per gli attributi dipende dal tipo di widget configurato per ogni attributo. Può essere usato con zero, uno o più argomenti, vedi sotto per i dettagli.
+
+### Nessun paramentro
+
+Se chiamata senza parametri, la funzione restituisce la rappresentazione degli attributi dell'elemento corrente nel layer corrente.
+
+Sintassi:
+
+- represent_attributes()
+
+Esempio:
+
+```
+represent_attributes() → La rappresentazione degli attributi per l'elemento corrente.
+```
+
+[![](../../img/record_e_attributi/represent_attributes_01.png)](../../img/record_e_attributi/represent_attributes_01.png)
+
+### Un parametro feature
+
+Se chiamata solo con un parametro 'feature', la funzione restituisce la rappresentazione degli attributi dell'elemento specificato dal layer corrente.
+
+Sintassi:
+
+- represent_attributes(_<span style="color:red;">feature</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">feature</span>_ L'elemento che dovrebbe essere valutato
+
+Esempio:
+
+```
+represent_attributes($currentfeature) → La rappresentazione degli attributi per l'elemento corrente.
+```
+
+[![](../../img/record_e_attributi/represent_attributes_02.png)](../../img/record_e_attributi/represent_attributes_02.png)
+
+### Parametri layer e feature
+
+Se chiamata con un parametro 'layer' e un parametro 'feature', la funzione restituirà la rappresentazione degli attributi dell'elemento specificato dal layer specificato
+
+Sintassi:
+
+- represent_attributes(_<span style="color:red;">layer</span>_, _<span style="color:red;">feature</span>_)
+
+Argomenti:
+
+*  _<span style="color:red;">layer</span>_ Il layer (o suo ID o nome).
+* _<span style="color:red;">feature</span>_ L'elemento che dovrebbe essere valutato
+
+Esempio:
+
+```
+represent_attributes(@layer, $currentfeature) → La rappresentazione degli attributi per l'elemento corrente.
+```
+
+[![](../../img/record_e_attributi/represent_attributes_03.png)](../../img/record_e_attributi/represent_attributes_03.png)
 
 ---
 
