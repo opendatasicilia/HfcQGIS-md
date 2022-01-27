@@ -4,22 +4,22 @@
 
 <https://changelog.qgis.org/en/qgis/version/3.24/>
 
-## Espressioni
+## Espressioni docs\gr_funzioni\geometria\geometria_unico.md
 
 ### Gruppo Geometria
-funzione                    | link PR                                   | descrizione
-----------------------------|-------------------------------------------|---------------------
-`scale`                     | <https://github.com/qgis/QGIS/pull/45505> | nuova funzione 
-`triangular/square/curved`  | <https://github.com/qgis/QGIS/pull/45583> | nuove funzione (6) 
-`overlay_nearest`           | <https://github.com/qgis/QGIS/pull/45744> | miglioramenti 
-`apply_dash_pattern`        | <https://github.com/qgis/QGIS/pull/45734> | nuova funzione 
-`force_polygon_cw/ccw`      | <https://github.com/qgis/QGIS/pull/45718> | nuove funzione (2) 
-`densify_by_count/distance` | <https://github.com/qgis/QGIS/pull/45894> | nuove funzione (2)
-`roundness`                 | <https://github.com/qgis/QGIS/pull/45154> | nuova funzione 
-`overlay_intersects`        | <https://github.com/qgis/QGIS/pull/46185> | miglioramenti 
-`overlay_intersects`        | <https://github.com/qgis/QGIS/pull/46683> | miglioramenti 
-`geometry_n`                | <https://github.com/qgis/QGIS/pull/46684> | modifica definizione 
-`geometry_type`             | <https://github.com/qgis/QGIS/pull/46716> | nuova funzione 
+funzione                                                                                  | link PR                                   | descrizione
+------------------------------------------------------------------------------------------|-------------------------------------------|---------------------
+[scale](../gr_funzioni/geometria/geometria_unico.md#scale)                                | <https://github.com/qgis/QGIS/pull/45505> | nuova funzione
+[triangular/square/curved](../gr_funzioni/geometria/geometria_unico.md#triangular_wave)   | <https://github.com/qgis/QGIS/pull/45583> | nuove funzione (6)
+[overlay_nearest](../gr_funzioni/geometria/geometria_unico.md#overlay_nearest)            | <https://github.com/qgis/QGIS/pull/45744> | miglioramenti
+[apply_dash_pattern](../gr_funzioni/geometria/geometria_unico.md#apply_dash_pattern)      | <https://github.com/qgis/QGIS/pull/45734> | nuova funzione
+[force_polygon_cw/ccw](../gr_funzioni/geometria/geometria_unico.md#force_polygon_ccw)     | <https://github.com/qgis/QGIS/pull/45718> | nuove funzione (2)
+[densify_by_count/distance](../gr_funzioni/geometria/geometria_unico.md#densify_by_count) | <https://github.com/qgis/QGIS/pull/45894> | nuove funzione (2)
+[roundness](../gr_funzioni/geometria/geometria_unico.md#roundness)                        | <https://github.com/qgis/QGIS/pull/45154> | nuova funzione
+[overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects)      | <https://github.com/qgis/QGIS/pull/46185> | miglioramenti
+[overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects)      | <https://github.com/qgis/QGIS/pull/46683> | miglioramenti
+[geometry_n](../gr_funzioni/geometria/geometria_unico.md#geometry_n)                      | <https://github.com/qgis/QGIS/pull/46684> | modifica definizione
+[geometry_type](../gr_funzioni/geometria/geometria_unico.md#geometry_n)                   | <https://github.com/qgis/QGIS/pull/46716> | nuova funzione
 
 ### Gruppo Record e Attributi
 funzione               | link PR                                   | descrizione
@@ -29,7 +29,7 @@ funzione               | link PR                                   | descrizione
 
 ### Gruppo Array
 funzione          | link PR                                       | descrizione
-------------------|-----------------------------------------------|--------------
+------------------|-----------------------------------------------|-------------------------------
 `array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (ancora aperto!)
 
 ### Gruppo Maps
