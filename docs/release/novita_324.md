@@ -4,7 +4,7 @@
 
 <https://changelog.qgis.org/en/qgis/version/3.24/>
 
-## Espressioni docs\gr_funzioni\geometria\geometria_unico.md
+## Espressioni
 
 ### Gruppo Geometria
 funzione                                                                                  | link PR                                   | descrizione
