@@ -22,10 +22,10 @@ funzione                                                                        
 [geometry_type](../gr_funzioni/geometria/geometria_unico.md#geometry_n)                   | <https://github.com/qgis/QGIS/pull/46716> | nuova funzione
 
 ### Gruppo Record e Attributi
-funzione               | link PR                                   | descrizione
------------------------|-------------------------------------------|---------------
-`get_feature`          | <https://github.com/qgis/QGIS/pull/43352> | miglioramenti
-`represent_attributes` | <https://github.com/qgis/QGIS/pull/46502> | nuova funzione
+funzione                                                                                                   | link PR                                   | descrizione
+-----------------------------------------------------------------------------------------------------------|-------------------------------------------|---------------
+[get_feature](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#get_feature)                   | <https://github.com/qgis/QGIS/pull/43352> | miglioramenti
+[represent_attributes](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#represent_attributes) | <https://github.com/qgis/QGIS/pull/46502> | nuova funzione
 
 ### Gruppo Array
 funzione          | link PR                                       | descrizione
@@ -33,10 +33,10 @@ funzione          | link PR                                       | descrizione
 `array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (ancora aperto!)
 
 ### Gruppo Maps
-funzione          | link PR                                   | descrizione
-------------------|-------------------------------------------|---------------
-`map_prefix_keys` | <https://github.com/qgis/QGIS/pull/46087> | nuova funzione
-`url_encode`      | <https://github.com/qgis/QGIS/pull/46384> | nuova funzione
+funzione                                                             | link PR                                   | descrizione
+---------------------------------------------------------------------|-------------------------------------------|---------------
+[map_prefix_keys](../gr_funzioni/maps/maps_unico.md#map_prefix_keys) | <https://github.com/qgis/QGIS/pull/46087> | nuova funzione
+[url_encode](../gr_funzioni/maps/maps_unico.md#url_encode)           | <https://github.com/qgis/QGIS/pull/46384> | nuova funzione
 
 ### PR chiusa
 `annotazioni`: ~~<https://github.com/qgis/QGIS/pull/45114>~~ chiusa!!!
