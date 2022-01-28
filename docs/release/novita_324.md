@@ -30,7 +30,7 @@ funzione                                                                        
 ### Gruppo Array
 funzione          | link PR                                       | descrizione
 ------------------|-----------------------------------------------|-------------------------------
-`array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (ancora aperto!)
+`array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (PR ancora aperta!)
 
 ### Gruppo Maps
 funzione                                                             | link PR                                   | descrizione
