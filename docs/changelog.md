@@ -42,3 +42,4 @@ data       | descrizione
 27/01/2022 | aggiunte le [nuove](release/novita_324.md) funzioni della versione QGIS 3.24
 28/01/2022 | aggiunta colonna [numero](release/intro_novita.md) nelle novità.
 28/01/2022 | aggiunta cartella [mini](img/splashscreen/mini) per creare le miniature degli splashscreen
+28/01/2022 | aggiunto [72esimo](esempi/conta_punti_nel_poligono_per_data.md) esempio

@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **71** esempi svolti! (in evoluzione)
+Attualmente ci sono **72** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -90,6 +90,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 69|[selezione ultimo record per data](selezione_ultimo_record_per_data.md)|Selezionare l'ultimo record usando un campo in formato data|Salvatore Fiandaca | 3 | maximun, array_agg, array_max
 70|[trova valore](trova_nella_tabella_attributi.md)|Trova valore in tutta la tabella attributi|Salvatore Fiandaca | 3 | array_find, map_avals, attributes
 71|[Array Natural sorting](array_natural_sorting.md)|Ordinare numericamente una lista alfanumerica|Salvatore Fiandaca | 4 | with_variable, array_sort, array_foreach, array_to_string, string_to_array, generate_series,regexp_substr, regexp_replace, lpad 
+72|[Conta punti nel poligono e per data](conta_punti_nel_poligono_per_data.md)|Conta punti nel poligono e per data|Salvatore Fiandaca | 4 | @parent, @with_variable, aggregate, array_to_string, array_count, array_foreach, array_distinct, $geometry, intersects
 
 ## Partecipa
 
