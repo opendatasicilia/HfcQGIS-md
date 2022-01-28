@@ -41,3 +41,4 @@ data       | descrizione
 18/01/2022 | aggiunti due nuove funzioni personalizzate sul Natural sorting [funzioni](gr_funzioni/custom/custom_unico.md) esempio
 27/01/2022 | aggiunte le [nuove](release/novita_324.md) funzioni della versione QGIS 3.24
 28/01/2022 | aggiunta colonna [numero](release/intro_novita.md) nelle novità.
+28/01/2022 | aggiunta cartella [mini](img/splashscreen/mini) per creare le miniature degli splashscreen
