@@ -33,7 +33,7 @@ qui PR: <https://github.com/qgis/QGIS/pull/32900>
 
 qui PR: <https://github.com/qgis/QGIS/pull/32561>
 
-- [`is_empy`](../gr_funzioni/geometria/geometria_unico.md#is_empty)
+- [`is_empty`](../gr_funzioni/geometria/geometria_unico.md#is_empty)
 - [`is_empty_or_null`](../gr_funzioni/geometria/geometria_unico.md#is_empty_or_null)
 
 qui PR: <https://github.com/qgis/QGIS/pull/33333>
