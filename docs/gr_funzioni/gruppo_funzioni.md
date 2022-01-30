@@ -17,7 +17,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (9/9)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi | aggiornate a<br> **QGIS 3.22**
 [**Generale**](./generale/generale_unico.md)| (7/7)|Questo gruppo contiene funzioni generali assortite.| assortimento di funzioni generiche
 [**Geometria**](./geometria/geometria_unico.md) |(143/143)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.24**
-[**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (2/2)|Contiene due funzioni e la lista dei layer della mappa che sono disponibili nel progetto corrente con possibilità di leggere[^1] i nomi e valori degli attributi.| aggiornate a<br> **QGIS 3.6**
+[**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (2/2)|Contiene due funzioni e la lista dei layer della mappa che sono disponibili nel progetto corrente con possibilità di leggere[^1] i nomi e valori degli attributi.| aggiornate a<br> **QGIS 3.24**
 [**Layout**](./layout/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
 [**Maps**](./maps/maps_unico.md)| (14/14) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.24**
 [**Matematica**](./matematica/matematica_unico.md)| (28/28)|Questo gruppo contiene funzioni matematiche es. radice quadrata, seno e coseno|aggiornate a<br> **QGIS 3.12**
