@@ -48,6 +48,13 @@
 1. per riga intera `/*commento*/`
 2. per commentare una riga `--commento`
 
+
+## Campi e valori nel Gruppo Layer Mappa
+
+A partire da >= QGIS 3.24
+
+![](https://user-images.githubusercontent.com/142164/146177919-8a235423-a131-4e9a-a999-06cb449666f7.png)
+
 ## Interfaccia e finestre nascoste
 
 Nel caso risulti nascosta la sezione Gruppi funzioni (vale fino alla QGIS 3.4):

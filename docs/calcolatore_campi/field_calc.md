@@ -5,11 +5,11 @@
 
 ## Perché usarlo
 
-Il **Field Calc** di **QGIS** ha oltre 300 funzioni (in evoluzione) e di queste oltre 120 (in evoluzione) sono funzioni geometriche. Tutta questa potenza di fuoco permette di risolvere molti problemi GIS come la vicinanza, sovrapposizione, aggregazioni, selezioni ecc... inoltre permette di **scrivere/aggiornare** i risultati di espressioni direttamente nella tabella degli attributi senza creare altri layer.
+Il **Field Calc** di **QGIS** ha oltre 300 funzioni (in evoluzione) e di queste oltre 140[^1] (in evoluzione) sono funzioni geometriche. Tutta questa potenza di fuoco permette di risolvere molti problemi GIS come la vicinanza, sovrapposizione, aggregazioni, selezioni ecc... inoltre permette di **scrivere/aggiornare** i risultati di espressioni direttamente nella tabella degli attributi senza creare altri layer.
 
 ## Dove usarlo
 
-Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la modifica[^1]. Il Calcolatore in realtà è solo una interfaccia che ci permette di accedere alle funzioni e di creare semplici o complesse espressioni. Le espressioni di QGIS vengono utilizzate in molti contesti, per esempio:
+Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la modifica[^2]. Il Calcolatore in realtà è solo una interfaccia che ci permette di accedere alle funzioni e di creare semplici o complesse espressioni. Le espressioni di QGIS vengono utilizzate in molti contesti, per esempio:
 
 1. tabella degli attributi;
 2. tematizzazione;
@@ -37,12 +37,13 @@ Un campo virtuale è un campo basato su un'espressione calcolata al volo, il che
 
 ## Aggiorna geometria
 
-Attraverso il calcolatore di campi è possibile aggiornare tutti gli attributi di un layer editabile, ma è possibile anche [aggiornare la gemetria](../esempi/agg_geom.md), per esempio diminuire il numero di vertici di una linea o di un poligono; spostare/traslare i punti ecc...
+Attraverso il calcolatore di campi è possibile aggiornare tutti gli attributi di un layer editabile, ma è possibile anche [aggiornare la geometria](../esempi/agg_geom.md), per esempio diminuire il numero di vertici di una linea o di un poligono; spostare/traslare i punti ecc...
 
 ## Field Calc rapido
 
-La barra di calcolo del campo rapido nella parte superiore della tabella degli attributi è visibile solo se il livello è modificabile:
+La barra del _calcolatore di campo rapido_, nella parte superiore della tabella degli attributi, è visibile solo se il livello è modificabile:
 
 [![field_calc](../img/field_calc_rapida1.png)](../img/field_calc_rapida1.png)
 
-[^1]: sono layer vettoriali e semplici tabelle editabili
+[^1]: nella versione QGIS 3.24
+[^2]: sono layer vettoriali e semplici tabelle editabili
