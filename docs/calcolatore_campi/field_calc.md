@@ -18,13 +18,8 @@ Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la 
 5. [selezione](../esempi/selezionare_punti_vicini_punto.md);
 6. [compositore di stampe, atlas e report](../esempi/atlas_righe_verticale.md);
 7. [legenda](../esempi/espressione_regolare.md);
-8. strumenti di processing:
-   1. [Calcolatore campi](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectortable.html#qgisfieldcalculator);
-   2. [Seleziona tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisselectbyexpression);
-   3. [Estrai tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisextractbyexpression);
-   4. [Geometria da espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisgeometrybyexpression);
-   5. [Ordina tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisorderbyexpression);
-9.  [moduli inserimento dati e widget](../esempi/drilldown_form_multiple.md);
+8. strumenti di processing: ([Calcolatore campi](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectortable.html#qgisfieldcalculator); [Seleziona tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisselectbyexpression); [Estrai tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisextractbyexpression); [Geometria da espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisgeometrybyexpression); [Ordina tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisorderbyexpression); 
+9. [moduli inserimento dati e widget](../esempi/drilldown_form_multiple.md);
 10. azioni;
 11. modellatore grafico;
 12. diagrammi;
