@@ -11,15 +11,20 @@ Il **Field Calc** di **QGIS** ha oltre 300 funzioni (in evoluzione) e di queste 
 
 Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la modifica[^2]. Il Calcolatore in realtà è solo una interfaccia che ci permette di accedere alle funzioni e di creare semplici o complesse espressioni. Le espressioni di QGIS vengono utilizzate in molti contesti, per esempio:
 
-1. tabella degli attributi;
-2. tematizzazione;
-3. etichettatura;
-4. sovrascrittura definita dai dati;
-5. selezione;
-6. compositore di stampe, atlas e report;
-7. legenda;
-8. strumenti di processing;
-9. moduli inserimento dati e widget;
+1. [tabella degli attributi](../esempi/trova_nella_tabella_attributi.md);
+2. [tematizzazione](../esempi/tematizzare.md);
+3. [etichettatura](../esempi/etichette.md);
+4. [sovrascrittura definita dai dati](../esempi/nascondi_etichette.md);
+5. [selezione](../esempi/selezionare_punti_vicini_punto.md);
+6. [compositore di stampe, atlas e report](../esempi/atlas_righe_verticale.md);
+7. [legenda](../esempi/espressione_regolare.md);
+8. strumenti di processing:
+   1. [Calcolatore campi](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectortable.html#qgisfieldcalculator);
+   2. [Seleziona tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisselectbyexpression);
+   3. [Estrai tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisextractbyexpression);
+   4. [Geometria da espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisgeometrybyexpression);
+   5. [Ordina tramite espressione](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisorderbyexpression);
+9.  [moduli inserimento dati e widget](../esempi/drilldown_form_multiple.md);
 10. azioni;
 11. modellatore grafico;
 12. diagrammi;
@@ -33,7 +38,7 @@ Il calcolatore di campi è ora disponibile su qualsiasi livello che supporti la 
 
 ## Campo virtuale
 
-Un campo virtuale è un campo basato su un'espressione calcolata al volo, il che significa che il suo valore viene automaticamente aggiornato non appena il parametro sottostante cambia. L'espressione è impostata una volta; non è più necessario calcolare nuovamente il campo se i valori sottostanti cambiano. Ad esempio, è possibile utilizzare un campo virtuale se è necessario calcolare i valori dell'area durante un processo di digitalizzazione (creazione, unione, divisione di feature) o calcolare una durata che deve essere aggiornata di volta in volta.
+Un [campo virtuale](../esempi/add_campo_virtuale.md) è un campo basato su un'espressione calcolata al volo, il che significa che il suo valore viene automaticamente aggiornato non appena il parametro sottostante cambia. L'espressione è impostata una volta; non è più necessario calcolare nuovamente il campo se i valori sottostanti cambiano. Ad esempio, è possibile utilizzare un campo virtuale se è necessario calcolare i valori dell'area durante un processo di digitalizzazione (creazione, unione, divisione di feature) o calcolare una durata che deve essere aggiornata di volta in volta.
 
 ## Aggiorna geometria
 
