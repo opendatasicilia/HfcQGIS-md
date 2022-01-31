@@ -60,3 +60,9 @@ funzione                                                             | link PR  
 
 Gli utenti possono utilizzare espressioni come `array(1,2,3)` o `map('key1','value','key2','value')` espressioni nel calcolatore di campo e nella barra dei campi della tabella degli attributi per aggiornare i valori. <https://github.com/qgis/QGIS/pull/47046>
 
+## Gli Array diventano un formato di campo
+
+<https://github.com/qgis/QGIS/pull/47049>
+
+![](../img/novita_324/img_01.png)
+
