@@ -28,9 +28,9 @@ funzione                                                                        
 [represent_attributes](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#represent_attributes) | <https://github.com/qgis/QGIS/pull/46502> | nuova funzione
 
 ### Gruppo Array
-funzione          | link PR                                       | descrizione
-------------------|-----------------------------------------------|-------------------------------
-`array_remove_at` | ~~<https://github.com/qgis/QGIS/pull/46942>~~ | miglioramenti (PR ancora aperta!)
+funzione                                                               | link PR                                   | descrizione
+-----------------------------------------------------------------------|-------------------------------------------|--------------
+[array_remove_at](../gr_funzioni/array/array_unico.md#array_remove_at) | <https://github.com/qgis/QGIS/pull/46942> | miglioramento
 
 ### Gruppo Maps
 funzione                                                             | link PR                                   | descrizione
@@ -55,4 +55,8 @@ funzione                                                             | link PR  
 `apri tabella attributi`: <https://github.com/qgis/QGIS/pull/46328>| Nuovo bottone!
 
 ![](https://user-images.githubusercontent.com/142164/144413145-bc61ea60-2067-4852-8605-d2ba04e78e37.gif)
+
+## CORE
+
+Gli utenti possono utilizzare espressioni come `array(1,2,3)` o `map('key1','value','key2','value')` espressioni nel calcolatore di campo e nella barra dei campi della tabella degli attributi per aggiornare i valori. <https://github.com/qgis/QGIS/pull/47046>
 

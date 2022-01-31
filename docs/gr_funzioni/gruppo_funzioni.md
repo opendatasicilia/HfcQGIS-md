@@ -33,4 +33,4 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 
 \* i numeri tra parentesi rappresentano: `(numero funzioni documentate/numero funzioni nel gruppo)`
 
-[^1]: >= QGIS 3.24
+[^1]: `>= QGIS 3.24`

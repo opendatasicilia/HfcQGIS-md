@@ -612,7 +612,7 @@ array_remove_all(array('a','b','c','b'),'b') → [ 'a', 'c' ]
 
 ## array_remove_at
 
-Restituisce un array con l'indice passato rimosso.
+Restituisce un array con l'elemento in corrispondenza dell'indice dato rimosso. Supporta indice positivo (0 per il primo elemento) e negativo (l'ultimo -Nesimo valore, -1 per l'ultimo elemento) da >= QGIS 3.24.
 
 Sintassi:
 
