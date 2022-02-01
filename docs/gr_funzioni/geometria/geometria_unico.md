@@ -3384,6 +3384,13 @@ scale($geometry, 2, 0.5) → geometria scalata di due volte in orizzontale e dim
 
 [![](../../img/geometria/scale/img_01.png)](../../img/geometria/scale/img_01.png)
 
+geometria scalata del 75% (in x e y) rispetto il centroide della stessa geometria di partenza:
+
+```
+scale($geometry,.75,.75, centroid($geometry))
+```
+[![](../../img/geometria/scale/img_02.png)](../../img/geometria/scale/img_02.png)
+
 ---
 
 ## segments_to_lines
@@ -3593,6 +3600,8 @@ square_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde quadrate con 
 
 [![](../../img/geometria/wave/square_wave_01.png)](../../img/geometria/wave/square_wave_01.png)
 
+[![](../../img/geometria/wave/square_wave_02.png)](../../img/geometria/wave/square_wave_02.png)
+
 ---
 
 ## square_wave_randomized
@@ -3620,6 +3629,8 @@ square_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2) �
 ```
 
 [![](../../img/geometria/wave/square_wave_randomized_01.png)](../../img/geometria/wave/square_wave_randomized_01.png)
+
+[![](../../img/geometria/wave/square_wave_randomized_02.png)](../../img/geometria/wave/square_wave_randomized_02.png)
 
 ---
 
@@ -3888,6 +3899,8 @@ triangular_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde triangola
 
 [![](../../img/geometria/wave/triangular_wave_01.png)](../../img/geometria/wave/triangular_wave_01.png)
 
+[![](../../img/geometria/wave/triangular_wave_02.png)](../../img/geometria/wave/triangular_wave_02.png)
+
 ---
 
 ## triangular_wave_randomized
@@ -3915,6 +3928,8 @@ triangular_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.
 ```
 
 [![](../../img/geometria/wave/triangular_wave_randomized_01.png)](../../img/geometria/wave/triangular_wave_randomized_01.png)
+
+[![](../../img/geometria/wave/triangular_wave_randomized_02.png)](../../img/geometria/wave/triangular_wave_randomized_02.png)
 
 ---
 
@@ -3989,6 +4004,8 @@ wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1) → Onde sinusoidali con lung
 
 [![](../../img/geometria/wave/wave_01.png)](../../img/geometria/wave/wave_01.png)
 
+[![](../../img/geometria/wave/wave_02.png)](../../img/geometria/wave/wave_02.png)
+
 ---
 
 ## wave_randomized
@@ -4016,6 +4033,8 @@ wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2) → Onde
 ```
 
 [![](../../img/geometria/wave/wave_randomized_01.png)](../../img/geometria/wave/wave_randomized_01.png)
+
+[![](../../img/geometria/wave/wave_randomized_02.png)](../../img/geometria/wave/wave_randomized_02.png)
 
 ---
 
