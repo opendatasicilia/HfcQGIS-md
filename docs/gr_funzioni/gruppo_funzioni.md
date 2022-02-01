@@ -15,7 +15,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Data ora**](./data_ora/data_ora_unico.md) |(21/21)|Questo gruppo contiene funzioni per gestire dati con date e ore.|aggiornate a<br> **QGIS 3.14**
 [**Espressioni utente**](./espressione_utente/espressione_utente_unico.md)| (?)|Questo gruppo contiene espressioni memorizzate nel profilo utente.|aggiornate a<br> **QGIS 3.12**
 [**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (9/9)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi | aggiornate a<br> **QGIS 3.22**
-[**Form**](./file_e_percorsi/file_e_percorsi_unico.md)| (0/2)|Questo gruppo contiene funzioni che sono disponibili nel contesto modulo attributi. Per esempio, in impostazioni campo widget. Gruppo visibile solo nei widget. | aggiornate a<br> **QGIS 3.14**
+[**Form**](./form/form_unico.md)| (0/2)|Questo gruppo contiene funzioni che sono disponibili nel contesto modulo attributi. Per esempio, in impostazioni campo widget. Gruppo visibile solo nei widget. | aggiornate a<br> **QGIS 3.14**
 [**Generale**](./generale/generale_unico.md)| (7/7)|Questo gruppo contiene funzioni generali assortite.| assortimento di funzioni generiche
 [**Geometria**](./geometria/geometria_unico.md) |(143/143)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.24**
 [**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (2/2)|Contiene due funzioni e la lista dei layer della mappa che sono disponibili nel progetto corrente con possibilità di leggere[^1] i nomi e valori degli attributi.| aggiornate a<br> **QGIS 3.24**
