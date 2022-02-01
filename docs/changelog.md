@@ -43,4 +43,4 @@ data       | descrizione
 28/01/2022 | aggiunta colonna [numero](release/intro_novita.md) nelle novità.
 28/01/2022 | aggiunta cartella [mini](img/splashscreen/mini) per creare le miniature degli splashscreen
 28/01/2022 | aggiunto [72esimo](esempi/conta_punti_nel_poligono_per_data.md) esempio
-01/02/2022 | aggiunto il gruppo `Form` nella sezione `Funzioni`
+01/02/2022 | aggiunto il gruppo [Form](./gr_funzioni/form/form_unico.md) nella sezione `Funzioni`
