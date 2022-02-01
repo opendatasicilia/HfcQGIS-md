@@ -4,7 +4,7 @@ Nell'Interfaccia del **Field Calc** (e nel costruttore di espressione) è presen
 
 Gruppo funzioni|nro funzioni*|Descrizione   | info
 ---------------|:-----------:|--------------|-----
-[**Aggrega**](./aggrega/aggrega_unico.md) |(23/23)|Contiene funzioni che aggregano valori nei livelli e campi.| >= **QGIS 2.16** 
+[**Aggrega**](./aggrega/aggrega_unico.md) |(23/23)|Contiene funzioni che aggregano valori nei livelli e campi.| aggiornate a<br> **QGIS 3.0**
 [**Array**](./array/array_unico.md)| (35/35) |Questo gruppo contiene funzioni espressione per la creazione e la manipolazione di array (noti anche come strutture dati ad elenco). L'ordine dei valori all'interno dell'array è importante, al contrario della struttura dati 'a mappa', in cui l'ordine delle coppie chiave-valore è irrilevante e i valori vengono identificati dalle loro chiavi.|aggiornate a<br> **QGIS 3.20**
 [**Campi e valori**](./campi_e_valori/campi_e_valori_unico.md)| (1/1)|Contiene un elenco di campi del layer. Si possono ottenere valori campione con il click del tasto destro del mouse. Seleziona il nome del campo dall'elenco e fai click con il tasto destro per aprire il menù con le opzioni per caricare un campione di valori dal campo selezionato. | Elenco dei campi del layer selezionato
 [**Colore**](./colore/colore_unico.md)| (17/17)|Questo gruppo contiene funzioni per manipolare i colori| Per manipolare i colori
