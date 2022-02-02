@@ -32,6 +32,8 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 
 ![](../img/gruppi_funzioni.png)
 
+conteggio: <https://gist.github.com/pigreco/2b2ad2eb12d17c4370b09635ae1470b4>
+
 \* i numeri tra parentesi rappresentano: `(numero funzioni documentate/numero funzioni nel gruppo)`
 
 [^1]: `>= QGIS 3.24`

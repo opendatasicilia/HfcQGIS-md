@@ -5,7 +5,7 @@
 
 ## Perché usarlo
 
-Il **Field Calc** di **QGIS** ha oltre 300 funzioni (in evoluzione) e di queste oltre 140[^1] (in evoluzione) sono funzioni geometriche. Tutta questa potenza di fuoco permette di risolvere molti problemi GIS come la vicinanza, sovrapposizione, aggregazioni, selezioni ecc... inoltre permette di **scrivere/aggiornare** i risultati di espressioni direttamente nella tabella degli attributi senza creare altri layer.
+Il **Field Calc** di **QGIS** ha oltre 400 funzioni (in evoluzione) e di queste oltre 140[^1] (in evoluzione) sono funzioni geometriche. Tutta questa potenza di fuoco permette di risolvere molti problemi GIS come la vicinanza, sovrapposizione, aggregazioni, selezioni ecc... inoltre permette di **scrivere/aggiornare** i risultati di espressioni direttamente nella tabella degli attributi senza creare altri layer.
 
 ## Dove usarlo
 
