@@ -45,3 +45,4 @@ data       | descrizione
 28/01/2022 | aggiunto [72esimo](esempi/conta_punti_nel_poligono_per_data.md) esempio
 01/02/2022 | aggiunto il gruppo [Form](./gr_funzioni/form/form_unico.md) nella sezione `Funzioni`
 03/02/2022 | aggiunto sezione [Gruppo Espressioni Utente](./calcolatore_campi/gruppo_espressioni_utente.md) nella sezione `calcolatore di campi`
+03/02/2022 | aggiunto sezione [Tabella degli Attributi](./tabella_attributi/tabella_attributi.md)
