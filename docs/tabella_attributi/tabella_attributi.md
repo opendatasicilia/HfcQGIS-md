@@ -3,7 +3,7 @@
 !!! Abstract "Intro"
     **In questa sezioni sono raccolti i concetti fondamentali sulla tabella degli attributi. La conoscenza di questi concetti permette di velocizzare il lavoro e capire il comportamento della tabella.**
 
-<https://docs.qgis.org/3.16/it/docs/user_manual/working_with_vector/attribute_table.html>
+[QGIS-DOC](https://docs.qgis.org/3.16/it/docs/user_manual/working_with_vector/attribute_table.html)
 
 La tabella degli attributi ![ico](../img/tabella_attributi/icon/mActionOpenTable.png) (**F6**) è una tabella che contiene i dati alfanumerici (attributi) dello strato vettoriale e rappresenta una delle differenze fondamentali tra un vettore CAD e uno GIS.
 
@@ -139,3 +139,9 @@ PS: Find/Replace è un plugin!
 nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti della tabella degli attributi per passare dalla modalità docked alla modalità finestra
 
 [![tab_attr](../img/tabella_attributi/dockify.gif)](../img/tabella_attributi/dockify.gif)
+
+## Mostra nella Tabella
+
+`Mostra nella Tabella`: <https://github.com/qgis/QGIS/pull/46328>
+
+![](../img/tabella_attributi/mostra_tabella.gif)
