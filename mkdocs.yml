@@ -135,6 +135,7 @@ nav:
        - Calcolatore di Campi: calcolatore_campi/field_calc.md
        - Concetti Field Calc: calcolatore_campi/concetti.md
        - Interfaccia Field Calc: calcolatore_campi/interfaccia.md
+       - Gruppo Espressioni Utente: calcolatore_campi/gruppo_espressioni_utente.md
        - Operatori interfaccia: calcolatore_campi/operatori.md
        - Concetti tabella attributi: calcolatore_campi/tabella_attributi.md
 

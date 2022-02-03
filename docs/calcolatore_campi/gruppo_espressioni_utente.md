@@ -2,7 +2,7 @@
 
 ## Cosa sono
 
-È un gruppo contiene espressioni, realizzate dall'utente, memorizzate nel profilo utente.
+È un gruppo che contiene espressioni, realizzate dall'utente, memorizzate nel profilo utente.
 
 [![](../img/gruppo_expressioni_utente/img_001.png)](../img/gruppo_expressioni_utente/img_001.png)
 
