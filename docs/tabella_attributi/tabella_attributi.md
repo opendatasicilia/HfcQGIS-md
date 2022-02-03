@@ -140,8 +140,14 @@ nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti d
 
 [![tab_attr](../img/tabella_attributi/dockify.gif)](../img/tabella_attributi/dockify.gif)
 
+## Memorizza Filtro tabella attributi
+
+[Salva Filtro](https://github.com/qgis/QGIS/pull/31349)
+
+![screen](https://user-images.githubusercontent.com/28384354/63512424-1aa32d80-c4e4-11e9-96f8-505d9544db8e.gif)
+
 ## Mostra nella Tabella
 
-`Mostra nella Tabella`: <https://github.com/qgis/QGIS/pull/46328>
+[Mostra nella Tabella](https://github.com/qgis/QGIS/pull/46328)
 
 ![](../img/tabella_attributi/mostra_tabella.gif)
