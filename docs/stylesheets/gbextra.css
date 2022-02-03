@@ -31,6 +31,11 @@
  /*sposta più in alto il back to top in mobile se è installata la condivisione social;*/
  @media screen and (max-width: 1100px) { .md-top {bottom: 2.5rem!important;}} 
 
+/* riduce il padding tra i nomi delle varie sezioni*/
+.md-tabs__item {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
 /* Cambia il carattere dei menu */
 .md-typeset h1,
