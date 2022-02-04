@@ -2991,12 +2991,12 @@ Esempi:
 
 ```
 overlay_nearest('airports') → true se il layer "airports" ha almeno un elemento
-overlay_nearest('airports', max_distance:= 5000) → vero se è presente un aeroporto entro una distanza di 5000 unità di mappa dall'elemento corrente
+overlay_nearest('airports', max_distance:= 5000) → vero se è presente un aeroporto entro una distanza di 5000 unità dall'elemento corrente (misurata in maniera cartesiana nel sistema di riferimento dal layer sorgente)
 overlay_nearest('airports', name) → il nome dell'aereoporto più vicino all'elemento corrente, come array
 array_to_string(overlay_nearest('airports', name)) → il nome dell'aereoporto più vicino all'elemento corrente, come stringa
-overlay_nearest(layer:='airports', expression:= name, max_distance:= 5000) → il nome dell'aereoporto più vicino entro una distanza di 5000 unità di mappa dall'elemento corrente, come array
+overlay_nearest(layer:='airports', expression:= name, max_distance:= 5000) → il nome dell'aereoporto più vicino entro una distanza di 5000 unità dall'elemento corrente, come array
 overlay_nearest(layer:='airports', expression:="name", filter:= "Use"='Civilian', limit:=3) → un array di nomi, per un massimo di tre aeroeporti civili più vicini ordinati per distanza
-overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:= 5000) → un array di nomi, per tutti gli aeroporti entro una distanza di 5000 unità di mappa dall'elemento corrente, ordinato per distanza.
+overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:= 5000) → un array di nomi, per tutti gli aeroporti entro una distanza di 5000 unità dall'elemento corrente, ordinato per distanza.
 ```
 
 [![](../../img/geometria/overlay_/overlay_nearest1.png)](../../img/geometria/overlay_/overlay_nearest1.png)
