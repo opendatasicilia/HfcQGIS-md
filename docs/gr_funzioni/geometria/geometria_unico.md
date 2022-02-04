@@ -3001,7 +3001,7 @@ overlay_nearest(layer:='airports', expression:="name", limit:= -1, max_distance:
 
 [![](../../img/geometria/overlay_/overlay_nearest1.png)](../../img/geometria/overlay_/overlay_nearest1.png)
 
-Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distanza2.html>
+[Esempio 45](https://hfcqgis.opendatasicilia.it/esempi/linea_min_distanza2/)
 
 !!! Warning "Nota bene:" 
 	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
