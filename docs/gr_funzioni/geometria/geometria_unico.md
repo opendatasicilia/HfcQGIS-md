@@ -2982,7 +2982,7 @@ Argomenti:
 * _<span style="color:red;">expression</span>_ un'espressione opzionale per valutare gli elementi dell'altro layer (se non impostata, la funzione restituisce semplicemente un booleano che indica se c'è almeno una corrispondenza);
 * _<span style="color:red;">filter</span>_ un'espressione opzionale per filtrare gli elementi corrispondenti (se non impostata, verranno restituiti tutti gli elementi);
 * _<span style="color:red;">limit</span>_ un numero intero opzionale per limitare il numero di elementi corrispondenti (se non impostato, verranno restituiti tutti gli elementi);
-* _<span style="color:red;">max_distance</span>_ una distanza opzionale per limitare la ricerca di elementi corrispondenti. Se non impostato, verranno usati tutti gli elementi nel layer di destinazione.
+* _<span style="color:red;">max_distance</span>_ una distanza opzionale per limitare la ricerca di elementi corrispondenti. Se non impostato, verranno usati tutti gli elementi nel layer di destinazione, (misurata in maniera cartesiana nel sistema di riferimento dal layer sorgente)
 * _<span style="color:red;">cache</span>_ imposta su "vero" per creare un indice spaziale locale (il più delle volte, questo è indesiderato, a meno che tu non stia lavorando con un fornitore di dati particolarmente lento);
 
 [ ] indica componenti opzionali
@@ -3005,6 +3005,13 @@ Esempio 45: <http://hfcqgis.opendatasicilia.it/it/latest/esempi/linea_min_distan
 
 !!! Warning "Nota bene:" 
 	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
+
+**Non documentato:**<br>
+La funzione, usata su uno stesso layer, esclude i casi banali, ovvero: se dovessi ricercare il punto più vicino appartenente allo stesso layer. Chiaramente il punto più vicino appartenente allo stesso layer è il punto stesso, ma il codice è fatto in modo che in questo caso venga escluso il punto stesso (che sarebbe un risultato banale) e cerca il secondo punto più vicino nello stesso layer.
+
+```
+overlay_nearest(@layer_name, $geometry)
+```
 
 ---
 
