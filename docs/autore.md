@@ -98,6 +98,11 @@ Padova luglio 2019
 - [GIScience - COVID: Analisi geografica con strumenti GIS Open Source](https://github.com/pigreco/workshop-estate-gis-2020)
 - [OpenDataSicilia - ODS16 Messina](https://github.com/pigreco/ODS16_QGIS)
 
+## Sponsor QGIS
+
+da febbraio 2022
+
+<p align="center"> <a href="https://github.com/sponsors/qgis" target="_blank"><img src="img/sponsorQGIS.png" width="250" class="immagonobox" title="Totò Fiandaca Sponsor QGIS.org"></a>
 
 ---
 
