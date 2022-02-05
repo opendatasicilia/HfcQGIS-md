@@ -102,7 +102,7 @@ Padova luglio 2019
 
 da febbraio 2022
 
-<p align="center"> <a href="https://github.com/sponsors/qgis" target="_blank"><img src="../img/sponsorQGIS_github.png" width="250" class="immagonobox" title="Totò Fiandaca Sponsor QGIS.org"></a></p>
+<p align="center"> <a href="https://github.com/sponsors/qgis" target="_blank"><img src="../img/sponsorQGIS_github.png" width="400" class="immagonobox" title="Totò Fiandaca Sponsor QGIS.org"></a></p>
 
 ---
 
