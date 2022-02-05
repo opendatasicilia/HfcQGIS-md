@@ -1,8 +1,6 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/pigreco/HfcQGIS.svg?style=flat-square)](https://github.com/pigreco/HfcQGIS)
 [![Donate to QGIS](https://img.shields.io/badge/donate%20to-QGIS-green.svg?style=flat-square)](http://qgis.org/en/site/getinvolved/donations.html)
 
-<a href="https://github.com/sponsors/qgis" target="_blank"><img src="https://img.shields.io/static/v1?label=sponsor%20by&message=QGIS&color=ff9900&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABkUlEQVQ4ja2Sv0tbURTHv/e+e5/68kIgi2gWETu5CHXrGAiNEezaQRBdBdHB/gc6Cf4DIdBFKHQITdI8p0IlIJTi0i4BURDX5JH7ou+9+8MlYkxJiMXPdDjf8zmHCxd4TUyxmDSl0uTQvFSaNMVisr9HACCu1d4R1z2gtr0MrSMt5W8IccxWVr4BgPS8D3CcHcr5EozhOorOtRCf7ELhFzGelzCue0EcZ+HZNSm70vd3oZTF0ukjwthUf66D4A9tNpdZbFlbfEAGAMKYw5LJw149NZjTRGIxzmQ2GGFsbtibiW2nh2W9/A1FGIajhkYSxxFFHNeMlPcvlrVWpNs9o3x19afudE5e6qtO5ztbW6tSALCur/eUEGfjyiaKLpUQ+0DvHwDAfaUyz1OpL9R1346Uw/BGtVrrPJ//8WwBAASnp7MTnH+2UqksCPlH1kHwV/n+pl0onD/2aP9AIpe7tYD3st0+NEpFT6Y2qt3+euf72X55JLJa/agbjaZuNK6ien17LGkQUS5PB/X6zH/J4/IAd1+kpmPB/IUAAAAASUVORK5CYII=&logoColor=ff9900&style=for-the-badge" title="Sponsor QGIS"></a>
-
 <p align="center">
   <a href="http://bit.ly/hfcqgis" target="_blank"><img src="https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/img/logo_hfc_home21.png" alt="pigrecoinfinito
 "  width="800" class="immagonobox" title="“Sito realizzato dalla comunità OpenDataSicilia"></a>
