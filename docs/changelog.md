@@ -46,3 +46,4 @@ data       | descrizione
 01/02/2022 | aggiunto il gruppo [Form](./gr_funzioni/form/form_unico.md) nella sezione `Funzioni`
 03/02/2022 | aggiunto sezione [Gruppo Espressioni Utente](./calcolatore_campi/gruppo_espressioni_utente.md) nella sezione `calcolatore di campi`
 03/02/2022 | aggiunto sezione [Tabella degli Attributi](./tabella_attributi/tabella_attributi.md)
+05/02/2022 | Sponsor [QGIS.org](https://github.com/sponsors/qgis) - [sezione](autore.md#sponsor-qgis)
