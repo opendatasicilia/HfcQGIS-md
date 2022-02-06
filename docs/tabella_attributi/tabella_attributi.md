@@ -146,8 +146,14 @@ nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti d
 
 ![screen](https://user-images.githubusercontent.com/28384354/63512424-1aa32d80-c4e4-11e9-96f8-505d9544db8e.gif)
 
+## Opzioni Extra Apertura Tabella
+
+[PR](https://github.com/qgis/QGIS/pull/42026) >= QGIS 3.20
+
+![](../img/tabella_attributi/nuove_icone.png)
+
 ## Mostra nella Tabella
 
-[Mostra nella Tabella](https://github.com/qgis/QGIS/pull/46328)
+[Mostra nella Tabella](https://github.com/qgis/QGIS/pull/46328) >= QGIS 3.24
 
 ![](../img/tabella_attributi/mostra_tabella.gif)

@@ -41,6 +41,10 @@ tags:
 
 ![](https://user-images.githubusercontent.com/652785/114245854-deda0780-9956-11eb-8ee4-899ed94d9501.png)
 
+<https://github.com/qgis/QGIS/pull/42026>
+
+![](https://user-images.githubusercontent.com/681851/109978266-fdb50080-7cfd-11eb-9e0e-ffb8c19782be.png)
+
 ## GUI/UI 
 
 - icone : <https://github.com/qgis/QGIS/pull/42168>
