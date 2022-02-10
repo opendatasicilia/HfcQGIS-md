@@ -38,7 +38,11 @@ conteggio: <https://gist.github.com/pigreco/2b2ad2eb12d17c4370b09635ae1470b4>
 
 ## espressione e tag
 
-name|tags
+I tag sono utili per la ricerca delle espressioni:
+
+![](https://user-images.githubusercontent.com/12854129/147858304-eba8754b-70b5-4883-9d8d-09a905fe2c4d.png)
+
+espressione|tags
 ----|---
 geometry|
 get_feature_by_id|
