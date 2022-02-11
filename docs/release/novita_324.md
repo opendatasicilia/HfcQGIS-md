@@ -1,6 +1,6 @@
 # Novità rilevanti introdotte in QGIS 3.24 Tisler IN LAVORAZIONE!!!
 
-[![](../img/splashscreen/splash_3_24.png)](../img/splashscreen/splash_3_24.png)
+[![](../img/splashscreen/splash_3_24rc.png)](../img/splashscreen/splash_3_24.png)
 
 <https://changelog.qgis.org/en/qgis/version/3.24/>
 
