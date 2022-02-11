@@ -1,4 +1,4 @@
-# Novità rilevanti introdotte in QGIS 3.24 Havard IN LAVORAZIONE!!!
+# Novità rilevanti introdotte in QGIS 3.24 Tisler IN LAVORAZIONE!!!
 
 [![](../img/splashscreen/splash_3_24.png)](../img/splashscreen/splash_3_24.png)
 
