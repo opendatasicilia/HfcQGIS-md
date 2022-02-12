@@ -20,6 +20,7 @@ funzione                                                                        
 [overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects)      | <https://github.com/qgis/QGIS/pull/46683> | miglioramenti
 [geometry_n](../gr_funzioni/geometria/geometria_unico.md#geometry_n)                      | <https://github.com/qgis/QGIS/pull/46684> | modifica definizione
 [geometry_type](../gr_funzioni/geometria/geometria_unico.md#geometry_n)                   | <https://github.com/qgis/QGIS/pull/46716> | nuova funzione
+[rotate](../gr_funzioni/geometria/geometria_unico.md#rotate)                              | <https://github.com/qgis/QGIS/pull/45748> | miglioramento
 
 ### Gruppo Record e Attributi
 funzione                                                                                                   | link PR                                   | descrizione

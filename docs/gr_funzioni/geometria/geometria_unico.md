@@ -3319,7 +3319,7 @@ Restituisce una versione ruotata di una geometria. I calcoli si trovano nel sist
 
 Sintassi:
 
-- rotate( _<span style="color:red;">geometry</span>_, _<span style="color:red;">rotation</span>_[, _<span style="color:red;">center</span>_])
+- rotate( _<span style="color:red;">geometry</span>_, _<span style="color:red;">rotation</span>_[, _<span style="color:red;">center</span>_][,_<span style="color:red;">per_part=false</span>_])
 
 [ ] indica componenti opzionali
 
@@ -3328,6 +3328,8 @@ Argomenti:
 *  _<span style="color:red;">geometry</span>_ una geometria
 *  _<span style="color:red;">rotation</span>_ rotazione oraria in gradi
 *  _<span style="color:red;">center</span>_ punto centrale di rotazione. Se non specificato, viene utilizzato il centro del perimetro di delimitazione della geometria.
+*  _<span style="color:red;">per_part</span>_ applica la rotazione per parte. Se true, la rotazione verrà applicata attorno al centro del riquadro di delimitazione di ciascuna parte quando la geometria di input è multiparte e non è specificato un punto centrale di rotazione esplicito.
+
 
 Esempi:
 
@@ -3339,6 +3341,10 @@ rotate($geometry, 45) → la geometria ruotava di 45 gradi in senso orario attor
 [![](../../img/geometria/rotate/rotate1.png)](../../img/geometria/rotate/rotate1.png)
 
 [![screen](../../img/novita_312/Image03.png)](../../img/novita_312/Image03.png)
+
+**>=QGIS 3.24**
+
+[![](../../img/geometria/rotate/per_part.gif)](../../img/geometria/rotate/per_part.gif)
 
 ---
 
