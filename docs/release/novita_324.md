@@ -2,6 +2,8 @@
 
 [![](../img/splashscreen/splash_3_24rc.png)](../img/splashscreen/splash_3_24.png)
 
+**In Memorium:** Questa versione prende il nome "Tisler" da una piccola isola norvegese che era uno dei luoghi di visita preferiti di _**Håvard Tveite**_, scomparso nel maggio 2021. Håvard era un membro molto attivo della comunità QGIS, fornendo un prezioso contributo alla documentazione, sviluppando numerosi plugin e occupandosi del QGIS Resources Sharing Repository per citare solo alcuni dei suoi contributi. La mappa nella schermata iniziale di QGIS 3.24 è una mappa di orientamento creata da Håvard. Gli piaceva passare un po' di tempo ogni anno a creare mappe a Tisler.
+
 <https://changelog.qgis.org/en/qgis/version/3.24/>
 
 ## Espressioni
