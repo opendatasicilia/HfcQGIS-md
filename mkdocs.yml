@@ -16,7 +16,7 @@ copyright: <a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informat
 extra:
   manifest: "manifest.webmanifest"
   social:
-    - icon: fontawesome/solid/home
+    - icon: fontawesome/solid/house
       link: https://hfcqgis.opendatasicilia.it/
       name: Home Page
     - icon: fontawesome/brands/twitter
