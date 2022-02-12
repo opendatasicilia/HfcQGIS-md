@@ -54,6 +54,8 @@ funzione                                                             | link PR  
 
 ![](https://user-images.githubusercontent.com/12854129/147858304-eba8754b-70b5-4883-9d8d-09a905fe2c4d.png)
 
+[qui](../gr_funzioni/gruppo_funzioni.md#espressione-e-tag) i tag per la ricerca.
+
 ## GUI/UX
 `apri tabella attributi`: <https://github.com/qgis/QGIS/pull/46328>| Nuovo bottone!
 
