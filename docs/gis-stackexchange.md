@@ -14,4 +14,7 @@ data       | link                                           | espressioni
 ...
 
 
-link: <https://gis.stackexchange.com/users/73605/pigreco?tab=answers&sort=newest&page=1>
+link: 
+1. <https://gis.stackexchange.com/users/73605/pigreco?tab=answers&sort=newest&page=1>
+2. <https://stackexchange.com/users/8482031/pigreco?tab=activity>
+3. <https://api.stackexchange.com/2.2/users/73605/answers?site=gis.stackexchange.com&pagesize=100>

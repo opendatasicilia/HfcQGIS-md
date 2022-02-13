@@ -48,3 +48,4 @@ data       | descrizione
 03/02/2022 | aggiunto sezione [Tabella degli Attributi](./tabella_attributi/tabella_attributi.md)
 05/02/2022 | Sponsor [QGIS.org](https://github.com/sponsors/qgis) - [sezione](autore.md#sponsororing)
 10/02/2022 | Aggiunti i [tag](./gr_funzioni/gruppo_funzioni.md#espressione-e-tag) delle espressioni, nuova caratteristica introdotta nella 3.24
+13/02/2022 | Aggiunta sezione [gis-stackexchange](gis-stackexchange.md)

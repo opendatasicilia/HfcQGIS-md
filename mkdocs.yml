@@ -286,6 +286,7 @@ nav:
         - Release: release.md
         - Changelog: changelog.md
         - Pull Request: pull-request.md
+        - gis-stackexchange: gis-stackexchange.md
         - Risorse: risorse.md
         - Disclaimer: disclaimer.md
         - Licenza: LICENSE_my.md
