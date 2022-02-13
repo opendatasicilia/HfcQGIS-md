@@ -1,9 +1,7 @@
-# gis-stackexchange
-
 IN COSTRUZIONE
 
 !!! Abstract
-    **In questa sezione sono raccolte alcune risposte, dell'autore di questa guida, su gis-stackexchange dove si utilizzano le espressioni.**
+    **In questa sezione sono raccolte alcune risposte dove si utilizzano le espressioni.**
 
 ---
  
