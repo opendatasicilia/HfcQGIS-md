@@ -1,12 +1,14 @@
 IN COSTRUZIONE
 
 !!! Abstract
-    **In questa sezione sono raccolte alcune risposte dove si utilizzano le espressioni.**
+    **In questa sezione una raccolte di alcune risposte dove si utilizzano le espressioni.**
 
 ---
  
 data       | link                                           | espressioni
 -----------|------------------------------------------------|----------------------------------------------------------------------------------------------
+15/02/2022 | <https://gis.stackexchange.com/a/423834/73605> | array_foreach, generate_series, num_geometries, round, area, geometry_n, $geometry
+13/02/2022 | <https://gis.stackexchange.com/a/423748/73605> | geom_from_wkt, geom_to_wkt, $geometry
 13/02/2022 | <https://gis.stackexchange.com/a/423717/73605> | regexp_replace
 28/01/2022 | <https://gis.stackexchange.com/a/422357/73605> | array_to_string, with_variable, aggregate, intersects, array_foreach, array_distinct, @parent
 23/01/2022 | <https://gis.stackexchange.com/a/421841/73605> | CASE
