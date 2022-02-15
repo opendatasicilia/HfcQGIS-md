@@ -1,5 +1,7 @@
 IN COSTRUZIONE
 
+<a href="https://stackexchange.com/users/8482031/pigreco"><img src="https://stackexchange.com/users/flair/8482031.png" width="208" height="58" alt="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for pigreco on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
+
 !!! Abstract
     **In questa sezione una raccolte di alcune risposte dove si utilizzano le espressioni.**
 
@@ -7,6 +9,7 @@ IN COSTRUZIONE
  
 data       | link                                           | espressioni
 -----------|------------------------------------------------|----------------------------------------------------------------------------------------------
+15/02/2022 | <https://gis.stackexchange.com/a/423947/73605> | with_variable, maximum, minimum
 15/02/2022 | <https://gis.stackexchange.com/a/423834/73605> | array_foreach, generate_series, num_geometries, round, area, geometry_n, $geometry
 13/02/2022 | <https://gis.stackexchange.com/a/423748/73605> | geom_from_wkt, geom_to_wkt, $geometry
 13/02/2022 | <https://gis.stackexchange.com/a/423717/73605> | regexp_replace
