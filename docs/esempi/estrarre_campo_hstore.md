@@ -1,7 +1,7 @@
 ---
 tags:
   - estrarre
-  - attributo
+  - attributi
   - tabella
   - valori
 ---

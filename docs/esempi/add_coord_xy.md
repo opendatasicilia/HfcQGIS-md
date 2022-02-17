@@ -1,6 +1,6 @@
 ---
 tags:
-  - attributo
+  - attributi
   - x
   - y
   - tabella
