@@ -1,7 +1,7 @@
 ---
 tags:
   - incrementi
-  - attributo
+  - attributi
   - tabella
   - valori
 ---

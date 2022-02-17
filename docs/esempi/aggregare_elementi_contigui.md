@@ -1,9 +1,6 @@
 ---
 tags:
   - aggregare
-  - touches
-  - transform
-  - geometry
   - adiacente
 ---
 

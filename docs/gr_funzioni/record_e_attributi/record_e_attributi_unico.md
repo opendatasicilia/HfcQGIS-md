@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_recordAttributi.png
 tags:
   - gruppo
-  - record-e-attributi
 ---
 
 # Gruppo Record e Attributi

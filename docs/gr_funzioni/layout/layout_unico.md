@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_gr_layout.png
 tags:
   - gruppo
-  - layout
 ---
 
 # Gruppo layout

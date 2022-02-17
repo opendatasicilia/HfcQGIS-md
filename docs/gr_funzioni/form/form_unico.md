@@ -1,7 +1,6 @@
 ---
 tags:
   - gruppo
-  - form
 ---
 
 # Form

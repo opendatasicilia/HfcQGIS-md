@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_espressioneUtente.png
 tags:
   - gruppo
-  - espressione-utente
 ---
 
 # Gruppo Espressione utente

@@ -1,7 +1,6 @@
 ---
 tags:
   - aggregare
-  - intersects
   - transform
   - SR
 ---

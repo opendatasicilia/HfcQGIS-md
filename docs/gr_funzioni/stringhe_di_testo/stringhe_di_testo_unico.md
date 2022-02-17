@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_stringheTesto.png
 tags:
   - gruppo
-  - stringhe
 ---
 
 # Gruppo Stringhe di Testo

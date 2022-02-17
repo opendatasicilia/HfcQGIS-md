@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_gr_maps.png
 tags:
   - gruppo
-  - maps
 ---
 
 # Gruppo Maps

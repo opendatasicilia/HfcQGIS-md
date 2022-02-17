@@ -2,7 +2,6 @@
 social_image: img/card_social/hfc_gr_layerMappa.png
 tags:
   - gruppo
-  - layer-mappa
 ---
 
 # Gruppo Layer Mappa
