@@ -73,6 +73,7 @@ theme:
   logo: img/logo_hfc_white.svg
 
 plugins:
+- tags
 - search
 # - mkdocstrings
 # - autolinks
