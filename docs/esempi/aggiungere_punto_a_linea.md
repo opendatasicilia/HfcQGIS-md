@@ -1,3 +1,10 @@
+---
+tags:
+  - linea
+  - aggiungi
+  - punto
+---
+
 ## Come aggiungere un punto ad una linea
 
 Alcune volte può essere utile aggiungere un nodo di disegno ad una linea, per esempio quando occorre spezzarla proprio in quel punto o in altri casi di sovrapposizione con altre linee.

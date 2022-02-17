@@ -1,3 +1,12 @@
+---
+tags:
+  - aggregate
+  - aggregare
+  - intersects
+  - transform
+  - SR
+---
+
 ## Aggregare con SR differenti
 
 La funzione [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate) del gruppo **aggrega** lavora solo con vettori che hanno stesso SR (Sistema di Riferimento) altrimenti restituisce `NULL`, in questo esempio useremo la funzione [transform](../gr_funzioni/geometria/geometria_unico.md#transform) per ovviare a questo apparente problema.

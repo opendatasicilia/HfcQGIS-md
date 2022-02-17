@@ -1,3 +1,15 @@
+---
+tags:
+  - $id
+  - if
+  - array_sum
+  - $currentfeature
+  - attribute
+  - get_feature_by_id
+  - @layer_name
+  - @row_number
+---
+
 ## Aggiungere campo somma cumulativa
 
 Siamo nella seguente ipotesi, una tabella ordinata per `fid` e un campo `l` che rappresenta delle lunghezze, come realizzare - usando il calcolatore di campi e le espressioni - un campo `cum` popolato con la somma cumulativa??

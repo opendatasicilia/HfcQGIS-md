@@ -1,3 +1,8 @@
+---
+tags:
+  - aggiungi attributo x e y
+---
+
 # Come aggiungere le coordinate x e y alla tabella attributi
 
 Facciamo un esempio, geopackage con vettore puntuale:

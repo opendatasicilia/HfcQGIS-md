@@ -1,3 +1,8 @@
+---
+tags:
+  - campo virtuale
+---
+
 # Come aggiungere un campo virtuale
 
 Facciamo un esempio, geopackage con vettore lineare:

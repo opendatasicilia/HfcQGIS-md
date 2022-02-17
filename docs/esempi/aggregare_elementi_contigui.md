@@ -1,4 +1,13 @@
-## Aggregare elementi adiacenti
+---
+tags:
+  - aggregate
+  - aggregare
+  - touches
+  - transform
+  - geometry
+---
+
+# Aggregare elementi adiacenti
 
 * Qual è la regione italiana che ha più regioni confinanti??
 * Qual è la regione italiana (tranne le isole) che ha meno regioni confinanti??

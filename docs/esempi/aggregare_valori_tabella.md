@@ -1,3 +1,11 @@
+---
+tags:
+  - array_to_string
+  - array_agg
+  - tabella
+  - valori
+---
+
 # Aggregare valori di una tabella
 
 Data la `tabella` (semplice file csv) ottenere l'`output` come in figura:

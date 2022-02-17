@@ -1,3 +1,8 @@
+---
+tags:
+  - aggiungi attributo z
+---
+
 # Come aggiungere la quota z alla tabella attributi
 
 Facciamo un esempio, geopackage con vettore MultiLinestringZ:
