@@ -1,3 +1,9 @@
+---
+tags:
+  - pull-request
+  - novità
+---
+
 # Pull Request
 
 In questa pagina l'elenco delle richieste di funzionalità legate al field calculator di QGIS, inoltrate da Salvatore Fiandaca nel repository ufficiale di [QGIS](https://github.com/qgis/QGIS).

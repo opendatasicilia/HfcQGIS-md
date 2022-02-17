@@ -1,3 +1,9 @@
+---
+tags:
+  - area
+  - buffer
+---
+
 # Calcolo della core area (area interna al poligono al netto di un'area di buffer interna )
 
 La core area è l'area interna di un poligono al netto di una superfcie determinata da un buffer interno. E' un indice importante utilizzato in ecologia.

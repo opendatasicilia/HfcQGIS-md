@@ -1,3 +1,9 @@
+---
+tags:
+  - GUI
+  - interfaccia
+---
+
 # Interfaccia calcolatore di campi
 
 !!! Abstract "Intro"

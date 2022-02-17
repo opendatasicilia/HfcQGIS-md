@@ -1,4 +1,13 @@
-## Conta punti nel poligono e per data
+---
+tags:
+  - conta
+  - punti
+  - poligoni
+  - data
+  - array
+---
+
+# Conta punti nel poligono e per data
 
 Immaginiamo di avere dei poligoni in cui ricadono dei punti: contare i punti per ogni poligono e per ogni data. 
 

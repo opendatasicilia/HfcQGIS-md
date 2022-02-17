@@ -1,4 +1,12 @@
-## Calcolo incrementi giornalieri di un attributo
+---
+tags:
+  - incrementi
+  - attributo
+  - tabella
+  - valori
+---
+
+# Calcolo incrementi giornalieri di un attributo
 
 Supponiamo di avere un campo (`tot_att_pos`) popolato con valori aggregati giornalieri, per esempio il numero totale di contagiati da **CoronaVirus**, ecco un tabella di esempio:
 

@@ -1,4 +1,13 @@
-## Decimali come apice per le etichette delle corrdinate
+---
+tags:
+  - decimali
+  - etichette
+  - coordinate
+  - x
+  - y
+---
+
+# Decimali come apice per le etichette delle coordinate
 
 Etichettare punti con le coordinate `x` e `y` mettendo i decimali come apice:
 

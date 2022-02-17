@@ -1,3 +1,9 @@
+---
+tags:
+  - news
+  - parlano
+---
+
 # Parlano di noi
 
 * **12/10/2021** [Zenodo](https://zenodo.org/record/5565494) by [FOSS4G-IT 2021](https://foss4g-it2021.gfoss.it/programma.html)

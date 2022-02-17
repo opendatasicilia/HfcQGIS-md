@@ -1,6 +1,9 @@
 ---
 tags:
-  - aggiungi attributo z
+  - attributo
+  - z
+  - quota
+  - tabella
 ---
 
 # Come aggiungere la quota z alla tabella attributi

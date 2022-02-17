@@ -1,3 +1,10 @@
+---
+tags:
+  - corso
+  - formazione
+  - fieldCalc
+---
+
 # Corso di formazione avanzato - IN LAVORAZIONE
 
 ## A chi è rivolto

@@ -1,3 +1,9 @@
+---
+tags:
+  - gruppo
+  - form
+---
+
 # Form
 
 Questo gruppo contiene funzioni che sono disponibili nel contesto modulo attributi. Per esempio, in impostazioni campo widget.

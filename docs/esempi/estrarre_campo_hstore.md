@@ -1,3 +1,11 @@
+---
+tags:
+  - estrarre
+  - attributo
+  - tabella
+  - valori
+---
+
 # Estrarre un campo da un attributo HStore
 
 Il formato HStore è molto usato nel database OpenStreetMap, leggi [qui](https://pigrecoinfinito.com/2021/10/12/qgis-e-il-formato-hstore/).

@@ -1,3 +1,10 @@
+---
+tags:
+  - supporter
+  - supporta
+  - sponsorizza
+---
+
 # Supporter
 
 Questa pagina raccoglie i nominativi delle persone che hanno contribuito alla guida in termini _finanziari_ o di _conoscenza_:

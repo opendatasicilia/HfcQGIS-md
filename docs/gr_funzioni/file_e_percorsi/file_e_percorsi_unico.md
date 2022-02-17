@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_fileepercorsi.png
+tags:
+  - gruppo
+  - file-e-percorsi
 ---
 
 # Gruppo File e Percorsi

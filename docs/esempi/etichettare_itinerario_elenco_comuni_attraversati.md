@@ -1,4 +1,12 @@
-## Etichettare un itinerario con l’elenco ordinato dei Comuni attraversati
+---
+tags:
+  - etichette
+  - itinerario
+  - array
+  - valori
+---
+
+# Etichettare un itinerario con l’elenco ordinato dei Comuni attraversati
 
 Qualche giorno fa in queste pagine é stato pubblicato un esempio su come creare, tramite calcolatore di campi, un **elenco ordinato di Comuni attraversati da un itinerario** ([esempio 39](elenco_ordinato_comuni_attraversati.md)). Nell’esempio citato l’espressione utilizzata permetteva di creare un nuovo campo con numerazione progressiva all’interno del layer poligonale contenente i limiti comunali. 
 In questo esempio vedremo invece come sia possibile, sempre utilizzando iI calcolatore di campi, intervenire direttamente sul layer lineare rappresentante l’itinerario e creare una etichetta (o un nuovo campo testuale della tabella attributi) contenente un elenco ordinato e numerato dei comuni attraversati. 

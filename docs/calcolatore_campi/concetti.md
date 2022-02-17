@@ -1,3 +1,10 @@
+---
+tags:
+  - concetti
+  - base
+  - fieldCalc
+---
+
 # Concetti fondamentali sul calcolatore di campi di QGIS
 
 !!! Abstract "Intro"

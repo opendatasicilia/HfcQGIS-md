@@ -1,4 +1,12 @@
-## Calcolo area poligoni all'interno di un reticoli
+---
+tags:
+  - area
+  - poligoni
+  - reticolo
+  - aggregare
+---
+
+# Calcolo area poligoni all'interno di un reticoli
 
 Calcolare l’area delle porzioni di poligoni che ricadono dentro ad una cella di un reticolo.
 

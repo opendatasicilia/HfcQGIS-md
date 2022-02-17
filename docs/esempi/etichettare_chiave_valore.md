@@ -1,4 +1,12 @@
-## Etichettare usando struttura a mappa chiave-valore
+---
+tags:
+  - etichette
+  - mappa
+  - chiave-valore
+  - valori
+---
+
+# Etichettare usando struttura a mappa chiave-valore
 
 Alcune volte nasce la necessità di etichettare le feature facendo vedere sia il nome del campo che il corrispondente valore (classico caso `chiave:valore`).
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - etichette
+  - caratteri
+---
+
 # Aggiungere caratteri speciali alle etichette
 
 Come aggiungere nelle etichette gli apici come `km²` e similari?

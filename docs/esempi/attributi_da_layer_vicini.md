@@ -1,3 +1,11 @@
+---
+tags:
+  - vicinanza
+  - attributi
+  - tabella
+  - layer
+---
+
 # Prelevare attributi da layer più vicini
 
 Livello di linea (MultiLineString) e 4 livelli di punti (MultiPoint).

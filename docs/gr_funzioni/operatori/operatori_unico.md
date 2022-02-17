@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_operatori.png
+tags:
+  - gruppo
+  - operatori
 ---
 
 # Gruppo Operatori

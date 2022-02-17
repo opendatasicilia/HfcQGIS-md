@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_condizioni.png
+tags:
+  - gruppo
+  - condizioni
 ---
 
 # Gruppo Condizioni

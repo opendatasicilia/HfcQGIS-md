@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_dataOra.png
+tags:
+  - gruppo
+  - data-e-ora
 ---
 
 # Gruppo Data e Ora

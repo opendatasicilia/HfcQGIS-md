@@ -1,4 +1,12 @@
-## Atlas con righe tabella attributi in verticale
+---
+tags:
+  - atlante
+  - replace
+  - tabella
+  - valori
+---
+
+# Atlas con righe tabella attributi in verticale
 
 Alcune volte nasce l'esigenza di stampare la tabella attributi di un atlante in verticale e non nel classico modo in orizzontale:
 

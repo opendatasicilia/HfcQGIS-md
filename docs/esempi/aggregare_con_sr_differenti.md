@@ -1,6 +1,5 @@
 ---
 tags:
-  - aggregate
   - aggregare
   - intersects
   - transform

@@ -1,4 +1,11 @@
-## elenco comuni 
+---
+tags:
+  - aggregare
+  - tabella
+  - valori
+---
+
+# elenco comuni 
 
 Come ottenere l'elenco dei Comuni attraversati da un fiume.
 

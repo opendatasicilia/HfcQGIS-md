@@ -1,3 +1,11 @@
+---
+tags:
+  - eliminare
+  - testo
+  - regex
+  - valori
+---
+
 # Eliminare testo tra parentesi
 
 Supponiamo di avere una _tabella degli attributi_ con un campo che contiene del testo, come l'esempio di sotto:

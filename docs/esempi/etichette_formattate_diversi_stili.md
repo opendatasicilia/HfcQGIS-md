@@ -1,3 +1,11 @@
+---
+tags:
+  - etichette
+  - formattare
+  - testo
+  - array
+---
+
 # Etichette formattate con diversi stili all'interno del testo
 
 Una richiesta che spesso si ritrova nei canali social della Comunitá **QGIS** é quella di poter creare delle etichette al cui interno solo una parte del testo é formattata con uno stile diverso dal resto della stringa.  In **QGIS**, infatti, é possibile utilizzare gli strumenti offerti dal sistema per formattare in grassetto o corsivo l’intera etichetta ma non é possibile, di default, applicare lo stile ad una sola parte del testo. 

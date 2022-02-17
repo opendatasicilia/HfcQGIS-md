@@ -1,13 +1,7 @@
 ---
 tags:
-  - $id
-  - if
-  - array_sum
-  - $currentfeature
-  - attribute
-  - get_feature_by_id
-  - @layer_name
-  - @row_number
+  - cumulativa
+  - somma
 ---
 
 ## Aggiungere campo somma cumulativa

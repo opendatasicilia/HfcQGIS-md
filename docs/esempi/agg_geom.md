@@ -1,6 +1,8 @@
 ---
 tags:
-  - aggiorna attributo geometry
+  - attributo
+  - geometry
+  - aggiorna
 ---
 
 # Aggiornare l'attributo _geometry_

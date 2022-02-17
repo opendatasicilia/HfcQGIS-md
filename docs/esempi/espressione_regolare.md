@@ -1,3 +1,11 @@
+---
+tags:
+  - regex
+  - caratteri
+  - condizioni
+  - valori
+---
+
 # Espressione regolare: inserire automaticamente un carattere speciale
 
 Ho delle label composte da 4-5 parole e vorrei mandare a capo ogni 2 parole

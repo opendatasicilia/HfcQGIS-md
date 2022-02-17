@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_geom.png
+tags:
+  - gruppo
+  - geometria
 ---
 
 # Gruppo Geometria  

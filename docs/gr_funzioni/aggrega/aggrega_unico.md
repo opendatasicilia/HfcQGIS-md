@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_aggrega.png
+tags:
+  - gruppo
+  - aggrega
 ---
 
 # Gruppo Aggrega

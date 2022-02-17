@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_campiValore.png
+tags:
+  - gruppo
+  - campi-e-valori
 ---
 
 # campi e valori

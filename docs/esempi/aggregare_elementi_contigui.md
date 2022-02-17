@@ -1,10 +1,10 @@
 ---
 tags:
-  - aggregate
   - aggregare
   - touches
   - transform
   - geometry
+  - adiacente
 ---
 
 # Aggregare elementi adiacenti

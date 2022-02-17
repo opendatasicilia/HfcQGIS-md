@@ -1,3 +1,10 @@
+---
+tags:
+  - prova
+  - test
+  - esercizi
+---
+
 # Mettiti alla prova con le espressioni di QGIS
 
 ## Provaci Tu

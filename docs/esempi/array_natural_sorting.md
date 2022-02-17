@@ -1,3 +1,11 @@
+---
+tags:
+  - ordinare
+  - array
+  - tabella
+  - valori
+---
+
 # Ordinare numericamente un array alfanumerico
 
 (problema noto come _**Natural Sorting**_)

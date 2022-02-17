@@ -1,3 +1,11 @@
+---
+tags:
+  - attributi
+  - array
+  - tabella
+  - valori
+---
+
 # Confrontare due campi tabella attributi
 
 Ho una tabella con due campi che raccolgono una lista di numeri di fogli catastali, come confrontarle e estrarre solo i numeri fogli uguali?

@@ -1,3 +1,11 @@
+---
+tags:
+  - conta
+  - array
+  - tabella
+  - aggregare
+---
+
 # Conteggio valori in un campo
 
 Supponiamo di voler contare il numero di valori all'interno di un campo cioè ottenere il numero di volte che, un valore, si ripete.

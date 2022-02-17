@@ -1,3 +1,11 @@
+---
+tags:
+  - classificare
+  - array
+  - tabella
+  - valori
+---
+
 # Classificare specie
 
 Una colonna `taxa` contiene una serie di specie separate da #. Come creare una nuova colonna che restituisce una somma di valori, in base alla specie, definiti in un'altra tabella. Sotto un esempio:

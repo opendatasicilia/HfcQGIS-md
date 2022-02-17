@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_fuzzy.png
+tags:
+  - gruppo
+  - corrispondenza-fuzzy
 ---
 
 # Gruppo corrispondenza fuzzy

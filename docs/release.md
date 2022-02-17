@@ -1,3 +1,9 @@
+---
+tags:
+  - versione
+  - release
+---
+
 # Release
 
 In questa sezione le varie versioni nel tempo.

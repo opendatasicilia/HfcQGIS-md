@@ -1,4 +1,12 @@
-## Conteggio caratteri diversi
+---
+tags:
+  - conta
+  - caratteri
+  - tabella
+  - array
+---
+
+# Conteggio caratteri diversi
 
 **Problema**: come posso classificare in automatico i codici (tipo 133114 ecc.) per identificare il numero dei cambiamenti, cioè il numero di caratteri diversi? Per esempio, nella stringa 133114 ci sono "1" tre volte, "3" due volte, "4" una volta, dunque ci sono tre caratteri diversi. Nella stringa 222222 c'è un solo carattere ("2") ecc. [Quesito preso dalla ML QGIS-user-it](http://osgeo-org.1560.x6.nabble.com/calcolatore-di-campi-conteggio-simboli-numeri-lettere-diversi-td5444878.html)
 

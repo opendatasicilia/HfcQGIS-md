@@ -1,6 +1,9 @@
 ---
 tags:
-  - aggiungi attributo x e y
+  - attributo
+  - x
+  - y
+  - tabella
 ---
 
 # Come aggiungere le coordinate x e y alla tabella attributi

@@ -1,7 +1,6 @@
 ---
 tags:
   - linea
-  - aggiungi
   - punto
 ---
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - blog
+  - post
+  - pigrecoinfinito
+---
+
 # Sitografia sul Field Calc
 
 Questa sezione raccoglie alcuni post a tema sul **Field Calc** e le **espressioni** in generale.

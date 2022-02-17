@@ -1,3 +1,11 @@
+---
+tags:
+  - duplicati
+  - condizione
+  - tabella
+  - attributi
+---
+
 # Rimuovere elementi duplicati in base a una condizione su un'altra colonna di attributi
 
 gis.stackexchange : <https://gis.stackexchange.com/questions/419159/removing-duplicate-features-based-on-a-condition-on-another-attribute-column-in>

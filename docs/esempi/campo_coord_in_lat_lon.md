@@ -1,4 +1,12 @@
-## Da un campo di coordinate a due campi
+---
+tags:
+  - campi
+  - attributi
+  - tabella
+  - coordinate
+---
+
+# Da un campo di coordinate a due campi
 
 Alcune volte abbiamo a che fare con un campo che contiene entrambe le coordinate separate da una virgola `44.8636937,10.0077403`, come questa di sotto:
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - risorse
+  - software
+  - plugin
+---
+
 # Principali risorse usate per realizzare il sito
 
 ## Software

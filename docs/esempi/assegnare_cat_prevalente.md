@@ -1,4 +1,11 @@
-## Assegnare categoria prevalente
+---
+tags:
+  - categoria
+  - array
+  - tabella
+---
+
+# Assegnare categoria prevalente
 
 Dati due shapefile poligonali, _fabbricati_ e _circorscrizioni_. I fabbricati hanno un attributo (categoria) che li categorizza come A,B,C,D. Come attribuire alle circoscrizioni la categoria prevalente dei fabbricati? cioè, se ci fossero, in una circoscrizione, più fabbricati con categorie B, rispetto agli altri, allora assegnare la categoria B, oppure A se, la maggioranza dei fabbricati, fosse la categoria A.
 

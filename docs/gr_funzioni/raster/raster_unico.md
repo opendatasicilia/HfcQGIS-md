@@ -1,5 +1,8 @@
 ---
 social_image: img/card_social/hfc_gr_raster.png
+tags:
+  - gruppo
+  - raster
 ---
 
 # Gruppo Raster

@@ -1,6 +1,6 @@
 ---
 tags:
-  - array_to_string
+  - aggregare
   - array_agg
   - tabella
   - valori

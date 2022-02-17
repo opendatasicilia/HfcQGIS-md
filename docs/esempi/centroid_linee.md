@@ -1,4 +1,12 @@
-## Ottenere i centroidi lungo le linee
+---
+tags:
+  - linee
+  - centroidi
+  - WKT
+  - valori
+---
+
+# Ottenere i centroidi lungo le linee
 
 Come ottenere i centroidi di linee curve lungo le linee stesse?
 

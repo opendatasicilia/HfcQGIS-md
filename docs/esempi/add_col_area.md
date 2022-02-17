@@ -1,6 +1,7 @@
 ---
 tags:
-  - aggiungi colonna area
+  - attributo
+  - area
 ---
 
 # Come aggiungere colonna con area [m²]

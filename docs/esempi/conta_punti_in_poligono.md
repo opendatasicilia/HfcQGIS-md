@@ -1,4 +1,12 @@
-## Conta  i punti nel poligono
+---
+tags:
+  - conta
+  - punti
+  - poligoni
+  - aggregare
+---
+
+# Conta  i punti nel poligono
 
 Contare i features di un layer puntuale che ricadono dentro poligoni, e ‘appendere’ i valori nella tabella attributi del layer poligonale.
 
