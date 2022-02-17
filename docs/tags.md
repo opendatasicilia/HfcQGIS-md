@@ -1,4 +1,4 @@
-# Tags
+# 🏷️ Tags
 
 Di seguito è riportato un elenco di tag rilevanti:
 
