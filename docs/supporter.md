@@ -1,8 +1,6 @@
 ---
 tags:
   - supporter
-  - supporta
-  - sponsorizza
 ---
 
 # Supporter

@@ -1,7 +1,7 @@
 ---
 tags:
   - aggregare
-  - array_agg
+  - array
   - tabella
   - valori
 ---

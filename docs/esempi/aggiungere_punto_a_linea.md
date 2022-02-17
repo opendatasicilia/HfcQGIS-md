@@ -1,6 +1,6 @@
 ---
 tags:
-  - linea
+  - linee
   - punto
 ---
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - changelog
-  - nività
+  - novità
 ---
 
 # Changelog

@@ -3,7 +3,7 @@ tags:
   - traduzione
   - GUI
   - interfaccia
-  - versioni
+  - versione
 ---
 
 # Traduzione <img src="https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/ita.jpg" class="immagonobox" width="90" height="18" alt=""/>
