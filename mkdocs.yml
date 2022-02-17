@@ -10,7 +10,7 @@ repo_url: https://github.com/opendatasicilia/HfcQGIS-md
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: <a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://hfcqgis.opendatasicilia.it/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a>
+copyright: <a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://hfcqgis.opendatasicilia.it/tags/" title="Tags" target="_parent">Tags</a> | <a href="https://hfcqgis.opendatasicilia.it/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a> 
 
 ## Social Media
 extra:
@@ -73,7 +73,8 @@ theme:
   logo: img/logo_hfc_white.svg
 
 plugins:
-- tags
+- tags:
+    tags_file: tags.md
 - search
 # - mkdocstrings
 # - autolinks
