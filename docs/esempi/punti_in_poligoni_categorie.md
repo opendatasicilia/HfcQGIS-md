@@ -3,7 +3,7 @@ tags:
   - conta
   - punti
   - poligono
-  - condizion
+  - condizioni
 ---
 
 # Contare  i punti nel poligono per categorie

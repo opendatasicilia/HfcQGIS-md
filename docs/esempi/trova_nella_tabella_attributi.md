@@ -2,7 +2,7 @@
 tags:
   - tabella
   - attributi
-  - maps
+  - chiave-valore
   - array
 ---
 
