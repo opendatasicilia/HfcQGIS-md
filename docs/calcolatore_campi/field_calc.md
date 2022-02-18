@@ -1,8 +1,6 @@
 ---
 tags:
   - fieldCalc
-  - perché
-  - dove
 ---
 
 # Calcolatore di campi

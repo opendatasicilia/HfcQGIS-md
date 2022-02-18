@@ -1,7 +1,7 @@
 ---
 tags:
   - linee
-  - punto
+  - punti
 ---
 
 ## Come aggiungere un punto ad una linea

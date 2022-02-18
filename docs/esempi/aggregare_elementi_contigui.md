@@ -1,7 +1,7 @@
 ---
 tags:
   - aggregare
-  - adiacente
+  - adiacenza
 ---
 
 # Aggregare elementi adiacenti

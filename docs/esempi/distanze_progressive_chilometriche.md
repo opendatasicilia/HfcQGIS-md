@@ -3,7 +3,6 @@ tags:
   - formattare
   - progressive
   - condizione
-  - CASE
 ---
 
 # Formattare le distanze chilometriche progressive 
