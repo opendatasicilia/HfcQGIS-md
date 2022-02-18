@@ -2,7 +2,7 @@
 tags:
   - formattare
   - progressive
-  - condizione
+  - condizioni
 ---
 
 # Formattare le distanze chilometriche progressive 

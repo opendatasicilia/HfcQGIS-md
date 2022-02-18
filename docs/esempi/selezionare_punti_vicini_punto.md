@@ -1,3 +1,11 @@
+---
+tags:
+  - selezionare
+  - vicinanza
+  - punto
+  - overlay
+---
+
 # Selezionare 'n' punti più vicini ad un punto selezionato
 
 Supponiamo di avere un layer di punti e di voler selezionare i primi 10 punti più vicini ad un punto selezionato arbitrariamente. Questo esempio prende spunto da questa domanda posta su [StackExchange](https://gis.stackexchange.com/questions/410940/how-to-select-the-number-nearest-points-in-qgis).

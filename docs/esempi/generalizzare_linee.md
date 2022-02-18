@@ -1,3 +1,10 @@
+---
+tags:
+  - linee
+  - vestizione
+  - condizioni
+---
+
 # Vestizione generalizzata delle linee di contorno
 
 Quando si creano linee di contorno a partire da un modello digitale del terreno spesso la geometria lineare risultante si presenta ricca di asperitá. 

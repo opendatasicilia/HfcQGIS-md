@@ -1,3 +1,11 @@
+---
+tags:
+  - selezionare
+  - poligoni
+  - etichette
+  - area
+---
+
 # Selezionare i primi 10 poligoni più grandi
 
 Supponiamo di dover selezionare i primi 10 poligoni (per esempio le prime 10 province più estese d'Italia) usando la `selezione per espressione` di QGIS:

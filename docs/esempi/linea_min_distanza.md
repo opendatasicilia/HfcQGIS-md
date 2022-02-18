@@ -1,3 +1,10 @@
+---
+tags:
+  - vicinanza
+  - linee
+  - aggregare
+---
+
 # Tracciare segmento di minima distanza usando il generatore di geometria
 
 Dati due layer puntuali (ma potrebbero essere di qualsiasi tipologia), tracciare il segmento di minima distanza tra gli oggetti dei due layer usando il generatore di geometrie

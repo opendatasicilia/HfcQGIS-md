@@ -1,3 +1,11 @@
+---
+tags:
+  - grafico
+  - linee
+  - relazioni
+  - array
+---
+
 # Tracciare un grafico usando solo il generatore di geometrie, uno per ogni feature
 
 Supponiamo di avere uno shapefile poligonale, le province siciliane, e i relativi dati sul COVID-19 in un file CSV. Tracciare, a partire dal centroide di ogni feature (ogni provincia), una curva che rappresenti l'andamento, nel tempo, del parametro medico presente nel file CSV (in questo caso specifico è `totale_casi`).

@@ -1,3 +1,11 @@
+---
+tags:
+  - campi
+  - attributi
+  - maps
+  - array
+---
+
 # Nome del campo con massimo valore
 
 Le funzioni di aggregazione di QGIS agiscono su un campo, ma se volessimo determinare il _nome del campo_ che contenesse il valore massimo per ogni record, come faremmo?

@@ -1,3 +1,10 @@
+---
+tags:
+  - vicinanza
+  - condizioni
+  - array
+---
+
 # Geometria più vicina e filtro condizionato
 
 Tre layer: 

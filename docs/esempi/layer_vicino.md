@@ -1,3 +1,10 @@
+---
+tags:
+  - vicinanza
+  - linee
+  - array
+---
+
 # Layer più vicino
 
 Dati enne layer vettoriali (es:punto, linea e poligono) e un vettore punto di confronto. Come stabilire a quale layer è più vicino un punto tracciato a caso?

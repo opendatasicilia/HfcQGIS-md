@@ -1,3 +1,11 @@
+---
+tags:
+  - campi
+  - attributi
+  - maps
+  - array
+---
+
 # Media e deviazione standard tra campi
 
 Le funzioni di aggregazione di QGIS agiscono su un campo, ma se volessimo determinare la _media_ e la _stdev_ dei valori di ogni record, come faremmo?

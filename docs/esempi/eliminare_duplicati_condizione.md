@@ -1,7 +1,7 @@
 ---
 tags:
   - duplicati
-  - condizione
+  - condizioni
   - tabella
   - attributi
 ---

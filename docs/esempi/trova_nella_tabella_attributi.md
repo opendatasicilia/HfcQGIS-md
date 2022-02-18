@@ -1,3 +1,11 @@
+---
+tags:
+  - tabella
+  - attributi
+  - maps
+  - array
+---
+
 # Trova nella tabella attributi
 
 La ricerca di un valore (numero o stringa) avviene sempre all'interno di un campo, ma se volessimo fare una ricerca su tutta la tabella attributi? ecco un trucco:

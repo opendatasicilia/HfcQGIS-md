@@ -1,3 +1,8 @@
+---
+tags:
+  - vestizione
+---
+
 # Effetto riempimento recipiente d'acqua
 
 In questo breve tutorial vedremo come realizzare una tematizzazione, tramite espressioni geometriche, che simuli il riempimento di un recipente di acqua, e lo applicheremo ai nostri poligoni.

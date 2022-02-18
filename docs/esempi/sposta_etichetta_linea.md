@@ -1,3 +1,11 @@
+---
+tags:
+  - etichette
+  - linee
+  - x
+  - y
+---
+
 # Spostare etichetta e generare segmento
 
 Supponiamo di dover etichettare delle particelle, le label risultano troppo vicine o sovrapposte e vogliamo spostarle facendo generare un segmanto che indichi lo spostamento (vedi screenshot sotto), vediamo come fare:

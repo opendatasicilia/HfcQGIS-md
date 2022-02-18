@@ -1,3 +1,11 @@
+---
+tags:
+  - etichette
+  - poligoni
+  - x
+  - y
+---
+
 # Etichettare più poligoni con unica label
 
 Etichettare con l'attributo `"COD_REG"` lo strato province italiane ISTAT (QGIS >=3.0)

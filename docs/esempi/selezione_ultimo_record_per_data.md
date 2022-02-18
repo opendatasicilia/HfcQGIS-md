@@ -1,3 +1,11 @@
+---
+tags:
+  - selezionare
+  - record
+  - aggregare
+  - array
+---
+
 # Selezionare ultimo record per data
 
 L'esempio è preso da qui:

@@ -1,3 +1,11 @@
+---
+tags:
+  - relazioni
+  - poligoni
+  - area
+  - array
+---
+
 # Numerazione dei poligoni in base alla relazione spaziale
 
 Etichettare le regioni italiane ISTAT in funzione della superficie, per esempio: la regione più estesa deve avere come etichetta 1 e poi via via aumentare al decrescere dell' area.

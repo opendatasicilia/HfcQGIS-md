@@ -1,7 +1,6 @@
 ---
 tags:
   - atlante
-  - replace
   - tabella
   - valori
 ---

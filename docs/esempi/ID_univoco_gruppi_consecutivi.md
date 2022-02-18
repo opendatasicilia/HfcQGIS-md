@@ -1,3 +1,11 @@
+---
+tags:
+  - aggregare
+  - univoco
+  - array
+  - ID
+---
+
 # ID univoco per gruppi consecutivi
 
 L'esempio è preso da qui:

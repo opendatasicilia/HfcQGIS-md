@@ -1,4 +1,11 @@
-## Calcolo incidenza cumulativa settimanale
+---
+tags:
+  - etichette
+  - incidenza
+  - array
+---
+
+# Calcolo incidenza cumulativa settimanale
 
 Questo calcolo è interessante in quanto permette di calcolare l’_incidenza cumulativa settimanale_, ovvero, fissata una data, calcolare la somma di un attributo relativo ai 6 giorni precedenti (finestra temporale).
 

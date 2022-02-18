@@ -1,3 +1,9 @@
+---
+tags:
+  - linee
+  - array
+---
+
 # Lunghezze dei lati di un poligono
 
 Dato un layer poligonale, come ottenere una lista di valori delle lunghezze dei lati del poligono.

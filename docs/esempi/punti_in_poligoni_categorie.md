@@ -1,3 +1,11 @@
+---
+tags:
+  - conta
+  - punti
+  - poligono
+  - condizion
+---
+
 # Contare  i punti nel poligono per categorie
 
 Contare **solo alcuni** degli elementi di un vettore puntuale che ricadono all'interno delle geometrie di un vettore poligonale, e ‘appendere’ i valori nella tabella attributi del layer poligonale.

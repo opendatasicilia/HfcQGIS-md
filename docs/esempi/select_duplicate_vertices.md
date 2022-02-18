@@ -1,3 +1,11 @@
+---
+tags:
+  - selezione
+  - vertici
+  - conta
+  - array
+---
+
 # Selezionare vertici duplicati
 
 Ogni volta che estraiamo i vertici in una geometria (lineare o poligonale) otteniamo quasi sempre dei vertici duplicati, in questo esempio vedremo come selezionarli usando le espressioni.

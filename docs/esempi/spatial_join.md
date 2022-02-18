@@ -1,3 +1,9 @@
+---
+tags:
+  - spatial-join
+  - aggregate
+---
+
 # Spatial join 
 
 L’unione spaziale di attributi è un problema frequente in ambito GIS - si tratta di trasferire attributi da un layer ad un altro basandosi solo sulle loro reciproche relazioni spaziali. In QGIS questa feature può essere avviata attraverso lo strumento **Unisci attributi per posizione** 

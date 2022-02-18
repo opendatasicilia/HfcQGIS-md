@@ -1,3 +1,10 @@
+---
+tags:
+  - ricerca
+  - caratteri
+  - regex
+---
+
 # Ricerca caratteri speciali
 
 I caratteri speciali sono tutti quelli che non trovi sulla tastiera. Simboli, lettere accentate, icone che si dissociano dall’alfabeto tradizionale.

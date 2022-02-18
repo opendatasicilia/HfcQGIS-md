@@ -1,3 +1,9 @@
+---
+tags:
+  - linee
+  - vestizione
+---
+
 # Rotazione di pattern lineare
 
 Campire degli edifici con pattern lineari e rotazione dipendente dalle feature

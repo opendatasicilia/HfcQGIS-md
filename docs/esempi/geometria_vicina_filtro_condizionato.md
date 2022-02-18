@@ -1,3 +1,10 @@
+---
+tags:
+  - vicinanza
+  - condizioni
+  - array
+---
+
 # Geometria più vicina con filtro condizionato
 
 Due layer di punti: `layer1` con attributo `id1` e `layer2` con `id2`.<br>

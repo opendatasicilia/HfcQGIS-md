@@ -1,3 +1,10 @@
+---
+tags:
+  - poligono
+  - aggragate
+  - tranform
+---
+
 # Somma lunghezze nel poligono
 
 Sommare le feature di un layer lineare che ricadono dentro poligoni, e ‘appendere’ i valori nella tabella attributi del layer poligonale.

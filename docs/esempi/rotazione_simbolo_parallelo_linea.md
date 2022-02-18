@@ -1,3 +1,10 @@
+---
+tags:
+  - linee
+  - rotazione
+  - overlay
+---
+
 # Rotazione simbolo parallelamente alla linea più vicina
 
 L'espressione di sotto calcola l'angolo della linea più vicina e lo utilizza per far ruotare parallelamente un simbolo.
