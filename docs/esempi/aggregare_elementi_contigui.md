@@ -23,7 +23,7 @@ espressione da usare:
 aggregate(
 	layer:= 'regioni_g',
 	aggregate:='count',
-	expression:=to_string("COD_REG")
+	expression:=to_string("COD_REG"),
 	filter:=touches($geometry, geometry(@parent))
  )
 ```
