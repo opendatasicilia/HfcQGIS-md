@@ -92,6 +92,10 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 71|[Array Natural sorting](array_natural_sorting.md)|Ordinare numericamente una lista alfanumerica|Salvatore Fiandaca | 4 | with_variable, [array_sort](../gr_funzioni/array/array_unico.md#array_sort), [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach), [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string), [string_to_array](../gr_funzioni/array/array_unico.md#string_to_array), generate_series,regexp_substr, regexp_replace, lpad 
 72|[Conta punti nel poligono e per data](conta_punti_nel_poligono_per_data.md)|Conta punti nel poligono e per data|Salvatore Fiandaca | 4 | parent, with_variable, [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate), [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string), [array_count](../gr_funzioni/array/array_unico.md#array_count), [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach), [array_distinct](../gr_funzioni/array/array_unico.md#array_distinct), [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry), [intersects](../gr_funzioni/geometria/geometria_unico.md#intersects)
 
+## Tags
+
+[Elenco](../tags.md) tag per la ricerca
+
 ## Partecipa
 
 Se hai un esempio svolto e vuoi condividerlo puoi farlo, vedi sezione [Lavora con Noi](https://hfcqgis.opendatasicilia.it/contributing/#suggerire-esempiesercizi):
