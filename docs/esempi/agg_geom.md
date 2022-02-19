@@ -1,7 +1,6 @@
 ---
 tags:
   - attributi
-  - geometry
   - aggiorna
 ---
 

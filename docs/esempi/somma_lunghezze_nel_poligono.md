@@ -1,8 +1,8 @@
 ---
 tags:
-  - poligono
-  - aggragate
-  - tranform
+  - poligoni
+  - aggregare
+  - transform
 ---
 
 # Somma lunghezze nel poligono

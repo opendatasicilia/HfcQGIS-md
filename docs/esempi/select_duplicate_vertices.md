@@ -1,6 +1,6 @@
 ---
 tags:
-  - selezione
+  - selezionare
   - vertici
   - conta
   - array

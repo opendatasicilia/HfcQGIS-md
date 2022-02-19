@@ -1,7 +1,7 @@
 ---
 tags:
   - spatial-join
-  - aggregate
+  - aggregare
 ---
 
 # Spatial join 

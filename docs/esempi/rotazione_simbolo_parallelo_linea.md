@@ -1,7 +1,6 @@
 ---
 tags:
   - linee
-  - rotazione
   - overlay
 ---
 

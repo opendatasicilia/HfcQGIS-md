@@ -2,7 +2,7 @@
 tags:
   - conta
   - punti
-  - poligono
+  - poligoni
   - condizioni
 ---
 

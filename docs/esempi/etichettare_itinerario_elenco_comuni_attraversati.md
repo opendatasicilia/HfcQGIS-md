@@ -1,7 +1,7 @@
 ---
 tags:
   - etichette
-  - itinerario
+  - itinerari
   - array
   - valori
 ---

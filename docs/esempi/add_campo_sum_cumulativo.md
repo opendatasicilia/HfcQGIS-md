@@ -1,7 +1,7 @@
 ---
 tags:
   - cumulativa
-  - somma
+  - attributi
 ---
 
 ## Aggiungere campo somma cumulativa

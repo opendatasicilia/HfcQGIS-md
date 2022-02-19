@@ -1,6 +1,5 @@
 ---
 tags:
-  - eliminare
   - testo
   - regex
   - valori
