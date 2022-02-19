@@ -1,6 +1,6 @@
 ---
 tags:
-  - GUI
+  - gui
   - interfaccia
 ---
 

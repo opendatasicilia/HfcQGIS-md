@@ -1,6 +1,6 @@
 ---
 tags:
-  - Novità
+  - novità
 ---
 
 # Novità rilevanti introdotte nella 3.20 Odense

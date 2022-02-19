@@ -3,7 +3,7 @@ tags:
   - aggregare
   - univoco
   - array
-  - ID
+  - id
 ---
 
 # ID univoco per gruppi consecutivi

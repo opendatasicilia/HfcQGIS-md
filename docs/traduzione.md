@@ -1,7 +1,7 @@
 ---
 tags:
   - traduzione
-  - GUI
+  - gui
   - interfaccia
   - versione
 ---

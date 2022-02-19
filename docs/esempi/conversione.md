@@ -1,10 +1,10 @@
 ---
 tags:
   - etichette
-  - EPSG
+  - epsg
   - sessadecimale
   - sessagesimale
-  - GMS
+  - gms
 ---
 
 # Etichettare punti EPSG 4326 sessadecimali in sessagesimali GMS
