@@ -3,6 +3,7 @@ tags:
   - atlante
   - tabella
   - valori
+  - chiave-valore
 ---
 
 # Atlas con righe tabella attributi in verticale

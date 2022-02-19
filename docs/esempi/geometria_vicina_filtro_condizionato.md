@@ -3,6 +3,7 @@ tags:
   - vicinanza
   - condizioni
   - array
+  - overlay
 ---
 
 # Geometria più vicina con filtro condizionato
