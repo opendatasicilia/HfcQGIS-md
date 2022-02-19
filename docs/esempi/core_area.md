@@ -1,6 +1,7 @@
 ---
 tags:
   - area
+  - poligoni
 ---
 
 # Calcolo della core area (area interna al poligono al netto di un'area di buffer interna )

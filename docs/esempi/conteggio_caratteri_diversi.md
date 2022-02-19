@@ -4,6 +4,7 @@ tags:
   - caratteri
   - tabella
   - array
+  - regex
 ---
 
 # Conteggio caratteri diversi

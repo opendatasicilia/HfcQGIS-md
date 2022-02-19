@@ -5,6 +5,7 @@ tags:
   - coordinate
   - x
   - y
+  - regex
 ---
 
 # Decimali come apice per le etichette delle coordinate

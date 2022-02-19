@@ -4,6 +4,7 @@ tags:
   - array
   - tabella
   - valori
+  - regex
 ---
 
 # Ordinare numericamente un array alfanumerico
