@@ -1,7 +1,7 @@
 ---
 tags:
   - operatori
-  - base
+  - propedeutico
 ---
 
 # Operatori interfaccia

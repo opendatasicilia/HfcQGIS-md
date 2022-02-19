@@ -4,6 +4,7 @@ tags:
   - formattare
   - x
   - y
+  - z
 ---
 
 # Etichettare usando attibuto _geometry_

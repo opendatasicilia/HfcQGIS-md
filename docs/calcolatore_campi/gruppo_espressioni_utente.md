@@ -1,6 +1,7 @@
 ---
 tags:
   - gruppo
+  - propedeutico
 ---
 
 # Espressioni utente

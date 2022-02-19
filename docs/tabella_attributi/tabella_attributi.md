@@ -1,3 +1,10 @@
+---
+tags:
+  - concetti
+  - propedeutico
+  - tabella
+---
+
 # Concetti fondamentali sulla tabella degli attributi di QGIS
 
 !!! Abstract "Intro"

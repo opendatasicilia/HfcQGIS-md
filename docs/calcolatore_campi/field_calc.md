@@ -1,6 +1,7 @@
 ---
 tags:
   - fieldCalc
+  - propedeutico
 ---
 
 # Calcolatore di campi

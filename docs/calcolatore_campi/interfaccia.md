@@ -2,6 +2,7 @@
 tags:
   - gui
   - interfaccia
+  - propedeutico
 ---
 
 # Interfaccia calcolatore di campi
