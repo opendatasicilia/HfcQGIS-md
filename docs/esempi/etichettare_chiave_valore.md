@@ -1,7 +1,6 @@
 ---
 tags:
   - etichette
-  - mappa
   - chiave-valore
   - valori
 ---

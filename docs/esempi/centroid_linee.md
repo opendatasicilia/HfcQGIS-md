@@ -2,7 +2,7 @@
 tags:
   - linee
   - centroidi
-  - WKT
+  - wkt
   - valori
 ---
 

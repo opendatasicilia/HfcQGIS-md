@@ -1,8 +1,6 @@
 ---
 tags:
   - gruppo
-  - funzioni
-  - espressioni
 ---
 
 # Espressioni utente

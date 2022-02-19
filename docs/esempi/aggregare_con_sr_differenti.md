@@ -2,7 +2,7 @@
 tags:
   - aggregare
   - transform
-  - SR
+  - sr
 ---
 
 ## Aggregare con SR differenti

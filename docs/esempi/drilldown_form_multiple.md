@@ -2,7 +2,6 @@
 tags:
   - moduli
   - filtro
-  - multi-selezione
   - form
   - relazioni
 ---
