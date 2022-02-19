@@ -1,6 +1,6 @@
 ---
 tags:
-  - conta
+  - contare
   - punti
   - poligoni
   - condizioni

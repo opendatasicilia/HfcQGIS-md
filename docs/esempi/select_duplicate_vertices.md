@@ -2,7 +2,7 @@
 tags:
   - selezionare
   - vertici
-  - conta
+  - contare
   - array
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - conta
+  - contare
   - array
   - tabella
   - aggregare

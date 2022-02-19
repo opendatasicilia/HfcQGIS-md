@@ -1,6 +1,6 @@
 ---
 tags:
-  - conta
+  - contare
   - caratteri
   - tabella
   - array
