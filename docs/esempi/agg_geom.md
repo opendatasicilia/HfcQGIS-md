@@ -1,7 +1,7 @@
 ---
 tags:
   - attributi
-  - aggiorna
+  - aggiornare
 ---
 
 # Aggiornare l'attributo _geometry_
