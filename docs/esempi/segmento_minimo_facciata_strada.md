@@ -4,6 +4,7 @@ tags:
   - shortest-line
   - array
   - overlay
+  - centroidi
 ---
 
 # Segmento minimo tra facciata e strada

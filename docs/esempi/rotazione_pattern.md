@@ -2,6 +2,7 @@
 tags:
   - linee
   - vestizione
+  - centroidi
 ---
 
 # Rotazione di pattern lineare

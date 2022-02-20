@@ -4,6 +4,7 @@ tags:
   - condizioni
   - array
   - overlay
+  - linee
 ---
 
 # Geometria più vicina con filtro condizionato

@@ -5,6 +5,7 @@ tags:
   - tabella
   - layer
   - overlay
+  - punti
 ---
 
 # Prelevare attributi da layer più vicini

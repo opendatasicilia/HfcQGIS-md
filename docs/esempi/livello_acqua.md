@@ -3,6 +3,7 @@ tags:
   - vestizione
   - x
   - y
+  - punti
 ---
 
 # Effetto riempimento recipiente d'acqua

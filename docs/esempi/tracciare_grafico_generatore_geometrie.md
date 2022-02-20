@@ -4,6 +4,8 @@ tags:
   - linee
   - relazioni
   - array
+  - centroidi
+  - punti
 ---
 
 # Tracciare un grafico usando solo il generatore di geometrie, uno per ogni feature

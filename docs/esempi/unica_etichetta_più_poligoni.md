@@ -4,6 +4,8 @@ tags:
   - poligoni
   - x
   - y
+  - centroidi
+  - punti
 ---
 
 # Etichettare più poligoni con unica label
