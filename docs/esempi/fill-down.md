@@ -2,6 +2,7 @@
 tags:
   - tabella
   - fill-down
+  - condizioni
 ---
 
 # fill-down con le espressioni di QGIS

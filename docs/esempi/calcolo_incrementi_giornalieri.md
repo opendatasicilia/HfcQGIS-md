@@ -4,29 +4,30 @@ tags:
   - attributi
   - tabella
   - valori
+  - condizioni
 ---
 
 # Calcolo incrementi giornalieri di un attributo
 
 Supponiamo di avere un campo (`tot_att_pos`) popolato con valori aggregati giornalieri, per esempio il numero totale di contagiati da **CoronaVirus**, ecco un tabella di esempio:
 
-data|tot_att_pos|delta
-----|-----------|----
-2020-03-09|7985|1598
-2020-03-08|6387|1326
-2020-03-07|5061|1145
-2020-03-06|3916|620
-2020-03-05|3296|590
-2020-03-04|2706|443
-2020-03-03|2263|428
-2020-03-02|1835|258
-2020-03-01|1577|528
-2020-02-29|1049|228
-2020-02-28|821|233
-2020-02-27|588|203
-2020-02-26|385|74
-2020-02-25|311|90
-2020-02-24|221|221
+data       | tot_att_pos | delta
+-----------|-------------|------
+2020-03-09 | 7985        | 1598
+2020-03-08 | 6387        | 1326
+2020-03-07 | 5061        | 1145
+2020-03-06 | 3916        | 620
+2020-03-05 | 3296        | 590
+2020-03-04 | 2706        | 443
+2020-03-03 | 2263        | 428
+2020-03-02 | 1835        | 258
+2020-03-01 | 1577        | 528
+2020-02-29 | 1049        | 228
+2020-02-28 | 821         | 233
+2020-02-27 | 588         | 203
+2020-02-26 | 385         | 74
+2020-02-25 | 311         | 90
+2020-02-24 | 221         | 221
 
 come calcolare la colonna `delta`, popolata con gli incrementi giornalieri?
 

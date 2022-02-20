@@ -5,6 +5,7 @@ tags:
   - tabella
   - valori
   - chiave-valore
+  - csv
 ---
 
 # Classificare specie

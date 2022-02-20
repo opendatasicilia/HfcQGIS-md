@@ -4,6 +4,7 @@ tags:
   - centroidi
   - wkt
   - valori
+  - csv
 ---
 
 # Ottenere i centroidi lungo le linee

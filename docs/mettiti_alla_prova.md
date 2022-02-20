@@ -3,6 +3,7 @@ tags:
   - prova
   - test
   - esercizi
+  - csv
 ---
 
 # Mettiti alla prova con le espressioni di QGIS

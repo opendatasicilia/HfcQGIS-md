@@ -4,6 +4,7 @@ tags:
   - itinerari
   - array
   - valori
+  - ordinare
 ---
 
 # Etichettare un itinerario con l’elenco ordinato dei Comuni attraversati

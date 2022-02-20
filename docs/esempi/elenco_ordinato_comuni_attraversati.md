@@ -4,6 +4,7 @@ tags:
   - array
   - tabella
   - itinerari
+  - ordinare
 ---
 
 # Elenco ordinato di Comuni attraversati da un itinerario

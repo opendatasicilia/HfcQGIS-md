@@ -4,6 +4,7 @@ tags:
   - poligoni
   - area
   - array
+  - spatial-join
 ---
 
 # Numerazione dei poligoni in base alla relazione spaziale

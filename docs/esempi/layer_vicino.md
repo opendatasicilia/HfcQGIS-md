@@ -1,9 +1,10 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - linee
   - array
   - overlay
+  - shortest-line
 ---
 
 # Layer più vicino

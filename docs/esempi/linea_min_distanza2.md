@@ -1,8 +1,9 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - linee
   - overlay
+  - shortest-line
 ---
 
 # Calcolo distanza minima tra due vettori

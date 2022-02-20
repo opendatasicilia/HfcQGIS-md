@@ -2,6 +2,8 @@
 tags:
   - campi
   - virtuale
+  - fieldCalc
+  - dinamico
 ---
 
 # Come aggiungere un campo virtuale

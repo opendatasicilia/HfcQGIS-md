@@ -4,6 +4,7 @@ tags:
   - attributi
   - tabella
   - valori
+  - chiave-valore
 ---
 
 # Estrarre un campo da un attributo HStore

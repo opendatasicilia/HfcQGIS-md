@@ -4,6 +4,7 @@ tags:
   - condizioni
   - tabella
   - attributi
+  - selezionare
 ---
 
 # Rimuovere elementi duplicati in base a una condizione su un'altra colonna di attributi

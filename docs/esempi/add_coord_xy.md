@@ -4,6 +4,7 @@ tags:
   - x
   - y
   - tabella
+  - coordinate
 ---
 
 # Come aggiungere le coordinate x e y alla tabella attributi

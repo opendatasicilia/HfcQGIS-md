@@ -4,6 +4,7 @@ tags:
   - z
   - quota
   - tabella
+  - coordinate
 ---
 
 # Come aggiungere la quota z alla tabella attributi

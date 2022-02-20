@@ -1,6 +1,6 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - attributi
   - tabella
   - layer

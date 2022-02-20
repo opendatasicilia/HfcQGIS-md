@@ -3,6 +3,7 @@ tags:
   - categoria
   - array
   - tabella
+  - prevalenza
 ---
 
 # Assegnare categoria prevalente

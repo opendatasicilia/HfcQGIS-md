@@ -4,6 +4,7 @@ tags:
   - array
   - tabella
   - valori
+  - confrontare
 ---
 
 # Confrontare due campi tabella attributi

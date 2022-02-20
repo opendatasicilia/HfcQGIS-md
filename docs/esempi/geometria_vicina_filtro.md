@@ -1,8 +1,9 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - condizioni
   - array
+  - relazioni
 ---
 
 # Geometria più vicina e filtro condizionato

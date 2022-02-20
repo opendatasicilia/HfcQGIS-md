@@ -1,6 +1,6 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - condizioni
   - array
   - overlay

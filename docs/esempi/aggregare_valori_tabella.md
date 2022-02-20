@@ -4,6 +4,7 @@ tags:
   - array
   - tabella
   - valori
+  - csv
 ---
 
 # Aggregare valori di una tabella

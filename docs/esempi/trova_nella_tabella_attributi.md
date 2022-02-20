@@ -4,6 +4,7 @@ tags:
   - attributi
   - chiave-valore
   - array
+  - selezionare
 ---
 
 # Trova nella tabella attributi

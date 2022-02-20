@@ -6,6 +6,7 @@ tags:
   - array
   - centroidi
   - punti
+  - csv
 ---
 
 # Tracciare un grafico usando solo il generatore di geometrie, uno per ogni feature

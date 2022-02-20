@@ -5,6 +5,7 @@ tags:
   - x
   - y
   - z
+  - punti
 ---
 
 # Etichettare usando attibuto _geometry_

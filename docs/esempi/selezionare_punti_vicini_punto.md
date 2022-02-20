@@ -1,7 +1,7 @@
 ---
 tags:
   - selezionare
-  - vicinanza
+  - prossimità
   - punti
   - overlay
 ---

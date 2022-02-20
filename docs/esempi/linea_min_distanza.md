@@ -1,8 +1,9 @@
 ---
 tags:
-  - vicinanza
+  - prossimità
   - linee
   - aggregare
+  - shortest-line
 ---
 
 # Tracciare segmento di minima distanza usando il generatore di geometria

@@ -3,6 +3,7 @@ tags:
   - linee
   - vestizione
   - centroidi
+  - shortest-line
 ---
 
 # Rotazione di pattern lineare

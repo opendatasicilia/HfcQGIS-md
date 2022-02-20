@@ -4,6 +4,7 @@ tags:
   - punti
   - poligoni
   - condizioni
+  - classificare
 ---
 
 # Contare  i punti nel poligono per categorie

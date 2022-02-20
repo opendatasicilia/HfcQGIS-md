@@ -2,6 +2,7 @@
 tags:
   - linee
   - overlay
+  - prossimità
 ---
 
 # Rotazione simbolo parallelamente alla linea più vicina

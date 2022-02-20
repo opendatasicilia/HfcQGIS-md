@@ -3,6 +3,7 @@ tags:
   - etichette
   - incidenza
   - array
+  - csv
 ---
 
 # Calcolo incidenza cumulativa settimanale

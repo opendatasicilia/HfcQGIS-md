@@ -2,6 +2,8 @@
 tags:
   - cumulativa
   - attributi
+  - condizioni
+  - array
 ---
 
 ## Aggiungere campo somma cumulativa
@@ -94,5 +96,3 @@ Nello screenshot di sotto, i campi:
 ### Note finali
 
 Il tutto è nato da [qui](http://osgeo-org.1560.x6.nabble.com/Somma-progressiva-valori-di-lunghezza-td5418279.html)
-
-## Prova tu
