@@ -5,6 +5,7 @@ tags:
   - tabella
   - valori
   - regex
+  - natural-sorting
 ---
 
 # Ordinare numericamente un array alfanumerico
