@@ -278,7 +278,7 @@ nav:
         - Contribuire: contributing.md
         - Da documentare: gr_funzioni/da_documentare.md
 
-    - Sitografia: sitografia_field_calc.md
+    #- Sitografia: sitografia_field_calc.md
 
     - About:
         - OpenDataSicilia: ods.md
@@ -289,6 +289,7 @@ nav:
         - Changelog: changelog.md
         - Pull Request: pull-request.md
         - gis-stackexchange: gis-stackexchange.md
+        - Sitografia: sitografia_field_calc.md
         - Risorse: risorse.md
         - Disclaimer: disclaimer.md
         - Licenza: LICENSE_my.md
