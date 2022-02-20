@@ -250,7 +250,7 @@ Esempi:
 get_feature('streets',map('name','main st','lane_num','4')) → primo elemento trovato in 'streets' con il valore 'main st' nel campo 'name' e il valore '4' nel campo 'lane_num'
 ```
 
-[![](../../img/record_e_attributi/get_feature_02.png)](../../img/record_e_attributi/get_feature_02.png)
+[![](../../img/record_e_attributi/get_feature2.png)](../../img/record_e_attributi/get_feature2.png)
 
 ---
 
