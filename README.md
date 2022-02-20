@@ -8,7 +8,7 @@
 "  width="800" class="immagonobox" title="“Sito realizzato dalla comunità OpenDataSicilia"></a>
 </p>
 
-### Il presente repository è consultabile - con maggior facilità - [qui](http://bit.ly/hfcqgis): sito realizzato, in Read the Docs, dalla comunità [OpenDataSicilia](http://opendatasicilia.it/) di cui faccio parte e ringrazio.
+### Il presente repository è consultabile - con maggior facilità - [qui](http://bit.ly/hfcqgis): sito realizzato, in Material for MkDocs, dalla comunità [OpenDataSicilia](http://opendatasicilia.it/) di cui faccio parte e ringrazio.
 
 ## Licenze
 
