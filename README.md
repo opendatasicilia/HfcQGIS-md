@@ -34,7 +34,7 @@ La versione in formato [Read the Docs](https://readthedocs.org/) del lavoro di S
 
 ---
 
-[![](/docs/img/site_beta_v3.png)](https://hfcqgis-md.readthedocs.io/)
+[![](/docs/img/site_beta_v3.png)](https://hfcqgis.opendatasicilia.it/)
 
 ## [gh-pages](https://opendatasicilia.github.io/HfcQGIS-md/): [opendatasicilia.github.io/HfcQGIS-md](https://opendatasicilia.github.io/HfcQGIS-md/)
 
