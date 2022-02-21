@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gbvitrano",
+      "name": "Giovan Battista Vitrano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20488693?v=4",
+      "profile": "https://coseerobe.gbvitrano.it/",
+      "contributions": [
+        "code",
+        "design",
+        "business",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "HfcQGIS-md",
+  "projectOwner": "opendatasicilia",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
