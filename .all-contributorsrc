@@ -51,6 +51,17 @@
         "content",
         "example"
       ]
+    },
+    {
+      "login": "korto19",
+      "name": "Korto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36882050?v=4",
+      "profile": "https://github.com/Korto19",
+      "contributions": [
+        "content",
+        "example",
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
