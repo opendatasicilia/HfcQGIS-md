@@ -41,6 +41,16 @@
         "bug",
         "translation"
       ]
+    },
+    {
+      "login": "ludovico85",
+      "name": "Ludovico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24815399?v=4",
+      "profile": "http://www.forgis.it",
+      "contributions": [
+        "content",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
