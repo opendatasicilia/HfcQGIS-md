@@ -1,6 +1,6 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/pigreco/HfcQGIS.svg?style=flat-square)](https://github.com/pigreco/HfcQGIS)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Donate to QGIS](https://img.shields.io/badge/donate%20to-QGIS-green.svg?style=flat-square)](http://qgis.org/en/site/getinvolved/donations.html)
 
@@ -51,6 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://medium.com/@aborruso"><img src="https://avatars.githubusercontent.com/u/30607?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Borruso</b></sub></a><br /><a href="https://github.com/opendatasicilia/HfcQGIS-md/commits?author=aborruso" title="Code">💻</a> <a href="#design-aborruso" title="Design">🎨</a> <a href="#mentoring-aborruso" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-aborruso" title="Project Management">📆</a> <a href="#ideas-aborruso" title="Ideas, Planning, & Feedback">🤔</a> <a href="#platform-aborruso" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/opendatasicilia/HfcQGIS-md/issues?q=author%3Aaborruso" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/skampus"><img src="https://avatars.githubusercontent.com/u/4558522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefano Campus</b></sub></a><br /><a href="https://github.com/opendatasicilia/HfcQGIS-md/issues?q=author%3Askampus" title="Bug reports">🐛</a> <a href="#translation-skampus" title="Translation">🌍</a></td>
     <td align="center"><a href="http://www.forgis.it"><img src="https://avatars.githubusercontent.com/u/24815399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ludovico</b></sub></a><br /><a href="#content-ludovico85" title="Content">🖋</a> <a href="#example-ludovico85" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Korto19"><img src="https://avatars.githubusercontent.com/u/36882050?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Korto</b></sub></a><br /><a href="#content-korto19" title="Content">🖋</a> <a href="#example-korto19" title="Examples">💡</a> <a href="#tool-korto19" title="Tools">🔧</a></td>
   </tr>
 </table>
 
