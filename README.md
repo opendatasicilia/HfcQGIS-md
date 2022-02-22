@@ -1,6 +1,6 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/pigreco/HfcQGIS.svg?style=flat-square)](https://github.com/pigreco/HfcQGIS)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Donate to QGIS](https://img.shields.io/badge/donate%20to-QGIS-green.svg?style=flat-square)](http://qgis.org/en/site/getinvolved/donations.html)
 
@@ -48,6 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://coseerobe.gbvitrano.it/"><img src="https://avatars.githubusercontent.com/u/20488693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giovan Battista Vitrano</b></sub></a><br /><a href="https://github.com/opendatasicilia/HfcQGIS-md/commits?author=gbvitrano" title="Code">💻</a> <a href="#design-gbvitrano" title="Design">🎨</a> <a href="#business-gbvitrano" title="Business development">💼</a> <a href="#projectManagement-gbvitrano" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://medium.com/@aborruso"><img src="https://avatars.githubusercontent.com/u/30607?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Borruso</b></sub></a><br /><a href="https://github.com/opendatasicilia/HfcQGIS-md/commits?author=aborruso" title="Code">💻</a> <a href="#design-aborruso" title="Design">🎨</a> <a href="#mentoring-aborruso" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-aborruso" title="Project Management">📆</a> <a href="#ideas-aborruso" title="Ideas, Planning, & Feedback">🤔</a> <a href="#platform-aborruso" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/opendatasicilia/HfcQGIS-md/issues?q=author%3Aaborruso" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

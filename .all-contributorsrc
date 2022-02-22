@@ -16,6 +16,21 @@
         "business",
         "projectManagement"
       ]
+    },
+    {
+      "login": "aborruso",
+      "name": "Andrea Borruso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30607?v=4",
+      "profile": "https://medium.com/@aborruso",
+      "contributions": [
+        "code",
+        "design",
+        "mentoring",
+        "projectManagement",
+        "ideas",
+        "platform",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
