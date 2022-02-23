@@ -1,0 +1,91 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gbvitrano",
+      "name": "Giovan Battista Vitrano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20488693?v=4",
+      "profile": "https://coseerobe.gbvitrano.it/",
+      "contributions": [
+        "code",
+        "design",
+        "business",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "aborruso",
+      "name": "Andrea Borruso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30607?v=4",
+      "profile": "https://medium.com/@aborruso",
+      "contributions": [
+        "code",
+        "design",
+        "mentoring",
+        "projectManagement",
+        "ideas",
+        "platform",
+        "bug"
+      ]
+    },
+    {
+      "login": "skampus",
+      "name": "Stefano Campus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4558522?v=4",
+      "profile": "https://github.com/skampus",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "ludovico85",
+      "name": "Ludovico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24815399?v=4",
+      "profile": "http://www.forgis.it",
+      "contributions": [
+        "content",
+        "example"
+      ]
+    },
+    {
+      "login": "korto19",
+      "name": "Korto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36882050?v=4",
+      "profile": "https://github.com/Korto19",
+      "contributions": [
+        "content",
+        "example",
+        "tool"
+      ]
+    },
+    {
+      "login": "ValPinnaSardinia",
+      "name": "ValPinna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60293692?v=4",
+      "profile": "https://github.com/ValPinnaSardinia",
+      "contributions": [
+        "content",
+        "example"
+      ]
+    },
+    {
+      "login": "ghtmtt",
+      "name": "Matteo Ghetta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2884884?v=4",
+      "profile": "https://www.faunalia.eu",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "HfcQGIS-md",
+  "projectOwner": "opendatasicilia",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
