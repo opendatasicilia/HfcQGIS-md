@@ -134,7 +134,7 @@ to_base64('QGIS') → 'UUdJUw=='
 
 [![](../../img/conversioni/to_base64.png)](../../img/conversioni/to_base64.png)
 
-In un GeoPackage creare un campo BLOB e popolarlo con delle immagini, per visualizzarle, per esempio come `Simbolo Immagine Raster`, utilizzare l'espressione:
+In un layer di un **GeoPackage** aggiungere un campo **BLOB** e popolarlo con delle immagini; per visualizzarle, per esempio come `Simbolo Immagine Raster`, utilizzare l'espressione:
 
 ```
 'base64:' || to_base64("fieldBLOB")
