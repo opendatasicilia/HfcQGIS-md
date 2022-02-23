@@ -120,7 +120,7 @@ Decodifica una stringa Base64 in un valore binario.
 
 Sintassi:
 
-- to_base64* md5(_<span style="color:red;">value</span>_)
+- to_base64(_<span style="color:red;">value</span>_)
 
 Argomenti:
 
@@ -134,6 +134,13 @@ to_base64('QGIS') → 'UUdJUw=='
 
 [![](../../img/conversioni/to_base64.png)](../../img/conversioni/to_base64.png)
 
+In un GeoPackage creare un campo BLOB e popolarlo con delle immagini, per visualizzarle, per esempio come `Simbolo Immagine Raster`, utilizzare l'espressione:
+
+```
+'base64:' || to_base64("fieldBLOB")
+```
+
+[![](../../img/conversioni/to_base64_2.png)](../../img/conversioni/to_base64_2.png)
 
 ---
 
