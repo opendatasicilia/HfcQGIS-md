@@ -72,6 +72,16 @@
         "content",
         "example"
       ]
+    },
+    {
+      "login": "ghtmtt",
+      "name": "Matteo Ghetta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2884884?v=4",
+      "profile": "https://www.faunalia.eu",
+      "contributions": [
+        "content",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
