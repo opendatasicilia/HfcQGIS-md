@@ -21,6 +21,7 @@ nro| contributo| luogo| messaggio | Versione
 6 | Luca Bellami | Messico|un contributo davvero piccolo per l'enorme lavoro che fai per la comunitá! un abbraccio Luca | HfcQGIS Old
 7 | Roberto Montagnetti | Inghilterra | Un piccolo modesto supporto alle attività di Pigrecoinfinito | HfcQGIS Old
 8 | Giovanni Gullo | Italia | "Complimenti Totò. Un saluto, Giovanni Gullo" | HfcQGIS Old
+9 | Federico Gianoli | Italia | Per il tuo progetto HFC, fonte di ispirazione (e un po' di invidia). Grazie | HfcQGIS v2
 
 ## Contributi in conoscenza
 
