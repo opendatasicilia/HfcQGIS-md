@@ -963,3 +963,56 @@ def sort_my_list(field, feature, parent):
 ```
 
 Lo script è stato riscritto da [Kadir Şahbaz](https://gis.stackexchange.com/a/421168/73605)
+
+---
+
+## Dimensioni immagini
+
+Estrae le dimensioni delle immagini in pixel nei casi di immagine con link assoluto o memorizzate come BLOB:
+
+```py
+from qgis.core import *
+from qgis.gui import *
+from PyQt5.QtGui import QImage, QImageReader
+
+@qgsfunction(args='auto', group='Custom', referenced_columns=[])
+def get_blob_sizes(img_blob, feature, parent):
+    """
+    Calculate blob image dimension (W x H)
+    <h2>Example usage:</h2>
+    <ul>
+      <li>get_blob_sizes("img_blob") -> '1024 x 512 px'</li>
+    </ul>
+    """
+    
+    image = QImage().fromData(img_blob)
+    sizeOfImage = image.size()
+    img_height = sizeOfImage.height()
+    img_width = sizeOfImage.width()
+    dim_blob = str(img_width)+ ' x ' + str(img_height) + ' px '
+    
+    return dim_blob
+       
+@qgsfunction(args='auto', group='Custom', referenced_columns=[])
+def get_image_sizes(img_shape, feature, parent):
+    """
+    Calculate blob image size
+    <h2>Example usage:</h2>
+    <ul>
+      <li>get_image_sizes(img_shape) -> '1024 x 512 px'</li>
+    </ul>
+    NEED ABSOLUTE IMAGE LINK
+    """
+    
+    reader = QImageReader(img_shape)
+    sizeOfImage = reader.size()
+    img_height = sizeOfImage.height()
+    img_width = sizeOfImage.width()
+    dim_image = str(img_width)+ ' x ' + str(img_height) + ' px '
+    
+    return dim_image
+```
+
+Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+[![](../../img/custom/dimensioni_image.png)](../../img/custom/dimensioni_image.png)
