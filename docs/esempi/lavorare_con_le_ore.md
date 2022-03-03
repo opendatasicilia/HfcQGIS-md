@@ -2,7 +2,7 @@
 tags:
   - data
   - ora
-  - tabella
+  - regex
 ---
 
 # Lavorare con il formato ora
