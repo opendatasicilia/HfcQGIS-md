@@ -56,3 +56,4 @@ data       | descrizione
 10/02/2022 | Aggiunti i [tag](./gr_funzioni/gruppo_funzioni.md#espressione-e-tag) delle espressioni, nuova caratteristica introdotta nella 3.24
 13/02/2022 | Aggiunta sezione [gis-stackexchange](gis-stackexchange.md)
 17/02/2022 | Attivati i tag!!!
+03/03/2022 | aggiunto [73esimo](esempi/lavorare_con_le_ore.md) esempio
