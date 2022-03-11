@@ -25,6 +25,7 @@ data       | link                                           | espressioni
 28/01/2022 | <https://gis.stackexchange.com/a/422357/73605> | array_to_string, with_variable, aggregate, intersects, array_foreach, array_distinct, @parent
 23/01/2022 | <https://gis.stackexchange.com/a/421841/73605> | CASE
 18/02/2022 | <https://gis.stackexchange.com/a/421398/73605> | funzione personalizzata
+11/03/2022 | <https://gis.stackexchange.com/a/425887/73605> | Calculate length of common boundary
 ...
 
 

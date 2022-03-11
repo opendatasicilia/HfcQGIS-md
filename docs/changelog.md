@@ -57,3 +57,4 @@ data       | descrizione
 13/02/2022 | Aggiunta sezione [gis-stackexchange](gis-stackexchange.md)
 17/02/2022 | Attivati i tag!!!
 03/03/2022 | aggiunto [73esimo](esempi/lavorare_con_le_ore.md) esempio
+11/03/2022 | aggiunti link a due seminari

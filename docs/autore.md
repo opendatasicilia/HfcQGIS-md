@@ -91,6 +91,8 @@ Padova luglio 2019
 
 ## Workshop e Seminari
 
+- [VISIDATA - OpenDataSicilia - Come semplificare la vita di un/a progfessionista GIS](https://github.com/pigreco/visidata-gis)
+- [Gter - QGIS, l'installazione](https://github.com/pigreco/geobreack_41_by_Gter)
 - [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (secondo incontro)](https://github.com/pigreco/geobreack_32_by_Gter)
 - [FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/Workshop_FOSS4G-IT-2021) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
 - [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (primo incontro)](https://github.com/pigreco/geobreack_28_by_Gter)
