@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **73** esempi svolti! (in evoluzione)
+Attualmente ci sono **74** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -92,6 +92,8 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 71|[Array Natural sorting](array_natural_sorting.md)|Ordinare numericamente una lista alfanumerica|Salvatore Fiandaca | 4 | with_variable, [array_sort](../gr_funzioni/array/array_unico.md#array_sort), [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach), [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string), [string_to_array](../gr_funzioni/array/array_unico.md#string_to_array), generate_series,regexp_substr, regexp_replace, lpad 
 72|[Conta punti nel poligono e per data](conta_punti_nel_poligono_per_data.md)|Conta punti nel poligono e per data|Salvatore Fiandaca | 4 | parent, with_variable, [aggregate](../gr_funzioni/aggrega/aggrega_unico.md#aggregate), [array_to_string](../gr_funzioni/array/array_unico.md#array_to_string), [array_count](../gr_funzioni/array/array_unico.md#array_count), [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach), [array_distinct](../gr_funzioni/array/array_unico.md#array_distinct), [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry), [intersects](../gr_funzioni/geometria/geometria_unico.md#intersects)
 73|[Lavorare con le ore](lavorare_con_le_ore.md)|Convertire nel corretto formato Ora|Salvatore Fiandaca | 2 | [to_time](../gr_funzioni/data_ora/data_ora_unico.md/#to_time) [regexp_replace](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md/#regexp_replace)
+74|[Spostare i punti dentro i poligoni in base agli attributi](sposta_punti_dentro_poligoni_per_attributo.md)|Spostare i punti dentro i poligoni in base agli attributi|Salvatore Fiandaca | 4 | [with_variable](../gr_funzioni/variabili/with_variable.md), [get_feature](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#get_feature), 
+[closest_point](../gr_funzioni/geometria/geometria_unico.md#closest_point), [bounds_height](../gr_funzioni/geometria/geometria_unico.md#bounds_height), [centroid](../gr_funzioni/geometria/geometria_unico.md#centroid), [attribute](../gr_funzioni/record_e_attributi/record_e_attributi_unico,md/#attribute), [$currentfeature](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#currentfeature)
  
 
 ## Tags

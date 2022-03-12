@@ -58,3 +58,4 @@ data       | descrizione
 17/02/2022 | Attivati i tag!!!
 03/03/2022 | aggiunto [73esimo](esempi/lavorare_con_le_ore.md) esempio
 11/03/2022 | aggiunti link a due seminari e aggiornato Parlano di noi
+12/03/2022 | aggiunto [74esimo](esempi/sposta_punti_dentro_poligoni_per_attributo.md) esempio
