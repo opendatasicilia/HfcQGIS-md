@@ -83,6 +83,8 @@ Padova luglio 2019
 
 ## FOSS4G-IT 2021
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
+
 [On-line 20/09/2021](https://foss4g-it2021.gfoss.it/programma.html)
 
 ![](https://raw.githubusercontent.com/pigreco/Workshop_FOSS4G-IT-2021/main/imgs/scree_03.png)
@@ -91,14 +93,17 @@ Padova luglio 2019
 
 ## Workshop e Seminari
 
-- [VISIDATA - OpenDataSicilia - Come semplificare la vita di un/a progfessionista GIS](https://github.com/pigreco/visidata-gis)
-- [Gter - QGIS, l'installazione](https://github.com/pigreco/geobreack_41_by_Gter)
-- [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (secondo incontro)](https://github.com/pigreco/geobreack_32_by_Gter)
-- [FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle](https://github.com/pigreco/Workshop_FOSS4G-IT-2021) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
-- [Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (primo incontro)](https://github.com/pigreco/geobreack_28_by_Gter)
-- [GIScience - Dagli Open Data all'Open Source: lavorare in QGIS con le mappe catastali](https://github.com/pigreco/workshop-estate-gis-2021)
-- [GIScience - COVID: Analisi geografica con strumenti GIS Open Source](https://github.com/pigreco/workshop-estate-gis-2020)
-- [OpenDataSicilia - ODS16 Messina](https://github.com/pigreco/ODS16_QGIS)
+Anno | descrizione | link
+-----|-------------|-----
+2016 | OpenDataSicilia - ODS16 Messina | <https://github.com/pigreco/ODS16_QGIS>
+2020 | GIScience - COVID: Analisi geografica con strumenti GIS Open Source | <https://github.com/pigreco/workshop-estate-gis-2020>
+2021 | GIScience - Dagli Open Data all'Open Source: lavorare in QGIS con le mappe catastali | <https://github.com/pigreco/geobreack_28_by_Gter>
+2021 | Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (primo incontro) | <https://github.com/pigreco/geobreack_28_by_Gter)>
+2021 | FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle | <https://github.com/pigreco/Workshop_FOSS4G-IT-2021> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
+2021 | Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (secondo incontro) | <https://github.com/pigreco/geobreack_32_by_Gter>
+2022 | Gter - QGIS, l'installazione | <https://github.com/pigreco/geobreack_41_by_Gter>
+2022 | VISIDATA - OpenDataSicilia - Come semplificare la vita di un/a progfessionista GIS | <https://github.com/pigreco/visidata-gis>
+
 
 ## Sponsoring
 
