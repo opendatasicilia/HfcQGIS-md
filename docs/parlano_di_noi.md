@@ -6,6 +6,11 @@ tags:
 
 # Parlano di noi
 
+* **11/03/20212* [OpenDataSicilia](https://youtu.be/k1AOK3rz8PQ) by [VisiData-GIS](https://github.com/pigreco/visidata-gis)
+
+![](./img/parlano_di_noi/visidata.png)
+
+
 * **12/10/2021** [Zenodo](https://zenodo.org/record/5565494) by [FOSS4G-IT 2021](https://foss4g-it2021.gfoss.it/programma.html)
 
 ![](./img/parlano_di_noi/zenodo_01.png)
