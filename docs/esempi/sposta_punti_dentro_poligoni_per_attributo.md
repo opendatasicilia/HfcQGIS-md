@@ -35,6 +35,34 @@ closest_point(buffer(centroid(
 
 [![](https://i.stack.imgur.com/dQnQ7.png)](https://i.stack.imgur.com/dQnQ7.png)
 
+l'espressione di sotto distribuisce casualmente i punti dentro ogni poligono, a partire dal centroide:
+
+```
+--> variabile
+with_variable('geomPolygon', 
+	geometry(
+	get_feature('polygon',
+			'Parcel_No',
+			 attribute( $currentfeature, 'Parcel_No' ))),
+--> variabile
+project(
+point:=
+	closest_point(
+	geometry1:=centroid(@geomPolygon), -- polygon
+	geometry2:=$geometry), -- point
+distance:=
+	distance(
+	closest_point(
+	boundary(@geomPolygon),centroid(@geomPolygon)),
+	centroid(@geomPolygon))*randf(0,1),
+azimuth:=
+	radians (rand(0,360))
+	)
+)
+```
+
+![](https://i.stack.imgur.com/lwruV.png)
+
 - Maggiori dettagli nel [blog](https://pigrecoinfinito.com/2022/03/12/qgis-le-espressioni-come-una-calamita/) post su Pigrecoinfinito
 - idea presa da [Stackexchange](https://gis.stackexchange.com/questions/425911/move-points-into-center-of-polygons-base-on-common-field-attributes-using-qgis)
 
