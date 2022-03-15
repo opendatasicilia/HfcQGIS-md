@@ -265,6 +265,7 @@ nav:
            - Conta punti nel poligono e per data: esempi/conta_punti_nel_poligono_per_data.md
            - Lavorare con le Ore: esempi/lavorare_con_le_ore.md
            - Spostare i punti dentro i poligoni in base agli attributi: esempi/sposta_punti_dentro_poligoni_per_attributo.md
+           - Seleziona primo record per ogni duplicato: esempi/selezionare_primo_record_per_ogni_duplicato.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 
