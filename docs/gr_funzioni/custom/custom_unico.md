@@ -1016,3 +1016,63 @@ def get_image_sizes(img_shape, feature, parent):
 Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
 [![](../../img/custom/dimensioni_image.png)](../../img/custom/dimensioni_image.png)
+
+---
+
+## Ordina i punti lungo una linea orientata
+
+Restituisce l'ordinamento di elementi puntuali rispetto ad una linea orientata
+
+```py
+#Al mio stimolante amico Toto
+#e ad Andrea Giudiceandrea sempre fonte di preziose informazioni
+
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom', usesgeometry=True)
+def order_point_along_line(r_layer, v_reverse, feature, parent, context):
+    """
+    Restituisce l'ordinamento di elementi puntuali rispetto ad una linea orientata
+    <p style="color:Red">Va eseguita su di un layer puntuale aggiungendo un campo numerico</p>
+    <p style="color:Red">Il parametro v_layer è il nome del vettore lineare</p>
+    <p style="color:Red">Il parametro v_reverse è un booleano 0/1 permette l'inversione della linea</p>
+    <p>
+    <h2>Example usage:</h2>
+    <ul>
+      <li>order_point_along_line('r_layer', v_reverse)</li>
+      <li>da come risultato il numero d'ordine progressivo del punto</li>
+    </ul>
+    <p>Tratto da:</p>
+    <p style="color:blue">https://pigrecoinfinito.com/2022/03/14/ordinare-i-punti-lungo-una-linea</p>
+    """
+    if v_reverse == 0:
+        expression = QgsExpression("with_variable ('nearest',\
+            overlay_nearest(\'" + r_layer + "\',$geometry)[0],\
+            array_find(\
+            array_sort(\
+            array_foreach(\
+            array_agg($geometry, group_by:=@nearest),\
+            line_locate_point(@nearest,@element))),\
+            line_locate_point(@nearest,$geometry))+1\
+            )"
+        )
+    else:
+        expression = QgsExpression("with_variable ('nearest',\
+            overlay_nearest(\'" + r_layer + "\',reverse($geometry))[0],\
+            array_find(\
+            array_sort(\
+            array_foreach(\
+            array_agg($geometry, group_by:=@nearest),\
+            line_locate_point(@nearest,@element))),\
+            line_locate_point(@nearest,$geometry))+1\
+            )"
+        )
+    
+    n_point = expression.evaluate(context)
+    return n_point
+```
+
+Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+[![](../../img/custom/order_point_along_line.png)](../../img/custom/order_point_along_line.png)

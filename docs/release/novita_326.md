@@ -9,16 +9,11 @@ xxxxxxxx
 ## Espressioni
 
 ### Gruppo Geometria
-funzione                                                                                  | link PR                                   | descrizione
-------------------------------------------------------------------------------------------|-------------------------------------------|---------------------
-
+funzione              | link PR                                   | descrizione
+----------------------|-------------------------------------------|------------
+BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operatore
 
 
 ## GUI Field Calc
-`copia valore espressione qnteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>
-
-
-## CORE
-
-
-
+- `copia valore espressione anteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>
+- `scorrimento tabella attributi in orizzontale` : <https://github.com/qgis/QGIS/pull/47764>
