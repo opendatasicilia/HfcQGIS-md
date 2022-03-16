@@ -896,7 +896,7 @@ Lo script è stato riscritto da [Giulio Fattori](https://github.com/Korto19), la
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- WMS Catasto Agenzia delle Entrate CC BY 4.0
+ Ordina array alfanumerico in modo numerico
                               -------------------
         copyright            : (C) 2021 by Giulio Fattori
         email                : giulio.fattori@tin.it
@@ -971,6 +971,16 @@ Lo script è stato riscritto da [Kadir Şahbaz](https://gis.stackexchange.com/a/
 Estrae le dimensioni delle immagini in pixel nei casi di immagine con link assoluto o memorizzate come BLOB:
 
 ```py
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ Dimensioni immagini
+                              -------------------
+        copyright            : (C) 2022 by Giulio Fattori
+        email                : giulio.fattori@tin.it
+ ***************************************************************************/
+"""
+
 from qgis.core import *
 from qgis.gui import *
 from PyQt5.QtGui import QImage, QImageReader
