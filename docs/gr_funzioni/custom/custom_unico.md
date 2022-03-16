@@ -1024,8 +1024,15 @@ Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 Restituisce l'ordinamento di elementi puntuali rispetto ad una linea orientata
 
 ```py
-#Al mio stimolante amico Toto
-#e ad Andrea Giudiceandrea sempre fonte di preziose informazioni
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ Ordina i punti lungo una linea orientata
+                              -------------------
+        copyright            : (C) 2022 by Giulio Fattori
+        email                : giulio.fattori@tin.it
+ ***************************************************************************/
+"""
 
 from qgis.core import *
 from qgis.gui import *
