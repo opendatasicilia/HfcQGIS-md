@@ -17,3 +17,5 @@ BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operat
 ## GUI Field Calc
 - `copia valore espressione anteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>
 - `scorrimento tabella attributi in orizzontale` : <https://github.com/qgis/QGIS/pull/47764>
+
+![](../img/novita_326/scroll_oriz.gif)

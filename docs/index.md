@@ -29,7 +29,7 @@ hide:
                 <h3 class="main_title">HFCQGIS: HELP FUNZIONI CALCOLATORE DI CAMPI DI QGIS</h3><br>
   <h5 class="sub_title">Questa guida nasce per rispondere alle numerose richieste di aiuto sull’uso del calcolatore di campi, a integrazione - con esempi e molti screenshot - della guida ufficiale di QGIS</h5> <br>
   <hr>
-  <h3 class="main_title">  <a href="https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/" title="70+ Esempi Svolti! | Programma" target="_parent">70+ Esempi Svolti!</a></h3>
+  <h3 class="main_title">  <a href="https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/" title="75+ Esempi Svolti! | Programma" target="_parent">70+ Esempi Svolti!</a></h3>
 
  <hr>
  
