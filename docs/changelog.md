@@ -60,4 +60,5 @@ data       | descrizione
 11/03/2022 | aggiunti link a due seminari e aggiornato Parlano di noi
 12/03/2022 | aggiunto [74esimo](esempi/sposta_punti_dentro_poligoni_per_attributo.md) esempio
 14/03/2022 | aggiunta funzione Custom [Ordina punti lungo una linea orientata](./gr_funzioni/custom/custom_unico.md#ordina-i-punti-lungo-una-linea-orientata)
-12/03/2022 | aggiunto [75esimo](esempi/selezionare_primo_record_per_ogni_duplicato.md) esempio
+15/03/2022 | aggiunto [75esimo](esempi/selezionare_primo_record_per_ogni_duplicato.md) esempio
+16/03/2022 | aggiunta sezione [Editor delle funzioni](calcolatore_campi/editor_delle_funzioni.md)
