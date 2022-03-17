@@ -215,7 +215,7 @@ codice Python:
  WMS Catasto Agenzia delle Entrate CC BY 4.0
                               -------------------
         copyright            : (C) 2020 by Giulio Fattori
-        email                : giulio.fattori@tin.it
+        email                : xxxxxxxxxxxxx
  ***************************************************************************/
 """
 
@@ -295,7 +295,7 @@ codice Python:
  WMS Catasto Agenzia delle Entrate CC BY 4.0
                               -------------------
         copyright            : (C) 2020 by Giulio Fattori
-        email                : giulio.fattori@tin.it
+        email                : xxxxxxxxxxxxx
  ***************************************************************************/
 """
 
@@ -899,7 +899,7 @@ Lo script è stato riscritto da [Giulio Fattori](https://github.com/Korto19), la
  Ordina array alfanumerico in modo numerico
                               -------------------
         copyright            : (C) 2021 by Giulio Fattori
-        email                : giulio.fattori@tin.it
+        email                : xxxxxxxxxxxxx
  ***************************************************************************/
 """
 
@@ -977,7 +977,7 @@ Estrae le dimensioni delle immagini in pixel nei casi di immagine con link assol
  Dimensioni immagini
                               -------------------
         copyright            : (C) 2022 by Giulio Fattori
-        email                : giulio.fattori@tin.it
+        email                : xxxxxxxxxxxxx
  ***************************************************************************/
 """
 
@@ -1040,7 +1040,7 @@ Restituisce l'ordinamento di elementi puntuali rispetto ad una linea orientata
  Ordina i punti lungo una linea orientata
                               -------------------
         copyright            : (C) 2022 by Giulio Fattori
-        email                : giulio.fattori@tin.it
+        email                : xxxxxxxxxxxxx
  ***************************************************************************/
 """
 
