@@ -3,6 +3,8 @@ tags:
   - concetti
   - propedeutico
   - tabella
+  - rinomina
+  - campi
 ---
 
 # Concetti fondamentali sulla tabella degli attributi di QGIS
@@ -140,6 +142,12 @@ nel caso delle _celle_ (vedi screen sotto) compare un tendina con la possibilit�
 PS: Find/Replace è un plugin!
 
 [![tab_attr](../img/tabella_attributi/tab_attr7.png)](../img/tabella_attributi/tab_attr7.png)
+
+## rinominare i campi
+
+A partire da **QGIS** 2.16 è possibile rinominare i campi della tabella degli attributi (shp, gpkg) con un semplice doppio click sul nome, dopo aver messo in modifica il layer:
+
+[![tab_attr](../img/tabella_attributi/rinomina_campi.gif)](../img/tabella_attributi/rinomina_campi.gif)
 
 ## dockify tabella
 

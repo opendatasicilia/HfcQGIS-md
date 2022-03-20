@@ -13,9 +13,9 @@ funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
 BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operatore
 
-
 ## GUI Field Calc
 - `copia valore espressione anteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>
+- `omogenizzate i valori booleani`: <https://github.com/qgis/QGIS/pull/47866>
 
 ![](../img/novita_326/copia_anteprima_field_calc.gif)
 
