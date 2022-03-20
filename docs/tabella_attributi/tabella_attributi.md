@@ -143,13 +143,15 @@ PS: Find/Replace è un plugin!
 
 [![tab_attr](../img/tabella_attributi/tab_attr7.png)](../img/tabella_attributi/tab_attr7.png)
 
-## rinominare i campi
+## Rinominare i campi
 
 A partire da **QGIS** 2.16 è possibile rinominare i campi della tabella degli attributi (shp, gpkg) con un semplice doppio click sul nome, dopo aver messo in modifica il layer:
 
 [![tab_attr](../img/tabella_attributi/rinomina_campi.gif)](../img/tabella_attributi/rinomina_campi.gif)
 
-## dockify tabella
+riferimento : <https://gis.stackexchange.com/a/206956/73605>
+
+## Dockify tabella
 
 nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti della tabella degli attributi per passare dalla modalità docked alla modalità finestra
 
