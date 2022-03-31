@@ -2534,7 +2534,7 @@ geom_to_wkt(nodes_to_points(geom_from_wkt('POLYGON((-1 -1, 4 0, 4 2, 0 2, -1 -1)
 
 ## num_geometries
 
-Restituisce il numero di geometrie in una raccolta di geometrie, o null se la geometria in ingresso non è una raccolta.
+Restituisce il numero di geometrie in una raccolta di geometrie, o il numero di parti in una geometria multiparte. La funzione restituisce NULL se la geometria di input non è una raccolta.
 
 Sintassi:
 

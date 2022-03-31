@@ -62,3 +62,4 @@ data       | descrizione
 14/03/2022 | aggiunta funzione Custom [Ordina punti lungo una linea orientata](./gr_funzioni/custom/custom_unico.md#ordina-i-punti-lungo-una-linea-orientata)
 15/03/2022 | aggiunto [75esimo](esempi/selezionare_primo_record_per_ogni_duplicato.md) esempio
 16/03/2022 | aggiunta sezione [Editor delle funzioni](calcolatore_campi/editor_delle_funzioni.md)
+31/03/2022 | aggiornata sezione autore con workshop su Canale [Modellazione Idraulica e GIS](https://youtu.be/bXvsdFPhWuc)
