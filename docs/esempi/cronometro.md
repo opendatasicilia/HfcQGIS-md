@@ -51,7 +51,7 @@ lpad(to_int(minute(@durata)-floor(hour(@durata))*60),2,0))
 
 ### Macro
 
-La macro è stata realizzata da [**Valerio Pinna**](https://github.com/ValPinnaSardinia) e [**Giulio Fattori**](https://github.com/Korto19) che ringrazioamo per il prezioso aiuto.
+La macro è stata realizzata da [**Valerio Pinna**](https://github.com/ValPinnaSardinia) e [**Giulio Fattori**](https://github.com/Korto19) che ringraziamo per il prezioso aiuto.
 
 ```py
 from datetime import datetime
