@@ -16,6 +16,7 @@ BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operat
 ## GUI Field Calc
 - `copia valore espressione anteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>
 - `omogenizzate i valori booleani`: <https://github.com/qgis/QGIS/pull/47866>
+- 'aggiorna descrizione operatore AND`: <https://github.com/qgis/QGIS/pull/48118>
 
 ![](../img/novita_326/copia_anteprima_field_calc.gif)
 
