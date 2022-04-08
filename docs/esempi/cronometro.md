@@ -34,7 +34,7 @@ lpad(floor(hour(@durata)),2,0)
 lpad(to_int(minute(@durata)-floor(hour(@durata))*60),2,0))
 ```
 
-## con Macro
+### con Macro
 
 ```
 with_variable('durata',
@@ -49,7 +49,7 @@ lpad(to_int(minute(@durata)-floor(hour(@durata))*60),2,0))
 
 [![](../img/esempi/cronometro/img_04.png)](../img/esempi/cronometro/img_04.png)
 
-### Macro
+## Macro
 
 La macro è stata realizzata da [**Valerio Pinna**](https://github.com/ValPinnaSardinia) e [**Giulio Fattori**](https://github.com/Korto19) che ringraziamo per il prezioso aiuto.
 
@@ -72,6 +72,8 @@ def saveProject():
 def closeProject():
     pass
 ```
+
+<https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_configuration.html#id71>
 
 **NB:** per utilizzare la macro nel Progetto:
 
