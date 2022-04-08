@@ -74,6 +74,7 @@ def closeProject():
 ```
 
 **NB:** per utilizzare la macro nel Progetto:
+
 1. Impostazioni | Opzioni | Generale → Abilita Macro | Sempre
 2. Progetto | Proprietà | Macro
 
