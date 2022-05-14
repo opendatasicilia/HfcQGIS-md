@@ -1,3 +1,10 @@
+---
+tags:
+  - fieldCalc
+  - propedeutico
+  - processing
+---
+
 # Calcolatore Campi in Processing
 
 ## Introduzione
