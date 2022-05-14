@@ -8,10 +8,13 @@ xxxxxxxx
 
 ## Espressioni
 
+<https://github.com/qgis/QGIS/pull/48488>
+
 ### Gruppi
 funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
 BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operatore
+@symbol_frame         | <https://github.com/qgis/QGIS/pull/48152> | Nuova variabile
 
 ## GUI Field Calc
 - `copia valore espressione anteprima fielc calc`: <https://github.com/qgis/QGIS/pull/47680>

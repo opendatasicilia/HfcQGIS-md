@@ -140,6 +140,7 @@ nav:
        - Gruppo Espressioni Utente: calcolatore_campi/gruppo_espressioni_utente.md
        - Operatori interfaccia: calcolatore_campi/operatori.md
        - Editor delle funzioni: calcolatore_campi/editor_delle_funzioni.md
+       - Calcolatore Campi in Processing: calcolatore_campi/field_calc_processing.md
        # - Concetti tabella attributi: calcolatore_campi/tabella_attributi.md
 
     - Tabella degli Attributi:

@@ -64,3 +64,4 @@ data       | descrizione
 16/03/2022 | aggiunta sezione [Editor delle funzioni](calcolatore_campi/editor_delle_funzioni.md)
 31/03/2022 | aggiornata sezione autore con workshop su Canale [Modellazione Idraulica e GIS](https://youtu.be/bXvsdFPhWuc)
 08/04/2022 | aggiunto [76esimo](esempi/cronometro.md) esempio
+14/05/2022 | Aggiunta sezione [Calcolatore Campi in Processing](calcolatore_campi/field_calc_processing.md)
