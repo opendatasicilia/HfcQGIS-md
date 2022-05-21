@@ -6,6 +6,10 @@ tags:
 
 # Parlano di noi
 
+* **21/05/2022** [Andrea Borruso su Twitter](https://twitter.com/aborruso/status/1527957697848561664)
+
+![](./img/parlano_di_noi/gif.gif)
+
 * **11/03/2022** [OpenDataSicilia](https://youtu.be/k1AOK3rz8PQ) by [VisiData-GIS](https://github.com/pigreco/visidata-gis)
 
 ![](./img/parlano_di_noi/visidata.png)
