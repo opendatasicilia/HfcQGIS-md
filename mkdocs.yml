@@ -269,6 +269,7 @@ nav:
            - Spostare i punti dentro i poligoni in base agli attributi: esempi/sposta_punti_dentro_poligoni_per_attributo.md
            - Seleziona primo record per ogni duplicato: esempi/selezionare_primo_record_per_ogni_duplicato.md
            - Crea Cronometro nella Map Canvas: esempi/cronometro.md
+           - Selezionare record orfani in una relazione padre-figlio: esempi/selezionare_record_orfani_rel_padrefiglio.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

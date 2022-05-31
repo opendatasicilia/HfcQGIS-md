@@ -66,3 +66,4 @@ data       | descrizione
 08/04/2022 | aggiunto [76esimo](esempi/cronometro.md) esempio
 14/05/2022 | Aggiunta sezione [Calcolatore Campi in Processing](calcolatore_campi/field_calc_processing.md)
 21/05/2022 | Parlano di noi [4 anni di HfcQGIS](parlano_di_noi.md)
+31/05/2022 | aggiunto [77esimo](esempi/selezionare_record_orfani_rel_padrefiglio.md) esempio
