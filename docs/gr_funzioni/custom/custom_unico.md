@@ -1093,3 +1093,57 @@ def order_point_along_line(r_layer, v_reverse, feature, parent, context):
 Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
 [![](../../img/custom/order_point_along_line.png)](../../img/custom/order_point_along_line.png)
+
+---
+
+## Estrarre testo da legenda categorizzata
+
+Estrarre il testo decodifica dalla legenda
+
+```py
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ Ordina i punti lungo una linea orientata
+                              -------------------
+        copyright            : (C) 2022 by Giulio Fattori
+        email                : xxxxxxxxxxxxx
+ ***************************************************************************/
+"""
+
+from qgis.core import *
+from qgis.gui import *
+from qgis.utils import iface
+
+@qgsfunction(args='auto', group='Custom')
+def get_catg_label(value_in, feature, parent):
+    """
+    Restituisce il testo della legenda dell'elemento categorizzato:
+    <br>
+    <p><b>il campo in input e' quello utilizzato per la categorizzazione</b>
+    <br>
+    <h2>Example usage:</h2>
+    <ul>
+      <li>get_catg_label("Area") -> 'Parcheggio'</li>
+    </ul>
+    """
+    
+    layer = iface.activeLayer()
+    renderer = layer.renderer()
+
+    if layer.renderer().type() == "categorizedSymbol":
+        for cat in renderer.categories():
+            #print('val ', type(cat.value()), type(value_in))
+            if str(value_in) == str(cat.value()):
+                #print('res ',cat.value(), value_in)
+                cat_label_out = cat.label()
+                break
+            else:
+                cat_label_out = ''
+                
+    return cat_label_out
+```
+
+Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
+
+[![](../../img/custom/estrarre_label.png)](../../img/custom/estrarre_label.png)
