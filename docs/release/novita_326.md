@@ -1,6 +1,6 @@
 # Novità rilevanti introdotte in QGIS 3.26
 
-[![](../img/splashscreen/splash_3_26rc.png)](../img/splashscreen/splash_3_26.png)
+[![](../img/splashscreen/splash_3_26rc.png)](../img/splashscreen/splash_3_26rc.png)
 
 "La versione ricca di funzionalità di QGIS 3.26 **Buenos Aires** include un vasto numero di miglioramenti a una gamma di funzionalità di base avanzate. Ciò include numerosi miglioramenti alle funzionalità 3D, strumenti migliorati per le nuvole di punti e l'introduzione di un nuovo framework di tracciatura dei profili per la creazione di sezioni trasversali e profili di elevazione. Soprattutto, il nuovo framework di plottaggio utilizza le funzionalità di rendering QGIS native e viene fornito con tutte le proprietà di stile, simbologia e guida dei dati che tutti conosciamo e amiamo subito!"
 
