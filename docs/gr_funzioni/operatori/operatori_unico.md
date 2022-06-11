@@ -306,6 +306,52 @@ La funzione distingue maiuscolo dal minuscolo!!!
 
 ---
 
+## NOT BETWEEN
+
+Restituisce TRUE se il valore non è all'interno dell'intervallo specificato. L'intervallo è considerato comprensivo dei limiti.
+
+Sintassi:
+
+- NOT BETWEEN <span style="color:red;">_lower_bound AND higher_bound_</span>
+ 
+Argomenti:
+
+- <span style="color:red;">_lower_bound AND higher_bound_</span> limite intervallo
+
+Esempi:
+
+```
+'B' NOT BETWEEN 'A' AND 'C' → FALSE
+1.0 NOT BETWEEN 1.1 AND 1.2 → TRUE
+```
+
+[![](../../img/operatori/notbetween.png)](../../img/operatori/notbetween.png)
+
+---
+
+## BETWEEN
+
+Restituisce TRUE se il valore è all'interno dell'intervallo specificato. L'intervallo è considerato comprensivo dei limiti. Per testare l'esclusione si può usare `NOT BETWEEN`.
+
+Sintassi:
+
+- BETWEEN <span style="color:red;">_lower_bound AND higher_bound_</span>
+ 
+Argomenti:
+
+- <span style="color:red;">_lower_bound AND higher_bound_</span> limite intervallo
+
+Esempi:
+
+```
+'B' BETWEEN 'A' AND 'C' → TRUE
+2 BETWEEN 1 AND 3 → TRUE
+```
+
+[![](../../img/operatori/between.png)](../../img/operatori/between.png)
+
+---
+
 ## > (maggiore)
 
 Confronta due valori e pone a 1 se il valore a sinistra è maggiore del valore a destra.
