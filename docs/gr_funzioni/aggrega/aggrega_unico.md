@@ -146,9 +146,21 @@ collect( centroid($geometry), group_by:="region", filter:= "use" = 'civilian' ) 
 
 --
 
+estrae i bounding box, uno per ogni geometria:
+
 [![](../../img/aggregate/collect/collect2.png)](../../img/aggregate/collect/collect2.png)
 
+estrae il bounding box, dopo aver unito tutte le geometrie:
+
 [![](../../img/aggregate/collect/collect3.png)](../../img/aggregate/collect/collect3.png)
+
+estrae il perimetro (unico per tutte le geometrie), dopo aver unito tutte le geometrie:
+
+```
+buffer(collect($geometry),0)
+```
+
+[![](../../img/aggregate/collect/collect4.png)](../../img/aggregate/collect/collect4.png)
 
 ---
 

@@ -11,7 +11,7 @@
 ### Gruppi
 funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
-BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovo Operatore
+BETWEEN e NOT BETWEEN | <https://github.com/qgis/QGIS/pull/47771> | Nuovi Operatori
 @symbol_frame         | <https://github.com/qgis/QGIS/pull/48152> | Nuova variabile
 @parent               | <https://github.com/qgis/QGIS/pull/48488> | Miglioramento
 
