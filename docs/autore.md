@@ -104,7 +104,7 @@ Anno | descrizione | link
 2022 | Gter - QGIS, l'installazione | <https://github.com/pigreco/geobreack_41_by_Gter>
 2022 | VISIDATA - OpenDataSicilia - Come semplificare la vita di un/a progfessionista GIS | <https://github.com/pigreco/visidata-gis>
 2022 | FIELD CALC DI QGIS - Che cosa è e come usarlo: applicato all'idraulica e/o all'idrologia | <https://github.com/pigreco/field_calc_idraulica>
-
+2022 | DAL CAD AL GIS: MAPPE CATASTALI, DISEGNO CAD E TAVOLE DI PROGETTO | <https://github.com/pigreco/workshop-estate-gis-2022>
 
 ## Sponsoring
 
