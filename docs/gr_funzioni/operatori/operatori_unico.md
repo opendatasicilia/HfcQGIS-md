@@ -331,7 +331,7 @@ Esempi:
 
 ## BETWEEN
 
-Restituisce TRUE se il valore è all'interno dell'intervallo specificato. L'intervallo è considerato comprensivo dei limiti. Per testare l'esclusione si può usare `NOT BETWEEN`.
+Restituisce TRUE se il valore rientra nell'intervallo specificato. L'intervallo è considerato comprensivo dei limiti. Per verificare l'esclusione può essere utilizzato `NOT BETWEEN`.
 
 Sintassi:
 
