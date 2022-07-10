@@ -30,7 +30,7 @@ array_to_string(
 che aggiungerà la lista dei punti sovrapposti.
 
 
-**OSSERVAZIONE**: il ragionamento espresso sovra è valido per tutte le funzioni `overlay_*`, dove `*` è un predicato geometrico (_contains, crosses, disjoint, equals, intersects, nearest, touches e within_); quindi se volessimo prendere un attributo da punti più vicini, basterebbe utilizzare le stesse espressioni di sopra, ma utilizzando l'espressione `overlay_nearest`.
+**OSSERVAZIONE**: il ragionamento espresso sopra è valido per tutte le funzioni `overlay_*`, dove `*` è un predicato geometrico (_contains, crosses, disjoint, equals, intersects, nearest, touches e within_); quindi se volessimo prendere un attributo da punti più vicini, basterebbe utilizzare le stesse espressioni di sopra, ma utilizzando l'espressione `overlay_nearest`.
 
 Esempio aggiunto per gentile richiesta di [Giulio Fattori](https://github.com/Korto19) (grazie)
 
