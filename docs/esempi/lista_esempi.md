@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **78** esempi svolti! (in evoluzione)
+Attualmente ci sono **79** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -97,6 +97,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 76|[Cronometro](cronometro.md)|Creare un cronometro nella Map Canvas|Salvatore Fiandaca | 3 | [with_variable](../gr_funzioni/generale/generale_unico.md/#with_variable), [age](../gr_funzioni/data_ora/data_ora_unico.md/#age), [now()](../gr_funzioni/data_ora/data_ora_unico.md/#now), [make_datetime](../gr_funzioni/data_ora/data_ora_unico.md/#make_datetime), [lpad](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md/#lpad), [floor](../gr_funzioni/matematica/matematica_unico.md/#floor), [to_int](../gr_funzioni/conversioni/conversioni_unico.md/#to_int), [minute](../gr_funzioni/data_ora/data_ora_unico.md/#minute), [hour](../gr_funzioni/data_ora/data_ora_unico.md/#hour)
 77|[Selezionare record orfani in una relazione padre-figlio](selezionare_record_orfani_rel_padrefiglio.md)|Selezionare record orfani in una relazione padre-figlio|Salvatore Fiandaca | 3 | [@parent](../gr_funzioni/variabili/parent.md/), [NOT](../gr_funzioni/array/array_unico.md#array_agg), [aggregate](../gr_funzioni/aggrega/aggrega_unico.md/#aggregate), [count](../gr_funzioni/aggrega/aggrega_unico.md#count)
 78|[Tema con unico contorno per poligoni adiacenti](tema_unico_contorno.md)|Crea unico contorno per poligoni adiancenti|Salvatore Fiandaca | 3 | [collect](../gr_funzioni/aggrega/aggrega_unico.md/#collect), [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer), [difference](../gr_funzioni/geometria/geometria_unico.md#difference), [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry), [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
+79|[Prende attributo da un layer sovrapposto](prendi_attributo_da_elemento_sovrapposto.md)|Come prendere attributi da layer sovrapposti|Salvatore Fiandaca | 3 | [array_to_string](../gr_funzioni/arrayarray_unico.md#array_to_string), [overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects)
 
 ## Tags
 
