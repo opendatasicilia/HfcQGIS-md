@@ -364,4 +364,9 @@ max-height:100px;
     margin: auto .6rem;
     padding: .4rem 0;
   /*  width: 100%;*/
+  }
   
+.banner {  color: #f0ea65 !important; }
+.banner:link {  color: #f0ea65 !important; }
+.banner:visited {  color: #f0ea65 !important; }
+.banner:hover {  color: #f0ea65 !important; text-decoration:underline;}
