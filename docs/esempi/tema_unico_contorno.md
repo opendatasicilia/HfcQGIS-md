@@ -1,7 +1,6 @@
 ---
 tags:
-  - prossimità
-  - aggrecare
+  - aggregare
   - stile
   - contorni
 ---
@@ -66,3 +65,4 @@ Funzioni e variabili utilizzate:
 * [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer)
 * [difference](../gr_funzioni/geometria/geometria_unico.md#difference)
 * [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
+* [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)

@@ -69,3 +69,5 @@ data       | descrizione
 31/05/2022 | aggiunto [77esimo](esempi/selezionare_record_orfani_rel_padrefiglio.md) esempio
 02/06/2022 | aggiunta nuova funzione personalizzata per estrarre testo legenda [funzioni](gr_funzioni/custom/custom_unico.md) esempio
 11/06/2022 | aggiunto le novità rilevanti della [QGIS 3.26 Buonos Aires](release/novita_326.md)
+25/06/2022 | aggiunto [78esimo](esempi/tema_unico_contorno.md) esempio
+10/07/2022 | aggiunto [79esimo](esempi/prendi_attributo_da_elemento_sovrapposto.md) esempio
