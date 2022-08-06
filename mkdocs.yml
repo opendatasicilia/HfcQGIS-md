@@ -273,6 +273,7 @@ nav:
            - Selezionare record orfani in una relazione padre-figlio: esempi/selezionare_record_orfani_rel_padrefiglio.md
            - Crea Tema unico contorno per poligoni adiacenti: esempi/tema_unico_contorno.md
            - Prende attributo da layer sovrapposto: esempi/prendi_attributo_da_elemento_sovrapposto.md
+           - Seleziona poligoni con max area sovrapposta: esempi/selezionare_poligoni_max_area_sovrapposta.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

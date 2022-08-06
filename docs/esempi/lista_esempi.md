@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **79** esempi svolti! (in evoluzione)
+Attualmente ci sono **80** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -98,6 +98,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 77|[Selezionare record orfani in una relazione padre-figlio](selezionare_record_orfani_rel_padrefiglio.md)|Selezionare record orfani in una relazione padre-figlio|Salvatore Fiandaca | 3 | [@parent](../gr_funzioni/variabili/parent.md/), [NOT](../gr_funzioni/array/array_unico.md#array_agg), [aggregate](../gr_funzioni/aggrega/aggrega_unico.md/#aggregate), [count](../gr_funzioni/aggrega/aggrega_unico.md#count)
 78|[Tema con unico contorno per poligoni adiacenti](tema_unico_contorno.md)|Crea unico contorno per poligoni adiancenti|Salvatore Fiandaca | 3 | [collect](../gr_funzioni/aggrega/aggrega_unico.md/#collect), [buffer](../gr_funzioni/geometria/geometria_unico.md#buffer), [difference](../gr_funzioni/geometria/geometria_unico.md#difference), [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry), [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection)
 79|[Prende attributo da un layer sovrapposto](prendi_attributo_da_elemento_sovrapposto.md)|Come prendere attributi da layer sovrapposti|Salvatore Fiandaca | 3 | [array_to_string](../gr_funzioni/arrayarray_unico.md#array_to_string), [overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects)
+80|[seleziona poligoni con max area sovrapposta](selezionare_poligoni_max_area_sovrapposta.md)|Come prendere attributi da layer sovrapposti|Salvatore Fiandaca | 3 | [maximum](../gr_funzioni/aggrega/aggrega_unico.md#maximum), [intersection](../gr_funzioni/geometria/geometria_unico.md#intersection), [area](../gr_funzioni/geometria/geometria_unico.md#area), [overlay_intersects](../gr_funzioni/geometria/geometria_unico.md#overlay_intersects), [$geometry](../gr_funzioni/geometria/geometria_unico.md#geometry)
 
 ## Tags
 

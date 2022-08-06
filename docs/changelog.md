@@ -71,3 +71,4 @@ data       | descrizione
 11/06/2022 | aggiunto le novità rilevanti della [QGIS 3.26 Buonos Aires](release/novita_326.md)
 25/06/2022 | aggiunto [78esimo](esempi/tema_unico_contorno.md) esempio
 10/07/2022 | aggiunto [79esimo](esempi/prendi_attributo_da_elemento_sovrapposto.md) esempio
+06/08/2022 | aggiunto [80esimo](esempi/selezionare_poligoni_max_area_sovrapposta.md) esempio
