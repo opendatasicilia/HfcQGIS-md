@@ -2963,6 +2963,8 @@ overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), sort_b
 
 [![](../../img/geometria/overlay_/overlay_intersects1.png)](../../img/geometria/overlay_/overlay_intersects1.png)
 
+[![](../../img/geometria/overlay_/overlay_intersects2.png)](../../img/geometria/overlay_/overlay_intersects2.png)
+
 !!! Warning "Nota bene:" 
 	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
