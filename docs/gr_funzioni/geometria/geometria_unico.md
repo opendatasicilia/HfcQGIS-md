@@ -2917,6 +2917,8 @@ overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), limit:=2) 
 
 ## overlay_intersects
 
+aggiornato a QGIS 3.24 Tisler
+
 Restituisce se l'elemento corrente interseca spazialmente almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target intersecati dall'elemento corrente. Ulteriori informazioni sul predicato GEOS "Intersects" sottostante, come descritto nella funzione PostGIS [ST_INTERSECTS](https://postgis.net/docs/ST_Intersects.html).
 
 Sintassi <= **QGIS 3.22.x**
