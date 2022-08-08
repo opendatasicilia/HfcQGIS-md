@@ -2965,6 +2965,19 @@ overlay_intersects(layer:='regions', expression:= geom_to_wkt($geometry), sort_b
 
 [![](../../img/geometria/overlay_/overlay_intersects2.png)](../../img/geometria/overlay_/overlay_intersects2.png)
 
+Esempio pratico:
+
+Assegnare l'ID del poligono sovrapposto con maggiore area intersecata:
+
+```
+overlay_intersects(
+           'Reg01012022_G_Wgs84',
+           "cod_reg",
+            sort_by_intersection_size:='des')[0] -- sort_by_intersection_size Nuovo parametro
+```
+
+[![](../../img/geometria/overlay_/overlay_intersects3.png)](../../img/geometria/overlay_/overlay_intersects3.png)
+
 !!! Warning "Nota bene:" 
 	**La funzione restituisce un output corretto anche se i due layer hanno EPSG differenti!**
 
