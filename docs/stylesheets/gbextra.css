@@ -370,3 +370,8 @@ max-height:100px;
 .banner:link {  color: #f0ea65 !important; }
 .banner:visited {  color: #f0ea65 !important; }
 .banner:hover {  color: #f0ea65 !important; text-decoration:underline;}
+
+/*cookies */
+.md-consent__inner{
+background-color: #fffffff0
+}

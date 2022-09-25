@@ -40,7 +40,13 @@ extra:
     - icon: fontawesome/solid/rss
       link: https://hfcqgis.opendatasicilia.it/feed_rss_created.xml
       name: Feed RSS
-
+      
+ ## Consenso ai cookie     
+  consent:
+    title: Consenso ai cookie
+    description: >-
+        <img src="https://hfcqgis.opendatasicilia.it/img/logo_black.png" class="immagonobox"  alt="HfcQGIS" title="HfcQGIS - Help funzioni calcolatore di campi di QGIS" width="200" border="0"><br><b>Questo sito, hfcqgis.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web.</b> <br>Chiudendo questo messaggio, scorrendo questa pagina o cliccando su qualunque suo elemento acconsenti all&rsquo;uso dei cookie.<br> Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l&rsquo;<a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">informativa</a>!
+      
   analytics:
     provider: google
     property: UA-122084242-1
