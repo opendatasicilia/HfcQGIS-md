@@ -573,7 +573,7 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">value<span style="color:red;">_ numero di decimali a cui arrotondare
+* _<span style="color:red;">value<span style="color:red;">_ numero decimale da arrotondare
 * _<span style="color:red;">places</span>_ Intero opzionale che indica il numero di posizioni a cui arrotondare i decimali. Può essere negativo.
 
 Esempi:
