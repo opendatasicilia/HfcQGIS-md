@@ -26,3 +26,4 @@ NB: <https://github.com/qgis/QGIS/pull/50134>
 ## hELP IN LINEA
 
 <https://github.com/qgis/QGIS/commit/264221442c7f0bdf39f8409690a777bc90b26b35>
+<https://github.com/qgis/QGIS/pull/50404>
