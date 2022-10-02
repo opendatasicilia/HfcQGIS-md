@@ -81,6 +81,11 @@ Padova luglio 2019
 
 **Foto da sinistra:** Rocco Pispico, Enrico Ferreguti, Federico Gianoli, Matteo Ghetta, Stefano Campus, Totò (io) e Paolo Cavallini.
 
+## 24h QGIS Contributors Meeting in Firenze
+
+<p align="center"> <a href="https://pigrecoinfinito.com/2022/08/29/24th-qgis-contributors-meeting-in-firenze/"><img src="../img/screen_autore/24hqgiscontributorsmeetinginfirenze.png" alt="24h QGIS Contributors Meeting in Firenze" width="400" title="24h QGIS Contributors Meeting in Firenze"></a>
+</p>
+
 ## FOSS4G-IT 2021
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
