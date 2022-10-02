@@ -8,7 +8,7 @@ xxxx
 
 ## Espressioni
 
-nuove espressioni :
+nuove espressioni:
 
 funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
