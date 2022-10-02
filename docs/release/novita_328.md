@@ -20,6 +20,8 @@ help geometrices_to_array | <https://github.com/qgis/QGIS/pull/50077> | migliora
 shared_paths | <https://github.com/qgis/QGIS/pull/50080> | nuova funzione
 @feature, @id e @geometry | <https://github.com/qgis/QGIS/pull/50134> | nuove variabili
 
+[![](../img/novita_328/img_02.png)](../img/novita_328/img_02.png)
+
 
 ## GUI Field Calc
 
