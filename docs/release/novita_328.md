@@ -9,15 +9,17 @@ xxxx
 ## Espressioni
 
 nuove espressioni :
-**Adds the $m, $z_at and $m_at expressions**: <https://github.com/qgis/QGIS/pull/49765> CHIUSA!!!
-**Make_valid** e **geometries_to_array**: <https://github.com/qgis/QGIS/pull/49993>
-**Concave_hull**: <https://github.com/qgis/QGIS/pull/48865>
-migliora **to_int** : <https://github.com/qgis/QGIS/pull/49990>
-help: <https://github.com/qgis/QGIS/pull/50077>
-**shared_paths** : <https://github.com/qgis/QGIS/pull/50080>
-NB: <https://github.com/qgis/QGIS/pull/50134>
 
-### Gruppi
+funzione              | link PR                                   | descrizione
+----------------------|-------------------------------------------|------------
+Adds the $m, $z_at and $m_at expressions | <https://github.com/qgis/QGIS/pull/49765> | CHIUSA!!!
+Make_valid e geometries_to_array | <https://github.com/qgis/QGIS/pull/49993> | nuove funzioni
+Concave_hull | <https://github.com/qgis/QGIS/pull/48865> | nuova funzione
+to_int | <https://github.com/qgis/QGIS/pull/49990> | miglioramento
+help geometrices_to_array | <https://github.com/qgis/QGIS/pull/50077> | miglioramento
+shared_paths | <https://github.com/qgis/QGIS/pull/50080> | nuova funzione
+@feature, @id e @geometry | <https://github.com/qgis/QGIS/pull/50134> | nuove variabili
+
 
 ## GUI Field Calc
 
