@@ -102,6 +102,7 @@ Anno | descrizione | link
 -----|-------------|-----
 2016 | OpenDataSicilia - ODS16 Messina | <https://github.com/pigreco/ODS16_QGIS>
 2020 | GIScience - COVID: Analisi geografica con strumenti GIS Open Source | <https://github.com/pigreco/workshop-estate-gis-2020>
+2021 | Workshop estate GIS 2021 UNIPD | <https://github.com/pigreco/workshop-estate-gis-2021>
 2021 | GIScience - Dagli Open Data all'Open Source: lavorare in QGIS con le mappe catastali | <https://github.com/pigreco/geobreack_28_by_Gter>
 2021 | Gter - Alla scoperta delle espressioni di QGIS: come e dove usarle (primo incontro) | <https://github.com/pigreco/geobreack_28_by_Gter)>
 2021 | FOSS4G-IT 2021 - Alla scoperta delle espressioni di QGIS: come e dove usarle | <https://github.com/pigreco/Workshop_FOSS4G-IT-2021> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565494.svg)](https://doi.org/10.5281/zenodo.5565494)
