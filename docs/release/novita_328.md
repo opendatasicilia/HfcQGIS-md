@@ -22,6 +22,7 @@ shared_paths | <https://github.com/qgis/QGIS/pull/50080> | nuova funzione
 
 [![](../img/novita_328/img_02.png)](../img/novita_328/img_02.png)
 
+[![](../img/novita_328/img_03.png)](../img/novita_328/img_03.png)
 
 ## GUI Field Calc
 
