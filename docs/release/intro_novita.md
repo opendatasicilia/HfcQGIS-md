@@ -29,4 +29,4 @@ Release        | Data | changelog | nuove funzioni | numero
 
 ## Grafico
 
-[![](../img/grafico_espressioni326.png)](../img/grafico_espressioni326.png)
+[![](../img/grafico_espressioni328.png)](../img/grafico_espressioni328.png)
