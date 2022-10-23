@@ -13,7 +13,7 @@ tags:
 
 ## $currentfeature
 
-Restituisce l'elemento corrente corrente da valutare. Questo può essere usato con la funzione 'attribute' per valutare i valori dell'attributo dall'elemento corrente.
+Restituisce l'elemento corrente corrente da valutare. Questo può essere usato con la funzione 'attribute' per valutare i valori dell'attributo dall'elemento corrente. **ATTENZIONE**: questa funzione è deprecata (a partire da QGIS 3.28.0 Firenze). Si consiglia di utilizzare la variabile sostitutiva _<span style="color:red;">@feature</span>_.
 
 Sintassi:
 
@@ -22,16 +22,19 @@ Sintassi:
 Esempi:
 
 ```
-attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
+- attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
+- attribute( @feature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 ```
 
 [![](../../img/record_e_attributi/$currentfeature1.png)](../../img/record_e_attributi/$currentfeature1.png)
+
+[![](../../img/record_e_attributi/@feature.png)](../../img/record_e_attributi/@feature.png)
 
 ---
 
 ## $id
 
-Restituisce l'id geometria della riga corrente.
+Restituisce l'id geometria della riga corrente. **ATTENZIONE**: Questa funzione è deprecata (a partire da QGIS 3.28 Firenze). Si consiglia di utilizzare la variabile sostitutiva _<span style="color:red;">@id</span>_
 
 Sintassi:
 
@@ -41,6 +44,7 @@ Esempi:
 
 ```
 $id → 71
+@id → 71
 ```
 
 Osservazioni:
@@ -48,6 +52,8 @@ Osservazioni:
 Questa funzione inizia sempre da 0 con vettore shapefile da 1 con i database
 
 [![](../../img/record_e_attributi/$id1.png)](../../img/record_e_attributi/$id1.png)
+
+[![](../../img/record_e_attributi/@id.png)](../../img/record_e_attributi/@id.png)
 
 ---
 

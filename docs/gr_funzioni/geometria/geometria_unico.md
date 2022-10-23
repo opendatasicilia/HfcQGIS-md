@@ -91,23 +91,26 @@ Osservazione:
 
 ## $geometry
 
-Restituisce la geometria dell'elemento attuale. Può essere usato per il processamento con altre funzioni.
+Restituisce la geometria dell'elemento attuale. Può essere usato per il processamento con altre funzioni. **ATTENZIONE**: Questa funzione è deprecata (a partire da _**QGIS 3.28.0 Firenze**_). Si consiglia di utilizzare la variabile sostitutiva _<span style="color:red;">@geometry</span>_
 
-nb: `$geoemtry` richiama l'attributo geometria
+NB: `$geometry` richiama l'attributo geometria!!!
 
 Sintassi:
 
-- $geometry
+- _<span style="color:red;">$geometry</span>_
 
 Esempi:
 
 ```
 geomToWKT( $geometry ) → POINT(6 50)
-area($geoamtry) → 1234567.89 mq
-perimeter($geometry) → 25689.25 m
+area($geoamtry) → 1234567.89
+perimeter($geometry) → 25689.25
+area(@geoamtry) → 1234567.89
 ```
 
 [![](../../img/geometria/_geometry/_geometry1.png)](../../img/geometria/_geometry/_geometry1.png)
+
+[![](../../img/geometria/_geometry/_geometry2.png)](../../img/geometria/_geometry/_geometry2.png)
 
 Osservazioni:
 
@@ -748,6 +751,33 @@ geom_to_wkt( combine( geom_from_wkt( 'LINESTRING(3 3, 4 4)' ), geom_from_wkt( 'L
 
 [![](../../img/geometria/combine/combine1.png)](../../img/geometria/combine/combine1.png)
 
+---
+
+## concave_hull
+
+\>= QGIS 3.18 Firenze e Geos 3.11+
+
+Restituisce un poligono possibilmente concavo che contiene tutti i punti della geometria
+
+Sintassi:
+
+- concave_hull(_<span style="color:red;">geometry</span>, <span style="color:red;">target_percent</span>[,<span style="color:red;">allow_holes</span>_])
+
+[ ] indica componenti opzionali
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ una geometria
+* _<span style="color:red;">target_percent</span>_ la percentuale di area del poligono convesso a cui la soluzione cerca di avvicinarsi. Una percentuale-obbiettivo di 1 dà lo stesso risultato del poligono convesso. Una percentuale_obbiettivo compresa tra 0 e 0.99 produce un risultato che dovrebbe avere un'area inferiore a quella del poligono convesso.
+* _<span style="color:red;">allow_holes</span>_ argomento opzionale che specifica se consentire i buchi nella geometria di output. L'impostazione predefinita è FALSE; impostare TRUE per evitare di includere i buchi nella geometria di output.
+
+Esempi:
+
+```
+geom_to_wkt(concave_hull(geom_from_wkt('MULTILINESTRING((106 164,30 112,74 70,82 112,130 94,130 62,122 40,156 32,162 76,172 88),(132 178,134 148,128 136,96 128,132 108,150 130,170 142,174 110,156 96,158 90,158 88),(22 64,66 28,94 38,94 68,114 76,112 30,132 10,168 18,178 34,186 52,184 74,190 100,190 122,182 148,178 170,176 184,156 164,146 178,132 186,92 182,56 158,36 150,62 150,76 128,88 118))'), 0.99)) → 'Polygon ((30 112, 36 150, 92 182, 132 186, 176 184, 190 122, 190 100, 186 52, 178 34, 168 18, 132 10, 112 30, 66 28, 22 64, 30 112))'
+```
+
+[![](../../img/geometria/concave_hull/concave_hull.png)](../../img/geometria/concave_hull/concave_hull.png)
 ---
 
 ## contains
@@ -2474,6 +2504,36 @@ geom_to_wkt(boundary(make_triangle(make_point(0,0), make_point(5,5), make_point(
 
 ---
 
+## make_valid
+
+\>=QGIS 3.28 Firenze
+
+Restituisce una geometria valida o una geometria vuota se non è stato possibile renderla valida.
+
+Sintassi:
+
+- make_triangle(_<span style="color:red;">geometry</span>_[,_<span style="color:red;">method=structure</span>_][,_<span style="color:red;">keep_collapsed=false</span>_])
+
+[ ] indica componenti opzionali
+
+Argomenti:
+
+- _<span style="color:red;">geometry</span>_ Una geometria
+- _<span style="color:red;">method</span>_ algoritmo di riparazione. Può essere 'struttura' o 'tracciato'. L'opzione 'tracciato' combina tutti gli anelli in un insieme di linee con nodi e quindi estrae poligoni validi da tale tracciato. Il metodo 'struttura' rende prima validi tutti gli anelli e poi unisce le conchiglie e sottrae i fori dalle conchiglie per generare risultati validi. Si presuppone che i fori e le conchiglie siano classificati correttamente.
+- _<span style="color:red;">keep_collapsed</span>_ se impostato a true, i componenti che sono collassati in una dimensione inferiore saranno mantenuti. Ad esempio, un anello che collassa in una linea o una linea che collassa in un punto.
+
+Esempi:
+
+```
+- geom_to_wkt(make_valid(geom_from_wkt('POLYGON((3 2, 4 1, 5 8, 3 2, 4 2))'))) → 'Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))' {3 2, 5 8, 4 1, 3 2)?}
+- geom_to_wkt(make_valid(geom_from_wkt('POLYGON((3 2, 4 1, 5 8, 3 2, 4 2))'), 'linework')) → 'GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))'
+- geom_to_wkt(make_valid(geom_from_wkt('POLYGON((3 2, 4 1, 5 8))'), method:='linework')) → 'Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))' {3 2, 4 1, 5 8, 3 2)?}
+- make_valid(geom_from_wkt('LINESTRING(0 0)')) → Una geometria vuota
+```
+
+[![](../../img/geometria/make_valid/make_valid.png)](../../img/geometria/make_valid/make_valid.png)
+---
+
 ## minimal_circle
 
 Restituisce la circonferenza circoscritta minima di una geometria. Rappresenta il cerchio minimo che circoscrive tutte le geometrie presenti in un dataset.
@@ -3444,6 +3504,30 @@ geom_to_wkt(segments_to_lines(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)'))) → '
 ```
 
 [![](../../img/geometria/segments_to_lines/segments_to_lines1.png)](../../img/geometria/segments_to_lines/segments_to_lines1.png)
+
+---
+
+## shared_paths
+
+Restituisce un insieme contenente i percorsi condivisi dalle due geometrie in ingresso. Quelli che vanno nella stessa direzione sono nel primo elemento della collezione, quelli che vanno nella direzione opposta sono nel secondo elemento. I percorsi di per se stessi sono dati nella direzione della prima geometria.
+
+Sintassi:
+
+- shared_paths( _<span style="color:red;">geometry1</span>_,_<span style="color:red;">geometry2</span>_)
+
+Argomenti:
+
+*  _<span style="color:red;">geometry1</span>_ una geometria di tipo LineString/MultiLineString
+*  _<span style="color:red;">geometry2</span>_ una geometria di tipo LineString/MultiLineString
+
+Esempi:
+
+```
+- geom_to_wkt(shared_paths(geom_from_wkt('MULTILINESTRING((26 125,26 200,126 200,126 125,26 125),(51 150,101 150,76 175,51 150)))'),geom_from_wkt('LINESTRING(151 100,126 156.25,126 125,90 161, 76 175)'))) → 'GeometryCollection (MultiLineString ((126 156.25, 126 125),(101 150, 90 161),(90 161, 76 175)),MultiLineString EMPTY)'
+- geom_to_wkt(shared_paths(geom_from_wkt('LINESTRING(76 175,90 161,126 125,126 156.25,151 100)'),geom_from_wkt('MULTILINESTRING((26 125,26 200,126 200,126 125,26 125),(51 150,101 150,76 175,51 150))'))) → 'GeometryCollection (MultiLineString EMPTY,MultiLineString ((76 175, 90 161),(90 161, 101 150),(126 125, 126 156.25)))'
+```
+
+[![](../../img/geometria/shared_paths/shared_paths.png)](../../img/geometria/shared_paths/shared_paths.png)
 
 ---
 

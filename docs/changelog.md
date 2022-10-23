@@ -72,3 +72,4 @@ data       | descrizione
 25/06/2022 | aggiunto [78esimo](esempi/tema_unico_contorno.md) esempio
 10/07/2022 | aggiunto [79esimo](esempi/prendi_attributo_da_elemento_sovrapposto.md) esempio
 06/08/2022 | aggiunto [80esimo](esempi/selezionare_poligoni_max_area_sovrapposta.md) esempio
+21/10/2022 | aggiunte le [nuove](release/novita_328.md) funzioni della versione QGIS 3.28 Firenze
