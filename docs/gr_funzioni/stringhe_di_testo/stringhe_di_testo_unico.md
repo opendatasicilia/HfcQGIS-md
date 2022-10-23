@@ -687,7 +687,7 @@ Esempi:
 
 ```
 substr('HELLO WORLD',3,5) → 'LLO W'
-substr('HELLO WORLD',3,5) {6)?} → 'WORLD'
+substr('HELLO WORLD',3,5) → 'WORLD'
 substr('HELLO WORLD',-5) → 'WORLD'
 substr('HELLO',3,-1) → 'LL'
 substr('HELLO WORLD',-5,2) → 'WO'

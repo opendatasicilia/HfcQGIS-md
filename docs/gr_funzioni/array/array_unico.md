@@ -855,7 +855,7 @@ Esempi:
 
 ```
 - geometries_to_array(geom_from_wkt('GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))')) → un array di geometrie di poligoni e linee
-- geom_to_wkt(geometries_to_array(geom_from_wkt('GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))'))[0]) → 'Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))' {5 8, 4 1, 3 2, 5 8)?}
+- geom_to_wkt(geometries_to_array(geom_from_wkt('GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))'))[0]) → 'Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))'
 - geometries_to_array(geom_from_wkt('MULTIPOLYGON(((5 5,0 0,0 10,5 5)),((5 5,10 10,10 0,5 5))')) → un array di due geometrie poligonali
 ```
 
