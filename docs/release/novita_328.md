@@ -8,6 +8,12 @@ The splash screen features a rare and extraordinary 1847 map of Firenze, or Flor
 
 <https://changelog.qgis.org/en/qgis/version/3.28/>
 
+genesi dello splashscreen:
+
+<https://github.com/pigreco/splashscreen_QGIS328_Firenze>
+
+[![](../img/splashscreen/FOTO_GRUPPO.png)](../img/splashscreen/FOTO_GRUPPO.png)
+
 ## Espressioni
 
 nuove espressioni:
