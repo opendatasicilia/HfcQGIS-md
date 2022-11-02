@@ -31,6 +31,10 @@ funzione              | link PR                                   | descrizione
 
 [![](../img/novita_328/img_03.png)](../img/novita_328/img_03.png)
 
+Anche nel gruppo Campi e Valore:
+
+[![](../img/novita_328/img_04.png)](../img/novita_328/img_04.png)
+
 ## GUI Field Calc
 
 Per evitare di perdere le modifiche alle espressioni nel Field Calc
