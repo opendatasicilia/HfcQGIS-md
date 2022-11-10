@@ -24,11 +24,11 @@ array_to_string(
                 ) 
 ```
 
-**Nel linguaggio umano significa:** crea,per ogni poligono, un `array` e popolalo con la geometria dei singoli lati del poligono, infine calcola la loro lunghezza e mettili in una lista.
+**Nel linguaggio umano significa:** crea, per ogni poligono, un `array` e popolalo con la geometria dei singoli lati del poligono, infine calcola la loro lunghezza e mettili in una lista.
 
 Osservazioni:
 
-1. l'epsressione è generica, si puo' usare con qualsiasi poligono;
+1. l'espressione è generica, si puo' usare con qualsiasi poligono;
 2. per poligoni con molti lati, i calcoli richiesti sono lunghi.
 
 Geometrie:
@@ -51,7 +51,7 @@ questa espressione ci permette di fare una serie di interrogazioni come:
    3. coordinate di un vertice del lato n;
    4. ecc...
 
-IL tema (la quotatura) è scaricabile da qui: <https://plugins.qgis.org/styles/5/>
+Il tema (la quotatura) è scaricabile da qui: <https://plugins.qgis.org/styles/5/>
 
 ---
 
