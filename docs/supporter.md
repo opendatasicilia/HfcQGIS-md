@@ -29,9 +29,10 @@ tramite esercizi, pull request e funzioni personalizzate
 
 nro| contributo|Luogo | sito  |sezione | Versione
 --:|-----------|------|-------|:-------|---------:
-1 | Stefano Campus|Italia | |[PR update funzione concat()](https://github.com/pigreco/HfcQGIS/pull/7/commits/a106fb8564dae849536b09bbc1efe8bc32d05a2a) | HfcQGIS Old
+1 | [Stefano Campus](https://twitter.com/skampus1967)|Italia | |[PR update funzione concat()](https://github.com/pigreco/HfcQGIS/pull/7/commits/a106fb8564dae849536b09bbc1efe8bc32d05a2a) | HfcQGIS Old
 2 | [Ludovico Frate](https://twitter.com/FrateLudovico?lang=it)|Italia|[lezionigis.it](https://www.lezionigis.it/)| [es: 11 - Calcolo della core area (area interna al poligono al netto di un'area di buffer interna )](esempi/core_area.md) | HfcQGIS Old
 3 | Martina Savarese| Italia||[es: 17 - Contare i punti nel poligono per categorie](esempi/punti_in_poligoni_categorie.md) | HfcQGIS Old
 4 |[Giulio Fattori](https://github.com/Korto19)| Italia||[Gruppo Custom](https://hfcqgis.opendatasicilia.it/gr_funzioni/custom/custom_unico/) | HfcQGIS Old
 5 |[Matteo Ghetta](https://github.com/ghtmtt)| Italia|[Faunalia](https://www.faunalia.eu/it/)|[add_col_z](https://hfcqgis.opendatasicilia.it/esempi/add_col_z/) | HfcQGIS Old
 6 |[Valerio Pinna](https://www.facebook.com/valerio.pinna.5811)| Italia||[es: 35](esempi/generalizzare_linee.md), [es: 41](esempi/etichettare_itinerario_elenco_comuni_attraversati.md), [es: 42](esempi/etichette_formattate_diversi_stili.md) | HfcQGIS Old
+7 | [Andrea Giudiceandrea](https://twitter.com/AGiudiceandrea)|Italia | |[PR Corregge dei refusi](https://github.com/opendatasicilia/HfcQGIS-md/pull/76) | HfcQGIS New
