@@ -68,6 +68,7 @@ theme:
     - search.suggest
   # - search.highlight
     - search.share
+    - navigation.footer
   palette:
     primary: deep orange
     accent: green
