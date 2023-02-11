@@ -1,0 +1,12 @@
+
+- <https://github.com/qgis/QGIS/pull/51293>
+- <https://github.com/qgis/QGIS/pull/50883>
+- <https://github.com/qgis/QGIS/pull/50452>
+- <https://github.com/qgis/QGIS/pull/51303>
+- <https://github.com/qgis/QGIS/pull/51309>
+- <https://github.com/qgis/QGIS/pull/51316>
+- <https://github.com/qgis/QGIS/pull/51323>
+- <https://github.com/qgis/QGIS/pull/51441>
+- tabella attributi: <https://github.com/qgis/QGIS/pull/51309>
+- widget : <https://github.com/qgis/QGIS/pull/51525>
+- funzioni: <https://github.com/qgis/QGIS/pull/51786>
