@@ -75,4 +75,5 @@ data       | descrizione
 21/10/2022 | aggiunte le [nuove](release/novita_328.md) funzioni della versione QGIS 3.28 Firenze
 28/10/2022 | aggiunto [81esimo](esempi/tracciare_punti_adistanzaprefissata_lungo_linea.md) esempio
 10/11/2022 | PR Corregge refusi by Andrea Giudiceandrea [PR](https://github.com/opendatasicilia/HfcQGIS-md/pull/76)
+17/02/2023 | aggiunto [82esimo](esempi/estrarre_numeri_iniziali.md) esempio
 
