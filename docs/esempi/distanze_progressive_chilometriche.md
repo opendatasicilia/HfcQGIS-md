@@ -27,7 +27,7 @@ END
 
 ## Prova tu
 
-[dati e progetto](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/rotazione_pattern_lineare.zip)
+[dati e progetto](https://github.com/opendatasicilia/HfcQGIS-md/raw/main/docs/prova_tu/dati_progetto_dist_progr.zip)
 
 ---
 
