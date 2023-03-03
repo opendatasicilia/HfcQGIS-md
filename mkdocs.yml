@@ -77,7 +77,7 @@ theme:
     code: Cutive Mono
   favicon: img/favicon.ico
   icon:
-  logo: img/logo_hfc_white.svg
+  logo: img/logo_hfc_white.png
 
 plugins:
 - tags:
