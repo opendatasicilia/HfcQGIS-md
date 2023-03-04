@@ -642,7 +642,7 @@ NULL 5 → NULL
 ## % (resto divisione)
 
 Resto della divisione.
-In aritmetica il resto è la quantità di *dividendoche è _avanzata_ dalla divisione, cioè quella quantità che non è stata possibile dividere per il divisore affinché il risultato rimanga nell'insieme dei `numeri interi`.
+In aritmetica il resto è la quantità di *dividendo che è _avanzata_ dalla divisione, cioè quella quantità che non è stata possibile dividere per il divisore affinché il risultato rimanga nell'insieme dei `numeri interi`.
 Per definizione: Il resto di una divisione denota la quantità da sottrarre a un dividendo al fine di renderlo divisibile per un divisore.
 
 Sintassi
@@ -663,12 +663,15 @@ Sottraendo a 17 il resto di 1 si ottiene 16, numero divisibile per due (la cui m
 Il resto di una divisione denota la quantità da sottrarre a un dividendo al fine di renderlo
 divisibile per un divisore.
 
+[OSSERVAZIONE](https://stackoverflow.com/questions/3622298/how-does-modulus-of-a-smaller-dividend-and-larger-divisor-work): Se il dividendo fosse più piccolo del Divisore, il resto sarebbe sempre uguale al Dividendo
+
 Esempi:
 
 ```
 5 % 4 → 1
 5 % NULL → NULL
 NULL % 5 → NULL
+10 % 20 → 10
 ```
 
 [![](../../img/operatori/resto1.png)](../../img/operatori/resto1.png)
