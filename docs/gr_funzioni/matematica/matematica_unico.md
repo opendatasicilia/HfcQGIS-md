@@ -281,11 +281,14 @@ Argomenti:
 
 * _<span style="color:red;">value</span>_ un numero
 
+**OSSERVAZIONE**: Alla funzione `Floor` corrisponde l'operatore `//` (Floor division)
+
 Esempi:
 
 ```
 floor(4.9) → 4
 floor(-4.9) → -5
+floor(2/26) =2//26
 ```
 
 Esempi:
