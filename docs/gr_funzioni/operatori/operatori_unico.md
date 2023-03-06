@@ -663,7 +663,9 @@ Sottraendo a 17 il resto di 1 si ottiene 16, numero divisibile per due (la cui m
 Il resto di una divisione denota la quantità da sottrarre a un dividendo al fine di renderlo
 divisibile per un divisore.
 
-[OSSERVAZIONE](https://stackoverflow.com/questions/3622298/how-does-modulus-of-a-smaller-dividend-and-larger-divisor-work): Se il dividendo fosse più piccolo del Divisore, il resto sarebbe sempre uguale al Dividendo
+[OSSERVAZIONE1](https://stackoverflow.com/questions/3622298/how-does-modulus-of-a-smaller-dividend-and-larger-divisor-work): Se il dividendo fosse più piccolo del Divisore, il resto sarebbe sempre uguale al Dividendo;
+
+[OSSERVAZIONE2](https://stackoverflow.com/a/37005857/11070771) occhio al segno!!!
 
 Esempi:
 
@@ -672,6 +674,8 @@ Esempi:
 5 % NULL → NULL
 NULL % 5 → NULL
 10 % 20 → 10
+-10 % 3 → -1
+10 % -3 → 1
 ```
 
 [![](../../img/operatori/resto1.png)](../../img/operatori/resto1.png)
