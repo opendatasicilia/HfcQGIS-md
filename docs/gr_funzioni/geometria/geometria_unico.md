@@ -208,7 +208,7 @@ Osservazione:
 
 ## $x_at
 
-Recupera una coordinata x per la geometria dell'elemento corrente.
+Recupera una coordinata x per la geometria dell'elemento corrente. **ATTENZIONE: Questa funzione è deprecata (>= QGIS 3.30). Si raccomanda di utilizzare la funzione sostitutiva x_at con la variabile @geometry**.
 
 Sintassi:
 
@@ -229,6 +229,31 @@ $x_at(1) → 12.6882843
 Osservazioni:
 
 Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre indici negativi significano che la conta inizia dalla l'ultimo vertice: -10 significa il 10-mo vertice partendo dall'ultimo vertice.
+
+---
+
+## x_at
+
+(>= QGIS 3.30)
+
+Recupera una coordinata x della geometria.
+
+Sintassi:
+
+- x_at(_<span style="color:red;">geometry</span>_,_<span style="color:red;">vertex</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">vertex</span>_ indice del vertice della geometria (gli indici partono da 0; i valori negativi si applicano a partire dall'ultimo indice, a partire da -1)
+
+Esempi:
+
+```
+x_at( geom_from_wkt( 'POINT(4 5)' ), 0 ) → 4
+```
+
+[![](../../img/geometria/_x_at/x_at330.png)](../../img/geometria/_x_at/x_at330.png)
 
 ---
 
@@ -257,7 +282,7 @@ Osservazione:
 
 ## $y_at
 
-Recupera una coordinata y per la geometria dell'elemento corrente.
+Recupera una coordinata y per la geometria dell'elemento corrente. **ATTENZIONE: Questa funzione è deprecata (>= QGIS 3.30). Si raccomanda di utilizzare la funzione sostitutiva x_at con la variabile @geometry**.
 
 Sintassi:
 
@@ -281,6 +306,30 @@ Le lineastring hanno un verso e quindi l'indice 0 indica il primo vertice mentre
 
 ---
 
+## y_at
+
+(>= QGIS 3.30)
+
+Recupera una coordinata y della geometria.
+
+Sintassi:
+
+- Y_at(_<span style="color:red;">geometry</span>_,_<span style="color:red;">vertex</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">vertex</span>_ indice del vertice della geometria (gli indici partono da 0; i valori negativi si applicano a partire dall'ultimo indice, a partire da -1)
+
+Esempi:
+
+```
+y_at( geom_from_wkt( 'POINT(4 5)' ), 0 ) → 5
+```
+
+[![](../../img/geometria/_y_at/y_at330.png)](../../img/geometria/_y_at/y_at330.png)
+
+---
 ## angle_at_vertex
 
 Restituisce l'angolo della bisettrice (angolo medio) della geometria per un vertice specifico di una geometria di tipo linestring. Gli angoli sono in gradi in senso orario dal nord.
@@ -2134,6 +2183,31 @@ Esempi:
 ```
 
 [![](../../img/geometria/m/m1.png)](../../img/geometria/m/m1.png)
+
+---
+
+## m_at
+
+(>= QGIS 3.30)
+
+Recupera una coordinata m della geometria, o un NULL se la geometria non ha valore m.
+
+Sintassi:
+
+- m_at(_<span style="color:red;">geometry</span>_,_<span style="color:red;">vertex</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">vertex</span>_ indice del vertice della geometria (gli indici partono da 0; i valori negativi si applicano a partire dall'ultimo indice, a partire da -1)
+
+Esempi:
+
+```
+m_at(geom_from_wkt('LineStringZM(0 0 0 0, 10 10 0 5, 10 10 0 0)'), 1) → 5
+```
+
+[![](../../img/geometria/m_at/m_at330.png)](../../img/geometria/m_at/m_at330.png)
 
 ---
 
@@ -4420,6 +4494,29 @@ z( geom_from_wkt( 'POINTZ(2 5 7)' ) ) → 7
 ```
 
 [![](../../img/geometria/z/z1.png)](../../img/geometria/z/z1.png)
+
+## z_at
+
+(>= QGIS 3.30)
+
+Recupera una coordinata z della geometria, o un NULL se la geometria non ha valore z.
+
+Sintassi:
+
+- z_at(_<span style="color:red;">geometry</span>_,_<span style="color:red;">vertex</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry</span>_ oggetto geometria
+* _<span style="color:red;">vertex</span>_ indice del vertice della geometria (gli indici partono da 0; i valori negativi si applicano a partire dall'ultimo indice, a partire da -1)
+
+Esempi:
+
+```
+z_at(geom_from_wkt('LineStringZ(0 0 0, 10 10 5, 10 10 0)'), 1) → 5
+```
+
+[![](../../img/geometria/z_at/z_at330.png)](../../img/geometria/z_at/z_at330.png)
 
 ---
 

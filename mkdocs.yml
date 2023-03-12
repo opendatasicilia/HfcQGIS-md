@@ -156,6 +156,7 @@ nav:
     - Novità:
        - Intro Novità:
            - Quadro sinottico: release/intro_novita.md
+           - QGIS 3.30 | 21/10/2022: release/novita_330.md
            - QGIS 3.28 | 21/10/2022: release/novita_328.md
            - QGIS 3.26 | 18/06/2022: release/novita_326.md
            - QGIS 3.24 | 18/02/2022: release/novita_324.md

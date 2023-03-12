@@ -57,6 +57,65 @@ Questa funzione inizia sempre da 0 con vettore shapefile da 1 con i database
 
 ---
 
+## is_attribute_valid
+
+(>= QGIS 3.30)
+
+Restituisce TRUE se un attributo di caratteristica specifico soddisfa tutti i vincoli.
+
+Sintassi:
+
+- is_attribute_valid (_<span style="color:red;">attribute</span>_[,_<span style="color:red;">feature</span>_][,_<span style="color:red;">layer</span>_][,_<span style="color:red;">strength</span>_])
+
+[ ] indica componenti opzionali
+
+Argomenti:
+
+* _<span style="color:red;">attribute</span>_ un nome di attributo
+* _<span style="color:red;">feature</span>_ Un elemento. Se non impostato, verrà utilizzato l'elemento corrente.
+* _<span style="color:red;">layer</span>_ Un layer vettoriale. Se non impostato, verrà utilizzato il layer corrente
+* _<span style="color:red;">strength</span>_ Impostare su 'hard' o 'soft' per restringere il campo a un tipo di vincolo specifico. Se non è impostata, la funzione restituirà FALSE se fallisce un vincolo hard o soft.
+
+Esempi:
+
+```
+is_attribute_valid('HECTARES') → TRUE se il valore dell'elemento corrente nel campo "ETTARI" soddisfa tutti i vincoli.
+is_attribute_valid('HOUSES',get_feature('my_layer', 'FID', 10), 'my_layer') → FALSE se il valore nel campo "HOUSES" dell'elemento con "FID"=10 in 'my_layer' non soddisfa tutti i vincoli.
+```
+
+[![](../../img/record_e_attributi/is_attribute_valid330.png)](../../img/record_e_attributi/is_attribute_valid330.png)
+
+---
+
+## is_feature_valid
+
+(>= QGIS 3.30)
+
+Restituisce TRUE se un attributo di caratteristica specifico soddisfa tutti i vincoli.
+
+Sintassi:
+
+- is_feature_valid (_[<span style="color:red;">feature</span>_][,_<span style="color:red;">layer</span>_][,_<span style="color:red;">strength</span>_])
+
+[ ] indica componenti opzionali
+
+Argomenti:
+
+* _<span style="color:red;">feature</span>_ Un elemento. Se non impostato, verrà utilizzato l'elemento corrente.
+* _<span style="color:red;">layer</span>_ Un layer vettoriale. Se non impostato, verrà utilizzato il layer corrente
+* _<span style="color:red;">strength</span>_ Impostare su 'hard' o 'soft' per restringere il campo a un tipo di vincolo specifico. Se non è impostata, la funzione restituirà FALSE se fallisce un vincolo hard o soft.
+
+Esempi:
+
+```
+is_feature_valid(strength:='hard') → TRUE se tutti i campi della funzione corrente soddisfano i relativi vincoli rigidi.
+is_feature_valid(get_feature('my_layer', 'FID', 10), 'my_layer') → FALSE se tutti i campi dell'elemento con "FID"=10 in 'my_layer' non soddisfano tutti i vincoli.
+```
+
+[![](../../img/record_e_attributi/is_feature_valid330.png)](../../img/record_e_attributi/is_feature_valid330.png)
+
+---
+
 ## attribute
 
 Restituisce un attributo da un elemento.
@@ -205,6 +264,30 @@ display_expression( 'streets', get_feature_by_id('streets', 1)) → L'espression
 display_expression('a_layer_id', $currentfeature, 'False') → L'espressione visualizzata del dato elemento non è stata valutata.
 ```
 [![](../../img/record_e_attributi/display_expression1.png)](../../img/record_e_attributi/display_expression1.png)
+
+---
+
+## feature_id
+
+(>= QGIS 3.30)
+
+Restituisce l'ID univoco di una funzione o NULL se la funzione non è valida.
+
+Sintassi:
+
+- feature_id(_<span style="color:red;">feature</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">feature</span>_ un oggetto elemento
+
+Esempi:
+
+```
+feature_id( @feature ) → l'ID dell'elemento corrente
+```
+
+[![](../../img/record_e_attributi/feature_id330.png)](../../img/record_e_attributi/feature_id330.png)
 
 ---
 

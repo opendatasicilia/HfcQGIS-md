@@ -82,3 +82,29 @@ layer_property('landsat','crs') → 'EPSG:4326'
 [![](../../img/layer_della_mappa/layer_property1.png)](../../img/layer_della_mappa/layer_property1.png)
 
 [^1]: <https://github.com/qgis/QGIS/pull/46505>
+
+## load_layer
+
+(solo per Processing >= QGIS 3.30)
+
+Carica un livello in base all'URI di origine e al nome del provider.
+
+Sintassi:
+
+* load_layer(_<span style="color:red;">uri</span>_,[,_<span style="color:red;">provider</span>_])
+
+[ ] contrassegna componenti opzionali
+
+Argomento:
+
+* _<span style="color:red;">uri</span>_ stringa URI di origine del livello
+* _<span style="color:red;">provider</span>_ Nome della sorgente di dati del layer
+
+Esempi:
+
+```
+layer_property(load_layer('c:/data/roads.shp', 'ogr'), 'feature_count') → conteggio delle caratteristiche dal layer vettoriale c:/data/roads.shp
+```
+
+[![](../../img/layer_della_mappa/load_layer330.png)](../../img/layer_della_mappa/load_layer330.png)
+
