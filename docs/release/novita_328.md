@@ -21,11 +21,11 @@ nuove espressioni:
 funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
 ~~Adds the $m, $z_at and $m_at expressions~~ | <https://github.com/qgis/QGIS/pull/49765> | CHIUSA!!!
-[make_valid](../gr_funzioni/geometria/geometria_unico.md/#make_valid) e [geometries_to_array](../gr_funzioni/array/array_unico.md/#geometries_to_array) | <https://github.com/qgis/QGIS/pull/49993> | nuove funzioni
-[concave_hull](../gr_funzioni/geometria/geometria_unico.md/#concave_hull) | <https://github.com/qgis/QGIS/pull/48865> | nuova funzione
+[make_valid](../gr_funzioni/geometria/geometria_unico.md#make_valid) e [geometries_to_array](../gr_funzioni/array/array_unico.md#geometries_to_array) | <https://github.com/qgis/QGIS/pull/49993> | nuove funzioni
+[concave_hull](../gr_funzioni/geometria/geometria_unico.md#concave_hull) | <https://github.com/qgis/QGIS/pull/48865> | nuova funzione
 ~~to_int~~ | <https://github.com/qgis/QGIS/pull/49990> | PR ancora aperta
-[shared_paths](../gr_funzioni/geometria/geometria_unico.md/#shared_paths) | <https://github.com/qgis/QGIS/pull/50080> | nuova funzione
-[@feature](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#currentfeature), [@id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#$id) e [@geometry](../gr_funzioni/geometria/geometria_unico.md/#geometry) | <https://github.com/qgis/QGIS/pull/50134> | nuove variabili
+[shared_paths](../gr_funzioni/geometria/geometria_unico.md#shared_paths) | <https://github.com/qgis/QGIS/pull/50080> | nuova funzione
+[@feature](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#currentfeature), [@id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#$id) e [@geometry](../gr_funzioni/geometria/geometria_unico.md#geometry) | <https://github.com/qgis/QGIS/pull/50134> | nuove variabili
 
 [![](../img/novita_328/img_02.png)](../img/novita_328/img_02.png)
 

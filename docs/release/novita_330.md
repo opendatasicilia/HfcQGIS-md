@@ -20,11 +20,11 @@ nuove espressioni:
 
 funzione              | link PR                                   | descrizione
 ----------------------|-------------------------------------------|------------
-[load_layer](../gr_funzioni/layer_mappa/layer_mappa_unico.md/#load_layer) (solo in Processing)| <https://github.com/qgis/QGIS/pull/51293> | nuova funzione
-[is_feature_valid()](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#is_feature_valid) e [is_attribute_valid()](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#is_attribute_valid) | <https://github.com/qgis/QGIS/pull/51303> | nuove funzioni
-[feature_id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md/#feature_id) | <https://github.com/qgis/QGIS/pull/51441> | nuova funzione
-~~[ltrim], [rtrim]()~~ | ~~<https://github.com/qgis/QGIS/pull/51786>~~ | nuove funzioni - ancora congelate!!!
-[x_at](../gr_funzioni/geometria/geometria_unico.md/#x_at), [y_at](../gr_funzioni/geometria/geometria_unico.md/#y_at), [z_at](../gr_funzioni/geometria/geometria_unico.md/#z_at) e [m_at](../gr_funzioni/geometria/geometria_unico.md/#m_at) | <https://github.com/qgis/QGIS/pull/50853> | nuove funzioni ($x_at() e $y_at() sono state deprecate)
+[load_layer](../gr_funzioni/layer_mappa/layer_mappa_unico.md#load_layer) (solo in Processing)| <https://github.com/qgis/QGIS/pull/51293> | nuova funzione
+[is_feature_valid()](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#is_feature_valid) e [is_attribute_valid()](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#is_attribute_valid) | <https://github.com/qgis/QGIS/pull/51303> | nuove funzioni
+[feature_id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#feature_id) | <https://github.com/qgis/QGIS/pull/51441> | nuova funzione
+~~[ltrim], [rtrim]~~ | ~~<https://github.com/qgis/QGIS/pull/51786>~~ | nuove funzioni - ancora congelate!!!
+[x_at](../gr_funzioni/geometria/geometria_unico.md#x_at), [y_at](../gr_funzioni/geometria/geometria_unico.md#y_at), [z_at](../gr_funzioni/geometria/geometria_unico.md#z_at) e [m_at](../gr_funzioni/geometria/geometria_unico.md#m_at) | <https://github.com/qgis/QGIS/pull/50853> | nuove funzioni ($x_at() e $y_at() sono state deprecate)
 
 
 ## Tabella degli attributi
