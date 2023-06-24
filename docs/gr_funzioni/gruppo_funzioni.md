@@ -27,7 +27,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Recente**](./recente/recente.md) |(1/1)| Elenca le ultime 20 espressioni utilizzate
 [**Record e attributi**](./record_e_attributi/record_e_attributi_unico.md)| (17/17)|Questo gruppo contiene funzioni che operano sugli identificativi dei record.|aggiornate a<br> **QGIS 3.30**
 [**Relazioni**](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
-[**Stringhe di testo**](./stringhe_di_testo/stringhe_di_testo_unico.md)|(23/23)| Questo gruppo contiene le funzioni che operano sulle stringhe es. sostituzione, conversione in maiuscolo.|aggiornate a<br> **QGIS 3.14**
+[**Stringhe di testo**](./stringhe_di_testo/stringhe_di_testo_unico.md)|(25/25)| Questo gruppo contiene le funzioni che operano sulle stringhe es. sostituzione, conversione in maiuscolo.|aggiornate a<br> **QGIS 3.32**
 [**Variabili**](./variabili/variabili.md) |(4/65+) |Questo gruppo contiene variabili dinamiche che possono essere inserite nelle tue espressioni.|>= **QGIS 2.12** - variano in funzione del contesto
 
 ![](../img/gruppi_funzioni.png)

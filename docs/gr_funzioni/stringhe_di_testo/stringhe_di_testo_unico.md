@@ -352,6 +352,30 @@ coalesce("BARRATO",'')
 
 ---
 
+## ltrim
+
+Rimuove la stringa più lunga contenente solo i caratteri specificati (un carattere spazio come impostazione predefinita) dall'inizio della stringa.
+
+Sintassi:
+
+- ltrim(_<span style="color:red;">string</span>[, <span style="color:red;">characters=' '</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">string</span>_ stringa da troncare
+* _<span style="color:red;">characters</span>_ caratteri da troncare
+
+Esempi:
+
+```
+ltrim(' hello world ') → 'hello world '
+ltrim('zzzytest', 'xyz') → 'test'
+```
+
+[![](../../img/stringhe_di_testo/ltrim/ltrim01.png)](../../img/stringhe_di_testo/ltrim/ltrim01.png)
+
+---
+
 ## regexp_match
 
 Restituisce la prima posizione di corrispondenza che soddisfa un'espressione regolare all'interno di una stringa, o 0 se la sottostringa non viene trovata.
@@ -642,6 +666,31 @@ rpad('Hello', 3, 'x') → 'Hel'
 [![](../../img/stringhe_di_testo/rpad/rpad1.png)](../../img/stringhe_di_testo/rpad/rpad1.png)
 
 ---
+
+## rtrim
+
+Rimuove la stringa più lunga contenente solo i caratteri specificati (un carattere spazio come impostazione predefinita) dalla fine della stringa.
+
+Sintassi:
+
+- rtrim(_<span style="color:red;">string</span>[, <span style="color:red;">characters=' '</span>]_)
+
+Argomenti:
+
+* _<span style="color:red;">string</span>_ stringa da troncare
+* _<span style="color:red;">characters</span>_ caratteri da troncare
+
+Esempi:
+
+```
+rtrim(' hello world ') → ' hello world'
+rtrim('testxxzx', 'xyz') → 'test'
+```
+
+[![](../../img/stringhe_di_testo/rtrim/rtrim01.png)](../../img/stringhe_di_testo/ltrim/rtrim01.png)
+
+---
+
 
 ## strpos
 

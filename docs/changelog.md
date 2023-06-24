@@ -77,4 +77,5 @@ data       | descrizione
 10/11/2022 | PR Corregge refusi by Andrea Giudiceandrea [PR](https://github.com/opendatasicilia/HfcQGIS-md/pull/76)
 17/02/2023 | aggiunto [82esimo](esempi/estrarre_numeri_iniziali.md) esempio
 12/03/2023 | aggiunto le novità rilevanti della [QGIS 3.30 's-Hertogenbosch](release/novita_330.md)
+24/06/2023 | aggiunto le novità rilevanti della [QGIS 3.32 Lima](release/novita_332.md)
 
