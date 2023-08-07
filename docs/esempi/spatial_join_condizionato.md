@@ -12,7 +12,7 @@ L’unione spaziale di attributi è un problema frequente in ambito GIS - si tra
 Il quesito nasce da [questa](https://twitter.com/spatialthoughts/status/1684895102001614848) challenge, proposta da [Ujaval Gandhi](https://twitter.com/spatialthoughts) e chiede:
 
 ```
-Hai uno strato poligonale di aree urbane e uno strato puntuale di luoghi. Puoi fare una join spaziale condizionale per aggiungere il nome del luogo all'interno del poligono con la popolazione più alta? 
+Hai uno strato poligonale di aree urbane e uno strato puntuale di luoghi.<br> Etichettare il poligono con il nome della città con popolazione maggiore usando<br> una spatial join con condizione? 
 ```
 
 [![](https://pbs.twimg.com/media/F2HzGagbcAA8NpB?format=jpg&name=large)](https://pbs.twimg.com/media/F2HzGagbcAA8NpB?format=jpg&name=large)
@@ -30,7 +30,7 @@ array_get(aggregate(
 ```
 
 nel linguaggio umano:<br>
-Ordina in modo crescente (oreder_by) la popolazione relativa ai punti che ricadono dentro (aggregate) i poligoni ed estrai il nome della città.
+Ordina in modo crescente (_order_by_) la popolazione relativa ai punti che ricadono dentro (_aggregate_) i poligoni ed estrai il nome della città.
 dove:
 - array_agg: crea un array che contiene i nomi delle città dentro i poligoni;
 - il filtro ordina i punti usando la popolazione
@@ -40,7 +40,7 @@ video youtube: <https://youtu.be/qpiFT8UHhwM>
 ## Soluzione proporta da Totò Fiandaca
 
 nel linguaggio umano:<br>
-Crea una variabile e la popola con il valore massimo della popolazione dei punti che ricadono dentro ogni poligono (ma non so ancora il nome della città), quindi ripeto la ricerca creando una mappa (map("name","pop_max")) e tra le varie mappe, prendo quella con popolazione maggiore (quest'ultima ricerca la fa array_find).
+Crea una variabile e la popola con il valore massimo della popolazione dei punti che ricadono dentro ogni poligono (ma non so ancora il nome della città), quindi ripeto la ricerca creando una mappa (_map("name","pop_max")_) e tra le varie mappe, prendo quella con popolazione maggiore (quest'ultima ricerca la fa array_find).
 
 ```
 with_variable('max',
@@ -54,6 +54,20 @@ map_akeys(
 
 video youtube: <https://youtu.be/NOgDku2S9ws>
 
+### posizionare l'etichetta
+
+Per posizionare l'etichetta nel corretto punto, corrispondente al punto della città con popolazione maggiore, occorre usare questa espressione nel tab `posizione` Generatore geometria:
+
+```
+with_variable('max',
+  overlay_contains(
+  layer:='ne_10m_populated_places_simple',expression:= "pop_max"),
+overlay_contains(
+  layer:='ne_10m_populated_places_simple',
+  expression:= $geometry)[array_find(@max,array_max(@max))])
+```
+
+[![](../img/esempi/spatial_join_condizionato/img01.png)](../img/esempi/spatial_join_condizionato/img01.png)
 ---
 
 Funzioni e variabili utilizzate:
