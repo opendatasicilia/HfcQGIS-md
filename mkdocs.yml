@@ -286,6 +286,7 @@ nav:
            - Seleziona poligoni con max area sovrapposta: esempi/selezionare_poligoni_max_area_sovrapposta.md
            - Tracciare puntia distanza prefissata lungo una linea: esempi/tracciare_punti_adistanzaprefissata_lungo_linea.md
            - Estrarre i numeri iniziali di un testo: esempi/estrarre_numeri_iniziali.md
+           - Spatial join con condizione: esempi/spatial_join_condizionato.md
         - Provaci tu: mettiti_alla_prova.md
 
     - Corsi di Formazione: 

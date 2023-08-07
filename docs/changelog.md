@@ -78,4 +78,4 @@ data       | descrizione
 17/02/2023 | aggiunto [82esimo](esempi/estrarre_numeri_iniziali.md) esempio
 12/03/2023 | aggiunto le novità rilevanti della [QGIS 3.30 's-Hertogenbosch](release/novita_330.md)
 24/06/2023 | aggiunto le novità rilevanti della [QGIS 3.32 Lima](release/novita_332.md)
-
+07/08/2023 | aggiunto [83esimo](esempi/spatial_join_condizionato.md) esempio
