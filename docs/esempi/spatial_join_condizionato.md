@@ -11,9 +11,9 @@ L’unione spaziale di attributi è un problema frequente in ambito GIS - si tra
 
 Il quesito nasce da [questa](https://twitter.com/spatialthoughts/status/1684895102001614848) challenge, proposta da [Ujaval Gandhi](https://twitter.com/spatialthoughts) e chiede:
 
-```
-Hai uno strato poligonale di aree urbane e uno strato puntuale di luoghi.<br> Etichettare il poligono con il nome della città con popolazione maggiore usando<br> una spatial join con condizione? 
-```
+
+Hai uno strato poligonale di aree urbane e uno strato puntuale di luoghi.Etichettare il poligono con il nome della città con popolazione maggiore usando una spatial join con condizione? 
+
 
 [![](https://pbs.twimg.com/media/F2HzGagbcAA8NpB?format=jpg&name=large)](https://pbs.twimg.com/media/F2HzGagbcAA8NpB?format=jpg&name=large)
 
