@@ -51,6 +51,18 @@ map_akeys(
     layer:='ne_10m_populated_places_simple',
     expression:= map("name","pop_max"))[array_find(@max,array_max(@max))])[0])
 ```
+oppure:
+
+```
+with_variable('max',
+  overlay_contains(
+    layer:='ne_10m_populated_places_simple',expression:= "pop_max"),
+attribute(overlay_contains(
+  layer:='ne_10m_populated_places_simple',
+  expression:= @feature)[array_find(@max,array_max(@max))],'name'))
+```
+
+in questo caso ho usato la variabile `@faeture` che contiene l'intero rigo (compreso di geometria) dell'elemento valutato; quindi, usando `attribute` posso richiamare qualsiasi attributo delle riga.
 
 video youtube: <https://youtu.be/NOgDku2S9ws>
 
