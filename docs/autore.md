@@ -112,6 +112,7 @@ Anno | descrizione | link
 2022 | FIELD CALC DI QGIS - Che cosa è e come usarlo: applicato all'idraulica e/o all'idrologia | <https://github.com/pigreco/field_calc_idraulica>
 2022 | DAL CAD AL GIS: MAPPE CATASTALI, DISEGNO CAD E TAVOLE DI PROGETTO | <https://github.com/pigreco/workshop-estate-gis-2022>
 2022 | QGIS nel mondo e in Italia - Planetek Italia - Bari | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vSnrqi-eHL9jRGIShMZh3mxOeGyuKw33nSz0PmqySJoU-fdy10s8MRZUYdxWvXZqBIeVQ1s6ZwG9YHi/pub?start=false&loop=false&delayms=5000)
+2023 | QGIS AVANZATO_3 TIPS PER LE ANALISI GEOGRAFICHE E LA CARTOGRAFIA | <https://github.com/pigreco/workshop-estate-gis-2023>
 
 ## Sponsoring
 
