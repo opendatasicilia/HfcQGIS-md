@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 <style>
-.md-search-result .md-typeset h1 {display: block; important; }
+.md-search-result .md-typeset h1 {display: block! important; padding-top: 0.5rem;}
 .md-typeset .md-content__button {display: none!important; }
 .md-footer__inner {   display: none!important; }
 .md-typeset h1, .md-typeset h2 {display: none}
