@@ -5,9 +5,10 @@ hide:
   - toc
 ---
 <style>
+.md-search-result .md-typeset h1 {display: block; important; }
 .md-typeset .md-content__button {display: none!important; }
 .md-footer__inner {   display: none!important; }
-.md-typeset h1, .md-typeset h2 {   display: none!important; }
+.md-typeset h1, .md-typeset h2 {display: none}
 .md-typeset h5 {text-transform: none!important; color: #212529!important;}
 .md-typeset h3 { font-weight: bold!important; color: #212529!important;}
 </style>
