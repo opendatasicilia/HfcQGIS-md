@@ -6,7 +6,7 @@ tags:
 
 # Parlano di noi
 
-* **25/05/2023** [Benedetta Vanni su LinkedIn](https://www.linkedin.com/in/benedetta-vanni-9a99b325/)
+* **25/05/2023** [Benedetta Vanni su LinkedIn](https://www.linkedin.com/posts/benedetta-vanni-9a99b325_qgis-activity-7100851524636979200-1pb6?utm_source=share&utm_medium=member_desktop)
 
 ![](./img/parlano_di_noi/linkedIn_01.png)
 
