@@ -6,6 +6,15 @@ tags:
 
 # Parlano di noi
 
+* **25/05/2023** [Benedetta Vanni su LinkedIn](https://www.linkedin.com/posts/benedetta-vanni-9a99b325_qgis-activity-7100851524636979200-1pb6?utm_source=share&utm_medium=member_desktop)
+
+![](./img/parlano_di_noi/linkedIn_01.png)
+
+* **25/05/2023** [Ujaval Gandhi su YouTube](https://www.youtube.com/watch?v=Nm1TeYG4euk&t=2159s)
+
+![](./img/parlano_di_noi/youtube_01.png)
+<https://docs.google.com/presentation/d/1ebb8P1t0V8xoNBva3mWLB9XBRSDS42vekSYv5uUDa3I/edit#slide=id.g22dbcfdf67a_0_2>
+
 * **21/05/2022** [Andrea Borruso su Twitter](https://twitter.com/aborruso/status/1527957697848561664)
 
 ![](./img/parlano_di_noi/gif.gif)
