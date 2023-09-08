@@ -87,6 +87,21 @@ plugins:
 # - autolinks
 # - macros 
 
+- blog:
+    authors_file: blog/.authors.yml
+    blog_toc: false
+    post_url_format: "{date}/{slug}"
+    post_slugify_separator: "-"
+    post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+    post_excerpt: optional
+    archive_name: Archivio
+    categories_slugify_separator: "-"
+    categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+
 - rss:
     abstract_chars_count: 160
     date_from_meta:
@@ -94,7 +109,7 @@ plugins:
         as_update: false
         datetime_format: "%d-%m-%Y"
       # datetime_format: "%Y-%m-%d"
-    image: https://materialmkdocs-gb.readthedocs.io/it/latest/img/hfc_rss.png
+    image: https://raw.githubusercontent.com/opendatasicilia/HfcQGIS-md/main/docs/img/hfc_rss.png
     feed_ttl: 1440
     length: 20
     pretty_print: false
@@ -110,9 +125,18 @@ markdown_extensions:
     permalink: ↵
 - meta
 - mkdocs-click
-- pymdownx.highlight
-- pymdownx.superfences
-- pymdownx.tabbed
+- pymdownx.highlight:
+     anchor_linenums: true
+- pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+#       - name: vegalite
+#         class: vegalite
+#         format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+- pymdownx.tabbed:
+      alternate_style: true
 - pymdownx.critic:
       mode: view
 - pymdownx.betterem:
@@ -124,6 +148,7 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - pymdownx.tasklist:
+      custom_checkbox: true
       clickable_checkbox: true
 - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -297,13 +322,15 @@ nav:
         - Supporter: supporter.md
         - Parlano di noi: parlano_di_noi.md
         # - Contribuire a HfcQGIS: contributing.md
-
-    - Sostieni:
-        - Contribuire: contributing.md
-        - Da documentare: gr_funzioni/da_documentare.md
+        - Sostieni:
+          - Contribuire: contributing.md
+          - Da documentare: gr_funzioni/da_documentare.md
 
     #- Sitografia: sitografia_field_calc.md
-
+    
+    - Blog: 
+       - blog/index.md
+    
     - About:
         - OpenDataSicilia: ods.md
         - Autore HfcQGIS: autore.md
@@ -320,3 +347,4 @@ nav:
       #  - Informativa privacy estesa: privacy.md
     # - Webmaster: webmaster/gbvitrano.md
   # - Tags: tags.md
+  
