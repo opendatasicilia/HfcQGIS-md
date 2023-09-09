@@ -14,7 +14,7 @@ tags:
 
 Andrea e Gianni erano due amici inseparabili. Si erano conosciuti all'università, dove studiavano entrambi informatica. Andrea era molto bravo con la riga di comando, mentre Gianni era un bravo web master.
 
-Sono due belle persone, preparate e molto disponibili. Erano sempre pronti ad aiutare gli altri, e non si tiravano mai indietro quando c'era bisogno.
+Sono due belle persone, preparate e molto disponibili. Erano sempre pronti ad aiutare gli altri, e non si tiravano mai indietro quando c'era bisogno.<!-- more -->
 
 Un giorno, Andrea e Gianni erano in un bar a parlare di tecnologia. Andrea stava raccontando a Gianni di un nuovo progetto su cui stava lavorando, un sistema operativo open source.
 
@@ -27,17 +27,3 @@ Dopo alcuni mesi, il progetto era finalmente pronto. Andrea e Gianni erano molto
 Il progetto fu un successo immediato. Gli utenti apprezzarono la sua semplicità e la sua efficienza.
 
 Andrea e Gianni erano felici di vedere che il loro lavoro era stato apprezzato. Erano anche orgogliosi di essere riusciti a realizzare un progetto così importante insieme.
-
-**Fine**
-<!-- more -->
-**Bonus**
-
-Un giorno, Andrea e Gianni erano invitati a un evento di tecnologia. Andrea era vestito con un completo elegante, mentre Gianni era vestito con un jeans e una maglietta.
-
-Alcuni degli altri invitati iniziarono a deridere Gianni per il suo modo di vestire. Andrea, però, non ci pensò due volte e intervenne in sua difesa.
-
-Andrea disse agli altri invitati che non era importante come Gianni si vestiva, ma che era importante il suo talento e la sua passione per la tecnologia.
-
-Gli altri invitati, imbarazzati, si scusarono con Gianni. Andrea e Gianni continuarono a parlare di tecnologia, e si divertirono molto insieme.
-
-Grazie per essere qui e benvenuti nel nuovo blog di HfcQGIS!
