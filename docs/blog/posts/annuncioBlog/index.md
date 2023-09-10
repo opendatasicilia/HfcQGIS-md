@@ -12,6 +12,8 @@ tags:
 
 # HfcQGIS e la sezione Blog
 
+## Introduzione
+
 Benvenuti nel nuovo blog di **HfcQGIS**!
 
 **HfcQGIS** è la guida al calcolatore di campi di **QGIS** per la condivisione di conoscenze ed ora ha il suo **Blog**!!!.
