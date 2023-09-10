@@ -18,14 +18,14 @@ HfcQGIS è la guida al calcolatore di campi di QGIS per la condivisione di conos
 
 HfcQGIS è un sito web nato nel 2018 da un'idea di Totò Fiandaca e realizzato con la comunità OpenDataSicilia. L'obiettivo iniziale del sito era quello di fornire una guida completa al calcolatore di campi, un potente strumento che consente di eseguire calcoli sui dati geografici.
 
-Negli anni, HfcQGIS si è evoluto in una piattaforma di condivisione di contenuti per la comunità GIS. Il sito offre ora una serie di risorse, tra cui:
+Negli anni, HfcQGIS si è evoluto in una piattaforma di condivisione di contenuti per la comunità GIS. Il sito offre ora una serie di risorse, tra cui:<!-- more -->
 
 * [Guida al calcolatore di campi](https://hfcqgis.opendatasicilia.it/): una raccolta completa di funzioni e istruzioni per l'utilizzo del calcolatore di campi.
 * [Esempi svolti](https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/): una raccolta di esempi, tutorial e articoli su QGIS.
 * [Discussions](https://github.com/opendatasicilia/HfcQGIS-md/discussions): un forum di discussione per la comunità QGIS.
 * [Blog](https://hfcqgis.opendatasicilia.it/blog/): un blog con articoli su argomenti GIS (la novità attuale!!!).
 
-L'ultima novità di HfcQGIS è la possibilità di scrivere dei blog rimanendo nello stesso spazio. Grazie a un plugin sviluppato nel tema [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) da [squidfunk](https://github.com/squidfunk), gli utenti possono creare e gestire i propri blog direttamente sul sito.
+L'ultima novità di HfcQGIS è la possibilità di scrivere dei blog rimanendo nello stesso spazio. Grazie a un plugin sviluppato nel tema [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) da [Martin Donath](https://github.com/squidfunk), gli utenti possono creare e gestire i propri blog direttamente sul sito.
 
 Questa nuova funzionalità rende HfcQGIS una piattaforma ancora più ricca e versatile. Il sito è ora un punto di riferimento per la comunità QGIS, sia per l'apprendimento che per la condivisione di conoscenze.
 
