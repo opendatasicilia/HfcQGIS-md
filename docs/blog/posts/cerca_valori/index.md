@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2023-09-10
 authors:
   - pigreco
@@ -10,6 +10,7 @@ categories:
 tags:
   - blog
   - cerca_valori
+  - get_feature
 ---
 
 # Come cercare un valore in funzione di un altro
