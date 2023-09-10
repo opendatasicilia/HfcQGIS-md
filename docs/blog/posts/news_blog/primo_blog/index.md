@@ -10,7 +10,7 @@ tags:
   - blog
 ---
 
-## Andrea e Gianni, i due amici informatici
+# Andrea e Gianni, i due amici informatici
 
 Andrea e Gianni erano due amici inseparabili. Si erano conosciuti all'università, dove studiavano entrambi informatica. Andrea era molto bravo con la riga di comando, mentre Gianni era un bravo web master.
 
