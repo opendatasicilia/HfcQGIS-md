@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2023-09-12
 authors:
   - pigreco
@@ -16,7 +16,7 @@ tags:
 
 ## Introduzione
 
-Alcune volte nasce l'esigenza di cercare un valore, in una tabella in funzione di un altro valore presente nella stessa tabella, un po' come fa la funzione `cerca verticale` di Excel, e utilizzarlo in un altro layer.
+Alcune volte nasce l'esigenza di cercare un valore in una tabella in funzione di un altro valore presente nella stessa tabella, un po' come fa la funzione `cerca verticale` di Excel, e utilizzarlo in un altro layer.
 
 !!! Abstract "Funzione"
     **La funzione che permette di fare questa magia è la funzione [get_feature](../../../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#get_feature)**
