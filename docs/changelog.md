@@ -79,4 +79,6 @@ data       | descrizione
 12/03/2023 | aggiunto le novità rilevanti della [QGIS 3.30 's-Hertogenbosch](release/novita_330.md)
 24/06/2023 | aggiunto le novità rilevanti della [QGIS 3.32 Lima](release/novita_332.md)
 07/08/2023 | aggiunto [83esimo](esempi/spatial_join_condizionato.md) esempio
-08/09/2023 | aggiunta sezione [Blog](\blog\posts\index.md)
+08/09/2023 | aggiunta sezione [Blog](https://hfcqgis.opendatasicilia.it/blog/)
+10/09/2023 | primo post del blog [HfcQGIS e la sezione Blog](https://hfcqgis.opendatasicilia.it/blog/2023/09/10/hfcqgis-e-la-sezione-blog/)
+11/09/2023 | secondo post del blog [Come cercare un valore in funzione di un altro](https://hfcqgis.opendatasicilia.it/blog/2023/09/12/come-cercare-un-valore-in-funzione-di-un-altro/)
