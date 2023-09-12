@@ -47,7 +47,7 @@
 .md-source__repository {
   font-family: "Open Sans" /* "TruenoLight" */,  /*Oswald,*/ sans-serif;
   /* text-transform: uppercase!important;  */
- text-transform:  none!important; 
+   text-transform:  none!important; 
   font-weight: bold;
 }
 
@@ -57,19 +57,28 @@
   font-weight: bold;
 }
 
-.md-typeset h1, .md-tabs, .md-header-nav__topic, .md-sidebar, .md-ellipsis {
+.md-typeset h1, .md-tabs, .md-header-nav__topic, .md-sidebar {
     font-family: "Open Sans" /* "TruenoLight" */ , /*Oswald,*/ sans-serif;
-    /* text-transform: uppercase!important;  */
-    font-weight: bold;
-	font-size: .9rem;
+    /* text-transform: uppercase!important;  
+	font-size: .9rem;font-weight: bold;*/
+    }
+	
+.md-typeset h1 {
+    /*font-weight: 300;*/
+    letter-spacing: -.01em;
+	font-size: 1.25rem; font-weight: bold;
 }
+.md-nav__list {font-size: .7rem; font-weight: bold;}
+	
+.md-ellipsis {font-size: .7rem; font-weight: bold;}
+
 /*testo titolo paragrafo funzioni*/
-/*.md-typeset h1,*/ .md-typeset h2 {
+.md-typeset h2 {
     font-weight: bold;
     letter-spacing: -.01em;
 	color: #589632;
     /*color: var(--md-accent-fg-color);*/
-	font-size: 1.1rem;
+	font-size: 1rem; font-weight: bold;
 }
 .md-typeset h3 {
 	font-weight: bold;
@@ -80,7 +89,7 @@
 
 
 .md-tabs__link {
-    font-size: .75rem !important;
+    font-size: .75rem !important;     font-weight: bold;
 }
 .md-tabs__link--active {
     font-weight: bold !important;
