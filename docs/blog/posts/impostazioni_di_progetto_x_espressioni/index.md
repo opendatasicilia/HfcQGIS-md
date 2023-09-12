@@ -20,7 +20,7 @@ tags:
 
 ## Introduzione
 
-Alcune funzioni di **QGIS** dipendono dalle impostazioni di progetto, questo significa che le stesse funzioni in progetti diversi possono restituire valori diversi. In questo post vedremo le principlai funzioni di QGIS da attenzionare.
+Alcune funzioni di **QGIS** dipendono dalle impostazioni di progetto, questo significa che le stesse funzioni in progetti diversi possono restituire valori diversi. In questo post vedremo le principali funzioni di **QGIS** da attenzionare.
 
 !!! Abstract "esempio"
     **$area _<span style="color:red;"><></span>_ area(@geometry)**
@@ -39,11 +39,11 @@ Se l'_Ellissoide_ è attivo, i calcoli saranno fatti secondo la selezione, se in
 
 ## Lista funzioni
 
-sotto una breve lista di funzioni che dipendono dalle impostazioni di progetto:
+sotto una breve lista di funzioni che dipendono dalle impostazioni dell'ellissoide di progetto:
 
-- $area
-- $perimeter
-- $length
+- [$area](../../../gr_funzioni/geometria/geometria_unico.md#area)
+- [$perimeter](../../../gr_funzioni/geometria/geometria_unico.md#perimeter)
+- [$length](../../../gr_funzioni/geometria/geometria_unico.md#length)
 
 ## Esempi
 
@@ -65,3 +65,7 @@ Impostazioni dell'Ellissoide di Progetto spento:
 
 **NOTA BENE**: Anche le _**Unità di misura**_ influenzano il risultato, quindi occhio a come sono impostate: perché se fossero impostare in _chilomentri_ e _chilometri quadrati_, le relative funzioni restituirebbero valori con queste unità!.
 
+## RIFERIMENTI
+
+- [QGIS](https://www.qgis.org/it/site/)
+- [DOCS QGIS](https://www.qgis.org/it/docs/index.html)
