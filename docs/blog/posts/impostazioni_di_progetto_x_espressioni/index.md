@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2023-09-13
 authors:
   - pigreco
@@ -20,7 +20,7 @@ tags:
 
 ## Introduzione
 
-Alcune funzioni di QGIS dipendono dalle impostazioni di progetto, questo significa che le stesse funzioni in progetti diversi possono restituire valori diversi. In questo post vedremo le principlai funzioni di QGIS da attenzionare.
+Alcune funzioni di **QGIS** dipendono dalle impostazioni di progetto, questo significa che le stesse funzioni in progetti diversi possono restituire valori diversi. In questo post vedremo le principlai funzioni di QGIS da attenzionare.
 
 !!! Abstract "esempio"
     **$area _<span style="color:red;"><></span>_ area(@geometry)**
@@ -63,5 +63,5 @@ Impostazioni dell'Ellissoide di Progetto spento:
 
 [![](./img_03.png)](./img_03.png)
 
-**NOTA BENE**: Anche le Unità di misura influenzano il risultato, quindi occhio a come sono impostate: perché se fossero impostare in chilomentri e chilometri quadrati, le relative funzioni restituirebbero valori con queste unità!.
+**NOTA BENE**: Anche le _**Unità di misura**_ influenzano il risultato, quindi occhio a come sono impostate: perché se fossero impostare in _chilomentri_ e _chilometri quadrati_, le relative funzioni restituirebbero valori con queste unità!.
 
