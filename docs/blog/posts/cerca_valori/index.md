@@ -5,7 +5,7 @@ date: 2023-09-12
 authors:
   - pigreco
 categories:
-  - Espressioni
+  - espressioni
 tags:
   - blog
   - cerca_valori
