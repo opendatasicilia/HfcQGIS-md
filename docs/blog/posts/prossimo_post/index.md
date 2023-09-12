@@ -24,5 +24,5 @@ scrivi qualcosa...
 <!-- more -->
 
 
-![](./img_01.png)
+[![](./img_01.png)](./img_01.png)
 
