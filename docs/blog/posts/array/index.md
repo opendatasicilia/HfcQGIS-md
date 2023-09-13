@@ -24,6 +24,24 @@ Il gruppo **Array** è stato introdotto in QGIS nella [prima versione di QGIS 3.
 
 <!-- more -->
 
+<!-- TOC -->
+
+- [Array nel field calc](#array-nel-field-calc)
+  - [Introduzione](#introduzione)
+  - [Cosa sono gli Array](#cosa-sono-gli-array)
+  - [Caratteristiche degli Array in QGIS](#caratteristiche-degli-array-in-qgis)
+  - [Tabella degli attributi](#tabella-degli-attributi)
+  - [Gruppo Array nel Field Calc](#gruppo-array-nel-field-calc)
+  - [Esempi](#esempi)
+    - [crea un array](#crea-un-array)
+    - [creare array con tre valori di testo](#creare-array-con-tre-valori-di-testo)
+    - [Calcolare il valore max](#calcolare-il-valore-max)
+    - [Ordinare l'array dell'esempio precendete](#ordinare-larray-dellesempio-precendete)
+    - [Creare un array contenente una sequenza di numeri](#creare-un-array-contenente-una-sequenza-di-numeri)
+    - [aggiungerò altri esempi, tornate spesso per leggerli!!!](#aggiungerò-altri-esempi-tornate-spesso-per-leggerli)
+
+<!-- /TOC -->
+
 [![](./img_01.png)](./img_01.png)
 
 ## Cosa sono gli Array
@@ -47,6 +65,8 @@ La possibilità di accedere agli elementi attraverso un indice è la principale 
 [![](./img_03.png)](./img_03.png)
 
 [WikiPedia](https://it.wikipedia.org/wiki/Array)
+
+↑[torna su](#array-nel-field-calc)↑
 
 ## Caratteristiche degli Array in QGIS
 
@@ -85,9 +105,13 @@ questo è utile per due motivi:
 1. semplifica;
 2. dentro le parentesi quadre possiamo mettere altre espressioni e/o variabili `(array(1,2,3,4,5,6)[array_length(array(1,2,3,4,5,6))/2])`
 
+↑[torna su](#array-nel-field-calc)↑
+
 ## Esempi
 
-1. crea un [array](../../../gr_funzioni/array/array_unico.md#array) con i valori numerici 1,2 e 3
+### crea un array
+
+[array](../../../gr_funzioni/array/array_unico.md#array) con i valori numerici 1,2 e 3
 
 ```
 array (1,2,3)
@@ -95,7 +119,9 @@ array (1,2,3)
 
 [![](./es_01.png)](./es_01.png)
 
-2. creare array con tre valori di testo Andrea, Gianni e Toto
+### creare array con tre valori di testo
+
+Andrea, Gianni e Toto
 
 ```
 array ('Andrea', 'Gianni', 'Totò')
@@ -117,7 +143,9 @@ _**ricorda che l'indice degli array parte da 0**_
 - array ('Andrea', 'Gianni', 'Totò')[-1] ---> 'Totò'
 ```
 
-3. Calcolare il valore massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
+### Calcolare il valore max
+
+massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
 
 ```
 - array_max (array(12,4,23,56,31)) ---> 56
@@ -126,7 +154,7 @@ _**ricorda che l'indice degli array parte da 0**_
 ```
 [![](./es_03.png)](./es_03.png)
 
-4. Ordinare l'array dell'esempio precendete
+### Ordinare l'array dell'esempio precendete
 
 ```
 - array_sort(array(12,4,23,56,31), ascending:=true) ---> [ 4, 12, 23, 31, 56 ]
@@ -134,7 +162,7 @@ _**ricorda che l'indice degli array parte da 0**_
 ```
 [![](./es_04.png)](./es_04.png)
 
-5. Supponiamo di avere un vettore o una tabella attributi qualsiasi, sotto un esempio:
+1. Supponiamo di avere un vettore o una tabella attributi qualsiasi, sotto un esempio:
 
 id | valori | descrizione
 ---|-------:|-----------
@@ -163,7 +191,7 @@ array_agg ("descrizione")
 
 [![](./es_052.png)](./es_052.png)
 
-6. Creare un array contenente una sequenza di numeri
+### Creare un array contenente una sequenza di numeri
 
 ```
 generate_series(1,10,2)
@@ -171,7 +199,7 @@ generate_series(1,10,2)
 
 [![](./es_06.png)](./es_06.png)
 
-7. Lunghezza di un array
+1. Lunghezza di un array
 
 è possibile calcolare la lunghezza di un array, ovvero, quanti vaolori contiene:
 
@@ -179,4 +207,6 @@ generate_series(1,10,2)
 - array_length(generate_series(1,100,3)) ---> 34
 - array_length(array_agg ("descrizione")) ---> 7
 ```
- aggiungerò altri esempi, tornate spesso per leggerli!!!
+↑[torna su](#array-nel-field-calc)↑
+
+### aggiungerò altri esempi, tornate spesso per leggerli!!!
