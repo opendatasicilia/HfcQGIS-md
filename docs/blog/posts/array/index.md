@@ -1,7 +1,7 @@
 ---
 social_image: img/card_social/hfc_blog.png
 draft: true
-date: 2023-09-144
+date: 2023-09-14
 authors:
   - pigreco
 categories:
@@ -180,4 +180,3 @@ generate_series(1,10,2)
 - array_length(array_agg ("descrizione")) ---> 7
 ```
  aggiungerò altri esempi, tornate spesso per leggerli!!!
- 
