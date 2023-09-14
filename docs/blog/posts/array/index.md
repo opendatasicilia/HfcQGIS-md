@@ -135,7 +135,7 @@ _**ricorda che l'indice degli array parte da 0**_
 
 ```
 - array (1,2,3)[1] ---> 2
-- array ('Andrea', 'Gianni', 'Totò')[2] ---> 'Gianni'
+- array ('Andrea', 'Gianni', 'Totò')[-2] ---> 'Gianni'
 - array (1,2,3)[-1] ---> 3
 - array (1,2,3)[2] ---> 3
 - array ('Andrea', 'Gianni', 'Totò')[0] ---> 'Andrea'
