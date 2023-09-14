@@ -68,7 +68,6 @@ La possibilità di accedere agli elementi attraverso un indice è la principale 
 
 [WikiPedia](https://it.wikipedia.org/wiki/Array)
 
-↑[torna su](#array-nel-field-calc)↑
 
 ## Caratteristiche degli Array in QGIS
 
@@ -107,7 +106,6 @@ questo è utile per due motivi:
 1. semplifica;
 2. dentro le parentesi quadre possiamo mettere altre espressioni e/o variabili `(array(1,2,3,4,5,6)[array_length(array(1,2,3,4,5,6))/2])`
 
-↑[torna su](#array-nel-field-calc)↑
 
 ## Esempi
 
@@ -121,7 +119,6 @@ array (1,2,3)
 
 [![](./es_01.png)](./es_01.png)
 
-↑[torna su](#array-nel-field-calc)↑
 
 ### creare array con tre valori di testo
 
@@ -147,7 +144,6 @@ _**ricorda che l'indice degli array parte da 0**_
 - array ('Andrea', 'Gianni', 'Totò')[-1] ---> 'Totò'
 ```
 
-↑[torna su](#array-nel-field-calc)↑
 
 ### Calcolare il valore max
 
@@ -160,7 +156,6 @@ massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
 ```
 [![](./es_03.png)](./es_03.png)
 
-↑[torna su](#array-nel-field-calc)↑
 
 ### Ordinare l'array dell'esempio precendete
 
@@ -184,15 +179,18 @@ id | valori | descrizione
 6  |      0 | VisiData
 7  |    -50 | Miller
 
+[qui file csv](./esempio01.csv)
+
 [![](./es_051.png)](./es_051.png)
 
 Creare gli array usando le colonne `valore` e `descrizione`:
 
-array `valore`
+array `valori`
 
 ```
 array_agg ("valori") 
 ```
+
 array `descrizione`
 
 ```
@@ -201,7 +199,6 @@ array_agg ("descrizione")
 
 [![](./es_052.png)](./es_052.png)
 
-↑[torna su](#array-nel-field-calc)↑
 
 ### Creare un array contenente una sequenza di numeri
 
@@ -211,7 +208,6 @@ generate_series(1,10,2)
 
 [![](./es_06.png)](./es_06.png)
 
-↑[torna su](#array-nel-field-calc)↑
 
 ### Lunghezza di un array
 
@@ -221,8 +217,6 @@ generate_series(1,10,2)
 - array_length(generate_series(1,100,3)) ---> 34
 - array_length(array_agg ("descrizione")) ---> 7
 ```
-↑[torna su](#array-nel-field-calc)↑
 
 ### aggiungerò altri esempi, tornate spesso per leggerli!!!
 
-↑[torna su](#array-nel-field-calc)↑
