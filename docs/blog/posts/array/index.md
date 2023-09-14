@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2023-09-14
 authors:
   - pigreco
@@ -37,7 +37,9 @@ Il gruppo **Array** è stato introdotto in QGIS nella [prima versione di QGIS 3.
     - [creare array con tre valori di testo](#creare-array-con-tre-valori-di-testo)
     - [Calcolare il valore max](#calcolare-il-valore-max)
     - [Ordinare l'array dell'esempio precendete](#ordinare-larray-dellesempio-precendete)
+    - [Supponiamo di avere un vettore](#supponiamo-di-avere-un-vettore)
     - [Creare un array contenente una sequenza di numeri](#creare-un-array-contenente-una-sequenza-di-numeri)
+    - [Lunghezza di un array](#lunghezza-di-un-array)
     - [aggiungerò altri esempi, tornate spesso per leggerli!!!](#aggiungerò-altri-esempi-tornate-spesso-per-leggerli)
 
 <!-- /TOC -->
@@ -119,6 +121,8 @@ array (1,2,3)
 
 [![](./es_01.png)](./es_01.png)
 
+↑[torna su](#array-nel-field-calc)↑
+
 ### creare array con tre valori di testo
 
 Andrea, Gianni e Toto
@@ -143,6 +147,8 @@ _**ricorda che l'indice degli array parte da 0**_
 - array ('Andrea', 'Gianni', 'Totò')[-1] ---> 'Totò'
 ```
 
+↑[torna su](#array-nel-field-calc)↑
+
 ### Calcolare il valore max
 
 massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
@@ -154,6 +160,8 @@ massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
 ```
 [![](./es_03.png)](./es_03.png)
 
+↑[torna su](#array-nel-field-calc)↑
+
 ### Ordinare l'array dell'esempio precendete
 
 ```
@@ -162,7 +170,9 @@ massimo, minimo e medio di questa serie di numeri: 12,4,23,56,31
 ```
 [![](./es_04.png)](./es_04.png)
 
-1. Supponiamo di avere un vettore o una tabella attributi qualsiasi, sotto un esempio:
+### Supponiamo di avere un vettore
+
+o una tabella attributi qualsiasi, sotto un esempio:
 
 id | valori | descrizione
 ---|-------:|-----------
@@ -191,6 +201,8 @@ array_agg ("descrizione")
 
 [![](./es_052.png)](./es_052.png)
 
+↑[torna su](#array-nel-field-calc)↑
+
 ### Creare un array contenente una sequenza di numeri
 
 ```
@@ -199,7 +211,9 @@ generate_series(1,10,2)
 
 [![](./es_06.png)](./es_06.png)
 
-1. Lunghezza di un array
+↑[torna su](#array-nel-field-calc)↑
+
+### Lunghezza di un array
 
 è possibile calcolare la lunghezza di un array, ovvero, quanti vaolori contiene:
 
@@ -210,3 +224,5 @@ generate_series(1,10,2)
 ↑[torna su](#array-nel-field-calc)↑
 
 ### aggiungerò altri esempi, tornate spesso per leggerli!!!
+
+↑[torna su](#array-nel-field-calc)↑
