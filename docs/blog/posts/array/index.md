@@ -131,7 +131,7 @@ array ('Andrea', 'Gianni', 'Totò')
 
 Come estrarre un valore?
 
-_**ricorda che l'indice degli array parte da 0**_
+_**ricorda che l'indice degli array parte da 0, con -1 estrae l'ultimo, con -2 il penultimo**_
 
 ```
 - array (1,2,3)[1] ---> 2
