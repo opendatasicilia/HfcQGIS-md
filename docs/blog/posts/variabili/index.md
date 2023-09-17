@@ -42,6 +42,7 @@ Le variabili sono una nuova funzionalità introdotta in **QGIS 2.12 Lyon** (2015
   - [Formattazione condizionale](#formattazione-condizionale)
 - [RIFERIMENTI](#riferimenti)
 - [RINGRAZIAMENTI](#ringraziamenti)
+- [Esempi di uso](#esempi-di-uso)
 
 <!-- /TOC -->
 
@@ -194,3 +195,7 @@ Da punto di vista del codice, sembrerebbero due variabile che non hanno nulla a 
 - **Gabriel De Luca**, [qui](https://t.me/c/1176908051/44129) suo messaggio;
 - Andrea Giudiceandrea, [qui](https://lists.osgeo.org/pipermail/qgis-it-user/2023-September/010427.html) i suoi contributi.
 
+# Esempi di uso
+
+- Nella sezione Funzioni, [gruppo Variabili](https://hfcqgis.opendatasicilia.it/gr_funzioni/variabili/variabili/), trovate l'elenco di tutte le variabili, però non sono documentate, occorre tempo che non ho per adesso :-);
+- Nella sezione [Esempi svolti](https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/), trovate molti esercizi in cui utilizzo la funzione `with_variable`.
