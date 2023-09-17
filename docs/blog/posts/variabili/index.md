@@ -190,7 +190,7 @@ Da punto di vista del codice, sembrerebbero due variabile che non hanno nulla a 
 
 # Discussioni
 
-Per chi volesse discuterne o approfondire, [qui](https://github.com/opendatasicilia/HfcQGIS-md/discussions) è il posto migliore.
+Per chi volesse discuterne, approfondire o semplicemente lasciare un commento, [qui](https://github.com/opendatasicilia/HfcQGIS-md/discussions) è il posto migliore.
 
 # RIFERIMENTI
 
@@ -202,4 +202,6 @@ Per chi volesse discuterne o approfondire, [qui](https://github.com/opendatasici
 # RINGRAZIAMENTI
 
 - **Gabriel De Luca**, [qui](https://t.me/c/1176908051/44129) suo messaggio;
-- Andrea Giudiceandrea, [qui](https://lists.osgeo.org/pipermail/qgis-it-user/2023-September/010427.html) i suoi contributi.
+- **Andrea Giudiceandrea**, [qui](https://lists.osgeo.org/pipermail/qgis-it-user/2023-September/010427.html) i suoi contributi.
+- Per chi legge: ringraziate [Andrea Borruso](https://twitter.com/aborruso) perché è stato lui a convincermi a pubblicare questo post!
+
