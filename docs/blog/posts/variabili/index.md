@@ -8,8 +8,8 @@ categories:
   - espressioni
 tags:
   - blog
-  - cerca_valori
-  - get_feature
+  - variabile
+  - formattazione
 ---
 
 # Le variabili in QGIS
@@ -19,7 +19,7 @@ tags:
 Le variabili sono una nuova funzionalità introdotta in **QGIS 2.12 Lyon** (2015) che consente di creare valori preimpostati da utilizzare ovunque sia possibile utilizzare un'espressione. 
 
 !!! Abstract "Variabili"
-    **Rappresentano un nuovo concetto che dà la possibilità di impostare variabili personalizzate da utilizzare nel motore delle espressioni di **QGIS**
+    **Rappresentano un nuovo concetto che dà la possibilità di impostare variabili personalizzate da utilizzare nel motore delle espressioni di QGIS**
 
 <!-- more -->
 
