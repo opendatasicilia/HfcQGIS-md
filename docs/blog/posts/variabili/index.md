@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2023-09-18
 authors:
   - pigreco
@@ -40,9 +40,10 @@ Le variabili sono una nuova funzionalità introdotta in **QGIS 2.12 Lyon** (2015
     - [print layout](#print-layout)
   - [Variabile speciale value](#variabile-speciale-value)
   - [Formattazione condizionale](#formattazione-condizionale)
+- [Esempi di uso](#esempi-di-uso)
+- [Discussioni](#discussioni)
 - [RIFERIMENTI](#riferimenti)
 - [RINGRAZIAMENTI](#ringraziamenti)
-- [Esempi di uso](#esempi-di-uso)
 
 <!-- /TOC -->
 
@@ -182,20 +183,23 @@ In questo contesto esiste una varianile `@value` che rappresente sempre il valor
 
 Da punto di vista del codice, sembrerebbero due variabile che non hanno nulla a che fare l'una con l'altra, infatti l'una è stata implementata da Nyall, l'altra da Nathan; unica cosa in comune è che sono state rilascite nella stessa versione di QGIS.
 
+# Esempi di uso
+
+- Nella sezione Funzioni, [gruppo Variabili](https://hfcqgis.opendatasicilia.it/gr_funzioni/variabili/variabili/), trovate l'elenco di tutte le variabili, però non sono documentate, occorre tempo che non ho per adesso :-);
+- Nella sezione [Esempi svolti](https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/), trovate molti esercizi in cui utilizzo la funzione `with_variable`.
+
+# Discussioni
+
+Per chi volesse discuterne o approfondire, [qui](https://github.com/opendatasicilia/HfcQGIS-md/discussions) è il posto migliore.
+
 # RIFERIMENTI
 
 - [Changelog 2.12 - Le variabili](https://www.qgis.org/en/site/forusers/visualchangelog212/index.html?highlight=changelog#feature-variables-in-expressions)
 - [Formattazione condizionale by Nathan Woodrow](https://woostuff.wordpress.com/2015/08/20/mixing-a-bit-of-excel-into-qgis-conditional-formatted-table-cells/)
 - [DOC QGIS Variabili](https://docs.qgis.org/3.28/it/docs/user_manual/expressions/functions_list.html?highlight=variable#variables)
 - [Variabile @value](https://www.youtube.com/live/h-mpUkwDdOQ?t=3104&si=7GxR8qlDUGDFzXcv)
-- <https://mermaid-js.github.io/mermaid/#/flowchart>
 
 # RINGRAZIAMENTI
 
 - **Gabriel De Luca**, [qui](https://t.me/c/1176908051/44129) suo messaggio;
 - Andrea Giudiceandrea, [qui](https://lists.osgeo.org/pipermail/qgis-it-user/2023-September/010427.html) i suoi contributi.
-
-# Esempi di uso
-
-- Nella sezione Funzioni, [gruppo Variabili](https://hfcqgis.opendatasicilia.it/gr_funzioni/variabili/variabili/), trovate l'elenco di tutte le variabili, però non sono documentate, occorre tempo che non ho per adesso :-);
-- Nella sezione [Esempi svolti](https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/), trovate molti esercizi in cui utilizzo la funzione `with_variable`.
