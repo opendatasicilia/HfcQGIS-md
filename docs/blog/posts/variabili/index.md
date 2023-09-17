@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: false
+draft: true
 date: 2023-09-18
 authors:
   - pigreco
@@ -114,7 +114,9 @@ Infine, esiste una funzione `with_variable` che permette di creare, al volo, una
 
 È stata introdotta, sempre da Nyall, una variabile speciale che viene utilizzata soprattutto nella _**sovrascrittura definita dai dati**_, ovvero, in tutti quei casi in cui è possibile _pilotare_ le caratterisitiche delle etichette o della simbologia tramite dati o espressioni. La variabile si chiama `@value`.
 
-Questa variabile rientra tra le variabili dinamiche e contestuali perché può assumere vari valori a seconda della caratteristica utilizzata. In sostanza la variabile `@value` assume il valore corrente presente nelwidget di riferimento. (l'esempio che segue chiarirà il concetto).
+Questa variabile rientra tra le variabili dinamiche e contestuali perché può assumere vari valori a seconda della caratteristica utilizzata. In sostanza la variabile `@value` assume il valore corrente presente nel widget di riferimento. (l'esempio che segue chiarirà il concetto).
+
+
 
 # RIFERIMENTI
 
