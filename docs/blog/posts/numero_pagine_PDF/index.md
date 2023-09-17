@@ -36,7 +36,7 @@ Per chi usasse l'installatore _**OSGeo4W Network installer**_, basta cercare `pd
 
 ## Funzione personalizzata
 
-La funzione personalizzata è stata creata dall' amico (G. Fattori) che nel tempo linero soddisfa ogni mia richiesta (grazie mille).
+La funzione personalizzata è stata creata dall' amico (G. Fattori) che nel tempo libero soddisfa ogni mia richiesta (grazie mille).
 
 ```py
 # Korto19 2023
@@ -85,3 +85,4 @@ In questo stesso sito **#HfcQGIS** trovate decine di funzioni personalizzate nel
 
 Un **GROSSO** grazie a [Giulio Fattori](https://github.com/Korto19), un utente **QGIS** e autore di molti [plugin](https://plugins.qgis.org/search/?q=fattori) per **QGIS**
 
+- [DOC QGIS](https://docs.qgis.org/3.28/it/docs/user_manual/expressions/expression.html?highlight=variable%20value#function-editor)

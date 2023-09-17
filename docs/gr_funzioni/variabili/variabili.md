@@ -18,6 +18,8 @@ In **QGIS**, puoi utilizzare le variabili per memorizzare dati utili con valori 
 
 Puoi utilizzare queste variabili per creare stringhe di testo o altre espressioni personalizzate utilizzando il carattere '@' prima del nome della variabile.
 
+[Video](https://www.youtube.com/watch?v=h-mpUkwDdOQ) di Nyall Dawson sulle espressioni, varibile e sovrascrittura definita dai dati
+
 ## Elenco variabili
 
 Riguardano (aggiornato a QGIS 3.20 Odense):
