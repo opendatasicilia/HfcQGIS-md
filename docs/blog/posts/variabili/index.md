@@ -6,10 +6,12 @@ authors:
   - pigreco
 categories:
   - espressioni
+  - variabili
 tags:
   - blog
   - variabile
   - formattazione
+  - value
 ---
 
 # Le variabili in QGIS
@@ -198,6 +200,7 @@ Per chi volesse discuterne, approfondire o semplicemente lasciare un commento, [
 - [Formattazione condizionale by Nathan Woodrow](https://woostuff.wordpress.com/2015/08/20/mixing-a-bit-of-excel-into-qgis-conditional-formatted-table-cells/)
 - [DOC QGIS Variabili](https://docs.qgis.org/3.28/it/docs/user_manual/expressions/functions_list.html?highlight=variable#variables)
 - [Variabile @value](https://www.youtube.com/live/h-mpUkwDdOQ?t=3104&si=7GxR8qlDUGDFzXcv)
+- [Blog post su Pigrecoinfinito sull'uso della variabile map_id](https://pigrecoinfinito.com/2017/07/28/qgis-variabile-map_id/)
 
 # RINGRAZIAMENTI
 
