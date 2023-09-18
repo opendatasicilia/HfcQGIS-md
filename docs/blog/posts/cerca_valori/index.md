@@ -23,7 +23,7 @@ Alcune volte nasce l'esigenza di cercare un valore in una tabella in funzione di
 
 <!-- more -->
 
-Per capire meglio come usare la funzione, facciamo un esempio pratico derivante da un caso congreto che mi è stato chiesto di risolvere qualche settimana fa, per ovvi motivi, generalizzero il problema.
+Per capire meglio come usare la funzione, facciamo un esempio pratico derivante da un caso concreto che mi è stato chiesto di risolvere qualche settimana fa, per ovvi motivi, generalizzerò il problema.
 
 Supponiamo di avere una griglia regolare:
 
@@ -39,7 +39,7 @@ Tracciando un punto all'interno del reticolo e selezionando la `specie`, popolar
 
 [![](./img_03.png)](./img_03.png)
 
-- per polopare automaticamente la `specie` è stata usata la seguente espressione nelle proprietà del layer, in particolare nel widget `Predefiniti`:
+- per popolare automaticamente la `specie` è stata usata la seguente espressione nelle proprietà del layer, in particolare nel widget `Predefiniti`:
 
 ```
 attribute(get_feature('matrice', 'specie', "specie" ), "quadrante")
@@ -47,7 +47,7 @@ attribute(get_feature('matrice', 'specie', "specie" ), "quadrante")
 
 [![](./img_04.png)](./img_04.png)
 
-- per popolare automaticamente il `quadrante` è stata utilizzata la seguente espressione nelle proprietà del layer puntuale, in particolarenel widget `Predefiniti`:
+- per popolare automaticamente il `quadrante` è stata utilizzata la seguente espressione nelle proprietà del layer puntuale, in particolare nel widget `Predefiniti`:
 
 ```
 overlay_within('Reticolo',"quadrante")[0]
