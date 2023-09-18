@@ -161,16 +161,16 @@ In questo contesto esiste una variabile `@value` che rappresente sempre il valor
 
 Da punto di vista del codice, sembrerebbero due variabile che non hanno nulla a che fare l'una con l'altra, infatti l'una è stata implementata da Nyall, l'altra da Nathan; unica cosa in comune è che sono state rilascite nella stessa versione di QGIS.
 
-# Esempi di uso
+## Esempi di uso
 
 - Nella sezione Funzioni, [gruppo Variabili](https://hfcqgis.opendatasicilia.it/gr_funzioni/variabili/variabili/), trovate l'elenco di tutte le variabili, però non sono documentate, occorre tempo che non ho per adesso :-);
 - Nella sezione [Esempi svolti](https://hfcqgis.opendatasicilia.it/esempi/lista_esempi/), trovate molti esercizi in cui utilizzo la funzione `with_variable`.
 
-# Discussioni
+## Discussioni
 
 Per chi volesse discuterne, approfondire o semplicemente lasciare un commento, [qui](https://github.com/opendatasicilia/HfcQGIS-md/discussions) è il posto migliore.
 
-# RIFERIMENTI
+## RIFERIMENTI
 
 - [Changelog 2.12 - Le variabili](https://www.qgis.org/en/site/forusers/visualchangelog212/index.html?highlight=changelog#feature-variables-in-expressions)
 - [Formattazione condizionale by Nathan Woodrow](https://woostuff.wordpress.com/2015/08/20/mixing-a-bit-of-excel-into-qgis-conditional-formatted-table-cells/)
@@ -178,7 +178,7 @@ Per chi volesse discuterne, approfondire o semplicemente lasciare un commento, [
 - [Variabile @value](https://www.youtube.com/live/h-mpUkwDdOQ?t=3104&si=7GxR8qlDUGDFzXcv)
 - [Blog post su Pigrecoinfinito sull'uso della variabile map_id](https://pigrecoinfinito.com/2017/07/28/qgis-variabile-map_id/)
 
-# RINGRAZIAMENTI
+## RINGRAZIAMENTI
 
 - **Gabriel De Luca**, [qui](https://t.me/c/1176908051/44129) suo messaggio;
 - **Andrea Giudiceandrea**, [qui](https://lists.osgeo.org/pipermail/qgis-it-user/2023-September/010427.html) i suoi contributi.
