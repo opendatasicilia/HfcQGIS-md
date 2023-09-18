@@ -25,30 +25,6 @@ Le variabili sono una nuova funzionalità introdotta in **QGIS 2.12 Lyon** (2015
 
 <!-- more -->
 
-<!-- TOC -->
-
-- [Le variabili in QGIS](#le-variabili-in-qgis)
-  - [Introduzione](#introduzione)
-  - [Cassetti](#cassetti)
-    - [Esempio chiarificatore](#esempio-chiarificatore)
-  - [Contesto](#contesto)
-  - [Ambito](#ambito)
-  - [Atlante](#atlante)
-  - [Dinamiche contestuali](#dinamiche-contestuali)
-  - [Creare variabile al volo](#creare-variabile-al-volo)
-  - [Variabili predefinite](#variabili-predefinite)
-    - [simbologia](#simbologia)
-    - [etichette](#etichette)
-    - [print layout](#print-layout)
-  - [Variabile speciale value](#variabile-speciale-value)
-  - [Formattazione condizionale](#formattazione-condizionale)
-- [Esempi di uso](#esempi-di-uso)
-- [Discussioni](#discussioni)
-- [RIFERIMENTI](#riferimenti)
-- [RINGRAZIAMENTI](#ringraziamenti)
-
-<!-- /TOC -->
-
 ## Cassetti
 
 Possiamo immaginare le variabili come dei cassetti all'interno dei quali possiamo immagazinnare _qualcosa_ da utilizzare quando necessario. Il contenuto dei cassetti può essere un _testo_, un _numero_, una _espressione_. Le variabili possono essere _statiche_, ovvero, il loro contenuto è sempre lo stesso, oppure _dinamico_, ovvero, cambia in funzione del contesto.
