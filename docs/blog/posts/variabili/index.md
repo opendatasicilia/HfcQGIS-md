@@ -27,7 +27,7 @@ Le variabili sono una nuova funzionalità introdotta in **QGIS 2.12 Lyon** (2015
 
 ## Cassetti
 
-Possiamo immaginare le variabili come dei cassetti all'interno dei quali possiamo immagazinnare _qualcosa_ da utilizzare quando necessario. Il contenuto dei cassetti può essere un _testo_, un _numero_, una _espressione_. Le variabili possono essere _statiche_, ovvero, il loro contenuto è sempre lo stesso, oppure _dinamico_, ovvero, cambia in funzione del contesto.
+Possiamo immaginare le variabili come dei cassetti all'interno dei quali possiamo immagazzinare _qualcosa_ da utilizzare quando necessario. Il contenuto dei cassetti può essere un _testo_, un _numero_, una _espressione_. Le variabili possono essere _statiche_, ovvero, il loro contenuto è sempre lo stesso, oppure _dinamico_, ovvero, cambia in funzione del contesto.
 
 ```mermaid
 flowchart LR;
@@ -153,9 +153,9 @@ Non fate caso all'anteprima, segnerà sempre `NULL` e nell'Help ci sarà sempre 
 
 ## Formattazione condizionale
 
-nella stessa versione di QGIS 2.12 Lyon, Nathan Woodrow introduce la possibilità di realizzare la formattazione consizionale nelle tabelle degli attributi, un po' come in Excel.
+nella stessa versione di QGIS 2.12 Lyon, Nathan Woodrow introduce la possibilità di realizzare la formattazione condizionale nelle tabelle degli attributi, un po' come in Excel.
 
-In questo contesto esiste una varianile `@value` che rappresente sempre il valore corrente dell'attributi usato.
+In questo contesto esiste una variabile `@value` che rappresente sempre il valore corrente dell'attributo usato.
 
 [![](./img_13.png)](./img_13.png)
 
