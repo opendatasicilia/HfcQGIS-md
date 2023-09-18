@@ -173,6 +173,7 @@ Per chi volesse discuterne, approfondire o semplicemente lasciare un commento, [
 ## RIFERIMENTI
 
 - [Changelog 2.12 - Le variabili](https://www.qgis.org/en/site/forusers/visualchangelog212/index.html?highlight=changelog#feature-variables-in-expressions)
+- [Post sulle variabili di Nyall Dawson](http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/)
 - [Formattazione condizionale by Nathan Woodrow](https://woostuff.wordpress.com/2015/08/20/mixing-a-bit-of-excel-into-qgis-conditional-formatted-table-cells/)
 - [DOC QGIS Variabili](https://docs.qgis.org/3.28/it/docs/user_manual/expressions/functions_list.html?highlight=variable#variables)
 - [Variabile @value](https://www.youtube.com/live/h-mpUkwDdOQ?t=3104&si=7GxR8qlDUGDFzXcv)
