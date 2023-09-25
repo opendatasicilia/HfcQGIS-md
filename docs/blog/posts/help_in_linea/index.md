@@ -30,6 +30,7 @@ L'help in linea del motore di espressioni di QGIS è utile e va consultato sempr
 ## Struttura
 
 Come è ben visibile dallo screenshot, l' help in linea è caratterizzato da quattro parti fondamentali:
+
 1. definizione della funzione:
    1. la definizione è indispensabile perché fa capire cosa fa e cosa non fa la funzione in oggetto;
    2. alcune volte ha, nel testo, dei rimandi che spiegano ulteriormente l'uso della funzione;
