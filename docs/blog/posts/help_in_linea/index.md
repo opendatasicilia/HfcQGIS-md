@@ -97,4 +97,4 @@ In fondo, alla guida in linea, di ogni funzione è presente almeno un esempio, s
 
 ### HfcQGIS
 
-In questo stesso sito trovate ulteriore materiale utile legato al Field Calc: https://hfcqgis.opendatasicilia.it/calcolatore_campi/field_calc/
+In questo stesso sito trovate ulteriore materiale utile legato al Field Calc: <https://hfcqgis.opendatasicilia.it/calcolatore_campi/field_calc/>
