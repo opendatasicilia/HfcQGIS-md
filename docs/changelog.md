@@ -84,3 +84,6 @@ data       | descrizione
 11/09/2023 | secondo post del blog [Come cercare un valore in funzione di un altro](https://hfcqgis.opendatasicilia.it/blog/2023/09/12/come-cercare-un-valore-in-funzione-di-un-altro/)
 13/09/2023 | terzo post del blog [Impostazioni di progetto influenzano alcune funzioni](https://hfcqgis.opendatasicilia.it/blog/2023/09/13/impostazioni-di-progetto-influenzano-alcune-funzioni/)
 14/09/2023 | terzo post del blog [Array](https://hfcqgis.opendatasicilia.it/blog/2023/09/14/array/)
+18/09/2023 | quarto post del blog [Variabili](https://hfcqgis.opendatasicilia.it/blog/2023/09/18/le-variabili-in-qgis/)
+25/09/2023 | quinto post del blog [Help in linea](https://hfcqgis.opendatasicilia.it/blog/2023/09/25/help-in-linea/)
+
