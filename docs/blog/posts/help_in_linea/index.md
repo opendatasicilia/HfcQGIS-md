@@ -74,7 +74,7 @@ i primi tre argomenti vanno scritti per come li leggiamo: prima va scritto il `l
 
 - aggregate (layer:='nomeLayer',aggregate:='count',expression:="nomeAttributo")
 
-oppure, funzionerebbe alterenda l'ordine degli argomenti:
+oppure, funzionerebbe modificando l'ordine degli argomenti:
 
 - aggregate (aggregate:='count', layer:='nomeLayer',expression:="nomeAttributo")
 
