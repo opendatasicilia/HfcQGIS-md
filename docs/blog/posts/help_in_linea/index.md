@@ -32,20 +32,20 @@ L'help in linea del motore di espressioni di QGIS è utile e va consultato sempr
 Come è ben visibile dallo screenshot, l' help in linea è caratterizzato da quattro parti fondamentali:
 
 1. definizione della funzione:
-    1. la definizione è indispensabile perché fa capire cosa fa e cosa non fa la funzione in oggetto;
+    1. la definizione è indispensabile perché fa capire cosa si può fare e cosa non si può fare con la funzione in oggetto;
     2. alcune volte ha, nel testo, dei rimandi che spiegano ulteriormente l'uso della funzione;
 
 2. sintassi: 
-    1. spiega come usare la funzione stessa tramite gli argomenti il cui ordine è findamentale;
+    1. spiega come usare la funzione stessa tramite gli argomenti il cui ordine è fondamentale;
     2. i parametri denominati permettono di alterare l'ordine degli argomenti e rendere più leggibile le espressioni;
-    3. indica gli argometi obligatori e quelli opzionali;
+    3. indica gli argomenti obbligatorio e quelli opzionali;
    
 3. argomenti:
     1. alcune funzioni non hanno argomenti, come per esempio quelle funzioni geometriche che iniziono per $;
-    2. altre funzioni hanno molti argomenti, ma non tutti sono obligatori;
+    2. altre funzioni hanno molti argomenti, ma non tutti sono obbligatorio;
    
 4. esempi:
-    1. ci sono esempi che spiegano come va usata la funzione;
+    1. ci sono esempi che spiegano l'uso  della funzione;
     2. spesso ci sono più di un esempio in cui vengono usate i vari argomenti.
 
 Alcune funzioni (per esempio `length`) possono avere più definizioni, più sintassi, più argomenti ed esempi, ovvero possono avere delle varianti.
@@ -56,7 +56,7 @@ Consultare la definizione è di vitale importanza perché fa capire la differenz
 
 ### Sintassi
 
-In generale la sintassi è qualcosa che occorre conoscere per poter usare la funzione stessa, in pratica è la successione di argomenti da utilizzare e definisce quali sono obligatori e quali no.
+In generale la sintassi è qualcosa che occorre conoscere per poter usare la funzione stessa, in pratica è la successione di argomenti da utilizzare e definisce quali sono obbligatorio e quali no.
 
 La sintassi deve essere seguita alla lettera altrimenti la funzione restituirà sempre errore.
 
@@ -70,7 +70,7 @@ i primi tre argomenti vanno scritti per come li leggiamo: prima va scritto il `l
 
 - aggregate ('nomeLayer','count',"nomeAttributo")
 
-È anche possibile utilizzare i `paramentri denominati`, questi hanno due vantaggi: rendono più leggibile l'espressione e permettono di non seguire rigorosamente l'ordine degli argomenti, sotto un esempio:
+È anche possibile utilizzare i `parametri denominati`, questi hanno due vantaggi: rendono più leggibile l'espressione e permettono di non seguire rigorosamente l'ordine degli argomenti, sotto un esempio:
 
 - aggregate (layer:='nomeLayer',aggregate:='count',expression:="nomeAttributo")
 
