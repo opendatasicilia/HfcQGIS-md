@@ -1,0 +1,36 @@
+<!-- Elements added to main will be displayed on all pages -->
+{% extends "base.html" %}
+   
+ <!-- Announcement bar -->
+{% block announce %}
+<style>.md-banner {background-color: #497d29;</style><strong>Se HfcQGIS ti è stato utile, valuta la possibilità di contribuire,</strong>
+   <a href="{{ config.site_url}}contributing/" class="nomobile banner" title="Contribuire a HfcQGIS" target="_parent"><strong>leggi la sezione Sostieni</strong></a><a href="https://www.paypal.com/paypalme/pigrecoinfinito" class="nomobile banner " target="_blank" title=" Donazione a HfcQGIS con PayPal" >&nbsp;&nbsp;<i class="fa fa-paypal" aria-hidden="true"></i></a> 
+{% endblock %} 
+
+{% block libs %}
+{{ super() }}
+<!-- script top	-->
+{% include "partials/script_top.html" %}
+{% endblock %}
+
+<!-- blocco meta tag e social -->
+{% block extrahead %} 
+<!-- Social card -->	 
+{% include "partials/social_card.html" %}
+<!-- Meta tags --> 
+{% include "partials/metatag_rss.html" %}
+{% endblock %}
+
+{% block content %}
+<!-- pulsante stampa 	-->
+
+{{ super() }}
+ <!-- zoomn image  -->
+ {% include "partials/zoom_image_simple-lightbox.html" %}
+{% endblock content %}
+
+{% block scripts %}
+{{ super() }}
+<!-- script bottom	-->
+{% include "partials/script_bottom.html" %}
+{% endblock %}
