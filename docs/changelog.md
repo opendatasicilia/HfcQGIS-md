@@ -86,4 +86,4 @@ data       | descrizione
 14/09/2023 | terzo post del blog [Array](https://hfcqgis.opendatasicilia.it/blog/2023/09/14/array/)
 18/09/2023 | quarto post del blog [Variabili](https://hfcqgis.opendatasicilia.it/blog/2023/09/18/le-variabili-in-qgis/)
 25/09/2023 | quinto post del blog [Help in linea](https://hfcqgis.opendatasicilia.it/blog/2023/09/25/help-in-linea/)
-
+30/09/2023 | aggiunto le novità rilevanti della [QGIS 3.34 ](release/novita_334.md)

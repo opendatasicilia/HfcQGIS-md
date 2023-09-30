@@ -17,7 +17,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (9/9)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi | aggiornate a<br> **QGIS 3.22**
 [**Form**](./form/form_unico.md)| (0/2)|Questo gruppo contiene funzioni che sono disponibili nel contesto modulo attributi. Per esempio, in impostazioni campo widget. Gruppo visibile solo nei widget. | aggiornate a<br> **QGIS 3.14**
 [**Generale**](./generale/generale_unico.md)| (7/7)|Questo gruppo contiene funzioni generali assortite.| assortimento di funzioni generiche
-[**Geometria**](./geometria/geometria_unico.md) |(155/155)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.30**
+[**Geometria**](./geometria/geometria_unico.md) |(151/151)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.34**
 [**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (3/3)|Contiene due funzioni e la lista dei layer della mappa che sono disponibili nel progetto corrente con possibilità di leggere[^1] i nomi e valori degli attributi.| aggiornate a<br> **QGIS 3.30**
 [**Layout**](./layout/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
 [**Maps**](./maps/maps_unico.md)| (14/14) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.24**
@@ -26,6 +26,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Raster**](./rasters/rasters_unico.md)|(2/2)|Contiene funzioni che calcolano statistiche e valori raster.|>= **QGIS 3.4** 
 [**Recente**](./recente/recente.md) |(1/1)| Elenca le ultime 20 espressioni utilizzate
 [**Record e attributi**](./record_e_attributi/record_e_attributi_unico.md)| (17/17)|Questo gruppo contiene funzioni che operano sugli identificativi dei record.|aggiornate a<br> **QGIS 3.30**
+[**Sensors**]()|Questo gruppo contiene le funzioni per interagire con i sensori| a<br> **QGIS 3.30**
 [**Relazioni**](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
 [**Stringhe di testo**](./stringhe_di_testo/stringhe_di_testo_unico.md)|(25/25)| Questo gruppo contiene le funzioni che operano sulle stringhe es. sostituzione, conversione in maiuscolo.|aggiornate a<br> **QGIS 3.32**
 [**Variabili**](./variabili/variabili.md) |(4/65+) |Questo gruppo contiene variabili dinamiche che possono essere inserite nelle tue espressioni.|>= **QGIS 2.12** - variano in funzione del contesto

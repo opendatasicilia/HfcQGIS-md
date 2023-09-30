@@ -453,6 +453,34 @@ Azimuth per definizione restituisce un angolo in radianti, per trasformarlo in g
 
 ---
 
+## Bearing
+
+Introdotta in >= QGIS 3.34
+
+Restituisce la direzione basata sul nord come l'angolo in radianti misurato in senso orario sull'ellissoide dalla verticale dal punto_a al punto_b. ([funzione per calcolare l'azimut geodetico sull'ellissoide](https://github.com/qgis/QGIS/issues/45474).)
+
+Sintassi:
+
+- bearing(<span style="color:red;">point_a</span>, <span style="color:red;">point_b</span>[,<span style="color:red;">source_crs</span>][,<span style="color:red;">ellipsoid</span>])
+
+[ ] indica componenti opzionali
+
+Argomenti:
+
+* <span style="color:red;">point_a</span> geometria punto
+* <span style="color:red;">point_b</span> geometria punto
+* <span style="color:red;">source_crs</span> una stringa opzionale che rappresenta il SR di origine dei punti. Per impostazione predefinita viene utilizzato il SR del layer corrente.
+* <span style="color:red;">ellipsoid</span> una stringa opzionale che rappresenta l'acronimo o l'authority:ID (es. 'EPSG:7030') dell'ellissoide su cui misurare il rilevamento. Per impostazione predefinita viene utilizzata l'impostazione dell'ellissoide del progetto corrente.
+
+Esempi:
+
+```
+- degrees( bearing( make_point(16198544, -4534850), make_point(18736872, -1877769), 'EPSG:3857', 'EPSG:7030') ) → 49.980071
+- degrees( bearing( make_point(18736872, -1877769), make_point(16198544, -4534850), 'EPSG:3857', 'WGS84') ) → 219.282386
+```
+
+---
+
 ## boundary
 
 Restituisce l'area minima della combinazione dei confini della geometria (cioè il confine topologico della geometria). Per esempio, una geometria poligonale avrà un confine costituito dalle linee di ogni anello nel poligono. Alcuni tipi di geometrie non hanno confini, es collezioni di punti o geometrie e pertanto verrà restituito `NULL`.
