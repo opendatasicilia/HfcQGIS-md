@@ -1,5 +1,6 @@
 # Novità rilevanti introdotte in QGIS 3.34
 
+[![](../img/splashscreen/splash_3_34rc.png)](../img/splashscreen/splash_3_34rc.png)
 
 ## espressioni
 
