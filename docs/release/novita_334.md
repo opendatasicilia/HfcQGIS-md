@@ -11,3 +11,6 @@
 - gruppo variabili - layer_crs_ellipsoid: <https://github.com/qgis/QGIS/pull/54555>
 
 ![](../img/novita_334/img_02.png)
+
+- <https://github.com/qgis/QGIS/pull/54962>
+- <https://github.com/qgis/QGIS/pull/54764>

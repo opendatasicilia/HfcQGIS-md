@@ -242,6 +242,8 @@ array_first(array('a','b','c')) → 'a'
 
 ## array_foreach
 
+Aggiornata a QGIS 3.34 Prizren
+
 Restituisce una matrice con l'espressione data valutata su ciascun elemento.
 
 Sintassi:
@@ -251,13 +253,14 @@ Sintassi:
 Argomenti:
 
 * _<span style="color:red;">array</span>_ un array
-* _<span style="color:red;">expression</span>_ un'espressione da valutare su ogni oggetto. La variabile `@element` sarà sostituita dal valore corrente.
+* _<span style="color:red;">expression</span>_ un'espressione da valutare su ciascun elemento. La variabile `@element` verrà sostituita dal valore corrente e la variabile `@counter` dall'indice corrente (iniziando con 0).
 
 Esempi:
 
 ```
 array_foreach(array('a','b','c'),upper(@element)) → [ 'A', 'B', 'C' ]
 array_foreach(array(1,2,3),@element + 10) → [ 11, 12, 13 ]
+array_foreach(array(1,2,3),@elemento + @counter) → [ 1, 3, 5 ]
 ```
 
 [![](../../img/array/array_foreach/array_foreach1.png)](../../img/array/array_foreach/array_foreach1.png)
