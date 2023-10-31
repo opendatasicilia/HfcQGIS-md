@@ -2,6 +2,8 @@
 
 [![](../img/splashscreen/splash_3_34rc.png)](../img/splashscreen/splash_3_34rc.png)
 
+<https://changelog.qgis.org/en/qgis/version/3.34/>
+
 ## espressioni
 
 - gruppo geometria - funzione bearing: <https://github.com/qgis/QGIS/pull/54297>
