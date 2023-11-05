@@ -83,8 +83,9 @@ data       | descrizione
 10/09/2023 | primo post del blog [HfcQGIS e la sezione Blog](https://hfcqgis.opendatasicilia.it/blog/2023/09/10/hfcqgis-e-la-sezione-blog/)
 11/09/2023 | secondo post del blog [Come cercare un valore in funzione di un altro](https://hfcqgis.opendatasicilia.it/blog/2023/09/12/come-cercare-un-valore-in-funzione-di-un-altro/)
 13/09/2023 | terzo post del blog [Impostazioni di progetto influenzano alcune funzioni](https://hfcqgis.opendatasicilia.it/blog/2023/09/13/impostazioni-di-progetto-influenzano-alcune-funzioni/)
-14/09/2023 | terzo post del blog [Array](https://hfcqgis.opendatasicilia.it/blog/2023/09/14/array/)
-18/09/2023 | quarto post del blog [Variabili](https://hfcqgis.opendatasicilia.it/blog/2023/09/18/le-variabili-in-qgis/)
-25/09/2023 | quinto post del blog [Help in linea](https://hfcqgis.opendatasicilia.it/blog/2023/09/25/help-in-linea/)
+14/09/2023 | quarto post del blog [Array](https://hfcqgis.opendatasicilia.it/blog/2023/09/14/array/)
+18/09/2023 | quinto post del blog [Variabili](https://hfcqgis.opendatasicilia.it/blog/2023/09/18/le-variabili-in-qgis/)
+25/09/2023 | sesto post del blog [Help in linea](https://hfcqgis.opendatasicilia.it/blog/2023/09/25/help-in-linea/)
 30/09/2023 | aggiunto le novità rilevanti della [QGIS 3.34 ](release/novita_334.md)
 30/10/2023 | Aggiornata la funzione `array_foreach`, introdotta la variabile `@counter`
+05/11/2023 | settimo post del blog [distanza LEVENSHTEIN]()

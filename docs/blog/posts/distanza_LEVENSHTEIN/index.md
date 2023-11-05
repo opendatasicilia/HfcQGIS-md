@@ -154,5 +154,4 @@ Le espressioni di QGIS, per risolvere questo tipo di problema, non sono molto ad
 
 ## Ringraziamenti
 
-- [Andrea Borruso](https://twitter.com/aborruso), per l'idea!
-- 
+[Andrea Borruso](https://twitter.com/aborruso), per l'idea!
