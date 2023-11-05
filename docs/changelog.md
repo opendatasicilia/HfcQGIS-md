@@ -88,4 +88,4 @@ data       | descrizione
 25/09/2023 | sesto post del blog [Help in linea](https://hfcqgis.opendatasicilia.it/blog/2023/09/25/help-in-linea/)
 30/09/2023 | aggiunto le novità rilevanti della [QGIS 3.34 ](release/novita_334.md)
 30/10/2023 | Aggiornata la funzione `array_foreach`, introdotta la variabile `@counter`
-05/11/2023 | settimo post del blog [distanza LEVENSHTEIN]()
+05/11/2023 | settimo post del blog [distanza LEVENSHTEIN](https://hfcqgis.opendatasicilia.it/blog/2023/11/05/un-uso-intelligente-della-distanza-di-levenshtein/)
