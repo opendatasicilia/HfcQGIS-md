@@ -151,6 +151,9 @@ aggregate(
 ## Conclusioni
 
 Le espressioni di QGIS, per risolvere questo tipo di problema, non sono molto adatte a causa della struttura stessa del problema, infatti il motore delle espressioni fatica parecchio per restituire il risultato, ovvero impiega parecchio tempo nonostante le tabelle abbiamo solo 20 righe; questo è un tipico problema facilmente risolvibile con query SQL.
+Potremmo usare i _**virtual layer**_ e ottenere immediatamente il risultato usando la query indicata sopra:
+
+[![](./img_03.png)](./img_03.png)
 
 ## Ringraziamenti
 
