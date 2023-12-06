@@ -29,8 +29,8 @@ Argomenti:
     - count
     - count_distinct
     - count_missing
-    - min
-    - max
+    * minimun or min (>= QGIS 3.36)
+    * maximun or max (>= QGIS 3.36)
     - sum
     - mean
     - median
@@ -818,8 +818,8 @@ Argomenti:
     * count
     * count_distinct
     * count_missing
-    * min
-    * max
+    * minimun or min (>= QGIS 3.36)
+    * maximun or max (>= QGIS 3.36)
     * sum
     * mean
     * median
