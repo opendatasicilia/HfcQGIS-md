@@ -141,6 +141,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hfcqgis.opendatasicilia.it/blog/2024/01/15/rapporto-di-allungamento/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hfcqgis.opendatasicilia.it/blog/2023/09/18/le-variabili-in-qgis/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
@@ -1661,12 +1666,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hfcqgis.opendatasicilia.it/blog/archive/2024/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hfcqgis.opendatasicilia.it/blog/archive/2023/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hfcqgis.opendatasicilia.it/blog/category/espressioni/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hfcqgis.opendatasicilia.it/blog/category/whitebox/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
