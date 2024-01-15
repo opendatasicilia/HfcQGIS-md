@@ -89,3 +89,4 @@ data       | descrizione
 30/09/2023 | aggiunto le novità rilevanti della [QGIS 3.34 ](release/novita_334.md)
 30/10/2023 | Aggiornata la funzione `array_foreach`, introdotta la variabile `@counter`
 05/11/2023 | settimo post del blog [distanza LEVENSHTEIN](https://hfcqgis.opendatasicilia.it/blog/2023/11/05/un-uso-intelligente-della-distanza-di-levenshtein/)
+15/01/2024 | ottavo post del blog [rapporto di allungamento](https://hfcqgis.opendatasicilia.it/blog/2024/01/15/rapporto-di-allungamento/)
