@@ -90,4 +90,4 @@ data       | descrizione
 30/10/2023 | Aggiornata la funzione `array_foreach`, introdotta la variabile `@counter`
 05/11/2023 | settimo post del blog [distanza LEVENSHTEIN](https://hfcqgis.opendatasicilia.it/blog/2023/11/05/un-uso-intelligente-della-distanza-di-levenshtein/)
 15/01/2024 | ottavo post del blog [rapporto di allungamento](https://hfcqgis.opendatasicilia.it/blog/2024/01/15/rapporto-di-allungamento/)
-21/05/2024 | nono post del blog [calcolo distanza predefinita](https://hfcqgis.opendatasicilia.it/blog/2024/05/21/calcolo_distanza_predefinita/)
+21/05/2024 | nono post del blog [calcolo distanza predefinita](https://hfcqgis.opendatasicilia.it/blog/2024/05/21/distanza-predefinita-su-form/)
