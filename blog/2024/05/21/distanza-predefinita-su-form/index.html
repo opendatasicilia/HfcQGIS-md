@@ -4872,7 +4872,7 @@
 <li><code>with_variable ('agg',array_agg(@geometry, order_by:="fid")</code> calcolo un array di tutti i punti precedentementi tracciati;</li>
 <li><code>@agg[-1]</code> è l'ultima geometria tracciata prima della corrente;</li>
 <li><code>@geometry</code> è la geometria corrente;</li>
-<li><code>round(distance(@agg[-1], @geometry ),3)</code> calcola la distanza tra l'ultimo punti tracciato e il corrente, arrotonda a tre cifre.</li>
+<li><code>round(distance(@agg[-1], @geometry ),3)</code> calcola la distanza tra l'ultimo punto tracciato e il corrente, arrotonda a tre cifre.</li>
 <li><code>"fid"</code> è il campo univoco autoincrementale creato dal GeoPackage</li>
 </ul>
 <p><a href="../../../../calcolo_distanza_predefinita/demo.gif"><img alt="" src="../../../../calcolo_distanza_predefinita/demo.gif" /></a></p>
