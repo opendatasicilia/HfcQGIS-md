@@ -36,7 +36,7 @@ dove:
 - `with_variable ('agg',array_agg(@geometry, order_by:="fid")` calcolo un array di tutti i punti precedentementi tracciati;
 - `@agg[-1]` è l'ultima geometria tracciata prima della corrente;
 - `@geometry` è la geometria corrente;
-- `round(distance(@agg[-1], @geometry ),3)` calcola la distanza tra l'ultimo punti tracciato e il corrente, arrotonda a tre cifre.
+- `round(distance(@agg[-1], @geometry ),3)` calcola la distanza tra l'ultimo punto tracciato e il corrente, arrotonda a tre cifre.
 - `"fid"` è il campo univoco autoincrementale creato dal GeoPackage
 
 
