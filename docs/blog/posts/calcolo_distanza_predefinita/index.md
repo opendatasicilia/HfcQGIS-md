@@ -42,6 +42,4 @@ dove:
 
 [![](./demo.gif)](./demo.gif)
 
-**NB1:** l'espressione funziona bene per unica sessione iniziale, dalla seconda in poi calcolerà le distanze rispetto l'ultimo punto tracciato nella sessione iniziale. (ci sto lavorando per ovviare al problema!)
-
-**NB2:** L'espressione di sopra funziona bene se ad ogni punto inserito salviamo le modifiche.
+**NB1:** Affinche l'espressione restituisca la corretta distanza tra punti successivi, è necessario salvare le modifiche per ogni punto aggiunto.
