@@ -37,6 +37,7 @@ dove:
 - `@agg[-1]` è l'ultima geometria tracciata prima della corrente;
 - `@geometry` è la geometria corrente;
 - `round(distance(@agg[-1], @geometry ),3)` calcola la distanza tra l'ultimo punti tracciato e il corrente, arrotonda a tre cifre.
+- `"fid"` è il campo univoco autoincrementale creato dal GeoPackage
 
 
 [![](./demo.gif)](./demo.gif)
