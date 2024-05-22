@@ -17,7 +17,7 @@ tags:
 
 ## Introduzione
 
-Come calcolare la distanza tra due stazioni successive e far popolare l'attributo tramite il _Valore predefinito_ in in Form.
+Come calcolare la distanza tra due stazioni successive e far popolare l'attributo tramite il _Valore predefinito_ in in Form usando un GeoPackage.
 
 !!! Abstract "Funzione"
     Come usare il Valore predefinito per popolare un attributo legato alle geometrie.
