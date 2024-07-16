@@ -51,7 +51,7 @@ questa va usata nel widget _Predefiniti_ del Modulo Attributi nell'attributo _li
  array_contains(
   string_to_array(current_value( 'lista_cod')),
   "FID" )
- ```
+```
 
 ed il gioco è fatto!!!
 
