@@ -27,6 +27,8 @@ Come generare, in un form, un menu a tendina popolato con valori recuperati, al 
 
 Due layer, uno poligonale con degli edifici e uno puntuale (che traccio al momento), come realizzare, in un form legato al punto, un menu a tendina che proponga i valori del campo "num_civ" degli edifici entro 20 metri dal punto.
 
+## Soluzione
+
 Le espressioni di QGIS ci danno una grossa mano.
 
 - genero la lista dei FID degli edifici entro 20 metri dal punto:
@@ -52,9 +54,7 @@ questa va usata nel widget _Predefiniti_ del Modulo Attributi nell'attributo _li
   string_to_array(current_value( 'lista_cod')),
   "FID" )
 ```
-
 ed il gioco è fatto!!!
-
 
 [![](./img_03.png)](./img_03.png)
 
