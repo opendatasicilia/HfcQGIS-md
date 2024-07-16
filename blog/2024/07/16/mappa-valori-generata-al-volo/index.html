@@ -4731,6 +4731,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#soluzione" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soluzione
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4870,6 +4879,7 @@
 <!-- more -->
 
 <p>Due layer, uno poligonale con degli edifici e uno puntuale (che traccio al momento), come realizzare, in un form legato al punto, un menu a tendina che proponga i valori del campo "num_civ" degli edifici entro 20 metri dal punto.</p>
+<h2 id="soluzione">Soluzione<a class="headerlink" href="#soluzione" title="Permanent link">↵</a></h2>
 <p>Le espressioni di QGIS ci danno una grossa mano.</p>
 <ul>
 <li>genero la lista dei FID degli edifici entro 20 metri dal punto:</li>
@@ -4888,11 +4898,11 @@ questa va usata nel widget <em>Predefiniti</em> del Modulo Attributi nell'attrib
 <ul>
 <li>aggiungo un FILTRO al widget <em>Relazione valore</em> applicato all'attributo <em>num_civ</em>:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a> <span class="n">array_contains</span><span class="p">(</span>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a> <span class="n">array_contains</span><span class="p">(</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="n">string_to_array</span><span class="p">(</span><span class="n">current_value</span><span class="p">(</span> <span class="s1">&#39;lista_cod&#39;</span><span class="p">)),</span>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  <span class="s2">&quot;FID&quot;</span> <span class="p">)</span>
 </code></pre></div>
-<p>ed il gioco è fatto!!!</p>
+ed il gioco è fatto!!!</p>
 <p><a href="../../../../mappa_valori_al_volo/img_03.png"><img alt="" src="../../../../mappa_valori_al_volo/img_03.png" /></a></p>
 <p><a href="../../../../mappa_valori_al_volo/img_04.gif"><img alt="" src="../../../../mappa_valori_al_volo/img_04.gif" /></a></p>
 <p><a href="../../../../mappa_valori_al_volo/esempio.zip">Download dati e progetto</a></p>
