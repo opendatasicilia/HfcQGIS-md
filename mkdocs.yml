@@ -10,7 +10,7 @@ repo_url: https://github.com/opendatasicilia/HfcQGIS-md
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: <a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://hfcqgis.opendatasicilia.it/tags/" title="Tags" target="_parent">Tags</a> | <a href="https://hfcqgis.opendatasicilia.it/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a> 
+copyright: <a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://hfcqgis.opendatasicilia.it/tags/" title="Tags" target="_parent">Tags</a> | <a href="https://hfcqgis.opendatasicilia.it/LICENSE_my/" title="Licenza" target="_parent" class="link-dark text-decoration-none">Licenza</a>
 
 ## Social Media
 extra:
@@ -40,13 +40,13 @@ extra:
     - icon: fontawesome/solid/rss
       link: https://hfcqgis.opendatasicilia.it/feed_rss_created.xml
       name: Feed RSS
-      
- ## Consenso ai cookie     
+
+ ## Consenso ai cookie
   consent:
     title: Consenso ai cookie
     description: >-
         <img src="https://hfcqgis.opendatasicilia.it/img/logo_black.png" class="immagonobox"  alt="HfcQGIS" title="HfcQGIS - Help funzioni calcolatore di campi di QGIS" width="200" border="0"><br><b>Questo sito, hfcqgis.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web.</b> <br>Chiudendo questo messaggio, scorrendo questa pagina o cliccando su qualunque suo elemento acconsenti all&rsquo;uso dei cookie.<br> Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l&rsquo;<a href="https://hfcqgis.opendatasicilia.it/privacy/" title="Informativa privacy estesa" target="_parent">informativa</a>!
-      
+
   analytics:
     provider: google
     property: UA-122084242-1
@@ -85,7 +85,7 @@ plugins:
 - search
 # - mkdocstrings
 # - autolinks
-# - macros 
+# - macros
 
 - blog:
     authors_file: blog/.authors.yml
@@ -106,7 +106,7 @@ plugins:
     abstract_chars_count: 160
     date_from_meta:
         as_creation: "date"
-        as_update: false
+        as_update: "false"
         datetime_format: "%d-%m-%Y"
       # datetime_format: "%Y-%m-%d"
     image: https://raw.githubusercontent.com/opendatasicilia/HfcQGIS-md/main/docs/img/hfc_rss.png
@@ -315,7 +315,7 @@ nav:
            - Spatial join con condizione: esempi/spatial_join_condizionato.md
         - Provaci tu: mettiti_alla_prova.md
 
-    - Corsi di Formazione: 
+    - Corsi di Formazione:
         - corso_formazione/corso_di_formazione.md
         - corso_formazione/corso_di_formazione_avanzato.md
 
@@ -328,10 +328,10 @@ nav:
           - Da documentare: gr_funzioni/da_documentare.md
 
     #- Sitografia: sitografia_field_calc.md
-    
-    - Blog: 
+
+    - Blog:
        - blog/index.md
-    
+
     - About:
         - OpenDataSicilia: ods.md
         - Autore HfcQGIS: autore.md
@@ -348,4 +348,4 @@ nav:
       #  - Informativa privacy estesa: privacy.md
     # - Webmaster: webmaster/gbvitrano.md
   # - Tags: tags.md
-  
+
