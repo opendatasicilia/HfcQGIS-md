@@ -54,6 +54,8 @@ array_max(
 La funzione [array_agg](https://hfcqgis.opendatasicilia.it/gr_funzioni/aggrega/aggrega_unico/#array_agg) aggrega valori dell’attributo E (che è un campo del vettore puntuale), con il `group_by` raggruppiamo per posizione usando `geom_to_wkt($geometry,2)`.
 La funzione [◙geom_to_wkt](https://hfcqgis.opendatasicilia.it/gr_funzioni/geometria/geometria_unico/#geom_to_wkt) permette di inserire una precisione sulla posizione.
 
+**NB:** l'espressione utilizzata presuppone l'uso di coordinate proiettate con unità in metri. Nei casi di coordinate espresse in CRS geografico occorre modificare `geom_to_wkt($geometry,2)` e usare `geom_to_wkt($geometry,6)`. (Grazie per l'osservazione di Andrea Giudiceandrea)
+
 ## Riferimento
 
 [discourse](https://discourse.osgeo.org/t/uso-di-array-aggregate-e-dintorni/31003?u=pigreco)
