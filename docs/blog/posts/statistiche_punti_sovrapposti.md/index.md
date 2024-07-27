@@ -1,6 +1,6 @@
 ---
 social_image: img/card_social/hfc_blog.png
-draft: true
+draft: false
 date: 2024-07-27
 authors:
   - pigreco
