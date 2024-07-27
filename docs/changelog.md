@@ -92,3 +92,4 @@ data       | descrizione
 15/01/2024 | ottavo post del blog [rapporto di allungamento](https://hfcqgis.opendatasicilia.it/blog/2024/01/15/rapporto-di-allungamento/)
 21/05/2024 | nono post del blog [calcolo distanza predefinita](https://hfcqgis.opendatasicilia.it/blog/2024/05/21/distanza-predefinita-su-form/)
 16/07/2024 | decimo post del blog [mappa valori al volo](https://hfcqgis.opendatasicilia.it/blog/2024/07/16/mappa-valori-generata-al-volo/)
+27/07/2024 | undicesimo post del blog [statistiche punti sovrapposti](https://hfcqgis.opendatasicilia.it/blog/2024/07/27/statistiche-punti-sovrapposti/)
