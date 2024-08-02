@@ -93,4 +93,4 @@ data       | descrizione
 21/05/2024 | nono post del blog [calcolo distanza predefinita](https://hfcqgis.opendatasicilia.it/blog/2024/05/21/distanza-predefinita-su-form/)
 16/07/2024 | decimo post del blog [mappa valori al volo](https://hfcqgis.opendatasicilia.it/blog/2024/07/16/mappa-valori-generata-al-volo/)
 27/07/2024 | undicesimo post del blog [statistiche punti sovrapposti](https://hfcqgis.opendatasicilia.it/blog/2024/07/27/statistiche-punti-sovrapposti/)
-02/08/2024 | nuova funzione custom [recupera alias campo]()
+02/08/2024 | nuova funzione custom [recupera alias campo](https://hfcqgis.opendatasicilia.it/gr_funzioni/custom/custom_unico/#recupera-lalias-di-un-attributo-specificato-nel-layer-corrente)
