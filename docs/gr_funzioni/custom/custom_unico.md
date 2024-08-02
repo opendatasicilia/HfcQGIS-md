@@ -1147,3 +1147,39 @@ def get_catg_label(value_in, feature, parent):
 Lo script è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
 
 [![](../../img/custom/estrarre_label.png)](../../img/custom/estrarre_label.png)
+
+## Recupera l'alias di un attributo specificato nel layer corrente
+
+```py
+# -*- coding: utf-8 -*-
+"""
+/***************************************************************************
+ ALIAS NAME CC BY 4.0
+                              -------------------
+        copyright            : (C) 2024 by Federico Gianoli
+ ***************************************************************************/
+"""
+
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom')
+def get_field_alias(field_name, feature, parent):
+    """
+    Retrieves the alias of a field specified in the current layer.
+    <ul> </ul>
+    <h2>Example usage:</h2>
+    <ul>
+      <li>get_field_alias('Field_Name') -> 'FieldAlias'</li>
+    </ul>
+    """
+    layer = feature.fields()
+    field_index = layer.indexOf(field_name)
+    
+    if field_index != -1:
+        alias = layer[field_index].alias()
+        return alias
+    else:
+        return f"Field '{field_name}' not found."
+```
+[![](../../img/custom/get_alias.png)](../../img/custom/get_alias.png)
