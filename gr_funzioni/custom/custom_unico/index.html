@@ -26,7 +26,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
@@ -1701,6 +1701,15 @@
   <a href="#estrarre-testo-da-legenda-categorizzata" class="md-nav__link">
     <span class="md-ellipsis">
       Estrarre testo da legenda categorizzata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recupera-lalias-di-un-attributo-specificato-nel-layer-corrente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recupera l'alias di un attributo specificato nel layer corrente
     </span>
   </a>
   
@@ -5064,6 +5073,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#recupera-lalias-di-un-attributo-specificato-nel-layer-corrente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recupera l'alias di un attributo specificato nel layer corrente
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6080,6 +6098,39 @@ Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il
 </code></pre></div>
 <p>Lo script è stato realizzato da <a href="https://github.com/Korto19">Giulio Fattori</a></p>
 <p><a href="../../../img/custom/estrarre_label.png"><img alt="" src="../../../img/custom/estrarre_label.png" /></a></p>
+<h2 id="recupera-lalias-di-un-attributo-specificato-nel-layer-corrente">Recupera l'alias di un attributo specificato nel layer corrente<a class="headerlink" href="#recupera-lalias-di-un-attributo-specificato-nel-layer-corrente" title="Permanent link">↵</a></h2>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="c1"># -*- coding: utf-8 -*-</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a><span class="sd">/***************************************************************************</span>
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="sd"> ALIAS NAME CC BY 4.0</span>
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="sd">                              -------------------</span>
+<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a><span class="sd">        copyright            : (C) 2024 by Federico Gianoli</span>
+<a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a><span class="sd"> ***************************************************************************/</span>
+<a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a><span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a>
+<a id="__codelineno-28-10" name="__codelineno-28-10" href="#__codelineno-28-10"></a><span class="kn">from</span> <span class="nn">qgis.core</span> <span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-28-11" name="__codelineno-28-11" href="#__codelineno-28-11"></a><span class="kn">from</span> <span class="nn">qgis.gui</span> <span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-28-12" name="__codelineno-28-12" href="#__codelineno-28-12"></a>
+<a id="__codelineno-28-13" name="__codelineno-28-13" href="#__codelineno-28-13"></a><span class="nd">@qgsfunction</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">group</span><span class="o">=</span><span class="s1">&#39;Custom&#39;</span><span class="p">)</span>
+<a id="__codelineno-28-14" name="__codelineno-28-14" href="#__codelineno-28-14"></a><span class="k">def</span> <span class="nf">get_field_alias</span><span class="p">(</span><span class="n">field_name</span><span class="p">,</span> <span class="n">feature</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+<a id="__codelineno-28-15" name="__codelineno-28-15" href="#__codelineno-28-15"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-28-16" name="__codelineno-28-16" href="#__codelineno-28-16"></a><span class="sd">    Retrieves the alias of a field specified in the current layer.</span>
+<a id="__codelineno-28-17" name="__codelineno-28-17" href="#__codelineno-28-17"></a><span class="sd">    &lt;ul&gt; &lt;/ul&gt;</span>
+<a id="__codelineno-28-18" name="__codelineno-28-18" href="#__codelineno-28-18"></a><span class="sd">    &lt;h2&gt;Example usage:&lt;/h2&gt;</span>
+<a id="__codelineno-28-19" name="__codelineno-28-19" href="#__codelineno-28-19"></a><span class="sd">    &lt;ul&gt;</span>
+<a id="__codelineno-28-20" name="__codelineno-28-20" href="#__codelineno-28-20"></a><span class="sd">      &lt;li&gt;get_field_alias(&#39;Field_Name&#39;) -&gt; &#39;FieldAlias&#39;&lt;/li&gt;</span>
+<a id="__codelineno-28-21" name="__codelineno-28-21" href="#__codelineno-28-21"></a><span class="sd">    &lt;/ul&gt;</span>
+<a id="__codelineno-28-22" name="__codelineno-28-22" href="#__codelineno-28-22"></a><span class="sd">    &quot;&quot;&quot;</span>
+<a id="__codelineno-28-23" name="__codelineno-28-23" href="#__codelineno-28-23"></a>    <span class="n">layer</span> <span class="o">=</span> <span class="n">feature</span><span class="o">.</span><span class="n">fields</span><span class="p">()</span>
+<a id="__codelineno-28-24" name="__codelineno-28-24" href="#__codelineno-28-24"></a>    <span class="n">field_index</span> <span class="o">=</span> <span class="n">layer</span><span class="o">.</span><span class="n">indexOf</span><span class="p">(</span><span class="n">field_name</span><span class="p">)</span>
+<a id="__codelineno-28-25" name="__codelineno-28-25" href="#__codelineno-28-25"></a>
+<a id="__codelineno-28-26" name="__codelineno-28-26" href="#__codelineno-28-26"></a>    <span class="k">if</span> <span class="n">field_index</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+<a id="__codelineno-28-27" name="__codelineno-28-27" href="#__codelineno-28-27"></a>        <span class="n">alias</span> <span class="o">=</span> <span class="n">layer</span><span class="p">[</span><span class="n">field_index</span><span class="p">]</span><span class="o">.</span><span class="n">alias</span><span class="p">()</span>
+<a id="__codelineno-28-28" name="__codelineno-28-28" href="#__codelineno-28-28"></a>        <span class="k">return</span> <span class="n">alias</span>
+<a id="__codelineno-28-29" name="__codelineno-28-29" href="#__codelineno-28-29"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-28-30" name="__codelineno-28-30" href="#__codelineno-28-30"></a>        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Field &#39;</span><span class="si">{</span><span class="n">field_name</span><span class="si">}</span><span class="s2">&#39; not found.&quot;</span>
+</code></pre></div>
+<a href="../../../img/custom/get_alias.png"><img alt="" src="../../../img/custom/get_alias.png" /></a></p>
 
 
 
