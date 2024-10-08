@@ -76,3 +76,8 @@ Per aumentare dimensione caratteri:
 
 [![interfaccia](../img/interfaccia/fieldCalc.gif)](../img/interfaccia/fieldCalc.gif)
 
+## Cerca e sostituisci
+
+A partire da QGIS 3.38 è possibile abilitare la ricerca con sostituzione all'interno del Costruttore di espressioni <kbd>(Ctrl + F)</kbd>:
+
+[![interfaccia](../img/interfaccia/trova.gif)](../img/interfaccia/trova.gif)

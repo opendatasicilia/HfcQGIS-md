@@ -3,6 +3,7 @@
 ## espressioni
 
 - add funzioni: <https://github.com/qgis/QGIS/pull/58578>
+- add pulsante Applica nella GUI Field Calc: <https://github.com/qgis/QGIS/pull/58717>
 
 ## Tabella attributi
 
