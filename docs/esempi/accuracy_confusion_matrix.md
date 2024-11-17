@@ -26,7 +26,7 @@ array_length(array_agg(@id))
 
 Funzioni e variabili utilizzate:
 
-- [SUM](../gr_funzioni/aggregate/aggregate_unico.md#sum)
+- [SUM](../gr_funzioni/aggrega/aggrega_unico.md#sum)
 - [CASE](../gr_funzioni/condizioni/condizioni_unico#case)
 - [array_length](../gr_funzioni/array/array_unico.md#array_length)
 - [array_agg](../gr_funzioni/array/array_unico.md#array_agg)
