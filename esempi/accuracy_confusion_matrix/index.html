@@ -13,13 +13,9 @@
         <meta name="author" content="by OpenDataSicilia.it">
       
       
-        <link rel="canonical" href="https://hfcqgis.opendatasicilia.it/esempi/aggregare_con_sr_differenti/">
+        <link rel="canonical" href="https://hfcqgis.opendatasicilia.it/esempi/accuracy_confusion_matrix/">
       
       
-        <link rel="prev" href="../hub_lines/">
-      
-      
-        <link rel="next" href="../distanze_progressive_chilometriche/">
       
       
         <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="../../feed_rss_created.xml">
@@ -30,7 +26,7 @@
     
     
       
-        <title>Aggrega con SR differenti - Help field calculator</title>
+        <title>Calcolare la accuracy di una Matrice di Confusione - Help field calculator</title>
       
     
     
@@ -98,7 +94,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="https://hfcqgis.opendatasicilia.it/"/>
   <meta name="twitter:creator" content="Giovan Battista Vitrano" />
-  <meta name="twitter:title" content="Help field calculator - Aggrega con SR differenti" />
+  <meta name="twitter:title" content="Help field calculator - Calcolare la accuracy di una Matrice di Confusione" />
   <meta name="twitter:description" content="Help funzioni calcolatore di campi di QGIS" />	  
   <!-- facebook single page -->
   
@@ -109,9 +105,9 @@
 	 
 <!-- facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Help field calculator - Aggrega con SR differenti" />
+  <meta property="og:title" content="Help field calculator - Calcolare la accuracy di una Matrice di Confusione" />
   <meta property="og:description" content="Help funzioni calcolatore di campi di QGIS" />
-  <meta property="og:url" content="https://hfcqgis.opendatasicilia.it/esempi/aggregare_con_sr_differenti/" />
+  <meta property="og:url" content="https://hfcqgis.opendatasicilia.it/esempi/accuracy_confusion_matrix/" />
   <meta property="og:image" content="https://hfcqgis.opendatasicilia.it/img/hfc_socialcard.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
@@ -148,7 +144,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aggregare-con-sr-differenti" class="md-skip">
+        <a href="#calcolare-la-accuracy-di-una-matrice-di-confusione" class="md-skip">
           Vai al contenuto
         </a>
       
@@ -192,7 +188,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Aggrega con SR differenti
+              Calcolare la accuracy di una Matrice di Confusione
             
           </span>
         </div>
@@ -376,20 +372,16 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../lista_esempi/" class="md-tabs__link">
           
   
@@ -1862,28 +1854,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1894,7 +1881,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Esempi svolti
@@ -1905,8 +1892,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1916,11 +1901,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
         
           
           <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
@@ -1934,7 +1919,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_1">
             <span class="md-nav__icon md-icon"></span>
             Esempi svolti
@@ -2512,28 +2497,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Aggrega con SR differenti
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../aggregare_con_sr_differenti/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2542,42 +2509,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Indice">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#aggregare-con-sr-differenti" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aggregare con SR differenti
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#osservazioni" class="md-nav__link">
-    <span class="md-ellipsis">
-      Osservazioni
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4763,32 +4694,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#aggregare-con-sr-differenti" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aggregare con SR differenti
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#osservazioni" class="md-nav__link">
-    <span class="md-ellipsis">
-      Osservazioni
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -4810,19 +4717,31 @@
     
     
     
-      <a href="../../tags/#aggregare" class="md-tag">aggregare</a>
+      <a href="../../tags/#categoria" class="md-tag">categoria</a>
     
   
     
     
     
-      <a href="../../tags/#transform" class="md-tag">transform</a>
+      <a href="../../tags/#array" class="md-tag">array</a>
     
   
     
     
     
-      <a href="../../tags/#sr" class="md-tag">sr</a>
+      <a href="../../tags/#tabella" class="md-tag">tabella</a>
+    
+  
+    
+    
+    
+      <a href="../../tags/#prevalenza" class="md-tag">prevalenza</a>
+    
+  
+    
+    
+    
+      <a href="../../tags/#confusionmatrix" class="md-tag">confusionMatrix</a>
     
   
 </nav>
@@ -4832,34 +4751,25 @@
   
 
 
-  <h1>Aggrega con SR differenti</h1>
-
-<h2 id="aggregare-con-sr-differenti">Aggregare con SR differenti<a class="headerlink" href="#aggregare-con-sr-differenti" title="Permanent link">↵</a></h2>
-<p>La funzione <a href="../../gr_funzioni/aggrega/aggrega_unico/#aggregate">aggregate</a> del gruppo <strong>aggrega</strong> lavora solo con vettori che hanno stesso SR (Sistema di Riferimento) altrimenti restituisce <code>NULL</code>, in questo esempio useremo la funzione <a href="../../gr_funzioni/geometria/geometria_unico/#transform">transform</a> per ovviare a questo apparente problema.</p>
-<p>Esempio:</p>
-<p>supponiamo di avere due layer: i <em>centroid-comuni</em> (EPSG 4326) e <em>province</em> ISTAT (EPSG 32632) della sola Sicilia; aggiungere un campo <strong>nro_com</strong> nel layer <em>province</em> e popolarlo con il numero dei comuni.</p>
-<p><a href="../../img/esempi/aggrega_con_sr_diff/aggr_sr_diff1.png"><img alt="tema" src="../../img/esempi/aggrega_con_sr_diff/aggr_sr_diff1.png" /></a></p>
-<p>avviare il calcolatore di campi e creare un nuovo campo 'nro_com' Integer (9) e popolarlo con la seguente espressione:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>aggregate(
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>layer:=&#39;centroid_comuni_4326&#39;, 
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>aggregate:= &#39;count&#39;, 
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>expression:=&quot;fid&quot;, 
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>filter:= intersects ($geometry, transform(geometry (@parent), &#39;EPSG:32632&#39;, &#39;EPSG:4326&#39;))) 
+<h1 id="calcolare-la-accuracy-di-una-matrice-di-confusione">Calcolare la accuracy di una Matrice di Confusione<a class="headerlink" href="#calcolare-la-accuracy-di-una-matrice-di-confusione" title="Permanent link">↵</a></h1>
+<p>L'accuratezza in una matrice di confusione rappresenta la proporzione di classificazioni corrette rispetto al totale delle classificazioni effettuate da un modello di machine learning. In altre parole, indica quanto spesso il modello ha previsto correttamente la classe a cui appartiene un dato campione.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">SUM</span><span class="p">(</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="n">CASE</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">WHEN</span> <span class="s2">&quot;Classified&quot;</span> <span class="o">=</span> <span class="s2">&quot;GrndTruth&quot;</span> <span class="n">THEN</span> <span class="mi">1</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">ELSE</span> <span class="mi">0</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  <span class="n">END</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">)</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="o">/</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">array_length</span><span class="p">(</span><span class="n">array_agg</span><span class="p">(</span><span class="nd">@id</span><span class="p">))</span>
 </code></pre></div>
-<p>oppure con questa espressione, il risultato è lo stesso:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>aggregate(
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>layer:=&#39;centroid_comuni_4326&#39;, 
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>aggregate:= &#39;count&#39;, 
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>expression:=&quot;fid&quot;, 
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>filter:= intersects (transform($geometry, &#39;EPSG:4326&#39;, &#39;EPSG:32632&#39;), geometry (@parent)))
-</code></pre></div>
-<div class="admonition danger">
-<p class="admonition-title">Nota bene</p>
-<p>La funzione <strong>$geometry</strong>, all'interno della funzione di aggregazione, è la <code>geometria corrente</code> del <strong>layer:='centroid_comuni_4326'</strong> e quindi la <strong>geometry (@parent)</strong> rappresenta la geometria del layer poligonale. </p>
-</div>
-<p><a href="../../img/esempi/aggrega_con_sr_diff/aggr_sr_diff2.png"><img alt="tema" src="../../img/esempi/aggrega_con_sr_diff/aggr_sr_diff2.png" /></a></p>
-<h2 id="osservazioni">Osservazioni<a class="headerlink" href="#osservazioni" title="Permanent link">↵</a></h2>
-<p>Nella funzione <a href="../../gr_funzioni/aggrega/aggrega_unico/#aggregate">aggregate</a> tutto ciò che si trova entro le sue parentesi riguarda il relativo <code>layer:=</code>, quindi se utilizzassimo la funzione <code>$geometry</code> questa sarebbe relativa al <code>layer:=</code>, mentre per richiamare una geometria esterna (relativa al layer genitore, cioè quello in cui abbiamo avviato il costruttore di espressioni) occorre utulizzare l'espressione <code>geometry(@parent)</code>. In questo esempio <code>$geometry</code> è la geometria del <code>layer:=centroid_comuni_4326</code> mentre l'altra geometria è <code>geometry(@parent)</code> relativa al layer <em>province</em>.</p>
+<hr />
+<p>Funzioni e variabili utilizzate:</p>
+<ul>
+<li><a href="../gr_funzioni/aggregate/aggregate_unico.md#sum">SUM</a></li>
+<li><a href="../gr_funzioni/condizioni/condizioni_unico#case">CASE</a></li>
+<li><a href="../../gr_funzioni/array/array_unico/#array_length">array_length</a></li>
+<li><a href="../../gr_funzioni/array/array_unico/#array_agg">array_agg</a></li>
+</ul>
 
 
 
@@ -4930,58 +4840,6 @@
 <footer class="md-footer">
 
   <!-- Link to previous and/or next page -->
-  
-    <nav
-      class="md-footer__inner md-grid"
-      aria-label="footer.title"
-    >
-
-      <!-- Link to previous page -->
-      
-        
-        <a
-          href="../hub_lines/"
-          class="md-footer__link md-footer__link--prev"
-          aria-label="Precedente: Creare Hub lines"
-          rel="prev"
-        >
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Precedente
-              </span>
-              Creare Hub lines
-            </div>
-          </div>
-        </a>
-      
-
-      <!-- Link to next page -->
-      
-        
-        <a
-          href="../distanze_progressive_chilometriche/"
-          class="md-footer__link md-footer__link--next"
-          aria-label="Successivo: Distanze progressive chilometriche"
-          rel="next"
-        >
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Successivo
-              </span>
-              Distanze progressive chilometriche
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
 
   <!-- Further information -->
