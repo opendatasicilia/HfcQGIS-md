@@ -1,4 +1,4 @@
-# Novità rilevanti introdotte in QGIS 3.38
+# Novità rilevanti introdotte in QGIS 3.40
 
 ## espressioni
 
