@@ -95,3 +95,4 @@ data       | descrizione
 27/07/2024 | undicesimo post del blog [statistiche punti sovrapposti](https://hfcqgis.opendatasicilia.it/blog/2024/07/27/statistiche-punti-sovrapposti/)
 02/08/2024 | nuova funzione custom [recupera alias campo](https://hfcqgis.opendatasicilia.it/gr_funzioni/custom/custom_unico/#recupera-lalias-di-un-attributo-specificato-nel-layer-corrente)
 17/11/2024 | aggiunto [85esimo](esempi/accuracy_confusion_matrix.md) esempio
+06/04/2025 | Aggiornamento Release versioni
