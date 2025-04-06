@@ -1,5 +1,7 @@
 # Novità rilevanti introdotte in QGIS 3.36
 
+[QGIS 3.36 Maidenhead](https://changelog.qgis.org/en/qgis/version/3.36/)
+
 ## espressioni
 
 - relation_aggregate + maximun e minimum <https://github.com/qgis/QGIS/pull/55082>
