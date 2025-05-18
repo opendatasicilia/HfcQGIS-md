@@ -5113,6 +5113,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#etichette" class="md-nav__link">
+    <span class="md-ellipsis">
+      Etichette
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -5217,7 +5235,27 @@
 </code></pre></div>
 <p><a href="../../img/esempi/ragnetto/img_01.png"><img alt="" src="../../img/esempi/ragnetto/img_01.png" /></a></p>
 <p><a href="../../img/esempi/ragnetto/img_02.png"><img alt="" src="../../img/esempi/ragnetto/img_02.png" /></a></p>
-<hr />
+<h2 id="etichette">Etichette<a class="headerlink" href="#etichette" title="Permanent link">↵</a></h2>
+<p>Per visualizzare le sole etichette degli otti elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>with_variable(
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  &#39;center&#39;,
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  transform(@canvas_cursor_point, @map_crs, @layer_crs),
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  if(
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    array_contains(
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>      array_slice(
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>        array_agg(
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>          @id,
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>          order_by := distance(@geometry, @center)
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>        ), 0, 7
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>      ),
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>      @id
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>    ),
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>    true,
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    NULL
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>  )
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>) is true
+</code></pre></div>
+<h2 id="_1"><a href="../../img/esempi/ragnetto/label_ragnetto.gif"><img alt="" src="../../img/esempi/ragnetto/label_ragnetto.gif" /></a><a class="headerlink" href="#_1" title="Permanent link">↵</a></h2>
 <p>Funzioni e variabili utilizzate:</p>
 <ul>
 <li><a href="../../gr_funzioni/generale/generale_unico/#with_variable">with_variable</a></li>
