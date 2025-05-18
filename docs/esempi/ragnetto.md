@@ -66,7 +66,31 @@ with_variable(
 
 [![](../img/esempi/ragnetto/img_02.png)](../img/esempi/ragnetto/img_02.png)
 
+## Etichette
 
+Per visualizzare le sole etichette degli otti elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione:
+
+```
+with_variable(
+  'center',
+  transform(@canvas_cursor_point, @map_crs, @layer_crs),
+  if(
+    array_contains(
+      array_slice(
+        array_agg(
+          @id,
+          order_by := distance(@geometry, @center)
+        ), 0, 7
+      ),
+      @id
+    ),
+    true,
+    NULL
+  )
+) is true
+```
+
+[![](../img/esempi/ragnetto/label_ragnetto.gif)](../img/esempi/ragnetto/label_ragnetto.gif)
 ---
 
 Funzioni e variabili utilizzate:
