@@ -9,7 +9,7 @@ tags:
 
 # ragnetto
 
-Dato un layer di punti, l'espressione permette di simulare un ragnetto che si sposta nella mappa a partire dal centro della stessa mappa. (per far seguire il mouse usare la variabile `@layer_cursor_point` al posto di `@map_extent_center`)
+Dato un layer vettoriale, l'espressione permette di simulare un ragnetto che si sposta nella mappa a partire dal centro della stessa mappa e collegandosi ai primi 8 punti più vicini. (per far seguire il mouse usare la variabile `@canvas_cursor_point` al posto di `@map_extent_center`)
 
 L'espressione va utilizzata in un layer di stile come `generatore di geometrie`.
 
@@ -37,6 +37,35 @@ with_variable(
 
 - riferimento: <https://discourse.osgeo.org/t/funziona-male-lespressione-overlay-nearest-edit-no/146923>
 - ringraziamenti: [Andrea Giudiceandrea](https://github.com/agiudiceandrea)
+
+## Ragnetto insegue puntatore mouse
+
+L'espressione è la seguente:
+
+```
+with_variable(
+  'center',
+  transform(@canvas_cursor_point, @map_crs, @layer_crs),
+  if(
+    array_contains(
+      array_slice(
+        array_agg(
+          @id,
+          order_by := distance(@geometry, @center)
+        ), 0, 7
+      ),
+      @id
+    ),
+    make_line(@geometry, @center),
+    NULL
+  )
+)
+```
+
+[![](../img/esempi/ragnetto/img_01.png)](../img/esempi/ragnetto/img_01.png)
+
+[![](../img/esempi/ragnetto/img_02.png)](../img/esempi/ragnetto/img_02.png)
+
 
 ---
 
