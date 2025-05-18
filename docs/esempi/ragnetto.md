@@ -32,7 +32,7 @@ with_variable(
 )
 ```
 
-[![](../img/esempi/ragnetto/ragnetto.mp4)](../img/esempi/ragnetto/ragnetto.mp4)
+[![](../img/esempi/ragnetto/ragnetto.gif)](../img/esempi/ragnetto/ragnetto.gif)
 
 - riferimento: <https://discourse.osgeo.org/t/funziona-male-lespressione-overlay-nearest-edit-no/146923>
 - ringraziamenti: [Andrea Giudiceandrea](https://github.com/agiudiceandrea)
