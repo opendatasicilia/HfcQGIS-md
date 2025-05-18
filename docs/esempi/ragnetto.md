@@ -4,6 +4,7 @@ tags:
   - linee
   - nearest
   - distance
+  - geometry_generator
 ---
 
 # ragnetto
@@ -41,13 +42,13 @@ with_variable(
 
 Funzioni e variabili utilizzate:
 
-* [with_variable](../gr_funzioni/generale/generale_unico#with_variable)
+* [with_variable](../gr_funzioni/generale/generale_unico.md#with_variable)
 * [@map_extent_center](../gr_funzioni/variabili/parent.md)
 * [@map_crs](../gr_funzioni/variabili/parent.md)
 * [@layer_crs](../gr_funzioni/variabili/parent.md)
 * [distance](../gr_funzioni/geometria/geometria_unico#distance)
-* [make_line](../gr_funzioni/geometria/geometria_unico#make_line)
-* [transform](../gr_funzioni/geometria/geometria_unico#transform)
-* [array_contains](../gr_funzioni/array/array_unico#array_contains)
-* [array_slice](../gr_funzioni/array/array_unico#array_slice)
-* [array_agg](../ggr_funzioni/array/array_unico#array_agg)
+* [make_line](../gr_funzioni/geometria/geometria_unico.md#make_line)
+* [transform](../gr_funzioni/geometria/geometria_unico.md#transform)
+* [array_contains](../gr_funzioni/array/array_unico.md#array_contains)
+* [array_slice](../gr_funzioni/array/array_unico.md#array_slice)
+* [array_agg](../gr_funzioni/array/array_unico.md#array_agg)
