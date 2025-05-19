@@ -5236,7 +5236,7 @@
 <p><a href="../../img/esempi/ragnetto/img_01.png"><img alt="" src="../../img/esempi/ragnetto/img_01.png" /></a></p>
 <p><a href="../../img/esempi/ragnetto/img_02.png"><img alt="" src="../../img/esempi/ragnetto/img_02.png" /></a></p>
 <h2 id="etichette">Etichette<a class="headerlink" href="#etichette" title="Permanent link">↵</a></h2>
-<p>Per visualizzare le sole etichette degli otti elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione:</p>
+<p>Per visualizzare le sole etichette degli otto elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione nel filtro:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>with_variable(
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  &#39;center&#39;,
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  transform(@canvas_cursor_point, @map_crs, @layer_crs),
@@ -5255,7 +5255,26 @@
 <a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>  )
 <a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>) is true
 </code></pre></div>
-<h2 id="_1"><a href="../../img/esempi/ragnetto/label_ragnetto.gif"><img alt="" src="../../img/esempi/ragnetto/label_ragnetto.gif" /></a><a class="headerlink" href="#_1" title="Permanent link">↵</a></h2>
+<p>Per visualizzare come etichette le relative distanze usare la seguente espressione:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>with_variable(
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  &#39;center&#39;,
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  transform(@canvas_cursor_point, @map_crs, @layer_crs),
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  if(
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    array_contains(
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>      array_slice(
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>        array_agg(
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>          @id,
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>          order_by := distance(@geometry, @center)
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>        ), 0, 7
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>      ),
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>      @id
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    ),
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    round(length(make_line(@geometry, @center)),2),
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>    NULL
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>  )
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>) ||&#39; m&#39;
+</code></pre></div>
+<h2 id="_1"><a href="../../img/esempi/ragnetto/ragnetto_dist.gif"><img alt="" src="../../img/esempi/ragnetto/ragnetto_dist.gif" /></a><a class="headerlink" href="#_1" title="Permanent link">↵</a></h2>
 <p>Funzioni e variabili utilizzate:</p>
 <ul>
 <li><a href="../../gr_funzioni/generale/generale_unico/#with_variable">with_variable</a></li>
