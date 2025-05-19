@@ -68,7 +68,7 @@ with_variable(
 
 ## Etichette
 
-Per visualizzare le sole etichette degli otti elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione:
+Per visualizzare le sole etichette degli otto elementi più vicini: attivare l'etichettatura tramite regola e utilizzare la seguente espressione nel filtro:
 
 ```
 with_variable(
@@ -90,7 +90,29 @@ with_variable(
 ) is true
 ```
 
-[![](../img/esempi/ragnetto/label_ragnetto.gif)](../img/esempi/ragnetto/label_ragnetto.gif)
+Per visualizzare come etichette le relative distanze usare la seguente espressione:
+
+```
+with_variable(
+  'center',
+  transform(@canvas_cursor_point, @map_crs, @layer_crs),
+  if(
+    array_contains(
+      array_slice(
+        array_agg(
+          @id,
+          order_by := distance(@geometry, @center)
+        ), 0, 7
+      ),
+      @id
+    ),
+    round(length(make_line(@geometry, @center)),2),
+    NULL
+  )
+) ||' m'
+```
+
+[![](../img/esempi/ragnetto/ragnetto_dist.gif)](../img/esempi/ragnetto/ragnetto_dist.gif)
 ---
 
 Funzioni e variabili utilizzate:
