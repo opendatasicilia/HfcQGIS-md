@@ -69,6 +69,7 @@ theme:
   # - search.highlight
     - search.share
     - navigation.footer
+    - content.code.copy
   palette:
     primary: deep orange
     accent: green
