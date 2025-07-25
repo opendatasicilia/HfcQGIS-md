@@ -12,6 +12,7 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+25/07/2025 | aggiunta nuova versione 3.44 ultima della serie 3.x
 18/05/2025 | aggiunto [86esimo](esempi/ragnetto.md) esempio
 06/04/2025 | Aggiornamento Release versioni
 17/11/2024 | aggiunto [85esimo](esempi/accuracy_confusion_matrix.md) esempio
