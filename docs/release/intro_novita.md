@@ -9,7 +9,7 @@
 
 Release        | Data | changelog | nuove funzioni | numero
 ---------------|------|-----------|----------------|-------------
-[QGIS 3.44 Solothurn](novita_344.md)  |20/06/2025 | <a href="https://changelog.qgis.org/en/qgis/version/3.44/" target="_blank"><img src="../../img/splashscreen/mini/splash_3_44rc.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.44"></a> | | +2
+[QGIS 3.44 Solothurn](novita_344.md)  |20/06/2025 | <a href="https://changelog.qgis.org/en/qgis/version/3.44/" target="_blank"><img src="../../img/splashscreen/mini/splash_3_44rc.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.44"></a> |repeat, crs_from_text, crs_to_authid, add comment | +3
 [QGIS 3.42 Münster](novita_342.md)  |21/02/2025 | <a href="https://changelog.qgis.org/en/qgis/version/3.42/" target="_blank"><img src="../../img/splashscreen/mini/splash_3_42rc.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.42"></a> | | 0
 [QGIS 3.40 Bratislava](novita_340.md)  |25/10/2024 | <a href="https://changelog.qgis.org/en/qgis/version/3.40/" target="_blank"><img src="../../img/splashscreen/mini/splash_3_40rc.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.34"></a> | | +2
 [QGIS 3.38 Grenoble](novita_338.md)  |21/06/2024 | <a href="https://changelog.qgis.org/en/qgis/version/3.38/" target="_blank"><img src="../../img/splashscreen/mini/splash_3_38rc.png" alt="QGIS.org"  width="200" class="immagonobox" title="Changelog 3.34"></a> | | +2
