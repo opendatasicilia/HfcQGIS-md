@@ -12,6 +12,8 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+05/09/2025 | Aggiunta funzione personalizzata per calcolo aree catastali (Ha, a, ca)
+31/08/2025 | Aggiunte tre nuove funzioni personalizzate
 25/07/2025 | aggiunta nuova versione 3.44 ultima della serie 3.x
 18/05/2025 | aggiunto [86esimo](esempi/ragnetto.md) esempio
 06/04/2025 | Aggiornamento Release versioni

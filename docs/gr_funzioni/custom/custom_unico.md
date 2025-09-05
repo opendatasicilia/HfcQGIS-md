@@ -1183,3 +1183,236 @@ def get_field_alias(field_name, feature, parent):
         return f"Field '{field_name}' not found."
 ```
 [![](../../img/custom/get_alias.png)](../../img/custom/get_alias.png)
+
+## Prima lettera maiuscola
+
+```py
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom')
+def prima_lettera_maiuscola(text, feature, parent):
+    """
+    Converte il testo in modo che solo la prima lettera sia maiuscola
+    e tutte le altre siano minuscole.
+    
+    <h4>Sintassi</h4>
+    <div class="syntax">prima_lettera_maiuscola(<i>text</i>)</div>
+    
+    <h4>Argomenti</h4>
+    <div class="arguments">
+    <table>
+    <tr><td class="argument">text</td><td>stringa di testo da convertire</td></tr>
+    </table>
+    </div>
+    
+    <h4>Esempi</h4>
+    <div class="examples">
+    <ul>
+    <li>prima_lettera_maiuscola('MARIO ROSSI') → 'Mario rossi'</li>
+    <li>prima_lettera_maiuscola('ROMA CAPITALE') → 'Roma capitale'</li>
+    </ul>
+    </div>
+    """
+    if text is None or text == '':
+        return text
+    
+    # Converte la stringa: prima lettera maiuscola, resto minuscolo
+    return text[0].upper() + text[1:].lower() if len(text) > 1 else text.upper()
+```
+
+## Formato titolo personalizzato
+
+```py
+@qgsfunction(args='auto', group='Custom')
+def formato_titolo_personalizzato(text, feature, parent):
+    """
+    Converte il testo in formato titolo, gestendo casi speciali come
+    articoli e preposizioni che rimangono minuscoli.
+    
+    <h4>Sintassi</h4>
+    <div class="syntax">formato_titolo_personalizzato(<i>text</i>)</div>
+    
+    <h4>Argomenti</h4>
+    <div class="arguments">
+    <table>
+    <tr><td class="argument">text</td><td>stringa di testo da convertire</td></tr>
+    </table>
+    </div>
+    
+    <h4>Esempi</h4>
+    <div class="examples">
+    <ul>
+    <li>formato_titolo_personalizzato('VIA DELLA REPUBBLICA') → 'Via della Repubblica'</li>
+    <li>formato_titolo_personalizzato('PIAZZA SAN GIOVANNI') → 'Piazza San Giovanni'</li>
+    </ul>
+    </div>
+    """
+    if text is None or text == '':
+        return text
+    
+    # Parole che dovrebbero rimanere minuscole (tranne se sono la prima parola)
+    parole_minuscole = {'della', 'delle', 'del', 'dei', 'di', 'da', 'in', 'con', 'per', 'su', 'tra', 'fra', 'a', 'e', 'o'}
+    
+    parole = text.lower().split()
+    risultato = []
+    
+    for i, parola in enumerate(parole):
+        if i == 0 or parola not in parole_minuscole:
+            # Prima parola o parola che deve essere maiuscola
+            risultato.append(parola.capitalize())
+        else:
+            # Parola che rimane minuscola
+            risultato.append(parola)
+    
+    return ' '.join(risultato)
+```
+
+## Pulisce spazi multipli
+
+```py
+@qgsfunction(args='auto', group='Custom')
+def pulisci_spazi_multipli(text, feature, parent):
+    """
+    Rimuove gli spazi multipli e gli spazi all'inizio e alla fine del testo.
+    
+    <h4>Sintassi</h4>
+    <div class="syntax">pulisci_spazi_multipli(<i>text</i>)</div>
+    
+    <h4>Argomenti</h4>
+    <div class="arguments">
+    <table>
+    <tr><td class="argument">text</td><td>stringa di testo da pulire</td></tr>
+    </table>
+    </div>
+    
+    <h4>Esempi</h4>
+    <div class="examples">
+    <ul>
+    <li>pulisci_spazi_multipli('  Mario   Rossi  ') → 'Mario Rossi'</li>
+    <li>pulisci_spazi_multipli('Via    Roma') → 'Via Roma'</li>
+    </ul>
+    </div>
+    """
+    if text is None:
+        return text
+    
+    import re
+    # Rimuove spazi multipli e spazi all'inizio/fine
+    return re.sub(r'\s+', ' ', text.strip())
+```
+
+## Calcola area catastale
+
+la funzione personalizzata converte da metri quadrati a Ettari, Are e Centiare - grazie Giulio Fattori
+
+```
+from qgis.core import *
+from qgis.gui import *
+import math
+
+@qgsfunction(group='CATASTO', referenced_columns=[])
+def cat_area(value, a_unit):
+    """
+    Calculate the area of ​​the parcel in "Ha", "a" or "ca" or all together
+    <h3>Syntax</h3>
+        <p><b style="color:#4863A0;">cat_area</b>(<i style="color:#9F000F;">value, a_unit</i>)
+    <h3>Arguments</h3>
+<pre>
+<i style="color:#9F000F;">value</i>    <h0>value like 112233.45 to convert</h0>
+<i style="color:#9F000F;">a_unit</i>    <h0>unit selected from those below</h0>
+</pre>
+    <ul>
+        <li><b>Ha</b> only ettari
+        <li><b>a</b>  only are
+        <li><b>ca</b> only centiare
+        <li><b>all</b> ettari, are, centiare
+    </ul>
+    <h3>Example usage:</h3>
+    <ul>
+        <li>cat_area(112233.41,'Ha') -> 11</li>
+        <li>cat_area(112233.41,'a')  -> 22</li>
+        <li>cat_area(112233.41,'ca') -> 33</li>
+        <li>cat_area(112233.41,'all')-> '11 22 33' <b>This is a string</b></li>
+    </ul>
+    """
+    
+    Ha = math.modf(value/10000)
+    a = math.modf((value - Ha[1]*10000)/100)
+    ca  = math.modf(value - Ha[1]*10000 - a[1]*100)
+    all = str(int(Ha[1])) + " " + str(int(a[1])) + " " + str(int(ca[1]))
+    
+    cat_area = {'Ha': int(Ha[1]), 'a':int(a[1]), 'ca':int(ca[1]), 'all': all}
+    
+    return cat_area[a_unit]
+```
+
+per visualizzare suggerimento mappa:
+
+```html
+<style>
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+</STYLE>
+
+<table class="blueTable">
+<thead>
+<tr>
+<th>Ha</th>
+<th>a</th>
+<th>ca</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[%cat_area( $area,'Ha')%]</td><td>[%cat_area( $area,'a')%]</td><td>[%cat_area( $area,'ca')%]</td></tr>
+</tr>
+</tbody>
+</table>
+```
