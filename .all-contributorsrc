@@ -80,6 +80,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "agiudiceandrea",
+      "name": "Andrea Giudiceandrea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7917085?v=4",
+      "profile": "https://github.com/agiudiceandrea",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
