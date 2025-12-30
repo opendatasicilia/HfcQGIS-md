@@ -145,7 +145,11 @@ END
 
 ### Metodo 3: Calcolo combinatorio
 
-Se hai bisogno del fattoriale per calcolare combinazioni o permutazioni, puoi utilizzare formule composite. Ad esempio, per calcolare le combinazioni $ C(n,k) = \frac{n!}{k!(n-k)!} $:
+Se hai bisogno del fattoriale per calcolare combinazioni o permutazioni, puoi utilizzare formule composite. Ad esempio, per calcolare le combinazioni:
+
+$$
+C(n,k) = \frac{n!}{k!(n-k)!}
+$$
 
 ```python
 -- Combinazioni semplici
