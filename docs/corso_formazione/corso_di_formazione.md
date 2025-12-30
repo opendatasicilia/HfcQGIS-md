@@ -6,7 +6,7 @@ Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://q
 
 ## Corso
 
-### In presenza
+### In presenza o da remoto
 
 Il corso è strutturato per durare almeno 16 ore - preferibilmente fulltime (due giorni da otto ore)
 
@@ -87,7 +87,7 @@ Per maggiori Info contattatemi.
 - `github`: <https://github.com/pigreco>
 - `gitlab`: <https://gitlab.com/pigr3co>
 - `Canale Telegram` : <https://t.me/pigrecoinfinito>
-
+- `Catalogo Plugin QGIS`: <https://pigreco.github.io/pigrecoinfinito-qgis/>
 
   
 ## Certificato di partecipazione
