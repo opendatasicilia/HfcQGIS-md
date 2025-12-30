@@ -74,8 +74,8 @@ Per maggiori Info contattatemi.
 
 - `Mail`: pigrecoinfinito@gmail.com
 - `Facebook`: [https://www.facebook.com/pigreco314](https://www.facebook.com/pigreco314)
-- `Twitter`: [https://twitter.com/totofiandaca](https://twitter.com/totofiandaca)
 - `Telegram`: [https://t.me/pigreco71](https://t.me/pigreco71)
+- `Mastodon.uno`: [https://mastodon.uno/@pigreco71](https://mastodon.uno/@pigreco71)
 
 ### Sitografia
 
