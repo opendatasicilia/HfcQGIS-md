@@ -29,12 +29,8 @@ Vi siete mai chiesti perché QGIS, pur avendo un ricchissimo set di funzioni mat
 
 La funzione fattoriale è una delle funzioni matematiche più conosciute, definita per i numeri naturali come:
 
-$$
-n! = \begin{cases} 
-1 & \text{se } n = 0 \\
-n \times (n-1)! & \text{se } n > 0
-\end{cases}
-$$
+**n! = 1** se n = 0  
+**n! = n × (n-1)!** se n > 0
 
 Alcuni esempi pratici:
 
@@ -147,9 +143,7 @@ END
 
 Se hai bisogno del fattoriale per calcolare combinazioni o permutazioni, puoi utilizzare formule composite. Ad esempio, per calcolare le combinazioni:
 
-$$
-C(n,k) = \frac{n!}{k!(n-k)!}
-$$
+**C(n,k) = n! / (k! × (n-k)!)**
 
 ```python
 -- Combinazioni semplici
@@ -171,7 +165,7 @@ Anche se rari, ci sono alcuni scenari in cui il fattoriale può essere utile:
 Calcolo di probabilità binomiali per analisi di pattern spaziali:
 
 ```python
--- Probabilità binomiale: P(X=k) = C(n,k) * p^k * (1-p)^(n-k)
+-- Probabilità binomiale: P(X=k) = C(n,k) × p^k × (1-p)^(n-k)
 (fattoriale("n") / (fattoriale("k") * fattoriale("n"-"k"))) 
   * power("p", "k") 
   * power(1-"p", "n"-"k")
