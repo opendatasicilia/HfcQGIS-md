@@ -5,7 +5,7 @@ tags:
   - fieldCalc
 ---
 
-# Corso di formazione avanzato - IN LAVORAZIONE
+# Corso di formazione avanzato - `IN LAVORAZIONE`
 
 ## A chi è rivolto
 
@@ -13,7 +13,7 @@ Il corso è rivolto agli utenti che conoscono l'uso generale di [QGIS](https://q
 
 ## Corso
 
-### in presenza
+### in presenza o remoto
 
 Il corso è strutturato per durare almeno XX - preferibilmente fulltime (YY giorni da otto ore)
 
@@ -54,8 +54,8 @@ Per maggiori Info contattatemi.
 
 - `Mail`: pigrecoinfinito@gmail.com
 - `Facebook`: [https://www.facebook.com/pigreco314](https://www.facebook.com/pigreco314)
-- `Twitter`: [https://twitter.com/totofiandaca](https://twitter.com/totofiandaca)
 - `Telegram`: [https://t.me/pigreco71](https://t.me/pigreco71)
+- `Mastodon.uno`: [https://mastodon.uno/@pigreco71](https://mastodon.uno/@pigreco71)
 
 ### Sitografia
 
