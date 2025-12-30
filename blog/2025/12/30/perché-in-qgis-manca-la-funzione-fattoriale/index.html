@@ -6574,7 +6574,10 @@ $$</p>
 <a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="n">END</span>
 </code></pre></div>
 <h3 id="metodo-3-calcolo-combinatorio">Metodo 3: Calcolo combinatorio<a class="headerlink" href="#metodo-3-calcolo-combinatorio" title="Permanent link">↵</a></h3>
-<p>Se hai bisogno del fattoriale per calcolare combinazioni o permutazioni, puoi utilizzare formule composite. Ad esempio, per calcolare le combinazioni $ C(n,k) = \frac{n!}{k!(n-k)!} $:</p>
+<p>Se hai bisogno del fattoriale per calcolare combinazioni o permutazioni, puoi utilizzare formule composite. Ad esempio, per calcolare le combinazioni:</p>
+<p>$$
+C(n,k) = \frac{n!}{k!(n-k)!}
+$$</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">--</span> <span class="n">Combinazioni</span> <span class="n">semplici</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">--</span> <span class="n">Esempio</span><span class="p">:</span> <span class="n">C</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span> <span class="o">=</span> <span class="mi">10</span><span class="err">!</span><span class="o">/</span><span class="p">(</span><span class="mi">3</span><span class="err">!</span><span class="o">*</span><span class="mi">7</span><span class="err">!</span><span class="p">)</span>
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="o">--</span> <span class="n">Implementazione</span> <span class="n">diretta</span> <span class="n">senza</span> <span class="n">fattoriale</span> <span class="n">completo</span>
