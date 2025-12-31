@@ -34,16 +34,12 @@ hide:
 
  <hr>
  
-  <!--  inizio blocco pubblicità -->
-  
- <!--  inizio testo Gter -->
-<!-- <a href="https://github.com/pigreco/geobreack_02_by_Gter" target="_blank"><img class="center" src="img/geobreak_02_gter.jpg" alt="GeoBreak 02 Gter | Programma" title="GeoBreak 02 Gter | Programma"/></a>
-<h5 class="service_title">
- <a href="https://mailchi.mp/a50b90870c50/in-arrivo-primo-geobreak-ottobre?fbclid=IwAR1ZFUGegfy9XKiW0ien4DFi25dvEbqh3FWgUPudG7_1aMhukBWN4PRUES8" title="GeoBreak 02 Gter | Programma" target="_blank">Programma</a><br>
-  <!--  fine testo Gter -->
-  
-  <!--  fine blocco pubblicità -->
-  
+  <!--  inizio blocco auguri -->
+  <h5 class="service_title" style="text-align: center;">
+    Buon Fine Anno 2025 e Buon Anno 2026! 🎉
+  </h5>
+  <br>
+  <!--  fine blocco auguri -->
    <section id="services pt-115 pb-120"> 
         <div class="container ">
             <div class="row justify-content-center">
