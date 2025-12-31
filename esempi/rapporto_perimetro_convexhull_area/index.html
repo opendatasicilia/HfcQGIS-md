@@ -6327,7 +6327,7 @@
 </code></pre></div>
 <p>Oppure, per un indice normalizzato (0-1), dove valori vicini a 1 indicano maggiore compattezza:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">round</span><span class="p">(</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">pi</span><span class="p">()</span> <span class="o">*</span> <span class="err">$</span><span class="n">area</span><span class="p">)</span> <span class="o">/</span> <span class="n">power</span><span class="p">(</span><span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)),</span> <span class="mi">2</span><span class="p">),</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">pi</span><span class="p">()</span> <span class="o">*</span> <span class="err">$</span><span class="n">area</span><span class="p">)</span> <span class="o">/</span> <span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">))</span><span class="o">^</span><span class="mi">2</span><span class="p">,</span>
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  <span class="mi">4</span>
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">)</span>
 </code></pre></div>
@@ -6343,7 +6343,7 @@
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  <span class="s1">&#39;perim_convex&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)),</span> <span class="mi">2</span><span class="p">),</span>
 <a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  <span class="s1">&#39;perim_effettivo&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="err">$</span><span class="n">perimeter</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  <span class="s1">&#39;indice_frastagli&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">))</span> <span class="o">/</span> <span class="err">$</span><span class="n">area</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>  <span class="s1">&#39;compattezza_norm&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">((</span><span class="mi">4</span> <span class="o">*</span> <span class="n">pi</span><span class="p">()</span> <span class="o">*</span> <span class="err">$</span><span class="n">area</span><span class="p">)</span> <span class="o">/</span> <span class="n">power</span><span class="p">(</span><span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)),</span> <span class="mi">2</span><span class="p">),</span> <span class="mi">4</span><span class="p">)</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>  <span class="s1">&#39;compattezza_norm&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">((</span><span class="mi">4</span> <span class="o">*</span> <span class="n">pi</span><span class="p">()</span> <span class="o">*</span> <span class="err">$</span><span class="n">area</span><span class="p">)</span> <span class="o">/</span> <span class="n">perimeter</span><span class="p">(</span><span class="n">convex_hull</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">))</span><span class="o">^</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
 <a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">)</span>
 </code></pre></div>
 <p>Questa espressione restituisce una mappa con:
@@ -6419,9 +6419,9 @@
 <li><a href="../../gr_funzioni/geometria/geometria_unico/#area">$area</a></li>
 <li><a href="../../gr_funzioni/geometria/geometria_unico/#perimeter">$perimeter</a></li>
 <li><a href="../../gr_funzioni/matematica/matematica_unico/#pi">pi</a></li>
-<li><a href="../../gr_funzioni/matematica/matematica_unico/#power">power</a></li>
 <li><a href="../../gr_funzioni/matematica/matematica_unico/#round">round</a></li>
 <li><a href="../../gr_funzioni/maps/maps_unico/#map">map</a></li>
+<li><a href="../../gr_funzioni/operatori/operatori_unico/#elevamento-a-potenza">^</a> (operatore elevamento a potenza)</li>
 </ul>
 
 
