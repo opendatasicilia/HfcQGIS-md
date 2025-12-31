@@ -106,12 +106,12 @@ Questo indice è particolarmente utile per:
 
 ### Confronto tra forme
 
-| Forma | Indice frastagl. | Compattezza norm. |
-|-------|------------------|-------------------|
-| Cerchio | ~0.0035 | 1.0 |
-| Quadrato | ~0.004 | ~0.7854 |
-| Rettangolo 2:1 | ~0.006 | ~0.628 |
-| Poligono frastagliato | >0.01 | <0.5 |
+| Forma                 | Indice frastagl. | Compattezza norm. |
+| --------------------- | :--------------: | ----------------: |
+| Cerchio               | ~0.0035          | 1.0               |
+| Quadrato              | ~0.004           | ~0.7854           |
+| Rettangolo 2:1        | ~0.006           | ~0.628            |
+| Poligono frastagliato | >0.01            | <0.5              |
 
 ### Note
 
