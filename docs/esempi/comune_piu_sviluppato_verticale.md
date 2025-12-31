@@ -79,6 +79,7 @@ array_first(
 ```
 
 Questa espressione:
+
 - Usa `array_agg` per aggregare i dati dei comuni in formato mappa
 - Filtra solo il comune la cui altezza del bounds è uguale al massimo tra tutti i comuni con geometria singola
 - Restituisce una mappa con il nome del comune e il suo sviluppo verticale in km
