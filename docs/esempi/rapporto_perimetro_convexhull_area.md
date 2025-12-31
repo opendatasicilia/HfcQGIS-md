@@ -46,7 +46,7 @@ Oppure, per un indice normalizzato (0-1), dove valori vicini a 1 indicano maggio
 
 ```py
 round(
-  (4 * pi() * $area) / power(perimeter(convex_hull($geometry)), 2),
+  (4 * pi() * $area) / perimeter(convex_hull($geometry))^2,
   4
 )
 ```
@@ -68,7 +68,7 @@ map(
   'perim_convex', round(perimeter(convex_hull($geometry)), 2),
   'perim_effettivo', round($perimeter, 2),
   'indice_frastagli', round(perimeter(convex_hull($geometry)) / $area * 1000, 4),
-  'compattezza_norm', round((4 * pi() * $area) / power(perimeter(convex_hull($geometry)), 2), 4)
+  'compattezza_norm', round((4 * pi() * $area) / perimeter(convex_hull($geometry))^2, 4)
 )
 ```
 
@@ -128,6 +128,6 @@ Questo indice è particolarmente utile per:
 - [$area](../gr_funzioni/geometria/geometria_unico.md#area)
 - [$perimeter](../gr_funzioni/geometria/geometria_unico.md#perimeter)
 - [pi](../gr_funzioni/matematica/matematica_unico.md#pi)
-- [power](../gr_funzioni/matematica/matematica_unico.md#power)
 - [round](../gr_funzioni/matematica/matematica_unico.md#round)
 - [map](../gr_funzioni/maps/maps_unico.md#map)
+- [^](../gr_funzioni/operatori/operatori_unico.md#elevamento-a-potenza) (operatore elevamento a potenza)
