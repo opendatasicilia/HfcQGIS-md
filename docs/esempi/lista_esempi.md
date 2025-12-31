@@ -7,7 +7,7 @@ social_image: img/card_social/hfc_lista_esempi.png
 
 ---
 
-Attualmente ci sono **88** esempi svolti! (in evoluzione)
+Attualmente ci sono **89** esempi svolti! (in evoluzione)
 
 ... e **50** esempi da svolgere: [mettiti alla prova](../mettiti_alla_prova.md)
 
@@ -107,6 +107,7 @@ nro|Esempio|Descrizione|Autore | Livello | funzioni utilizzate
 86|[Ragnetto su mappa](ragnetto.md)|Simula ragnetto che si sposta sulla mappa|Andrea Giudiceandrea | 4 | [with_variable](../gr_funzioni/generale/generale_unico.md#with_variable), [@map_extent_center](../gr_funzioni/variabili/parent.md), [@map_crs](../gr_funzioni/variabili/parent.md),[@layer_crs](../gr_funzioni/variabili/parent.md),[distance](../gr_funzioni/geometria/geometria_unico#distance), [make_line](../gr_funzioni/geometria/geometria_unico.md#make_line), [transform](../gr_funzioni/geometria/geometria_unico.md#transform), [array_contains](../gr_funzioni/array/array_unico.md#array_contains), [array_slice](../gr_funzioni/array/array_unico.md#array_slice), [array_agg](../gr_funzioni/array/array_unico.md#array_agg)
 87|[Conteggio progressivo ripetizioni](conteggio_progressivo_ripetizioni.md)|Conta progressivamente le ripetizioni di valori ripartendo da 1 ad ogni cambio|Salvatore Fiandaca | 3 | [with_variable](../gr_funzioni/generale/generale_unico.md#with_variable), [array_slice](../gr_funzioni/array/array_unico.md#array_slice), [array_agg](../gr_funzioni/array/array_unico.md#array_agg), [array_sort](../gr_funzioni/array/array_unico.md#array_sort), [$id](../gr_funzioni/record_e_attributi/record_e_attributi_unico.md#id), [array_length](../gr_funzioni/array/array_unico.md#array_length), [array_find](../gr_funzioni/array/array_unico.md#array_find), [if](../gr_funzioni/condizioni/condizioni_unico.md#if)
 88|[Angolo interno minimo poligono](angolo_interno_minimo_poligono.md)|Calcola l'angolo interno più piccolo di un poligono|Salvatore Fiandaca | 4 | [array_min](../gr_funzioni/array/array_unico.md#array_min), [array_foreach](../gr_funzioni/array/array_unico.md#array_foreach), [generate_series](../gr_funzioni/array/array_unico.md#generate_series), [with_variable](../gr_funzioni/generale/generale_unico.md#with_variable), [point_n](../gr_funzioni/geometria/geometria_unico.md#point_n), [num_points](../gr_funzioni/geometria/geometria_unico.md#num_points), [azimuth](../gr_funzioni/geometria/geometria_unico.md#azimuth), [degrees](../gr_funzioni/matematica/matematica_unico.md#degrees), [abs](../gr_funzioni/matematica/matematica_unico.md#abs), [min](../gr_funzioni/matematica/matematica_unico.md#min)
+89|[Comune più sviluppato verticale](comune_piu_sviluppato_verticale.md)|Trovare il comune più sviluppato in senso verticale (Nord-Sud) senza parti separate|Salvatore Fiandaca | 3 | [num_geometries](../gr_funzioni/geometria/geometria_unico.md#num_geometries), [bounds_height](../gr_funzioni/geometria/geometria_unico.md#bounds_height), [bounds](../gr_funzioni/geometria/geometria_unico.md#bounds), [y_max](../gr_funzioni/geometria/geometria_unico.md#y_max), [y_min](../gr_funzioni/geometria/geometria_unico.md#y_min), [maximum](../gr_funzioni/aggrega/aggrega_unico.md#maximum)
 
 ## Tags
 
