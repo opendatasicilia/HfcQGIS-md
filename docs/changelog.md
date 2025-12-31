@@ -12,6 +12,7 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+30/12/2025 | dodicesimo post del blog [Perché in QGIS manca la funzione Fattoriale](https://hfcqgis.opendatasicilia.it/blog/2025/12/30/manca-funzione-fattoriale/)
 05/12/2025 | aggiunto [88esimo](esempi/angolo_interno_minimo_poligono.md) esempio
 20/11/2025 | aggiunto [87esimo](esempi/conteggio_progressivo_ripetizioni.md) esempio
 04/11/2025 | Migliorata l'esempio Aggiungi coordinate x e y
