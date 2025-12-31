@@ -6344,11 +6344,13 @@
 <a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>  <span class="p">)</span>
 <a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="p">)</span>
 </code></pre></div>
-<p>Questa espressione:
-- Usa <code>array_agg</code> per aggregare i dati dei comuni in formato mappa
-- Filtra solo il comune la cui altezza del bounds è uguale al massimo tra tutti i comuni con geometria singola
-- Restituisce una mappa con il nome del comune e il suo sviluppo verticale in km
-- Output esempio: <code>{'comune': 'Nome Comune', 'sviluppo_km': 53.57}</code></p>
+<p>Questa espressione:</p>
+<ul>
+<li>Usa <code>array_agg</code> per aggregare i dati dei comuni in formato mappa</li>
+<li>Filtra solo il comune la cui altezza del bounds è uguale al massimo tra tutti i comuni con geometria singola</li>
+<li>Restituisce una mappa con il nome del comune e il suo sviluppo verticale in km</li>
+<li>Output esempio: <code>{'comune': 'Nome Comune', 'sviluppo_km': 53.57}</code></li>
+</ul>
 <h3 id="espressione-semplificata-per-la-selezione">Espressione semplificata per la selezione<a class="headerlink" href="#espressione-semplificata-per-la-selezione" title="Permanent link">↵</a></h3>
 <p>Per selezionare direttamente il comune cercato:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">maximum</span><span class="p">(</span><span class="n">bounds_height</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">),</span> <span class="nb">filter</span><span class="o">:=</span> <span class="n">num_geometries</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
