@@ -2148,6 +2148,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#conta_vertici_layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        conta_vertici_layer
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6673,6 +6684,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#conta_vertici_layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        conta_vertici_layer
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7941,6 +7963,59 @@ Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il
 <a id="__codelineno-33-64" name="__codelineno-33-64" href="#__codelineno-33-64"></a><span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
 <a id="__codelineno-33-65" name="__codelineno-33-65" href="#__codelineno-33-65"></a><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
 </code></pre></div>
+<hr />
+<h2 id="conta_vertici_layer">conta_vertici_layer<a class="headerlink" href="#conta_vertici_layer" title="Permanent link">↵</a></h2>
+<p>Conta tutti i vertici e le feature di un layer.</p>
+<p>Sintassi:</p>
+<ul>
+<li>conta_vertici_layer(<em><span style="color:red;">layer_name</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">layer_name</span></em> nome del layer da analizzare</li>
+</ul>
+<p>Esempio:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>conta_vertici_layer(&#39;edifici&#39;) → &#39;Vertici totali: 1250 - Feature: 45&#39;
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>conta_vertici_layer(@layer_name) → conta i vertici del layer corrente
+</code></pre></div>
+<p>Codice Python:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">qgis.core</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">qgis.gui</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="nd">@qgsfunction</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">group</span><span class="o">=</span><span class="s1">&#39;Custom&#39;</span><span class="p">)</span>
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">conta_vertici_layer</span><span class="p">(</span><span class="n">layer_name</span><span class="p">,</span> <span class="n">feature</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a><span class="sd">    Conta tutti i vertici e le feature di un layer.</span>
+<a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>
+<a id="__codelineno-35-9" name="__codelineno-35-9" href="#__codelineno-35-9"></a><span class="sd">    &lt;h2&gt;Sintassi&lt;/h2&gt;</span>
+<a id="__codelineno-35-10" name="__codelineno-35-10" href="#__codelineno-35-10"></a><span class="sd">    &lt;div class=&quot;syntax&quot;&gt;&lt;code&gt;conta_vertici_layer(&lt;span class=&quot;argument&quot;&gt;layer_name&lt;/span&gt;)&lt;/code&gt;&lt;/div&gt;</span>
+<a id="__codelineno-35-11" name="__codelineno-35-11" href="#__codelineno-35-11"></a>
+<a id="__codelineno-35-12" name="__codelineno-35-12" href="#__codelineno-35-12"></a><span class="sd">    &lt;h2&gt;Argomenti&lt;/h2&gt;</span>
+<a id="__codelineno-35-13" name="__codelineno-35-13" href="#__codelineno-35-13"></a><span class="sd">    &lt;div class=&quot;arguments&quot;&gt;</span>
+<a id="__codelineno-35-14" name="__codelineno-35-14" href="#__codelineno-35-14"></a><span class="sd">    &lt;table&gt;</span>
+<a id="__codelineno-35-15" name="__codelineno-35-15" href="#__codelineno-35-15"></a><span class="sd">    &lt;tr&gt;&lt;td class=&quot;argument&quot;&gt;layer_name&lt;/td&gt;&lt;td&gt;nome del layer da analizzare&lt;/td&gt;&lt;/tr&gt;</span>
+<a id="__codelineno-35-16" name="__codelineno-35-16" href="#__codelineno-35-16"></a><span class="sd">    &lt;/table&gt;</span>
+<a id="__codelineno-35-17" name="__codelineno-35-17" href="#__codelineno-35-17"></a><span class="sd">    &lt;/div&gt;</span>
+<a id="__codelineno-35-18" name="__codelineno-35-18" href="#__codelineno-35-18"></a>
+<a id="__codelineno-35-19" name="__codelineno-35-19" href="#__codelineno-35-19"></a><span class="sd">    &lt;h2&gt;Esempi&lt;/h2&gt;</span>
+<a id="__codelineno-35-20" name="__codelineno-35-20" href="#__codelineno-35-20"></a><span class="sd">    &lt;ul&gt;</span>
+<a id="__codelineno-35-21" name="__codelineno-35-21" href="#__codelineno-35-21"></a><span class="sd">    &lt;li&gt;&lt;code&gt;conta_vertici_layer(&#39;edifici&#39;)&lt;/code&gt; → &#39;Vertici totali: 1250 - Feature: 45&#39;&lt;/li&gt;</span>
+<a id="__codelineno-35-22" name="__codelineno-35-22" href="#__codelineno-35-22"></a><span class="sd">    &lt;li&gt;&lt;code&gt;conta_vertici_layer(@layer_name)&lt;/code&gt; → conta i vertici del layer corrente&lt;/li&gt;</span>
+<a id="__codelineno-35-23" name="__codelineno-35-23" href="#__codelineno-35-23"></a><span class="sd">    &lt;/ul&gt;</span>
+<a id="__codelineno-35-24" name="__codelineno-35-24" href="#__codelineno-35-24"></a><span class="sd">    &quot;&quot;&quot;</span>
+<a id="__codelineno-35-25" name="__codelineno-35-25" href="#__codelineno-35-25"></a>
+<a id="__codelineno-35-26" name="__codelineno-35-26" href="#__codelineno-35-26"></a>    <span class="c1"># Crea l&#39;espressione per i vertici</span>
+<a id="__codelineno-35-27" name="__codelineno-35-27" href="#__codelineno-35-27"></a>    <span class="n">expr_vertices</span> <span class="o">=</span> <span class="n">QgsExpression</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;aggregate(&#39;</span><span class="si">{</span><span class="n">layer_name</span><span class="si">}</span><span class="s2">&#39;, &#39;sum&#39;, num_points($geometry))&quot;</span><span class="p">)</span>
+<a id="__codelineno-35-28" name="__codelineno-35-28" href="#__codelineno-35-28"></a>    <span class="n">context</span> <span class="o">=</span> <span class="n">QgsExpressionContext</span><span class="p">()</span>
+<a id="__codelineno-35-29" name="__codelineno-35-29" href="#__codelineno-35-29"></a>    <span class="n">total_vertices</span> <span class="o">=</span> <span class="n">expr_vertices</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+<a id="__codelineno-35-30" name="__codelineno-35-30" href="#__codelineno-35-30"></a>
+<a id="__codelineno-35-31" name="__codelineno-35-31" href="#__codelineno-35-31"></a>    <span class="c1"># Crea l&#39;espressione per le feature</span>
+<a id="__codelineno-35-32" name="__codelineno-35-32" href="#__codelineno-35-32"></a>    <span class="n">expr_features</span> <span class="o">=</span> <span class="n">QgsExpression</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;aggregate(&#39;</span><span class="si">{</span><span class="n">layer_name</span><span class="si">}</span><span class="s2">&#39;, &#39;count&#39;, $id)&quot;</span><span class="p">)</span>
+<a id="__codelineno-35-33" name="__codelineno-35-33" href="#__codelineno-35-33"></a>    <span class="n">total_features</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">expr_features</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">context</span><span class="p">))</span>
+<a id="__codelineno-35-34" name="__codelineno-35-34" href="#__codelineno-35-34"></a>
+<a id="__codelineno-35-35" name="__codelineno-35-35" href="#__codelineno-35-35"></a>    <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;Vertici totali: </span><span class="si">{</span><span class="n">total_vertices</span><span class="si">}</span><span class="s1"> - Feature: </span><span class="si">{</span><span class="n">total_features</span><span class="si">}</span><span class="s1">&#39;</span>
+</code></pre></div>
+<p>Lo script Python è stato realizzato da <a href="https://github.com/Korto19">Giulio Fattori</a></p>
 
 
 
