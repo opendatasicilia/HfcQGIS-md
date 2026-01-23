@@ -11891,7 +11891,7 @@ dove:</p>
 </div>
 <hr />
 <h2 id="overlay_equals">overlay_equals<a class="headerlink" href="#overlay_equals" title="Permanent link">↵</a></h2>
-<p>Restituisce se l'elemento corrente è spazialmente uguale ad almeno un elemento da un layer target o un array di risultati basati su espressioni per gli elementi nel layer target che sono spazialmente uguali all'elemento corrente. Ulteriori informazioni sul predicato GEOS "Equals" sottostante, come descritto nella funzione PostGIS <a href="https://postgis.net/docs/ST_Equals.html">ST_Equals</a>.</p>
+<p>Restituisce se la feature corrente è esattamente uguale ad almeno una feature di un layer di destinazione, oppure un array di risultati basati su espressioni per le feature nel layer di destinazione che sono esattamente uguali alla feature corrente. Si noti che l' ordine dei vertici è importante.</p>
 <p>Sintassi:</p>
 <ul>
 <li>overlay_equals(<em><span style="color:red;">layer</span></em>[,<em><span style="color:red;">expression</span></em>][,<em><span style="color:red;">filter</span></em>][,<em><span style="color:red;">limit</span></em>][,<em><span style="color:red;">cache=false</span></em>])</li>
@@ -11907,13 +11907,13 @@ dove:</p>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-114-1" name="__codelineno-114-1" href="#__codelineno-114-1"></a>overlay_equals(&#39;regions&#39;) → true se l&#39;elemento corrente è spazialmente uguale ad una regione
-<a id="__codelineno-114-2" name="__codelineno-114-2" href="#__codelineno-114-2"></a>overlay_equals(&#39;regions&#39;, filter:= population &gt; 10000) → vero se l&#39;elemento corrente è spazialmente uguale ad una regione con una popolazione maggiore di 10000
-<a id="__codelineno-114-3" name="__codelineno-114-3" href="#__codelineno-114-3"></a>overlay_equals(&#39;regions&#39;, name) → un array di nomi, per le regioni spazialmente uguali all&#39;elemento corrente
-<a id="__codelineno-114-4" name="__codelineno-114-4" href="#__codelineno-114-4"></a>array_to_string(overlay_equals(&#39;regions&#39;, name)) → una stringa come lista di nomi separati da virgole, per le regioni spazialmente uguali all&#39;elemento corrente
-<a id="__codelineno-114-5" name="__codelineno-114-5" href="#__codelineno-114-5"></a>overlay_equals(&#39;regions&#39;, name)[0] → una stringa con il nome della regione spazialmente uguale all&#39;elemento corrente
-<a id="__codelineno-114-6" name="__codelineno-114-6" href="#__codelineno-114-6"></a>array_sort(overlay_equals(layer:=&#39;regions&#39;, expression:=&quot;name&quot;, filter:= population &gt; 10000)) → un array ordinato di nomi, per le regioni spazialmente uguali all&#39;elemento corrente e con una popolazione superiore a 10000
-<a id="__codelineno-114-7" name="__codelineno-114-7" href="#__codelineno-114-7"></a>overlay_equals(layer:=&#39;regions&#39;, expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni spazialmente uguali all&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-114-1" name="__codelineno-114-1" href="#__codelineno-114-1"></a>overlay_equals(&#39;regions&#39;) → true se l&#39;elemento corrente è esattamente uguale ad una regione
+<a id="__codelineno-114-2" name="__codelineno-114-2" href="#__codelineno-114-2"></a>overlay_equals(&#39;regions&#39;, filter:= population &gt; 10000) → vero se l&#39;elemento corrente è esattamente uguale ad una regione con una popolazione maggiore di 10000
+<a id="__codelineno-114-3" name="__codelineno-114-3" href="#__codelineno-114-3"></a>overlay_equals(&#39;regions&#39;, name) → un array di nomi, per le regioni esattamente uguali all&#39;elemento corrente
+<a id="__codelineno-114-4" name="__codelineno-114-4" href="#__codelineno-114-4"></a>array_to_string(overlay_equals(&#39;regions&#39;, name)) → una stringa come lista di nomi separati da virgole, per le regioni esattamente uguali all&#39;elemento corrente
+<a id="__codelineno-114-5" name="__codelineno-114-5" href="#__codelineno-114-5"></a>overlay_equals(&#39;regions&#39;, name)[0] → una stringa con il nome della regione esattamente uguale all&#39;elemento corrente
+<a id="__codelineno-114-6" name="__codelineno-114-6" href="#__codelineno-114-6"></a>array_sort(overlay_equals(layer:=&#39;regions&#39;, expression:=&quot;name&quot;, filter:= population &gt; 10000)) → un array ordinato di nomi, per le regioni esattamente uguali all&#39;elemento corrente e con una popolazione superiore a 10000
+<a id="__codelineno-114-7" name="__codelineno-114-7" href="#__codelineno-114-7"></a>overlay_equals(layer:=&#39;regions&#39;, expression:= geom_to_wkt($geometry), limit:=2) → un array di geometrie (in WKT), per un massimo di due regioni esattamente uguali all&#39;elemento corrente
 </code></pre></div>
 <p><a href="../../../img/geometria/overlay_/overlay_equals1.png"><img alt="" src="../../../img/geometria/overlay_/overlay_equals1.png" /></a></p>
 <div class="admonition warning">
