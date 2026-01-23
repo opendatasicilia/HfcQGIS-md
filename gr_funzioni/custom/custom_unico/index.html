@@ -2149,10 +2149,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#conta_vertici_layer" class="md-nav__link">
+  <a href="#conta-vertici-layer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        conta_vertici_layer
+        conta vertici layer
       
     </span>
   </a>
@@ -6685,10 +6685,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#conta_vertici_layer" class="md-nav__link">
+  <a href="#conta-vertici-layer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        conta_vertici_layer
+        conta vertici layer
       
     </span>
   </a>
@@ -7964,7 +7964,7 @@ Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il
 <a id="__codelineno-33-65" name="__codelineno-33-65" href="#__codelineno-33-65"></a><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
 </code></pre></div>
 <hr />
-<h2 id="conta_vertici_layer">conta_vertici_layer<a class="headerlink" href="#conta_vertici_layer" title="Permanent link">↵</a></h2>
+<h2 id="conta-vertici-layer">conta vertici layer<a class="headerlink" href="#conta-vertici-layer" title="Permanent link">↵</a></h2>
 <p>Conta tutti i vertici e le feature di un layer.</p>
 <p>Sintassi:</p>
 <ul>
@@ -8007,7 +8007,7 @@ Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il
 <a id="__codelineno-35-26" name="__codelineno-35-26" href="#__codelineno-35-26"></a>    <span class="c1"># Crea l&#39;espressione per i vertici</span>
 <a id="__codelineno-35-27" name="__codelineno-35-27" href="#__codelineno-35-27"></a>    <span class="n">expr_vertices</span> <span class="o">=</span> <span class="n">QgsExpression</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;aggregate(&#39;</span><span class="si">{</span><span class="n">layer_name</span><span class="si">}</span><span class="s2">&#39;, &#39;sum&#39;, num_points($geometry))&quot;</span><span class="p">)</span>
 <a id="__codelineno-35-28" name="__codelineno-35-28" href="#__codelineno-35-28"></a>    <span class="n">context</span> <span class="o">=</span> <span class="n">QgsExpressionContext</span><span class="p">()</span>
-<a id="__codelineno-35-29" name="__codelineno-35-29" href="#__codelineno-35-29"></a>    <span class="n">total_vertices</span> <span class="o">=</span> <span class="n">expr_vertices</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+<a id="__codelineno-35-29" name="__codelineno-35-29" href="#__codelineno-35-29"></a>    <span class="n">total_vertices</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">expr_vertices</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">context</span><span class="p">))</span>
 <a id="__codelineno-35-30" name="__codelineno-35-30" href="#__codelineno-35-30"></a>
 <a id="__codelineno-35-31" name="__codelineno-35-31" href="#__codelineno-35-31"></a>    <span class="c1"># Crea l&#39;espressione per le feature</span>
 <a id="__codelineno-35-32" name="__codelineno-35-32" href="#__codelineno-35-32"></a>    <span class="n">expr_features</span> <span class="o">=</span> <span class="n">QgsExpression</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;aggregate(&#39;</span><span class="si">{</span><span class="n">layer_name</span><span class="si">}</span><span class="s2">&#39;, &#39;count&#39;, $id)&quot;</span><span class="p">)</span>
@@ -8015,7 +8015,6 @@ Elenco delle descrizioni, se vuoto o in numero insufficiente sara' utilizzato il
 <a id="__codelineno-35-34" name="__codelineno-35-34" href="#__codelineno-35-34"></a>
 <a id="__codelineno-35-35" name="__codelineno-35-35" href="#__codelineno-35-35"></a>    <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;Vertici totali: </span><span class="si">{</span><span class="n">total_vertices</span><span class="si">}</span><span class="s1"> - Feature: </span><span class="si">{</span><span class="n">total_features</span><span class="si">}</span><span class="s1">&#39;</span>
 </code></pre></div>
-<p>Lo script Python è stato realizzato da <a href="https://github.com/Korto19">Giulio Fattori</a></p>
 
 
 
