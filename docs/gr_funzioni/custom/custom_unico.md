@@ -1416,3 +1416,66 @@ table.blueTable tfoot .links a{
 </tbody>
 </table>
 ```
+
+---
+
+## conta_vertici_layer
+
+Conta tutti i vertici e le feature di un layer.
+
+Sintassi:
+
+- conta_vertici_layer(_<span style="color:red;">layer_name</span>_)
+
+Argomenti:
+
+- _<span style="color:red;">layer_name</span>_ nome del layer da analizzare
+
+Esempio:
+
+```
+conta_vertici_layer('edifici') → 'Vertici totali: 1250 - Feature: 45'
+conta_vertici_layer(@layer_name) → conta i vertici del layer corrente
+```
+
+Codice Python:
+
+```py
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom')
+def conta_vertici_layer(layer_name, feature, parent):
+    """
+    Conta tutti i vertici e le feature di un layer.
+    
+    <h2>Sintassi</h2>
+    <div class="syntax"><code>conta_vertici_layer(<span class="argument">layer_name</span>)</code></div>
+    
+    <h2>Argomenti</h2>
+    <div class="arguments">
+    <table>
+    <tr><td class="argument">layer_name</td><td>nome del layer da analizzare</td></tr>
+    </table>
+    </div>
+    
+    <h2>Esempi</h2>
+    <ul>
+    <li><code>conta_vertici_layer('edifici')</code> → 'Vertici totali: 1250 - Feature: 45'</li>
+    <li><code>conta_vertici_layer(@layer_name)</code> → conta i vertici del layer corrente</li>
+    </ul>
+    """
+    
+    # Crea l'espressione per i vertici
+    expr_vertices = QgsExpression(f"aggregate('{layer_name}', 'sum', num_points($geometry))")
+    context = QgsExpressionContext()
+    total_vertices = expr_vertices.evaluate(context)
+    
+    # Crea l'espressione per le feature
+    expr_features = QgsExpression(f"aggregate('{layer_name}', 'count', $id)")
+    total_features = int(expr_features.evaluate(context))
+    
+    return f'Vertici totali: {total_vertices} - Feature: {total_features}'
+```
+
+Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
