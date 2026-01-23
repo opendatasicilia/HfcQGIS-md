@@ -12,6 +12,7 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+23/01/2026 | correzione aggiornamento della guida in line della funzione overlay_equals, [vedi](https://github.com/qgis/QGIS/pull/64641/commits/77360e880864867ec09d66c499bb1ff3b5e855cd) 
 31/12/2025 | aggiunto [90esimo](esempi/rapporto_perimetro_convexhull_area.md) esempio
 31/12/2025 | aggiunto [89esimo](esempi/comune_piu_sviluppato_verticale.md) esempio
 30/12/2025 | dodicesimo post del blog [Perché in QGIS manca la funzione Fattoriale](https://hfcqgis.opendatasicilia.it/blog/2025/12/30/manca-funzione-fattoriale/)
