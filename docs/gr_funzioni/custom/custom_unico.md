@@ -1419,7 +1419,7 @@ table.blueTable tfoot .links a{
 
 ---
 
-## conta_vertici_layer
+## conta vertici layer
 
 Conta tutti i vertici e le feature di un layer.
 
@@ -1469,7 +1469,7 @@ def conta_vertici_layer(layer_name, feature, parent):
     # Crea l'espressione per i vertici
     expr_vertices = QgsExpression(f"aggregate('{layer_name}', 'sum', num_points($geometry))")
     context = QgsExpressionContext()
-    total_vertices = expr_vertices.evaluate(context)
+    total_vertices = int(expr_vertices.evaluate(context))
     
     # Crea l'espressione per le feature
     expr_features = QgsExpression(f"aggregate('{layer_name}', 'count', $id)")
@@ -1477,5 +1477,3 @@ def conta_vertici_layer(layer_name, feature, parent):
     
     return f'Vertici totali: {total_vertices} - Feature: {total_features}'
 ```
-
-Lo script Python è stato realizzato da [Giulio Fattori](https://github.com/Korto19)
