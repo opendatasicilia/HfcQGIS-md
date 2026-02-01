@@ -105,20 +105,25 @@ plugins:
 
 - rss:
     abstract_chars_count: 160
+    match_path: blog/posts/.*
     date_from_meta:
-        as_creation: "date"
-        as_update: "false"
-        datetime_format: "%d-%m-%Y"
+        as_creation: date
+        as_update: false
+        datetime_format: "%Y-%m-%d"
       # datetime_format: "%Y-%m-%d"
     image: https://raw.githubusercontent.com/opendatasicilia/HfcQGIS-md/main/docs/img/hfc_rss.png
     feed_ttl: 1440
     length: 20
     pretty_print: false
+    categories:
+      - categories
+      - tags
     #  match_path: ".*"
     #  url_parameters:
     #      utm_source: "documentation"
     #      utm_medium: "RSS"
     #      utm_campaign: "feed-syndication"
+
 
 markdown_extensions:
 - footnotes
@@ -349,4 +354,3 @@ nav:
       #  - Informativa privacy estesa: privacy.md
     # - Webmaster: webmaster/gbvitrano.md
   # - Tags: tags.md
-
