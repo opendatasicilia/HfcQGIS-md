@@ -5,4 +5,5 @@ non_toccare
 mkdocs_copy.yml
 *.gpkg-shm
 *.gpkg-wal
-*.qgs~ 
+*.qgs~
+site/*
