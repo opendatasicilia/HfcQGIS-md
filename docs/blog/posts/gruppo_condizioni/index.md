@@ -16,6 +16,7 @@ tags:
   - nullif
   - regex_natch
   - try
+  - QGIS
 ---
 
 # Le condizioni in QGIS

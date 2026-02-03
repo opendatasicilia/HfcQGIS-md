@@ -11,6 +11,7 @@ tags:
   - array
   - precisione
   - coordinate
+  - QGIS
 ---
 
 # Statistiche su punti sovrapposti

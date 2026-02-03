@@ -11,6 +11,7 @@ tags:
   - blog
   - espressioni
   - pdf
+  - QGIS
 ---
 
 # Estrarre numero pagine da un PDF

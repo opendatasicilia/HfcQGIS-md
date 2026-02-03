@@ -11,6 +11,7 @@ tags:
   - distanza
   - form
   - valore_predefinito
+  - QGIS
 ---
 
 # Distanza Predefinita su Form

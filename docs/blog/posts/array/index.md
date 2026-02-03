@@ -11,6 +11,7 @@ tags:
   - blog
   - espressioni
   - array
+  - QGIS
 ---
 
 # Array nel field calc

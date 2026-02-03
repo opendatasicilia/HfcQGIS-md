@@ -12,6 +12,7 @@ tags:
   - array
   - form
   - current_value
+  - QGIS
 ---
 
 # Mappa valori generata al volo

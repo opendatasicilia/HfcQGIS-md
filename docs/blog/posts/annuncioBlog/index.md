@@ -8,6 +8,7 @@ categories:
   - News
 tags:
   - blog
+  - QGIS
 ---
 
 # HfcQGIS e la sezione Blog

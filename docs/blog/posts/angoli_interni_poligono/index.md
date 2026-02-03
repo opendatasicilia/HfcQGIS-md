@@ -10,6 +10,7 @@ tags:
   - blog
   - angoli
   - array
+  - QGIS
 ---
 
 # Titolo post

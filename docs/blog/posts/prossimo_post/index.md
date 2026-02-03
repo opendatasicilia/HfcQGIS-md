@@ -10,6 +10,7 @@ tags:
   - blog
   - cerca_valori
   - get_feature
+  - QGIS
 ---
 
 # Titolo post

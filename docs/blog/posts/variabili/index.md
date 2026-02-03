@@ -12,6 +12,7 @@ tags:
   - variabile
   - formattazione
   - value
+  - QGIS
 ---
 
 # Le variabili in QGIS

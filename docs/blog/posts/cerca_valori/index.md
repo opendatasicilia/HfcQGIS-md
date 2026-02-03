@@ -10,6 +10,7 @@ tags:
   - blog
   - cerca_valori
   - get_feature
+  - QGIS
 ---
 
 # Come cercare un valore in funzione di un altro

@@ -14,6 +14,7 @@ tags:
   - oriented_bbox
   - length
   - elongation_ratio
+  - QGIS
 ---
 
 # Rapporto di allungamento

@@ -12,6 +12,7 @@ tags:
   - help
   - parametri
   - argomenti
+  - QGIS
 ---
 
 # Help in linea

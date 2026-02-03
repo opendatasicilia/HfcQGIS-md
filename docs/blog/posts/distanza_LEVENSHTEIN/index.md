@@ -12,6 +12,7 @@ tags:
   - get_feature
   - LEVENSHTEIN
   - array
+  - QGIS
 ---
 
 # Un uso intelligente della distanza di LEVENSHTEIN

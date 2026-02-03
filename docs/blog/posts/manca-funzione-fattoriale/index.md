@@ -12,6 +12,7 @@ tags:
   - fattoriale
   - funzioni matematiche
   - calcolatore campi
+  - QGIS
 ---
 
 # Perché in QGIS manca la funzione Fattoriale

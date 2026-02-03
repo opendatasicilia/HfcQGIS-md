@@ -14,6 +14,7 @@ tags:
   - impostazioni
   - ellissoide
   - misure
+  - QGIS
 ---
 
 # Impostazioni di progetto influenzano alcune funzioni
