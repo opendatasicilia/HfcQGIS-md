@@ -1049,6 +1049,146 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../release/novita_400/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.0  | 23/02/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_342/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.42 | 21/02/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_340/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.40 | 25/10/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_338/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.38 | 21/06/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_336/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.36 | 23/02/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../release/novita_334/" class="md-nav__link">
         
   
@@ -1851,6 +1991,39 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#extract_degrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_degrees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_minutes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_seconds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_seconds
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#from_base64" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2252,6 +2425,34 @@
     
   
     Layout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnetico/magnetico_unico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetico
   
 
     
@@ -6434,6 +6635,39 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#extract_degrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_degrees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_minutes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_minutes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_seconds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_seconds
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#from_base64" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6627,6 +6861,57 @@
 <p><strong>Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.</strong></p>
 </div>
 <hr />
+<h2 id="extract_degrees">extract_degrees<a class="headerlink" href="#extract_degrees" title="Permanent link">↵</a></h2>
+<p>Estrae il numero intero di gradi da un valore in gradi decimali. I componenti dei minuti e dei secondi vengono ignorati. Il valore estratto viene troncato verso zero (non arrotondato).</p>
+<p>Sintassi:</p>
+<ul>
+<li>extract_degrees(<em><span style="color:red;">value</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">value</span></em> valore in gradi decimali</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>extract_degrees(1.5) → 1
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>extract_degrees(-1.999) → -1
+</code></pre></div>
+<p><a href="../../img/conversioni/extract_degrees/extract_degrees1.png"><img alt="" src="../../img/conversioni/extract_degrees/extract_degrees1.png" /></a></p>
+<p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
+<hr />
+<h2 id="extract_minutes">extract_minutes<a class="headerlink" href="#extract_minutes" title="Permanent link">↵</a></h2>
+<p>Estrae il numero intero di minuti da un valore in gradi decimali. I componenti dei gradi e dei secondi vengono ignorati. Il valore estratto viene troncato verso zero (non arrotondato) ed è sempre un valore positivo.</p>
+<p>Sintassi:</p>
+<ul>
+<li>extract_minutes(<em><span style="color:red;">value</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">value</span></em> valore in gradi decimali</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>extract_minutes(1.5) → 30
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>extract_minutes(-1.5) → 30
+</code></pre></div>
+<p><a href="../../img/conversioni/extract_minutes/extract_minutes1.png"><img alt="" src="../../img/conversioni/extract_minutes/extract_minutes1.png" /></a></p>
+<p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
+<hr />
+<h2 id="extract_seconds">extract_seconds<a class="headerlink" href="#extract_seconds" title="Permanent link">↵</a></h2>
+<p>Estrae il numero decimale di secondi da un valore in gradi decimali. I componenti dei gradi e dei minuti vengono ignorati. Il valore estratto è sempre un valore positivo.</p>
+<p>Sintassi:</p>
+<ul>
+<li>extract_seconds(<em><span style="color:red;">value</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">value</span></em> valore in gradi decimali</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>extract_seconds(1.5) → 0.0
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>extract_seconds(-1.5) → 0.0
+</code></pre></div>
+<p><a href="../../img/conversioni/extract_seconds/extract_seconds1.png"><img alt="" src="../../img/conversioni/extract_seconds/extract_seconds1.png" /></a></p>
+<p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
+<hr />
 <h2 id="from_base64">from_base64<a class="headerlink" href="#from_base64" title="Permanent link">↵</a></h2>
 <p>Decodifica una stringa Base64 in un valore binario.</p>
 <p>Sintassi:</p>
@@ -6638,7 +6923,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da decodificare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>from_base64(&#39;UUdJUw==&#39;) → &#39;QGIS&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>from_base64(&#39;UUdJUw==&#39;) → &#39;QGIS&#39;
 </code></pre></div>
 <p><a href="../../../img/conversioni/from_base64.png"><img alt="" src="../../../img/conversioni/from_base64.png" /></a></p>
 <hr />
@@ -6654,21 +6939,21 @@
 <li><em><span style="color:red;">method</span></em> Il metodo hash tra 'md4', 'md5', 'sha1', 'sha224', 'sha384', 'sha512', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'keccak_224', 'keccak_256 ',' keccak_384 ',' keccak_512 '</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>hash(&#39;QGIS&#39;, &#39;md4&#39;) → &#39;c0fc71c241cdebb6e888cbac0e2b68eb&#39;
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>hash(&#39;QGIS&#39;, &#39;md5&#39;) → &#39;57470aaa9e22adaefac7f5f342f1c6da&#39;
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>hash(&#39;QGIS&#39;, &#39;sha1&#39;) → &#39;f87cfb2b74cdd5867db913237024e7001e62b114&#39;
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>hash(&#39;QGIS&#39;, &#39;sha224&#39;) → &#39;4093a619ada631c770f44bc643ead18fb393b93d6a6af1861fcfece0&#39;
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>hash(&#39;QGIS&#39;, &#39;sha256&#39;) → &#39;eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309&#39;
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>hash(&#39;QGIS&#39;, &#39;sha384&#39;) → &#39;91c1de038cc3d09fdd512e99f9dd9922efadc39ed21d3922e69a4305cc25506033aee388e554b78714c8734f9cd7e610&#39;
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>hash(&#39;QGIS&#39;, &#39;sha512&#39;) → &#39;c2c092f2ab743bf8edbeb6d028a745f30fc720408465ed369421f0a4e20fa5e27f0c90ad72d3f1d836eaa5d25cd39897d4cf77e19984668ef58da6e3159f18ac&#39;
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>hash(&#39;QGIS&#39;, &#39;sha3_224&#39;) → &#39;467f49a5039e7280d5d42fd433e80d203439e338eaabd701f0d6c17d&#39;
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>hash(&#39;QGIS&#39;, &#39;sha3_256&#39;) → &#39;540f7354b6b8a6e735f2845250f15f4f3ba4f666c55574d9e9354575de0e980f&#39;
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>hash(&#39;QGIS&#39;, &#39;sha3_384&#39;) → &#39;96052da1e77679e9a65f60d7ead961b287977823144786386eb43647b0901fd8516fa6f1b9d243fb3f28775e6dde6107&#39;
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>hash(&#39;QGIS&#39;, &#39;sha3_512&#39;) → &#39;900d079dc69761da113980253aa8ac0414a8bd6d09879a916228f8743707c4758051c98445d6b8945ec854ff90655005e02aceb0a2ffc6a0ebf818745d665349&#39;
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>hash(&#39;QGIS&#39;, &#39;keccak_224&#39;) → &#39;5b0ce6acef8b0a121d4ac4f3eaa8503c799ad4e26a3392d1fb201478&#39;
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>hash(&#39;QGIS&#39;, &#39;keccak_256&#39;) → &#39;991c520aa6815392de24087f61b2ae0fd56abbfeee4a8ca019c1011d327c577e&#39;
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>hash(&#39;QGIS&#39;, &#39;keccak_384&#39;) → &#39;c57a3aed9d856fa04e5eeee9b62b6e027cca81ba574116d3cc1f0d48a1ef9e5886ff463ea8d0fac772ee473bf92f810d&#39;
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>hash(&#39;QGIS&#39;, &#39;keccak_512&#39;) → &#39;6f0f751776b505e317de222508fa5d3ed7099d8f07c74fed54ccee6e7cdc…&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>hash(&#39;QGIS&#39;, &#39;md4&#39;) → &#39;c0fc71c241cdebb6e888cbac0e2b68eb&#39;
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>hash(&#39;QGIS&#39;, &#39;md5&#39;) → &#39;57470aaa9e22adaefac7f5f342f1c6da&#39;
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>hash(&#39;QGIS&#39;, &#39;sha1&#39;) → &#39;f87cfb2b74cdd5867db913237024e7001e62b114&#39;
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>hash(&#39;QGIS&#39;, &#39;sha224&#39;) → &#39;4093a619ada631c770f44bc643ead18fb393b93d6a6af1861fcfece0&#39;
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>hash(&#39;QGIS&#39;, &#39;sha256&#39;) → &#39;eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309&#39;
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>hash(&#39;QGIS&#39;, &#39;sha384&#39;) → &#39;91c1de038cc3d09fdd512e99f9dd9922efadc39ed21d3922e69a4305cc25506033aee388e554b78714c8734f9cd7e610&#39;
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>hash(&#39;QGIS&#39;, &#39;sha512&#39;) → &#39;c2c092f2ab743bf8edbeb6d028a745f30fc720408465ed369421f0a4e20fa5e27f0c90ad72d3f1d836eaa5d25cd39897d4cf77e19984668ef58da6e3159f18ac&#39;
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>hash(&#39;QGIS&#39;, &#39;sha3_224&#39;) → &#39;467f49a5039e7280d5d42fd433e80d203439e338eaabd701f0d6c17d&#39;
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>hash(&#39;QGIS&#39;, &#39;sha3_256&#39;) → &#39;540f7354b6b8a6e735f2845250f15f4f3ba4f666c55574d9e9354575de0e980f&#39;
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>hash(&#39;QGIS&#39;, &#39;sha3_384&#39;) → &#39;96052da1e77679e9a65f60d7ead961b287977823144786386eb43647b0901fd8516fa6f1b9d243fb3f28775e6dde6107&#39;
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>hash(&#39;QGIS&#39;, &#39;sha3_512&#39;) → &#39;900d079dc69761da113980253aa8ac0414a8bd6d09879a916228f8743707c4758051c98445d6b8945ec854ff90655005e02aceb0a2ffc6a0ebf818745d665349&#39;
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>hash(&#39;QGIS&#39;, &#39;keccak_224&#39;) → &#39;5b0ce6acef8b0a121d4ac4f3eaa8503c799ad4e26a3392d1fb201478&#39;
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>hash(&#39;QGIS&#39;, &#39;keccak_256&#39;) → &#39;991c520aa6815392de24087f61b2ae0fd56abbfeee4a8ca019c1011d327c577e&#39;
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>hash(&#39;QGIS&#39;, &#39;keccak_384&#39;) → &#39;c57a3aed9d856fa04e5eeee9b62b6e027cca81ba574116d3cc1f0d48a1ef9e5886ff463ea8d0fac772ee473bf92f810d&#39;
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>hash(&#39;QGIS&#39;, &#39;keccak_512&#39;) → &#39;6f0f751776b505e317de222508fa5d3ed7099d8f07c74fed54ccee6e7cdc…&#39;
 </code></pre></div>
 <p><a href="../../../img/conversioni/hash1.png"><img alt="" src="../../../img/conversioni/hash1.png" /></a></p>
 <hr />
@@ -6683,7 +6968,7 @@
 <li><em><span style="color:red;">string</span></em> stringa di md5</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>md5(&#39;QGIS&#39;) → &#39;57470aaa9e22adaefac7f5f342f1c6da&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>md5(&#39;QGIS&#39;) → &#39;57470aaa9e22adaefac7f5f342f1c6da&#39;
 </code></pre></div>
 <p><a href="../../../img/conversioni/md51.png"><img alt="" src="../../../img/conversioni/md51.png" /></a></p>
 <hr />
@@ -6698,7 +6983,7 @@
 <li><em><span style="color:red;">string</span></em> stringa di sha256</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sha256(&#39;QGIS&#39;) → &#39;eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sha256(&#39;QGIS&#39;) → &#39;eb045cba7a797aaa06ac58830846e40c8e8c780bc0676d3393605fae50c05309&#39;
 </code></pre></div>
 <p><a href="../../../img/conversioni/sha2561.png"><img alt="" src="../../../img/conversioni/sha2561.png" /></a></p>
 <hr />
@@ -6713,11 +6998,11 @@
 <li><em><span style="color:red;">value</span></em> il valore binario da codificare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>to_base64(&#39;QGIS&#39;) → &#39;UUdJUw==&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>to_base64(&#39;QGIS&#39;) → &#39;UUdJUw==&#39;
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_base64.png"><img alt="" src="../../../img/conversioni/to_base64.png" /></a></p>
 <p>In un layer di un <strong>GeoPackage</strong> aggiungere un campo <strong>BLOB</strong> e popolarlo con delle immagini; per visualizzarle, per esempio come <code>Simbolo Immagine Raster</code>, utilizzare l'espressione:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>&#39;base64:&#39; || to_base64(&quot;fieldBLOB&quot;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>&#39;base64:&#39; || to_base64(&quot;fieldBLOB&quot;)
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_base64_2.png"><img alt="" src="../../../img/conversioni/to_base64_2.png" /></a></p>
 <hr />
@@ -6732,7 +7017,7 @@
 <li><em><span style="color:red;">string</span></em> stringa rappresentante il valore data</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>to_date(&#39;2012-05-04&#39;) → 2012-05-04
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>to_date(&#39;2012-05-04&#39;) → 2012-05-04
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_date1.png"><img alt="" src="../../../img/conversioni/to_date1.png" /></a></p>
 <hr />
@@ -6747,7 +7032,7 @@
 <li><em><span style="color:red;">string</span></em> stringa rappresentante il valore datatime</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>to_datetime( &#39;2018-05-06 12:02:00&#39;) → 2018-05-06T12:02:00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>to_datetime( &#39;2018-05-06 12:02:00&#39;) → 2018-05-06T12:02:00
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_datetime1.png"><img alt="" src="../../../img/conversioni/to_datetime1.png" /></a></p>
 <hr />
@@ -6762,7 +7047,7 @@
 <li><em><span style="color:red;">value</span></em> Una stringa di gradi, minuti, secondi</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>to_decimal(&#39;6°9′16.445″&#39;)) → 6.154568055555556
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>to_decimal(&#39;6°9′16.445″&#39;)) → 6.154568055555556
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_decimal.png"><img alt="" src="../../../img/conversioni/to_decimal.png" /></a></p>
 <hr />
@@ -6781,8 +7066,8 @@
 <li><em><span style="color:red;">formatting</span></em> Designa il tipo di formattazione. I valori accettabili sono NULL, 'aligned' o 'suffix'</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>to_dm(6.3545681, &#39;x&#39;, 3) → 6°21.274′
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>to_dm(6.3545681, &#39;y&#39;, 4, &#39;suffix&#39;) → 6°21.2741′N
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>to_dm(6.3545681, &#39;x&#39;, 3) → 6°21.274′
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>to_dm(6.3545681, &#39;y&#39;, 4, &#39;suffix&#39;) → 6°21.2741′N
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_dm1.png"><img alt="" src="../../../img/conversioni/to_dm1.png" /></a></p>
 <hr />
@@ -6801,8 +7086,8 @@
 <li><em><span style="color:red;">formatting</span></em> Designa il tipo di formattazione. I valori accettabili sono NULL, 'aligned' o 'suffix'</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>to_dms(6.3545681, &#39;x&#39;, 3) → 6°21′16.445″
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>to_dms(6.3545681, &#39;y&#39;, 4, &#39;suffix&#39;) → 6°21′16.4452″N
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>to_dms(6.3545681, &#39;x&#39;, 3) → 6°21′16.445″
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>to_dms(6.3545681, &#39;y&#39;, 4, &#39;suffix&#39;) → 6°21′16.4452″N
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_dms1.png"><img alt="" src="../../../img/conversioni/to_dms1.png" /></a></p>
 <hr />
@@ -6817,7 +7102,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da convertine i n numero intero</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>to_int(&#39;123&#39;) → 123
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>to_int(&#39;123&#39;) → 123
 </code></pre></div>
 <p>Nota bene:</p>
 <p>un testo va scritto sempre tra apici semplici es: '123'</p>
@@ -6834,7 +7119,7 @@
 <li><em><span style="color:red;">string</span></em> una stringa rappresentante un intervallo. I formati ammessi includono {n} giorni {n} ore {n} mesi.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>to_datetime(&#39;2018-05-04 12:23:00&#39;) - to_interval(&#39;1 day 2 hours&#39;) → 2018-05-03T10:23:00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>to_datetime(&#39;2018-05-04 12:23:00&#39;) - to_interval(&#39;1 day 2 hours&#39;) → 2018-05-03T10:23:00
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_interval1.png"><img alt="" src="../../../img/conversioni/to_interval1.png" /></a></p>
 <hr />
@@ -6849,7 +7134,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da convertire in numero reale</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>to_real(&#39;123.45&#39;) → 123.45
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>to_real(&#39;123.45&#39;) → 123.45
 </code></pre></div>
 <p>Nota bene:</p>
 <p>Il punto (<code>.</code>) è il separatore decimale.</p>
@@ -6866,8 +7151,8 @@
 <li><em><span style="color:red;">number</span></em> Valore intero o reale. Il numero da convertire in stringa.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>to_string(123.45) → &#39;123.45&#39;
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>to_string(123) → &#39;123&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>to_string(123.45) → &#39;123.45&#39;
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>to_string(123) → &#39;123&#39;
 </code></pre></div>
 <p>Nota bene:</p>
 <p>Il punto (<code>.</code>) è il separatore decimale; una stringa è sempre tra apici semplici es: '123'.</p>
@@ -6884,7 +7169,7 @@
 <li><em><span style="color:red;">string</span></em> stringa rappresentante un valore time</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>to_time(&#39;12:30:01&#39;) → 12:30:0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>to_time(&#39;12:30:01&#39;) → 12:30:0
 </code></pre></div>
 <p><a href="../../../img/conversioni/to_time1.png"><img alt="" src="../../../img/conversioni/to_time1.png" /></a></p>
 <hr />

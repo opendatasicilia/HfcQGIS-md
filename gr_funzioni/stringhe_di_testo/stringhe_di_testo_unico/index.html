@@ -1049,6 +1049,146 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../release/novita_400/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.0  | 23/02/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_342/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.42 | 21/02/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_340/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.40 | 25/10/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_338/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.38 | 21/06/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_336/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 3.36 | 23/02/2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../release/novita_334/" class="md-nav__link">
         
   
@@ -2071,6 +2211,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../magnetico/magnetico_unico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnetico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../maps/maps_unico/" class="md-nav__link">
         
   
@@ -2637,6 +2805,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#substr_count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        substr_count
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#title" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2674,6 +2853,17 @@
     <span class="md-ellipsis">
       
         upper
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unaccent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        unaccent
       
     </span>
   </a>
@@ -6955,6 +7145,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#substr_count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        substr_count
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#title" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6992,6 +7193,17 @@
     <span class="md-ellipsis">
       
         upper
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unaccent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        unaccent
       
     </span>
   </a>
@@ -7815,6 +8027,24 @@
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/substr/substr1.png"><img alt="" src="../../../img/stringhe_di_testo/substr/substr1.png" /></a></p>
 <hr />
+<h2 id="substr_count">substr_count<a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
+<p>Conta le occorrenze di una sottostringa all'interno di una stringa.</p>
+<p>Sintassi:</p>
+<ul>
+<li>substr_count(<em><span style="color:red;">string</span></em>, <em><span style="color:red;">substring</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">string</span></em> la stringa in cui cercare</li>
+<li><em><span style="color:red;">substring</span></em> la sottostringa da contare</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>substr_count(&#39;HELLO WORLD&#39;,&#39;L&#39;) → 3
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>substr_count(&#39;QGIS QGIS QGIS&#39;,&#39;QGIS&#39;) → 3
+</code></pre></div>
+<p><a href="../../img/stringhe_di_testo/substr_count/substr_count1.png"><img alt="" src="../../img/stringhe_di_testo/substr_count/substr_count1.png" /></a></p>
+<p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
+<hr />
 <h2 id="title">title<a class="headerlink" href="#title" title="Permanent link">↵</a></h2>
 <p>Converte tutte le parole in "title case" (tutte le parole in minuscolo con la prima lettera maiuscola)</p>
 <p>Sintassi:</p>
@@ -7826,7 +8056,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da convertire in minuscolo con la prima lettera maiuscola</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>title(&#39;hello WOrld&#39;) → &#39;Hello World&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>title(&#39;hello WOrld&#39;) → &#39;Hello World&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/title/title1.png"><img alt="" src="../../../img/stringhe_di_testo/title/title1.png" /></a></p>
 <hr />
@@ -7841,7 +8071,7 @@
 <li><em><span style="color:red;">number</span></em> Valore intero o reale. Il numero da convertire in stringa.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>to_string(123.23) → &#39;123.23&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>to_string(123.23) → &#39;123.23&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/to_string/to_string1.png"><img alt="" src="../../../img/stringhe_di_testo/to_string/to_string1.png" /></a></p>
 <hr />
@@ -7856,7 +8086,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da troncare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>trim(&#39; hello world   &#39;) → &#39;hello world&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>trim(&#39; hello world   &#39;) → &#39;hello world&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/trim/trim1.png"><img alt="" src="../../../img/stringhe_di_testo/trim/trim1.png" /></a></p>
 <hr />
@@ -7871,9 +8101,26 @@
 <li><em><span style="color:red;">string</span></em> la stringa da convertire in maiuscolo</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>upper(&#39;hello WOrld&#39;) → &#39;HELLO WORLD&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>upper(&#39;hello WOrld&#39;) → &#39;HELLO WORLD&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/upper/upper1.png"><img alt="" src="../../../img/stringhe_di_testo/upper/upper1.png" /></a></p>
+<hr />
+<h2 id="unaccent">unaccent<a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
+<p>Rimuove gli accenti (segni diacritici) da una stringa.</p>
+<p>Sintassi:</p>
+<ul>
+<li>unaccent(<em><span style="color:red;">string</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">string</span></em> la stringa da cui rimuovere gli accenti</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>unaccent(&#39;ï&#39;) → &#39;i&#39;
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>unaccent(&#39;café&#39;) → &#39;cafe&#39;
+</code></pre></div>
+<p><a href="../../img/stringhe_di_testo/unaccent/unaccent1.png"><img alt="" src="../../img/stringhe_di_testo/unaccent/unaccent1.png" /></a></p>
+<p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="wordwrap">wordwrap<a class="headerlink" href="#wordwrap" title="Permanent link">↵</a></h2>
 <p>Restituisce una stringa posta a capo ad un massimo/minimo numero di caratteri.</p>
@@ -7888,14 +8135,14 @@
 <li><em><span style="color:red;">delimiter_string</span></em> il delimitatore stringa per spezzare in una nuova linea (opzionale).</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,13) → &#39;UNIVERSITY OF 
-<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>QGIS&#39;
-<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,-3) → &#39;UNIVERSITY OF 
-<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>QGIS&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,13) → &#39;UNIVERSITY OF 
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>QGIS&#39;
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,-3) → &#39;UNIVERSITY OF 
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>QGIS&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap1.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap1.png" /></a></p>
 <p>Per legende con testo lungo, tipico delle legende per carte geologiche:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>wordwrap(@symbol_label ,50)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>wordwrap(@symbol_label ,50)
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap2.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap2.png" /></a></p>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap3.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap3.png" /></a></p>
