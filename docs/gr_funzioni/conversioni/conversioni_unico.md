@@ -11,6 +11,81 @@ tags:
 
 ---
 
+## extract_degrees
+
+Estrae il numero intero di gradi da un valore in gradi decimali. I componenti dei minuti e dei secondi vengono ignorati. Il valore estratto viene troncato verso zero (non arrotondato).
+
+Sintassi:
+
+- extract_degrees(_<span style="color:red;">value</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">value</span>_ valore in gradi decimali
+
+Esempi:
+
+```
+extract_degrees(1.5) → 1
+extract_degrees(-1.999) → -1
+```
+
+[![](../../img/conversioni/extract_degrees/extract_degrees1.png)](../../img/conversioni/extract_degrees/extract_degrees1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
+## extract_minutes
+
+Estrae il numero intero di minuti da un valore in gradi decimali. I componenti dei gradi e dei secondi vengono ignorati. Il valore estratto viene troncato verso zero (non arrotondato) ed è sempre un valore positivo.
+
+Sintassi:
+
+- extract_minutes(_<span style="color:red;">value</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">value</span>_ valore in gradi decimali
+
+Esempi:
+
+```
+extract_minutes(1.5) → 30
+extract_minutes(-1.5) → 30
+```
+
+[![](../../img/conversioni/extract_minutes/extract_minutes1.png)](../../img/conversioni/extract_minutes/extract_minutes1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
+## extract_seconds
+
+Estrae il numero decimale di secondi da un valore in gradi decimali. I componenti dei gradi e dei minuti vengono ignorati. Il valore estratto è sempre un valore positivo.
+
+Sintassi:
+
+- extract_seconds(_<span style="color:red;">value</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">value</span>_ valore in gradi decimali
+
+Esempi:
+
+```
+extract_seconds(1.5) → 0.0
+extract_seconds(-1.5) → 0.0
+```
+
+[![](../../img/conversioni/extract_seconds/extract_seconds1.png)](../../img/conversioni/extract_seconds/extract_seconds1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
 ## from_base64
 
 Decodifica una stringa Base64 in un valore binario.

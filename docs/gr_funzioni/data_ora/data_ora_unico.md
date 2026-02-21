@@ -44,6 +44,31 @@ day(age('2012-05-12','2012-05-02')) → 10
 
 ---
 
+## convert_timezone
+
+Converte un oggetto datetime in un fuso orario diverso.
+
+Sintassi:
+
+* convert_timezone(_<span style="color:red;">datetime</span>_, _<span style="color:red;">timezone</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">datetime</span>_ valore datetime da convertire
+* _<span style="color:red;">timezone</span>_ oggetto fuso orario di destinazione (ottenuto con `timezone_from_id`)
+
+Esempi:
+
+```
+…
+```
+
+[![](../../img/data_e_ora/convert_timezone1.png)](../../img/data_e_ora/convert_timezone1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
 ## datetime_from_epoch
 
 Restituisce un datetime il cui data e ora sono il numero di millisecondi, msec, che sono passati dal 1970-01-01T00: 00: 00.000, Coordinated Universal Time (Qt.UTC) e convertiti in Qt.LocalTime.
@@ -222,6 +247,30 @@ format_date('13:54:20','hh:mm AP') → '01:54 PM'
 
 
 [![](../../img/data_e_ora/format_data_2.png)](../../img/data_e_ora/format_data_2.png)
+
+---
+
+## get_timezone
+
+Restituisce l'oggetto fuso orario associato a un valore datetime.
+
+Sintassi:
+
+* get_timezone(_<span style="color:red;">datetime</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">datetime</span>_ valore datetime di cui restituire il fuso orario
+
+Esempi:
+
+```
+…
+```
+
+[![](../../img/data_e_ora/get_timezone1.png)](../../img/data_e_ora/get_timezone1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
 
 ---
 
@@ -536,6 +585,79 @@ second(age('2012-01-01','2010-01-01')) → 63072000
 ```
 
 [![](../../img/data_e_ora/second2.png)](../../img/data_e_ora/second2.png)
+
+---
+
+## set_timezone
+
+Imposta il fuso orario associato a un valore datetime senza modificare i componenti data e ora. Questa funzione può essere usata per sostituire il fuso orario di un datetime.
+
+Sintassi:
+
+* set_timezone(_<span style="color:red;">datetime</span>_, _<span style="color:red;">timezone</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">datetime</span>_ valore datetime a cui impostare il fuso orario
+* _<span style="color:red;">timezone</span>_ oggetto fuso orario da associare (ottenuto con `timezone_from_id`)
+
+Esempi:
+
+```
+…
+```
+
+[![](../../img/data_e_ora/set_timezone1.png)](../../img/data_e_ora/set_timezone1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
+## timezone_from_id
+
+Crea un oggetto fuso orario a partire da un ID stringa del database dei fusi orari IANA.
+
+Sintassi:
+
+* timezone_from_id(_<span style="color:red;">id</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">id</span>_ stringa identificatore del fuso orario (dal database IANA, es. 'Europe/Rome')
+
+Esempi:
+
+```
+…
+```
+
+[![](../../img/data_e_ora/timezone_from_id1.png)](../../img/data_e_ora/timezone_from_id1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
+## timezone_id
+
+Restituisce la stringa identificatore di un oggetto fuso orario, usando gli ID del database dei fusi orari IANA.
+
+Sintassi:
+
+* timezone_id(_<span style="color:red;">timezone</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">timezone</span>_ oggetto fuso orario di cui restituire l'ID
+
+Esempi:
+
+```
+…
+```
+
+[![](../../img/data_e_ora/timezone_id1.png)](../../img/data_e_ora/timezone_id1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
 
 ---
 

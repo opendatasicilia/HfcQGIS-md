@@ -9,17 +9,18 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Campi e valori**](./campi_e_valori/campi_e_valori_unico.md)| (1/1)|Contiene un elenco di campi del layer. Si possono ottenere valori campione con il click del tasto destro del mouse. Seleziona il nome del campo dall'elenco e fai click con il tasto destro per aprire il menù con le opzioni per caricare un campione di valori dal campo selezionato. | Elenco dei campi del layer selezionato <br> **QGIS 3.28**
 [**Colore**](./colore/colore_unico.md)| (17/17)|Questo gruppo contiene funzioni per manipolare i colori| Per manipolare i colori
 [**Condizioni**](./condizioni/condizioni_unico.md)| (6/6)|Questo gruppo contiene funzioni per gestire controlli condizionali nelle espressioni.|aggiornate a<br> **QGIS 3.6**
-[**Conversioni**](./conversioni/conversioni_unico.md)| (15/15)|Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.|aggiornate a<br> **QGIS 3.16**
+[**Conversioni**](./conversioni/conversioni_unico.md)| (18/18)|Questo gruppo contiene funzioni per convertire i dati da un tipo ad un altro, es. da stringa a intero, da intero a stringa.|aggiornate a<br> **QGIS 4.0**
 [**Corrispondenza Fuzzy**](./corrispondenza_fuzzy/corrispondenza_fuzzy_unico.md)| (4/4)| Questo gruppo contiene funzioni per confronti fuzzy fra valori.|funzioni per confronti fuzzy fra valori
 [**Custom**](./custom/custom_unico.md)| (23/23)| Questo gruppo contiene funzioni Python create in modo personalizzato dall'utente.|funzioni personalizzate
-[**Data ora**](./data_ora/data_ora_unico.md) |(21/21)|Questo gruppo contiene funzioni per gestire dati con date e ore.|aggiornate a<br> **QGIS 3.14**
+[**Data ora**](./data_ora/data_ora_unico.md) |(26/26)|Questo gruppo contiene funzioni per gestire dati con date e ore.|aggiornate a<br> **QGIS 4.0**
 [**Espressioni utente**](./espressione_utente/espressione_utente_unico.md)| (?)|Questo gruppo contiene espressioni memorizzate nel profilo utente.|aggiornate a<br> **QGIS 3.12**
 [**File e percorsi**](./file_e_percorsi/file_e_percorsi_unico.md)| (9/9)|Contiene funzioni che manipolano nomi di file e di percorsi. manipolano nomi di file e di percorsi | aggiornate a<br> **QGIS 3.22**
 [**Form**](./form/form_unico.md)| (0/2)|Questo gruppo contiene funzioni che sono disponibili nel contesto modulo attributi. Per esempio, in impostazioni campo widget. Gruppo visibile solo nei widget. | aggiornate a<br> **QGIS 3.14**
 [**Generale**](./generale/generale_unico.md)| (7/7)|Questo gruppo contiene funzioni generali assortite.| assortimento di funzioni generiche
-[**Geometria**](./geometria/geometria_unico.md) |(151/151)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 3.34**
+[**Geometria**](./geometria/geometria_unico.md) |(152/152)|Questo gruppo contiene funzioni che operano sugli oggetti geometrici es. lunghezza, area.| aggiornate a<br> **QGIS 4.0**
 [**Layer mappa**](./layer_mappa/layer_mappa_unico.md)| (3/3)|Contiene due funzioni e la lista dei layer della mappa che sono disponibili nel progetto corrente con possibilità di leggere[^1] i nomi e valori degli attributi.| aggiornate a<br> **QGIS 3.30**
 [**Layout**](./layout/layout_unico.md)| (2/2)|  Visibile solo nel layout di stampa
+[**Magnetico**](./magnetico/magnetico_unico.md)| (4/4)|Questo gruppo contiene funzioni per lavorare con i modelli di campo magnetico terrestre.| aggiornate a<br> **QGIS 4.0**
 [**Maps**](./maps/maps_unico.md)| (14/14) |Questo gruppo contiene funzioni per la creazione e la manipolazione di strutture di dati 'a mappa' (noti anche come oggetti dizionario, coppie chiave-valore o array associative). Si possono assegnare valori a determinate chiavi. L'ordine delle coppie chiave-valore nell'oggetto mappa non è rilevante.|>= **QGIS 3.0** aggiornate a<br> **QGIS 3.24**
 [**Matematica**](./matematica/matematica_unico.md)| (28/28)|Questo gruppo contiene funzioni matematiche es. radice quadrata, seno e coseno|aggiornate a<br> **QGIS 3.12**
 [**Operatori**](./operatori/operatori_unico.md)| (23/23)|Questo gruppo contiene operatori es. + - *|aggiornate a<br> **QGIS 3.20**
@@ -28,7 +29,7 @@ Gruppo funzioni|nro funzioni*|Descrizione   | info
 [**Record e attributi**](./record_e_attributi/record_e_attributi_unico.md)| (17/17)|Questo gruppo contiene funzioni che operano sugli identificativi dei record.|aggiornate a<br> **QGIS 3.30**
 [**Sensors**]()|Questo gruppo contiene le funzioni per interagire con i sensori| a<br> **QGIS 3.30**
 [**Relazioni**](./relazioni/relazioni_unico.md)| (?)| Visibile solo se ci sono relazioni di progetto
-[**Stringhe di testo**](./stringhe_di_testo/stringhe_di_testo_unico.md)|(25/25)| Questo gruppo contiene le funzioni che operano sulle stringhe es. sostituzione, conversione in maiuscolo.|aggiornate a<br> **QGIS 3.32**
+[**Stringhe di testo**](./stringhe_di_testo/stringhe_di_testo_unico.md)|(27/27)| Questo gruppo contiene le funzioni che operano sulle stringhe es. sostituzione, conversione in maiuscolo.|aggiornate a<br> **QGIS 4.0**
 [**Variabili**](./variabili/variabili.md) |(4/65+) |Questo gruppo contiene variabili dinamiche che possono essere inserite nelle tue espressioni.|>= **QGIS 2.12** - variano in funzione del contesto
 
 ![](../img/gruppi_funzioni.png)
@@ -165,6 +166,7 @@ concat|empty, converted, numbers, concatenates, null, strings, several, other, v
 concatenate|aggregated, field, joined, delimiter, strings
 concatenate_unique|aggregated, unique, field, joined, delimiter, strings
 contains|lie, point, lies, tests, interior, exterior, within, points, contains
+convert_timezone|timezone, datetime, converts, different
 convex_hull|hull, convex, minimum, represents, encloses, set
 cos|angle, cosine
 count|aggregate, features, matching, count
@@ -190,6 +192,7 @@ distance_to_vertex|distance, specified, vertex
 end_point|last, node, vertex
 env|operating, content, prefixes, gets, definition, found, drive, check, system, environment, path, variables, letters, inject, specific, configuration, depends, administrator, variable, documentation, handy, set
 epoch|interval, date, milliseconds, epoch
+equals|tests, equal, geometry, two
 eval|dynamic, fields, parameters, expression, expand, context, passed, variables, evaluates
 eval_template|dynamic, fields, parameters, template, expand, context, passed, variables, evaluates
 exif|exif, retrieves, tag, file, image, values
@@ -197,6 +200,9 @@ exif_geotag|geotags, exif, point, file, image
 exp|exponential
 extend|start, distances, line, last, linestring, amount, parts, bearing, lines, extends, reference, spatial, extended, first, segment, system, multilinestring, specified, end
 exterior_ring|polygon, line, ring, exterior, result, representing
+extract_degrees|degrees, decimal, extracts, integer, truncated
+extract_minutes|minutes, decimal, extracts, integer, truncated, positive
+extract_seconds|seconds, decimal, extracts, positive
 extrude|curve, version, extension, input, specified, extruded, linestring, multi
 file_exists|path, exists, file
 file_name|extension, name, directory, file, path
@@ -224,6 +230,7 @@ geometry_n|part, input, multipart, collection, specific
 geometry_type|describing, type, point, polygon, line
 get_feature|attribute, first, matching, search, find
 get_feature_by_id|
+get_timezone|timezone, datetime, returns, associated
 hamming_distance|distance, length, input, sensitive, different, strings, corresponding, hamming, equates, characters, case, same, comparison, positions
 hash|hex, bytes, byte, digits, hash, method, given, represented, character, long, bits, produces
 hausdorff_distance|distance, segment, dissimilar, densify, linestrings, parallel, other, matching, total, close, executed, specifying, occurs, equal, fraction, testing, method, discrete, linear, default, approximate, sets, length, large, lower, similar, similarity, parameter, measure, split, make, approach, closest, examples, provided, performs, insufficient, networks, specify, optional, decreasing, approximation, cases, densification, specified, computing, argument, subsegments, hausdorff, exact, indicating, subset, standard
@@ -266,6 +273,10 @@ lpad|length, padded, width, truncated, specified, target, fill, left, character,
 m|point, measure
 m_max|maximum, measure
 m_min|minimum, measure
+magnetic_declination|magnetic, declination, point, degrees
+magnetic_declination_rate_of_change|magnetic, declination, rate, change, degrees, year
+magnetic_inclination|magnetic, inclination, point, degrees
+magnetic_inclination_rate_of_change|magnetic, inclination, rate, change, degrees, year
 main_angle|oriented, minimal, covers, clockwise, angle, long, north, degrees, rectangle, axis, bounding
 majority|occurring, field, majority, aggregate
 make_circle|circular, polygon
@@ -366,6 +377,7 @@ scale_linear|transforms, linear, output, given, input, domain, range, interpolat
 second|extracts, part, seconds, interval, number, time, datetime
 segments_to_lines|consisting, segment, input, multi, line
 set_color_part|alpha, component, specific, red, color, sets
+set_timezone|timezone, datetime, sets, replace
 sha256|hash
 shortest_line|start, resultant, joining, end, shortest, line
 simplify|straight, large, deviations, nodes, algorithm, reduces, simplifies, segments, number, threshold, distance, removing, vertices, based, preserves
@@ -385,10 +397,13 @@ straight_distance_2d|distance, curve, circularstring, first, last, direct, eucli
 string_to_array|split, convert, separate, delimiter, divides
 strpos|substring, position, return, found, first, matching
 substr|part
+substr_count|count, occurrences, substring, string
 sum|field, summed, aggregate
 sym_difference|portions, represents, intersect
 tan|angle, tangent
 tapered_buffer|varies, buffer, line, diameter, length
+timezone_from_id|timezone, id, creates, iana
+timezone_id|timezone, id, returns, iana
 title|letter, words, lower, converts, leading, capital, title, case
 to_base64|encoding, base, binary, encodes
 to_date|provided, additional, user, format_date, parse, qdate, converts, default, current, format, object, fromstring, date, optional, documentation, see
@@ -409,6 +424,7 @@ triangular_wave|waves, boundary, constructs, triangular
 triangular_wave_randomized|waves, boundary, constructs, randomized, triangular
 trim|removes, leading, whitespace, spaces, tabs, trailing
 try|return, tries, error, alternative, provided, exception
+unaccent|removes, accents, diacritics, string
 union|union, dissolve, point, represents, set
 upper|converts, upper, letters, case
 url_encode|encoded, producing, form, characters, query, plus, url, compliant, converted, map, sign, transforms
@@ -518,7 +534,7 @@ angles|angle_at_vertex, line_interpolate_angle
 specified|angle_at_vertex, sqlite_fetch_and_increment, line_substring, extrude, apply_dash_pattern, line_interpolate_angle, line_interpolate_point, line_locate_point, hausdorff_distance, distance_to_vertex, scale_exp, pole_of_inaccessibility, lpad, rpad, densify_by_distance, rand, randf, array_prioritize, clamp, is_layer_visible, extend, var, day_of_week
 clockwise|angle_at_vertex, force_rhr, line_interpolate_angle, force_polygon_ccw, force_polygon_cw, azimuth, main_angle
 linestring|angle_at_vertex, single_sided_buffer, extrude, line_interpolate_angle, straight_distance_2d, line_interpolate_point, length, $length, line_locate_point, line_merge, offset_curve, extend
-degrees|angle_at_vertex, degrees, radians, line_interpolate_angle, main_angle
+degrees|angle_at_vertex, degrees, radians, line_interpolate_angle, main_angle, extract_degrees, magnetic_declination, magnetic_inclination, magnetic_declination_rate_of_change, magnetic_inclination_rate_of_change
 bisector|angle_at_vertex
 north|angle_at_vertex, line_interpolate_angle, azimuth, main_angle
 average|angle_at_vertex, mean
@@ -722,7 +738,7 @@ match|ILIKE, length3D, perimeter, ~
 sensitive|ILIKE, LIKE, hamming_distance, levenshtein, longest_common_substring
 matches|ILIKE, LIKE, regexp_substr
 pattern|ILIKE, LIKE, apply_dash_pattern
-equal|IS, <=, >=, =, <>, buffer, hausdorff_distance, overlay_equals
+equal|IS, <=, >=, =, <>, buffer, hausdorff_distance, overlay_equals, equals
 identical|IS
 compares|<=, >=, =, <>, >, <
 less|<=, <
@@ -759,7 +775,7 @@ oriented|force_rhr, oriented_bbox, main_angle
 direction|force_rhr, reverse
 rule|force_rhr
 definition|force_rhr, env
-converts|degrees, radians, to_int, lower, to_dm, to_decimal, to_dms, to_string, to_real, upper, title, to_time, to_date, to_datetime, to_interval
+converts|degrees, radians, to_int, lower, to_dm, to_decimal, to_dms, to_string, to_real, upper, title, to_time, to_date, to_datetime, to_interval, convert_timezone
 invalid|to_int, to_real
 converted|to_int, to_real, concat, url_encode, datetime_from_epoch
 integer|to_int, rand
@@ -991,7 +1007,7 @@ suffix|file_suffix, base_file_name
 convention|force_polygon_ccw, force_polygon_cw
 hours|hour, make_interval, to_interval
 hour|hour, make_time, make_datetime
-datetime|hour, second, make_datetime, minute, datetime_from_epoch, to_datetime, day_of_week
+datetime|hour, second, make_datetime, minute, datetime_from_epoch, to_datetime, day_of_week, convert_timezone, get_timezone, set_timezone, timezone_from_id, timezone_id
 seconds|second, make_interval
 actual|current_parent_value, current_value
 unsaved|current_parent_value, current_value
@@ -1120,7 +1136,7 @@ edges|densify_by_distance
 densified|densify_by_distance
 multiline|wordwrap
 vertical|azimuth
-year|make_datetime, make_interval, make_date, year
+year|make_datetime, make_interval, make_date, year, magnetic_declination_rate_of_change, magnetic_inclination_rate_of_change
 weeks|make_interval, week
 minutes|minute
 multiplication|*
@@ -1174,7 +1190,7 @@ flat|roundness
 shape|roundness
 portions|sym_difference
 power|^
-equals|overlay_equals, nullif
+equals|overlay_equals, nullif, equals
 st_equals|overlay_equals
 st_crosses|overlay_crosses
 crossed|overlay_crosses
@@ -1282,7 +1298,18 @@ escaped|~
 years|year
 zenith|inclination
 nadir|inclination
-inclination|inclination
+inclination|inclination, magnetic_inclination, magnetic_inclination_rate_of_change
+magnetic|magnetic_declination, magnetic_inclination, magnetic_declination_rate_of_change, magnetic_inclination_rate_of_change
+declination|magnetic_declination, magnetic_declination_rate_of_change
+rate|magnetic_declination_rate_of_change, magnetic_inclination_rate_of_change
+change|magnetic_declination_rate_of_change, magnetic_inclination_rate_of_change
+timezone|convert_timezone, get_timezone, set_timezone, timezone_from_id, timezone_id
+iana|timezone_from_id, timezone_id
+occurrences|substr_count
+accents|unaccent
+diacritics|unaccent
+truncated|extract_degrees, extract_minutes, lpad, rpad
+positive|extract_minutes, extract_seconds
 
 
 [^1]: `>= QGIS 3.24`

@@ -186,6 +186,11 @@ nav:
     - Novità:
        - Intro Novità:
            - Quadro sinottico: release/intro_novita.md
+           - QGIS 4.0  | 23/02/2026: release/novita_400.md
+           - QGIS 3.42 | 21/02/2025: release/novita_342.md
+           - QGIS 3.40 | 25/10/2024: release/novita_340.md
+           - QGIS 3.38 | 21/06/2024: release/novita_338.md
+           - QGIS 3.36 | 23/02/2024: release/novita_336.md
            - QGIS 3.34 | 27/10/2023: release/novita_334.md
            - QGIS 3.32 | 23/06/2023: release/novita_332.md
            - QGIS 3.30 | 03/03/2023: release/novita_330.md
@@ -222,6 +227,7 @@ nav:
        - Geometria: gr_funzioni/geometria/geometria_unico.md
        - Layer Mappa: gr_funzioni/layer_mappa/layer_mappa_unico.md
        - Layout: gr_funzioni/layout/layout_unico.md
+       - Magnetico: gr_funzioni/magnetico/magnetico_unico.md
        - Maps: gr_funzioni/maps/maps_unico.md
        - Matematica: gr_funzioni/matematica/matematica_unico.md
        - Operatori: gr_funzioni/operatori/operatori_unico.md

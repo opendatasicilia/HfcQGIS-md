@@ -1226,6 +1226,32 @@ End_point di geometria lineare:
 
 ---
 
+## equals
+
+Testa l'uguaglianza di due geometrie (allo stesso modo di `overlay_equals`).
+
+Sintassi:
+
+- equals(_<span style="color:red;">geometry1</span>_, _<span style="color:red;">geometry2</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">geometry1</span>_ prima geometria
+* _<span style="color:red;">geometry2</span>_ seconda geometria
+
+Esempi:
+
+```
+equals(geom_from_wkt('POINT(4 4)'), geom_from_wkt('POINT(4 4)')) → true
+equals(geom_from_wkt('POINT(4 4)'), geom_from_wkt('POINT(3 4)')) → false
+```
+
+[![](../../img/geometria/equals/equals1.png)](../../img/geometria/equals/equals1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
 ## exif_geotag
 
 Crea una geometria puntuale dai geotag dell'exif di un file di immagine.

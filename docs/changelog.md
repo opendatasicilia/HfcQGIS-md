@@ -12,6 +12,12 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+21/02/2026 | aggiunte le [novità rilevanti del calcolatore di campi QGIS 4.0](release/novita_400.md): 15 nuove funzioni in 5 gruppi
+21/02/2026 | aggiunto nuovo gruppo [Magnetico](gr_funzioni/magnetico/magnetico_unico.md) con 4 funzioni per i modelli di campo magnetico terrestre: `magnetic_declination`, `magnetic_inclination`, `magnetic_declination_rate_of_change`, `magnetic_inclination_rate_of_change`
+21/02/2026 | aggiunta funzione [`equals`](gr_funzioni/geometria/geometria_unico.md#equals) al gruppo Geometria
+21/02/2026 | aggiunte funzioni [`extract_degrees`](gr_funzioni/conversioni/conversioni_unico.md#extract_degrees), [`extract_minutes`](gr_funzioni/conversioni/conversioni_unico.md#extract_minutes), [`extract_seconds`](gr_funzioni/conversioni/conversioni_unico.md#extract_seconds) al gruppo Conversioni
+21/02/2026 | aggiunte funzioni [`unaccent`](gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#unaccent), [`substr_count`](gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#substr_count) al gruppo Stringhe di testo
+21/02/2026 | aggiunte funzioni [`convert_timezone`](gr_funzioni/data_ora/data_ora_unico.md#convert_timezone), [`get_timezone`](gr_funzioni/data_ora/data_ora_unico.md#get_timezone), [`set_timezone`](gr_funzioni/data_ora/data_ora_unico.md#set_timezone), [`timezone_from_id`](gr_funzioni/data_ora/data_ora_unico.md#timezone_from_id), [`timezone_id`](gr_funzioni/data_ora/data_ora_unico.md#timezone_id) al gruppo Data ora
 21/02/2026 | nuovo post del blog [QGIS 4.0: nuove funzioni del gruppo Espressioni](https://hfcqgis.opendatasicilia.it/blog/2026/02/21/qgis-4-0-nuove-funzioni-del-gruppo-espressioni/)
 23/01/2026 | aggiunta nuova funzione custom [conta_vertici_layer](gr_funzioni/custom/custom_unico.md#conta_vertici_layer) per contare vertici e feature di un layer
 23/01/2026 | correzione aggiornamento della guida in line della funzione overlay_equals, [vedi](https://github.com/qgis/QGIS/pull/64641/commits/77360e880864867ec09d66c499bb1ff3b5e855cd) 

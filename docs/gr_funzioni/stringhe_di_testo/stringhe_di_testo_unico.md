@@ -747,6 +747,32 @@ substr('HELLO WORLD',-5,-1) → 'WORL'
 
 ---
 
+## substr_count
+
+Conta le occorrenze di una sottostringa all'interno di una stringa.
+
+Sintassi:
+
+- substr_count(_<span style="color:red;">string</span>_, _<span style="color:red;">substring</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">string</span>_ la stringa in cui cercare
+* _<span style="color:red;">substring</span>_ la sottostringa da contare
+
+Esempi:
+
+```
+substr_count('HELLO WORLD','L') → 3
+substr_count('QGIS QGIS QGIS','QGIS') → 3
+```
+
+[![](../../img/stringhe_di_testo/substr_count/substr_count1.png)](../../img/stringhe_di_testo/substr_count/substr_count1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
+
+---
+
 ## title
 
 Converte tutte le parole in "title case" (tutte le parole in minuscolo con la prima lettera maiuscola)
@@ -832,6 +858,31 @@ upper('hello WOrld') → 'HELLO WORLD'
 ```
 
 [![](../../img/stringhe_di_testo/upper/upper1.png)](../../img/stringhe_di_testo/upper/upper1.png)
+
+---
+
+## unaccent
+
+Rimuove gli accenti (segni diacritici) da una stringa.
+
+Sintassi:
+
+- unaccent(_<span style="color:red;">string</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">string</span>_ la stringa da cui rimuovere gli accenti
+
+Esempi:
+
+```
+unaccent('ï') → 'i'
+unaccent('café') → 'cafe'
+```
+
+[![](../../img/stringhe_di_testo/unaccent/unaccent1.png)](../../img/stringhe_di_testo/unaccent/unaccent1.png)
+
+Feature introdotta a partire da **QGIS 4.0**
 
 ---
 
