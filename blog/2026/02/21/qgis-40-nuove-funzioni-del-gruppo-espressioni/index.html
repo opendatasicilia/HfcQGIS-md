@@ -6444,10 +6444,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#equalsgeometry1-geometry2" class="md-nav__link">
+  <a href="#equals" class="md-nav__link">
     <span class="md-ellipsis">
       
-        equals(geometry1, geometry2)
+        equals
       
     </span>
   </a>
@@ -6466,10 +6466,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#extract_degrees-extract_minutes-extract_seconds" class="md-nav__link">
+  <a href="#extract_" class="md-nav__link">
     <span class="md-ellipsis">
       
-        extract_degrees, extract_minutes, extract_seconds
+        extract_*
       
     </span>
   </a>
@@ -6715,7 +6715,7 @@
 </div>
 <!-- more -->
 
-<h2 id="equalsgeometry1-geometry2"><code>equals(geometry1, geometry2)</code><a class="headerlink" href="#equalsgeometry1-geometry2" title="Permanent link">↵</a></h2>
+<h2 id="equals">equals<a class="headerlink" href="#equals" title="Permanent link">↵</a></h2>
 <p>Verifica l'uguaglianza tra due geometrie (coerente con <code>overlay_equals</code>). Utile quando serve un confronto rigoroso tra geometrie, ad esempio per controlli di qualità o deduplicazioni avanzate.</p>
 <p>Esempio:
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>equals($geometry, geometry(@parent))
@@ -6730,29 +6730,26 @@
 <li><code>magnetic_inclination_rate_of_change</code></li>
 </ul>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination($x, $y, now())
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 7.873899
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png" /></a></p>
-<h2 id="extract_degrees-extract_minutes-extract_seconds"><code>extract_degrees</code>, <code>extract_minutes</code>, <code>extract_seconds</code><a class="headerlink" href="#extract_degrees-extract_minutes-extract_seconds" title="Permanent link">↵</a></h2>
+<h2 id="extract_">extract_*<a class="headerlink" href="#extract_" title="Permanent link">↵</a></h2>
+<p><code>extract_degrees</code>, <code>extract_minutes</code>, <code>extract_seconds</code></p>
 <p>Tre funzioni per scomporre un valore in gradi decimali e formattare le annotazioni di griglia in modo fine. Perfette per layout con formati personalizzati.</p>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>concat(
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  extract_degrees($y), &#39;° &#39;,
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  extract_minutes($y), &quot;&#39; &quot;,
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  round(extract_seconds($y), 2), &#39;&quot;&#39;
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>extract_minutes(145.75) --&gt; 45
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/extract_dms.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/extract_dms.png" /></a></p>
-<h2 id="unaccent"><code>unaccent</code><a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
+<h2 id="unaccent">unaccent<a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
 <p>Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL <code>unaccent</code>). Utile per normalizzare testi e confrontare valori in modo robusto.</p>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&quot;città&quot;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&quot;città&quot;) --&gt; citta
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/unaccent.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/unaccent.png" /></a></p>
-<h2 id="substr_count"><code>substr_count</code><a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
+<h2 id="substr_count">substr_count<a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
 <p>Conta quante volte una sottostringa compare in una stringa. Ottimo per controlli rapidi, pulizia testi o piccoli calcoli su stringhe.</p>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) --&gt; 3
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/substr_count.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/substr_count.png" /></a></p>
 <h2 id="funzioni-per-i-fusi-orari">Funzioni per i fusi orari<a class="headerlink" href="#funzioni-per-i-fusi-orari" title="Permanent link">↵</a></h2>
@@ -6765,7 +6762,7 @@
 <li><code>set_timezone</code></li>
 </ul>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;)) --&gt; &lt;datetime: 2026-02-21 21:14:56 (ora solare Europa occidentale)&gt;
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/timezone.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/timezone.png" /></a></p>
 <h2 id="conclusioni">Conclusioni<a class="headerlink" href="#conclusioni" title="Permanent link">↵</a></h2>

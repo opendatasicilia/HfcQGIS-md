@@ -6655,12 +6655,6 @@
 <ul>
 <li>add funzioni <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_degrees"><code>extract_degrees</code></a>, <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_minutes"><code>extract_minutes</code></a>, <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_seconds"><code>extract_seconds</code></a>: scompongono un valore in gradi decimali nei singoli componenti DMS, utili per personalizzare le annotazioni di griglia nei layout di stampa</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>concat(
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  extract_degrees($y), &#39;° &#39;,
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  extract_minutes($y), &quot;&#39; &quot;,
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  round(extract_seconds($y), 2), &#39;&quot;&#39;
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>)
-</code></pre></div>
 <h3 id="gruppo-magnetico-nuovo">Gruppo Magnetico <em>(nuovo)</em><a class="headerlink" href="#gruppo-magnetico-nuovo" title="Permanent link">↵</a></h3>
 <ul>
 <li>add nuovo gruppo con 4 funzioni per lavorare con i modelli di campo magnetico terrestre:</li>
@@ -6669,18 +6663,18 @@
 <li><a href="../../gr_funzioni/magnetico/magnetico_unico/#magnetic_declination_rate_of_change"><code>magnetic_declination_rate_of_change</code></a></li>
 <li><a href="../../gr_funzioni/magnetico/magnetico_unico/#magnetic_inclination_rate_of_change"><code>magnetic_inclination_rate_of_change</code></a></li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>magnetic_declination($x, $y, now())
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination($x, $y, now())
 </code></pre></div>
 <h3 id="gruppo-stringhe-di-testo">Gruppo Stringhe di Testo<a class="headerlink" href="#gruppo-stringhe-di-testo" title="Permanent link">↵</a></h3>
 <ul>
 <li>add funzione <a href="../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/#unaccent"><code>unaccent</code></a>: rimuove accenti e segni diacritici dalle stringhe</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&quot;città&quot;) → &#39;citta&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>unaccent(&quot;città&quot;) → &#39;citta&#39;
 </code></pre></div>
 <ul>
 <li>add funzione <a href="../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/#substr_count"><code>substr_count</code></a>: conta le occorrenze di una sottostringa</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) → 3
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) → 3
 </code></pre></div>
 <h3 id="gruppo-data-e-ora">Gruppo Data e Ora<a class="headerlink" href="#gruppo-data-e-ora" title="Permanent link">↵</a></h3>
 <ul>
@@ -6691,7 +6685,7 @@
 <li><a href="../../gr_funzioni/data_ora/data_ora_unico/#convert_timezone"><code>convert_timezone</code></a></li>
 <li><a href="../../gr_funzioni/data_ora/data_ora_unico/#set_timezone"><code>set_timezone</code></a></li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;))
 </code></pre></div>
 <hr />
 <p>Vedi anche: <a href="../../blog/2026/02/21/qgis-40-nuove-funzioni-del-gruppo-espressioni/">blog post QGIS 4.0 – nuove funzioni del gruppo Espressioni</a></p>
