@@ -31,7 +31,7 @@ Con QGIS 4.0 il gruppo **Espressioni** si arricchisce di nuove funzioni utili si
 
 <!-- more -->
 
-## `equals(geometry1, geometry2)`
+## equals
 
 Verifica l'uguaglianza tra due geometrie (coerente con `overlay_equals`). Utile quando serve un confronto rigoroso tra geometrie, ad esempio per controlli di qualità o deduplicazioni avanzate.
 
@@ -53,44 +53,42 @@ Queste espressioni aiutano a calcolare la declinazione e l'inclinazione magnetic
 
 Esempio:
 ```qgis
-magnetic_declination($x, $y, now())
+magnetic_declination('wmm2025', make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 7.873899
 ```
 
 [![](./magnetic_models.png)](./magnetic_models.png)
 
-## `extract_degrees`, `extract_minutes`, `extract_seconds`
+## extract_*
+
+`extract_degrees`, `extract_minutes`, `extract_seconds`
 
 Tre funzioni per scomporre un valore in gradi decimali e formattare le annotazioni di griglia in modo fine. Perfette per layout con formati personalizzati.
 
 Esempio:
 ```qgis
-concat(
-  extract_degrees($y), '° ',
-  extract_minutes($y), "' ",
-  round(extract_seconds($y), 2), '"'
-)
+extract_minutes(145.75) --> 45
 ```
 
 [![](./extract_dms.png)](./extract_dms.png)
 
-## `unaccent`
+## unaccent
 
 Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL `unaccent`). Utile per normalizzare testi e confrontare valori in modo robusto.
 
 Esempio:
 ```qgis
-unaccent("città")
+unaccent("città") --> citta
 ```
 
 [![](./unaccent.png)](./unaccent.png)
 
-## `substr_count`
+## substr_count
 
 Conta quante volte una sottostringa compare in una stringa. Ottimo per controlli rapidi, pulizia testi o piccoli calcoli su stringhe.
 
 Esempio:
 ```qgis
-substr_count("A-B-C-D", "-")
+substr_count("A-B-C-D", "-") --> 3
 ```
 
 [![](./substr_count.png)](./substr_count.png)
@@ -107,7 +105,7 @@ Nuove funzioni per creare e gestire timezone basate sugli ID IANA. Sono preziose
 
 Esempio:
 ```qgis
-convert_timezone(now(), timezone_from_id('Europe/Rome'))
+convert_timezone(now(), timezone_from_id('Europe/Rome')) --> <datetime: 2026-02-21 21:14:56 (ora solare Europa occidentale)>
 ```
 
 [![](./timezone.png)](./timezone.png)

@@ -16,14 +16,6 @@ equals($geometry, geometry(@parent))
 
 - add funzioni [`extract_degrees`](../gr_funzioni/conversioni/conversioni_unico.md#extract_degrees), [`extract_minutes`](../gr_funzioni/conversioni/conversioni_unico.md#extract_minutes), [`extract_seconds`](../gr_funzioni/conversioni/conversioni_unico.md#extract_seconds): scompongono un valore in gradi decimali nei singoli componenti DMS, utili per personalizzare le annotazioni di griglia nei layout di stampa
 
-```
-concat(
-  extract_degrees($y), '° ',
-  extract_minutes($y), "' ",
-  round(extract_seconds($y), 2), '"'
-)
-```
-
 ### Gruppo Magnetico _(nuovo)_
 
 - add nuovo gruppo con 4 funzioni per lavorare con i modelli di campo magnetico terrestre:
