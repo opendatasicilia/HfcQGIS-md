@@ -12,6 +12,7 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+21/02/2026 | nuovo post del blog [QGIS 4.0: nuove funzioni del gruppo Espressioni](https://hfcqgis.opendatasicilia.it/blog/2026/02/21/qgis-4-0-nuove-funzioni-del-gruppo-espressioni/)
 23/01/2026 | aggiunta nuova funzione custom [conta_vertici_layer](gr_funzioni/custom/custom_unico.md#conta_vertici_layer) per contare vertici e feature di un layer
 23/01/2026 | correzione aggiornamento della guida in line della funzione overlay_equals, [vedi](https://github.com/qgis/QGIS/pull/64641/commits/77360e880864867ec09d66c499bb1ff3b5e855cd) 
 31/12/2025 | aggiunto [90esimo](esempi/rapporto_perimetro_convexhull_area.md) esempio
