@@ -174,3 +174,19 @@ nuovo pulsante (Novità introdotta nella QGIS 3.4) nella barra degli strumenti d
 [Mostra nella Tabella](https://github.com/qgis/QGIS/pull/46328) >= QGIS 3.24
 
 ![](../img/tabella_attributi/mostra_tabella.gif)
+
+## Doppio clic per zoom
+
+[Changelog QGIS 4.0](https://changelog.qgis.org/en/qgis/version/4.0/) >= QGIS 4.0
+
+Doppio clic su un elemento nella tabella attributi seleziona la feature e fa zoom ad essa.
+
+[![tab_attr](../img/novita_400/attribute_table_zoom.gif)](../img/novita_400/attribute_table_zoom.gif)
+
+## Copia valori raw
+
+[Changelog QGIS 4.0](https://changelog.qgis.org/en/qgis/version/4.0/) >= QGIS 4.0
+
+Nuova opzione **"Copy Raw Cell Content"** nel menu contestuale delle celle per copiare i valori originali (non rappresentati) negli appunti. In precedenza venivano copiati solo i valori "rappresentati" (es. valori di chiavi esterne, formattazione locale).
+
+[![tab_attr](../img/novita_400/copy_raw_values.png)](../img/novita_400/copy_raw_values.png)
