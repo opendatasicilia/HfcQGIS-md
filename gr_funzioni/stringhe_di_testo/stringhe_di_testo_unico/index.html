@@ -8056,21 +8056,26 @@
 <p><a href="../../../img/stringhe_di_testo/substr/substr1.png"><img alt="" src="../../../img/stringhe_di_testo/substr/substr1.png" /></a></p>
 <hr />
 <h2 id="substr_count">substr_count<a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
-<p>Conta le occorrenze di una sottostringa all'interno di una stringa.</p>
+<p>Conta il numero di occorrenze di una sottostringa all'interno di una stringa. Per impostazione predefinita, la funzione conta le occorrenze non sovrapposte (come in Python). Se il terzo argomento è impostato su <code>true</code>, la funzione conta le occorrenze sovrapposte (come in Qt).</p>
 <p>Sintassi:</p>
 <ul>
-<li>substr_count(<em><span style="color:red;">string</span></em>, <em><span style="color:red;">substring</span></em>)</li>
+<li>substr_count(<em><span style="color:red;">string</span></em>, <em><span style="color:red;">substring</span></em>[,<em><span style="color:red;">overlapping</span></em>])</li>
 </ul>
+<p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">string</span></em> la stringa in cui cercare</li>
-<li><em><span style="color:red;">substring</span></em> la sottostringa da contare</li>
+<li><em><span style="color:red;">string</span></em> la stringa di input in cui effettuare la ricerca</li>
+<li><em><span style="color:red;">substring</span></em> la sottostringa da cercare</li>
+<li><em><span style="color:red;">overlapping</span></em> parametro opzionale per controllare se contare le occorrenze sovrapposte. Il valore predefinito è <code>FALSE</code> (conteggio non sovrapposto). Impostare su <code>TRUE</code> per contare le occorrenze sovrapposte.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>substr_count(&#39;HELLO WORLD&#39;,&#39;L&#39;) → 3
-<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>substr_count(&#39;QGIS QGIS QGIS&#39;,&#39;QGIS&#39;) → 3
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>substr_count(&#39;banana&#39;, &#39;an&#39;) → 2  -- occorrenze non sovrapposte di &#39;an&#39; in &#39;banana&#39;
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>substr_count(&#39;Funniness&#39;, &#39;n&#39;) → 3  -- occorrenze non sovrapposte di &#39;n&#39; in &#39;Funniness&#39;
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;) → 2  -- occorrenze non sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;, true) → 4  -- occorrenze sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>substr_count(&#39;BANANA&#39;, &#39;an&#39;) → 0  -- sensibile alle maiuscole/minuscole, nessuna corrispondenza
 </code></pre></div>
-<p><a href="../../img/stringhe_di_testo/substr_count/substr_count1.png"><img alt="" src="../../img/stringhe_di_testo/substr_count/substr_count1.png" /></a></p>
+<p><a href="../../../img/stringhe_di_testo/substr_count/substr_count1.png"><img alt="" src="../../../img/stringhe_di_testo/substr_count/substr_count1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="title">title<a class="headerlink" href="#title" title="Permanent link">↵</a></h2>
@@ -8134,20 +8139,45 @@
 <p><a href="../../../img/stringhe_di_testo/upper/upper1.png"><img alt="" src="../../../img/stringhe_di_testo/upper/upper1.png" /></a></p>
 <hr />
 <h2 id="unaccent">unaccent<a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
-<p>Rimuove gli accenti (segni diacritici) da una stringa.</p>
+<p>Rimuove accenti e altri segni diacritici da una stringa, sostituendo i caratteri accentati con i loro equivalenti ASCII non accentati. Questa funzione è compatibile con la funzione <code>unaccent()</code> di PostgreSQL e utilizza le stesse regole di mappatura complete.</p>
+<p>La funzione gestisce:</p>
+<ul>
+<li>Segni diacritici (é→e, ñ→n, ü→u, ecc.)</li>
+<li>Legature (Æ→AE, œ→oe, ecc.)</li>
+<li>Lettere speciali (ß→ss, ł→l, ð→d, ecc.)</li>
+<li>Caratteri di compatibilità (²C→°C, ½→ &frac12;, ecc.)</li>
+<li>Caratteri speciali cirillici (ё→e, Ё→E)</li>
+<li>Caratteri a larghezza intera (＃→#, ecc.)</li>
+</ul>
+<p>I casi di utilizzo comuni includono la normalizzazione del testo per le operazioni di ricerca, la creazione di identificatori o nomi di file ASCII sicuri da testo internazionale e la corrispondenza dell'input dell'utente indipendentemente dall'uso dell'accento.</p>
 <p>Sintassi:</p>
 <ul>
 <li>unaccent(<em><span style="color:red;">string</span></em>)</li>
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">string</span></em> la stringa da cui rimuovere gli accenti</li>
+<li><em><span style="color:red;">string</span></em> la stringa da cui rimuovere gli accenti. Se NULL, la funzione restituisce NULL.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>unaccent(&#39;ï&#39;) → &#39;i&#39;
-<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>unaccent(&#39;café&#39;) → &#39;cafe&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>unaccent(&#39;Hôtel&#39;) → &#39;Hotel&#39;
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>unaccent(&#39;crème brûlée&#39;) → &#39;creme brulee&#39;
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>unaccent(&#39;Româneste&#39;) → &#39;Romaneste&#39;
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a>unaccent(&#39;Æsir &amp; Œuvre&#39;) → &#39;AEsir &amp; OEuvre&#39;
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a>unaccent(&#39;Łódź&#39;) → &#39;Lodz&#39;
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a>unaccent(&#39;straße&#39;) → &#39;strasse&#39;
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a>unaccent(&#39;ёлка&#39;) → &#39;елка&#39;  -- cirillico yo diventa ye
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a>unaccent(&#39;°C&#39;) → &#39;°C&#39;  -- grado Celsius
 </code></pre></div>
-<p><a href="../../img/stringhe_di_testo/unaccent/unaccent1.png"><img alt="" src="../../img/stringhe_di_testo/unaccent/unaccent1.png" /></a></p>
+<p><a href="../../../img/stringhe_di_testo/unaccent/unaccent1.png"><img alt="" src="../../../img/stringhe_di_testo/unaccent/unaccent1.png" /></a></p>
+<p>Note:</p>
+<p>Questa funzione è particolarmente utile quando si desidera:</p>
+<ul>
+<li>Cercare o filtrare dati ignorando gli accenti (es. 'Jose' corrisponde a 'José')</li>
+<li>Creare stringhe URL-safe o filename-safe da testo internazionale</li>
+<li>Normalizzare l'input dell'utente per una memorizzazione o un confronto uniforme</li>
+<li>Preparare testo per sistemi con supporto Unicode limitato</li>
+</ul>
+<p>La funzione utilizza internamente la normalizzazione Unicode NFC per garantire una gestione coerente dei caratteri composti e decomposti.</p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="wordwrap">wordwrap<a class="headerlink" href="#wordwrap" title="Permanent link">↵</a></h2>

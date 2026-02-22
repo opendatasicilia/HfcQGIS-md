@@ -10930,21 +10930,24 @@ dove:</p>
 <p><a href="../../../img/geometria/end_point/end_point3.png"><img alt="" src="../../../img/geometria/end_point/end_point3.png" /></a></p>
 <hr />
 <h2 id="equals">equals<a class="headerlink" href="#equals" title="Permanent link">↵</a></h2>
-<p>Testa l'uguaglianza di due geometrie (allo stesso modo di <code>overlay_equals</code>).</p>
+<p>Verifica se due geometrie sono uguali. Si noti che l'ordine dei vertici è rilevante. Restituisce TRUE se geometry1 è esattamente uguale a geometry2.</p>
 <p>Sintassi:</p>
 <ul>
 <li>equals(<em><span style="color:red;">geometry1</span></em>, <em><span style="color:red;">geometry2</span></em>)</li>
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">geometry1</span></em> prima geometria</li>
-<li><em><span style="color:red;">geometry2</span></em> seconda geometria</li>
+<li><em><span style="color:red;">geometry1</span></em> una geometria</li>
+<li><em><span style="color:red;">geometry2</span></em> una geometria</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>equals(geom_from_wkt(&#39;POINT(4 4)&#39;), geom_from_wkt(&#39;POINT(4 4)&#39;)) → true
-<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>equals(geom_from_wkt(&#39;POINT(4 4)&#39;), geom_from_wkt(&#39;POINT(3 4)&#39;)) → false
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>equals( geom_from_wkt( &#39;POINT( 0 0 )&#39; ), geom_from_wkt( &#39;POINT( 0 0 )&#39; ) ) → TRUE
+<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>equals( geom_from_wkt( &#39;POINT( 0 0 )&#39; ), geom_from_wkt( &#39;MULTIPOINT( ( 0 0 ) )&#39; ) ) → FALSE
+<a id="__codelineno-45-3" name="__codelineno-45-3" href="#__codelineno-45-3"></a>equals( geom_from_wkt( &#39;LINESTRING( 0 0, 1 1 )&#39; ), geom_from_wkt( &#39;LINESTRING( 0 0, 1 1 )&#39; ) ) → TRUE
+<a id="__codelineno-45-4" name="__codelineno-45-4" href="#__codelineno-45-4"></a>equals( geom_from_wkt( &#39;LINESTRING( 0 0, 1 1 )&#39; ), geom_from_wkt( &#39;LINESTRING( 1 1, 0 0 )&#39; ) ) → FALSE
+<a id="__codelineno-45-5" name="__codelineno-45-5" href="#__codelineno-45-5"></a>equals( geom_from_wkt( &#39;POLYGON(( 0 0, 0 1, 1 1, 0 0 ))&#39; ), geom_from_wkt( &#39;POLYGON(( 0 0, 1 1, 0 1, 0 0 ))&#39; ) ) → FALSE
 </code></pre></div>
-<p><a href="../../img/geometria/equals/equals1.png"><img alt="" src="../../img/geometria/equals/equals1.png" /></a></p>
+<p><a href="../../../img/geometria/equals/equals1.png"><img alt="" src="../../../img/geometria/equals/equals1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="exif_geotag">exif_geotag<a class="headerlink" href="#exif_geotag" title="Permanent link">↵</a></h2>

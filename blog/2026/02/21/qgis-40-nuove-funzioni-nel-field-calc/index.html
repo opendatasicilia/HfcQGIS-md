@@ -6737,6 +6737,7 @@
 </code></pre></div></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png" /></a></p>
 <p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/group_magnetic_models.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/group_magnetic_models.png" /></a></p>
+<p><a href="https://github.com/qgis/QGIS/issues/65033#issuecomment-3940603146">NB:</a> I modelli non sono inclusi nel pacchetto QGIS: è necessario scaricarli manualmente (e quindi utilizzare il percorso completo del modello nella funzione di espressione o installarlo in C:/ProgramData/GeographicLib/magnetic).</p>
 <h2 id="extract_">extract_*<a class="headerlink" href="#extract_" title="Permanent link">↵</a></h2>
 <p><code>extract_degrees</code>, <code>extract_minutes</code>, <code>extract_seconds</code></p>
 <p>Tre funzioni per scomporre un valore in gradi decimali e formattare le annotazioni di griglia in modo fine. Perfette per layout con formati personalizzati.</p>
@@ -6746,13 +6747,13 @@
 <h2 id="unaccent">unaccent<a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
 <p>Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL <code>unaccent</code>). Utile per normalizzare testi e confrontare valori in modo robusto.</p>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&quot;città&quot;) --&gt; citta
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>unaccent(&quot;Cefalù&quot;) --&gt; Cefalu
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&#39;città&#39;) --&gt; citta
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>unaccent(&#39;Cefalù&#39;) --&gt; Cefalu
 </code></pre></div></p>
 <h2 id="substr_count">substr_count<a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
 <p>Conta quante volte una sottostringa compare in una stringa. Ottimo per controlli rapidi, pulizia testi o piccoli calcoli su stringhe.</p>
 <p>Esempio:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) --&gt; 3
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&#39;A-B-C-D&#39;, &#39;-&#39;) --&gt; 3
 </code></pre></div></p>
 <h2 id="funzioni-per-i-fusi-orari">Funzioni per i fusi orari<a class="headerlink" href="#funzioni-per-i-fusi-orari" title="Permanent link">↵</a></h2>
 <p>Nuove funzioni per creare e gestire timezone basate sugli ID IANA. Sono preziose quando si lavora con dati temporali multi-fuso o si vogliono normalizzare date e orari.</p>

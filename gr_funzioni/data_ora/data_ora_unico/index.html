@@ -7514,13 +7514,14 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">datetime</span></em> valore datetime da convertire</li>
-<li><em><span style="color:red;">timezone</span></em> oggetto fuso orario di destinazione (ottenuto con <code>timezone_from_id</code>)</li>
+<li><em><span style="color:red;">datetime</span></em> valore datetime</li>
+<li><em><span style="color:red;">timezone</span></em> fuso orario di destinazione</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>convert_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;), timezone_from_id(&#39;UTC+10&#39;)) → datetime 2012-05-04 19:50:00 (UTC+10)
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>convert_timezone(&quot;DATE_FIELD&quot;, timezone_from_id(&#39;Australia/Darwin&#39;)) → datetime del campo DATE_FIELD convertito nel fuso orario &#39;Australia/Darwin&#39;
 </code></pre></div>
-<p><a href="../../img/data_e_ora/convert_timezone1.png"><img alt="" src="../../img/data_e_ora/convert_timezone1.png" /></a></p>
+<p><a href="../../../img/data_e_ora/convert_timezone1.png"><img alt="" src="../../../img/data_e_ora/convert_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="datetime_from_epoch">datetime_from_epoch<a class="headerlink" href="#datetime_from_epoch" title="Permanent link">↵</a></h2>
@@ -7749,12 +7750,13 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">datetime</span></em> valore datetime di cui restituire il fuso orario</li>
+<li><em><span style="color:red;">datetime</span></em> valore datetime con fuso orario</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>timezone_id(get_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;))) → &#39;UTC+03&#39;
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>timezone_id(get_timezone(&quot;DATE_FIELD&quot;)) → ID del fuso orario associato al valore del campo DATE_FIELD
 </code></pre></div>
-<p><a href="../../img/data_e_ora/get_timezone1.png"><img alt="" src="../../img/data_e_ora/get_timezone1.png" /></a></p>
+<p><a href="../../../img/data_e_ora/get_timezone1.png"><img alt="" src="../../../img/data_e_ora/get_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="hour">hour<a class="headerlink" href="#hour" title="Permanent link">↵</a></h2>
@@ -7982,29 +7984,32 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">datetime</span></em> valore datetime a cui impostare il fuso orario</li>
-<li><em><span style="color:red;">timezone</span></em> oggetto fuso orario da associare (ottenuto con <code>timezone_from_id</code>)</li>
+<li><em><span style="color:red;">datetime</span></em> valore datetime</li>
+<li><em><span style="color:red;">timezone</span></em> nuovo fuso orario da associare al datetime</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>set_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;), timezone_from_id(&#39;UTC+10&#39;)) → datetime 2012-05-04 12:50:00 (UTC+10)
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>set_timezone(make_datetime(2020,1,1,10,0,0), timezone_from_id(&#39;Australia/Darwin&#39;)) → datetime 2020-01-01 10:00:00 con fuso orario &#39;Australia/Darwin&#39;
 </code></pre></div>
-<p><a href="../../img/data_e_ora/set_timezone1.png"><img alt="" src="../../img/data_e_ora/set_timezone1.png" /></a></p>
+<p><a href="../../../img/data_e_ora/set_timezone1.png"><img alt="" src="../../../img/data_e_ora/set_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="timezone_from_id">timezone_from_id<a class="headerlink" href="#timezone_from_id" title="Permanent link">↵</a></h2>
-<p>Crea un oggetto fuso orario a partire da un ID stringa del database dei fusi orari IANA.</p>
+<p>Crea un oggetto fuso orario a partire da un ID stringa del database dei fusi orari IANA. L'ID deve essere uno degli ID di sistema disponibili oppure un ID UTC con offset valido.</p>
 <p>Sintassi:</p>
 <ul>
 <li>timezone_from_id(<em><span style="color:red;">id</span></em>)</li>
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">id</span></em> stringa identificatore del fuso orario (dal database IANA, es. 'Europe/Rome')</li>
+<li><em><span style="color:red;">id</span></em> stringa contenente l'identificatore del fuso orario</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>timezone_from_id(&#39;Australia/Brisbane&#39;) → oggetto fuso orario AEST
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>timezone_from_id(&#39;UTC+10:30&#39;) → oggetto fuso orario UTC+10:30
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>timezone_from_id(&#39;UTC-3&#39;) → oggetto fuso orario UTC-03
 </code></pre></div>
-<p><a href="../../img/data_e_ora/timezone_from_id1.png"><img alt="" src="../../img/data_e_ora/timezone_from_id1.png" /></a></p>
+<p><a href="../../../img/data_e_ora/timezone_from_id1.png"><img alt="" src="../../../img/data_e_ora/timezone_from_id1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="timezone_id">timezone_id<a class="headerlink" href="#timezone_id" title="Permanent link">↵</a></h2>
@@ -8015,12 +8020,13 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">timezone</span></em> oggetto fuso orario di cui restituire l'ID</li>
+<li><em><span style="color:red;">timezone</span></em> un oggetto fuso orario valido</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>timezone_id(get_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;))) → &#39;UTC+03&#39;
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>timezone_id(timezone_from_id(&#39;Australia/Brisbane&#39;)) → &#39;Australia/Brisbane&#39;
 </code></pre></div>
-<p><a href="../../img/data_e_ora/timezone_id1.png"><img alt="" src="../../img/data_e_ora/timezone_id1.png" /></a></p>
+<p><a href="../../../img/data_e_ora/timezone_id1.png"><img alt="" src="../../../img/data_e_ora/timezone_id1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="to_date">to_date<a class="headerlink" href="#to_date" title="Permanent link">↵</a></h2>

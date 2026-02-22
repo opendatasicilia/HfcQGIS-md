@@ -6602,73 +6602,94 @@
 <p class="admonition-title">Abstract</p>
 <p><strong>Questo gruppo contiene funzioni per lavorare con i modelli di campo magnetico terrestre.</strong></p>
 </div>
+<p><a href="https://github.com/qgis/QGIS/issues/65033#issuecomment-3940603146">NB:</a> I modelli non sono inclusi nel pacchetto QGIS: è necessario scaricarli manualmente (e quindi utilizzare il percorso completo del modello nella funzione di espressione o installarlo in C:/ProgramData/GeographicLib/magnetic).</p>
 <hr />
 <h2 id="magnetic_declination">magnetic_declination<a class="headerlink" href="#magnetic_declination" title="Permanent link">↵</a></h2>
 <p>Restituisce la declinazione del campo magnetico in un punto, in gradi a est del nord.</p>
 <p>Sintassi:</p>
 <ul>
-<li>magnetic_declination(<em><span style="color:red;">point</span></em>[,<em><span style="color:red;">datetime</span></em>])</li>
+<li>magnetic_declination(<em><span style="color:red;">model_name</span></em>, <em><span style="color:red;">date</span></em>, <em><span style="color:red;">latitude</span></em>, <em><span style="color:red;">longitude</span></em>, <em><span style="color:red;">height</span></em>[,<em><span style="color:red;">model_path</span></em>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">point</span></em> geometria punto</li>
-<li><em><span style="color:red;">datetime</span></em> data e ora di riferimento per il calcolo (opzionale)</li>
+<li><em><span style="color:red;">model_name</span></em> nome del modello magnetico da utilizzare (es. <code>'wmm2025'</code>). Deve corrispondere a un modello magnetico installato nel sistema.</li>
+<li><em><span style="color:red;">date</span></em> data e ora in cui valutare il modello magnetico</li>
+<li><em><span style="color:red;">latitude</span></em> latitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">longitude</span></em> longitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">height</span></em> altezza del punto sopra l'ellissoide (in metri)</li>
+<li><em><span style="color:red;">model_path</span></em> percorso di directory opzionale contenente il modello magnetico. Può essere utilizzato per fare riferimento a modelli magnetici memorizzati al di fuori delle posizioni predefinite.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>magnetic_declination(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 7.873899
 </code></pre></div>
+<p><a href="../../../img/magnetic_models/magnetic_declination.png"><img alt="" src="../../../img/magnetic_models/magnetic_declination.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="magnetic_declination_rate_of_change">magnetic_declination_rate_of_change<a class="headerlink" href="#magnetic_declination_rate_of_change" title="Permanent link">↵</a></h2>
 <p>Restituisce la velocità di variazione della declinazione del campo magnetico in un punto, in gradi per anno.</p>
 <p>Sintassi:</p>
 <ul>
-<li>magnetic_declination_rate_of_change(<em><span style="color:red;">point</span></em>[,<em><span style="color:red;">datetime</span></em>])</li>
+<li>magnetic_declination_rate_of_change(<em><span style="color:red;">model_name</span></em>, <em><span style="color:red;">date</span></em>, <em><span style="color:red;">latitude</span></em>, <em><span style="color:red;">longitude</span></em>, <em><span style="color:red;">height</span></em>[,<em><span style="color:red;">model_path</span></em>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">point</span></em> geometria punto</li>
-<li><em><span style="color:red;">datetime</span></em> data e ora di riferimento per il calcolo (opzionale)</li>
+<li><em><span style="color:red;">model_name</span></em> nome del modello magnetico da utilizzare (es. <code>'wmm2025'</code>). Deve corrispondere a un modello magnetico installato nel sistema.</li>
+<li><em><span style="color:red;">date</span></em> data e ora in cui valutare il modello magnetico</li>
+<li><em><span style="color:red;">latitude</span></em> latitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">longitude</span></em> longitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">height</span></em> altezza del punto sopra l'ellissoide (in metri)</li>
+<li><em><span style="color:red;">model_path</span></em> percorso di directory opzionale contenente il modello magnetico. Può essere utilizzato per fare riferimento a modelli magnetici memorizzati al di fuori delle posizioni predefinite.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination_rate_of_change(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 0.0198816
 </code></pre></div>
+<p><a href="../../../img/magnetic_models/magnetic_declination_rate_of_change.png"><img alt="" src="../../../img/magnetic_models/magnetic_declination_rate_of_change.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="magnetic_inclination">magnetic_inclination<a class="headerlink" href="#magnetic_inclination" title="Permanent link">↵</a></h2>
 <p>Restituisce l'inclinazione del campo magnetico in un punto, in gradi verso il basso rispetto all'orizzontale.</p>
 <p>Sintassi:</p>
 <ul>
-<li>magnetic_inclination(<em><span style="color:red;">point</span></em>[,<em><span style="color:red;">datetime</span></em>])</li>
+<li>magnetic_inclination(<em><span style="color:red;">model_name</span></em>, <em><span style="color:red;">date</span></em>, <em><span style="color:red;">latitude</span></em>, <em><span style="color:red;">longitude</span></em>, <em><span style="color:red;">height</span></em>[,<em><span style="color:red;">model_path</span></em>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">point</span></em> geometria punto</li>
-<li><em><span style="color:red;">datetime</span></em> data e ora di riferimento per il calcolo (opzionale)</li>
+<li><em><span style="color:red;">model_name</span></em> nome del modello magnetico da utilizzare (es. <code>'wmm2025'</code>). Deve corrispondere a un modello magnetico installato nel sistema.</li>
+<li><em><span style="color:red;">date</span></em> data e ora in cui valutare il modello magnetico</li>
+<li><em><span style="color:red;">latitude</span></em> latitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">longitude</span></em> longitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">height</span></em> altezza del punto sopra l'ellissoide (in metri)</li>
+<li><em><span style="color:red;">model_path</span></em> percorso di directory opzionale contenente il modello magnetico. Può essere utilizzato per fare riferimento a modelli magnetici memorizzati al di fuori delle posizioni predefinite.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>magnetic_inclination(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → -67.009737
 </code></pre></div>
+<p><a href="../../../img/magnetic_models/magnetic_inclination.png"><img alt="" src="../../../img/magnetic_models/magnetic_inclination.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 <h2 id="magnetic_inclination_rate_of_change">magnetic_inclination_rate_of_change<a class="headerlink" href="#magnetic_inclination_rate_of_change" title="Permanent link">↵</a></h2>
 <p>Restituisce la velocità di variazione dell'inclinazione del campo magnetico in un punto, in gradi per anno.</p>
 <p>Sintassi:</p>
 <ul>
-<li>magnetic_inclination_rate_of_change(<em><span style="color:red;">point</span></em>[,<em><span style="color:red;">datetime</span></em>])</li>
+<li>magnetic_inclination_rate_of_change(<em><span style="color:red;">model_name</span></em>, <em><span style="color:red;">date</span></em>, <em><span style="color:red;">latitude</span></em>, <em><span style="color:red;">longitude</span></em>, <em><span style="color:red;">height</span></em>[,<em><span style="color:red;">model_path</span></em>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">point</span></em> geometria punto</li>
-<li><em><span style="color:red;">datetime</span></em> data e ora di riferimento per il calcolo (opzionale)</li>
+<li><em><span style="color:red;">model_name</span></em> nome del modello magnetico da utilizzare (es. <code>'wmm2025'</code>). Deve corrispondere a un modello magnetico installato nel sistema.</li>
+<li><em><span style="color:red;">date</span></em> data e ora in cui valutare il modello magnetico</li>
+<li><em><span style="color:red;">latitude</span></em> latitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">longitude</span></em> longitudine del punto in cui valutare il modello magnetico. Deve essere specificata come coordinata WGS84.</li>
+<li><em><span style="color:red;">height</span></em> altezza del punto sopra l'ellissoide (in metri)</li>
+<li><em><span style="color:red;">model_path</span></em> percorso di directory opzionale contenente il modello magnetico. Può essere utilizzato per fare riferimento a modelli magnetici memorizzati al di fuori delle posizioni predefinite.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>…
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>magnetic_inclination_rate_of_change(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 0.0064706
 </code></pre></div>
+<p><a href="../../../img/magnetic_models/magnetic_inclination_rate_of_change.png"><img alt="" src="../../../img/magnetic_models/magnetic_inclination_rate_of_change.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
 <hr />
 
