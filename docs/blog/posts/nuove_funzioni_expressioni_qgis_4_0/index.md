@@ -37,7 +37,7 @@ equals($geometry1, geometry2)
 
 ## Funzioni per modelli magnetici
 
-Queste espressioni aiutano a calcolare la declinazione e l'inclinazione magnetica, e le rispettive variazioni annue. Sono ideali per layout cartografici o metadati che richiedono informazioni magnetiche aggiornate.
+Queste espressioni aiutano a calcolare la declinazione e l'inclinazione magnetica, e le rispettive variazioni annue. Sono ideali per layout cartografici o metadati che richiedono informazioni magnetiche aggiornate. é stato aggiunto un nuovo gruppo nel Field Calc.
 
 - `magnetic_declination`
 - `magnetic_inclination`
@@ -50,6 +50,8 @@ magnetic_declination('wmm2025', make_datetime(2026,7,1,12,0,0), -35, 138, 0) →
 ```
 
 [![](./magnetic_models.png)](./magnetic_models.png)
+
+[![](./group_magnetic_models.png)](./group_magnetic_models.png)
 
 ## extract_*
 

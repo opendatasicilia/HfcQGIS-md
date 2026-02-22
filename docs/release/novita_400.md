@@ -20,7 +20,7 @@ equals($geometry1, geometry2)
 
 ### Gruppo Magnetico _(nuovo)_
 
-- add nuovo gruppo con 4 funzioni per lavorare con i modelli di campo magnetico terrestre:
+- Aggiunto nuovo gruppo con 4 funzioni per lavorare con i modelli di campo magnetico terrestre:
   - [`magnetic_declination`](../gr_funzioni/magnetico/magnetico_unico.md#magnetic_declination)
   - [`magnetic_inclination`](../gr_funzioni/magnetico/magnetico_unico.md#magnetic_inclination)
   - [`magnetic_declination_rate_of_change`](../gr_funzioni/magnetico/magnetico_unico.md#magnetic_declination_rate_of_change)
@@ -31,6 +31,8 @@ magnetic_declination($x, $y, now())
 ```
 
 ![](../img/novita_400/magnetic_models.png)
+
+![](../img/novita_400/group_magnetic_models.png)
 
 ### Gruppo Stringhe di Testo
 
