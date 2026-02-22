@@ -54,13 +54,14 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">datetime</span>_ valore datetime da convertire
-* _<span style="color:red;">timezone</span>_ oggetto fuso orario di destinazione (ottenuto con `timezone_from_id`)
+* _<span style="color:red;">datetime</span>_ valore datetime
+* _<span style="color:red;">timezone</span>_ fuso orario di destinazione
 
 Esempi:
 
 ```
-…
+convert_timezone(to_datetime('2012-05-04 12:50:00+3'), timezone_from_id('UTC+10')) → datetime 2012-05-04 19:50:00 (UTC+10)
+convert_timezone("DATE_FIELD", timezone_from_id('Australia/Darwin')) → datetime del campo DATE_FIELD convertito nel fuso orario 'Australia/Darwin'
 ```
 
 [![](../../img/data_e_ora/convert_timezone1.png)](../../img/data_e_ora/convert_timezone1.png)
@@ -260,12 +261,13 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">datetime</span>_ valore datetime di cui restituire il fuso orario
+* _<span style="color:red;">datetime</span>_ valore datetime con fuso orario
 
 Esempi:
 
 ```
-…
+timezone_id(get_timezone(to_datetime('2012-05-04 12:50:00+3'))) → 'UTC+03'
+timezone_id(get_timezone("DATE_FIELD")) → ID del fuso orario associato al valore del campo DATE_FIELD
 ```
 
 [![](../../img/data_e_ora/get_timezone1.png)](../../img/data_e_ora/get_timezone1.png)
@@ -598,13 +600,14 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">datetime</span>_ valore datetime a cui impostare il fuso orario
-* _<span style="color:red;">timezone</span>_ oggetto fuso orario da associare (ottenuto con `timezone_from_id`)
+* _<span style="color:red;">datetime</span>_ valore datetime
+* _<span style="color:red;">timezone</span>_ nuovo fuso orario da associare al datetime
 
 Esempi:
 
 ```
-…
+set_timezone(to_datetime('2012-05-04 12:50:00+3'), timezone_from_id('UTC+10')) → datetime 2012-05-04 12:50:00 (UTC+10)
+set_timezone(make_datetime(2020,1,1,10,0,0), timezone_from_id('Australia/Darwin')) → datetime 2020-01-01 10:00:00 con fuso orario 'Australia/Darwin'
 ```
 
 [![](../../img/data_e_ora/set_timezone1.png)](../../img/data_e_ora/set_timezone1.png)
@@ -615,7 +618,7 @@ Feature introdotta a partire da **QGIS 4.0**
 
 ## timezone_from_id
 
-Crea un oggetto fuso orario a partire da un ID stringa del database dei fusi orari IANA.
+Crea un oggetto fuso orario a partire da un ID stringa del database dei fusi orari IANA. L'ID deve essere uno degli ID di sistema disponibili oppure un ID UTC con offset valido.
 
 Sintassi:
 
@@ -623,12 +626,14 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">id</span>_ stringa identificatore del fuso orario (dal database IANA, es. 'Europe/Rome')
+* _<span style="color:red;">id</span>_ stringa contenente l'identificatore del fuso orario
 
 Esempi:
 
 ```
-…
+timezone_from_id('Australia/Brisbane') → oggetto fuso orario AEST
+timezone_from_id('UTC+10:30') → oggetto fuso orario UTC+10:30
+timezone_from_id('UTC-3') → oggetto fuso orario UTC-03
 ```
 
 [![](../../img/data_e_ora/timezone_from_id1.png)](../../img/data_e_ora/timezone_from_id1.png)
@@ -647,12 +652,13 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">timezone</span>_ oggetto fuso orario di cui restituire l'ID
+* _<span style="color:red;">timezone</span>_ un oggetto fuso orario valido
 
 Esempi:
 
 ```
-…
+timezone_id(get_timezone(to_datetime('2012-05-04 12:50:00+3'))) → 'UTC+03'
+timezone_id(timezone_from_id('Australia/Brisbane')) → 'Australia/Brisbane'
 ```
 
 [![](../../img/data_e_ora/timezone_id1.png)](../../img/data_e_ora/timezone_id1.png)

@@ -72,8 +72,8 @@ Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL `unaccent`). Utile
 
 Esempio:
 ```qgis
-unaccent("città") --> citta
-unaccent("Cefalù") --> Cefalu
+unaccent('città') --> citta
+unaccent('Cefalù') --> Cefalu
 ```
 
 ## substr_count

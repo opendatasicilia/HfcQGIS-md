@@ -30,7 +30,7 @@ extract_degrees(1.5) → 1
 extract_degrees(-1.999) → -1
 ```
 
-[![](../../img/conversioni/extract_degrees/extract_degrees1.png)](../../img/conversioni/extract_degrees/extract_degrees1.png)
+[![](../../img/conversioni/extract_degrees1.png)](../../img/conversioni/extract_degrees1.png)
 
 Feature introdotta a partire da **QGIS 4.0**
 
@@ -55,7 +55,7 @@ extract_minutes(1.5) → 30
 extract_minutes(-1.5) → 30
 ```
 
-[![](../../img/conversioni/extract_minutes/extract_minutes1.png)](../../img/conversioni/extract_minutes/extract_minutes1.png)
+[![](../../img/conversioni/extract_minutes1.png)](../../img/conversioni/extract_minutes1.png)
 
 Feature introdotta a partire da **QGIS 4.0**
 
@@ -80,7 +80,7 @@ extract_seconds(1.5) → 0.0
 extract_seconds(-1.5) → 0.0
 ```
 
-[![](../../img/conversioni/extract_seconds/extract_seconds1.png)](../../img/conversioni/extract_seconds/extract_seconds1.png)
+[![](../../img/conversioni/extract_seconds1.png)](../../img/conversioni/extract_seconds1.png)
 
 Feature introdotta a partire da **QGIS 4.0**
 

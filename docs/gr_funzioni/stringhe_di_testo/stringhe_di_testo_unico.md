@@ -749,22 +749,28 @@ substr('HELLO WORLD',-5,-1) → 'WORL'
 
 ## substr_count
 
-Conta le occorrenze di una sottostringa all'interno di una stringa.
+Conta il numero di occorrenze di una sottostringa all'interno di una stringa. Per impostazione predefinita, la funzione conta le occorrenze non sovrapposte (come in Python). Se il terzo argomento è impostato su `true`, la funzione conta le occorrenze sovrapposte (come in Qt).
 
 Sintassi:
 
-- substr_count(_<span style="color:red;">string</span>_, _<span style="color:red;">substring</span>_)
+- substr_count(_<span style="color:red;">string</span>_, _<span style="color:red;">substring</span>_[,_<span style="color:red;">overlapping</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
-* _<span style="color:red;">string</span>_ la stringa in cui cercare
-* _<span style="color:red;">substring</span>_ la sottostringa da contare
+* _<span style="color:red;">string</span>_ la stringa di input in cui effettuare la ricerca
+* _<span style="color:red;">substring</span>_ la sottostringa da cercare
+* _<span style="color:red;">overlapping</span>_ parametro opzionale per controllare se contare le occorrenze sovrapposte. Il valore predefinito è `FALSE` (conteggio non sovrapposto). Impostare su `TRUE` per contare le occorrenze sovrapposte.
 
 Esempi:
 
 ```
-substr_count('HELLO WORLD','L') → 3
-substr_count('QGIS QGIS QGIS','QGIS') → 3
+substr_count('banana', 'an') → 2  -- occorrenze non sovrapposte di 'an' in 'banana'
+substr_count('Funniness', 'n') → 3  -- occorrenze non sovrapposte di 'n' in 'Funniness'
+substr_count('aaaaa', 'aa') → 2  -- occorrenze non sovrapposte di 'aa' in 'aaaaa'
+substr_count('aaaaa', 'aa', true) → 4  -- occorrenze sovrapposte di 'aa' in 'aaaaa'
+substr_count('BANANA', 'an') → 0  -- sensibile alle maiuscole/minuscole, nessuna corrispondenza
 ```
 
 [![](../../img/stringhe_di_testo/substr_count/substr_count1.png)](../../img/stringhe_di_testo/substr_count/substr_count1.png)
