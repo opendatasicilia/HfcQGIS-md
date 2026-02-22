@@ -13,30 +13,32 @@
         <meta name="author" content="by OpenDataSicilia.it">
       
       
-        <link rel="canonical" href="https://hfcqgis.opendatasicilia.it/release/novita_346/">
+        <link rel="canonical" href="https://hfcqgis.opendatasicilia.it/blog/2026/02/21/qgis-40-nuove-funzioni-nel-field-calc/">
       
+      
+        <link rel="prev" href="../../../../2025/12/30/perch%C3%A9-in-qgis-manca-la-funzione-fattoriale/">
       
       
       
         
       
       
-        <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
+        <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="../../../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../img/favicon.ico">
+      <link rel="icon" href="../../../../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
     
     
       
-        <title>Novità rilevanti introdotte in QGIS 3.46 - non ci sarà mai, sarà 4 - Help field calculator</title>
+        <title>QGIS 4.0: nuove funzioni nel Field Calc - Help field calculator</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -67,9 +69,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/gbextra.css">
+      <link rel="stylesheet" href="../../../../../stylesheets/gbextra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -96,10 +98,12 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="https://hfcqgis.opendatasicilia.it/"/>
   <meta name="twitter:creator" content="Giovan Battista Vitrano" />
-  <meta name="twitter:title" content="Help field calculator - Novità rilevanti introdotte in QGIS 3.46 - non ci sarà mai, sarà 4" />
+  <meta name="twitter:title" content="Help field calculator - QGIS 4.0: nuove funzioni nel Field Calc" />
   <meta name="twitter:description" content="Help funzioni calcolatore di campi di QGIS" />	  
   <!-- facebook single page -->
   
+ <meta property="og:image" content="https://hfcqgis.opendatasicilia.it/img/card_social/hfc_blog.png" />
+ 
 <!-- Social card full  site facebook-->	 
   
     
@@ -107,14 +111,16 @@
 	 
 <!-- facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Help field calculator - Novità rilevanti introdotte in QGIS 3.46 - non ci sarà mai, sarà 4" />
+  <meta property="og:title" content="Help field calculator - QGIS 4.0: nuove funzioni nel Field Calc" />
   <meta property="og:description" content="Help funzioni calcolatore di campi di QGIS" />
-  <meta property="og:url" content="https://hfcqgis.opendatasicilia.it/release/novita_346/" />
+  <meta property="og:url" content="https://hfcqgis.opendatasicilia.it/blog/2026/02/21/qgis-40-nuove-funzioni-nel-field-calc/" />
   <meta property="og:image" content="https://hfcqgis.opendatasicilia.it/img/hfc_socialcard.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />	  
 <!-- Twetter single page -->
+
+  <meta property="twitter:image" content="https://hfcqgis.opendatasicilia.it/img/card_social/hfc_blog.png" />
 
   
 
@@ -146,7 +152,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#novita-rilevanti-introdotte-in-qgis-346-non-ci-sara-mai-sara-4" class="md-skip">
+        <a href="#qgis-40-nuove-funzioni-nel-field-calc" class="md-skip">
           Vai al contenuto
         </a>
       
@@ -171,9 +177,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Intestazione">
-    <a href="../.." title="Help field calculator" class="md-header__button md-logo" aria-label="Help field calculator" data-md-component="logo">
+    <a href="../../../../.." title="Help field calculator" class="md-header__button md-logo" aria-label="Help field calculator" data-md-component="logo">
       
-  <img src="../../img/logo_hfc_white.png" alt="logo">
+  <img src="../../../../../img/logo_hfc_white.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -190,7 +196,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Novità rilevanti introdotte in QGIS 3.46 - non ci sarà mai, sarà 4
+              QGIS 4.0: nuove funzioni nel Field Calc
             
           </span>
         </div>
@@ -282,7 +288,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../../../.." class="md-tabs__link">
         
   
   
@@ -303,7 +309,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../calcolatore_campi/field_calc/" class="md-tabs__link">
+        <a href="../../../../../calcolatore_campi/field_calc/" class="md-tabs__link">
           
   
   
@@ -323,7 +329,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../tabella_attributi/tabella_attributi/" class="md-tabs__link">
+        <a href="../../../../../tabella_attributi/tabella_attributi/" class="md-tabs__link">
           
   
   
@@ -350,7 +356,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../intro_novita/" class="md-tabs__link">
+        <a href="../../../../../release/intro_novita/" class="md-tabs__link">
           
   
   
@@ -373,7 +379,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../gr_funzioni/gruppo_funzioni/" class="md-tabs__link">
+        <a href="../../../../../gr_funzioni/gruppo_funzioni/" class="md-tabs__link">
           
   
   
@@ -400,7 +406,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../esempi/lista_esempi/" class="md-tabs__link">
+        <a href="../../../../../esempi/lista_esempi/" class="md-tabs__link">
           
   
   
@@ -423,7 +429,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../corso_formazione/corso_di_formazione/" class="md-tabs__link">
+        <a href="../../../../../corso_formazione/corso_di_formazione/" class="md-tabs__link">
           
   
   
@@ -443,7 +449,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../supporter/" class="md-tabs__link">
+        <a href="../../../../../supporter/" class="md-tabs__link">
           
   
   
@@ -459,11 +465,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../blog/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../" class="md-tabs__link">
           
   
   
@@ -483,7 +491,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../ods/" class="md-tabs__link">
+        <a href="../../../../../ods/" class="md-tabs__link">
           
   
   
@@ -506,7 +514,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -517,9 +527,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Help field calculator" class="md-nav__button md-logo" aria-label="Help field calculator" data-md-component="logo">
+    <a href="../../../../.." title="Help field calculator" class="md-nav__button md-logo" aria-label="Help field calculator" data-md-component="logo">
       
-  <img src="../../img/logo_hfc_white.png" alt="logo">
+  <img src="../../../../../img/logo_hfc_white.png" alt="logo">
 
     </a>
     Help field calculator
@@ -546,7 +556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -623,7 +633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/field_calc/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/field_calc/" class="md-nav__link">
         
   
   
@@ -651,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/concetti/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/concetti/" class="md-nav__link">
         
   
   
@@ -679,7 +689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/interfaccia/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/interfaccia/" class="md-nav__link">
         
   
   
@@ -707,7 +717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/gruppo_espressioni_utente/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/gruppo_espressioni_utente/" class="md-nav__link">
         
   
   
@@ -735,7 +745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/operatori/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/operatori/" class="md-nav__link">
         
   
   
@@ -763,7 +773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/editor_delle_funzioni/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/editor_delle_funzioni/" class="md-nav__link">
         
   
   
@@ -791,7 +801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../calcolatore_campi/field_calc_processing/" class="md-nav__link">
+      <a href="../../../../../calcolatore_campi/field_calc_processing/" class="md-nav__link">
         
   
   
@@ -876,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tabella_attributi/tabella_attributi/" class="md-nav__link">
+      <a href="../../../../../tabella_attributi/tabella_attributi/" class="md-nav__link">
         
   
   
@@ -1011,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../intro_novita/" class="md-nav__link">
+      <a href="../../../../../release/intro_novita/" class="md-nav__link">
         
   
   
@@ -1039,7 +1049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_400/" class="md-nav__link">
+      <a href="../../../../../release/novita_400/" class="md-nav__link">
         
   
   
@@ -1067,7 +1077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_344/" class="md-nav__link">
+      <a href="../../../../../release/novita_344/" class="md-nav__link">
         
   
   
@@ -1095,7 +1105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_342/" class="md-nav__link">
+      <a href="../../../../../release/novita_342/" class="md-nav__link">
         
   
   
@@ -1123,7 +1133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_340/" class="md-nav__link">
+      <a href="../../../../../release/novita_340/" class="md-nav__link">
         
   
   
@@ -1151,7 +1161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_338/" class="md-nav__link">
+      <a href="../../../../../release/novita_338/" class="md-nav__link">
         
   
   
@@ -1179,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_336/" class="md-nav__link">
+      <a href="../../../../../release/novita_336/" class="md-nav__link">
         
   
   
@@ -1207,7 +1217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_334/" class="md-nav__link">
+      <a href="../../../../../release/novita_334/" class="md-nav__link">
         
   
   
@@ -1235,7 +1245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_332/" class="md-nav__link">
+      <a href="../../../../../release/novita_332/" class="md-nav__link">
         
   
   
@@ -1263,7 +1273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_330/" class="md-nav__link">
+      <a href="../../../../../release/novita_330/" class="md-nav__link">
         
   
   
@@ -1291,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_328/" class="md-nav__link">
+      <a href="../../../../../release/novita_328/" class="md-nav__link">
         
   
   
@@ -1319,7 +1329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_326/" class="md-nav__link">
+      <a href="../../../../../release/novita_326/" class="md-nav__link">
         
   
   
@@ -1347,7 +1357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_324/" class="md-nav__link">
+      <a href="../../../../../release/novita_324/" class="md-nav__link">
         
   
   
@@ -1375,7 +1385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_322/" class="md-nav__link">
+      <a href="../../../../../release/novita_322/" class="md-nav__link">
         
   
   
@@ -1403,7 +1413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_320/" class="md-nav__link">
+      <a href="../../../../../release/novita_320/" class="md-nav__link">
         
   
   
@@ -1431,7 +1441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_318/" class="md-nav__link">
+      <a href="../../../../../release/novita_318/" class="md-nav__link">
         
   
   
@@ -1459,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_316/" class="md-nav__link">
+      <a href="../../../../../release/novita_316/" class="md-nav__link">
         
   
   
@@ -1487,7 +1497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_314/" class="md-nav__link">
+      <a href="../../../../../release/novita_314/" class="md-nav__link">
         
   
   
@@ -1515,7 +1525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_312/" class="md-nav__link">
+      <a href="../../../../../release/novita_312/" class="md-nav__link">
         
   
   
@@ -1543,7 +1553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_310/" class="md-nav__link">
+      <a href="../../../../../release/novita_310/" class="md-nav__link">
         
   
   
@@ -1571,7 +1581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_38/" class="md-nav__link">
+      <a href="../../../../../release/novita_38/" class="md-nav__link">
         
   
   
@@ -1599,7 +1609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_36/" class="md-nav__link">
+      <a href="../../../../../release/novita_36/" class="md-nav__link">
         
   
   
@@ -1627,7 +1637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_34/" class="md-nav__link">
+      <a href="../../../../../release/novita_34/" class="md-nav__link">
         
   
   
@@ -1655,7 +1665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_32/" class="md-nav__link">
+      <a href="../../../../../release/novita_32/" class="md-nav__link">
         
   
   
@@ -1683,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../novita_30/" class="md-nav__link">
+      <a href="../../../../../release/novita_30/" class="md-nav__link">
         
   
   
@@ -1776,7 +1786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/gruppo_funzioni/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/gruppo_funzioni/" class="md-nav__link">
         
   
   
@@ -1804,7 +1814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/aggrega/aggrega_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/aggrega/aggrega_unico/" class="md-nav__link">
         
   
   
@@ -1832,7 +1842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/array/array_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/array/array_unico/" class="md-nav__link">
         
   
   
@@ -1860,7 +1870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/campi_e_valori/campi_e_valori_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/campi_e_valori/campi_e_valori_unico/" class="md-nav__link">
         
   
   
@@ -1888,7 +1898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/colore/colore_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/colore/colore_unico/" class="md-nav__link">
         
   
   
@@ -1916,7 +1926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/condizioni/condizioni_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/condizioni/condizioni_unico/" class="md-nav__link">
         
   
   
@@ -1944,7 +1954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/conversioni/conversioni_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/conversioni/conversioni_unico/" class="md-nav__link">
         
   
   
@@ -1972,7 +1982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/corrispondenza_fuzzy/corrispondenza_fuzzy_unico/" class="md-nav__link">
         
   
   
@@ -2000,7 +2010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/custom/custom_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/custom/custom_unico/" class="md-nav__link">
         
   
   
@@ -2028,7 +2038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/data_ora/data_ora_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/data_ora/data_ora_unico/" class="md-nav__link">
         
   
   
@@ -2056,7 +2066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/espressione_utente/espressione_utente_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/espressione_utente/espressione_utente_unico/" class="md-nav__link">
         
   
   
@@ -2084,7 +2094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/file_e_percorsi/file_e_percorsi_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/file_e_percorsi/file_e_percorsi_unico/" class="md-nav__link">
         
   
   
@@ -2112,7 +2122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/generale/generale_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/generale/generale_unico/" class="md-nav__link">
         
   
   
@@ -2140,7 +2150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/geometria/geometria_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/geometria/geometria_unico/" class="md-nav__link">
         
   
   
@@ -2168,7 +2178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/layer_mappa/layer_mappa_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/layer_mappa/layer_mappa_unico/" class="md-nav__link">
         
   
   
@@ -2196,7 +2206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/layout/layout_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/layout/layout_unico/" class="md-nav__link">
         
   
   
@@ -2224,7 +2234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/magnetico/magnetico_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/magnetico/magnetico_unico/" class="md-nav__link">
         
   
   
@@ -2252,7 +2262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/maps/maps_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/maps/maps_unico/" class="md-nav__link">
         
   
   
@@ -2280,7 +2290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/matematica/matematica_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/matematica/matematica_unico/" class="md-nav__link">
         
   
   
@@ -2308,7 +2318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/operatori/operatori_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/operatori/operatori_unico/" class="md-nav__link">
         
   
   
@@ -2336,7 +2346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/raster/raster_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/raster/raster_unico/" class="md-nav__link">
         
   
   
@@ -2364,7 +2374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/recente/recente/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/recente/recente/" class="md-nav__link">
         
   
   
@@ -2392,7 +2402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/record_e_attributi/record_e_attributi_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/record_e_attributi/record_e_attributi_unico/" class="md-nav__link">
         
   
   
@@ -2420,7 +2430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/relazioni/relazioni/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/relazioni/relazioni/" class="md-nav__link">
         
   
   
@@ -2448,7 +2458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/" class="md-nav__link">
         
   
   
@@ -2476,7 +2486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/variabili/variabili/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/variabili/variabili/" class="md-nav__link">
         
   
   
@@ -2611,7 +2621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/lista_esempi/" class="md-nav__link">
+      <a href="../../../../../esempi/lista_esempi/" class="md-nav__link">
         
   
   
@@ -2639,7 +2649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/add_col_area/" class="md-nav__link">
+      <a href="../../../../../esempi/add_col_area/" class="md-nav__link">
         
   
   
@@ -2667,7 +2677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/add_coord_xy/" class="md-nav__link">
+      <a href="../../../../../esempi/add_coord_xy/" class="md-nav__link">
         
   
   
@@ -2695,7 +2705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/add_campo_virtuale/" class="md-nav__link">
+      <a href="../../../../../esempi/add_campo_virtuale/" class="md-nav__link">
         
   
   
@@ -2723,7 +2733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/add_col_z/" class="md-nav__link">
+      <a href="../../../../../esempi/add_col_z/" class="md-nav__link">
         
   
   
@@ -2751,7 +2761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/etichette/" class="md-nav__link">
+      <a href="../../../../../esempi/etichette/" class="md-nav__link">
         
   
   
@@ -2779,7 +2789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/agg_geom/" class="md-nav__link">
+      <a href="../../../../../esempi/agg_geom/" class="md-nav__link">
         
   
   
@@ -2807,7 +2817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/conversione/" class="md-nav__link">
+      <a href="../../../../../esempi/conversione/" class="md-nav__link">
         
   
   
@@ -2835,7 +2845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/tematizzare/" class="md-nav__link">
+      <a href="../../../../../esempi/tematizzare/" class="md-nav__link">
         
   
   
@@ -2863,7 +2873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/espressione_regolare/" class="md-nav__link">
+      <a href="../../../../../esempi/espressione_regolare/" class="md-nav__link">
         
   
   
@@ -2891,7 +2901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/select_with_aggregate/" class="md-nav__link">
+      <a href="../../../../../esempi/select_with_aggregate/" class="md-nav__link">
         
   
   
@@ -2919,7 +2929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/core_area/" class="md-nav__link">
+      <a href="../../../../../esempi/core_area/" class="md-nav__link">
         
   
   
@@ -2947,7 +2957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/sposta_etichetta_linea/" class="md-nav__link">
+      <a href="../../../../../esempi/sposta_etichetta_linea/" class="md-nav__link">
         
   
   
@@ -2975,7 +2985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/conteggio/" class="md-nav__link">
+      <a href="../../../../../esempi/conteggio/" class="md-nav__link">
         
   
   
@@ -3003,7 +3013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/centroid_linee/" class="md-nav__link">
+      <a href="../../../../../esempi/centroid_linee/" class="md-nav__link">
         
   
   
@@ -3031,7 +3041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/conta_punti_in_poligono/" class="md-nav__link">
+      <a href="../../../../../esempi/conta_punti_in_poligono/" class="md-nav__link">
         
   
   
@@ -3059,7 +3069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/somma_lunghezze_nel_poligono/" class="md-nav__link">
+      <a href="../../../../../esempi/somma_lunghezze_nel_poligono/" class="md-nav__link">
         
   
   
@@ -3087,7 +3097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/punti_in_poligoni_categorie/" class="md-nav__link">
+      <a href="../../../../../esempi/punti_in_poligoni_categorie/" class="md-nav__link">
         
   
   
@@ -3115,7 +3125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/nascondi_etichette/" class="md-nav__link">
+      <a href="../../../../../esempi/nascondi_etichette/" class="md-nav__link">
         
   
   
@@ -3143,7 +3153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/calcolo_area_poligoni_reticolo/" class="md-nav__link">
+      <a href="../../../../../esempi/calcolo_area_poligoni_reticolo/" class="md-nav__link">
         
   
   
@@ -3171,7 +3181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/spatial_join/" class="md-nav__link">
+      <a href="../../../../../esempi/spatial_join/" class="md-nav__link">
         
   
   
@@ -3199,7 +3209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/unica_etichetta_pi%C3%B9_poligoni/" class="md-nav__link">
+      <a href="../../../../../esempi/unica_etichetta_pi%C3%B9_poligoni/" class="md-nav__link">
         
   
   
@@ -3227,7 +3237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/elenco_comuni_attraversati_fiume/" class="md-nav__link">
+      <a href="../../../../../esempi/elenco_comuni_attraversati_fiume/" class="md-nav__link">
         
   
   
@@ -3255,7 +3265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/rotazione_pattern/" class="md-nav__link">
+      <a href="../../../../../esempi/rotazione_pattern/" class="md-nav__link">
         
   
   
@@ -3283,7 +3293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/numerazione_poligoni_rel_spaziale/" class="md-nav__link">
+      <a href="../../../../../esempi/numerazione_poligoni_rel_spaziale/" class="md-nav__link">
         
   
   
@@ -3311,7 +3321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/assegnare_cat_prevalente/" class="md-nav__link">
+      <a href="../../../../../esempi/assegnare_cat_prevalente/" class="md-nav__link">
         
   
   
@@ -3339,7 +3349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/hub_lines/" class="md-nav__link">
+      <a href="../../../../../esempi/hub_lines/" class="md-nav__link">
         
   
   
@@ -3367,7 +3377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/aggregare_con_sr_differenti/" class="md-nav__link">
+      <a href="../../../../../esempi/aggregare_con_sr_differenti/" class="md-nav__link">
         
   
   
@@ -3395,7 +3405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/distanze_progressive_chilometriche/" class="md-nav__link">
+      <a href="../../../../../esempi/distanze_progressive_chilometriche/" class="md-nav__link">
         
   
   
@@ -3423,7 +3433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/aggregare_elementi_contigui/" class="md-nav__link">
+      <a href="../../../../../esempi/aggregare_elementi_contigui/" class="md-nav__link">
         
   
   
@@ -3451,7 +3461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/linea_min_distanza/" class="md-nav__link">
+      <a href="../../../../../esempi/linea_min_distanza/" class="md-nav__link">
         
   
   
@@ -3479,7 +3489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/add_campo_sum_cumulativo/" class="md-nav__link">
+      <a href="../../../../../esempi/add_campo_sum_cumulativo/" class="md-nav__link">
         
   
   
@@ -3507,7 +3517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/aggiungere_punto_a_linea/" class="md-nav__link">
+      <a href="../../../../../esempi/aggiungere_punto_a_linea/" class="md-nav__link">
         
   
   
@@ -3535,7 +3545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/drilldown_form_multiple/" class="md-nav__link">
+      <a href="../../../../../esempi/drilldown_form_multiple/" class="md-nav__link">
         
   
   
@@ -3563,7 +3573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezionare_primi_n_valori/" class="md-nav__link">
+      <a href="../../../../../esempi/selezionare_primi_n_valori/" class="md-nav__link">
         
   
   
@@ -3591,7 +3601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/generalizzare_linee/" class="md-nav__link">
+      <a href="../../../../../esempi/generalizzare_linee/" class="md-nav__link">
         
   
   
@@ -3619,7 +3629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/campo_coord_in_lat_lon/" class="md-nav__link">
+      <a href="../../../../../esempi/campo_coord_in_lat_lon/" class="md-nav__link">
         
   
   
@@ -3647,7 +3657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/calcolo_incrementi_giornalieri/" class="md-nav__link">
+      <a href="../../../../../esempi/calcolo_incrementi_giornalieri/" class="md-nav__link">
         
   
   
@@ -3675,7 +3685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/tracciare_grafico_generatore_geometrie/" class="md-nav__link">
+      <a href="../../../../../esempi/tracciare_grafico_generatore_geometrie/" class="md-nav__link">
         
   
   
@@ -3703,7 +3713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/elenco_ordinato_comuni_attraversati/" class="md-nav__link">
+      <a href="../../../../../esempi/elenco_ordinato_comuni_attraversati/" class="md-nav__link">
         
   
   
@@ -3731,7 +3741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/etichettare_chiave_valore/" class="md-nav__link">
+      <a href="../../../../../esempi/etichettare_chiave_valore/" class="md-nav__link">
         
   
   
@@ -3759,7 +3769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/etichettare_itinerario_elenco_comuni_attraversati/" class="md-nav__link">
+      <a href="../../../../../esempi/etichettare_itinerario_elenco_comuni_attraversati/" class="md-nav__link">
         
   
   
@@ -3787,7 +3797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/etichette_formattate_diversi_stili/" class="md-nav__link">
+      <a href="../../../../../esempi/etichette_formattate_diversi_stili/" class="md-nav__link">
         
   
   
@@ -3815,7 +3825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/select_duplicate_vertices/" class="md-nav__link">
+      <a href="../../../../../esempi/select_duplicate_vertices/" class="md-nav__link">
         
   
   
@@ -3843,7 +3853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/conteggio_caratteri_diversi/" class="md-nav__link">
+      <a href="../../../../../esempi/conteggio_caratteri_diversi/" class="md-nav__link">
         
   
   
@@ -3871,7 +3881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/linea_min_distanza2/" class="md-nav__link">
+      <a href="../../../../../esempi/linea_min_distanza2/" class="md-nav__link">
         
   
   
@@ -3899,7 +3909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/lunghezze_segmenti_poligono/" class="md-nav__link">
+      <a href="../../../../../esempi/lunghezze_segmenti_poligono/" class="md-nav__link">
         
   
   
@@ -3927,7 +3937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/fill-down/" class="md-nav__link">
+      <a href="../../../../../esempi/fill-down/" class="md-nav__link">
         
   
   
@@ -3955,7 +3965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/finestra_temporale/" class="md-nav__link">
+      <a href="../../../../../esempi/finestra_temporale/" class="md-nav__link">
         
   
   
@@ -3983,7 +3993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/rotazione_simbolo_parallelo_linea/" class="md-nav__link">
+      <a href="../../../../../esempi/rotazione_simbolo_parallelo_linea/" class="md-nav__link">
         
   
   
@@ -4011,7 +4021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/livello_acqua/" class="md-nav__link">
+      <a href="../../../../../esempi/livello_acqua/" class="md-nav__link">
         
   
   
@@ -4039,7 +4049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/layer_vicino/" class="md-nav__link">
+      <a href="../../../../../esempi/layer_vicino/" class="md-nav__link">
         
   
   
@@ -4067,7 +4077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/eliminare_testo_tra_parentesi/" class="md-nav__link">
+      <a href="../../../../../esempi/eliminare_testo_tra_parentesi/" class="md-nav__link">
         
   
   
@@ -4095,7 +4105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/segmento_minimo_facciata_strada/" class="md-nav__link">
+      <a href="../../../../../esempi/segmento_minimo_facciata_strada/" class="md-nav__link">
         
   
   
@@ -4123,7 +4133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezionare_punti_vicini_punto/" class="md-nav__link">
+      <a href="../../../../../esempi/selezionare_punti_vicini_punto/" class="md-nav__link">
         
   
   
@@ -4151,7 +4161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/maxValoreCampoNome/" class="md-nav__link">
+      <a href="../../../../../esempi/maxValoreCampoNome/" class="md-nav__link">
         
   
   
@@ -4179,7 +4189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/ricerca_caratteri_speciali/" class="md-nav__link">
+      <a href="../../../../../esempi/ricerca_caratteri_speciali/" class="md-nav__link">
         
   
   
@@ -4207,7 +4217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/confrontare_campi_tabella/" class="md-nav__link">
+      <a href="../../../../../esempi/confrontare_campi_tabella/" class="md-nav__link">
         
   
   
@@ -4235,7 +4245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/geometria_vicina_filtro_condizionato/" class="md-nav__link">
+      <a href="../../../../../esempi/geometria_vicina_filtro_condizionato/" class="md-nav__link">
         
   
   
@@ -4263,7 +4273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/atlas_righe_verticale/" class="md-nav__link">
+      <a href="../../../../../esempi/atlas_righe_verticale/" class="md-nav__link">
         
   
   
@@ -4291,7 +4301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/decimali_come_apice/" class="md-nav__link">
+      <a href="../../../../../esempi/decimali_come_apice/" class="md-nav__link">
         
   
   
@@ -4319,7 +4329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/media_stdev_tra_campi/" class="md-nav__link">
+      <a href="../../../../../esempi/media_stdev_tra_campi/" class="md-nav__link">
         
   
   
@@ -4347,7 +4357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/classificazione_specie/" class="md-nav__link">
+      <a href="../../../../../esempi/classificazione_specie/" class="md-nav__link">
         
   
   
@@ -4375,7 +4385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/classificazione_specie/" class="md-nav__link">
+      <a href="../../../../../esempi/classificazione_specie/" class="md-nav__link">
         
   
   
@@ -4403,7 +4413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/aggregare_valori_tabella/" class="md-nav__link">
+      <a href="../../../../../esempi/aggregare_valori_tabella/" class="md-nav__link">
         
   
   
@@ -4431,7 +4441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/etichettare_con_apici/" class="md-nav__link">
+      <a href="../../../../../esempi/etichettare_con_apici/" class="md-nav__link">
         
   
   
@@ -4459,7 +4469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/ID_univoco_gruppi_consecutivi/" class="md-nav__link">
+      <a href="../../../../../esempi/ID_univoco_gruppi_consecutivi/" class="md-nav__link">
         
   
   
@@ -4487,7 +4497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/eliminare_duplicati_condizione/" class="md-nav__link">
+      <a href="../../../../../esempi/eliminare_duplicati_condizione/" class="md-nav__link">
         
   
   
@@ -4515,7 +4525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezione_ultimo_record_per_data/" class="md-nav__link">
+      <a href="../../../../../esempi/selezione_ultimo_record_per_data/" class="md-nav__link">
         
   
   
@@ -4543,7 +4553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/trova_nella_tabella_attributi/" class="md-nav__link">
+      <a href="../../../../../esempi/trova_nella_tabella_attributi/" class="md-nav__link">
         
   
   
@@ -4571,7 +4581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/array_natural_sorting/" class="md-nav__link">
+      <a href="../../../../../esempi/array_natural_sorting/" class="md-nav__link">
         
   
   
@@ -4599,7 +4609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/conta_punti_nel_poligono_per_data/" class="md-nav__link">
+      <a href="../../../../../esempi/conta_punti_nel_poligono_per_data/" class="md-nav__link">
         
   
   
@@ -4627,7 +4637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/lavorare_con_le_ore/" class="md-nav__link">
+      <a href="../../../../../esempi/lavorare_con_le_ore/" class="md-nav__link">
         
   
   
@@ -4655,7 +4665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/sposta_punti_dentro_poligoni_per_attributo/" class="md-nav__link">
+      <a href="../../../../../esempi/sposta_punti_dentro_poligoni_per_attributo/" class="md-nav__link">
         
   
   
@@ -4683,7 +4693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezionare_primo_record_per_ogni_duplicato/" class="md-nav__link">
+      <a href="../../../../../esempi/selezionare_primo_record_per_ogni_duplicato/" class="md-nav__link">
         
   
   
@@ -4711,7 +4721,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/cronometro/" class="md-nav__link">
+      <a href="../../../../../esempi/cronometro/" class="md-nav__link">
         
   
   
@@ -4739,7 +4749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezionare_record_orfani_rel_padrefiglio/" class="md-nav__link">
+      <a href="../../../../../esempi/selezionare_record_orfani_rel_padrefiglio/" class="md-nav__link">
         
   
   
@@ -4767,7 +4777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/tema_unico_contorno/" class="md-nav__link">
+      <a href="../../../../../esempi/tema_unico_contorno/" class="md-nav__link">
         
   
   
@@ -4795,7 +4805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/prendi_attributo_da_elemento_sovrapposto/" class="md-nav__link">
+      <a href="../../../../../esempi/prendi_attributo_da_elemento_sovrapposto/" class="md-nav__link">
         
   
   
@@ -4823,7 +4833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/selezionare_poligoni_max_area_sovrapposta/" class="md-nav__link">
+      <a href="../../../../../esempi/selezionare_poligoni_max_area_sovrapposta/" class="md-nav__link">
         
   
   
@@ -4851,7 +4861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/tracciare_punti_adistanzaprefissata_lungo_linea/" class="md-nav__link">
+      <a href="../../../../../esempi/tracciare_punti_adistanzaprefissata_lungo_linea/" class="md-nav__link">
         
   
   
@@ -4879,7 +4889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/estrarre_numeri_iniziali/" class="md-nav__link">
+      <a href="../../../../../esempi/estrarre_numeri_iniziali/" class="md-nav__link">
         
   
   
@@ -4907,7 +4917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../esempi/spatial_join_condizionato/" class="md-nav__link">
+      <a href="../../../../../esempi/spatial_join_condizionato/" class="md-nav__link">
         
   
   
@@ -4943,7 +4953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mettiti_alla_prova/" class="md-nav__link">
+      <a href="../../../../../mettiti_alla_prova/" class="md-nav__link">
         
   
   
@@ -5028,7 +5038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corso_formazione/corso_di_formazione/" class="md-nav__link">
+      <a href="../../../../../corso_formazione/corso_di_formazione/" class="md-nav__link">
         
   
   
@@ -5056,7 +5066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corso_formazione/corso_di_formazione_avanzato/" class="md-nav__link">
+      <a href="../../../../../corso_formazione/corso_di_formazione_avanzato/" class="md-nav__link">
         
   
   
@@ -5141,7 +5151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../supporter/" class="md-nav__link">
+      <a href="../../../../../supporter/" class="md-nav__link">
         
   
   
@@ -5169,7 +5179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../parlano_di_noi/" class="md-nav__link">
+      <a href="../../../../../parlano_di_noi/" class="md-nav__link">
         
   
   
@@ -5247,7 +5257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/" class="md-nav__link">
+      <a href="../../../../../contributing/" class="md-nav__link">
         
   
   
@@ -5275,7 +5285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gr_funzioni/da_documentare/" class="md-nav__link">
+      <a href="../../../../../gr_funzioni/da_documentare/" class="md-nav__link">
         
   
   
@@ -5315,24 +5325,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   
@@ -5350,7 +5365,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -5365,12 +5380,14 @@
                 
   
   
+    
+  
   
     
   
   
-    <li class="md-nav__item">
-      <a href="../../blog/" class="md-nav__link">
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../../../../" class="md-nav__link">
         
   
   
@@ -5450,7 +5467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/archive/2026/" class="md-nav__link">
+      <a href="../../../../archive/2026/" class="md-nav__link">
         
   
   
@@ -5480,7 +5497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/archive/2025/" class="md-nav__link">
+      <a href="../../../../archive/2025/" class="md-nav__link">
         
   
   
@@ -5510,7 +5527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/archive/2024/" class="md-nav__link">
+      <a href="../../../../archive/2024/" class="md-nav__link">
         
   
   
@@ -5540,7 +5557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/archive/2023/" class="md-nav__link">
+      <a href="../../../../archive/2023/" class="md-nav__link">
         
   
   
@@ -5628,7 +5645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/news/" class="md-nav__link">
+      <a href="../../../../category/news/" class="md-nav__link">
         
   
   
@@ -5658,7 +5675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/array/" class="md-nav__link">
+      <a href="../../../../category/array/" class="md-nav__link">
         
   
   
@@ -5688,7 +5705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/custom/" class="md-nav__link">
+      <a href="../../../../category/custom/" class="md-nav__link">
         
   
   
@@ -5718,7 +5735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/espressioni/" class="md-nav__link">
+      <a href="../../../../category/espressioni/" class="md-nav__link">
         
   
   
@@ -5748,7 +5765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/help/" class="md-nav__link">
+      <a href="../../../../category/help/" class="md-nav__link">
         
   
   
@@ -5778,7 +5795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/matematica/" class="md-nav__link">
+      <a href="../../../../category/matematica/" class="md-nav__link">
         
   
   
@@ -5808,7 +5825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/misure/" class="md-nav__link">
+      <a href="../../../../category/misure/" class="md-nav__link">
         
   
   
@@ -5838,7 +5855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/novita/" class="md-nav__link">
+      <a href="../../../../category/novita/" class="md-nav__link">
         
   
   
@@ -5868,7 +5885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/progetto/" class="md-nav__link">
+      <a href="../../../../category/progetto/" class="md-nav__link">
         
   
   
@@ -5898,7 +5915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/qgis-4-0/" class="md-nav__link">
+      <a href="../../../../category/qgis-4-0/" class="md-nav__link">
         
   
   
@@ -5928,7 +5945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/variabili/" class="md-nav__link">
+      <a href="../../../../category/variabili/" class="md-nav__link">
         
   
   
@@ -5958,7 +5975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/category/whitebox/" class="md-nav__link">
+      <a href="../../../../category/whitebox/" class="md-nav__link">
         
   
   
@@ -6051,7 +6068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ods/" class="md-nav__link">
+      <a href="../../../../../ods/" class="md-nav__link">
         
   
   
@@ -6079,7 +6096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../autore/" class="md-nav__link">
+      <a href="../../../../../autore/" class="md-nav__link">
         
   
   
@@ -6107,7 +6124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../webmaster/gbvitrano/" class="md-nav__link">
+      <a href="../../../../../webmaster/gbvitrano/" class="md-nav__link">
         
   
   
@@ -6135,7 +6152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../traduzione/" class="md-nav__link">
+      <a href="../../../../../traduzione/" class="md-nav__link">
         
   
   
@@ -6163,7 +6180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../../../release/" class="md-nav__link">
         
   
   
@@ -6191,7 +6208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../../../../changelog/" class="md-nav__link">
         
   
   
@@ -6219,7 +6236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pull-request/" class="md-nav__link">
+      <a href="../../../../../pull-request/" class="md-nav__link">
         
   
   
@@ -6247,7 +6264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gis-stackexchange/" class="md-nav__link">
+      <a href="../../../../../gis-stackexchange/" class="md-nav__link">
         
   
   
@@ -6275,7 +6292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sitografia_field_calc/" class="md-nav__link">
+      <a href="../../../../../sitografia_field_calc/" class="md-nav__link">
         
   
   
@@ -6303,7 +6320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../risorse/" class="md-nav__link">
+      <a href="../../../../../risorse/" class="md-nav__link">
         
   
   
@@ -6331,7 +6348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../disclaimer/" class="md-nav__link">
+      <a href="../../../../../disclaimer/" class="md-nav__link">
         
   
   
@@ -6359,7 +6376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../LICENSE_my/" class="md-nav__link">
+      <a href="../../../../../LICENSE_my/" class="md-nav__link">
         
   
   
@@ -6395,6 +6412,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -6414,10 +6433,148 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#espressioni" class="md-nav__link">
+  <a href="#introduzione" class="md-nav__link">
     <span class="md-ellipsis">
       
-        espressioni
+        Introduzione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predicato-equals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Predicato equals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funzioni-per-modelli-magnetici" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funzioni per modelli magnetici
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        extract_*
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unaccent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        unaccent
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#substr_count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        substr_count
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funzioni-per-i-fusi-orari" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funzioni per i fusi orari
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-attributi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella attributi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tabella attributi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#doppio-clic-per-zoom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Doppio clic per zoom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copia-valori-raw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copia valori raw
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-utile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Link utile
       
     </span>
   </a>
@@ -6433,32 +6590,194 @@
             
           
           
-            <div class="md-content" data-md-component="content">
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Torna all'indice
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://github.com/pigreco.png" alt="Totò Fiandaca">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>Totò Fiandaca</strong><br>
+                      Autore
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__title">
+                <div class="md-nav__link">
+                  <span class="md-ellipsis">
+                    Metadati
+                  </span>
+                </div>
+              </li>
+              <li class="md-nav__item">
+                <div class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                  <time datetime="2026-02-21 00:00:00+00:00" class="md-ellipsis">21 febbraio 2026</time>
+                </div>
+              </li>
               
-              <article class="md-content__inner md-typeset">
+              
+                <li class="md-nav__item">
+                  <div class="md-nav__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                    <span class="md-ellipsis">
+                      in
+                      
+                        <a href="../../../../category/espressioni/">espressioni</a>, 
+                        <a href="../../../../category/novita/">novita</a>, 
+                        <a href="../../../../category/qgis-4-0/">qgis-4-0</a></span>
+                  </div>
+                </li>
+              
+              
                 
-<!-- pulsante stampa 	-->
+                <li class="md-nav__item">
+                  <div class="md-nav__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                    <span class="md-ellipsis">
+                      
+                        3 minuti di lettura
+                      
+                    </span>
+                  </div>
+                </li>
+              
+            </ul>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
 
 
-                  
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../../../../../tags/#tag:qgis" class="md-tag">QGIS</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../../../../tags/#tag:blog" class="md-tag">blog</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../../../../tags/#tag:espressioni" class="md-tag">espressioni</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../../../../tags/#tag:funzioni" class="md-tag">funzioni</a>
+      
+    
+  </nav>
 
 
   
   
 
 
-<h1 id="novita-rilevanti-introdotte-in-qgis-346-non-ci-sara-mai-sara-4">Novità rilevanti introdotte in QGIS 3.46 - non ci sarà mai, sarà 4<a class="headerlink" href="#novita-rilevanti-introdotte-in-qgis-346-non-ci-sara-mai-sara-4" title="Permanent link">↵</a></h1>
-<h2 id="espressioni">espressioni<a class="headerlink" href="#espressioni" title="Permanent link">↵</a></h2>
+<h1 id="qgis-40-nuove-funzioni-nel-field-calc">QGIS 4.0: nuove funzioni nel Field Calc<a class="headerlink" href="#qgis-40-nuove-funzioni-nel-field-calc" title="Permanent link">↵</a></h1>
+<h2 id="introduzione">Introduzione<a class="headerlink" href="#introduzione" title="Permanent link">↵</a></h2>
+<p>Con QGIS 4.0 il <strong>Field Calc</strong> si arricchisce di nuove funzioni utili sia per la gestione di geometrie sia per la manipolazione di stringhe e tempi. Migliora inoltre la <strong>tabella attributi</strong>, con il doppio clic per lo zoom rapido sulle feature e la possibilità di copiare i valori originali (raw) degli attributi. In questo post vediamo le novità una per una, con un esempio rapido per capire subito quando usarle.</p>
+<div class="admonition abstract">
+<p class="admonition-title">In breve</p>
+<p><strong>15 nuove funzioni</strong>: nuovo predicato <code>equals</code>, 4 per i modelli magnetici, 3 per gradi/minuti/secondi, <code>unaccent</code>, <code>substr_count</code> e 5 funzioni legate ai fusi orari. <strong>Tabella attributi</strong>: doppio clic per zoom e copia valori raw.</p>
+</div>
+<!-- more -->
+
+<h2 id="predicato-equals">Predicato equals<a class="headerlink" href="#predicato-equals" title="Permanent link">↵</a></h2>
+<p>Verifica l'uguaglianza tra due geometrie (coerente con <code>overlay_equals</code>). Utile quando serve un confronto rigoroso tra geometrie, ad esempio per controlli di qualità o deduplicazioni avanzate.</p>
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>equals($geometry1, geometry2)
+</code></pre></div></p>
+<h2 id="funzioni-per-modelli-magnetici">Funzioni per modelli magnetici<a class="headerlink" href="#funzioni-per-modelli-magnetici" title="Permanent link">↵</a></h2>
+<p>Queste espressioni aiutano a calcolare la declinazione e l'inclinazione magnetica, e le rispettive variazioni annue. Sono ideali per layout cartografici o metadati che richiedono informazioni magnetiche aggiornate.</p>
 <ul>
-<li>add funzioni: <a href="https://github.com/qgis/QGIS/pull/62645">https://github.com/qgis/QGIS/pull/62645</a></li>
-<li>add menu field calc intestazioni attributo: <a href="https://github.com/qgis/QGIS/pull/63287">https://github.com/qgis/QGIS/pull/63287</a></li>
-<li>contesto field calc: <a href="https://github.com/qgis/QGIS/pull/63372">https://github.com/qgis/QGIS/pull/63372</a></li>
-<li>espressioni: <a href="https://github.com/qgis/QGIS/pull/64154">https://github.com/qgis/QGIS/pull/64154</a></li>
-<li>espresioni: <a href="https://github.com/qgis/QGIS/pull/64466">https://github.com/qgis/QGIS/pull/64466</a></li>
-<li>espressione: <a href="https://github.com/qgis/QGIS/pull/64627">https://github.com/qgis/QGIS/pull/64627</a></li>
+<li><code>magnetic_declination</code></li>
+<li><code>magnetic_inclination</code></li>
+<li><code>magnetic_declination_rate_of_change</code></li>
+<li><code>magnetic_inclination_rate_of_change</code></li>
 </ul>
-
-
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination(&#39;wmm2025&#39;, make_datetime(2026,7,1,12,0,0), -35, 138, 0) → 7.873899
+</code></pre></div></p>
+<p><a href="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png"><img alt="" src="../../../../nuove_funzioni_expressioni_qgis_4_0/magnetic_models.png" /></a></p>
+<h2 id="extract_">extract_*<a class="headerlink" href="#extract_" title="Permanent link">↵</a></h2>
+<p><code>extract_degrees</code>, <code>extract_minutes</code>, <code>extract_seconds</code></p>
+<p>Tre funzioni per scomporre un valore in gradi decimali e formattare le annotazioni di griglia in modo fine. Perfette per layout con formati personalizzati.</p>
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>extract_minutes(145.75) --&gt; 45
+</code></pre></div></p>
+<h2 id="unaccent">unaccent<a class="headerlink" href="#unaccent" title="Permanent link">↵</a></h2>
+<p>Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL <code>unaccent</code>). Utile per normalizzare testi e confrontare valori in modo robusto.</p>
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>unaccent(&quot;città&quot;) --&gt; citta
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>unaccent(&quot;Cefalù&quot;) --&gt; Cefalu
+</code></pre></div></p>
+<h2 id="substr_count">substr_count<a class="headerlink" href="#substr_count" title="Permanent link">↵</a></h2>
+<p>Conta quante volte una sottostringa compare in una stringa. Ottimo per controlli rapidi, pulizia testi o piccoli calcoli su stringhe.</p>
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) --&gt; 3
+</code></pre></div></p>
+<h2 id="funzioni-per-i-fusi-orari">Funzioni per i fusi orari<a class="headerlink" href="#funzioni-per-i-fusi-orari" title="Permanent link">↵</a></h2>
+<p>Nuove funzioni per creare e gestire timezone basate sugli ID IANA. Sono preziose quando si lavora con dati temporali multi-fuso o si vogliono normalizzare date e orari.</p>
+<ul>
+<li><code>timezone_from_id</code></li>
+<li><code>timezone_id</code></li>
+<li><code>get_timezone</code></li>
+<li><code>convert_timezone</code></li>
+<li><code>set_timezone</code></li>
+</ul>
+<p>Esempio:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;)) --&gt; &lt;datetime: 2026-02-21 21:14:56 (ora solare Europa occidentale)&gt;
+</code></pre></div></p>
+<h2 id="tabella-attributi">Tabella attributi<a class="headerlink" href="#tabella-attributi" title="Permanent link">↵</a></h2>
+<h3 id="doppio-clic-per-zoom">Doppio clic per zoom<a class="headerlink" href="#doppio-clic-per-zoom" title="Permanent link">↵</a></h3>
+<p>Doppio clic su un elemento nella tabella attributi seleziona la feature e fa zoom ad essa.</p>
+<p><a href="./attribute_table_zoom.gif"><img alt="" src="./attribute_table_zoom.gif" /></a></p>
+<h3 id="copia-valori-raw">Copia valori raw<a class="headerlink" href="#copia-valori-raw" title="Permanent link">↵</a></h3>
+<p>Nuova opzione <strong>"Copy Raw Cell Content"</strong> nel menu contestuale per copiare i valori originali (non rappresentati) negli appunti. In precedenza venivano copiati solo i valori "rappresentati" (es. valori di chiavi esterne, formattazione locale).</p>
+<p><a href="./copy_raw_values.png"><img alt="" src="./copy_raw_values.png" /></a></p>
+<h2 id="conclusioni">Conclusioni<a class="headerlink" href="#conclusioni" title="Permanent link">↵</a></h2>
+<p>QGIS 4.0 porta miglioramenti concreti su più fronti: le nuove espressioni coprono geometrie, modelli magnetici, stringhe e fusi orari, mentre la tabella attributi diventa più rapida da usare grazie allo zoom con doppio clic e alla copia dei valori raw. Se vuoi un approfondimento con esempi sul campo, scrivimi o apri una discussione nella repo.</p>
+<h2 id="discussioni">Discussioni<a class="headerlink" href="#discussioni" title="Permanent link">↵</a></h2>
+<p>Per commenti o domande: <a href="https://github.com/opendatasicilia/HfcQGIS-md/discussions">https://github.com/opendatasicilia/HfcQGIS-md/discussions</a></p>
+<h2 id="link-utile">Link utile<a class="headerlink" href="#link-utile" title="Permanent link">↵</a></h2>
+<p><a href="https://changelog.qgis.org/en/version/4.0/">Changelog QGIS 4.0</a></p>
 
 
 
@@ -6467,23 +6786,28 @@
 
 
   
+  
 
 
 
+  
 
-                
- <!-- zoomn image  -->
- <link rel="stylesheet" href="https://hfcqgis.opendatasicilia.it/stylesheets/zoomimage/simple-lightbox.css?v2.8.0" />
+
+  
+
+
+
+		 <link rel="stylesheet" href="https://hfcqgis.opendatasicilia.it/stylesheets/zoomimage/simple-lightbox.css?v2.8.0" />
 <script src="https://hfcqgis.opendatasicilia.it/stylesheets/zoomimage/simple-lightbox.js?v2.8.0"></script>
 <script>
     (function() {
         var $gallery = new SimpleLightbox('p a', {});
     })();
 </script>
+      
+    </article>
+  </div>
 
-              </article>
-            </div>
-          
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -6524,6 +6848,38 @@
 <footer class="md-footer">
 
   <!-- Link to previous and/or next page -->
+  
+    <nav
+      class="md-footer__inner md-grid"
+      aria-label="footer.title"
+    >
+
+      <!-- Link to previous page -->
+      
+        
+        <a
+          href="../../../../2025/12/30/perch%C3%A9-in-qgis-manca-la-funzione-fattoriale/"
+          class="md-footer__link md-footer__link--prev"
+          aria-label="Precedente: Perché in QGIS manca la funzione Fattoriale"
+          rel="prev"
+        >
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              Perché in QGIS manca la funzione Fattoriale
+            </div>
+          </div>
+        </a>
+      
+
+      <!-- Link to next page -->
+      
+    </nav>
   
 
   <!-- Further information -->
@@ -6696,13 +7052,13 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../stylesheets/extra.js"></script>
+        <script src="../../../../../stylesheets/extra.js"></script>
       
     
 <!-- script bottom	-->

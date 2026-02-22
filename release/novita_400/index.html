@@ -1185,6 +1185,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tabella-attributi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella attributi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pr-chiuse-senza-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PR chiuse senza merge
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6619,6 +6641,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tabella-attributi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabella attributi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pr-chiuse-senza-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PR chiuse senza merge
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6649,8 +6693,9 @@
 <ul>
 <li>add funzione <a href="../../gr_funzioni/geometria/geometria_unico/#equals"><code>equals</code></a>: testa l'uguaglianza di due geometrie (analogo a <code>overlay_equals</code>)</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>equals($geometry, geometry(@parent))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>equals($geometry1, geometry2)
 </code></pre></div>
+<p><img alt="" src="../../img/novita_400/equals.png" /></p>
 <h3 id="gruppo-conversioni">Gruppo Conversioni<a class="headerlink" href="#gruppo-conversioni" title="Permanent link">↵</a></h3>
 <ul>
 <li>add funzioni <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_degrees"><code>extract_degrees</code></a>, <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_minutes"><code>extract_minutes</code></a>, <a href="../../gr_funzioni/conversioni/conversioni_unico/#extract_seconds"><code>extract_seconds</code></a>: scompongono un valore in gradi decimali nei singoli componenti DMS, utili per personalizzare le annotazioni di griglia nei layout di stampa</li>
@@ -6665,17 +6710,20 @@
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>magnetic_declination($x, $y, now())
 </code></pre></div>
+<p><img alt="" src="../../img/novita_400/magnetic_models.png" /></p>
 <h3 id="gruppo-stringhe-di-testo">Gruppo Stringhe di Testo<a class="headerlink" href="#gruppo-stringhe-di-testo" title="Permanent link">↵</a></h3>
 <ul>
 <li>add funzione <a href="../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/#unaccent"><code>unaccent</code></a>: rimuove accenti e segni diacritici dalle stringhe</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>unaccent(&quot;città&quot;) → &#39;citta&#39;
 </code></pre></div>
+<p><img alt="" src="../../img/novita_400/unaccent.png" /></p>
 <ul>
 <li>add funzione <a href="../../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico/#substr_count"><code>substr_count</code></a>: conta le occorrenze di una sottostringa</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>substr_count(&quot;A-B-C-D&quot;, &quot;-&quot;) → 3
 </code></pre></div>
+<p><img alt="" src="../../img/novita_400/substr_count.png" /></p>
 <h3 id="gruppo-data-e-ora">Gruppo Data e Ora<a class="headerlink" href="#gruppo-data-e-ora" title="Permanent link">↵</a></h3>
 <ul>
 <li>add 5 funzioni per la gestione dei fusi orari basate sugli ID del database IANA:</li>
@@ -6687,8 +6735,23 @@
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>convert_timezone(now(), timezone_from_id(&#39;Europe/Rome&#39;))
 </code></pre></div>
+<p><img alt="" src="../../img/novita_400/timezone.png" /></p>
+<h2 id="tabella-attributi">Tabella attributi<a class="headerlink" href="#tabella-attributi" title="Permanent link">↵</a></h2>
+<ul>
+<li><strong>Doppio clic per zoom</strong>: doppio clic su un elemento nella tabella attributi seleziona la feature e fa zoom ad essa</li>
+</ul>
+<p><img alt="" src="../../img/novita_400/attribute_table_zoom.gif" /></p>
+<ul>
+<li><strong>Copia valori raw</strong>: nuova opzione "Copy Raw Cell Content" nel menu contestuale per copiare i valori originali (non rappresentati) negli appunti; in precedenza venivano copiati solo i valori "rappresentati" (es. valori di chiavi esterne, formattazione locale)</li>
+</ul>
+<p><img alt="" src="../../img/novita_400/copy_raw_values.png" /></p>
+<h2 id="pr-chiuse-senza-merge">PR chiuse senza merge<a class="headerlink" href="#pr-chiuse-senza-merge" title="Permanent link">↵</a></h2>
+<ul>
+<li>add menu field calc intestazioni attributo: <a href="https://github.com/qgis/QGIS/pull/63287">https://github.com/qgis/QGIS/pull/63287</a></li>
+<li>contesto field calc: <a href="https://github.com/qgis/QGIS/pull/63372">https://github.com/qgis/QGIS/pull/63372</a></li>
+</ul>
 <hr />
-<p>Vedi anche: <a href="../../blog/2026/02/21/qgis-40-nuove-funzioni-del-gruppo-espressioni/">blog post QGIS 4.0 – nuove funzioni del gruppo Espressioni</a></p>
+<p>Vedi anche: <a href="../../blog/2026/02/21/qgis-40-nuove-funzioni-nel-field-calc/">blog post QGIS 4.0 – nuove funzioni del gruppo Espressioni</a></p>
 
 
 
