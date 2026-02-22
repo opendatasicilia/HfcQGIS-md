@@ -53,6 +53,8 @@ magnetic_declination('wmm2025', make_datetime(2026,7,1,12,0,0), -35, 138, 0) →
 
 [![](./group_magnetic_models.png)](./group_magnetic_models.png)
 
+[NB:](https://github.com/qgis/QGIS/issues/65033#issuecomment-3940603146) I modelli non sono inclusi nel pacchetto QGIS: è necessario scaricarli manualmente (e quindi utilizzare il percorso completo del modello nella funzione di espressione o installarlo in C:/ProgramData/GeographicLib/magnetic).
+
 ## extract_*
 
 `extract_degrees`, `extract_minutes`, `extract_seconds`
