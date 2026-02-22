@@ -12,35 +12,28 @@ tags:
   - blog
   - espressioni
   - funzioni
-  - qgis
-  - timezone
-  - unaccent
-  - substr_count
-  - magnetic
-  - equals
+  - QGIS
 ---
 
-# QGIS 4.0: nuove funzioni del gruppo Espressioni
+# QGIS 4.0: nuove funzioni nel Field Calc
 
 ## Introduzione
 
-Con QGIS 4.0 il gruppo **Espressioni** si arricchisce di nuove funzioni utili sia per la gestione di geometrie sia per la manipolazione di stringhe e tempi. In questo post le vediamo una per una, con un esempio rapido per capire subito quando usarle.
+Con QGIS 4.0 il **Field Calc** si arricchisce di nuove funzioni utili sia per la gestione di geometrie sia per la manipolazione di stringhe e tempi. Migliora inoltre la **tabella attributi**, con il doppio clic per lo zoom rapido sulle feature e la possibilità di copiare i valori originali (raw) degli attributi. In questo post vediamo le novità una per una, con un esempio rapido per capire subito quando usarle.
 
 !!! Abstract "In breve"
-    **15 nuove funzioni**: `equals`, 4 per i modelli magnetici, 3 per gradi/minuti/secondi, `unaccent`, `substr_count` e 5 funzioni legate ai fusi orari.
+    **15 nuove funzioni**: nuovo predicato `equals`, 4 per i modelli magnetici, 3 per gradi/minuti/secondi, `unaccent`, `substr_count` e 5 funzioni legate ai fusi orari. **Tabella attributi**: doppio clic per zoom e copia valori raw.
 
 <!-- more -->
 
-## equals
+## Predicato equals
 
 Verifica l'uguaglianza tra due geometrie (coerente con `overlay_equals`). Utile quando serve un confronto rigoroso tra geometrie, ad esempio per controlli di qualità o deduplicazioni avanzate.
 
 Esempio:
 ```qgis
-equals($geometry, geometry(@parent))
+equals($geometry1, geometry2)
 ```
-
-[![](./equals.png)](./equals.png)
 
 ## Funzioni per modelli magnetici
 
@@ -69,8 +62,6 @@ Esempio:
 extract_minutes(145.75) --> 45
 ```
 
-[![](./extract_dms.png)](./extract_dms.png)
-
 ## unaccent
 
 Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL `unaccent`). Utile per normalizzare testi e confrontare valori in modo robusto.
@@ -78,9 +69,8 @@ Rimuove accenti e diacritici dalle stringhe (stile PostgreSQL `unaccent`). Utile
 Esempio:
 ```qgis
 unaccent("città") --> citta
+unaccent("Cefalù") --> Cefalu
 ```
-
-[![](./unaccent.png)](./unaccent.png)
 
 ## substr_count
 
@@ -90,8 +80,6 @@ Esempio:
 ```qgis
 substr_count("A-B-C-D", "-") --> 3
 ```
-
-[![](./substr_count.png)](./substr_count.png)
 
 ## Funzioni per i fusi orari
 
@@ -108,15 +96,27 @@ Esempio:
 convert_timezone(now(), timezone_from_id('Europe/Rome')) --> <datetime: 2026-02-21 21:14:56 (ora solare Europa occidentale)>
 ```
 
-[![](./timezone.png)](./timezone.png)
+## Tabella attributi
+
+### Doppio clic per zoom
+
+Doppio clic su un elemento nella tabella attributi seleziona la feature e fa zoom ad essa.
+
+[![](./attribute_table_zoom.gif)](./attribute_table_zoom.gif)
+
+### Copia valori raw
+
+Nuova opzione **"Copy Raw Cell Content"** nel menu contestuale per copiare i valori originali (non rappresentati) negli appunti. In precedenza venivano copiati solo i valori "rappresentati" (es. valori di chiavi esterne, formattazione locale).
+
+[![](./copy_raw_values.png)](./copy_raw_values.png)
 
 ## Conclusioni
 
-Queste funzioni ampliano il gruppo Espressioni in modo concreto: geometrie, stringhe e tempi coprono tanti casi d'uso reali. Se vuoi un approfondimento con esempi sul campo, scrivimi o apri una discussione nella repo.
+QGIS 4.0 porta miglioramenti concreti su più fronti: le nuove espressioni coprono geometrie, modelli magnetici, stringhe e fusi orari, mentre la tabella attributi diventa più rapida da usare grazie allo zoom con doppio clic e alla copia dei valori raw. Se vuoi un approfondimento con esempi sul campo, scrivimi o apri una discussione nella repo.
 
 ## Discussioni
 
-Per commenti o domande: https://github.com/opendatasicilia/HfcQGIS-md/discussions
+Per commenti o domande: <https://github.com/opendatasicilia/HfcQGIS-md/discussions>
 
 ## Link utile
 

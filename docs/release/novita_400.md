@@ -9,8 +9,10 @@
 - add funzione [`equals`](../gr_funzioni/geometria/geometria_unico.md#equals): testa l'uguaglianza di due geometrie (analogo a `overlay_equals`)
 
 ```
-equals($geometry, geometry(@parent))
+equals($geometry1, geometry2)
 ```
+
+![](../img/novita_400/equals.png)
 
 ### Gruppo Conversioni
 
@@ -28,6 +30,8 @@ equals($geometry, geometry(@parent))
 magnetic_declination($x, $y, now())
 ```
 
+![](../img/novita_400/magnetic_models.png)
+
 ### Gruppo Stringhe di Testo
 
 - add funzione [`unaccent`](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#unaccent): rimuove accenti e segni diacritici dalle stringhe
@@ -36,11 +40,15 @@ magnetic_declination($x, $y, now())
 unaccent("città") → 'citta'
 ```
 
+![](../img/novita_400/unaccent.png)
+
 - add funzione [`substr_count`](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#substr_count): conta le occorrenze di una sottostringa
 
 ```
 substr_count("A-B-C-D", "-") → 3
 ```
+
+![](../img/novita_400/substr_count.png)
 
 ### Gruppo Data e Ora
 
@@ -54,6 +62,23 @@ substr_count("A-B-C-D", "-") → 3
 ```
 convert_timezone(now(), timezone_from_id('Europe/Rome'))
 ```
+
+![](../img/novita_400/timezone.png)
+
+## Tabella attributi
+
+- **Doppio clic per zoom**: doppio clic su un elemento nella tabella attributi seleziona la feature e fa zoom ad essa
+
+![](../img/novita_400/attribute_table_zoom.gif)
+
+- **Copia valori raw**: nuova opzione "Copy Raw Cell Content" nel menu contestuale per copiare i valori originali (non rappresentati) negli appunti; in precedenza venivano copiati solo i valori "rappresentati" (es. valori di chiavi esterne, formattazione locale)
+
+![](../img/novita_400/copy_raw_values.png)
+
+## PR chiuse senza merge
+
+- add menu field calc intestazioni attributo: <https://github.com/qgis/QGIS/pull/63287>
+- contesto field calc: <https://github.com/qgis/QGIS/pull/63372>
 
 ---
 
