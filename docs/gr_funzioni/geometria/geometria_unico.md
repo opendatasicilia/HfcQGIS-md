@@ -1228,7 +1228,7 @@ End_point di geometria lineare:
 
 ## equals
 
-Testa l'uguaglianza di due geometrie (allo stesso modo di `overlay_equals`).
+Verifica se due geometrie sono uguali. Si noti che l'ordine dei vertici è rilevante. Restituisce TRUE se geometry1 è esattamente uguale a geometry2.
 
 Sintassi:
 
@@ -1236,14 +1236,17 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">geometry1</span>_ prima geometria
-* _<span style="color:red;">geometry2</span>_ seconda geometria
+* _<span style="color:red;">geometry1</span>_ una geometria
+* _<span style="color:red;">geometry2</span>_ una geometria
 
 Esempi:
 
 ```
-equals(geom_from_wkt('POINT(4 4)'), geom_from_wkt('POINT(4 4)')) → true
-equals(geom_from_wkt('POINT(4 4)'), geom_from_wkt('POINT(3 4)')) → false
+equals( geom_from_wkt( 'POINT( 0 0 )' ), geom_from_wkt( 'POINT( 0 0 )' ) ) → TRUE
+equals( geom_from_wkt( 'POINT( 0 0 )' ), geom_from_wkt( 'MULTIPOINT( ( 0 0 ) )' ) ) → FALSE
+equals( geom_from_wkt( 'LINESTRING( 0 0, 1 1 )' ), geom_from_wkt( 'LINESTRING( 0 0, 1 1 )' ) ) → TRUE
+equals( geom_from_wkt( 'LINESTRING( 0 0, 1 1 )' ), geom_from_wkt( 'LINESTRING( 1 1, 0 0 )' ) ) → FALSE
+equals( geom_from_wkt( 'POLYGON(( 0 0, 0 1, 1 1, 0 0 ))' ), geom_from_wkt( 'POLYGON(( 0 0, 1 1, 0 1, 0 0 ))' ) ) → FALSE
 ```
 
 [![](../../img/geometria/equals/equals1.png)](../../img/geometria/equals/equals1.png)

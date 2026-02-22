@@ -82,7 +82,7 @@ Conta quante volte una sottostringa compare in una stringa. Ottimo per controlli
 
 Esempio:
 ```qgis
-substr_count("A-B-C-D", "-") --> 3
+substr_count('A-B-C-D', '-') --> 3
 ```
 
 ## Funzioni per i fusi orari

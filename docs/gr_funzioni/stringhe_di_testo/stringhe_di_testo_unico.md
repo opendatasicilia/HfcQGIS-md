@@ -863,7 +863,18 @@ upper('hello WOrld') → 'HELLO WORLD'
 
 ## unaccent
 
-Rimuove gli accenti (segni diacritici) da una stringa.
+Rimuove accenti e altri segni diacritici da una stringa, sostituendo i caratteri accentati con i loro equivalenti ASCII non accentati. Questa funzione è compatibile con la funzione `unaccent()` di PostgreSQL e utilizza le stesse regole di mappatura complete.
+
+La funzione gestisce:
+
+* Segni diacritici (é→e, ñ→n, ü→u, ecc.)
+* Legature (Æ→AE, œ→oe, ecc.)
+* Lettere speciali (ß→ss, ł→l, ð→d, ecc.)
+* Caratteri di compatibilità (²C→°C, ½→ 1/2, ecc.)
+* Caratteri speciali cirillici (ё→e, Ё→E)
+* Caratteri a larghezza intera (＃→#, ecc.)
+
+I casi di utilizzo comuni includono la normalizzazione del testo per le operazioni di ricerca, la creazione di identificatori o nomi di file ASCII sicuri da testo internazionale e la corrispondenza dell'input dell'utente indipendentemente dall'uso dell'accento.
 
 Sintassi:
 
@@ -871,16 +882,33 @@ Sintassi:
 
 Argomenti:
 
-* _<span style="color:red;">string</span>_ la stringa da cui rimuovere gli accenti
+* _<span style="color:red;">string</span>_ la stringa da cui rimuovere gli accenti. Se NULL, la funzione restituisce NULL.
 
 Esempi:
 
 ```
-unaccent('ï') → 'i'
-unaccent('café') → 'cafe'
+unaccent('Hôtel') → 'Hotel'
+unaccent('crème brûlée') → 'creme brulee'
+unaccent('Româneste') → 'Romaneste'
+unaccent('Æsir & Œuvre') → 'AEsir & OEuvre'
+unaccent('Łódź') → 'Lodz'
+unaccent('straße') → 'strasse'
+unaccent('ёлка') → 'елка'  -- cirillico yo diventa ye
+unaccent('°C') → '°C'  -- grado Celsius
 ```
 
 [![](../../img/stringhe_di_testo/unaccent/unaccent1.png)](../../img/stringhe_di_testo/unaccent/unaccent1.png)
+
+Note:
+
+Questa funzione è particolarmente utile quando si desidera:
+
+* Cercare o filtrare dati ignorando gli accenti (es. 'Jose' corrisponde a 'José')
+* Creare stringhe URL-safe o filename-safe da testo internazionale
+* Normalizzare l'input dell'utente per una memorizzazione o un confronto uniforme
+* Preparare testo per sistemi con supporto Unicode limitato
+
+La funzione utilizza internamente la normalizzazione Unicode NFC per garantire una gestione coerente dei caratteri composti e decomposti.
 
 Feature introdotta a partire da **QGIS 4.0**
 
