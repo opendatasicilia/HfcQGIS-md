@@ -36,7 +36,7 @@ hide:
  
   <!--  inizio blocco auguri -->
   <h5 class="service_title" style="text-align: center;">
-    🌟🌟🌟🌟 Sito aggiornato con novità QGIS 4.0 🌟🌟🌟🌟
+    🌟🌟🌟🌟 Sito aggiornato con novità QGIS 4.2 🌟🌟🌟🌟
   </h5>
   <br>
   <!--  fine blocco auguri -->
