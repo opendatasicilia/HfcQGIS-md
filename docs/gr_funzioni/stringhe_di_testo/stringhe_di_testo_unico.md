@@ -82,6 +82,30 @@ concat('QGIS 3.0', NULL) → 'QGIS 3.0'
 
 ---
 
+## concat_ws
+
+Concatena tutti gli argomenti tranne il primo, usando il primo argomento come separatore. Gli argomenti NULL vengono ignorati (non producono un separatore doppio o vuoto).
+
+Sintassi:
+
+- concat_ws(_<span style="color:red;">separator</span>, <span style="color:red;">string1</span>, <span style="color:red;">string2</span>, …_)
+
+Argomenti:
+
+* _<span style="color:red;">separator</span>_ la stringa usata come separatore tra i valori
+* _<span style="color:red;">string</span>_ un valore stringa; gli argomenti NULL vengono ignorati
+
+Esempi:
+
+```
+concat_ws('-', 'a', 'b', 'c') → 'a-b-c'
+concat_ws(', ', 'Rossi', NULL, 'Mario') → 'Rossi, Mario'
+```
+
+Feature introdotta a partire da **QGIS 4.2**
+
+---
+
 ## format
 
 Formatta una stringa usando gli argomenti forniti.

@@ -593,6 +593,33 @@ Esempi:
 
 ---
 
+## scale_cubic_bezier
+
+Trasforma un dato valore da un dominio in ingresso ad un intervallo in uscita usando un'interpolazione a curva di Bézier cubica, definita da due punti di controllo. Completa le funzioni `scale_linear` e `scale_exp`, aggiungendo un metodo di interpolazione basato su curva di Bézier cubica (lo stesso usato per l'interpolazione "cubic-bezier" nella conversione degli stili MapBox).
+
+Sintassi:
+
+- scale_cubic_bezier(_<span style="color:red;">val</span>, <span style="color:red;">domain_min</span>, <span style="color:red;">domain_max</span>, <span style="color:red;">range_min</span>, <span style="color:red;">range_max</span>, <span style="color:red;">cp1x</span>, <span style="color:red;">cp1y</span>, <span style="color:red;">cp2x</span>, <span style="color:red;">cp2y</span>_)
+
+Argomenti:
+
+* _<span style="color:red;">val</span>_ Un valore nel dominio in ingresso. La funzione restituirà un valore scalato corrispondente nell'intervallo in uscita.
+* _<span style="color:red;">domain_min</span>_ Specifica il valore minimo nel dominio in ingresso, il valore più basso che il valore in ingresso può assumere.
+* _<span style="color:red;">domain_max</span>_ Specifica il valore massimo nel dominio in ingresso, il valore più alto che il valore in ingresso può assumere.
+* _<span style="color:red;">range_min</span>_ Specifica il valore minimo nell'intervallo in uscita, il valore più basso che dovrebbe essere restituito in uscita dalla funzione.
+* _<span style="color:red;">range_max</span>_ Specifica il valore massimo nell'intervallo di uscita, il valore più alto che dovrebbe essere restituito dalla funzione.
+* _<span style="color:red;">cp1x, cp1y, cp2x, cp2y</span>_ Coordinate normalizzate (tra 0 e 1) dei due punti di controllo della curva di Bézier cubica, che determinano la forma dell'interpolazione.
+
+Esempi:
+
+```
+scale_cubic_bezier(5,0,10,0,100,0.25,0.1,0.25,1) → valore interpolato secondo la curva di Bézier definita dai punti di controllo
+```
+
+Feature introdotta a partire da **QGIS 4.2**
+
+---
+
 ## scale_exp
 
 Trasforma un valore dato da un dominio in ingresso in un intervallo in uscita usando una curva esponenziale. Questa funzione può essere usata per agevolare gradualmente in entrata o in uscita i valori dell'intervallo in uscita specificato.
