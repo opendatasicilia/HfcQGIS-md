@@ -12,6 +12,8 @@
 scale_cubic_bezier(val, domain_min, domain_max, range_min, range_max, cp1, cp2)
 ```
 
+![](../img/novita_420/scale_cubic_bezier.png)
+
 ### Gruppo Stringhe di Testo
 
 - add funzione [`concat_ws`](../gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#concat_ws): concatena più valori usando il primo argomento come separatore; gli argomenti NULL vengono ignorati
@@ -20,11 +22,15 @@ scale_cubic_bezier(val, domain_min, domain_max, range_min, range_max, cp1, cp2)
 concat_ws('-', 'a', 'b', 'c') → 'a-b-c'
 ```
 
+![](../img/novita_420/concat_ws.png)
+
 ## Tabella attributi
 
 ### Feature: Adding "Field Calculator" menu item to the attribute table header
 
 - nuova voce **"Field Calculator"** nel menu contestuale delle intestazioni di colonna della tabella attributi; apre la calcolatrice di campo con l'opzione "Aggiorna campo esistente" già spuntata e il campo corrispondente già selezionato (disponibile solo sui campi modificabili)
+
+![](../img/novita_420/qgis_4_2_menu_tabella.gif)
 
 ## Correzioni rilevanti (Notable Fixes)
 
