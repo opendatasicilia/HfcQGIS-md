@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_420/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.2  | 06/07/2026
   
 
     
@@ -2549,6 +2577,17 @@
     <span class="md-ellipsis">
       
         concat
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concat_ws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        concat_ws
       
     </span>
   </a>
@@ -6896,6 +6935,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#concat_ws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        concat_ws
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#format" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7339,6 +7389,23 @@
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/concat/concat1.png"><img alt="" src="../../../img/stringhe_di_testo/concat/concat1.png" /></a></p>
 <hr />
+<h2 id="concat_ws">concat_ws<a class="headerlink" href="#concat_ws" title="Permanent link">↵</a></h2>
+<p>Concatena tutti gli argomenti tranne il primo, usando il primo argomento come separatore. Gli argomenti NULL vengono ignorati (non producono un separatore doppio o vuoto).</p>
+<p>Sintassi:</p>
+<ul>
+<li>concat_ws(<em><span style="color:red;">separator</span>, <span style="color:red;">string1</span>, <span style="color:red;">string2</span>, …</em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">separator</span></em> la stringa usata come separatore tra i valori</li>
+<li><em><span style="color:red;">string</span></em> un valore stringa; gli argomenti NULL vengono ignorati</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>concat_ws(&#39;-&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;) → &#39;a-b-c&#39;
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>concat_ws(&#39;, &#39;, &#39;Rossi&#39;, NULL, &#39;Mario&#39;) → &#39;Rossi, Mario&#39;
+</code></pre></div>
+<p>Feature introdotta a partire da <strong>QGIS 4.2</strong></p>
+<hr />
 <h2 id="format">format<a class="headerlink" href="#format" title="Permanent link">↵</a></h2>
 <p>Formatta una stringa usando gli argomenti forniti.</p>
 <p>Sintassi:</p>
@@ -7351,8 +7418,8 @@
 <li><em><span style="color:red;">arg</span></em> Qualsiasi tipo. Qualsiasi numero di argomenti.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>format(&#39;This %1 a %2&#39;,&#39;is&#39;, &#39;test&#39;) → &#39;Questo è un test&#39;
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>format(&#39;This is %2&#39;,&#39;a bit unexpected but 2 is lowest number in string&#39;,&#39;normal&#39;) → &#39;This is a bit unexpected but 2 is lowest number in string&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>format(&#39;This %1 a %2&#39;,&#39;is&#39;, &#39;test&#39;) → &#39;Questo è un test&#39;
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>format(&#39;This is %2&#39;,&#39;a bit unexpected but 2 is lowest number in string&#39;,&#39;normal&#39;) → &#39;This is a bit unexpected but 2 is lowest number in string&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/format/format1.png"><img alt="" src="../../../img/stringhe_di_testo/format/format1.png" /></a></p>
 <hr />
@@ -7480,11 +7547,11 @@
 <li><em><span style="color:red;">language</span></em> lingua (minuscolo, due o tre lettere, <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">codice lingua ISO 639</a>) utilizzata per formattare la data in una stringa personalizzata. Per impostazione predefinita, viene utilizzata la locale dell'utente di QGIS corrente.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>format_date(&#39;2012-05-15&#39;,&#39;dd.MM.yyyy&#39;) → &#39;15.05.2012&#39;
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>format_date(&#39;2012-05-15&#39;,&#39;d MMMM yyyy&#39;,&#39;fr&#39;) → &#39;15 mai 2012&#39;
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>format_date(&#39;2012-05-15&#39;,&#39;dddd&#39;) → &#39;Tuesday&#39;, se la lingua corrente è una variante inglese
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>format_date(&#39;2012-05-15 13:54:20&#39;,&#39;dd.MM.yy&#39;) → &#39;15.05.12&#39;
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>format_date(&#39;13:54:20&#39;,&#39;hh:mm AP&#39;) → &#39;01:54 PM&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>format_date(&#39;2012-05-15&#39;,&#39;dd.MM.yyyy&#39;) → &#39;15.05.2012&#39;
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>format_date(&#39;2012-05-15&#39;,&#39;d MMMM yyyy&#39;,&#39;fr&#39;) → &#39;15 mai 2012&#39;
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>format_date(&#39;2012-05-15&#39;,&#39;dddd&#39;) → &#39;Tuesday&#39;, se la lingua corrente è una variante inglese
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>format_date(&#39;2012-05-15 13:54:20&#39;,&#39;dd.MM.yy&#39;) → &#39;15.05.12&#39;
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>format_date(&#39;13:54:20&#39;,&#39;hh:mm AP&#39;) → &#39;01:54 PM&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/format_date/format_date1.png"><img alt="" src="../../../img/stringhe_di_testo/format_date/format_date1.png" /></a></p>
 <hr />
@@ -7502,8 +7569,8 @@
 <li><em><span style="color:red;">language</span></em> lingua (minuscolo, due o tre lettere, <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">codice lingua ISO 639</a>) utilizzata per formattare il numero in una stringa. Per impostazione predefinita, viene utilizzata la locale dell'utente di QGIS corrente.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>format_number(10000000.332,2) → &#39;10,000,000.33&#39; se ad es. la locale corrente è una variante inglese
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>format_number(10000000.332,2,&#39;fr&#39;) → &#39;10 000 000,33&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>format_number(10000000.332,2) → &#39;10,000,000.33&#39; se ad es. la locale corrente è una variante inglese
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>format_number(10000000.332,2,&#39;fr&#39;) → &#39;10 000 000,33&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/format_number/format_number1.png"><img alt="" src="../../../img/stringhe_di_testo/format_number/format_number1.png" /></a></p>
 <hr />
@@ -7519,7 +7586,7 @@
 <li><em><span style="color:red;">length</span></em> intero. Il numero di caratteri da estrarre dalla parte sinistra della stringa.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>left(&#39;Hello World&#39;,5) → &#39;Hello&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>left(&#39;Hello World&#39;,5) → &#39;Hello&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/left/left1.png"><img alt="" src="../../../img/stringhe_di_testo/left/left1.png" /></a></p>
 <hr />
@@ -7536,7 +7603,7 @@
 <li><em><span style="color:red;">string</span></em> stringa della quale calcolare la lunghezza</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>length(&#39;hello&#39;) → 5
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>length(&#39;hello&#39;) → 5
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/length/length1.png"><img alt="" src="../../../img/stringhe_di_testo/length/length1.png" /></a></p>
 <h3 id="variabile-geometria">Variabile geometria<a class="headerlink" href="#variabile-geometria" title="Permanent link">↵</a></h3>
@@ -7550,7 +7617,7 @@
 <li><em><span style="color:red;">geometry</span></em> oggetto geometria linea</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>length(geom_from_wkt(&#39;LINESTRING(0 0, 4 0)&#39;)) → 4
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>length(geom_from_wkt(&#39;LINESTRING(0 0, 4 0)&#39;)) → 4
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/length/length2.png"><img alt="" src="../../../img/stringhe_di_testo/length/length2.png" /></a></p>
 <hr />
@@ -7565,7 +7632,7 @@
 <li><em><span style="color:red;">string</span></em> la stringa da convertire in minuscolo</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>lower(&#39;HELLO World&#39;) → &#39;hello world&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>lower(&#39;HELLO World&#39;) → &#39;hello world&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/lower/lower1.png"><img alt="" src="../../../img/stringhe_di_testo/lower/lower1.png" /></a></p>
 <hr />
@@ -7582,8 +7649,8 @@
 <li><em><span style="color:red;">fill</span></em> carattere con il quale riempire lo spazio rimanente</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>lpad(&#39;Hello&#39;, 10, &#39;x&#39;) → &#39;xxxxxHello&#39;
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>lpad(&#39;Hello&#39;, 3, &#39;x&#39;) → &#39;Hel&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>lpad(&#39;Hello&#39;, 10, &#39;x&#39;) → &#39;xxxxxHello&#39;
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>lpad(&#39;Hello&#39;, 3, &#39;x&#39;) → &#39;Hel&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/lpad/lpad1.png"><img alt="" src="../../../img/stringhe_di_testo/lpad/lpad1.png" /></a></p>
 <h3 id="altri-esempi-utili">Altri esempi utili<a class="headerlink" href="#altri-esempi-utili" title="Permanent link">↵</a></h3>
@@ -7619,7 +7686,7 @@
 </tbody>
 </table>
 <p>espressione utilizzata:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>&#39;segnale&#39; || lpad( @row_number ,2, &#39;00&#39; )|| &#39;.png&#39; → &#39;segnale01.png&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>&#39;segnale&#39; || lpad( @row_number ,2, &#39;00&#39; )|| &#39;.png&#39; → &#39;segnale01.png&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/lpad/lpad2.png"><img alt="" src="../../../img/stringhe_di_testo/lpad/lpad2.png" /></a></p>
 <p>--</p>
@@ -7672,9 +7739,9 @@
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>lpad(&quot;CODICE_STR&quot;,8,0)||
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>lpad( &quot;NUM_CIV&quot;,5,0) ||
-<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>coalesce(&quot;BARRATO&quot;,&#39;&#39;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>lpad(&quot;CODICE_STR&quot;,8,0)||
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>lpad( &quot;NUM_CIV&quot;,5,0) ||
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>coalesce(&quot;BARRATO&quot;,&#39;&#39;)
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/lpad/lpad3.png"><img alt="" src="../../../img/stringhe_di_testo/lpad/lpad3.png" /></a></p>
 <hr />
@@ -7690,8 +7757,8 @@
 <li><em><span style="color:red;">characters</span></em> caratteri da troncare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>ltrim(&#39; hello world &#39;) → &#39;hello world &#39;
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>ltrim(&#39;zzzytest&#39;, &#39;xyz&#39;) → &#39;test&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>ltrim(&#39; hello world &#39;) → &#39;hello world &#39;
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>ltrim(&#39;zzzytest&#39;, &#39;xyz&#39;) → &#39;test&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/ltrim/ltrim01.png"><img alt="" src="../../../img/stringhe_di_testo/ltrim/ltrim01.png" /></a></p>
 <hr />
@@ -7707,8 +7774,8 @@
 <li><em><span style="color:red;">regex</span></em> L'espressione regolare da confrontare. I caratteri backslash (\) devono essere doppiamente escaped (es "\s" per selezionare un carattere spazio bianco).</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>regexp_match(&#39;QGIS ROCKS&#39;,&#39;\\sROCKS&#39;) → 5
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>regexp_match(&#39;Budač&#39;,&#39;udač\\b&#39;) → 2
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>regexp_match(&#39;QGIS ROCKS&#39;,&#39;\\sROCKS&#39;) → 5
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>regexp_match(&#39;Budač&#39;,&#39;udač\\b&#39;) → 2
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/regexp_match/regexp_match1.png"><img alt="" src="../../../img/stringhe_di_testo/regexp_match/regexp_match1.png" /></a></p>
 <p>Osservazioni:</p>
@@ -7726,15 +7793,15 @@
 </ul>
 <p><a href="https://natonelbronx.wordpress.com/2007/12/02/le-espressioni-regolari-regex-o-regexp/">link1</a></p>
 <p><a href="https://www.python.it/doc/howto/Regex/regex-it/regex-it.html">link2</a></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>regexp_match(&#39;QGIS ROCKS ciao come stai&#39;,&#39;$&#39;) = length (&#39;QGIS ROCKS ciao come stai&#39;)+1
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>regexp_match(&#39;QGIS ROCKS ciao come stai&#39;,&#39;$&#39;) = length (&#39;QGIS ROCKS ciao come stai&#39;)+1
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/regexp_match/regexp_match2.png"><img alt="" src="../../../img/stringhe_di_testo/regexp_match/regexp_match2.png" /></a></p>
 <p>--</p>
 <h3 id="altri-esempi">Altri esempi<a class="headerlink" href="#altri-esempi" title="Permanent link">↵</a></h3>
 <p>vedi <a href="https://gist.github.com/pigreco/86589dddf5a59b3a7650267d5af237bd#gistcomment-3795637">qui</a></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>regexp_matches( &quot;catasto&quot; ,&#39;^(.+)\\.(.+)\\.(.+)\\.(.+)_(.+)\\.(.+)$&#39;)[x]
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>con x che varia da 0 a 5
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>regexp_matches( &quot;catasto&quot; ,&#39;^(.+)\\.(.+)\\.(.+)\\.(.+)_(.+)\\.(.+)$&#39;)[x]
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>con x che varia da 0 a 5
 </code></pre></div>
 <p><a href="https://user-images.githubusercontent.com/7631137/123671871-072f1f00-d83f-11eb-8110-59d82995e69a.png"><img alt="" src="https://user-images.githubusercontent.com/7631137/123671871-072f1f00-d83f-11eb-8110-59d82995e69a.png" /></a></p>
 <hr />
@@ -7751,9 +7818,9 @@
 <li><em><span style="color:red;">replacement</span></em> La stringa che sostituirà qualsiasi occorrenza corrispondente dell'espressione regolare passata. I gruppi catturati possono essere inseriti nella stringa di sostituzione usando <code>\\1</code>, <code>\\2</code>, etc.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>regexp_replace(&#39;QGIS SHOULD ROCK&#39;,&#39;\\sSHOULD\\s&#39;,&#39; DOES &#39;) → &#39;QGIS DOES ROCK&#39;
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>regexp_replace(&#39;ABC123&#39;,&#39;\\d+&#39;,&#39;&#39;) → &#39;ABC&#39;
-<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>regexp_replace(&#39;my name is John&#39;,&#39;(.*) is (.*)&#39;,&#39;\\2 is \\1&#39;) → &#39;Il mio nome è Giovanni&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>regexp_replace(&#39;QGIS SHOULD ROCK&#39;,&#39;\\sSHOULD\\s&#39;,&#39; DOES &#39;) → &#39;QGIS DOES ROCK&#39;
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>regexp_replace(&#39;ABC123&#39;,&#39;\\d+&#39;,&#39;&#39;) → &#39;ABC&#39;
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>regexp_replace(&#39;my name is John&#39;,&#39;(.*) is (.*)&#39;,&#39;\\2 is \\1&#39;) → &#39;Il mio nome è Giovanni&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png"><img alt="" src="../../../img/stringhe_di_testo/regexp_replace/regexp_replace1.png" /></a></p>
 <p>Esempi:o 2</p>
@@ -7782,7 +7849,7 @@
 </table>
 <p>Aggiornare il campo <code>particella</code> togliendo gli zeri iniziali:</p>
 <p>espressione da usare:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>regexp_replace(  &quot;particella&quot; ,&#39;^0+&#39;,&#39;&#39;)`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>regexp_replace(  &quot;particella&quot; ,&#39;^0+&#39;,&#39;&#39;)`
 </code></pre></div>
 <p>risultato:</p>
 <table>
@@ -7833,7 +7900,7 @@
 </table>
 <p>eliminare data e inserire un simbolo tra anno, mese e giorno</p>
 <p>espressione da usare:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>regexp_replace(&quot;valore&quot; ,&#39;(data)(....)(..)(..)&#39;,&#39;\\2-\\3-\\4&#39;)`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>regexp_replace(&quot;valore&quot; ,&#39;(data)(....)(..)(..)&#39;,&#39;\\2-\\3-\\4&#39;)`
 </code></pre></div>
 <p>risultato:</p>
 <table>
@@ -7884,7 +7951,7 @@
 </table>
 <p>Aggiornare il campo <code>particella</code> togliendo tutto quello dopo il punto (.):</p>
 <p>espressione da usare:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>regexp_replace( &#39;xxxxx.yyy&#39;,&#39;\\.(.+)$&#39;,&#39;&#39;)`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>regexp_replace( &#39;xxxxx.yyy&#39;,&#39;\\.(.+)$&#39;,&#39;&#39;)`
 </code></pre></div>
 <p>risultato:</p>
 <table>
@@ -7923,7 +7990,7 @@
 <li><em><span style="color:red;">regex</span></em> L'espressione regolare da contro abbinare. I caratteri backslash devono essere "double escaped" ( es <code>"\\s"</code> per selezionare un carattere spazio).</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>regexp_substr(&#39;abc123&#39;,&#39;(\\d+)&#39;) → &#39;123&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>regexp_substr(&#39;abc123&#39;,&#39;(\\d+)&#39;) → &#39;123&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png"><img alt="" src="../../../img/stringhe_di_testo/regexp_substr/regexp_substr1.png" /></a></p>
 <hr />
@@ -7942,9 +8009,9 @@
 <li><em><span style="color:red;">after</span></em> la stringa o l'array di stringe da usare come sostituzione</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>replace(&#39;QGIS SHOULD ROCK&#39;,&#39;SHOULD&#39;,&#39;DOES&#39;) → &#39;QGIS DOES ROCK&#39;
-<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>replace(&#39;QGIS ABC&#39;,array(&#39;A&#39;,&#39;B&#39;,&#39;C&#39;),array(&#39;X&#39;,&#39;Y&#39;,&#39;Z&#39;)) → &#39;QGIS XYZ&#39;
-<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>replace(&#39;QGIS&#39;,array(&#39;Q&#39;,&#39;S&#39;),&#39;&#39;) → &#39;GI&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>replace(&#39;QGIS SHOULD ROCK&#39;,&#39;SHOULD&#39;,&#39;DOES&#39;) → &#39;QGIS DOES ROCK&#39;
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>replace(&#39;QGIS ABC&#39;,array(&#39;A&#39;,&#39;B&#39;,&#39;C&#39;),array(&#39;X&#39;,&#39;Y&#39;,&#39;Z&#39;)) → &#39;QGIS XYZ&#39;
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>replace(&#39;QGIS&#39;,array(&#39;Q&#39;,&#39;S&#39;),&#39;&#39;) → &#39;GI&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/replace/replace1.png"><img alt="" src="../../../img/stringhe_di_testo/replace/replace1.png" /></a></p>
 <h3 id="variabile-mappa">Variabile mappa<a class="headerlink" href="#variabile-mappa" title="Permanent link">↵</a></h3>
@@ -7959,8 +8026,8 @@
 <li><em><span style="color:red;">map</span></em> la mappa che contiene le chiavi e i valori</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>replace(&#39;APP SHOULD ROCK&#39;,map(&#39;APP&#39;,&#39;QGIS&#39;,&#39;SHOULD&#39;,&#39;DOES&#39;)) → &#39;QGIS DOES ROCK&#39;
-<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>replace(&#39;forty two&#39;,map(&#39;for&#39;,&#39;4&#39;,&#39;two&#39;,&#39;2&#39;,&#39;forty two&#39;,&#39;42&#39;)) → &#39;42&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>replace(&#39;APP SHOULD ROCK&#39;,map(&#39;APP&#39;,&#39;QGIS&#39;,&#39;SHOULD&#39;,&#39;DOES&#39;)) → &#39;QGIS DOES ROCK&#39;
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>replace(&#39;forty two&#39;,map(&#39;for&#39;,&#39;4&#39;,&#39;two&#39;,&#39;2&#39;,&#39;forty two&#39;,&#39;42&#39;)) → &#39;42&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/replace/replace2.png"><img alt="" src="../../../img/stringhe_di_testo/replace/replace2.png" /></a></p>
 <hr />
@@ -7976,7 +8043,7 @@
 <li><em><span style="color:red;">length</span></em> intero. Il numero di caratteri da estrarre dalla parte destra della stringa.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>right(&#39;Hello World&#39;,5) → &#39;World&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>right(&#39;Hello World&#39;,5) → &#39;World&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/right/right1.png"><img alt="" src="../../../img/stringhe_di_testo/right/right1.png" /></a></p>
 <hr />
@@ -7993,8 +8060,8 @@
 <li><em><span style="color:red;">fill</span></em> carattere con il quale riempire lo spazio rimanente</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>rpad(&#39;Hello&#39;, 10, &#39;x&#39;) → &#39;Helloxxxxx&#39;
-<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>rpad(&#39;Hello&#39;, 3, &#39;x&#39;) → &#39;Hel&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>rpad(&#39;Hello&#39;, 10, &#39;x&#39;) → &#39;Helloxxxxx&#39;
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>rpad(&#39;Hello&#39;, 3, &#39;x&#39;) → &#39;Hel&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/rpad/rpad1.png"><img alt="" src="../../../img/stringhe_di_testo/rpad/rpad1.png" /></a></p>
 <hr />
@@ -8010,8 +8077,8 @@
 <li><em><span style="color:red;">characters</span></em> caratteri da troncare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>rtrim(&#39; hello world &#39;) → &#39; hello world&#39;
-<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>rtrim(&#39;testxxzx&#39;, &#39;xyz&#39;) → &#39;test&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>rtrim(&#39; hello world &#39;) → &#39; hello world&#39;
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>rtrim(&#39;testxxzx&#39;, &#39;xyz&#39;) → &#39;test&#39;
 </code></pre></div>
 <p><a href="../../img/stringhe_di_testo/ltrim/rtrim01.png"><img alt="" src="../../../img/stringhe_di_testo/rtrim/rtrim01.png" /></a></p>
 <hr />
@@ -8027,8 +8094,8 @@
 <li><em><span style="color:red;">needle</span></em> stringa da cercare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>strpos(&#39;HELLO WORLD&#39;,&#39;WORLD&#39;) → 7
-<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>strpos(&#39;HELLO WORLD&#39;,&#39;GOODBYE&#39;) → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>strpos(&#39;HELLO WORLD&#39;,&#39;WORLD&#39;) → 7
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>strpos(&#39;HELLO WORLD&#39;,&#39;GOODBYE&#39;) → 0
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/strpos/strpos1.png"><img alt="" src="../../../img/stringhe_di_testo/strpos/strpos1.png" /></a></p>
 <hr />
@@ -8046,12 +8113,12 @@
 <li><em><span style="color:red;">length</span></em> intero rappresentante la lunghezza della stringa da estrarre; se la lunghezza è negativa, la stringa restituita ometterà la lunghezza data di caratteri dalla fine della stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>substr(&#39;HELLO WORLD&#39;,3,5) → &#39;LLO W&#39;
-<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>substr(&#39;HELLO WORLD&#39;,3,5) → &#39;WORLD&#39;
-<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>substr(&#39;HELLO WORLD&#39;,-5) → &#39;WORLD&#39;
-<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>substr(&#39;HELLO&#39;,3,-1) → &#39;LL&#39;
-<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>substr(&#39;HELLO WORLD&#39;,-5,2) → &#39;WO&#39;
-<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a>substr(&#39;HELLO WORLD&#39;,-5,-1) → &#39;WORL&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>substr(&#39;HELLO WORLD&#39;,3,5) → &#39;LLO W&#39;
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>substr(&#39;HELLO WORLD&#39;,3,5) → &#39;WORLD&#39;
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>substr(&#39;HELLO WORLD&#39;,-5) → &#39;WORLD&#39;
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>substr(&#39;HELLO&#39;,3,-1) → &#39;LL&#39;
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>substr(&#39;HELLO WORLD&#39;,-5,2) → &#39;WO&#39;
+<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a>substr(&#39;HELLO WORLD&#39;,-5,-1) → &#39;WORL&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/substr/substr1.png"><img alt="" src="../../../img/stringhe_di_testo/substr/substr1.png" /></a></p>
 <hr />
@@ -8069,11 +8136,11 @@
 <li><em><span style="color:red;">overlapping</span></em> parametro opzionale per controllare se contare le occorrenze sovrapposte. Il valore predefinito è <code>FALSE</code> (conteggio non sovrapposto). Impostare su <code>TRUE</code> per contare le occorrenze sovrapposte.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>substr_count(&#39;banana&#39;, &#39;an&#39;) → 2  -- occorrenze non sovrapposte di &#39;an&#39; in &#39;banana&#39;
-<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>substr_count(&#39;Funniness&#39;, &#39;n&#39;) → 3  -- occorrenze non sovrapposte di &#39;n&#39; in &#39;Funniness&#39;
-<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;) → 2  -- occorrenze non sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
-<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;, true) → 4  -- occorrenze sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
-<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>substr_count(&#39;BANANA&#39;, &#39;an&#39;) → 0  -- sensibile alle maiuscole/minuscole, nessuna corrispondenza
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>substr_count(&#39;banana&#39;, &#39;an&#39;) → 2  -- occorrenze non sovrapposte di &#39;an&#39; in &#39;banana&#39;
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>substr_count(&#39;Funniness&#39;, &#39;n&#39;) → 3  -- occorrenze non sovrapposte di &#39;n&#39; in &#39;Funniness&#39;
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;) → 2  -- occorrenze non sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>substr_count(&#39;aaaaa&#39;, &#39;aa&#39;, true) → 4  -- occorrenze sovrapposte di &#39;aa&#39; in &#39;aaaaa&#39;
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>substr_count(&#39;BANANA&#39;, &#39;an&#39;) → 0  -- sensibile alle maiuscole/minuscole, nessuna corrispondenza
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/substr_count/substr_count1.png"><img alt="" src="../../../img/stringhe_di_testo/substr_count/substr_count1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -8089,7 +8156,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da convertire in minuscolo con la prima lettera maiuscola</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>title(&#39;hello WOrld&#39;) → &#39;Hello World&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>title(&#39;hello WOrld&#39;) → &#39;Hello World&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/title/title1.png"><img alt="" src="../../../img/stringhe_di_testo/title/title1.png" /></a></p>
 <hr />
@@ -8104,7 +8171,7 @@
 <li><em><span style="color:red;">number</span></em> Valore intero o reale. Il numero da convertire in stringa.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>to_string(123.23) → &#39;123.23&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>to_string(123.23) → &#39;123.23&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/to_string/to_string1.png"><img alt="" src="../../../img/stringhe_di_testo/to_string/to_string1.png" /></a></p>
 <hr />
@@ -8119,7 +8186,7 @@
 <li><em><span style="color:red;">string</span></em> stringa da troncare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>trim(&#39; hello world   &#39;) → &#39;hello world&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>trim(&#39; hello world   &#39;) → &#39;hello world&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/trim/trim1.png"><img alt="" src="../../../img/stringhe_di_testo/trim/trim1.png" /></a></p>
 <hr />
@@ -8134,7 +8201,7 @@
 <li><em><span style="color:red;">string</span></em> la stringa da convertire in maiuscolo</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>upper(&#39;hello WOrld&#39;) → &#39;HELLO WORLD&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>upper(&#39;hello WOrld&#39;) → &#39;HELLO WORLD&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/upper/upper1.png"><img alt="" src="../../../img/stringhe_di_testo/upper/upper1.png" /></a></p>
 <hr />
@@ -8159,14 +8226,14 @@
 <li><em><span style="color:red;">string</span></em> la stringa da cui rimuovere gli accenti. Se NULL, la funzione restituisce NULL.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>unaccent(&#39;Hôtel&#39;) → &#39;Hotel&#39;
-<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>unaccent(&#39;crème brûlée&#39;) → &#39;creme brulee&#39;
-<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>unaccent(&#39;Româneste&#39;) → &#39;Romaneste&#39;
-<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a>unaccent(&#39;Æsir &amp; Œuvre&#39;) → &#39;AEsir &amp; OEuvre&#39;
-<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a>unaccent(&#39;Łódź&#39;) → &#39;Lodz&#39;
-<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a>unaccent(&#39;straße&#39;) → &#39;strasse&#39;
-<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a>unaccent(&#39;ёлка&#39;) → &#39;елка&#39;  -- cirillico yo diventa ye
-<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a>unaccent(&#39;°C&#39;) → &#39;°C&#39;  -- grado Celsius
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>unaccent(&#39;Hôtel&#39;) → &#39;Hotel&#39;
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>unaccent(&#39;crème brûlée&#39;) → &#39;creme brulee&#39;
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>unaccent(&#39;Româneste&#39;) → &#39;Romaneste&#39;
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>unaccent(&#39;Æsir &amp; Œuvre&#39;) → &#39;AEsir &amp; OEuvre&#39;
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>unaccent(&#39;Łódź&#39;) → &#39;Lodz&#39;
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>unaccent(&#39;straße&#39;) → &#39;strasse&#39;
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a>unaccent(&#39;ёлка&#39;) → &#39;елка&#39;  -- cirillico yo diventa ye
+<a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>unaccent(&#39;°C&#39;) → &#39;°C&#39;  -- grado Celsius
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/unaccent/unaccent1.png"><img alt="" src="../../../img/stringhe_di_testo/unaccent/unaccent1.png" /></a></p>
 <p>Note:</p>
@@ -8193,14 +8260,14 @@
 <li><em><span style="color:red;">delimiter_string</span></em> il delimitatore stringa per spezzare in una nuova linea (opzionale).</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,13) → &#39;UNIVERSITY OF 
-<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>QGIS&#39;
-<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,-3) → &#39;UNIVERSITY OF 
-<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>QGIS&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,13) → &#39;UNIVERSITY OF 
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>QGIS&#39;
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>wordwrap(&#39;UNIVERSITY OF QGIS&#39;,-3) → &#39;UNIVERSITY OF 
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a>QGIS&#39;
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap1.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap1.png" /></a></p>
 <p>Per legende con testo lungo, tipico delle legende per carte geologiche:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>wordwrap(@symbol_label ,50)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>wordwrap(@symbol_label ,50)
 </code></pre></div>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap2.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap2.png" /></a></p>
 <p><a href="../../../img/stringhe_di_testo/wordwrap/wordwrap3.png"><img alt="" src="../../../img/stringhe_di_testo/wordwrap/wordwrap3.png" /></a></p>

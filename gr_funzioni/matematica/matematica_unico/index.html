@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_420/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.2  | 06/07/2026
   
 
     
@@ -2601,6 +2629,17 @@
     <span class="md-ellipsis">
       
         round
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scale_cubic_bezier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        scale_cubic_bezier
       
     </span>
   </a>
@@ -7037,6 +7076,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#scale_cubic_bezier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        scale_cubic_bezier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#scale_exp" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7532,6 +7582,26 @@
 <p>Esempi:</p>
 <p><a href="../../../img/matematica/round/round1.png"><img alt="" src="../../../img/matematica/round/round1.png" /></a></p>
 <hr />
+<h2 id="scale_cubic_bezier">scale_cubic_bezier<a class="headerlink" href="#scale_cubic_bezier" title="Permanent link">↵</a></h2>
+<p>Trasforma un dato valore da un dominio in ingresso ad un intervallo in uscita usando un'interpolazione a curva di Bézier cubica, definita da due punti di controllo. Completa le funzioni <code>scale_linear</code> e <code>scale_exp</code>, aggiungendo un metodo di interpolazione basato su curva di Bézier cubica (lo stesso usato per l'interpolazione "cubic-bezier" nella conversione degli stili MapBox).</p>
+<p>Sintassi:</p>
+<ul>
+<li>scale_cubic_bezier(<em><span style="color:red;">val</span>, <span style="color:red;">domain_min</span>, <span style="color:red;">domain_max</span>, <span style="color:red;">range_min</span>, <span style="color:red;">range_max</span>, <span style="color:red;">cp1x</span>, <span style="color:red;">cp1y</span>, <span style="color:red;">cp2x</span>, <span style="color:red;">cp2y</span></em>)</li>
+</ul>
+<p>Argomenti:</p>
+<ul>
+<li><em><span style="color:red;">val</span></em> Un valore nel dominio in ingresso. La funzione restituirà un valore scalato corrispondente nell'intervallo in uscita.</li>
+<li><em><span style="color:red;">domain_min</span></em> Specifica il valore minimo nel dominio in ingresso, il valore più basso che il valore in ingresso può assumere.</li>
+<li><em><span style="color:red;">domain_max</span></em> Specifica il valore massimo nel dominio in ingresso, il valore più alto che il valore in ingresso può assumere.</li>
+<li><em><span style="color:red;">range_min</span></em> Specifica il valore minimo nell'intervallo in uscita, il valore più basso che dovrebbe essere restituito in uscita dalla funzione.</li>
+<li><em><span style="color:red;">range_max</span></em> Specifica il valore massimo nell'intervallo di uscita, il valore più alto che dovrebbe essere restituito dalla funzione.</li>
+<li><em><span style="color:red;">cp1x, cp1y, cp2x, cp2y</span></em> Coordinate normalizzate (tra 0 e 1) dei due punti di controllo della curva di Bézier cubica, che determinano la forma dell'interpolazione.</li>
+</ul>
+<p>Esempi:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>scale_cubic_bezier(5,0,10,0,100,0.25,0.1,0.25,1) → valore interpolato secondo la curva di Bézier definita dai punti di controllo
+</code></pre></div>
+<p>Feature introdotta a partire da <strong>QGIS 4.2</strong></p>
+<hr />
 <h2 id="scale_exp">scale_exp<a class="headerlink" href="#scale_exp" title="Permanent link">↵</a></h2>
 <p>Trasforma un valore dato da un dominio in ingresso in un intervallo in uscita usando una curva esponenziale. Questa funzione può essere usata per agevolare gradualmente in entrata o in uscita i valori dell'intervallo in uscita specificato.</p>
 <p>Sintassi:</p>
@@ -7548,8 +7618,8 @@
 <li><em><span style="color:red;">exponent</span></em> Un valore positivo (maggiore di 0), che determina il modo con cui i valori in ingresso sono mappati nell'intervallo in uscita. Esponenti grandi agevoleranno gradualmente l'entrata dei valori in uscita​​, partendo lentamente prima di accelerare allorquando i valori in ingresso se si avvicinino al punto di massimo del dominio. Esponenti più piccoli (minori di 1) ne agevoleranno l'uscita, incominciando velocemente la mappatura per poi rallentare in prossimità del massimo del dominio.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>scale_exp(5,0,10,0,100,2) → 25 (agevolazione graduale in entrata, usando un esponente di 2)
-<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>scale_exp(3,0,10,0,100,0.5) → 54.772 (agevolazione graduale in uscita, usando un esponente di 0.5)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>scale_exp(5,0,10,0,100,2) → 25 (agevolazione graduale in entrata, usando un esponente di 2)
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>scale_exp(3,0,10,0,100,0.5) → 54.772 (agevolazione graduale in uscita, usando un esponente di 0.5)
 </code></pre></div>
 <p><a href="../../../img/matematica/scale_exp/scale_exp1.png"><img alt="" src="../../../img/matematica/scale_exp/scale_exp1.png" /></a></p>
 <hr />
@@ -7568,9 +7638,9 @@
 <li><em><span style="color:red;">range_max</span></em> Specifica il valore massimo nell'intervallo di uscita, il valore più alto che dovrebbe essere restituito dalla funzione.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>scale_linear(5,0,10,0,100) → 72
-<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>scale_linear(0.2,0,1,0,360) → 72 (per scalare un valore tra 0 e 1 in un angolo tra 0 e 360)
-<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>scale_linear(1500,1000,10000,9,20) → 10.22 (per scalare una popolazione che varia tra 1000 e 10000 in una dimensione del carattere tra 9 e 20)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>scale_linear(5,0,10,0,100) → 72
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>scale_linear(0.2,0,1,0,360) → 72 (per scalare un valore tra 0 e 1 in un angolo tra 0 e 360)
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>scale_linear(1500,1000,10000,9,20) → 10.22 (per scalare una popolazione che varia tra 1000 e 10000 in una dimensione del carattere tra 9 e 20)
 </code></pre></div>
 <p><a href="../../../img/matematica/scale_linear/scale_linear1.png"><img alt="" src="../../../img/matematica/scale_linear/scale_linear1.png" /></a></p>
 <hr />
@@ -7585,8 +7655,8 @@
 <li><em><span style="color:red;">angle</span></em> angolo in radianti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>sin(1.571) → 0.999999682931835
-<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>sin(pi()/2) → 1
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sin(1.571) → 0.999999682931835
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>sin(pi()/2) → 1
 </code></pre></div>
 <p><a href="../../../img/matematica/sin/sin1.png"><img alt="" src="../../../img/matematica/sin/sin1.png" /></a></p>
 <hr />
@@ -7601,7 +7671,7 @@
 <li><em><span style="color:red;">value</span></em> un numero</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sqrt(9) → 3
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>sqrt(9) → 3
 </code></pre></div>
 <p><a href="../../../img/matematica/sqrt/sqrt1.png"><img alt="" src="../../../img/matematica/sqrt/sqrt1.png" /></a></p>
 <hr />
@@ -7616,8 +7686,8 @@
 <li><em><span style="color:red;">angle</span></em> angolo in radianti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>tan(1.0) → 1.5574077246549
-<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>tan(pi()/2) → infinito
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>tan(1.0) → 1.5574077246549
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>tan(pi()/2) → infinito
 </code></pre></div>
 <p><a href="../../../img/matematica/tan/tan1.png"><img alt="" src="../../../img/matematica/tan/tan1.png" /></a></p>
 
