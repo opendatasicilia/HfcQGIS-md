@@ -5983,6 +5983,36 @@
   
   
     <li class="md-nav__item">
+      <a href="category/qgis-4-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    qgis-4-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="category/variabili/" class="md-nav__link">
         
   
@@ -6490,6 +6520,196 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2026-07-04 00:00:00+00:00">4 luglio 2026</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="category/espressioni/" class="md-meta__link">espressioni</a>, 
+              <a href="category/novita/" class="md-meta__link">novita</a>, 
+              <a href="category/qgis-4-2/" class="md-meta__link">qgis-4-2</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 minuti di lettura
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="qgis-42-novita-tra-espressioni-e-tabella-attributi"><a class="toclink" href="2026/07/04/qgis-42-novit%C3%A0-tra-espressioni-e-tabella-attributi/">QGIS 4.2: novità tra espressioni e tabella attributi</a></h2>
+<h3 id="introduzione"><a class="toclink" href="2026/07/04/qgis-42-novit%C3%A0-tra-espressioni-e-tabella-attributi/#introduzione">Introduzione</a></h3>
+<p><a href="https://changelog.qgis.org/en/qgis/version/4.2/">QGIS 4.2</a> è una release con 59 nuove feature, distribuite su 17 categorie e realizzate da 24 sviluppatori diversi. Il grosso del lavoro si concentra su <strong>3D</strong> e <strong>Symbology</strong>, seguiti da correzioni notevoli e da novità su point cloud e processing:</p>
+<table>
+<thead>
+<tr>
+<th>Categoria</th>
+<th style="text-align: right;">Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3D Features</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr>
+<td>Symbology</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Notable Fixes</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Point Clouds</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Processing</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Print Layouts</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Data Providers</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Expressions</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>QGIS Server</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Breaking Changes</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>User Interface</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Data Management</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Application and Project Options</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Sensors</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Profile Plots</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Programmability</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>Buona parte del lavoro porta la firma di Nyall Dawson (North Road), autore di quasi un terzo delle feature:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Sviluppatore</th>
+<th style="text-align: right;">Feature</th>
+<th>Azienda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Nyall Dawson</td>
+<td style="text-align: right;">19</td>
+<td>North Road</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Dominik Cindric</td>
+<td style="text-align: right;">9</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Jean Felder</td>
+<td style="text-align: right;">3</td>
+<td>Oslandia</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Julien Cabieces</td>
+<td style="text-align: right;">3</td>
+<td>Oslandia</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Martin Dobias</td>
+<td style="text-align: right;">3</td>
+<td>Lutra Consulting</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>Stefanos Natsis</td>
+<td style="text-align: right;">3</td>
+<td>Lutra Consulting</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>Mathieu Pellerin</td>
+<td style="text-align: right;">2</td>
+<td>OPENGIS.ch</td>
+</tr>
+</tbody>
+</table>
+<p>In questo panorama, le <strong>espressioni</strong> ricevono "solo" 2 nuove funzioni (categoria Expressions), ma sono entrambe di uso quotidiano nel Field Calc, e la <strong>tabella attributi</strong> guadagna una scorciatoia molto pratica verso la calcolatrice di campi (categoria Data Management). Sono proprio questi due ambiti il focus di questo post: vediamo nel dettaglio le novità, con particolare attenzione alle espressioni e alla tabella attributi.</p>
+<div class="admonition abstract">
+<p class="admonition-title">In breve</p>
+<p><strong>2 nuove funzioni</strong>: <code>scale_cubic_bezier</code> (interpolazione con curva di Bézier cubica) e <code>concat_ws</code> (concatenazione con separatore). <strong>Tabella attributi</strong>: voce "Field Calculator" nel menu delle intestazioni di colonna. Inoltre alcuni fix rilevanti a <code>concat()</code>, all'operatore IN con <code>nodes()</code> e a crash della calcolatrice di campi.</p>
+</div>
+
+    
+      <nav class="md-post__action">
+        <a href="2026/07/04/qgis-42-novit%C3%A0-tra-espressioni-e-tabella-attributi/">
+          Continua a leggere
+        </a>
+      </nav>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/pigreco.png" alt="Totò Fiandaca">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2026-03-16 00:00:00+00:00">16 marzo 2026</time></li>
         
           <li class="md-meta__item">
@@ -6964,61 +7184,6 @@ a 0 corrisponde la data 01/01/2019, a 1 corrisponde la data 02/01/2019 e così v
     
       <nav class="md-post__action">
         <a href="2023/11/05/un-uso-intelligente-della-distanza-di-levenshtein/">
-          Continua a leggere
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://github.com/pigreco.png" alt="Totò Fiandaca">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-09-25 00:00:00+00:00">25 settembre 2023</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="category/espressioni/" class="md-meta__link">espressioni</a>, 
-              <a href="category/help/" class="md-meta__link">help</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              3 minuti di lettura
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="help-in-linea"><a class="toclink" href="2023/09/25/help-in-linea/">Help in linea</a></h2>
-<h3 id="introduzione"><a class="toclink" href="2023/09/25/help-in-linea/#introduzione">Introduzione</a></h3>
-<p>L'help in linea del motore di espressioni di QGIS è utile e va consultato sempre. In questo post vediamo alcuni aspetti importanti.</p>
-<div class="admonition abstract">
-<p class="admonition-title">Help in linea Field Calc</p>
-<p><strong>L'help in linea del Field calc è indispensabile per un uso corretto delle espressioni, contiene la definizione della funzione/espressione, la sintassi, spiegazione degli argomenti ed esempi</strong></p>
-</div>
-
-    
-      <nav class="md-post__action">
-        <a href="2023/09/25/help-in-linea/">
           Continua a leggere
         </a>
       </nav>
