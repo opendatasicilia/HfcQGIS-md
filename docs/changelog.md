@@ -12,6 +12,11 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
+04/07/2026 | nuovo post del blog [QGIS 4.2: DB Manager lascia il core (ma non subito)](https://hfcqgis.opendatasicilia.it/blog/2026/07/04/qgis-42-db-manager-lascia-il-core-ma-non-subito/)
+04/07/2026 | nuovo post del blog [QGIS 4.2: novità tra espressioni e tabella attributi](https://hfcqgis.opendatasicilia.it/blog/2026/07/04/qgis-42-novità-tra-espressioni-e-tabella-attributi/)
+04/07/2026 | aggiunte le [novità rilevanti QGIS 4.2 Belém do Pará](release/novita_420.md): funzione `scale_cubic_bezier`, funzione `concat_ws`, voce "Field Calculator" nel menu della tabella attributi
+04/07/2026 | aggiunta funzione [`scale_cubic_bezier`](gr_funzioni/matematica/matematica_unico.md#scale_cubic_bezier) al gruppo Matematica
+04/07/2026 | aggiunta funzione [`concat_ws`](gr_funzioni/stringhe_di_testo/stringhe_di_testo_unico.md#concat_ws) al gruppo Stringhe di testo
 21/02/2026 | aggiunte le [novità rilevanti del calcolatore di campi QGIS 4.0](release/novita_400.md): 15 nuove funzioni in 5 gruppi
 21/02/2026 | aggiunto nuovo gruppo [Magnetico](gr_funzioni/magnetico/magnetico_unico.md) con 4 funzioni per i modelli di campo magnetico terrestre: `magnetic_declination`, `magnetic_inclination`, `magnetic_declination_rate_of_change`, `magnetic_inclination_rate_of_change`
 21/02/2026 | aggiunta funzione [`equals`](gr_funzioni/geometria/geometria_unico.md#equals) al gruppo Geometria
