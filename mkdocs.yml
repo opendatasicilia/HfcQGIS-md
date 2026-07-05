@@ -306,7 +306,7 @@ nav:
            - Decimali delle coordinate come apici: esempi/decimali_come_apice.md
            - Media e stdev tra campi: esempi/media_stdev_tra_campi.md
            - Classificazione specie: esempi/classificazione_specie.md
-           - Prelevare attributi da layer più vicini: esempi/classificazione_specie.md
+           - Prelevare attributi da layer più vicini: esempi/attributi_da_layer_vicini.md
            - Aggrega valori di una tabella: esempi/aggregare_valori_tabella.md
            - Etichettare con apici: esempi/etichettare_con_apici.md
            - ID univoco per gruppi consecutivi: esempi/ID_univoco_gruppi_consecutivi.md
