@@ -20,7 +20,7 @@ tags:
 
 ## Introduzione
 
-[QGIS 4.4 Auckland](https://changelog.qgis.org/en/qgis/version/4.4/), rilasciata il 15 novembre 2026, è la **candidata alla Long Term Release (LTR)**: dopo alcuni cicli di correzione diventerà la versione stabile di riferimento per il prossimo anno. Il changelog conta 48 feature in 18 categorie, e il grosso del lavoro si concentra su **Processing** e sulle correzioni:
+[QGIS 4.4 Auckland](https://changelog.qgis.org/en/qgis/version/4.4/), rilasciata il 20 novembre 2026, è la **candidata alla Long Term Release (LTR)**: dopo alcuni cicli di correzione diventerà la versione stabile di riferimento per il prossimo anno. Il changelog conta 48 feature in 18 categorie, e il grosso del lavoro si concentra su **Processing** e sulle correzioni:
 
 | Categoria | Feature |
 |---|--:|
