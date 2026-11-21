@@ -4,6 +4,8 @@
 - `docs/` contains the documentation source (Markdown pages, images in `docs/img/`, styles in `docs/stylesheets/`, and theme overrides in `docs/theme_override/`).
 - `mkdocs.yml` is the site configuration and navigation for the MkDocs Material build.
 - Helper scripts live at the repo root (e.g., `file_con_gruppi_funzioni_field_calc.py`, `nro_espressioni_x_gruppi_field_calc.py`).
+  - `report_changelog_qgis.py` builds an Italian summary report from a QGIS changelog Markdown export. Download the zip from the "MD" button on `https://changelog.qgis.org/en/version/<version>/`, extract it into `changelog_QGIS-<version>/` (git-ignored, add the folder to `.gitignore`), then run `python report_changelog_qgis.py changelog_QGIS-4.4/index.md changelog_QGIS-4.4/qgis_4.4_summary.md 4.4`. Update the `COMPANY` (developer → company) and `ALIAS` (funder name variants) maps for each release.
+  - `social_card_blog.py` generates an 800x464 blog social card (same style as `docs/img/card_social/hfc_blog_db_manager.png`) with Pillow and Windows Arial fonts. Texts are CLI options (`--etichetta`, `--titolo`, `--sottotitolo`, `--nota`); the right-hand icon is drawn for the QGIS 4.4 post and must be redrawn for other topics. Save cards in `docs/img/card_social/` and reference them with `social_image` in the post front matter.
 - Misc project notes are in `LOG.md` and licenses in `LICENSE.md` / `docs/LICENSE_my.md`.
 
 ## Build, Test, and Development Commands
