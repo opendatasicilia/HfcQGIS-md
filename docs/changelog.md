@@ -12,7 +12,8 @@ In questa sezione verranno inserite ogni modifica o aggiunta di esempi, funzioni
 
 data       | descrizione
 -----------|-----------
-21/11/2026 | aggiunte le [novità rilevanti QGIS 4.4 Auckland](release/novita_440.md): nuovi argomenti per `uuid` ed `extend`, pulsante Aiuto nella tabella attributi, widget QML modificabile nei moduli
+21/11/2026 | nuovo post del blog [QGIS 4.4: torna l'elemento HTML nel layout di stampa](https://hfcqgis.opendatasicilia.it/blog/2026/11/21/qgis-44-torna-lelemento-html-nel-layout-di-stampa/)
+21/11/2026 | aggiunte le [novità rilevanti QGIS 4.4 Auckland](release/novita_440.md): nuovi argomenti per `uuid` ed `extend`, pulsante "Open help" nella tabella attributi, widget QML modificabile nei moduli
 21/11/2026 | aggiornata la funzione [`uuid`](gr_funzioni/record_e_attributi/record_e_attributi_unico.md#uuid) con l'argomento `version` (UUID v4/v7)
 21/11/2026 | aggiornata la funzione [`extend`](gr_funzioni/geometria/geometria_unico.md#extend) con gli argomenti `start_deflection` ed `end_deflection`
 04/07/2026 | nuovo post del blog [QGIS 4.2: DB Manager lascia il core (ma non subito)](https://hfcqgis.opendatasicilia.it/blog/2026/07/04/qgis-42-db-manager-lascia-il-core-ma-non-subito/)
