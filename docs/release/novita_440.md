@@ -12,7 +12,6 @@ Nessuna nuova funzione: in QGIS 4.4 due funzioni esistenti ricevono nuovi argome
 
 ```
 uuid(version:=7) → '{01a1ff22-6030-75c8-ad1e-02f587a9f472}'
-uuid('WithoutBraces', 7) → '01a1ff22-6030-75c8-ad1e-02f587a9f472'
 ```
 
 !!! tip "Perché UUID v7?"
