@@ -6,6 +6,8 @@ Richiede Pillow e i font Arial / Yu Gothic di Windows (C:/Windows/Fonts).
 Uso:
     python carosello_linkedin_changelog.py changelog_QGIS-4.4/qgis_4.4_summary.md changelog_QGIS-4.4/qgis_4.4_carosello_linkedin.pdf --nome Auckland
     (--png salva anche ogni slide come PNG)
+    GIF animata con i colori del brand QGIS:
+    python carosello_linkedin_changelog.py changelog_QGIS-4.4/qgis_4.4_summary.md out.pdf --nome Auckland --tema qgis --gif changelog_QGIS-4.4/qgis_4.4_carosello_linkedin.gif
 """
 import argparse
 import re
@@ -17,6 +19,8 @@ ap.add_argument("src", help="report qgis_<ver>_summary.md")
 ap.add_argument("out", help="PDF di uscita")
 ap.add_argument("--nome", default="", help="nome della release, es. Auckland")
 ap.add_argument("--png", action="store_true", help="salva anche le slide in PNG")
+ap.add_argument("--gif", help="salva anche una GIF animata del carosello (percorso)")
+ap.add_argument("--tema", choices=["base", "qgis"], default="base", help="qgis = palette ufficiale QGIS")
 args = ap.parse_args()
 src, out = args.src, args.out
 md = open(src, encoding="utf-8").read().split("## Elenco completo")[0]
@@ -31,6 +35,18 @@ BG = (236, 236, 236)
 CARD = (250, 250, 250)
 ORANGE = (230, 110, 10)
 GREEN = (79, 125, 50)       # serie unica (verde QGIS scuro)
+BAND = [GREEN]              # fascia in alto
+if args.tema == "qgis":     # palette del brand QGIS
+    GREEN = (0x58, 0x96, 0x32)
+    ORANGE = (0xEE, 0x79, 0x13)
+    BAND = [GREEN, (0x93, 0xB0, 0x23), (0xF0, 0xE6, 0x4A), ORANGE]
+
+
+def band(d):
+    """Fascia colorata in alto: tinta unica o strisce con i colori QGIS."""
+    w = W / len(BAND)
+    for i, c in enumerate(BAND):
+        d.rectangle((int(i * w), 0, int((i + 1) * w), 14 * S), fill=c)
 TRACK = (222, 222, 222)
 INK = (17, 17, 17)
 INK2 = (75, 75, 75)
@@ -63,7 +79,7 @@ TOTAL = 7
 def base(n, kicker, title):
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, W, 14 * S), fill=GREEN)
+    band(d)
     d.text((80 * S, 80 * S), kicker, font=bold(30), fill=ORANGE)
     y = 128 * S
     for line in title.split("\n"):
@@ -116,7 +132,7 @@ slides = []
 # 1. copertina
 im = Image.new("RGB", (W, H), BG)
 d = ImageDraw.Draw(im)
-d.rectangle((0, 0, W, 14 * S), fill=GREEN)
+band(d)
 if args.nome:
     d.text((80 * S, 230 * S), f"QGIS {ver}", font=bold(120), fill=INK)
     d.text((80 * S, 370 * S), args.nome, font=bold(120), fill=GREEN)
@@ -131,8 +147,9 @@ for i, (k, v) in enumerate([("feature", over["Feature totali"]), ("categorie", o
     x = (84 + i * 300) * S
     d.text((x, 800 * S), v, font=bold(96), fill=ORANGE)
     d.text((x + 4 * S, 915 * S), k, font=reg(32), fill=INK2)
-d.text((84 * S, H - 200 * S), "Scorri  →", font=bold(36), fill=INK)
 d.text((84 * S, H - 120 * S), "by @opendatasicilia · hfcqgis.opendatasicilia.it", font=reg(26), fill=MUTED)
+cover_gif = im.copy()  # nella GIF le slide avanzano da sole: niente "Scorri"
+d.text((84 * S, H - 200 * S), "Scorri  →", font=bold(36), fill=INK)
 slides.append(im)
 
 # 2. panoramica: stat tile
@@ -182,7 +199,7 @@ slides.append(im)
 # 7. chiusura
 im = Image.new("RGB", (W, H), BG)
 d = ImageDraw.Draw(im)
-d.rectangle((0, 0, W, 14 * S), fill=GREEN)
+band(d)
 d.text((80 * S, 300 * S), "Approfondisci", font=bold(84), fill=INK)
 items = [
     ("Changelog ufficiale", f"changelog.qgis.org/en/version/{ver}"),
@@ -202,6 +219,27 @@ slides.append(im)
 
 slides = [s.resize((1080, 1350), Image.LANCZOS) for s in slides]
 slides[0].save(out, save_all=True, append_images=slides[1:], resolution=72)
+if args.gif:
+    # GIF: slide ridotte, pausa su ogni slide e scorrimento orizzontale (swipe)
+    gw, gh, hold, steps = 720, 900, 2600, 8
+    small = [s.resize((gw, gh), Image.LANCZOS) for s in [cover_gif.resize((1080, 1350), Image.LANCZOS)] + slides[1:]]
+    frames, durs = [], []
+    for i, s in enumerate(small):
+        frames.append(s)
+        durs.append(hold + (600 if i == 0 else 0))
+        nxt = small[(i + 1) % len(small)]
+        for k in range(1, steps + 1):
+            t = k / (steps + 1)
+            off = int(gw * (1 - (1 - t) ** 3))  # ease-out
+            f = Image.new("RGB", (gw, gh), BG)
+            f.paste(s, (-off, 0))
+            f.paste(nxt, (gw - off, 0))
+            frames.append(f)
+            durs.append(40)
+    pal = [f.quantize(colors=128, method=Image.Quantize.MEDIANCUT) for f in frames]
+    pal[0].save(args.gif, save_all=True, append_images=pal[1:], duration=durs, loop=0,
+                optimize=True, disposal=1)
+    print("gif", args.gif, len(frames), "frame")
 if args.png:
     for i, s in enumerate(slides, 1):
         s.save(out.replace(".pdf", f"_{i}.png"))
