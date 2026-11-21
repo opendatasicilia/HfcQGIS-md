@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7559,8 +7587,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">datetime2</span></em> una stringa, in formato data o data/ora rappresentante la data più recente</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>age(&#39;2012-05-12&#39;,&#39;2012-05-02&#39;) → intervallo (usa day per estrarre il numero di giorni)
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>day(age(&#39;2012-05-12&#39;,&#39;2012-05-02&#39;)) → 10
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>age('2012-05-12','2012-05-02') → intervallo (usa day per estrarre il numero di giorni)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>day(age('2012-05-12','2012-05-02')) → 10
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/age1.png"><img alt="" src="../../../img/data_e_ora/age1.png" /></a></p>
 <hr />
@@ -7576,8 +7604,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">timezone</span></em> fuso orario di destinazione</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>convert_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;), timezone_from_id(&#39;UTC+10&#39;)) → datetime 2012-05-04 19:50:00 (UTC+10)
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>convert_timezone(&quot;DATE_FIELD&quot;, timezone_from_id(&#39;Australia/Darwin&#39;)) → datetime del campo DATE_FIELD convertito nel fuso orario &#39;Australia/Darwin&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>convert_timezone(to_datetime('2012-05-04 12:50:00+3'), timezone_from_id('UTC+10')) → datetime 2012-05-04 19:50:00 (UTC+10)
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>convert_timezone("DATE_FIELD", timezone_from_id('Australia/Darwin')) → datetime del campo DATE_FIELD convertito nel fuso orario 'Australia/Darwin'
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/convert_timezone1.png"><img alt="" src="../../../img/data_e_ora/convert_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -7621,9 +7649,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di giorni</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>day(to_interval(&#39;3 days&#39;)) → 3
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>day(to_interval(&#39;3 weeks 2 days&#39;)) → 23
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>day(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 730
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>day(to_interval('3 days')) → 3
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>day(to_interval('3 weeks 2 days')) → 23
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>day(age('2012-01-01','2010-01-01')) → 730
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/day1.png"><img alt="" src="../../../img/data_e_ora/day1.png" /></a></p>
 <hr />
@@ -7638,7 +7666,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">date</span></em> valore data o datetime</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>day_of_week(todate(&#39;2018-05-09&#39;)) → 3 (Mercoledì)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>day_of_week(todate('2018-05-09')) → 3 (Mercoledì)
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/day_of_week1.png"><img alt="" src="../../../img/data_e_ora/day_of_week1.png" /></a></p>
 <p>Osservazioni:</p>
@@ -7663,7 +7691,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">date</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>epoch(to_date(&#39;2017-01-01&#39;)) → 1483203600000
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>epoch(to_date('2017-01-01')) → 1483203600000
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/epoch1.png"><img alt="" src="../../../img/data_e_ora/epoch1.png" /></a></p>
 <hr />
@@ -7791,11 +7819,11 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">language</span></em> linguaggio (minuscolo, due o tre lettere, <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">codice ISO 639</a>) utilizzato per formattare la data in una stringa personalizzata (<strong>&gt;= QGIS 3.12</strong>)</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>format_date(&#39;2012-05-15&#39;,&#39;dd.MM.yyyy&#39;) → &#39;15.05.2012&#39;
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>format_date(&#39;2012-05-15&#39;,&#39;d MMMM yyyy&#39;,&#39;fr&#39;) → &#39;15 mai 2012&#39;
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>format_date(&#39;2012-05-15&#39;,&#39;dddd&#39;) → &#39;Tuesday&#39;, se la lingua corrente è una variante inglese
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>format_date(&#39;2012-05-15 13:54:20&#39;,&#39;dd.MM.yy&#39;) → &#39;15.05.12&#39;
-<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>format_date(&#39;13:54:20&#39;,&#39;hh:mm AP&#39;) → &#39;01:54 PM&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>format_date('2012-05-15','dd.MM.yyyy') → '15.05.2012'
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>format_date('2012-05-15','d MMMM yyyy','fr') → '15 mai 2012'
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>format_date('2012-05-15','dddd') → 'Tuesday', se la lingua corrente è una variante inglese
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>format_date('2012-05-15 13:54:20','dd.MM.yy') → '15.05.12'
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>format_date('13:54:20','hh:mm AP') → '01:54 PM'
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/format_date1.png"><img alt="" src="../../../img/data_e_ora/format_date1.png" /></a></p>
 <p><a href="../../../img/data_e_ora/format_data_2.png"><img alt="" src="../../../img/data_e_ora/format_data_2.png" /></a></p>
@@ -7811,8 +7839,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">datetime</span></em> valore datetime con fuso orario</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>timezone_id(get_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;))) → &#39;UTC+03&#39;
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>timezone_id(get_timezone(&quot;DATE_FIELD&quot;)) → ID del fuso orario associato al valore del campo DATE_FIELD
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>timezone_id(get_timezone(to_datetime('2012-05-04 12:50:00+3'))) → 'UTC+03'
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>timezone_id(get_timezone("DATE_FIELD")) → ID del fuso orario associato al valore del campo DATE_FIELD
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/get_timezone1.png"><img alt="" src="../../../img/data_e_ora/get_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -7830,7 +7858,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">datetime</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>hour(to_datetime(&#39;2018-05-09T11:58:57&#39;)) → 11
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>hour(to_datetime('2018-05-09T11:58:57')) → 11
 </code></pre></div>
 <a href="../../../img/data_e_ora/hour1.png"><img alt="" src="../../../img/data_e_ora/hour1.png" /></a></p>
 <h3 id="variabile-intervallo_1">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_1" title="Permanent link">↵</a></h3>
@@ -7844,9 +7872,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di ore</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>hour(tointerval(&#39;3 hours&#39;)) → 3
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>hour(age(&#39;2012-07-22T13:00:00&#39;,&#39;2012-07-22T10:00:00&#39;)) → 3
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>hour(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 17520
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>hour(tointerval('3 hours')) → 3
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>hour(age('2012-07-22T13:00:00','2012-07-22T10:00:00')) → 3
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>hour(age('2012-01-01','2010-01-01')) → 17520
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/hour2.png"><img alt="" src="../../../img/data_e_ora/hour2.png" /></a></p>
 <hr />
@@ -7891,7 +7919,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <p>Crea un valore di intervallo dai valori di anno, mese, settimane, giorni, ore, minuti e secondi.</p>
 <p>Sintassi:</p>
 <ul>
-<li>make_interval(<em><span style="color:red;">_years=0</span></em>][,<em><span style="color:red;">months=0</span></em>][,<em><span style="color:red;">weeks=0</span></em>][,<em><span style="color:red;">days=0</span></em>][,<em><span style="color:red;">hours=0</span></em>][,<em><span style="color:red;">minutes=0</span></em>][,_<span style="color:red;">seconds=0</span>])</li>
+<li>make_interval(<em><span style="color:red;"><em>years=0</span></em>][,</em><span style="color:red;">months=0</span><em>][,</em><span style="color:red;">weeks=0</span><em>][,</em><span style="color:red;">days=0</span><em>][,</em><span style="color:red;">hours=0</span><em>][,</em><span style="color:red;">minutes=0</span><em>][,</em><span style="color:red;">seconds=0</span>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
@@ -7939,7 +7967,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">datetime</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>minute(&#39;2012-07-22T13:24:57&#39;) → 24
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>minute('2012-07-22T13:24:57') → 24
 </code></pre></div>
 <a href="../../../img/data_e_ora/minute1.png"><img alt="" src="../../../img/data_e_ora/minute1.png" /></a></p>
 <h3 id="variabile-intervallo_2">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_2" title="Permanent link">↵</a></h3>
@@ -7953,9 +7981,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di minuti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>minute(tointerval(&#39;3 minutes&#39;)) → 3
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>minute(age(&#39;2012-07-22T00:20:00&#39;,&#39;2012-07-22T00:00:00&#39;)) → 20
-<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>minute(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 1051200
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>minute(tointerval('3 minutes')) → 3
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>minute(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 20
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>minute(age('2012-01-01','2010-01-01')) → 1051200
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/minute2.png"><img alt="" src="../../../img/data_e_ora/minute2.png" /></a></p>
 <hr />
@@ -7972,7 +8000,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">date</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>month(&#39;2012-05-12&#39;) → 05
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>month('2012-05-12') → 05
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/month1.png"><img alt="" src="../../../img/data_e_ora/month1.png" /></a></p>
 <h3 id="variabile-intervallo_3">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_3" title="Permanent link">↵</a></h3>
@@ -7986,8 +8014,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di mesi</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>month(to_interval(&#39;3 months&#39;)) → 3
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>month(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 24.3333
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>month(to_interval('3 months')) → 3
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>month(age('2012-01-01','2010-01-01')) → 24.3333
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/month1.png"><img alt="" src="../../../img/data_e_ora/month1.png" /></a></p>
 <hr />
@@ -8015,7 +8043,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">datetime</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>second(&#39;2012-07-22T13:24:57&#39;) → 57
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>second('2012-07-22T13:24:57') → 57
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/second1.png"><img alt="" src="../../../img/data_e_ora/second1.png" /></a></p>
 <h3 id="variabile-intervallo_4">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_4" title="Permanent link">↵</a></h3>
@@ -8029,8 +8057,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di secondi</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>second(age(&#39;2012-07-22T00:20:00&#39;,&#39;2012-07-22T00:00:00&#39;)) → 1200
-<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>second(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 63072000
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>second(age('2012-07-22T00:20:00','2012-07-22T00:00:00')) → 1200
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>second(age('2012-01-01','2010-01-01')) → 63072000
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/second2.png"><img alt="" src="../../../img/data_e_ora/second2.png" /></a></p>
 <hr />
@@ -8046,8 +8074,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">timezone</span></em> nuovo fuso orario da associare al datetime</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>set_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;), timezone_from_id(&#39;UTC+10&#39;)) → datetime 2012-05-04 12:50:00 (UTC+10)
-<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>set_timezone(make_datetime(2020,1,1,10,0,0), timezone_from_id(&#39;Australia/Darwin&#39;)) → datetime 2020-01-01 10:00:00 con fuso orario &#39;Australia/Darwin&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>set_timezone(to_datetime('2012-05-04 12:50:00+3'), timezone_from_id('UTC+10')) → datetime 2012-05-04 12:50:00 (UTC+10)
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>set_timezone(make_datetime(2020,1,1,10,0,0), timezone_from_id('Australia/Darwin')) → datetime 2020-01-01 10:00:00 con fuso orario 'Australia/Darwin'
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/set_timezone1.png"><img alt="" src="../../../img/data_e_ora/set_timezone1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -8063,9 +8091,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">id</span></em> stringa contenente l'identificatore del fuso orario</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>timezone_from_id(&#39;Australia/Brisbane&#39;) → oggetto fuso orario AEST
-<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>timezone_from_id(&#39;UTC+10:30&#39;) → oggetto fuso orario UTC+10:30
-<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>timezone_from_id(&#39;UTC-3&#39;) → oggetto fuso orario UTC-03
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>timezone_from_id('Australia/Brisbane') → oggetto fuso orario AEST
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>timezone_from_id('UTC+10:30') → oggetto fuso orario UTC+10:30
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>timezone_from_id('UTC-3') → oggetto fuso orario UTC-03
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/timezone_from_id1.png"><img alt="" src="../../../img/data_e_ora/timezone_from_id1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -8081,8 +8109,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">timezone</span></em> un oggetto fuso orario valido</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>timezone_id(get_timezone(to_datetime(&#39;2012-05-04 12:50:00+3&#39;))) → &#39;UTC+03&#39;
-<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>timezone_id(timezone_from_id(&#39;Australia/Brisbane&#39;)) → &#39;Australia/Brisbane&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>timezone_id(get_timezone(to_datetime('2012-05-04 12:50:00+3'))) → 'UTC+03'
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>timezone_id(timezone_from_id('Australia/Brisbane')) → 'Australia/Brisbane'
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/timezone_id1.png"><img alt="" src="../../../img/data_e_ora/timezone_id1.png" /></a></p>
 <p>Feature introdotta a partire da <strong>QGIS 4.0</strong></p>
@@ -8101,9 +8129,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">language</span></em> lingua (minuscolo, due o tre lettere, codice lingua ISO 639) utilizzata per convertire la stringa in una data. Per impostazione predefinita, viene utilizzata la locale dell'utente di QGIS corrente.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>to_date(&#39;2012-05-04&#39;) → 2012-05-04
-<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>to_date(&#39;June 29, 2019&#39;,&#39;MMMM d, yyyy&#39;) → 2019-06-29, se la locale corrente utilizza il nome &#39;June&#39; per il sesto mese, altrimenti si verifica un errore
-<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>to_date(&#39;29 juin, 2019&#39;,&#39;d MMMM, yyyy&#39;,&#39;fr&#39;) → 2019-06-29
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>to_date('2012-05-04') → 2012-05-04
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>to_date('June 29, 2019','MMMM d, yyyy') → 2019-06-29, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>to_date('29 juin, 2019','d MMMM, yyyy','fr') → 2019-06-29
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/to_date1.png"><img alt="" src="../../../img/data_e_ora/to_date1.png" /></a></p>
 <hr />
@@ -8121,9 +8149,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">language</span></em> lingua (minuscolo, due o tre lettere, codice lingua ISO 639) utilizzata per convertire la stringa in una data. Per impostazione predefinita, viene utilizzata la locale dell'utente di QGIS corrente.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>to_datetime(&#39;2012-05-04 12:50:00&#39;) → 2012-05-04T12:50:00
-<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>to_datetime(&#39;June 29, 2019 @ 12:34&#39;,&#39;MMMM d, yyyy @ HH:mm&#39;) → 2019-06-29T12:34, se la locale corrente utilizza il nome &#39;June&#39; per il sesto mese, altrimenti si verifica un errore
-<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>to_datetime(&#39;29 juin, 2019 @ 12:34&#39;,&#39;d MMMM, yyyy @ HH:mm&#39;,&#39;fr&#39;) → 2019-06-29T12:3
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>to_datetime('2012-05-04 12:50:00') → 2012-05-04T12:50:00
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>to_datetime('June 29, 2019 @ 12:34','MMMM d, yyyy @ HH:mm') → 2019-06-29T12:34, se la locale corrente utilizza il nome 'June' per il sesto mese, altrimenti si verifica un errore
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>to_datetime('29 juin, 2019 @ 12:34','d MMMM, yyyy @ HH:mm','fr') → 2019-06-29T12:3
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/to_datetime1.png"><img alt="" src="../../../img/data_e_ora/to_datetime1.png" /></a></p>
 <hr />
@@ -8138,9 +8166,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">string</span></em> una stringa rappresentante un intervallo. I formati ammessi includono {n} giorni {n} ore {n} mesi.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>to_interval(&#39;1 day 2 hours&#39;) → interval: 1.08333 days
-<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>to_interval( &#39;0.5 hours&#39; ) → intervallo: 30 minuti
-<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>to_datetime(&#39;2012-05-05 12:00:00&#39;) - to_interval(&#39;1 day 2 hours&#39;) → 2012-05-04T10:00:00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>to_interval('1 day 2 hours') → interval: 1.08333 days
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>to_interval( '0.5 hours' ) → intervallo: 30 minuti
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/to_interval1.png"><img alt="" src="../../../img/data_e_ora/to_interval1.png" /></a></p>
 <hr />
@@ -8158,9 +8186,9 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">language</span></em> lingua (minuscolo, due o tre lettere, codice lingua ISO 639) utilizzata per convertire la stringa in un orario.</li>
 <li>Esempi:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>to_time(&#39;12:30:01&#39;) → 12:30:01
-<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>to_time(&#39;12:34&#39;,&#39;HH:mm&#39;) → 12:34:00
-<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>to_time(&#39;12:34&#39;,&#39;HH:mm&#39;,&#39;fr&#39;) → 12:34:00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>to_time('12:30:01') → 12:30:01
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>to_time('12:34','HH:mm') → 12:34:00
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>to_time('12:34','HH:mm','fr') → 12:34:00
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/to_time1.png"><img alt="" src="../../../img/data_e_ora/to_time1.png" /></a></p>
 <hr />
@@ -8177,7 +8205,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">date</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>week(&#39;2018-05-09&#39;) → 19
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>week('2018-05-09') → 19
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/week1.png"><img alt="" src="../../../img/data_e_ora/week1.png" /></a></p>
 <h3 id="variabile-intervallo_5">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_5" title="Permanent link">↵</a></h3>
@@ -8191,8 +8219,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di mesi</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>week(tointerval(&#39;3 weeks&#39;)) → 3
-<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>week(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 104.285
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>week(tointerval('3 weeks')) → 3
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>week(age('2012-01-01','2010-01-01')) → 104.285
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/week2.png"><img alt="" src="../../../img/data_e_ora/week2.png" /></a></p>
 <hr />
@@ -8209,7 +8237,7 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">date</span></em> un valore data o data/ora</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>week(&#39;2018-05-09&#39;) → 19
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>week('2018-05-09') → 19
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/year1.png"><img alt="" src="../../../img/data_e_ora/year1.png" /></a></p>
 <h3 id="variabile-intervallo_6">Variabile intervallo<a class="headerlink" href="#variabile-intervallo_6" title="Permanent link">↵</a></h3>
@@ -8223,8 +8251,8 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
 <li><em><span style="color:red;">interval</span></em> valore intervallo da cui restituire il numero di anni</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>year(to_interval(&#39;3 years&#39;)) → 3
-<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>year(age(&#39;2012-01-01&#39;,&#39;2010-01-01&#39;)) → 1.9986
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>year(to_interval('3 years')) → 3
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>year(age('2012-01-01','2010-01-01')) → 1.9986
 </code></pre></div>
 <p><a href="../../../img/data_e_ora/year2.png"><img alt="" src="../../../img/data_e_ora/year2.png" /></a></p>
 <hr />
@@ -8522,11 +8550,11 @@ La differenza è restituita come <em>Interval</em> e deve essere usata con una d
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

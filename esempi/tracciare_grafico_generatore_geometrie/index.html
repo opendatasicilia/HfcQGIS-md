@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1027,6 +1027,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6889,9 +6917,9 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>translate( 
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    make_line(-- curva
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        relation_aggregate( 
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        relation:=&#39;rel1&#39;,
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>        expression:=make_point( $id*50, &quot;totale_casi&quot;/&quot;pop_res&quot;*2*10^7 ))
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        relation:='rel1',
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        aggregate:='array_agg',
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>        expression:=make_point( $id*50, "totale_casi"/"pop_res"*2*10^7 ))
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            ),
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>x(centroid($geometry)),y(centroid($geometry)))
 </code></pre></div>
@@ -6908,9 +6936,9 @@
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>        translate( 
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>            make_line(
 <a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>                relation_aggregate( 
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>                relation:=&#39;rel1&#39;,
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>                aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>                expression:=make_point( $id*50, &quot;totale_casi&quot;/&quot;pop_res&quot;*2*10^7))),
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>                relation:='rel1',
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>                aggregate:='array_agg',
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>                expression:=make_point( $id*50, "totale_casi"/"pop_res"*2*10^7))),
 <a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>        x(centroid($geometry)),y(centroid($geometry))
 <a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>                 )
 <a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>                )))
@@ -6925,9 +6953,9 @@
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>        translate( 
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>            make_line(
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>                relation_aggregate( 
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>                relation:=&#39;rel1&#39;,
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>                aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>                expression:=make_point( $id*50, &quot;totale_casi&quot;/&quot;pop_res&quot;*2*10^7))),
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>                relation:='rel1',
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>                aggregate:='array_agg',
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>                expression:=make_point( $id*50, "totale_casi"/"pop_res"*2*10^7))),
 <a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>        x(centroid($geometry)),y(centroid($geometry))
 <a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>        )
 <a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>                        )
@@ -6941,9 +6969,9 @@
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    translate(
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>        make_line(
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>            relation_aggregate( 
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>            relation:=&#39;rel1&#39;,
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>            aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>            expression:=make_point( $id*50, &quot;totale_casi&quot;/&quot;pop_res&quot;*2*10^7 ))),
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>            relation:='rel1',
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>            aggregate:='array_agg',
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>            expression:=make_point( $id*50, "totale_casi"/"pop_res"*2*10^7 ))),
 <a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    x(centroid($geometry)),y(centroid($geometry)))
 <a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>        )
 </code></pre></div>
@@ -6951,9 +6979,9 @@
 <li>etichetta punto</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>round(to_string(relation_aggregate( 
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>relation:=&#39;rel1&#39;,
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>expression:=&quot;totale_casi&quot;/&quot;pop_res&quot;)[-1])*1000,1)
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>relation:='rel1',
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>aggregate:='array_agg',
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>expression:="totale_casi"/"pop_res")[-1])*1000,1)
 </code></pre></div>
 <p><a href="../../img/esempi/geoplot/img_03.png"><img alt="" src="../../img/esempi/geoplot/img_03.png" /></a></p>
 <p>Gif animata realizzata con il plugin TimeManager di Anita Graser</p>
@@ -6970,15 +6998,15 @@
 </ul>
 <h3 id="caso-generico">caso generico<a class="headerlink" href="#caso-generico" title="Permanent link">↵</a></h3>
 <p>espressione consigliata</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>with_variable(&#39;id_min&#39;, relation_aggregate( relation:=&#39;rel1&#39;,aggregate:=&#39;array_agg&#39;,expression:= $id)[0],
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>(with_variable(&#39;pos_min&#39;, relation_aggregate( relation:=&#39;rel1&#39;,aggregate:=&#39;array_agg&#39;,expression:=&quot;positive&quot;)[0],
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>with_variable('id_min', relation_aggregate( relation:='rel1',aggregate:='array_agg',expression:= $id)[0],
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>(with_variable('pos_min', relation_aggregate( relation:='rel1',aggregate:='array_agg',expression:="positive")[0],
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>(
 <a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>translate( 
 <a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>make_line(-- curva
 <a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>relation_aggregate( 
-<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>relation:=&#39;rel1&#39;,
-<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>aggregate:=&#39;array_agg&#39;,
-<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>expression:=make_point(($id - @id_min )*200, (&quot;positive&quot; - @pos_min)*2))),
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>relation:='rel1',
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>aggregate:='array_agg',
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>expression:=make_point(($id - @id_min )*200, ("positive" - @pos_min)*2))),
 <a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>x(centroid($geometry)),y(centroid($geometry)))
 <a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>))))
 </code></pre></div>
@@ -7523,11 +7551,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../stylesheets/extra.js"></script>
       

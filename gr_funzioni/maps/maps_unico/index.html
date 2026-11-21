@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7024,8 +7052,8 @@
 <li><em><span style="color:red;">string</span></em> stringa json</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>from_json(&#39;{&quot;qgis&quot;:&quot;rocks&quot;}&#39;) → { &quot;qgis&quot; : &quot;rocks&quot; }
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>from_json(&#39;[1,2,3]&#39;) → [1,2,3]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>from_json('{"qgis":"rocks"}') → { "qgis" : "rocks" }
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>from_json('[1,2,3]') → [1,2,3]
 </code></pre></div>
 <p><a href="../../../img/maps/from_json/from_json_01.png"><img alt="" src="../../../img/maps/from_json/from_json_01.png" /></a></p>
 <hr />
@@ -7040,7 +7068,7 @@
 <li><em><span style="color:red;">string</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>hstore_to_map(&#39;qgis=&gt;rocks&#39;) → { &quot;qgis&quot; : &quot;rocks&quot; }
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>hstore_to_map('qgis=&gt;rocks') → { "qgis" : "rocks" }
 </code></pre></div>
 <p><a href="../../../img/maps/hstore_to_map/hstore_to_map1.png"><img alt="" src="../../../img/maps/hstore_to_map/hstore_to_map1.png" /></a></p>
 <hr />
@@ -7055,7 +7083,7 @@
 <li><em><span style="color:red;">string</span></em> una stringa json</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>json_to_map(&#39;{&quot;qgis&quot;:&quot;rocks&quot;}&#39;) → { &quot;qgis&quot; : &quot;rocks&quot; }`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>json_to_map('{"qgis":"rocks"}') → { "qgis" : "rocks" }`
 </code></pre></div>
 <p><a href="../../../img/maps/json_to_map/json_to_map1.png"><img alt="" src="../../../img/maps/json_to_map/json_to_map1.png" /></a></p>
 <p>nota bene:</p>
@@ -7072,7 +7100,7 @@
 <li><em><span style="color:red;">value</span></em> un valore</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;, &#39;two&#39;) → map: 1: &#39;one&#39;, 2: &#39;two&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>map('1','one','2', 'two') → map: 1: 'one', 2: 'two'
 </code></pre></div>
 <h2 id="_1"><a href="../../../img/maps/map/map1.png"><img alt="" src="../../../img/maps/map/map1.png" /></a><a class="headerlink" href="#_1" title="Permanent link">↵</a></h2>
 <p>Altri esempi:</p>
@@ -7096,18 +7124,18 @@
 <li><em><span style="color:red;">map</span></em> una mappa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>map_akeys(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;)) → array: &#39;1&#39;, &#39;2&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>map_akeys(map('1','one','2','two')) → array: '1', '2'
 </code></pre></div>
 <p><a href="../../../img/maps/map_akeys/map_akeys1.png"><img alt="" src="../../../img/maps/map_akeys/map_akeys1.png" /></a></p>
 <p>Altri esempi:</p>
 <p><a href="../../../img/maps/map_akeys/map_akeys2.png"><img alt="" src="../../../img/maps/map_akeys/map_akeys2.png" /></a></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a> map_akeys( 
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a> map(&#39;Area_Ha&#39;,$area/10000,&#39;Perimetro_km&#39;,$perimeter/1000)) → [&#39;Area_Ha&#39;,&#39;Perimetro_km&#39;]
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a> map('Area_Ha',$area/10000,'Perimetro_km',$perimeter/1000)) → ['Area_Ha','Perimetro_km']
 </code></pre></div>
 <h3 id="compositore-di-stampe">Compositore di stampe<a class="headerlink" href="#compositore-di-stampe" title="Permanent link">↵</a></h3>
 <p><code>akeys</code> utilizzabile in ambito compositore stampe per conoscere tutte le variabili disponibili per ogni <code>Mappa</code> inserita:</p>
 <p><a href="../../../img/maps/map_akeys/map_akeys3.png"><img alt="" src="../../../img/maps/map_akeys/map_akeys3.png" /></a></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>wordwrap( array_to_string(  map_akeys(  item_variables( &#39;Mappa 1&#39;) ) ),1,&#39;,&#39;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>wordwrap( array_to_string(  map_akeys(  item_variables( 'Mappa 1') ) ),1,',')
 </code></pre></div>
 <p>risultato della espressione:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>_project_transform_context
@@ -7189,7 +7217,7 @@
 <li><em><span style="color:red;">map</span></em> una mappa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>map_avals(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;)) → array: &#39;one&#39;, &#39;two&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>map_avals(map('1','one','2','two')) → array: 'one', 'two'
 </code></pre></div>
 <p><a href="../../../img/maps/map_avals/map_avals1.png"><img alt="" src="../../../img/maps/map_avals/map_avals1.png" /></a></p>
 <p>--</p>
@@ -7198,13 +7226,13 @@
 <h2 id="map_concat">map_concat<a class="headerlink" href="#map_concat" title="Permanent link">↵</a></h2>
 <p>Restituisce una mappa con tutte le entità della mappe fornite. Se due mappe contengono la stessa chiave, viene restituito il valore della seconda mappa.</p>
 <p>Sintassi:</p>
-<p>map_concat(__<span style="color:red;">map1</span><em>, _<span style="color:red;">map2</span></em>, …_)</p>
+<p>map_concat(__<span style="color:red;">map1</span><em>, <em><span style="color:red;">map2</span></em>, …</em>)</p>
 <p>Argomenti:</p>
 <ul>
 <li><strong><span style="color:red;">map</span></strong> una mappa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>map_concat(map(&#39;1&#39;,&#39;one&#39;, &#39;2&#39;,&#39;overridden&#39;),map(&#39;2&#39;,&#39;two&#39;, &#39;3&#39;,&#39;three&#39;)) → map: 1: &#39;one, 2: &#39;two&#39;, 3: &#39;three&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>map_concat(map('1','one', '2','overridden'),map('2','two', '3','three')) → map: 1: 'one, 2: 'two', 3: 'three'
 </code></pre></div>
 <p><a href="../../../img/maps/map_concat/map_concat1.png"><img alt="" src="../../../img/maps/map_concat/map_concat1.png" /></a></p>
 <p>--</p>
@@ -7220,7 +7248,7 @@
 <li><em><span style="color:red;">key</span></em> la chiave da rimuovere</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>map_delete(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;),&#39;2&#39;) → map: 1: &#39;one&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>map_delete(map('1','one','2','two'),'2') → map: 1: 'one'
 </code></pre></div>
 <p><a href="../../../img/maps/map_delete/map_delete1.png"><img alt="" src="../../../img/maps/map_delete/map_delete1.png" /></a></p>
 <hr />
@@ -7234,7 +7262,7 @@
 <li><em><span style="color:red;">key</span></em> chiave da cercare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>map_exist(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;),&#39;3&#39;) → falso
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>map_exist(map('1','one','2','two'),'3') → falso
 </code></pre></div>
 <p><a href="../../../img/maps/map_exist/map_exist1.png"><img alt="" src="../../../img/maps/map_exist/map_exist1.png" /></a></p>
 <hr />
@@ -7248,14 +7276,14 @@
 <li><em><span style="color:red;">key</span></em> chiave da cercare</li>
 </ul>
 <p>Esempi:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>map_get(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;),&#39;2&#39;) → &#39;two&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>map_get(map('1','one','2','two'),'2') → 'two'
 </code></pre></div></p>
 <p><a href="../../../img/maps/map_get/map_get1.png"><img alt="" src="../../../img/maps/map_get/map_get1.png" /></a></p>
 <p>Altri esempi:</p>
 <p><a href="../../../img/maps/map_get/map_get2.png"><img alt="" src="../../../img/maps/map_get/map_get2.png" /></a></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>map_get(
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>map_concat(map(&#39;Area_Ha&#39;,$area/10000,&#39;Perimetro_km&#39;,$perimeter/1000)),
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>map(Proprietario&#39;,&#39;Pippo&#39;,&#39;CF&#39;,&#39;FNDCCCDDDEEEFFF&#39;),&#39;CF&#39;) → &#39;FNDCCCDDDEEEFFF&#39;
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>map_concat(map('Area_Ha',$area/10000,'Perimetro_km',$perimeter/1000)),
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>map(Proprietario','Pippo','CF','FNDCCCDDDEEEFFF'),'CF') → 'FNDCCCDDDEEEFFF'
 </code></pre></div>
 <h3 id="compositore-di-stampe_1">Compositore di stampe<a class="headerlink" href="#compositore-di-stampe_1" title="Permanent link">↵</a></h3>
 <p><a href="../../../img/maps/map_get/map_get3.png"><img alt="" src="../../../img/maps/map_get/map_get3.png" /></a></p>
@@ -7263,11 +7291,11 @@
 <p>La funzione accetta un singolo argomento, l'id per un elemento all'interno della composizione e restituisce una mappa del nome della variabile sul valore per quell'elemento. 
 Questo ti permette di fare cose come inserire il testo in un'etichetta che recuperi le proprietà di un altro elemento nella composizione, ad es:</p>
 <p>Inserisci la scala della mappa (<code>Mappa 1</code>) in un'etichetta:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>map_get( item_variables(&#39;Mappa 1&#39;),&#39;map_scale&#39;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>map_get( item_variables('Mappa 1'),'map_scale')
 </code></pre></div>
 <p><a href="../../../img/maps/map_get/map_get4.png"><img alt="" src="../../../img/maps/map_get/map_get4.png" /></a></p>
 <p>Inserisci la coordinata x del centro della mappa (<code>Mappa 1</code>) in un'etichetta:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>x(map_get( item_variables(&#39;Mappa 1&#39;),&#39;map_extent_center&#39;))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>x(map_get( item_variables('Mappa 1'),'map_extent_center'))
 </code></pre></div>
 <p><a href="../../../img/maps/map_get/map_get5.png"><img alt="" src="../../../img/maps/map_get/map_get5.png" /></a></p>
 <p><a href="https://plugins.qgis.org/plugins/mysqlimport/">Changelog QGIS 3.0</a></p>
@@ -7285,7 +7313,7 @@ Questo ti permette di fare cose come inserire il testo in un'etichetta che recup
 <li><em><span style="color:red;">value</span></em> il valore da aggiungere</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>map_insert(map(&#39;1&#39;,&#39;one&#39;),&#39;3&#39;,&#39;three&#39;) → map: 1: &#39;one&#39;, 3: &#39;three&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>map_insert(map('1','one'),'3','three') → map: 1: 'one', 3: 'three'
 </code></pre></div>
 <p><a href="../../../img/maps/map_insert/map_insert1.png"><img alt="" src="../../../img/maps/map_insert/map_insert1.png" /></a></p>
 <hr />
@@ -7301,7 +7329,7 @@ Questo ti permette di fare cose come inserire il testo in un'etichetta che recup
 <li><em><span style="color:red;">prefix</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>map_prefix_keys(map(&#39;1&#39;,&#39;one&#39;,&#39;2&#39;,&#39;two&#39;), &#39;prefix-&#39;) → { &#39;prefix-1&#39;: &#39;one&#39;, &#39;prefix-2&#39;: &#39;two&#39; }
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>map_prefix_keys(map('1','one','2','two'), 'prefix-') → { 'prefix-1': 'one', 'prefix-2': 'two' }
 </code></pre></div>
 <p><a href="../../../img/maps/map_prefix_keys/map_prefix_keys_01.png"><img alt="" src="../../../img/maps/map_prefix_keys/map_prefix_keys_01.png" /></a></p>
 <hr />
@@ -7316,7 +7344,7 @@ Questo ti permette di fare cose come inserire il testo in un'etichetta che recup
 <li><em><span style="color:red;">map</span></em> una mappa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>map_to_hstore(map(&#39;qgis&#39;,&#39;rocks&#39;)) → &quot;qgis&quot;=&gt;&quot;rocks&quot;}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>map_to_hstore(map('qgis','rocks')) → "qgis"=&gt;"rocks"}
 </code></pre></div>
 <p><a href="../../../img/maps/map_to_hstore/map_to_hstore1.png"><img alt="" src="../../../img/maps/map_to_hstore/map_to_hstore1.png" /></a></p>
 <hr />
@@ -7331,7 +7359,7 @@ Questo ti permette di fare cose come inserire il testo in un'etichetta che recup
 <li><em><span style="color:red;">map</span></em> una mappa</li>
 </ul>
 <p>Esempi:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>map_to_json(map(&#39;qgis&#39;,&#39;rocks&#39;)) → {&quot;qgis&quot;:&quot;rocks&quot;}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>map_to_json(map('qgis','rocks')) → {"qgis":"rocks"}
 </code></pre></div></p>
 <p><a href="../../../img/maps/map_to_json/map_to_json1.png"><img alt="" src="../../../img/maps/map_to_json/map_to_json1.png" /></a></p>
 <p>nota bene:</p>
@@ -7349,7 +7377,7 @@ Questo ti permette di fare cose come inserire il testo in un'etichetta che recup
 <li><em><span style="color:red;">value</span></em> valore di input</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>to_json(map(&#39;qgis&#39;,&#39;rocks&#39;)) → {&quot;qgis&quot;:&quot;rocks&quot;}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>to_json(map('qgis','rocks')) → {"qgis":"rocks"}
 <a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>to_json(array(1,2,3)) → [1,2,3]
 </code></pre></div>
 <p><a href="../../../img/maps/to_json/to_json_01.png"><img alt="" src="../../../img/maps/to_json/to_json_01.png" /></a></p>
@@ -7366,7 +7394,7 @@ Nota che il segno più '+' non viene convertito.</p>
 <li><em><span style="color:red;">map</span></em> una mappa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>url_encode(map(&#39;a&amp;+b&#39;, &#39;a and plus b&#39;, &#39;a=b&#39;, &#39;a equals b&#39;)) → &#39;a%26+b=a%20and%20plus%20b&amp;a%3Db=a%20equals%20b&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>url_encode(map('a&amp;+b', 'a and plus b', 'a=b', 'a equals b')) → 'a%26+b=a%20and%20plus%20b&amp;a%3Db=a%20equals%20b'
 </code></pre></div>
 <p><a href="../../../img/maps/url_encode/url_encode_01.png"><img alt="" src="../../../img/maps/url_encode/url_encode_01.png" /></a></p>
 <hr />
@@ -7664,11 +7692,11 @@ Nota che il segno più '+' non viene convertito.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

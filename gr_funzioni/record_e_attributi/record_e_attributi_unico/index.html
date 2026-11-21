@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7468,8 +7496,8 @@
 <li>$currentfeature</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>- attribute( $currentfeature, &#39;name&#39; ) → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>- attribute( @feature, &#39;name&#39; ) → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>- attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>- attribute( @feature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/%24currentfeature1.png"><img alt="" src="../../../img/record_e_attributi/%24currentfeature1.png" /></a></p>
 <p><a href="../../../img/record_e_attributi/%40feature.png"><img alt="" src="../../../img/record_e_attributi/%40feature.png" /></a></p>
@@ -7505,8 +7533,8 @@
 <li><em><span style="color:red;">strength</span></em> Impostare su 'hard' o 'soft' per restringere il campo a un tipo di vincolo specifico. Se non è impostata, la funzione restituirà FALSE se fallisce un vincolo hard o soft.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>is_attribute_valid(&#39;HECTARES&#39;) → TRUE se il valore dell&#39;elemento corrente nel campo &quot;ETTARI&quot; soddisfa tutti i vincoli.
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>is_attribute_valid(&#39;HOUSES&#39;,get_feature(&#39;my_layer&#39;, &#39;FID&#39;, 10), &#39;my_layer&#39;) → FALSE se il valore nel campo &quot;HOUSES&quot; dell&#39;elemento con &quot;FID&quot;=10 in &#39;my_layer&#39; non soddisfa tutti i vincoli.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>is_attribute_valid('HECTARES') → TRUE se il valore dell'elemento corrente nel campo "ETTARI" soddisfa tutti i vincoli.
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>is_attribute_valid('HOUSES',get_feature('my_layer', 'FID', 10), 'my_layer') → FALSE se il valore nel campo "HOUSES" dell'elemento con "FID"=10 in 'my_layer' non soddisfa tutti i vincoli.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/is_attribute_valid330.png"><img alt="" src="../../../img/record_e_attributi/is_attribute_valid330.png" /></a></p>
 <hr />
@@ -7525,8 +7553,8 @@
 <li><em><span style="color:red;">strength</span></em> Impostare su 'hard' o 'soft' per restringere il campo a un tipo di vincolo specifico. Se non è impostata, la funzione restituirà FALSE se fallisce un vincolo hard o soft.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>is_feature_valid(strength:=&#39;hard&#39;) → TRUE se tutti i campi della funzione corrente soddisfano i relativi vincoli rigidi.
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>is_feature_valid(get_feature(&#39;my_layer&#39;, &#39;FID&#39;, 10), &#39;my_layer&#39;) → FALSE se tutti i campi dell&#39;elemento con &quot;FID&quot;=10 in &#39;my_layer&#39; non soddisfano tutti i vincoli.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>is_feature_valid(strength:='hard') → TRUE se tutti i campi della funzione corrente soddisfano i relativi vincoli rigidi.
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>is_feature_valid(get_feature('my_layer', 'FID', 10), 'my_layer') → FALSE se tutti i campi dell'elemento con "FID"=10 in 'my_layer' non soddisfano tutti i vincoli.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/is_feature_valid330.png"><img alt="" src="../../../img/record_e_attributi/is_feature_valid330.png" /></a></p>
 <hr />
@@ -7543,7 +7571,7 @@
 <li><em><span style="color:red;">attribute_name</span></em> nome dell'attributo da restituire</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>attribute( &#39;name&#39; ) → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>attribute( 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 </code></pre></div>
 <h3 id="variante-2">Variante 2<a class="headerlink" href="#variante-2" title="Permanent link">↵</a></h3>
 <p>Consente di specificare l'elemento di destinazione e il nome dell'attributo.</p>
@@ -7557,7 +7585,7 @@
 <li><em><span style="color:red;">attribute_name</span></em> nome dell'attributo da restituire</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>attribute( $currentfeature, &#39;name&#39; ) → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>attribute( $currentfeature, 'name' ) → valore memorizzato nell'attributo 'name' per l'elemento corrente
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/attribute1.png"><img alt="" src="../../../img/record_e_attributi/attribute1.png" /></a></p>
 <hr />
@@ -7570,7 +7598,7 @@
 <li><em>attributes()</em></li>
 </ul>
 <p>Esempi:o</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>attributes()[&#39;name&#39;] → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>attributes()['name'] → valore memorizzato nell'attributo 'name' per l'elemento corrente
 </code></pre></div>
 <p>per trasformare una feature (una riga di una tabella) in un array:</p>
 <p><a href="../../../img/record_e_attributi/attributes2.png"><img alt="" src="../../../img/record_e_attributi/attributes2.png" /></a></p>
@@ -7585,7 +7613,7 @@
 <li><em><span style="color:red;">feature</span></em> un elemento</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>attributes( @atlas_feature )[&#39;name&#39;] → valore memorizzato nell&#39;attributo &#39;name&#39; per l&#39;elemento corrente dell&#39;atlante
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>attributes( @atlas_feature )['name'] → valore memorizzato nell'attributo 'name' per l'elemento corrente dell'atlante
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/attributes1.png"><img alt="" src="../../../img/record_e_attributi/attributes1.png" /></a></p>
 <hr />
@@ -7598,7 +7626,7 @@
 <li>display_expression()</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>display_expression() → L&#39;espressione visualizzata dell&#39;elemento corrente nel layer corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>display_expression() → L'espressione visualizzata dell'elemento corrente nel layer corrente
 </code></pre></div>
 <h3 id="un-parametro-feature">Un parametro 'feature'<a class="headerlink" href="#un-parametro-feature" title="Permanent link">↵</a></h3>
 <p>Se chiamata con il solo parametro 'feature', la funzione valuterà l'elemento specificato nel layer corrente.</p>
@@ -7611,7 +7639,7 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che dovrebbe essere valutato.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>display_expression(@atlas_feature) → L&#39;espressione visualizzata dell&#39;elemento corrente dell&#39;atlante.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>display_expression(@atlas_feature) → L'espressione visualizzata dell'elemento corrente dell'atlante.
 </code></pre></div>
 <h3 id="parametri-del-layer-ed-elementi">Parametri del Layer ed elementi<a class="headerlink" href="#parametri-del-layer-ed-elementi" title="Permanent link">↵</a></h3>
 <p>Se la funzione viene chiamata sia con un layer che con un elemento, valuterà l'elemento specificato dal layer indicato.</p>
@@ -7627,8 +7655,8 @@
 <li><em><span style="color:red;">evaluate</span></em> Se l'espressione deve essere valutata. Se false l'espressione sarà restituita solo come stringa letterale (che potenzialmente potrebbe essere valutata a posteriori tramite la funzione 'eval'). </li>
 </ul>
 <p>Esempi:</p>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>display_expression( &#39;streets&#39;, get_feature_by_id(&#39;streets&#39;, 1)) → L&#39;espressione visualizzata dell&#39;elemento con ID 1 sul layer &#39;streets&#39;.
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>display_expression(&#39;a_layer_id&#39;, $currentfeature, &#39;False&#39;) → L&#39;espressione visualizzata del dato elemento non è stata valutata.
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>display_expression( 'streets', get_feature_by_id('streets', 1)) → L'espressione visualizzata dell'elemento con ID 1 sul layer 'streets'.
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>display_expression('a_layer_id', $currentfeature, 'False') → L'espressione visualizzata del dato elemento non è stata valutata.
 </code></pre></div>
 <a href="../../../img/record_e_attributi/display_expression1.png"><img alt="" src="../../../img/record_e_attributi/display_expression1.png" /></a></p>
 <hr />
@@ -7644,7 +7672,7 @@
 <li><em><span style="color:red;">feature</span></em> un oggetto elemento</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>feature_id( @feature ) → l&#39;ID dell&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>feature_id( @feature ) → l'ID dell'elemento corrente
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/feature_id330.png"><img alt="" src="../../../img/record_e_attributi/feature_id330.png" /></a></p>
 <hr />
@@ -7663,8 +7691,8 @@
 <li><em><span style="color:red;">value</span></em> valore attributo da far corrispondere</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>get_feature(&#39;streets&#39;,&#39;name&#39;,&#39;main st&#39;) → prima geometria trovata nel vettore &quot;streets&quot; con valore &quot;main st&quot; nel campo &quot;name&quot;
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>get_feature( &#39;streets&#39;, &#39;fid&#39;, attribute( $currentfeature, &#39;name&#39;) ) → Restituisce la prima feature nel layer &quot;streets&quot; il cui campo &quot;fid&quot; ha lo stesso valore del campo &quot;nome&quot; della feature corrente` (una sorta di JOIN)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>get_feature('streets','name','main st') → prima geometria trovata nel vettore "streets" con valore "main st" nel campo "name"
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>get_feature( 'streets', 'fid', attribute( $currentfeature, 'name') ) → Restituisce la prima feature nel layer "streets" il cui campo "fid" ha lo stesso valore del campo "nome" della feature corrente` (una sorta di JOIN)
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/get_feature1.png"><img alt="" src="../../../img/record_e_attributi/get_feature1.png" /></a></p>
 <h3 id="variante-map">Variante map<a class="headerlink" href="#variante-map" title="Permanent link">↵</a></h3>
@@ -7680,7 +7708,7 @@
 <li><em><span style="color:red;">map</span></em> Mappa contenente le coppie di colonne e valori da usare.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>get_feature(&#39;streets&#39;,map(&#39;name&#39;,&#39;main st&#39;,&#39;lane_num&#39;,&#39;4&#39;)) → primo elemento trovato in &#39;streets&#39; con il valore &#39;main st&#39; nel campo &#39;name&#39; e il valore &#39;4&#39; nel campo &#39;lane_num&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>get_feature('streets',map('name','main st','lane_num','4')) → primo elemento trovato in 'streets' con il valore 'main st' nel campo 'name' e il valore '4' nel campo 'lane_num'
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/get_feature2.png"><img alt="" src="../../../img/record_e_attributi/get_feature2.png" /></a></p>
 <hr />
@@ -7696,7 +7724,7 @@
 <li><em><span style="color:red;">feature_id</span></em> L'id dell'elemento che deve essere restituito (inizia da 0 per gli shapefile)</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>get_feature_by_id(&#39;streets&#39;, 1) → l&#39;elemento con id 1 nel vettore &quot;streets&quot;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>get_feature_by_id('streets', 1) → l'elemento con id 1 nel vettore "streets"
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/get_feature_by_id1.png"><img alt="" src="../../../img/record_e_attributi/get_feature_by_id1.png" /></a></p>
 <hr />
@@ -7709,7 +7737,7 @@
 <li>is_selected()</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>is_selected() → True (vero) se l&#39;elemento corrente è selezionato.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>is_selected() → True (vero) se l'elemento corrente è selezionato.
 </code></pre></div>
 <h3 id="una-feature-come-parametro">Una Feature come parametro<a class="headerlink" href="#una-feature-come-parametro" title="Permanent link">↵</a></h3>
 <p>Se chiamata con il solo parametro 'feature', la funzione restituisce true se l'elemento specificato è selezionato nel layer attuale.</p>
@@ -7722,9 +7750,9 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che deve essere controllata per la selezione.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>is_selected(@atlas_feature) → Vero se l&#39;elemento corrente dell&#39;atlante è selezionato.
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>is_selected(get_feature(&#39;streets&#39;, &#39;name&#39;, &#39;Main St.&#39;))) → Vero se l&#39;unico elemento con nome &quot;Main St.&quot; sul layer &quot;streets&quot; attivo è selezionato.
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>is_selected(get_feature_by_id(&#39;streets&#39;, 1)) → Vero se l&#39;elemento con l&#39;ID 1 sul layer &quot;streets&quot; attivo è selezionato.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>is_selected(@atlas_feature) → Vero se l'elemento corrente dell'atlante è selezionato.
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>is_selected(get_feature('streets', 'name', 'Main St.'))) → Vero se l'unico elemento con nome "Main St." sul layer "streets" attivo è selezionato.
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>is_selected(get_feature_by_id('streets', 1)) → Vero se l'elemento con l'ID 1 sul layer "streets" attivo è selezionato.
 </code></pre></div>
 <h3 id="due-parametri">Due parametri<a class="headerlink" href="#due-parametri" title="Permanent link">↵</a></h3>
 <p>Se la funzione è chiamata sia con un layer che con un elemento, questa restituirà vero se l'elemento specificato del layer specificato è selezionato.</p>
@@ -7738,8 +7766,8 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che deve essere controllato per la selezione.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>is_selected( &#39;streets&#39;, get_feature(&#39;streets&#39;, &#39;name&#39;, &quot;street_name&quot;)) → Vero se è selezionata la strada dell&#39;edificio corrente (supponendo che il layer edifici abbia un campo denominato &#39;street_name&#39; e il layer strade abbia un campo denominato &#39;name&#39; con valori univoci).
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>is_selected( &#39;streets&#39;, get_feature_by_id(&#39;streets&#39;, 1)) → Vero se l&#39;elemento con l&#39;ID 1 nel layer &quot;streets&quot; è selezionato.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>is_selected( 'streets', get_feature('streets', 'name', "street_name")) → Vero se è selezionata la strada dell'edificio corrente (supponendo che il layer edifici abbia un campo denominato 'street_name' e il layer strade abbia un campo denominato 'name' con valori univoci).
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>is_selected( 'streets', get_feature_by_id('streets', 1)) → Vero se l'elemento con l'ID 1 nel layer "streets" è selezionato.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/is_selected0.png"><img alt="" src="../../../img/record_e_attributi/is_selected0.png" /></a></p>
 <p>Esempio etichettatura tramite regola:</p>
@@ -7757,7 +7785,7 @@
 <li>maptip()</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>maptip() → Il suggerimento mappa dell&#39;elemento corrente nel layer corrente.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>maptip() → Il suggerimento mappa dell'elemento corrente nel layer corrente.
 </code></pre></div>
 <h3 id="un-parametro-feature_1">Un parametro 'feature'<a class="headerlink" href="#un-parametro-feature_1" title="Permanent link">↵</a></h3>
 <p>Se chiamata con il solo parametro 'feature ', la funzione valuterà l'elemento specificato nel layer corrente.</p>
@@ -7770,7 +7798,7 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che dovrebbe essere valutato.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>maptip(@atlas_feature) → Il suggerimento mappa dell&#39;elemento corrente dell&#39;atlante.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>maptip(@atlas_feature) → Il suggerimento mappa dell'elemento corrente dell'atlante.
 </code></pre></div>
 <h3 id="parametri-del-layer-ed-elementi_1">Parametri del Layer ed elementi<a class="headerlink" href="#parametri-del-layer-ed-elementi_1" title="Permanent link">↵</a></h3>
 <p>Se la funzione viene chiamata sia con un layer che con un elemento, valuterà l'elemento specificato dal layer indicato.</p>
@@ -7786,8 +7814,8 @@
 <li><em><span style="color:red;">evaluate</span></em> Se l'espressione deve essere valutata. Se false l'espressione sarà restituita solo come stringa letterale (che potenzialmente potrebbe essere valutata a posteriori tramite la funzione 'eval_template').  </li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>maptip(&#39;streets&#39;, get_feature_by_id(&#39;streets&#39;, 1)) → Il suggerimento mappa dell&#39;elemento con ID 1 sul vettore &#39;streets&#39;.
-<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>maptip(&#39;a_layer_id&#39;, $currentfeature, &#39;False&#39;) → Il suggerimento mappa del dato elemento non valutato.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>maptip('streets', get_feature_by_id('streets', 1)) → Il suggerimento mappa dell'elemento con ID 1 sul vettore 'streets'.
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>maptip('a_layer_id', $currentfeature, 'False') → Il suggerimento mappa del dato elemento non valutato.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/maptip1.png"><img alt="" src="../../../img/record_e_attributi/maptip1.png" /></a></p>
 <hr />
@@ -7803,7 +7831,7 @@
 </ul>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>num_selected() → Il numero di geometrie selezionate nel vettore corrente.
-<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>num_selected(&#39;streets&#39;) → Il numero di geometrie selezionate nel vettore streets
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>num_selected('streets') → Il numero di geometrie selezionate nel vettore streets
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/num_selected1.png"><img alt="" src="../../../img/record_e_attributi/num_selected1.png" /></a></p>
 <hr />
@@ -7816,7 +7844,7 @@
 <li>represent_attributes()</li>
 </ul>
 <p>Esempio:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>represent_attributes() → La rappresentazione degli attributi per l&#39;elemento corrente.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>represent_attributes() → La rappresentazione degli attributi per l'elemento corrente.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/represent_attributes_01.png"><img alt="" src="../../../img/record_e_attributi/represent_attributes_01.png" /></a></p>
 <h3 id="un-parametro-feature_2">Un parametro feature<a class="headerlink" href="#un-parametro-feature_2" title="Permanent link">↵</a></h3>
@@ -7830,7 +7858,7 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che dovrebbe essere valutato</li>
 </ul>
 <p>Esempio:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>represent_attributes($currentfeature) → La rappresentazione degli attributi per l&#39;elemento corrente.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>represent_attributes($currentfeature) → La rappresentazione degli attributi per l'elemento corrente.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/represent_attributes_02.png"><img alt="" src="../../../img/record_e_attributi/represent_attributes_02.png" /></a></p>
 <h3 id="parametri-layer-e-feature">Parametri layer e feature<a class="headerlink" href="#parametri-layer-e-feature" title="Permanent link">↵</a></h3>
@@ -7845,7 +7873,7 @@
 <li><em><span style="color:red;">feature</span></em> L'elemento che dovrebbe essere valutato</li>
 </ul>
 <p>Esempio:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>represent_attributes(@layer, $currentfeature) → La rappresentazione degli attributi per l&#39;elemento corrente.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>represent_attributes(@layer, $currentfeature) → La rappresentazione degli attributi per l'elemento corrente.
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/represent_attributes_03.png"><img alt="" src="../../../img/record_e_attributi/represent_attributes_03.png" /></a></p>
 <hr />
@@ -7861,8 +7889,8 @@
 <li><em><span style="color:red;">fieldName</span></em> Il nome del campo per cui la configurazione del widget dovrebbe essere caricata. (Opzionale)</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>represent_value(&quot;field_with_value_map&quot;) → Descrizione per il valore
-<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>represent_value(&#39;static value&#39;, &#39;field_name&#39;) → Descrizione per il valore statico
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>represent_value("field_with_value_map") → Descrizione per il valore
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>represent_value('static value', 'field_name') → Descrizione per il valore statico
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/represent_value1.png"><img alt="" src="../../../img/record_e_attributi/represent_value1.png" /></a></p>
 <hr />
@@ -7892,26 +7920,28 @@ Quando il parametro è un layer ed il layer è in modo transazione, il valore vi
 <li><em><span style="color:red;">default_values</span></em> Compila con i valori predefiniti per campi aggiuntivi sulla tabella. I valori necessitano di essere quotati. Sono consentite le funzioni.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sqlite_fetch_and_increment(@layer, &#39;sequence_table&#39;, &#39;last_unique_id&#39;, &#39;sequence_id&#39;, &#39;global&#39;, map(&#39;last_change&#39;, &#39;date(&#39;&#39;now&#39;&#39;)&#39;, &#39;user&#39;, &#39;&#39;&#39;&#39; || @user_account_name || &#39;&#39;&#39;&#39;)) → 0
-<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>sqlite_fetch_and_increment(layer_property(@layer, &#39;path&#39;), &#39;sequence_table&#39;, &#39;last_unique_id&#39;, &#39;sequence_id&#39;, &#39;global&#39;, map(&#39;last_change&#39;, &#39;date(&#39;&#39;now&#39;&#39;)&#39;, &#39;user&#39;, &#39;&#39;&#39;&#39; || @user_account_name || &#39;&#39;&#39;&#39;)) → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sqlite_fetch_and_increment(@layer, 'sequence_table', 'last_unique_id', 'sequence_id', 'global', map('last_change', 'date(''now'')', 'user', '''' || @user_account_name || '''')) → 0
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>sqlite_fetch_and_increment(layer_property(@layer, 'path'), 'sequence_table', 'last_unique_id', 'sequence_id', 'global', map('last_change', 'date(''now'')', 'user', '''' || @user_account_name || '''')) → 0
 </code></pre></div>
 <p><a href="../../../img/record_e_attributi/sqlite_fetch_and_increment1.png"><img alt="" src="../../../img/record_e_attributi/sqlite_fetch_and_increment1.png" /></a></p>
 <hr />
 <h2 id="uuid">uuid<a class="headerlink" href="#uuid" title="Permanent link">↵</a></h2>
-<p>Genera un Universally Unique Identifier (UUID) per ciascun record usando il metodo Qt <a href="https://doc.qt.io/qt-5/quuid.html#createUuid">QUuid::createUuid</a>. Aggiornato dalla QGIS 3.18</p>
+<p>Genera un Universally Unique Identifier (UUID) per ciascun record usando il metodo Qt <a href="https://doc.qt.io/qt-5/quuid.html#createUuid">QUuid::createUuid</a>. Aggiornato dalla QGIS 3.18; argomento <code>version</code> aggiunto in QGIS 4.4</p>
 <p>Sintassi:</p>
 <ul>
-<li>uuid([<em><span style="color:red;">format='WithBraces'</span></em>])</li>
+<li>uuid([<em><span style="color:red;">format='WithBraces'</span></em>][, <em><span style="color:red;">version=4</span></em>])</li>
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Argomenti:</p>
 <ul>
 <li><em><span style="color:red;">format</span></em> Il formato, come l'UUID verrà formattato. 'WithBraces' (con parentesi {}), 'WithoutBraces' (senza parentesi) o 'Id128' (senza trattino).</li>
+<li><em><span style="color:red;">version</span></em> La versione dell'UUID da generare: 4 (predefinita, casuale) o 7 (basata su timestamp, ordinabile cronologicamente; richiede Qt 6.9+). Da QGIS 4.4</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>uuid() → &#39;{0bd2f60f-f157-4a6d-96af-d4ba4cb366a1}&#39;
-<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>uuid(&#39;WithoutBraces&#39;) → &#39;0bd2f60f-f157-4a6d-96af-d4ba4cb366a1&#39;
-<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>uuid(&#39;Id128&#39;) → &#39;0bd2f60ff1574a6d96afd4ba4cb366a1&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>uuid() → '{0bd2f60f-f157-4a6d-96af-d4ba4cb366a1}'
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>uuid('WithoutBraces') → '0bd2f60f-f157-4a6d-96af-d4ba4cb366a1'
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>uuid('Id128') → '0bd2f60ff1574a6d96afd4ba4cb366a1'
+<a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a>uuid(version:=7) → '{01a1ff22-6030-75c8-ad1e-02f587a9f472}'
 </code></pre></div>
 <p><a href=""><img alt="" src="../../../img/record_e_attributi/uuid%28%291.png" /></a>1.png)</p>
 <hr />
@@ -8209,11 +8239,11 @@ Quando il parametro è un layer ed il layer è in modo transazione, il valore vi
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

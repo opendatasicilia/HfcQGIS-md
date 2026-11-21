@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7198,10 +7226,10 @@
 <li><em><span style="color:red;">b</span></em> valore</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>&#39;Qui&#39; || &#39; e &#39; || &#39;là&#39; → &#39;Qui e là&#39;
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>&#39;Nothing&#39; || NULL → NULL
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>&#39;Dia: &#39; || &quot;Diameter&quot; → &#39;Dia: 25&#39; (&quot;Diameter&quot; - un campo tabella attributi)
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>1 || 2 → &#39;12&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>'Qui' || ' e ' || 'là' → 'Qui e là'
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>'Nothing' || NULL → NULL
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>'Dia: ' || "Diameter" → 'Dia: 25' ("Diameter" - un campo tabella attributi)
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>1 || 2 → '12'
 </code></pre></div>
 <p>Osservazioni:</p>
 <p>Puoi concatenare stringhe usando <code>||</code> o <code>+</code>. Quest'ultimo significa anche somma nelle espressioni. Quindi se hai un intero (campo o valore numerico) questo può essere soggetto a errori. In questo caso, dovresti usare <code>||</code>. Se si concatenano due valori stringa, è possibile utilizzare entrambi.</p>
@@ -7219,19 +7247,19 @@
 <li><em><span style="color:red;">pattern</span></em> pattern di ricerca, puoi usare <code>'%'</code> come carattere jolly, <code>'_'</code> come un singolo carattere e <code>'\'</code> per eseguire l'escape.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>&#39;A&#39; ILIKE &#39;A&#39; → 1
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>&#39;A&#39; ILIKE &#39;a&#39; → 1
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>&#39;A&#39; ILIKE &#39;B&#39; → 0
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>&#39;ABC&#39; ILIKE &#39;b&#39; → 0
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>&#39;ABC&#39; ILIKE &#39;B&#39; → 0
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>&#39;ABC&#39; ILIKE &#39;_b_&#39; → 1
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>&#39;ABC&#39; ILIKE &#39;_B_&#39; → 1
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>&#39;ABCD&#39; ILIKE &#39;_b_&#39; → 0
-<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>&#39;ABCD&#39; ILIKE &#39;_B_&#39; → 0
-<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>&#39;ABCD&#39; ILIKE &#39;_b%&#39; → 1
-<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>&#39;ABCD&#39; ILIKE &#39;_B%&#39; → 1
-<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>&#39;ABCD&#39; ILIKE &#39;%b%&#39; → 1
-<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>&#39;ABCD&#39; ILIKE &#39;%B%&#39; → 1
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>'A' ILIKE 'A' → 1
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>'A' ILIKE 'a' → 1
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>'A' ILIKE 'B' → 0
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>'ABC' ILIKE 'b' → 0
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>'ABC' ILIKE 'B' → 0
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>'ABC' ILIKE '_b_' → 1
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>'ABC' ILIKE '_B_' → 1
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>'ABCD' ILIKE '_b_' → 0
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>'ABCD' ILIKE '_B_' → 0
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>'ABCD' ILIKE '_b%' → 1
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>'ABCD' ILIKE '_B%' → 1
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>'ABCD' ILIKE '%b%' → 1
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>'ABCD' ILIKE '%B%' → 1
 </code></pre></div>
 <p>Osservazioni:</p>
 <p>1 significa <strong>Vero</strong></p>
@@ -7250,8 +7278,8 @@
 <li><em><span style="color:red;">b</span></em> lista di valori</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>&#39;A&#39; IN (&#39;A&#39;,&#39;B&#39;) → 1
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>&#39;A&#39; IN (&#39;C&#39;,&#39;B&#39;) → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>'A' IN ('A','B') → 1
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>'A' IN ('C','B') → 0
 </code></pre></div>
 <p>Osservazioni:</p>
 <p>La funzione distingue maiuscolo dal minuscolo!!!</p>
@@ -7271,8 +7299,8 @@
 <li><em><span style="color:red;">b</span></em> qualsiasi valore</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>&#39;A&#39; IS &#39;A&#39; → 1
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>*&#39;A&#39; IS &#39;a&#39; → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>'A' IS 'A' → 1
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>*'A' IS 'a' → 0
 <a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>4 IS 4 → 1
 <a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>4 IS 2+2 → 1
 <a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>4 IS 2 → 0
@@ -7296,8 +7324,8 @@
 <li><em><span style="color:red;">b</span></em> valore</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>&#39;a&#39; IS NOT &#39;b&#39; → 1
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>&#39;a&#39; IS NOT &#39;a&#39; → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>'a' IS NOT 'b' → 1
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>'a' IS NOT 'a' → 0
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>4 IS NOT 2+2 → 0
 </code></pre></div>
 <p><a href="../../../img/operatori/is_not1.png"><img alt="" src="../../../img/operatori/is_not1.png" /></a></p>
@@ -7314,16 +7342,16 @@
 <li><em><span style="color:red;">pattern</span></em> pattern con cui confrontare il valore, puoi usare <code>'%'</code> come carattere jolly, <code>'_'</code> come un singolo carattere e <code>'\'</code> per eseguire l'escape.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>&#39;A&#39; LIKE &#39;A&#39; → 1
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>&#39;A&#39; LIKE &#39;a&#39; → 0
-<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>&#39;A&#39; LIKE &#39;B&#39; → 0
-<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>&#39;ABC&#39; LIKE &#39;B&#39; → 0
-<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>&#39;ABC&#39; LIKE &#39;_B_&#39; → 1
-<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>&#39;ABCD&#39; LIKE &#39;_B_&#39; → 0
-<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>&#39;ABCD&#39; LIKE &#39;_B%&#39; → 1
-<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>&#39;ABCD&#39; LIKE &#39;%B%&#39; → 1
-<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>&#39;1%&#39; LIKE &#39;1\\%&#39; → 1
-<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>&#39;1_&#39; LIKE &#39;1\\%&#39; → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>'A' LIKE 'A' → 1
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>'A' LIKE 'a' → 0
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>'A' LIKE 'B' → 0
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>'ABC' LIKE 'B' → 0
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>'ABC' LIKE '_B_' → 1
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>'ABCD' LIKE '_B_' → 0
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>'ABCD' LIKE '_B%' → 1
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>'ABCD' LIKE '%B%' → 1
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>'1%' LIKE '1\\%' → 1
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>'1_' LIKE '1\\%' → 0
 </code></pre></div>
 <p>Osservazioni:</p>
 <p>La funzione distingue maiuscolo dal minuscolo!!!</p>
@@ -7342,7 +7370,7 @@
 <li><span style="color:red;"><em>lower_bound AND higher_bound</em></span> limite intervallo</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>&#39;B&#39; NOT BETWEEN &#39;A&#39; AND &#39;C&#39; → FALSE
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>'B' NOT BETWEEN 'A' AND 'C' → FALSE
 <a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>1.0 NOT BETWEEN 1.1 AND 1.2 → TRUE
 </code></pre></div>
 <p><a href="../../../img/operatori/notbetween.png"><img alt="" src="../../../img/operatori/notbetween.png" /></a></p>
@@ -7358,7 +7386,7 @@
 <li><span style="color:red;"><em>lower_bound AND higher_bound</em></span> limite intervallo</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>&#39;B&#39; BETWEEN &#39;A&#39; AND &#39;C&#39; → TRUE
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>'B' BETWEEN 'A' AND 'C' → TRUE
 <a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>2 BETWEEN 1 AND 3 → TRUE
 </code></pre></div>
 <p><a href="../../../img/operatori/between.png"><img alt="" src="../../../img/operatori/between.png" /></a></p>
@@ -7419,7 +7447,7 @@
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>5 - 4 → 1
 <a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>5 - NULL → NULL
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>to_datetime(&#39;2012-05-05 12:00:00&#39;) - to_interval(&#39;1 day 2 hours&#39;) → 2012-05-04T10:00:00
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>to_datetime('2012-05-05 12:00:00') - to_interval('1 day 2 hours') → 2012-05-04T10:00:00
 </code></pre></div>
 <p><a href="../../../img/operatori/meno1.png"><img alt="" src="../../../img/operatori/meno1.png" /></a></p>
 <hr />
@@ -7519,8 +7547,8 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>array(1,2,3)[0] → 1
 <a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>array(1,2,3)[2] → 3
 <a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>array(1,2,3)[-1] → 3
-<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>map(&#39;a&#39;,1,&#39;b&#39;,2)[&#39;a&#39;] → 1
-<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>map(&#39;a&#39;,1,&#39;b&#39;,2)[&#39;b&#39;] → 2
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>map('a',1,'b',2)['a'] → 1
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>map('a',1,'b',2)['b'] → 2
 </code></pre></div>
 <p><a href="../../../img/operatori/indice_operatore1.png"><img alt="" src="../../../img/operatori/indice_operatore1.png" /></a></p>
 <hr />
@@ -7592,7 +7620,7 @@ divisibile per un divisore.</p>
 <p><a href="../../../img/operatori/resto1.png"><img alt="" src="../../../img/operatori/resto1.png" /></a></p>
 <p>Altri esempi:</p>
 <p>Un esempio molto utile nel campo GIS riguarda l'etichettatura curve di livello: supponiamo di voler etichettare le curve di livello (con passo 50 m) e visualizzare solo le etichette con passo 200 m, l'espressione da usare è la seguente:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>CASE WHEN   ( &quot;ELEV&quot; % 200 )  = 0 THEN  &quot;ELEV&quot;  END
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>CASE WHEN   ( "ELEV" % 200 )  = 0 THEN  "ELEV"  END
 </code></pre></div>
 <p>ecco il risultato:</p>
 <p>PRIMA:</p>
@@ -7614,8 +7642,8 @@ divisibile per un divisore.</p>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>5 + 4 → 9
 <a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>5 + NULL → NULL
-<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>&#39;QGIS &#39; + &#39;ROCKS&#39; → &#39;QGIS ROCKS&#39;
-<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>to_datetime(&#39;2020-08-01 12:00:00&#39;) + &#39;1 day 2 hours&#39; → 2020-08-02T14:00:00
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>'QGIS ' + 'ROCKS' → 'QGIS ROCKS'
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>to_datetime('2020-08-01 12:00:00') + '1 day 2 hours' → 2020-08-02T14:00:00
 </code></pre></div>
 <p>Osservazioni:</p>
 <p>Puoi concatenare stringhe usando <code>||</code> o <code>+</code>. Quest'ultimo significa anche somma nelle espressioni. Quindi se hai un intero (campo o valore numerico) questo può essere soggetto a errori. In questo caso, dovresti usare <code>||</code>. Se si concatenano due valori stringa, è possibile utilizzare entrambi.</p>
@@ -7633,9 +7661,9 @@ divisibile per un divisore.</p>
 <li><em><span style="color:red;">regex</span></em> Un'espressione regolare. Le slash devono essere precedute da caratteri di escape, es. <code>\\d</code></li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>&#39;hello&#39; ~ &#39;ll&#39; → 1
-<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>&#39;hello&#39; ~ &#39;^ll&#39; → 0
-<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>&#39;hello&#39; ~ &#39;llo$&#39; → 1
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>'hello' ~ 'll' → 1
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>'hello' ~ '^ll' → 0
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>'hello' ~ 'llo$' → 1
 </code></pre></div>
 <p><a href="../../../img/operatori/tilde1.png"><img alt="" src="../../../img/operatori/tilde1.png" /></a></p>
 <hr />
@@ -7954,11 +7982,11 @@ divisibile per un divisore.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

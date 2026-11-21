@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1027,6 +1027,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6664,7 +6692,7 @@
 <ul>
 <li>espressione da usare:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&quot;cod_prov&quot; = current_value(&#39;provincia&#39;)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>"cod_prov" = current_value('provincia')
 </code></pre></div>
 <p><a href="../../img/esempi/drilldown_form/drill3.gif"><img alt="" src="../../img/esempi/drilldown_form/drill3.gif" /></a></p>
 <h2 id="form-avanzato-nm">Form avanzato n:m<a class="headerlink" href="#form-avanzato-nm" title="Permanent link">↵</a></h2>
@@ -6673,7 +6701,7 @@
 <ul>
 <li>espressione da usare:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>eval( &#39; &quot;cod_prov&quot; in&#39; || replace(current_value(&#39;provincia&#39;),array(&#39;{&#39;,&#39;}&#39;, &#39;&quot;&#39;),array(&#39;(&#39;,&#39;)&#39;, &#39;\&#39;&#39;)))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>eval( ' "cod_prov" in' || replace(current_value('provincia'),array('{','}', '"'),array('(',')', '\'')))
 </code></pre></div>
 <p>Espressione di <a href="https://twitter.com/PedroNGV">Pedro Venâncio</a> con suggerimento di <a href="https://twitter.com/AlexNetoGeo">Alexandre Neto</a> - 
 <a href="http://osgeo-org.1560.x6.nabble.com/QGIS-Developer-Drill-down-forms-with-multiple-selections-option-td5422867.html">Lista QGIS dev</a></p>
@@ -6684,9 +6712,9 @@
 <li>espressione da scrivere in <code>Espressione filtro</code> nel primo campo della form:</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>aggregate( 
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>layer:=&#39;province_siciliane&#39;, 
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>aggregate:=&#39;concatenate&#39;, 
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>expression:= &quot;DEN_PCM&quot;, 
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>layer:='province_siciliane', 
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>aggregate:='concatenate', 
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>expression:= "DEN_PCM", 
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>filter:= intersects(@current_geometry, geometry(@parent) )
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>) 
 </code></pre></div>
@@ -6703,7 +6731,7 @@
 <ul>
 <li>espressione da scrivere in <code>Espressione filtro</code> nel secondo campo della form:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>eval( &#39; &quot;cod_prov&quot; in&#39; || replace(current_value(&#39;provincia&#39;),array(&#39;{&#39;,&#39;}&#39;, &#39;&quot;&#39;),array(&#39;(&#39;,&#39;)&#39;, &#39;\&#39;&#39;)))
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>eval( ' "cod_prov" in' || replace(current_value('provincia'),array('{','}', '"'),array('(',')', '\'')))
 </code></pre></div>
 <p>Espressione di <a href="https://twitter.com/PedroNGV">Pedro Venâncio</a> con suggerimento di <a href="https://twitter.com/AlexNetoGeo">Alexandre Neto</a> - 
 <a href="http://osgeo-org.1560.x6.nabble.com/QGIS-Developer-Drill-down-forms-with-multiple-selections-option-td5422867.html">Lista QGIS dev</a></p>
@@ -7016,11 +7044,11 @@ Nel GeoPackage sono state memorizzate i tre stili usati per il form!!!</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../stylesheets/extra.js"></script>
       

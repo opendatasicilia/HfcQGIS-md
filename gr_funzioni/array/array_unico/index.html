@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7512,7 +7540,7 @@
 <li><em><span style="color:red;">value</span></em> un valore da contare</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>array_count(array(&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;b&#39;), &#39;b&#39;) → 2
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>array_count(array('a', 'b', 'c', 'b'), 'b') → 2
 </code></pre></div>
 <p><a href="../../../img/array/array_count/img_02.png"><img alt="" src="../../../img/array/array_count/img_02.png" /></a></p>
 <hr />
@@ -7575,7 +7603,7 @@
 <li><em><span style="color:red;">array</span></em> un array</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>array_first(array(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;)) → &#39;a&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>array_first(array('a','b','c')) → 'a'
 </code></pre></div>
 <p><a href="../../../img/array/array_first/array_first1.png"><img alt="" src="../../../img/array/array_first/array_first1.png" /></a></p>
 <hr />
@@ -7592,7 +7620,7 @@
 <li><em><span style="color:red;">expression</span></em> un'espressione da valutare su ciascun elemento. La variabile <code>@element</code> verrà sostituita dal valore corrente e la variabile <code>@counter</code> dall'indice corrente (iniziando con 0).</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>array_foreach(array(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;),upper(@element)) → [ &#39;A&#39;, &#39;B&#39;, &#39;C&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>array_foreach(array('a','b','c'),upper(@element)) → [ 'A', 'B', 'C' ]
 <a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>array_foreach(array(1,2,3),@element + 10) → [ 11, 12, 13 ]
 <a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>array_foreach(array(1,2,3),@elemento + @counter) → [ 1, 3, 5 ]
 </code></pre></div>
@@ -7613,7 +7641,7 @@
 <li><em><span style="color:red;">index</span></em> l'indice da estrarre (partendo da 0)</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>array_get(array(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;),-1) → &#39;c&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>array_get(array('a','b','c'),-1) → 'c'
 </code></pre></div>
 <p><a href="../../../img/array/array_get/array_get1.png"><img alt="" src="../../../img/array/array_get/array_get1.png" /></a></p>
 <hr />
@@ -7661,7 +7689,7 @@
 <li><em><span style="color:red;">array</span></em> un array</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>array_last(array(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;)) → &#39;c&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>array_last(array('a','b','c')) → 'c'
 </code></pre></div>
 <p><a href="../../../img/array/array_last/array_last1.png"><img alt="" src="../../../img/array/array_last/array_last1.png" /></a></p>
 <hr />
@@ -7700,13 +7728,13 @@
 <li><em>real_majority</em>: Restituisce il valore che si verifica più della metà delle volte rispetto alla dimensione dell'array.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>array_majority(array(0,1,42,42,43), &#39;all&#39;) → [ 42 ]
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>array_majority(array(0,1,42,42,43,1), &#39;all&#39;) → [ 42, 1 ]
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>array_majority(array(0,1,42,42,43,1), &#39;any&#39;) → 1 or 42
-<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>array_majority(array(0,1,1,2,2), &#39;median&#39;) → 1.5
-<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>array_majority(array(0,1,42,42,43), &#39;real_majority&#39;) → NULL
-<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>array_majority(array(0,1,42,42,43,42), &#39;real_majority&#39;) → NULL
-<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>array_majority(array(0,1,42,42,43,42,42), &#39;real_majority&#39;) → 42
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>array_majority(array(0,1,42,42,43), 'all') → [ 42 ]
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>array_majority(array(0,1,42,42,43,1), 'all') → [ 42, 1 ]
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>array_majority(array(0,1,42,42,43,1), 'any') → 1 or 42
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>array_majority(array(0,1,1,2,2), 'median') → 1.5
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>array_majority(array(0,1,42,42,43), 'real_majority') → NULL
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>array_majority(array(0,1,42,42,43,42), 'real_majority') → NULL
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>array_majority(array(0,1,42,42,43,42,42), 'real_majority') → 42
 </code></pre></div>
 <p><a href="../../../img/array/array_majority/array_majority1.png"><img alt="" src="../../../img/array/array_majority/array_majority1.png" /></a></p>
 <hr />
@@ -7737,7 +7765,7 @@
 </ul>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>array_mean(array(0,1,7,66.6,135.4)) → 42.000000
-<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>array_mean(array(0,84,&#39;a&#39;,&#39;b&#39;,&#39;c&#39;)) → 42
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>array_mean(array(0,84,'a','b','c')) → 42
 </code></pre></div>
 <p><a href="../../../img/array/array_mean/array_mean.png"><img alt="" src="../../../img/array/array_mean/array_mean.png" /></a></p>
 <hr />
@@ -7753,7 +7781,7 @@
 </ul>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>array_median(array(0,1,42,42,43)) → 42
-<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>array_median(array(0,1,2,42,&#39;a&#39;,&#39;b&#39;)) → 1.5`
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>array_median(array(0,1,2,42,'a','b')) → 1.5`
 </code></pre></div>
 <p><a href="../../../img/array/array_median/array_median.png"><img alt="" src="../../../img/array/array_median/array_median.png" /></a></p>
 <hr />
@@ -7765,7 +7793,7 @@
 </ul>
 <p>Argomenti:</p>
 <ul>
-<li><em><span style="color:red;">array</span>_</em> un array o stringa (valori separati da virgola)</li>
+<li><em><span style="color:red;">array</span></em>_ un array o stringa (valori separati da virgola)</li>
 </ul>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>array_min(array(43,42,54)) → 42
@@ -7792,13 +7820,13 @@
 <li><em>real_minority</em>: Restituisce valori che si verificano meno della metà delle volte rispetto alla dimensione dell'array.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>array_minority(array(0,42,42), &#39;all&#39;) → [ 0 ]
-<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>array_minority(array(0,1,42,42), &#39;all&#39;) → [ 0, 1 ]
-<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>array_minority(array(0,1,42,42,43,1), &#39;any&#39;) → 0 or 43
-<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>array_minority(array(1,2,3,3), &#39;median&#39;) → 1.5
-<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>array_minority(array(0,1,42,42,43), &#39;real_minority&#39;) → [ 42, 43, 0, 1 ]
-<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>array_minority(array(0,1,42,42,43,42), &#39;real_minority&#39;) → [ 42, 43, 0, 1 ]
-<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>array_minority(array(0,1,42,42,43,42,42), &#39;real_minority&#39;) → [ 43, 0, 1 ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>array_minority(array(0,42,42), 'all') → [ 0 ]
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>array_minority(array(0,1,42,42), 'all') → [ 0, 1 ]
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>array_minority(array(0,1,42,42,43,1), 'any') → 0 or 43
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>array_minority(array(1,2,3,3), 'median') → 1.5
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>array_minority(array(0,1,42,42,43), 'real_minority') → [ 42, 43, 0, 1 ]
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>array_minority(array(0,1,42,42,43,42), 'real_minority') → [ 42, 43, 0, 1 ]
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>array_minority(array(0,1,42,42,43,42,42), 'real_minority') → [ 43, 0, 1 ]
 </code></pre></div>
 <p><a href="../../../img/array/array_minority/array_minority1.png"><img alt="" src="../../../img/array/array_minority/array_minority1.png" /></a></p>
 <hr />
@@ -7847,7 +7875,7 @@
 <li><em><span style="color:red;">value</span></em> i valori da rimuovere</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>array_remove_all(array(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;b&#39;),&#39;b&#39;) → [ &#39;a&#39;, &#39;c&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>array_remove_all(array('a','b','c','b'),'b') → [ 'a', 'c' ]
 </code></pre></div>
 <p><a href="../../../img/array/array_remove_all/array_remove_all1.png"><img alt="" src="../../../img/array/array_remove_all/array_remove_all1.png" /></a></p>
 <hr />
@@ -7882,9 +7910,9 @@
 <li><em><span style="color:red;">after</span></em> il valore o l'array di valori da utilizzare come sostituzione</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>array_replace(array(&#39;QGIS&#39;,&#39;SHOULD&#39;,&#39;ROCK&#39;),&#39;SHOULD&#39;,&#39;DOES&#39;) → [ &#39;QGIS&#39;, &#39;DOES&#39;, &#39;ROCK&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>array_replace(array('QGIS','SHOULD','ROCK'),'SHOULD','DOES') → [ 'QGIS', 'DOES', 'ROCK' ]
 <a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>array_replace(array(3,2,1),array(1,2,3),array(7,8,9)) → [ 9, 8, 7 ]
-<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>array_replace(array(&#39;Q&#39;,&#39;G&#39;,&#39;I&#39;,&#39;S&#39;),array(&#39;Q&#39;,&#39;S&#39;),&#39;-&#39;) → [ &#39;-&#39;, &#39;G&#39;, &#39;I&#39;, &#39;-&#39; ]
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>array_replace(array('Q','G','I','S'),array('Q','S'),'-') → [ '-', 'G', 'I', '-' ]
 </code></pre></div>
 <p><a href="../../../img/array/array_replace/img_01.png"><img alt="" src="../../../img/array/array_replace/img_01.png" /></a></p>
 <h3 id="variabile-mappa">Variabile mappa<a class="headerlink" href="#variabile-mappa" title="Permanent link">↵</a></h3>
@@ -7899,7 +7927,7 @@
 <li><em><span style="color:red;">map</span></em> la mappa che contiene le chiavi e i valori</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>array_replace(array(&#39;APP&#39;, &#39;SHOULD&#39;, &#39;ROCK&#39;),map(&#39;APP&#39;,&#39;QGIS&#39;,&#39;SHOULD&#39;,&#39;DOES&#39;)) → [ &#39;QGIS&#39;, &#39;DOES&#39;, &#39;ROCK&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>array_replace(array('APP', 'SHOULD', 'ROCK'),map('APP','QGIS','SHOULD','DOES')) → [ 'QGIS', 'DOES', 'ROCK' ]
 </code></pre></div>
 <p><a href="../../../img/array/array_replace/img_02.png"><img alt="" src="../../../img/array/array_replace/img_02.png" /></a></p>
 <hr />
@@ -7937,8 +7965,8 @@
 <a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>array_slice(array(1,2,3,4,5),0,0) → [ 1 ]
 <a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>array_slice(array(1,2,3,4,5),-2,-1) → [ 4, 5 ]
 <a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a>array_slice(array(1,2,3,4,5),-1,-1) → [ 5 ]
-<a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a>array_slice(array(&#39;Dufour&#39;,&#39;Valmiera&#39;,&#39;Chugiak&#39;,&#39;Brighton&#39;),1,2) → [ &#39;Valmiera&#39;, &#39;Chugiak&#39; ]
-<a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a>array_slice(array(&#39;Dufour&#39;,&#39;Valmiera&#39;,&#39;Chugiak&#39;,&#39;Brighton&#39;),-2,-1) → [ &#39;Chugiak&#39;, &#39;Brighton&#39; ]
+<a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a>array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),1,2) → [ 'Valmiera', 'Chugiak' ]
+<a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a>array_slice(array('Dufour','Valmiera','Chugiak','Brighton'),-2,-1) → [ 'Chugiak', 'Brighton' ]
 </code></pre></div>
 <p><a href="../../../img/array/array_slice/array_slice1.png"><img alt="" src="../../../img/array/array_slice/array_slice1.png" /></a></p>
 <hr />
@@ -7969,7 +7997,7 @@
 <li><em><span style="color:red;">array</span></em> un array</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>array_sum(array(0,1,39.4,1.6,&#39;a&#39;)) → 42.0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>array_sum(array(0,1,39.4,1.6,'a')) → 42.0
 </code></pre></div>
 <p><a href="../../../img/array/array_sum/array_sum1.png"><img alt="" src="../../../img/array/array_sum/array_sum1.png" /></a></p>
 <hr />
@@ -7987,9 +8015,9 @@
 <li><em><span style="color:red;">empty_value</span></em> la stringa opzionale da usare come sostituzione per le corrispondenze (lunghezza nulla) mancanti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>array_to_string(array(&#39;1&#39;,&#39;2&#39;,&#39;3&#39;)) → &#39;1,2,3&#39;
-<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>array_to_string(array(1,2,3),&#39;-&#39;) → &#39;1-2-3&#39;
-<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>array_to_string(array(&#39;1&#39;,&#39;&#39;,&#39;3&#39;),&#39;,&#39;,&#39;0&#39;) → &#39;1,0,3&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>array_to_string(array('1','2','3')) → '1,2,3'
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>array_to_string(array(1,2,3),'-') → '1-2-3'
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>array_to_string(array('1','','3'),',','0') → '1,0,3'
 </code></pre></div>
 <p><a href="../../../img/array/array_to_string/array_to_string1.png"><img alt="" src="../../../img/array/array_to_string/array_to_string1.png" /></a></p>
 <hr />
@@ -8023,9 +8051,9 @@
 <li><em><span style="color:red;">geometry</span></em> la geometria in ingresso</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>- geometries_to_array(geom_from_wkt(&#39;GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))&#39;)) → un array di geometrie di poligoni e linee
-<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>- geom_to_wkt(geometries_to_array(geom_from_wkt(&#39;GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))&#39;))[0]) → &#39;Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))&#39;
-<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>- geometries_to_array(geom_from_wkt(&#39;MULTIPOLYGON(((5 5,0 0,0 10,5 5)),((5 5,10 10,10 0,5 5))&#39;)) → un array di due geometrie poligonali
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>- geometries_to_array(geom_from_wkt('GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))')) → un array di geometrie di poligoni e linee
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>- geom_to_wkt(geometries_to_array(geom_from_wkt('GeometryCollection (Polygon ((5 8, 4 1, 3 2, 5 8)),LineString (3 2, 4 2))'))[0]) → 'Polygon ((3 2, 3 4, 1 4, 1 2, 3 2))'
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>- geometries_to_array(geom_from_wkt('MULTIPOLYGON(((5 5,0 0,0 10,5 5)),((5 5,10 10,10 0,5 5))')) → un array di due geometrie poligonali
 </code></pre></div>
 <p><a href="../../../img/array/geometries_to_array/geometries_to_array.png"><img alt="" src="../../../img/array/geometries_to_array/geometries_to_array.png" /></a></p>
 <hr />
@@ -8043,8 +8071,8 @@
 <li><em><span style="color:red;">empty_value</span></em> la stringa opzionale da usare come sostituzione per le corrispondenze (lunghezza nulla) mancanti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>regexp_matches(&#39;QGIS=&gt;rocks&#39;,&#39;(.*)=&gt;(.*)&#39;) → [ &#39;QGIS&#39;, &#39;rocks&#39; ]
-<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>regexp_matches(&#39;key=&gt;&#39;,&#39;(.*)=&gt;(.*)&#39;,&#39;empty value&#39;) → [ &#39;key&#39;, &#39;empty value&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>regexp_matches('QGIS=&gt;rocks','(.*)=&gt;(.*)') → [ 'QGIS', 'rocks' ]
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>regexp_matches('key=&gt;','(.*)=&gt;(.*)','empty value') → [ 'key', 'empty value' ]
 </code></pre></div>
 <p><a href="../../../img/array/regexp_matches/regexp_matches1.png"><img alt="" src="../../../img/array/regexp_matches/regexp_matches1.png" /></a></p>
 <hr />
@@ -8062,8 +8090,8 @@
 <li><em><span style="color:red;">empty_value</span></em> la stringa opzionale da usare come sostituzione per le corrispondenze (lunghezza nulla) mancanti</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>string_to_array(&#39;1,2,3&#39;,&#39;,&#39;) → [ &#39;1&#39;, &#39;2&#39;, &#39;3&#39; ]
-<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>string_to_array(&#39;1,,3&#39;,&#39;,&#39;,&#39;0&#39;) → [ &#39;1&#39;, &#39;0&#39;, &#39;3&#39; ]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>string_to_array('1,2,3',',') → [ '1', '2', '3' ]
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>string_to_array('1,,3',',','0') → [ '1', '0', '3' ]
 </code></pre></div>
 <p><a href="../../../img/array/string_to_array/string_to_array1.png"><img alt="" src="../../../img/array/string_to_array/string_to_array1.png" /></a></p>
 <hr />
@@ -8361,11 +8389,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

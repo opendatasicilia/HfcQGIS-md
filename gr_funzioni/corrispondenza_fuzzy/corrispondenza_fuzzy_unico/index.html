@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6673,9 +6701,9 @@
 <li><em><span style="color:red;">string2</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>hamming_distance(&#39;abc&#39;,&#39;xec&#39;) → 2
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>hamming_distance(&#39;abc&#39;,&#39;ABc&#39;) → 2
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>hamming_distance(upper(&#39;abc&#39;),upper(&#39;ABC&#39;)) → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>hamming_distance('abc','xec') → 2
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>hamming_distance('abc','ABc') → 2
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>hamming_distance(upper('abc'),upper('ABC')) → 0
 </code></pre></div>
 <p><a href="../../../img/corrispondenza_fuzzy/hamming_distance1.png"><img alt="" src="../../../img/corrispondenza_fuzzy/hamming_distance1.png" /></a></p>
 <hr />
@@ -6692,9 +6720,9 @@ La distanza di Levenshtein è una misura della somiglianza tra due stringhe. Dis
 <li><em><span style="color:red;">string2</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>levenshtein(&#39;kittens&#39;,&#39;mitten&#39;) → 2
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>levenshtein(&#39;Kitten&#39;,&#39;kitten&#39;) → 1
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>levenshtein(upper(&#39;Kitten&#39;),upper(&#39;kitten&#39;)) → 0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>levenshtein('kittens','mitten') → 2
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>levenshtein('Kitten','kitten') → 1
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>levenshtein(upper('Kitten'),upper('kitten')) → 0
 </code></pre></div>
 <p><a href="../../../img/corrispondenza_fuzzy/levenshtein1.png"><img alt="" src="../../../img/corrispondenza_fuzzy/levenshtein1.png" /></a></p>
 <hr />
@@ -6710,9 +6738,9 @@ La distanza di Levenshtein è una misura della somiglianza tra due stringhe. Dis
 <li><em><span style="color:red;">string2</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>longest_common_substring(&#39;ABABC&#39;,&#39;BABCA&#39;) → &#39;ABC&#39;
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>longest_common_substring(&#39;abcDeF&#39;,&#39;abcdef&#39;) → &#39;abc&#39;
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>longest_common_substring(upper(&#39;abcDeF&#39;),upper(&#39;abcdex&#39;)) → &#39;ABCDE&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>longest_common_substring('ABABC','BABCA') → 'ABC'
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>longest_common_substring('abcDeF','abcdef') → 'abc'
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>longest_common_substring(upper('abcDeF'),upper('abcdex')) → 'ABCDE'
 </code></pre></div>
 <p><a href="../../../img/corrispondenza_fuzzy/longest_common_substring1.png"><img alt="" src="../../../img/corrispondenza_fuzzy/longest_common_substring1.png" /></a></p>
 <hr />
@@ -6727,9 +6755,9 @@ La distanza di Levenshtein è una misura della somiglianza tra due stringhe. Dis
 <li><em><span style="color:red;">string</span></em> una stringa</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>soundex(&#39;robert&#39;) → &#39;R163&#39;
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>soundex(&#39;rupert&#39;) → &#39;R163&#39;
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>soundex(&#39;rubin&#39;) → &#39;R150&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>soundex('robert') → 'R163'
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>soundex('rupert') → 'R163'
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>soundex('rubin') → 'R150'
 </code></pre></div>
 <p><a href="../../../img/corrispondenza_fuzzy/soundex1.png"><img alt="" src="../../../img/corrispondenza_fuzzy/soundex1.png" /></a></p>
 <p>secondo questo algoritmo <em>Sicilia bedda</em> e <em>Sicilia bella</em> hanno stesso suono <img alt="👍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f44d.svg" title=":+1:" /></p>
@@ -7028,11 +7056,11 @@ La distanza di Levenshtein è una misura della somiglianza tra due stringhe. Dis
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

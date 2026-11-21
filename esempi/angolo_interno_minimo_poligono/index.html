@@ -25,7 +25,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -33,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1019,6 +1019,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6942,15 +6970,15 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">array_min</span><span class="p">(</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">array_foreach</span><span class="p">(</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        <span class="n">generate_series</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_points</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;curr&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="nd">@element</span><span class="p">),</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>            <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;prev&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_points</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;next&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="n">num_points</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">+</span><span class="mi">1</span><span class="p">)),</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                    <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;diff&#39;</span><span class="p">,</span> 
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">with_variable</span><span class="p">(</span><span class="s1">'curr'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="nd">@element</span><span class="p">),</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>            <span class="n">with_variable</span><span class="p">(</span><span class="s1">'prev'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_points</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                <span class="n">with_variable</span><span class="p">(</span><span class="s1">'next'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="n">num_points</span><span class="p">(</span><span class="nd">@geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">+</span><span class="mi">1</span><span class="p">)),</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                    <span class="n">with_variable</span><span class="p">(</span><span class="s1">'diff'</span><span class="p">,</span> 
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>                        <span class="nb">abs</span><span class="p">(</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                            <span class="n">degrees</span><span class="p">(</span><span class="n">azimuth</span><span class="p">(</span><span class="nd">@curr</span><span class="p">,</span> <span class="nd">@prev</span><span class="p">))</span> <span class="o">-</span> 
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                            <span class="n">degrees</span><span class="p">(</span><span class="n">azimuth</span><span class="p">(</span><span class="nd">@curr</span><span class="p">,</span> <span class="nd">@next</span><span class="p">))</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>                        <span class="p">),</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                        <span class="o">--</span> <span class="n">Calcola</span> <span class="n">l</span><span class="s1">&#39;angolo più stretto (tra 0 e 180)</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                        <span class="o">--</span> <span class="n">Calcola</span> <span class="n">l</span><span class="s1">'angolo più stretto (tra 0 e 180)</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>                        <span class="nb">min</span><span class="p">(</span><span class="nd">@diff</span><span class="p">,</span> <span class="mi">360</span> <span class="o">-</span> <span class="nd">@diff</span><span class="p">)</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>                    <span class="p">)</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>                <span class="p">)</span>
@@ -6984,9 +7012,9 @@
 <li>Esegue il calcolo dell'angolo per ciascun vertice</li>
 </ul>
 <h3 id="3-identificazione-dei-tre-punti-consecutivi">3. Identificazione dei tre punti consecutivi<a class="headerlink" href="#3-identificazione-dei-tre-punti-consecutivi" title="Permanent link">↵</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;curr&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="nd">@element</span><span class="p">),</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;prev&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_points</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;next&#39;</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="n">num_points</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">+</span><span class="mi">1</span><span class="p">)),</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">with_variable</span><span class="p">(</span><span class="s1">'curr'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="nd">@element</span><span class="p">),</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  <span class="n">with_variable</span><span class="p">(</span><span class="s1">'prev'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_points</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="n">with_variable</span><span class="p">(</span><span class="s1">'next'</span><span class="p">,</span> <span class="n">point_n</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span> <span class="k">if</span><span class="p">(</span><span class="nd">@element</span><span class="o">=</span><span class="n">num_points</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nd">@element</span><span class="o">+</span><span class="mi">1</span><span class="p">)),</span>
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>      <span class="o">...</span>
 <a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    <span class="p">)</span>
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  <span class="p">)</span>
@@ -7004,7 +7032,7 @@
 <li>Se <code>@element = num_points-1</code> (ultimo vertice): <code>@next</code> diventa il primo vertice</li>
 </ul>
 <h3 id="4-calcolo-dellangolo">4. Calcolo dell'angolo<a class="headerlink" href="#4-calcolo-dellangolo" title="Permanent link">↵</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;diff&#39;</span><span class="p">,</span> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">with_variable</span><span class="p">(</span><span class="s1">'diff'</span><span class="p">,</span> 
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>  <span class="nb">abs</span><span class="p">(</span>
 <a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="n">degrees</span><span class="p">(</span><span class="n">azimuth</span><span class="p">(</span><span class="nd">@curr</span><span class="p">,</span> <span class="nd">@prev</span><span class="p">))</span> <span class="o">-</span> 
 <a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="n">degrees</span><span class="p">(</span><span class="n">azimuth</span><span class="p">(</span><span class="nd">@curr</span><span class="p">,</span> <span class="nd">@next</span><span class="p">))</span>
@@ -7056,11 +7084,11 @@
 <h2 id="applicazioni-pratiche">Applicazioni pratiche<a class="headerlink" href="#applicazioni-pratiche" title="Permanent link">↵</a></h2>
 <h3 id="1-selezione-poligoni-con-angoli-stretti">1. Selezione poligoni con angoli stretti<a class="headerlink" href="#1-selezione-poligoni-con-angoli-stretti" title="Permanent link">↵</a></h3>
 <p>Selezionare tutti i poligoni con angoli interni minori di 30°:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="s2">&quot;angolo_min&quot;</span> <span class="o">&lt;</span> <span class="mi">30</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="s2">"angolo_min"</span> <span class="o">&lt;</span> <span class="mi">30</span>
 </code></pre></div>
 <h3 id="2-validazione-geometrie">2. Validazione geometrie<a class="headerlink" href="#2-validazione-geometrie" title="Permanent link">↵</a></h3>
 <p>Identificare edifici con angoli troppo acuti (possibili errori di digitalizzazione):</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="s2">&quot;angolo_min&quot;</span> <span class="o">&lt;</span> <span class="mi">15</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="s2">"angolo_min"</span> <span class="o">&lt;</span> <span class="mi">15</span>
 </code></pre></div>
 <h3 id="3-tematizzazione">3. Tematizzazione<a class="headerlink" href="#3-tematizzazione" title="Permanent link">↵</a></h3>
 <p>Colorare i poligoni in base all'angolo minimo:</p>
@@ -7426,11 +7454,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../stylesheets/extra.js"></script>
       

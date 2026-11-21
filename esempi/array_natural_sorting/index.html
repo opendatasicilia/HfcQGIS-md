@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1027,6 +1027,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6680,17 +6708,17 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">array_to_string</span><span class="p">(</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">array_foreach</span><span class="p">(</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">array_sort</span><span class="p">(</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">with_variable</span><span class="p">(</span><span class="s1">&#39;lista&#39;</span><span class="p">,</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>            <span class="n">string_to_array</span><span class="p">(</span><span class="s1">&#39;5/A-5-4-8-3-14-6-9-7-1-10-7/B-2-7/A&#39;</span> <span class="p">,</span><span class="s1">&#39;-&#39;</span><span class="p">),</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">with_variable</span><span class="p">(</span><span class="s1">'lista'</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>            <span class="n">string_to_array</span><span class="p">(</span><span class="s1">'5/A-5-4-8-3-14-6-9-7-1-10-7/B-2-7/A'</span> <span class="p">,</span><span class="s1">'-'</span><span class="p">),</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>            <span class="n">array_foreach</span><span class="p">(</span><span class="n">generate_series</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">array_length</span><span class="p">(</span><span class="nd">@lista</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            <span class="n">lpad</span><span class="p">(</span><span class="n">regexp_substr</span><span class="p">(</span> <span class="p">(</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">&#39;(</span><span class="se">\\</span><span class="s1">d+)&#39;</span><span class="p">),</span><span class="mi">3</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">)</span> <span class="o">--</span> <span class="n">per</span> <span class="n">muneri</span> <span class="o">&lt;</span> <span class="mi">999</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            <span class="o">||</span><span class="s1">&#39;|&#39;</span><span class="o">||</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>            <span class="k">if</span><span class="p">(</span><span class="n">regexp_substr</span><span class="p">((</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">&#39;([a-zA-Z/]+)&#39;</span><span class="p">)</span> <span class="o">!=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>               <span class="n">regexp_substr</span><span class="p">((</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">&#39;([a-zA-Z/]+)&#39;</span><span class="p">),</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>               <span class="s1">&#39; &#39;</span><span class="p">)</span> <span class="o">--</span> <span class="n">uno</span> <span class="n">spazio</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>            <span class="o">||</span><span class="s1">&#39;|&#39;</span><span class="o">||</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            <span class="n">lpad</span><span class="p">(</span><span class="n">regexp_substr</span><span class="p">(</span> <span class="p">(</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">'(</span><span class="se">\\</span><span class="s1">d+)'</span><span class="p">),</span><span class="mi">3</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span> <span class="o">--</span> <span class="n">per</span> <span class="n">muneri</span> <span class="o">&lt;</span> <span class="mi">999</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            <span class="o">||</span><span class="s1">'|'</span><span class="o">||</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>            <span class="k">if</span><span class="p">(</span><span class="n">regexp_substr</span><span class="p">((</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">'([a-zA-Z/]+)'</span><span class="p">)</span> <span class="o">!=</span><span class="s1">''</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>               <span class="n">regexp_substr</span><span class="p">((</span><span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]),</span><span class="s1">'([a-zA-Z/]+)'</span><span class="p">),</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>               <span class="s1">' '</span><span class="p">)</span> <span class="o">--</span> <span class="n">uno</span> <span class="n">spazio</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>            <span class="o">||</span><span class="s1">'|'</span><span class="o">||</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>            <span class="nd">@lista</span><span class="p">[</span><span class="nd">@element</span><span class="p">]))),</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">regexp_replace</span><span class="p">(</span> <span class="nd">@element</span><span class="p">,</span><span class="s1">&#39;^.+</span><span class="se">\\</span><span class="s1">|(.+)$&#39;</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">1&#39;</span><span class="p">))</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">regexp_replace</span><span class="p">(</span> <span class="nd">@element</span><span class="p">,</span><span class="s1">'^.+</span><span class="se">\\</span><span class="s1">|(.+)$'</span><span class="p">,</span><span class="s1">'</span><span class="se">\\</span><span class="s1">1'</span><span class="p">))</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">)</span>
 </code></pre></div>
 <p><img alt="" src="https://user-images.githubusercontent.com/7631137/149634099-9022cc08-d93c-4209-8abd-0ea143ed384d.png" /></p>
@@ -7008,11 +7036,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../stylesheets/extra.js"></script>
       

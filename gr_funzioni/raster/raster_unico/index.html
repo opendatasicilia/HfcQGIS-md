@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6640,9 +6668,9 @@
 </li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>raster_statistic(&#39;lc&#39;,1,&#39;avg&#39;) → Valore medio per la banda 1 da un raster layer &#39;lc&#39;
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>raster_statistic(&#39;ac2010&#39;,3,&#39;min&#39;) → Valore minimo dalla banda 3 da un layer raster &#39;ac2010&#39;
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>raster_statistic( &#39;sicilia_dtm40&#39;,1,&#39;max&#39;) → valore massimo del DTM
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>raster_statistic('lc',1,'avg') → Valore medio per la banda 1 da un raster layer 'lc'
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>raster_statistic('ac2010',3,'min') → Valore minimo dalla banda 3 da un layer raster 'ac2010'
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>raster_statistic( 'sicilia_dtm40',1,'max') → valore massimo del DTM
 </code></pre></div>
 <p><a href="../../../img/raster/raster_statistic1.png"><img alt="" src="../../../img/raster/raster_statistic1.png" /></a></p>
 <p>Nota bene</p>
@@ -6662,7 +6690,7 @@
 <li><em><span style="color:red;">point</span></em> geometria del punto (per geometrie multiparte aventi più di una parte, verrà restituito un valore nullo)</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>raster_value( &#39;DTM_Pescaglia&#39;,1,$geometry) → 631.2899169921875
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>raster_value( 'DTM_Pescaglia',1,$geometry) → 631.2899169921875
 </code></pre></div>
 <p><a href="../../../img/raster/raster_value1.png"><img alt="" src="../../../img/raster/raster_value1.png" /></a></p>
 <p>Nota bene</p>
@@ -6673,13 +6701,13 @@
 <p><strong>raster_value()</strong> con più bande e più layer</p>
 <p><a href="../../../img/raster/raster_value2.gif"><img alt="" src="../../../img/raster/raster_value2.gif" /></a></p>
 <p>espressione usata:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>&#39;R &#39; ||  raster_value( &#39;Italia_tinitaly&#39;,1, $geometry  ) 
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>|| &#39;-&#39; || 
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>&#39;G &#39; || raster_value( &#39;Italia_tinitaly&#39;,2, $geometry  ) 
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>|| &#39;-&#39; || 
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>&#39;B &#39;  || raster_value( &#39;Italia_tinitaly&#39;,3, $geometry  ) 
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>|| &#39;-&#39; || 
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>&#39;Z &#39;  || raster_value( &#39;dtm_20m_32&#39;,1, $geometry  ) 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>'R ' ||  raster_value( 'Italia_tinitaly',1, $geometry  ) 
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>|| '-' || 
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>'G ' || raster_value( 'Italia_tinitaly',2, $geometry  ) 
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>|| '-' || 
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>'B '  || raster_value( 'Italia_tinitaly',3, $geometry  ) 
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>|| '-' || 
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>'Z '  || raster_value( 'dtm_20m_32',1, $geometry  ) 
 </code></pre></div></p>
 <p>Video demo</p>
 <p><a href="https://www.youtube.com/watch?v=lfb2DNm5Bjs&amp;t=" title="Esepio d'uso"><img alt="add_col_area_perimetro" src="https://img.youtube.com/vi/lfb2DNm5Bjs/0.jpg" /></a></p>
@@ -6977,11 +7005,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       

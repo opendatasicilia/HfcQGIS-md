@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1027,6 +1027,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -6690,23 +6718,23 @@
 <p><a href="../../img/esempi/cronometro/img_03.png"><img alt="" src="../../img/esempi/cronometro/img_03.png" /></a></p>
 <h2 id="espressione">Espressione<a class="headerlink" href="#espressione" title="Permanent link">↵</a></h2>
 <h3 id="senza-macro">senza Macro<a class="headerlink" href="#senza-macro" title="Permanent link">↵</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>with_variable(&#39;durata&#39;,
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>with_variable('durata',
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  age(
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    now(),
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    make_datetime(2022,04,07,09,05,42) -- i valori vanno inseriti manualmente
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    ),
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>lpad(floor(hour(@durata)),2,0)
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>||&#39;h:&#39;||
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>||'h:'||
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>lpad(to_int(minute(@durata)-floor(hour(@durata))*60),2,0))
 </code></pre></div>
 <h3 id="con-macro">con Macro<a class="headerlink" href="#con-macro" title="Permanent link">↵</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>with_variable(&#39;durata&#39;,
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>with_variable('durata',
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  age(
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    now(),
 <a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    @starting_time -- variabile che contine il datetime di apertura progetto
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    ),
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>lpad(floor(hour(@durata)),2,0)
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>||&#39;h:&#39;||
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>||'h:'||
 <a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>lpad(to_int(minute(@durata)-floor(hour(@durata))*60),2,0))
 </code></pre></div>
 <p><a href="../../img/esempi/cronometro/img_04.png"><img alt="" src="../../img/esempi/cronometro/img_04.png" /></a></p>
@@ -6719,8 +6747,8 @@
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">def</span><span class="w"> </span><span class="nf">openProject</span><span class="p">():</span>
 <a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="n">project</span> <span class="o">=</span> <span class="n">QgsProject</span><span class="o">.</span><span class="n">instance</span><span class="p">()</span>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="n">QgsExpressionContextUtils</span><span class="o">.</span><span class="n">setProjectVariable</span><span class="p">(</span><span class="n">project</span><span class="p">,</span><span class="s1">&#39;starting_time&#39;</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()))</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="n">QgsExpressionContextUtils</span><span class="o">.</span><span class="n">projectScope</span><span class="p">(</span><span class="n">project</span><span class="p">)</span><span class="o">.</span><span class="n">variable</span><span class="p">(</span><span class="s1">&#39;starting_time&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="n">QgsExpressionContextUtils</span><span class="o">.</span><span class="n">setProjectVariable</span><span class="p">(</span><span class="n">project</span><span class="p">,</span><span class="s1">'starting_time'</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()))</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="n">QgsExpressionContextUtils</span><span class="o">.</span><span class="n">projectScope</span><span class="p">(</span><span class="n">project</span><span class="p">)</span><span class="o">.</span><span class="n">variable</span><span class="p">(</span><span class="s1">'starting_time'</span><span class="p">)</span>
 <a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
 <a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
 <a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
@@ -7043,11 +7071,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../stylesheets/extra.js"></script>
       

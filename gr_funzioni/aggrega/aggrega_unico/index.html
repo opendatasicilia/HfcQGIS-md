@@ -29,7 +29,7 @@
         <link rel="alternate" type="application/rss+xml" title="Contenuto aggiornato del feed RSS" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -37,10 +37,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -1029,6 +1029,34 @@
     
   
     Quadro sinottico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/novita_440/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS 4.4  | 20/11/2026
   
 
     
@@ -7122,13 +7150,13 @@
 <li><em><span style="color:red;">order_by</span></em> espressione filtro opzionale per ordinare gli elementi usati per calcolare il valore aggregato. I campi e la geometria provengono dagli elementi del vettore unito. Da predefinito, gli elementi verranno restituiti in un ordine non specificato.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>aggregate(layer:=&#39;rail_stations&#39;,aggregate:=&#39;sum&#39;,expression:=&quot;passengers&quot;) → somma tutti i valori per il campo passengers nel layer rail_stations
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>aggregate(&#39;rail_stations&#39;,&#39;sum&#39;, &quot;passengers&quot;/7) → calcola la media giornaliera di &quot;passengers&quot; dividendo il campo &quot;passengers&quot; per 7 prima di sommare i valori
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>aggregate(layer:=&#39;rail_stations&#39;,aggregate:=&#39;sum&#39;,expression:=&quot;passengers&quot;,filter:=&quot;class&quot;&gt;3) → somma tutti i valori per il campo &quot;passengers&quot; soltanto dagli elementi geometrie dove l&#39;attributo &quot;class&quot; è maggiore di 3
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>aggregate(layer:=&#39;rail_stations&#39;,aggregate:=&#39;concatenate&#39;, expression:=&quot;name&quot;, concatenator:=&#39;,&#39;) → elenco separato da virgole del campo name per tutti gli elementi nel vettore rail_stations
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>aggregate(layer:=&#39;countries&#39;, aggregate:=&#39;max&#39;, expression:=&quot;code&quot;, filter:=intersects( $geometry, geometry(@parent) ) ) → Il codice Paese di un Paese di intersezione nel vettore &#39;countries&#39;
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>aggregate(layer:=&#39;stazioni_rotaie&#39;,aggregate:=&#39;sum&#39;,expression:=&quot;viaggiatori&quot;,filter:=contains( @atlas_geometry, $geometry ) ) → somma tutti i valori del campo viaggiatori in rail_stations all&#39;interno dell&#39;elemento atlante corrente
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>aggregate(layer:=&#39;rail_stations&#39;, aggregate:=&#39;collect&#39;, expression:=centroid($geometry), filter:=&quot;region_name&quot; = attribute(@parent,&#39;name&#39;) ) → aggrega le geometrie dei centroidi delle stazioni ferroviarie della stessa regione dell&#39;elemento corrente
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>aggregate(layer:='rail_stations',aggregate:='sum',expression:="passengers") → somma tutti i valori per il campo passengers nel layer rail_stations
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>aggregate('rail_stations','sum', "passengers"/7) → calcola la media giornaliera di "passengers" dividendo il campo "passengers" per 7 prima di sommare i valori
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>aggregate(layer:='rail_stations',aggregate:='sum',expression:="passengers",filter:="class"&gt;3) → somma tutti i valori per il campo "passengers" soltanto dagli elementi geometrie dove l'attributo "class" è maggiore di 3
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>aggregate(layer:='rail_stations',aggregate:='concatenate', expression:="name", concatenator:=',') → elenco separato da virgole del campo name per tutti gli elementi nel vettore rail_stations
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>aggregate(layer:='countries', aggregate:='max', expression:="code", filter:=intersects( $geometry, geometry(@parent) ) ) → Il codice Paese di un Paese di intersezione nel vettore 'countries'
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>aggregate(layer:='stazioni_rotaie',aggregate:='sum',expression:="viaggiatori",filter:=contains( @atlas_geometry, $geometry ) ) → somma tutti i valori del campo viaggiatori in rail_stations all'interno dell'elemento atlante corrente
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>aggregate(layer:='rail_stations', aggregate:='collect', expression:=centroid($geometry), filter:="region_name" = attribute(@parent,'name') ) → aggrega le geometrie dei centroidi delle stazioni ferroviarie della stessa regione dell'elemento corrente
 </code></pre></div>
 <p><a href="../../../img/aggregate/aggregate/aggregate1.png"><img alt="" src="../../../img/aggregate/aggregate/aggregate1.png" /></a></p>
 <p>Osservazioni</p>
@@ -7152,13 +7180,13 @@
 <li><em><span style="color:red;">order_by</span></em> espressione opzionale da usare per ordinare gli elementi usati per calcolare il valore aggregato. Da predefinito, gli elementi verranno restituiti in un ordine non specificato.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>array_agg( &quot;DEN_PCM&quot; ,group_by:= &quot;COD_REG&quot; ) → lista di valori del &quot;DEN_PCM&quot;, ragguppata per il campo &quot;COD_REG&quot;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>array_agg( "DEN_PCM" ,group_by:= "COD_REG" ) → lista di valori del "DEN_PCM", ragguppata per il campo "COD_REG"
 </code></pre></div>
 <p><a href="../../../img/aggregate/array_agg/array_agg1.png"><img alt="" src="../../../img/aggregate/array_agg/array_agg1.png" /></a></p>
 <p>Nota bene</p>
 <p>Per prendere un valore specifico dell'array:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>- array_agg(&quot;z&quot;)[0] → 148,03 è il primo valore dell&#39;array, indice 0;
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>- array_agg(&quot;z&quot;)[1] → 164,21 è il secondo valore dell&#39;array, indice 1;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>- array_agg("z")[0] → 148,03 è il primo valore dell'array, indice 0;
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>- array_agg("z")[1] → 164,21 è il secondo valore dell'array, indice 1;
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>- ecc...
 </code></pre></div>
 <p>dove <code>"z"</code> è un attributo</p>
@@ -7184,7 +7212,7 @@
 </ul>
 <p>Esempi:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>collect( $geometry ) → geometria a parti multiple delle geometrie aggregate
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>collect( centroid($geometry), group_by:=&quot;region&quot;, filter:= &quot;use&quot; = &#39;civilian&#39; ) → centroidi aggregati degli elementi civili basati sul relativo valore regionale
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>collect( centroid($geometry), group_by:="region", filter:= "use" = 'civilian' ) → centroidi aggregati degli elementi civili basati sul relativo valore regionale
 </code></pre></div>
 <p><a href="../../../img/aggregate/collect/collect1.png"><img alt="" src="../../../img/aggregate/collect/collect1.png" /></a></p>
 <p>--</p>
@@ -7213,7 +7241,7 @@
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>concatenate(&quot;town_name&quot;,group_by:=&quot;state&quot;,concatenator:=&#39;,&#39;) → lista separata da virgola di town_names, raggruppata per campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>concatenate("town_name",group_by:="state",concatenator:=',') → lista separata da virgola di town_names, raggruppata per campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/concatenate/concatenate1.png"><img alt="" src="../../../img/aggregate/concatenate/concatenate1.png" /></a></p>
 <hr />
@@ -7233,7 +7261,7 @@
 </ul>
 <p>[ ] indica componenti opzionali</p>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>concatenate_unique(&quot;town_name&quot;,group_by:=&quot;state&quot;,concatenator:=&#39;,&#39;) → lista separata da virgola di town_names univoci, raggruppata per campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>concatenate_unique("town_name",group_by:="state",concatenator:=',') → lista separata da virgola di town_names univoci, raggruppata per campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/concatenate_unique/concatenate_unique1.png"><img alt="" src="../../../img/aggregate/concatenate_unique/concatenate_unique1.png" /></a></p>
 <hr />
@@ -7251,7 +7279,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>count(&quot;stations&quot;,group_by:=&quot;state&quot;) → conta le stazioni, raggruppate per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>count("stations",group_by:="state") → conta le stazioni, raggruppate per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/count/count1.png"><img alt="" src="../../../img/aggregate/count/count1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7285,7 +7313,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>count_distinct(&quot;stations&quot;,group_by:=&quot;state&quot;) → conta i valori differenti delle stazioni, raggruppate per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>count_distinct("stations",group_by:="state") → conta i valori differenti delle stazioni, raggruppate per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/count_distinct/count_distinct1.png"><img alt="" src="../../../img/aggregate/count_distinct/count_distinct1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7321,7 +7349,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>count_missing(&quot;stations&quot;,group_by:=&quot;state&quot;) → conta i valori mancanti (NULL) delle stazioni, raggruppati per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>count_missing("stations",group_by:="state") → conta i valori mancanti (NULL) delle stazioni, raggruppati per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/count_missing/count_missing1.png"><img alt="" src="../../../img/aggregate/count_missing/count_missing1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7355,7 +7383,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>iqr(&quot;population&quot;,group_by:=&quot;state&quot;) → scarto interquartile del valore popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>iqr("population",group_by:="state") → scarto interquartile del valore popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/iqr/irq1.png"><img alt="" src="../../../img/aggregate/iqr/irq1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7389,7 +7417,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>majority(&quot;class&quot;,group_by:=&quot;state&quot;) → valore di classe più comunemente presente, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>majority("class",group_by:="state") → valore di classe più comunemente presente, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/majority/majority1.png"><img alt="" src="../../../img/aggregate/majority/majority1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7423,7 +7451,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>max_length(&quot;town_name&quot;,group_by:=&quot;state&quot;) → lunghezza massima di town_name, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>max_length("town_name",group_by:="state") → lunghezza massima di town_name, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/max_length/max_length1.png"><img alt="" src="../../../img/aggregate/max_length/max_length1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7457,7 +7485,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>maximum(&quot;population&quot;,group_by:=&quot;state&quot;) → valore massimo di population, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>maximum("population",group_by:="state") → valore massimo di population, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/maximum/maximum1.png"><img alt="" src="../../../img/aggregate/maximum/maximum1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7491,7 +7519,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>mean(&quot;population&quot;,group_by:=&quot;state&quot;) → valore medio di population, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>mean("population",group_by:="state") → valore medio di population, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/mean/mean1.png"><img alt="" src="../../../img/aggregate/mean/mean1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7525,7 +7553,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>median(&quot;population&quot;,group_by:=&quot;state&quot;) → mediana della popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>median("population",group_by:="state") → mediana della popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/median/median1.png"><img alt="" src="../../../img/aggregate/median/median1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7559,7 +7587,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>min_length(&quot;town_name&quot;,group_by:=&quot;state&quot;) → lunghezza minima di town_name, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>min_length("town_name",group_by:="state") → lunghezza minima di town_name, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/min_length/min_length1.png"><img alt="" src="../../../img/aggregate/min_length/min_length1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7593,7 +7621,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>minimum(&quot;population&quot;,group_by:=&quot;state&quot;) → valore minimo di population, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>minimum("population",group_by:="state") → valore minimo di population, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/minimum/minimum1.png"><img alt="" src="../../../img/aggregate/minimum/minimum1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7631,7 +7659,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>minority(&quot;class&quot;,group_by:=&quot;state&quot;) → valore di classe meno presente, ragguppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>minority("class",group_by:="state") → valore di classe meno presente, ragguppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/minority/minority1.png"><img alt="" src="../../../img/aggregate/minority/minority1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7665,7 +7693,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>q1(&quot;population&quot;,group_by:=&quot;state&quot;) → primo quartile del valore popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>q1("population",group_by:="state") → primo quartile del valore popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/q1/q11.png"><img alt="" src="../../../img/aggregate/q1/q11.png" /></a></p>
 <p>Nota bene:</p>
@@ -7699,7 +7727,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>q3(&quot;population&quot;,group_by:=&quot;state&quot;) → terzo quartile del valore popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>q3("population",group_by:="state") → terzo quartile del valore popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/q3/q31.png"><img alt="" src="../../../img/aggregate/q3/q31.png" /></a></p>
 <p>Nota bene:</p>
@@ -7733,7 +7761,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>range(&quot;population&quot;,group_by:=&quot;state&quot;) → intervallo di valori di popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>range("population",group_by:="state") → intervallo di valori di popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/range/range1.png"><img alt="" src="../../../img/aggregate/range/range1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7793,10 +7821,10 @@
 <li><em><span style="color:red;">order_by</span></em> espressione filtro opzionale atta ad ordinare gli elementi usati per calcolare il valore aggregato. Campi e geometria provengono dagli elementi del vettore unito. In modo predefinito, gli elementi verranno restituiti senza un ordine specifico.</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>relation_aggregate(relation:=&#39;my_relation&#39;,aggregate:=&#39;mean&#39;,expression:=&quot;passengers&quot;) → valore medio di tutti gli elementi figli corrispondenti usando la relazione &#39;my_relation&#39;
-<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>relation_aggregate(&#39;my_relation&#39;,&#39;sum&#39;, &quot;passengers&quot;/7) → somma del campo passengers diviso per 7 per tutti gli elementi figli corrispondenti usando la relazione &#39;my_relation&#39; 
-<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>relation_aggregate(&#39;my_relation&#39;,&#39;concatenate&#39;, &quot;towns&quot;, concatenator:=&#39;,&#39;) → elenco separato da virgole del campo towns per tutte le geometrie figlie corrispondenti che usano la relation &#39;my_relation&#39;
-<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>relation_aggregate(&#39;my_relation&#39;,&#39;array_agg&#39;, &quot;id&quot;) → array del campo id derivato da tutti gli elementi figlio corrispondenti usando la relazione &#39;my_relation&#39;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>relation_aggregate(relation:='my_relation',aggregate:='mean',expression:="passengers") → valore medio di tutti gli elementi figli corrispondenti usando la relazione 'my_relation'
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>relation_aggregate('my_relation','sum', "passengers"/7) → somma del campo passengers diviso per 7 per tutti gli elementi figli corrispondenti usando la relazione 'my_relation' 
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>relation_aggregate('my_relation','concatenate', "towns", concatenator:=',') → elenco separato da virgole del campo towns per tutte le geometrie figlie corrispondenti che usano la relation 'my_relation'
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>relation_aggregate('my_relation','array_agg', "id") → array del campo id derivato da tutti gli elementi figlio corrispondenti usando la relazione 'my_relation'
 </code></pre></div>
 <p><a href="../../../img/aggregate/relation_aggregate/relation_aggregate1.png"><img alt="" src="../../../img/aggregate/relation_aggregate/relation_aggregate1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7832,7 +7860,7 @@
 <li><em><span style="color:red;">filter</span></em> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>stdev(&quot;population&quot;,group_by:=&quot;state&quot;) → deviazione standard di un valore popolazione, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>stdev("population",group_by:="state") → deviazione standard di un valore popolazione, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/stdev/stdev1.png"><img alt="" src="../../../img/aggregate/stdev/stdev1.png" /></a></p>
 <p>Nota bene:</p>
@@ -7866,7 +7894,7 @@
 <li><span style="color:red;"><em>filter</em></span> espressione opzionale da usare per filtrare gli elementi usati per calcolare il valore aggregato</li>
 </ul>
 <p>Esempi:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>sum(&quot;population&quot;,group_by:=&quot;state&quot;) → valore somma di population, raggruppato per il campo state
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>sum("population",group_by:="state") → valore somma di population, raggruppato per il campo state
 </code></pre></div>
 <p><a href="../../../img/aggregate/sum/sum1.png"><img alt="" src="../../../img/aggregate/sum/sum1.png" /></a></p>
 <p>Nota bene:</p>
@@ -8180,11 +8208,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "search.share", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
     
     
 
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../stylesheets/extra.js"></script>
       
