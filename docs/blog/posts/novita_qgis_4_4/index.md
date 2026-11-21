@@ -1,5 +1,5 @@
 ---
-social_image: img/card_social/hfc_blog.png
+social_image: img/card_social/hfc_blog_html_layout.png
 draft: false
 date: 2026-11-21
 authors:
