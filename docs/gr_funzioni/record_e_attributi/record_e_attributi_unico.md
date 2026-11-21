@@ -661,17 +661,18 @@ sqlite_fetch_and_increment(layer_property(@layer, 'path'), 'sequence_table', 'la
 
 ## uuid
 
-Genera un Universally Unique Identifier (UUID) per ciascun record usando il metodo Qt [QUuid::createUuid](https://doc.qt.io/qt-5/quuid.html#createUuid). Aggiornato dalla QGIS 3.18
+Genera un Universally Unique Identifier (UUID) per ciascun record usando il metodo Qt [QUuid::createUuid](https://doc.qt.io/qt-5/quuid.html#createUuid). Aggiornato dalla QGIS 3.18; argomento `version` aggiunto in QGIS 4.4
 
 Sintassi:
 
-* uuid([_<span style="color:red;">format='WithBraces'</span>_])
+* uuid([_<span style="color:red;">format='WithBraces'</span>_][, _<span style="color:red;">version=4</span>_])
 
 [ ] indica componenti opzionali
 
 Argomenti:
 
 - _<span style="color:red;">format</span>_ Il formato, come l'UUID verrà formattato. 'WithBraces' (con parentesi {}), 'WithoutBraces' (senza parentesi) o 'Id128' (senza trattino).
+- _<span style="color:red;">version</span>_ La versione dell'UUID da generare: 4 (predefinita, casuale) o 7 (basata su timestamp, ordinabile cronologicamente; richiede Qt 6.9+). Da QGIS 4.4
 
 
 Esempi:
@@ -680,6 +681,7 @@ Esempi:
 uuid() → '{0bd2f60f-f157-4a6d-96af-d4ba4cb366a1}'
 uuid('WithoutBraces') → '0bd2f60f-f157-4a6d-96af-d4ba4cb366a1'
 uuid('Id128') → '0bd2f60ff1574a6d96afd4ba4cb366a1'
+uuid(version:=7) → '{01a1ff22-6030-75c8-ad1e-02f587a9f472}'
 ```
 
 [![](../../img/record_e_attributi/uuid()1.png)]()1.png)

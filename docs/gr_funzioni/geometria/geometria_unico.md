@@ -1283,13 +1283,17 @@ Estende l'inizio e la fine di una geometria di tipo linestring di una quantità 
 
 Sintassi:
 
-- extend(_<span style="color:red;">geometry</span>_, _<span style="color:red;">start_distance</span>_, _<span style="color:red;">end_distance</span>_)
+- extend(_<span style="color:red;">geometry</span>_, _<span style="color:red;">start_distance</span>_, _<span style="color:red;">end_distance</span>_[, _<span style="color:red;">start_deflection=0</span>_][, _<span style="color:red;">end_deflection=0</span>_])
+
+[ ] indica componenti opzionali
 
 Argomenti:
 
 * _<span style="color:red;">geometry</span>_ una geometria (multi)linestring
 * _<span style="color:red;">start_distance</span>_ distanza alla quale estendere l'_inizio_ della linea
 * _<span style="color:red;">end_distance</span>_ distanza alla quale estendere la _fine_ della linea.
+* _<span style="color:red;">start_deflection</span>_ angolo in gradi, in senso orario, di cui deviare l'estensione dell'_inizio_ della linea. Da QGIS 4.4
+* _<span style="color:red;">end_deflection</span>_ angolo in gradi, in senso orario, di cui deviare l'estensione della _fine_ della linea. Da QGIS 4.4
 
 
 Esempi:
@@ -1297,6 +1301,7 @@ Esempi:
 ```
 geom_to_wkt(extend(geom_from_wkt('LineString(0 0, 1 0, 1 1)'),1,2)) → 'LineString (-1 0, 1 0, 1 3)'
 geom_to_wkt(extend(geom_from_wkt('MultiLineString((0 0, 1 0, 1 1), (2 2, 0 2, 0 5))'),1,2)) → 'MultiLineString ((-1 0, 1 0, 1 3),(3 2, 0 2, 0 7))'
+geom_to_wkt(extend(geom_from_wkt('LineString(0 0, 1 0, 1 1)'),1,2, start_deflection:=45, end_deflection:=-90)) → 'LineString (-0.70710678 0.70710678, 0 0, 1 0, 1 1, -1 1)'
 ```
 
 [![](../../img/geometria/extend/extend1.png)](../../img/geometria/extend/extend1.png)
